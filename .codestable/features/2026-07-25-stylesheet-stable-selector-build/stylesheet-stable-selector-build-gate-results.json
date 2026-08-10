@@ -1,0 +1,48 @@
+{
+  "gate_id": "scope-gate",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-checklist.yaml",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        "packages/amis-ui/package.json",
+        "packages/amis-ui/scss/_components.scss",
+        "packages/amis-ui/scss/components/_button.scss",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-evidence-pack.md",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-implementation.md",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-review-packet.md",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-scope-gate.json",
+        "packages/amis-ui/scripts/checkThemeSelectors.js",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/bad/legacy-selector.scss",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/good/stable-selector.scss",
+        "packages/amis-ui/scripts/theme-selectors/policy.json",
+        "packages/amis-ui/scss/_stable-selectors.scss"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-dod-results.json",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-evidence-pack-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build",
+        ".codestable/features/2026-07-25-stylesheet-stable-selector-build",
+        ".codestable/roadmap/theme-system-refactor",
+        "packages/amis-ui/package.json",
+        "packages/amis-ui/scss/_components.scss",
+        "packages/amis-ui/scss/_stable-selectors.scss",
+        "packages/amis-ui/scss/components/_button.scss",
+        "packages/amis-ui/scripts/checkThemeSelectors.js",
+        "packages/amis-ui/scripts/theme-selectors"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-stylesheet-stable-selector-build",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-25-stylesheet-stable-selector-build"
+  },
+  "input_digests": {}
+}

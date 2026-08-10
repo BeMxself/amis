@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-editor-theme-helper-migration",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-design.md",
+    "checklist": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-gate-results.json"
+  },
+  "input_digests": {
+    "design": "153e563b9bb71474fe3e9f737958a4db490722b59e19e8e5902aab47bf86f007",
+    "checklist": "3bbaac5d547dce096277d05704779e3ed14422b90c72f31f544c4763c0338bc9",
+    "dod_results": "214cf86a3a85da06c26024ef9079389e069a1ea97837b2b6eb39ad83a9f1adad",
+    "gate_results": "71a1d5d77d42cc9030e31379d7142ac3c2c47d94d3208e1600b552c68c4fa3af",
+    "out": "004c9fcaa34ca99fce463224710e73c9ee3133f75648349fab48ec2146a34b77"
+  }
+}

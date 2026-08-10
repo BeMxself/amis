@@ -1,0 +1,109 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [
+    "CMD-006: non-core command failed with exit 1"
+  ],
+  "evidence": [
+    {
+      "command": "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"workflow\": \"epic\",\n  \"status\": \"dispatch_goal\",\n  \"next_action\": \"dispatch-epic-goal-driver-or-print-goal\",\n  \"reason\": \"epic goal package is ready to dispatch\",\n  \"must_continue\": true,\n  \"final_answer_allowed\": false,\n  \"blocking\": [],\n  \"warnings\": [],\n  \"missing_artifacts\": [],\n  \"evidence\": {\n    \"goal_state\": \".codestable/roadmap/theme-system-refactor/goal-state.yaml\",\n    \"execution_confirmation_id\": \"goal-execution-20260725160058\",\n    \"acceptance_authorization_ref\": \"approval-report.md#goal-acceptance\",\n    \"commit_authorization_ref\": \"approval-report.md#goal-commits\"\n  }\n}\n",
+      "stderr": "",
+      "id": "CMD-001",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis-core -- theme",
+      "exit_code": 0,
+      "stdout": "\n> amis-core@6.13.0 test\n> jest theme\n\n",
+      "stderr": "PASS __tests__/theme.test.ts\n  ✓ theme runtime uses stable component classnames by default (1 ms)\n  ✓ theme runtime exposes a data attribute scope (1 ms)\n  ✓ makeStableClassnames prefixes only component tokens\n  ✓ stable class selector helpers prefer the primary component class\n  ✓ explicit legacy DOM alias updates cached theme classnames (1 ms)\n  ✓ legacy DOM alias does not auto-generate non-cxd theme prefixes\n  ✓ overlay theme helpers resolve nearest DOM scope (1 ms)\n  ✓ overlay theme helpers apply scope idempotently\n  ✓ overlay container resolver preserves custom container scope\n\nTest Suites: 1 passed, 1 total\nTests:       9 passed, 9 total\nSnapshots:   0 total\nTime:        1.093 s\nRan all test suites matching /theme/i.\n",
+      "id": "CMD-002",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis -- button",
+      "exit_code": 0,
+      "stdout": "\n> amis@6.13.0 test\n> jest button\n\n",
+      "stderr": "PASS __tests__/renderers/ButtonToolbar.test.tsx (7.131 s)\nPASS __tests__/renderers/Form/buttonToolBar.test.tsx (7.401 s)\nPASS __tests__/renderers/Form/button.test.tsx (7.418 s)\nPASS __tests__/renderers/Form/buttonGroupSelect.test.tsx (7.829 s)\nPASS __tests__/renderers/DropDownButton.test.tsx (9.462 s)\n\nTest Suites: 5 passed, 5 total\nTests:       19 passed, 19 total\nSnapshots:   20 passed, 20 total\nTime:        10.125 s\nRan all test suites matching /button/i.\n",
+      "id": "CMD-003",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm run check:theme-selectors --workspace amis-ui",
+      "exit_code": 0,
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stderr": "",
+      "id": "CMD-004",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm run stylelint",
+      "exit_code": 0,
+      "stdout": "\n> stylelint\n> npx stylelint 'packages/**/*.scss'\n\n",
+      "stderr": "",
+      "id": "CMD-005",
+      "core": false,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm run typecheck",
+      "exit_code": 1,
+      "stdout": "e: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/TableRow.tsx(370,21): error TS2339: Property 'loading' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/TableRow.tsx(371,19): error TS2339: Property 'error' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/VirtualTableBody.tsx(91,29): error TS2339: Property 'height' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Wizard.tsx(564,31): error TS2345: Argument of type 'false | AMISApi | undefined' is not assignable to parameter of type 'Api'.\n  Type 'undefined' is not assignable to type 'Api'.\nscripts/build-schemas.ts(28,3): error TS2305: Module '\"ts-json-schema-generator\"' has no exported member 'getAllOfDefinitionReducer'.\nscripts/build-schemas.ts(32,3): error TS2305: Module '\"ts-json-schema-generator\"' has no exported member 'IndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(108,9): error TS2345: Argument of type 'MyIndexedAccessTypeNodeParser' is not assignable to parameter of type 'SubNodeParser'.\n  Property 'supportsNode' is missing in type 'MyIndexedAccessTypeNodeParser' but required in type 'SubNodeParser'.\nscripts/build-schemas.ts(109,11): error TS2554: Expected 0 arguments, but got 2.\nscripts/build-schemas.ts(151,27): error TS2339: Property 'typeChecker' does not exist on type 'MyIndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(155,18): error TS2339: Property 'childNodeParser' does not exist on type 'MyIndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(156,16): error TS18046: 'member' is of type 'unknown'.\nscripts/build-schemas.ts(168,7): error TS2415: Class 'MyObjectTypeFormatter' incorrectly extends base class 'ObjectTypeFormatter'.\n  Property 'childTypeFormatter' is private in type 'ObjectTypeFormatter' but not in type 'MyObjectTypeFormatter'.\nscripts/build-schemas.ts(179,19): error TS2341: Property 'getObjectDefinition' is private and only accessible within class 'ObjectTypeFormatter'.\nscripts/build-schemas.ts(184,14): error TS2341: Property 'getObjectDefinition' is private and only accessible within class 'ObjectTypeFormatter'.\nscripts/build-schemas.ts(270,46): error TS2339: Property 'getPreserveLiterals' does not exist on type 'StringType'.\nscripts/build-schemas.ts(272,63): error TS2339: Property 'isString' does not exist on type 'LiteralType'.\nscripts/build-schemas.ts(292,32): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\nscripts/build-schemas.ts(294,36): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\nscripts/build-schemas.ts(307,42): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\n",
+      "stderr": "",
+      "id": "CMD-006",
+      "core": false,
+      "failure_handling": "document-baseline"
+    },
+    {
+      "command": "rg -n \"\\.cxd-|\\.antd-|\\.dark-|classPrefix\" packages/amis-core/src packages/amis-ui/src packages/amis-ui/scss packages/amis/src packages/amis-editor-core/src packages/amis-theme-editor-helper/src",
+      "exit_code": 0,
+      "stdout": "tring;\npackages/amis-ui/src/components/Html.tsx:66:      classPrefix: ns,\npackages/amis-ui/src/components/table/HeadCellDropDown.tsx:42:  classPrefix: string;\npackages/amis-ui/src/components/table/HeadCellDropDown.tsx:72:      classPrefix: ns\npackages/amis-ui/src/components/table/HeadCellDropDown.tsx:94:              classPrefix={ns}\npackages/amis-ui/src/components/TimelineItem.tsx:179:    classPrefix,\npackages/amis-ui/src/components/TimelineItem.tsx:215:            classPrefix={classPrefix}\npackages/amis-ui/src/components/Tooltip.tsx:12:  classPrefix: string;\npackages/amis-ui/src/components/Tooltip.tsx:35:      classPrefix: ns,\npackages/amis-ui/src/components/Picker.tsx:55:    classPrefix: ns,\npackages/amis-ui/src/components/Picker.tsx:100:        classPrefix={ns}\npackages/amis-ui/src/components/table/Head.tsx:119:      classPrefix,\npackages/amis-ui/src/components/table/Head.tsx:168:          classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Head.tsx:200:                  classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Head.tsx:214:                  classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Head.tsx:318:                    classPrefix={classPrefix}\npackages/amis-ui/src/components/ContextMenu.tsx:23:  classPrefix: string;\npackages/amis-ui/src/components/Switch.tsx:30:  classPrefix: string;\npackages/amis-ui/src/components/Switch.tsx:77:      classPrefix,\npackages/amis-ui/src/components/Switch.tsx:131:              classPrefix={classPrefix}\npackages/amis-ui/src/components/table/index.tsx:691:      classPrefix,\npackages/amis-ui/src/components/table/index.tsx:743:        classPrefix={classPrefix}\npackages/amis-ui/src/components/table/index.tsx:1021:      classPrefix,\npackages/amis-ui/src/components/table/index.tsx:1099:        classPrefix={classPrefix}\npackages/amis-ui/src/components/table/index.tsx:1124:      classPrefix\npackages/amis-ui/src/components/table/index.tsx:1148:              classPrefix={classPrefix}\npackages/amis-ui/src/components/table/index.tsx:1168:              classPrefix={classPrefix}\npackages/amis-ui/src/components/table/index.tsx:1226:    const {classnames: cx, classPrefix, dataSource} = this.props;\npackages/amis-ui/src/components/table/index.tsx:1240:        classPrefix={classPrefix}\npackages/amis-ui/src/components/table/HeadCellSelect.tsx:28:  classPrefix: string;\npackages/amis-ui/src/components/table/HeadCellSelect.tsx:54:      classPrefix: ns\npackages/amis-ui/src/components/table/SummaryRow.tsx:49:      classPrefix,\npackages/amis-ui/src/components/table/SummaryRow.tsx:64:          classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Row.tsx:193:      classPrefix,\npackages/amis-ui/src/components/table/Row.tsx:255:          classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Row.tsx:298:            classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Row.tsx:317:          classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Row.tsx:353:            classPrefix={classPrefix}\npackages/amis-ui/src/components/table/Row.tsx:363:            classPrefix={classPrefix}\npackages/amis-ui/src/components/CityArea.tsx:317:          classPrefix={props.classPrefix}\npackages/amis-ui/src/components/table/HeadCellFilter.tsx:33:  classPrefix: string;\npackages/amis-ui/src/components/table/HeadCellFilter.tsx:97:      classPrefix: ns,\npackages/amis-ui/src/components/table/HeadCellFilter.tsx:124:                      classPrefix={ns}\npackages/amis-core/src/renderers/Form.tsx:1911:      const ns = this.props.classPrefix;\npackages/amis-core/src/index.tsx:91:const classPrefix = getClassPrefix();\npackages/amis-core/src/index.tsx:232:  classPrefix,\npackages/amis-ui/scss/components/_mobile-dev-tool.scss:26:    .cxd-PopOver {\npackages/amis-ui/scss/components/_condition-builder.scss:178:        & > .cxd-Button:not(:last-child) {\npackages/amis-ui/scss/components/form/_form.scss:186:      // 兼容 @media (min-width: 576px) .cxd-Form-control--sizeLg\n",
+      "stderr": "",
+      "id": "CMD-007",
+      "core": true,
+      "failure_handling": "document-baseline"
+    },
+    {
+      "command": "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml --yaml-only",
+      "exit_code": 0,
+      "stdout": "Validated 1 file(s): 1 passed, 0 failed.\n\n  ✓ .codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml\n\nAll files valid.\n",
+      "stderr": "",
+      "id": "CMD-008",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tabs.test.tsx __tests__/renderers/List.test.tsx __tests__/renderers/Table.test.tsx __tests__/renderers/Form/inputSubForm.test.tsx __tests__/renderers/Video.test.tsx",
+      "exit_code": 0,
+      "stdout": "\n> amis@6.13.0 test\n> jest --runTestsByPath __tests__/renderers/Tabs.test.tsx __tests__/renderers/List.test.tsx __tests__/renderers/Table.test.tsx __tests__/renderers/Form/inputSubForm.test.tsx __tests__/renderers/Video.test.tsx\n\n",
+      "stderr": "PASS __tests__/renderers/Video.test.tsx (6.257 s)\nPASS __tests__/renderers/List.test.tsx (6.527 s)\nPASS __tests__/renderers/Tabs.test.tsx (8.104 s)\nPASS __tests__/renderers/Table.test.tsx (8.945 s)\nPASS __tests__/renderers/Form/inputSubForm.test.tsx (11.006 s)\n\nTest Suites: 5 passed, 5 total\nTests:       51 passed, 51 total\nSnapshots:   37 passed, 37 total\nTime:        11.712 s, estimated 13 s\nRan all test suites within paths \"__tests__/renderers/Tabs.test.tsx\", \"__tests__/renderers/List.test.tsx\", \"__tests__/renderers/Table.test.tsx\", \"__tests__/renderers/Form/inputSubForm.test.tsx\", \"__tests__/renderers/Video.test.tsx\".\n",
+      "id": "CMD-009",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tree.test.tsx __tests__/renderers/Form/formula.test.tsx",
+      "exit_code": 0,
+      "stdout": "\n> amis@6.13.0 test\n> jest --runTestsByPath __tests__/renderers/Tree.test.tsx __tests__/renderers/Form/formula.test.tsx\n\n",
+      "stderr": "PASS __tests__/renderers/Form/formula.test.tsx (5.199 s)\nPASS __tests__/renderers/Tree.test.tsx (5.701 s)\n\nTest Suites: 2 passed, 2 total\nTests:       14 passed, 14 total\nSnapshots:   3 passed, 3 total\nTime:        6.347 s, estimated 7 s\nRan all test suites within paths \"__tests__/renderers/Tree.test.tsx\", \"__tests__/renderers/Form/formula.test.tsx\".\n",
+      "id": "CMD-010",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-legacy-prefix-teardown",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "2c02742dee628b4843ab731f77e861a082d88df0b985e73ed7b5df27a3f4e511"
+  }
+}

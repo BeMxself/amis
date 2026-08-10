@@ -1,0 +1,125 @@
+feature: 2026-07-25-legacy-prefix-teardown
+created: 2026-07-25
+
+steps:
+  - action: "实现准入与依赖核验：确认 core-component-selector-migration、editor-theme-helper-migration 及前置 selector guard / ledger artifacts 已 done"
+    exit_signal: "items.yaml 依赖均 done，且前置 ledger / inventory 文件路径可被读取"
+    status: done
+  - action: "LegacyPrefixLedger 汇总：合并 selector allowlist、ComponentMigrationLedger、HelperScssInventory 和 runtime/editor classPrefix 扫描"
+    exit_signal: "所有剩余旧前缀命中都有 PrefixDependencyKind、owner、保留原因、退出条件和下一归属"
+    status: done
+  - action: "公共依赖迁移或内部化：迁移 public selector / DOM query / editor generator 依赖，或将不可删除项标为 internal legacy"
+    exit_signal: "默认公共路径不依赖 .cxd-* / classPrefix，保留项全部在 ledger 中解释"
+    status: done
+  - action: "DOM-only alias policy 固化：确认 legacyDomClassAlias 默认关闭、只允许 cxd 显式开启、不生成库 CSS，并补 AliasRetentionRecord"
+    exit_signal: "alias off/on 测试通过，retention record 含复审窗口、人工责任方和退出评估材料"
+    status: done
+  - action: "guard 收紧与反向验证：运行 selector guard、grep 和 targeted runtime/editor 检查，确认无新增旧前缀公共依赖"
+    exit_signal: "guard 通过；新增 .cxd-* / .antd-* / .dark-* / 样式相关 classPrefix 命中为 0 或均有 ledger 分类"
+    status: done
+  - action: "交接 docs rollout：整理用户迁移 notes、文件名兼容说明、IE11 静态 CSS 边界、alias 风险和退出评估材料"
+    exit_signal: "docs rollout 可以直接从 handoff 生成用户指南、贡献指南和发布风险记录"
+    status: done
+  - action: "acceptance 证据收口：形成 implementation / review / QA / acceptance 可核验证据包"
+    exit_signal: "命令输出、ledger、retention record、diff summary 和 docs handoff 都可由仓库事实反查"
+    status: done
+
+checks:
+  - item: "implementation 开始前重新确认 core-component-selector-migration 和 editor-theme-helper-migration status=done，design-review passed 只允许 design admission"
+    source: 关键决策
+    status: passed
+  - item: "默认主路径只暴露 .amis-*、data-amis-theme 和 token，不把旧前缀写成公共样式 API"
+    source: Legacy prefix public contract
+    status: passed
+  - item: "legacyDomClassAlias 默认关闭，只允许显式 cxd，不从 classPrefix 自动推导 antd / dark alias"
+    source: DOM-only alias policy
+    status: passed
+  - item: "不生成 .cxd-* 库 CSS，不启用 SCSS/CSS legacy selector 双编译或双产物"
+    source: CSS 边界
+    status: passed
+  - item: "LegacyPrefixLedger 覆盖 selector allowlist、ComponentMigrationLedger、HelperScssInventory 和 runtime/editor classPrefix 扫描"
+    source: LegacyPrefixLedger
+    status: passed
+  - item: "剩余 .cxd-* / .antd-* / .dark-* / #{$ns} / 样式相关 classPrefix 命中均有分类、owner、保留原因和退出条件"
+    source: LegacyPrefixLedger
+    status: passed
+  - item: "PrefixDependencyKind 区分 public selector、runtime alias、internal passthrough、theme behavior config、file-name compatibility、docs historical、generated artifact"
+    source: PrefixDependencyKind
+    status: passed
+  - item: "AliasRetentionRecord 记录默认状态、显式值、适用范围、人工复审窗口、责任方和退出评估材料"
+    source: AliasRetentionRecord
+    status: passed
+  - item: "复审机制表达为最多 1 年窗口内人工评估，不绑定固定版本卡点，不自动退出"
+    source: 退出机制
+    status: passed
+  - item: "cxd.css / cxd-ie11.css 等文件名兼容被标为 file-name compatibility，不被解释成 selector compatibility"
+    source: 文件名兼容
+    status: passed
+  - item: "IE11 只保留静态 CSS 降级边界，不承诺动态 token 主题切换"
+    source: IE11 边界
+    status: passed
+  - item: "docs rollout handoff 包含用户迁移 notes、alias 风险、文件名兼容说明和退出评估材料"
+    source: docs handoff
+    status: passed
+  - item: "selector guard 是必跑命令；若前置项未提供真实命令，实现阶段必须阻塞或回前置项补齐"
+    source: 验证入口
+    status: passed
+  - item: "acceptance 能从 ledger、retention record、guard output、grep summary、docs handoff 和命令输出核验完成状态"
+    source: DoD
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm test --workspace amis-core -- theme"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "npm test --workspace amis -- button"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-004
+      command: "npm run check:theme-selectors --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "npm run stylelint"
+      core: false
+      failure_handling: fix-or-block
+    - id: CMD-006
+      command: "npm run typecheck"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-007
+      command: "rg -n \"\\.cxd-|\\.antd-|\\.dark-|classPrefix\" packages/amis-core/src packages/amis-ui/src packages/amis-ui/scss packages/amis/src packages/amis-editor-core/src packages/amis-theme-editor-helper/src"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-008
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-009
+      command: "npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tabs.test.tsx __tests__/renderers/List.test.tsx __tests__/renderers/Table.test.tsx __tests__/renderers/Form/inputSubForm.test.tsx __tests__/renderers/Video.test.tsx"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-010
+      command: "npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tree.test.tsx __tests__/renderers/Form/formula.test.tsx"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - LegacyPrefixLedger
+    - AliasRetentionRecord
+    - selector_guard_output
+    - alias_runtime_test_evidence
+    - legacy_prefix_grep_summary
+    - docs_rollout_handoff
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

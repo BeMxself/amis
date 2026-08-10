@@ -1,0 +1,26 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "command": "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml --yaml-only",
+      "exit_code": 0,
+      "stdout": "Validated 1 file(s): 1 passed, 0 failed.\n\n  ✓ .codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml\n\nAll files valid.\n",
+      "stderr": "",
+      "id": "CMD-006",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003"
+  }
+}

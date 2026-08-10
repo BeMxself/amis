@@ -1,0 +1,119 @@
+feature: 2026-07-25-editor-theme-helper-migration
+created: 2026-07-25
+
+steps:
+  - action: "实现准入与基线：确认 token-contract-css-layers、stylesheet-stable-selector-build、overlay-theme-scope-propagation 已 done，并记录四类基线"
+    exit_signal: "baseline inventory 覆盖 generated CSS、preview scope、historical schema、helper SCSS 四类"
+    status: done
+  - action: "Helper SCSS inventory：分类 amis-theme-editor-helper、amis-editor-core、amis-editor 中的 .cxd-* / AMISCSSWrapper 命中"
+    exit_signal: "每个保留命中有分类、owner 和退出条件"
+    status: done
+  - action: "Generated CSS migration：迁移 ParseThemeData 和生成选项，输出 tokenCss / selectorCss / customCss / migrationWarnings"
+    exit_signal: "generated CSS fixture 不包含 .cxd-，自定义 Button/size 走 stable selector 或 token"
+    status: done
+  - action: "Preview scope migration：让 editor preview root、iframe preview root、popover/modal preview container 带 data-amis-theme，并迁移 CSS var 读取 scope"
+    exit_signal: "preview / iframe DOM 断言能观察 data-amis-theme，getAllCssVar 不只依赖 AMISCSSWrapper"
+    status: done
+  - action: "Historical schema migration：为 style2ThemeCss / JSONPipeIn 旧数据路径补 fixture 和迁移说明"
+    exit_signal: "旧 style/themeCss fixture 输出 stable themeCss 或 migration warning"
+    status: done
+  - action: "范围收口与 guard：运行 selector guard、generated CSS grep、editor/helper diff review"
+    exit_signal: "无未分类 .cxd-* 新增，剩余命中可交给 legacy-prefix-teardown 或 docs rollout"
+    status: done
+  - action: "交接材料：记录 editor migration notes、剩余 helper SCSS inventory、旧 schema 行为和用户可见风险"
+    exit_signal: "acceptance 可从生成 CSS、preview DOM、fixture、inventory 和命令输出核验"
+    status: done
+
+checks:
+  - item: "implementation 开始前重新确认三项依赖 status=done，design-review passed 只允许 design admission"
+    source: 关键决策
+    status: passed
+  - item: "EditorThemeCss 只消费 ThemeScope / TokenContract / StableSelector，不定义第二套主题身份"
+    source: 名词契约
+    status: passed
+  - item: "ParseThemeData 不再生成 .cxd-Button 或 .cxd-Button--size 等新 selector"
+    source: generated CSS
+    status: passed
+  - item: "GeneratedThemeCss 区分 tokenCss、selectorCss、customCss 和 migrationWarnings"
+    source: generated CSS
+    status: passed
+  - item: "editor preview root 带 data-amis-theme，AMISCSSWrapper 不作为主题身份"
+    source: preview scope
+    status: passed
+  - item: "iframe preview root/body 在对应 document 内带 data-amis-theme"
+    source: preview scope
+    status: passed
+  - item: "getAllCssVar / getCssVarById 读取 TokenContract scope，不只依赖 :root, .AMISCSSWrapper"
+    source: preview scope
+    status: passed
+  - item: "style2ThemeCss / JSONPipeIn 旧数据路径有 fixture 和 migration warning 证据"
+    source: historical schema
+    status: passed
+  - item: "helper/editor SCSS 中 .cxd-* / AMISCSSWrapper 剩余命中均有 inventory 分类、owner 和退出条件"
+    source: helper SCSS inventory
+    status: passed
+  - item: "不迁移 core component SCSS，不删除 DOM-only alias，不执行 legacy-prefix-teardown"
+    source: 范围守护
+    status: passed
+  - item: "selector guard 是必跑命令；若前置项未提供真实命令，实现阶段必须阻塞或回前置项补齐"
+    source: 验证入口
+    status: passed
+  - item: "acceptance 能从 generated CSS、preview DOM、schema fixture、inventory、命令输出核验四条验收线"
+    source: DoD
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm run build --workspace amis-theme-editor-helper"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm run build --workspace amis-editor-core"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "npm run build --workspace amis-editor"
+      core: false
+      failure_handling: fix-or-block
+    - id: CMD-004
+      command: "npm run check:theme-selectors --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-008
+      command: "npx jest packages/amis-theme-editor-helper/__tests__/ParseThemeData.test.ts"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-009
+      command: "npx jest packages/amis-editor-core/__tests__/themeScope.test.ts"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-010
+      command: "npx jest packages/amis-editor-core/__tests__/themeCssMigration.test.ts"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "rg -n \"\\.cxd-\" packages/amis-theme-editor-helper packages/amis-editor-core packages/amis-editor"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-006
+      command: "rg -n \"AMISCSSWrapper|getCssVarById|data-amis-theme|ParseThemeData|style2ThemeCss\" packages/amis-editor-core packages/amis-theme-editor-helper packages/amis-editor"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-007
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - helper_scss_inventory
+    - generated_css_fixture
+    - preview_scope_evidence
+    - iframe_scope_evidence
+    - historical_schema_fixture
+    - selector_guard_output
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

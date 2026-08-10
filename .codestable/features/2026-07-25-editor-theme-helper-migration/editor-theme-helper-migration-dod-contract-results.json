@@ -1,0 +1,35 @@
+{
+  "gate_id": "dod-contract-gate",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "design": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-design.md",
+      "checked_block": "DoD Contract",
+      "structure_checks": {
+        "validation command id": [
+          "CMD-"
+        ],
+        "command core marker": [
+          "core",
+          "核心性"
+        ],
+        "failure handling marker": [
+          "failure_handling",
+          "失败处理"
+        ]
+      },
+      "strength": "minimal DoD Contract section check"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-editor-theme-helper-migration",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-design.md"
+  },
+  "input_digests": {
+    "design": "153e563b9bb71474fe3e9f737958a4db490722b59e19e8e5902aab47bf86f007"
+  }
+}

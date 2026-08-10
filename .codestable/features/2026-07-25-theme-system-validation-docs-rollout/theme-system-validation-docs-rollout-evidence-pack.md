@@ -1,0 +1,213 @@
+---
+doc_type: feature-evidence-pack
+feature: 2026-07-25-theme-system-validation-docs-rollout
+status: generated
+---
+
+# 2026-07-25-theme-system-validation-docs-rollout evidence pack
+
+## 1. Scope
+
+- Design: `.codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-design.md`
+- Checklist: `.codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml`
+
+## 2. DoD Results
+
+```json
+{
+  "gate_id": "dod-runner",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [
+    "CMD-002: non-core command failed with exit 1"
+  ],
+  "evidence": [
+    {
+      "command": "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"workflow\": \"epic\",\n  \"status\": \"dispatch_goal\",\n  \"next_action\": \"dispatch-epic-goal-driver-or-print-goal\",\n  \"reason\": \"epic goal package is ready to dispatch\",\n  \"must_continue\": true,\n  \"final_answer_allowed\": false,\n  \"blocking\": [],\n  \"warnings\": [],\n  \"missing_artifacts\": [],\n  \"evidence\": {\n    \"goal_state\": \".codestable/roadmap/theme-system-refactor/goal-state.yaml\",\n    \"execution_confirmation_id\": \"goal-execution-20260725160058\",\n    \"acceptance_authorization_ref\": \"approval-report.md#goal-acceptance\",\n    \"commit_authorization_ref\": \"approval-report.md#goal-commits\"\n  }\n}\n",
+      "stderr": "",
+      "id": "CMD-001",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm run typecheck",
+      "exit_code": 1,
+      "stdout": "e: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/TableRow.tsx(370,21): error TS2339: Property 'loading' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/TableRow.tsx(371,19): error TS2339: Property 'error' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Table/VirtualTableBody.tsx(91,29): error TS2339: Property 'height' does not exist on type '{ storeType: string; id: string; parentId: string; key: string; pristine: any; data: any; rowSpans: any; index: number; newIndex: number; path: string; expandable: boolean; checkdisable: boolean; isHover: boolean; children: IMSTArray<...> & IStateTreeNode<...>; depth: number; } & NonEmptyObject & { ...; } & { ...; }...'.\npackages/amis/src/renderers/Wizard.tsx(564,31): error TS2345: Argument of type 'false | AMISApi | undefined' is not assignable to parameter of type 'Api'.\n  Type 'undefined' is not assignable to type 'Api'.\nscripts/build-schemas.ts(28,3): error TS2305: Module '\"ts-json-schema-generator\"' has no exported member 'getAllOfDefinitionReducer'.\nscripts/build-schemas.ts(32,3): error TS2305: Module '\"ts-json-schema-generator\"' has no exported member 'IndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(108,9): error TS2345: Argument of type 'MyIndexedAccessTypeNodeParser' is not assignable to parameter of type 'SubNodeParser'.\n  Property 'supportsNode' is missing in type 'MyIndexedAccessTypeNodeParser' but required in type 'SubNodeParser'.\nscripts/build-schemas.ts(109,11): error TS2554: Expected 0 arguments, but got 2.\nscripts/build-schemas.ts(151,27): error TS2339: Property 'typeChecker' does not exist on type 'MyIndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(155,18): error TS2339: Property 'childNodeParser' does not exist on type 'MyIndexedAccessTypeNodeParser'.\nscripts/build-schemas.ts(156,16): error TS18046: 'member' is of type 'unknown'.\nscripts/build-schemas.ts(168,7): error TS2415: Class 'MyObjectTypeFormatter' incorrectly extends base class 'ObjectTypeFormatter'.\n  Property 'childTypeFormatter' is private in type 'ObjectTypeFormatter' but not in type 'MyObjectTypeFormatter'.\nscripts/build-schemas.ts(179,19): error TS2341: Property 'getObjectDefinition' is private and only accessible within class 'ObjectTypeFormatter'.\nscripts/build-schemas.ts(184,14): error TS2341: Property 'getObjectDefinition' is private and only accessible within class 'ObjectTypeFormatter'.\nscripts/build-schemas.ts(270,46): error TS2339: Property 'getPreserveLiterals' does not exist on type 'StringType'.\nscripts/build-schemas.ts(272,63): error TS2339: Property 'isString' does not exist on type 'LiteralType'.\nscripts/build-schemas.ts(292,32): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\nscripts/build-schemas.ts(294,36): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\nscripts/build-schemas.ts(307,42): error TS2341: Property 'childTypeFormatter' is private and only accessible within class 'IntersectionTypeFormatter'.\n",
+      "stderr": "",
+      "id": "CMD-002",
+      "core": false,
+      "failure_handling": "document-baseline"
+    },
+    {
+      "command": "npm run stylelint",
+      "exit_code": 0,
+      "stdout": "\n> stylelint\n> npx stylelint 'packages/**/*.scss'\n\n",
+      "stderr": "",
+      "id": "CMD-003",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm run check:theme-selectors --workspace amis-ui",
+      "exit_code": 0,
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stderr": "",
+      "id": "CMD-004",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis-core -- theme",
+      "exit_code": 0,
+      "stdout": "\n> amis-core@6.13.0 test\n> jest theme\n\n",
+      "stderr": "PASS __tests__/theme.test.ts\n  ✓ theme runtime uses stable component classnames by default (1 ms)\n  ✓ theme runtime exposes a data attribute scope (1 ms)\n  ✓ makeStableClassnames prefixes only component tokens\n  ✓ stable class selector helpers prefer the primary component class\n  ✓ explicit legacy DOM alias updates cached theme classnames\n  ✓ legacy DOM alias does not auto-generate non-cxd theme prefixes\n  ✓ overlay theme helpers resolve nearest DOM scope (1 ms)\n  ✓ overlay theme helpers apply scope idempotently (1 ms)\n  ✓ overlay container resolver preserves custom container scope\n\nTest Suites: 1 passed, 1 total\nTests:       9 passed, 9 total\nSnapshots:   0 total\nTime:        0.99 s, estimated 2 s\nRan all test suites matching /theme/i.\n",
+      "id": "CMD-005",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "npm test --workspace amis -- button",
+      "exit_code": 0,
+      "stdout": "\n> amis@6.13.0 test\n> jest button\n\n",
+      "stderr": "PASS __tests__/renderers/ButtonToolbar.test.tsx (7.17 s)\nPASS __tests__/renderers/Form/buttonToolBar.test.tsx (7.428 s)\nPASS __tests__/renderers/Form/button.test.tsx (7.441 s)\nPASS __tests__/renderers/Form/buttonGroupSelect.test.tsx (7.857 s)\nPASS __tests__/renderers/DropDownButton.test.tsx (9.473 s)\n\nTest Suites: 5 passed, 5 total\nTests:       19 passed, 19 total\nSnapshots:   20 passed, 20 total\nTime:        10.077 s\nRan all test suites matching /button/i.\n",
+      "id": "CMD-006",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    },
+    {
+      "command": "rg -n \"#\\{\\$ns\\}|\\.cxd-|\\.antd-|\\.dark-|classPrefix\" docs examples",
+      "exit_code": 0,
+      "stdout": "n\\n而通过查看  可知，`body`属性类型是`SchemaNode`，即可以在`body`中，嵌套配置其他组件。我们在这里，用`type`和`tpl` JSON 对象，配置了 `Tpl` 组件，渲染了一段模板字符串。\\n\\n> amis 可以通过该方法，在`Schema`中嵌套配置其他`SchemaNode`，从而搭建非常复杂的页面应用。\\n\\n### 配置显隐\\n\\n所有的`Schema`类型都可以通过配置`visible`或`hidden`，`visibleOn`或`hiddenOn`来控制组件的显隐，下面是两种方式\\n\\n##### 静态配置\\n\\n通过配置`\\\"hidden\\\": true`或者`\\\"visible\\\": false`来隐藏组件\\n\\n\\n\\n下面那个表单被隐藏了。\\n\\n##### 通过条件配置显隐\\n\\n你也通过  配置`hiddenOn`，来实现在某个条件下禁用当前组件.\\n\\n\\n\\n为了方便说明，我们在 form 中演示了条件显隐，实际上，只要当前数据域中数据有变化，都可以实现组件显隐\\n\\n> `visible`和`hidden`，`visibleOn`和`hiddenOn`除了判断逻辑相反以外，没有任何区别\\n\\n## SchemaArray 配置数组\\n\\n明白了何为`Schema`之后，你就会很轻松理解`SchemaArray`，它其实就是支持通过数组配置`Schema`，从而在某一节点层级下，配置多个组件\\n\\n\\n\\n非常容易看出来，我们给`body`属性，配置了数组结构的`Schema`，从而实现在`body`下，渲染两个`tpl`，来输入两段文字的效果\\n\",\"path\":\"/zh-CN/docs/types/schemanode\"}]}\nexamples/components/CssDocs.tsx:683:          classPrefix: this.props.classPrefix,\nexamples/components/CssDocs.tsx:691:          classPrefix: this.props.classPrefix,\ndocs/zh-CN/style/index.md:14:不建议把主题类前缀或 `classPrefix` 当作新的样式扩展入口。历史上的 `cxd`、`antd`、`dark` 主题文件名仍可能存在，但组件 DOM 主路径使用稳定 `.amis-*` 类名，主题身份由 `[data-amis-theme]` 表达。\ndocs/zh-CN/style/index.md:114:`cxd.css`、`antd.css`、`dark.css` 等文件名用于选择主题包，不代表应该继续通过 `.cxd-*`、`.antd-*`、`.dark-*` 组件选择器来写新样式。迁移旧定制页面时，可以按发布说明评估显式 DOM-only `.cxd-*` alias；它默认关闭，只是迁移辅助，不是新的公共主题 API。\nexamples/components/Test.jsx:9:          <Button className=\"m-r-xs\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:13:          <Button className=\"m-r-xs\" level=\"primary\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:17:          <Button className=\"m-r-xs\" level=\"secondary\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:21:          <Button className=\"m-r-xs\" level=\"success\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:25:          <Button className=\"m-r-xs\" level=\"info\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:29:          <Button className=\"m-r-xs\" level=\"warning\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:33:          <Button className=\"m-r-xs\" level=\"danger\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:37:          <Button className=\"m-r-xs\" level=\"light\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:41:          <Button className=\"m-r-xs\" level=\"dark\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:47:          <Button className=\"m-r-xs\" size=\"xs\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:50:          <Button className=\"m-r-xs\" size=\"sm\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:53:          <Button className=\"m-r-xs\" size=\"md\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:56:          <Button className=\"m-r-xs\" size=\"lg\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:62:          <Button className=\"m-r-xs\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:66:          <Button className=\"m-r-xs\" classPrefix=\"cxd-\">\nexamples/components/Test.jsx:70:          <Button className=\"m-r-xs\" classPrefix=\"cxd-\" iconOnly>\ndocs/zh-CN/components/office-viewer.md:61:| classPrefix     | `string`  | 'docx-viewer' | 渲染的 class 类前缀                                        |\nexamples/components/Doc.tsx:67:          classPrefix: this.props.classPrefix,\nexamples/components/Doc.tsx:79:          classPrefix: this.props.classPrefix,\nexamples/components/App.tsx:558:          classPrefix: theme.ns,\nexamples/components/App.tsx:645:                  classPrefix: theme.ns,\nexamples/components/App.tsx:663:                  classPrefix: theme.ns,\nexamples/components/App.tsx:681:                  classPrefix: theme.ns,\nexamples/components/App.tsx:699:                  classPrefix: theme.ns,\nexamples/components/App.tsx:736:            classPrefix: theme.ns,\nexamples/components/App.tsx:807:            classPrefix: theme.ns,\nexamples/components/SchemaRender.jsx:389:        const ns = this.props.classPrefix;\nexamples/components/SchemaRender.jsx:396:                  classPrefix={ns}\nexamples/components/Components.tsx:1251:          classPrefix: this.props.classPrefix,\nexamples/components/Components.tsx:1259:          classPrefix: this.props.classPrefix,\n",
+      "stderr": "",
+      "id": "CMD-007",
+      "core": true,
+      "failure_handling": "document-baseline"
+    },
+    {
+      "command": "rg -n \"IE11|cxd-ie11|CSS 变量|data-amis-theme|--amis-|amis-\" docs/zh-CN/start docs/zh-CN/style docs/zh-CN/extend",
+      "exit_code": 0,
+      "stdout": " 属性，通过它来动态修改 amis 内的 CSS 变量。\ndocs/zh-CN/style/index.md:24:    \"--amis-palette-brand-500\": \"#CD3632\",\ndocs/zh-CN/style/index.md:25:    \"--amis-palette-brand-600\": \"#F23F3A\",\ndocs/zh-CN/style/index.md:26:    \"--amis-palette-brand-400\": \"#BB312D\",\ndocs/zh-CN/style/index.md:27:    \"--amis-color-brand-bg\": \"var(--amis-palette-brand-500)\",\ndocs/zh-CN/style/index.md:28:    \"--amis-Button-primary-bg\": \"var(--amis-color-brand-bg)\"\ndocs/zh-CN/style/index.md:48:具体有哪些变量请参考左侧的 [CSS 变量](css-vars) 说明。\ndocs/zh-CN/style/index.md:55:[data-amis-theme='dark'] .amis-Button--primary {\ndocs/zh-CN/style/index.md:56:  --amis-Button-primary-bg: #1677ff;\ndocs/zh-CN/style/index.md:59:[data-amis-theme='custom'] .amis-Card {\ndocs/zh-CN/style/index.md:116:IE11 只能使用静态 CSS 降级文件，不支持基于 CSS 变量的动态主题切换。\ndocs/zh-CN/extend/editor-customization.md:158:import {LeftPanelsProps} from 'amis-editor-core';\ndocs/zh-CN/extend/editor-customization.md:188:import {BasePlugin, registerEditorPlugin} from 'amis-editor-core';\ndocs/zh-CN/extend/editor-customization.md:235:import {BasePlugin, BasicPanelItem, BuildPanelEventContext} from 'amis-editor-core';\ndocs/zh-CN/extend/editor-customization.md:739:- `packages/amis-editor-core/src/component/Editor.tsx`：`Editor` 属性、左右面板替换入口、生命周期。\ndocs/zh-CN/extend/editor-customization.md:740:- `packages/amis-editor-core/src/manager.ts`：插件注册、实例化、面板收集、物料收集。\ndocs/zh-CN/extend/editor-customization.md:741:- `packages/amis-editor-core/src/plugin.ts`：插件接口、`BasePlugin` 默认逻辑、`PanelItem` 类型。\ndocs/zh-CN/extend/editor-customization.md:742:- `packages/amis-editor-core/src/component/Panel/LeftPanels.tsx`：左侧面板渲染。\ndocs/zh-CN/extend/editor-customization.md:743:- `packages/amis-editor-core/src/component/Panel/RightPanels.tsx`：右侧面板渲染。\ndocs/zh-CN/extend/editor-customization.md:744:- `packages/amis-editor-core/src/plugin/AvailableRenderers.tsx`：内置“组件”左侧面板示例。\ndocs/zh-CN/extend/editor-customization.md:745:- `packages/amis-editor-core/src/plugin/Outline.tsx`：内置“大纲”左侧面板示例。\ndocs/zh-CN/extend/editor-customization.md:746:- `packages/amis-editor-core/src/plugin/Code.tsx`：内置“代码”左侧面板示例。\ndocs/zh-CN/extend/i18n.md:84:import 'amis-ui/lib/locale/en-US';\ndocs/zh-CN/extend/i18n.md:161:如果想扩展其他语言，首先参考 `https://github.com/baidu/amis/blob/master/packages/amis-ui/src/locale/en-US.ts` 文件，然后参考后面的示例注册新语言，未翻译的文字都将使用中文。\ndocs/zh-CN/extend/ui-library.md:148:import {Button} from 'amis-ui';\ndocs/zh-CN/extend/contribute.md:59:import {Renderer, RendererProps, AMISSchemaBase} from 'amis-core';\ndocs/zh-CN/extend/contribute.md:60:import {resolveVariable, resolveVariableAndFilter} from 'amis-core';\ndocs/zh-CN/extend/contribute.md:111:.amis-Avatar {\ndocs/zh-CN/extend/contribute.md:112:  color: var(--amis-color-brand-bg);\ndocs/zh-CN/extend/contribute.md:120:新增组件样式应使用稳定的 `.amis-*` 组件类名和 `--amis-*` token。不同主题下的差异应通过 token 或 `[data-amis-theme=\"主题名\"] .amis-*` 作用域覆写，不要通过主题类前缀或 `classPrefix` 生成新的公共选择器。\ndocs/zh-CN/extend/editor.md:7:在线体验：https://aisuda.github.io/amis-editor-demo\ndocs/zh-CN/extend/editor.md:8:示例代码：https://github.com/aisuda/amis-editor-demo\ndocs/zh-CN/extend/editor.md:14:目前有两个 npm 包：`amis-editor` 和 `amis-editor-core`。\ndocs/zh-CN/extend/editor.md:16:- `amis-editor-core` 包含了少量底层必要的功能实现，里面没有包含 amis 内置渲染器插件的任何实现。\ndocs/zh-CN/extend/editor.md:17:- `amis-editor` 基于 `amis-editor-core` 实现了 amis 内置的所有渲染器的可视化编辑器插件。\ndocs/zh-CN/extend/editor.md:19:如果你没有使用 amis 内置渲染器，推荐只使用 `amis-editor-core`，否则推荐使用 `amis-editor`。这里主要介绍 `amis-editor`, `amis-editor-core` 的使用方式是一样的。\ndocs/zh-CN/extend/editor.md:22:npm i amis-editor\ndocs/zh-CN/extend/editor.md:28:import {Editor} from 'amis-editor';\ndocs/zh-CN/extend/editor.md:119:import {BasePlugin} from 'amis-editor';\ndocs/zh-CN/extend/editor.md:185:import {registerEditorPlugin} from 'amis-editor';\ndocs/zh-CN/extend/editor.md:598:然后[插件](https://github.com/aisuda/amis-editor-demo?tab=readme-ov-file#%E6%89%A9%E5%85%85%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E7%89%88)中修改继承类，即可完成拖拽调整宽高：\ndocs/zh-CN/extend/editor.md:601:import {LayoutBasePlugin} from 'amis-editor';\n",
+      "stderr": "",
+      "id": "CMD-008",
+      "core": true,
+      "failure_handling": "document-baseline"
+    },
+    {
+      "command": "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml --yaml-only",
+      "exit_code": 0,
+      "stdout": "Validated 1 file(s): 1 passed, 0 failed.\n\n  ✓ .codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml\n\nAll files valid.\n",
+      "stderr": "",
+      "id": "CMD-009",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-theme-system-validation-docs-rollout",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "696ec2727e5a7f7d9aadd4ba5abd8bad3f9985083b901a08e59bee7cf2cbc6c1"
+  }
+}
+```
+
+## 3. Validation Commands
+
+Extracted from checklist `dod.commands`; see DoD Results for command status.
+
+## 4. Scope And Cleanliness
+
+Design bytes: 13063
+Checklist bytes: 5145
+
+## 5. Residual Risks
+
+- CMD-002: non-core command failed with exit 1
+
+## 6. Provider Signals
+
+```json
+{
+  "archguard": {
+    "status": "skipped",
+    "reason": "archguard collection disabled",
+    "warnings": []
+  },
+  "meta_cc": {
+    "status": "skipped",
+    "reason": "meta-cc collection disabled",
+    "warnings": []
+  }
+}
+```
+
+## 7. Gate Results
+
+```json
+{
+  "gate_id": "scope-gate",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-design.md",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-items.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-roadmap.md",
+        "docs/zh-CN/components/form/transfer.md",
+        "docs/zh-CN/extend/contribute.md",
+        "docs/zh-CN/start/getting-started.md",
+        "docs/zh-CN/style/css-vars.md",
+        "docs/zh-CN/style/index.md",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/bad/legacy-dom-selector.tsx",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/good/stable-dom-selector.tsx",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-docs-examples-grep-output.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-docs-migration-map.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-examples-inventory.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-ie11-static-fallback-notes.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-manual-validation-notes.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-release-risk-record.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-acceptance.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-implementation.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-qa.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-review.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-scope-gate.json",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-matrix.md"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-dod-results.json",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-items.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-roadmap.md",
+        "docs/zh-CN/start/getting-started.md",
+        "docs/zh-CN/style/index.md",
+        "docs/zh-CN/style/css-vars.md",
+        "docs/zh-CN/extend/contribute.md",
+        "docs/zh-CN/components/form/transfer.md",
+        "packages/amis-ui/scripts/theme-selectors/fixtures"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-theme-system-validation-docs-rollout",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout"
+  },
+  "input_digests": {}
+}
+```

@@ -1,0 +1,26 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "command": "rg -n \"@layer amis\\.reset, amis\\.tokens, amis\\.components, amis\\.theme, amis\\.user\" packages/amis-ui/scss",
+      "exit_code": 0,
+      "stdout": "packages/amis-ui/scss/tokens/_layers.scss:1:@layer amis.reset, amis.tokens, amis.components, amis.theme, amis.user;\n",
+      "stderr": "",
+      "id": "CMD-003",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003"
+  }
+}

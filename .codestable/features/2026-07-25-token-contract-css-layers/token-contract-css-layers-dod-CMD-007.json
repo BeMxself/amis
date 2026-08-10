@@ -1,0 +1,26 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "command": "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"workflow\": \"epic\",\n  \"status\": \"dispatch_goal\",\n  \"next_action\": \"dispatch-epic-goal-driver-or-print-goal\",\n  \"reason\": \"epic goal package is ready to dispatch\",\n  \"must_continue\": true,\n  \"final_answer_allowed\": false,\n  \"blocking\": [],\n  \"warnings\": [],\n  \"missing_artifacts\": [],\n  \"evidence\": {\n    \"goal_state\": \".codestable/roadmap/theme-system-refactor/goal-state.yaml\",\n    \"execution_confirmation_id\": \"goal-execution-20260725160058\",\n    \"acceptance_authorization_ref\": \"approval-report.md#goal-acceptance\",\n    \"commit_authorization_ref\": \"approval-report.md#goal-commits\"\n  }\n}\n",
+      "stderr": "",
+      "id": "CMD-007",
+      "core": false,
+      "failure_handling": "document-baseline"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003"
+  }
+}

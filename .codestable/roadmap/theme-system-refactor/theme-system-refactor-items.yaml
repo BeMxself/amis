@@ -1,0 +1,67 @@
+roadmap: theme-system-refactor
+created: 2026-07-24
+
+items:
+  - slug: theme-runtime-button-pilot
+    description: 建立 ThemeScope 和稳定 classnames 运行时契约，并用 Button 走通 Root scope、amis-Button 类名和 scoped token 的最小闭环
+    depends_on: []
+    status: done
+    feature: 2026-07-24-theme-runtime-button-pilot
+    minimal_loop: true
+    notes: 最小闭环；只允许 Button、最小 token alias、最小 SCSS entry、必要 runtime scope 和 DOM-only .cxd-* alias 开关验证，不能把 SCSS legacy selector 兼容、全量 token 治理或其他组件迁移塞进 pilot。2026-07-30 postmortem hardening：后续修补必须证明 Root/themeable/getClassPrefix 下发的公开组件 classPrefix 均来自 componentClassPrefix，不得继续让 theme.classPrefix 进入组件 DOM 前缀主路径。
+
+  - slug: token-contract-css-layers
+    description: 固化 token 分层、--amis-* 命名、CSS layer 顺序和主题包 token 覆写入口
+    depends_on: [theme-runtime-button-pilot]
+    status: done
+    feature: 2026-07-25-token-contract-css-layers
+    minimal_loop: false
+    notes: 包含旧 token 映射策略和 IE11 静态降级说明，不迁移全部组件。
+
+  - slug: stylesheet-stable-selector-build
+    description: 建立 SCSS helper、构建规则、selector inventory、allowlist 和新增代码 guard，把样式约束到 .amis-* 与 [data-amis-theme] 选择器
+    depends_on: [theme-runtime-button-pilot, token-contract-css-layers]
+    status: done
+    feature: 2026-07-25-stylesheet-stable-selector-build
+    minimal_loop: false
+    notes: 为后续批量组件迁移提供公共工具、fixture 和失败检测；必须先定义 public forbidden/dom alias generated/internal legacy/docs historical/generated artifact 分类；不输出 .cxd-* SCSS 兼容选择器，并用 guard 阻止新增 .cxd-* selector、classPrefix 样式依赖和 editor .cxd-* 依赖。
+
+  - slug: overlay-theme-scope-propagation
+    description: 统一 Overlay、portal 和 modal container 的 theme scope 传播，覆盖 Dialog、Tooltip、Popover、Dropdown 和 Select 下拉层
+    depends_on: [theme-runtime-button-pilot]
+    status: done
+    feature: 2026-07-25-overlay-theme-scope-propagation
+    minimal_loop: false
+    notes: 重点验证多 root、body container、自定义 container、editor preview 和 iframe preview。2026-07-30 postmortem hardening：ThemeScope 注入必须 layout-neutral，不得新增影响 offsetParent / 定位 / 尺寸计算的 wrapper；隐藏态不得提前修改 container scope；Select / ColorPicker 等真实 popover 页面必须记录 offsetParent 证据；所有直接 Portal / ReactDOM.createPortal 路径也必须进入同一 ThemeScope gate，不能只覆盖 Overlay 主路径。
+
+  - slug: core-component-selector-migration
+    description: 迁移高覆盖组件和渲染器的 .cxd-*、$ns 和 classPrefix DOM 查询，改为稳定 .amis-* 与 component/state token
+    depends_on: [stylesheet-stable-selector-build, overlay-theme-scope-propagation]
+    status: done
+    feature: 2026-07-25-core-component-selector-migration
+    minimal_loop: false
+    notes: 已完成 Button 后续、Form、Select、Dialog/Drawer/Modal、Table/Table2、Dropdown/Tooltip/Popover、Page/Layout 的稳定 selector 迁移；policy baseline 收窄到 1507，selector guard 0 new violation，剩余债务交给 legacy-prefix-teardown。2026-07-30 postmortem hardening：迁移验收必须覆盖 Root -> SchemaRenderer -> FormItem -> 控件 -> amis-ui 子组件链路，不能只看 helper 或单组件快照；基础表单控件必须检查控件根类和子组件类均为 amis-*。
+
+  - slug: editor-theme-helper-migration
+    description: 迁移编辑器、预览容器、theme-editor helper、历史 schema 迁移和内置 SCSS 的 .cxd-* 与 AMISCSSWrapper 主题身份依赖
+    depends_on: [token-contract-css-layers, stylesheet-stable-selector-build, overlay-theme-scope-propagation]
+    status: done
+    feature: 2026-07-25-editor-theme-helper-migration
+    minimal_loop: false
+    notes: 已完成 generated CSS、preview scope、iframe scope、historical schema migration 和 helper SCSS inventory；AMISCSSWrapper 仅保留为容器别名，selector guard 1503 baseline / 0 new violation，剩余 editor/helper legacy 命中交给 legacy-prefix-teardown。
+
+  - slug: legacy-prefix-teardown
+    description: 基于 selector allowlist 移除或内部化剩余 classPrefix 公共依赖，并收敛 DOM-only .cxd-* alias 的开关、文档、复审机制和移除条件
+    depends_on: [core-component-selector-migration, editor-theme-helper-migration]
+    status: done
+    feature: 2026-07-25-legacy-prefix-teardown
+    minimal_loop: false
+    notes: 已完成 LegacyPrefixLedger、AliasRetentionRecord、DOM-only alias policy、behavior selector 迁移与 guard 收紧；主 guard 1503 baseline / 0 new violation，bad fixture 覆盖 props alias、解构 alias、预构造 selector、cx/classnames、classList.contains 与 Sortable selector；不生成 .cxd-* 库 CSS。2026-07-30 postmortem hardening：后续 audit 需要额外扫描 theme.classPrefix 是否仍通过非 helper 路径进入公开 DOM classPrefix / prefixCls。
+
+  - slug: theme-system-validation-docs-rollout
+    description: 完成跨包验证、examples inventory、贡献文档、主题覆写指南、IE11 说明和发布风险记录
+    depends_on: [legacy-prefix-teardown]
+    status: done
+    feature: 2026-07-25-theme-system-validation-docs-rollout
+    minimal_loop: false
+    notes: 已完成 ValidationMatrix、DocsMigrationMap、ExamplesThemeInventory、IE11 静态降级说明、ReleaseRiskRecord、用户主题覆写指南和贡献指南收口；examples shell 旧前缀保留为 risk accepted / follow-up，typecheck broad baseline 作为 non-core document-baseline。2026-07-30 postmortem hardening：涉及前缀、浮层或基础表单控件时，验证矩阵必须含真实页面 DOM scan、popover offsetParent、控件宽高和截图证据，不能只靠单元测试 / snapshot；direct portal 组件必须有 portal root scope 证据。

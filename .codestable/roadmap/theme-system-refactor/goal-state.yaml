@@ -1,0 +1,86 @@
+roadmap: theme-system-refactor
+status: complete
+baseline_ref: 183fc8250cc8beaab514ea9e5ba166da5be6beef
+driver_kind: none
+driver_id: ""
+execution_confirmation_id: "goal-execution-20260725160058"
+acceptance_authorization: approved
+acceptance_authorization_ref: "approval-report.md#goal-acceptance"
+commit_authorization: approved
+commit_authorization_ref: "approval-report.md#goal-commits"
+handoff_reason: ""
+handoff_next: ""
+current_feature_index: 8
+features:
+  - slug: theme-runtime-button-pilot
+    roadmap_item: theme-runtime-button-pilot
+    feature_dir: ".codestable/features/2026-07-24-theme-runtime-button-pilot"
+    design: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-design.md"
+    checklist: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-checklist.yaml"
+    review: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-review.md"
+    qa: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-qa.md"
+    acceptance: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-acceptance.md"
+    status: accepted
+  - slug: token-contract-css-layers
+    roadmap_item: token-contract-css-layers
+    feature_dir: ".codestable/features/2026-07-25-token-contract-css-layers"
+    design: ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-design.md"
+    checklist: ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+    review: ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-review.md"
+    qa: ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-qa.md"
+    acceptance: ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-acceptance.md"
+    status: accepted
+  - slug: overlay-theme-scope-propagation
+    roadmap_item: overlay-theme-scope-propagation
+    feature_dir: ".codestable/features/2026-07-25-overlay-theme-scope-propagation"
+    design: ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-design.md"
+    checklist: ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-checklist.yaml"
+    review: ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-review.md"
+    qa: ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-qa.md"
+    acceptance: ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-acceptance.md"
+    status: accepted
+  - slug: stylesheet-stable-selector-build
+    roadmap_item: stylesheet-stable-selector-build
+    feature_dir: ".codestable/features/2026-07-25-stylesheet-stable-selector-build"
+    design: ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-design.md"
+    checklist: ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-checklist.yaml"
+    review: ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-review.md"
+    qa: ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-qa.md"
+    acceptance: ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-acceptance.md"
+    status: accepted
+  - slug: core-component-selector-migration
+    roadmap_item: core-component-selector-migration
+    feature_dir: ".codestable/features/2026-07-25-core-component-selector-migration"
+    design: ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-design.md"
+    checklist: ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-checklist.yaml"
+    review: ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-review.md"
+    qa: ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-qa.md"
+    acceptance: ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-acceptance.md"
+    status: accepted
+  - slug: editor-theme-helper-migration
+    roadmap_item: editor-theme-helper-migration
+    feature_dir: ".codestable/features/2026-07-25-editor-theme-helper-migration"
+    design: ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-design.md"
+    checklist: ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-checklist.yaml"
+    review: ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-review.md"
+    qa: ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-qa.md"
+    acceptance: ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-acceptance.md"
+    status: accepted
+  - slug: legacy-prefix-teardown
+    roadmap_item: legacy-prefix-teardown
+    feature_dir: ".codestable/features/2026-07-25-legacy-prefix-teardown"
+    design: ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-design.md"
+    checklist: ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml"
+    review: ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-review.md"
+    qa: ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-qa.md"
+    acceptance: ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-acceptance.md"
+    status: accepted
+  - slug: theme-system-validation-docs-rollout
+    roadmap_item: theme-system-validation-docs-rollout
+    feature_dir: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout"
+    design: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-design.md"
+    checklist: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml"
+    review: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-review.md"
+    qa: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-qa.md"
+    acceptance: ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-acceptance.md"
+    status: accepted

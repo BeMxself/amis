@@ -1,0 +1,26 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "command": "rg -n -- \"--amis-(palette|color|Button)\" packages/amis-ui/scss",
+      "exit_code": 0,
+      "stdout": "imary-active-border-color\npackages/amis-ui/scss/tokens/_legacy-aliases.scss:40:      --amis-Button-primary-active-border-color\npackages/amis-ui/scss/tokens/_legacy-aliases.scss:42:    --button-primary-active-bg-color: var(--amis-Button-primary-active-bg);\npackages/amis-ui/scss/tokens/_legacy-aliases.scss:43:    --button-primary-default-font-color: var(--amis-Button-primary-color);\npackages/amis-ui/scss/tokens/_legacy-aliases.scss:44:    --button-primary-hover-font-color: var(--amis-Button-primary-hover-color);\npackages/amis-ui/scss/tokens/_legacy-aliases.scss:45:    --button-primary-active-font-color: var(--amis-Button-primary-active-color);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:3:  --colors-brand-4: var(--amis-palette-brand-400);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:4:  --colors-brand-5: var(--amis-palette-brand-500);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:5:  --colors-brand-6: var(--amis-palette-brand-600);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:10:    --colors-brand-4: var(--amis-palette-brand-400);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:11:    --colors-brand-5: var(--amis-palette-brand-500);\npackages/amis-ui/scss/tokens/_legacy-palette-aliases.scss:12:    --colors-brand-6: var(--amis-palette-brand-600);\npackages/amis-ui/scss/_components.scss:66:    --amis-Button-primary-border-color\npackages/amis-ui/scss/_components.scss:71:    --amis-Button-primary-border-color\npackages/amis-ui/scss/_components.scss:76:    --amis-Button-primary-border-color\npackages/amis-ui/scss/_components.scss:81:    --amis-Button-primary-border-color\npackages/amis-ui/scss/_components.scss:86:  --button-primary-default-bg-color: var(--amis-Button-primary-bg);\npackages/amis-ui/scss/_components.scss:87:  --button-primary-default-font-color: var(--amis-Button-primary-color);\npackages/amis-ui/scss/_components.scss:89:    --amis-Button-primary-hover-border-color\npackages/amis-ui/scss/_components.scss:94:    --amis-Button-primary-hover-border-color\npackages/amis-ui/scss/_components.scss:99:    --amis-Button-primary-hover-border-color\npackages/amis-ui/scss/_components.scss:104:    --amis-Button-primary-hover-border-color\npackages/amis-ui/scss/_components.scss:109:  --button-primary-hover-bg-color: var(--amis-Button-primary-hover-bg);\npackages/amis-ui/scss/_components.scss:110:  --button-primary-hover-font-color: var(--amis-Button-primary-hover-color);\npackages/amis-ui/scss/_components.scss:112:    --amis-Button-primary-active-border-color\npackages/amis-ui/scss/_components.scss:117:    --amis-Button-primary-active-border-color\npackages/amis-ui/scss/_components.scss:122:    --amis-Button-primary-active-border-color\npackages/amis-ui/scss/_components.scss:127:    --amis-Button-primary-active-border-color\npackages/amis-ui/scss/_components.scss:132:  --button-primary-active-bg-color: var(--amis-Button-primary-active-bg);\npackages/amis-ui/scss/_components.scss:133:  --button-primary-active-font-color: var(--amis-Button-primary-active-color);\npackages/amis-ui/scss/components/_button.scss:2:  --amis-Button-display: inline-flex;\npackages/amis-ui/scss/components/_button.scss:3:  --amis-Button-background: transparent;\npackages/amis-ui/scss/components/_button.scss:4:  --amis-Button-transition: var(--Button-transition);\npackages/amis-ui/scss/components/_button.scss:5:  --amis-Button-white-space: nowrap;\npackages/amis-ui/scss/components/_button.scss:6:  --amis-Button-min-width: auto;\npackages/amis-ui/scss/components/_button.scss:10:  display: var(--amis-Button-display, inline-flex);\npackages/amis-ui/scss/components/_button.scss:16:  background: var(--amis-Button-background, transparent);\npackages/amis-ui/scss/components/_button.scss:17:  transition: var(--amis-Button-transition);\npackages/amis-ui/scss/components/_button.scss:18:  white-space: var(--amis-Button-white-space, nowrap);\npackages/amis-ui/scss/components/_button.scss:19:  min-width: var(--amis-Button-min-width, auto);\n",
+      "stderr": "",
+      "id": "CMD-004",
+      "core": true,
+      "failure_handling": "fix-or-block"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003"
+  }
+}

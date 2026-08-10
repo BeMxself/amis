@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-stylesheet-stable-selector-build",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-design.md",
+    "checklist": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-gate-results.json"
+  },
+  "input_digests": {
+    "design": "fc3f2686f84baee34101bc80099b34737a804c0fb372711c9aceba4935b056f9",
+    "checklist": "26909db26d0523a0fd9a789bf2c1b4a4ab3dff6dad6ff6dc860d78add964a016",
+    "dod_results": "1f224caf7de58a7b239310a6de3528f140a1c42b2ee5a00b576aa6a8a9fc4e7c",
+    "gate_results": "02ecbdccd0d8bc316302242eb25a943e6922ecfac385cb4c1169d8c6c2d4a481",
+    "out": "642d9b92467c8220ed4b645e2cf8a797df8845b2707afe8f855948d2b1f39549"
+  }
+}

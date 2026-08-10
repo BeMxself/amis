@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-theme-system-validation-docs-rollout",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-design.md",
+    "checklist": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-gate-results.json"
+  },
+  "input_digests": {
+    "design": "752390f3bef4b068564af7add2d1b64ee18ccb8080479e46f99b7a04a2a3d5e5",
+    "checklist": "696ec2727e5a7f7d9aadd4ba5abd8bad3f9985083b901a08e59bee7cf2cbc6c1",
+    "dod_results": "5f7fbe28c2267b3965d38d958df09ab638163670573ebe097ba3d571f488c277",
+    "gate_results": "895768f4d3e752b9228cd805b47a45c5b6d18763ab77e305274751d6d9320e14",
+    "out": "27db1c2735224b3dbeb43e147857bce654f150f730ee19b9deff0d111c6594cc"
+  }
+}

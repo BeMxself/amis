@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-design.md",
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-gate-results.json"
+  },
+  "input_digests": {
+    "design": "33c60f2cfbca6cd6ea74346cb823de7d241781de143cbd6f2c56c1aeceeca632",
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003",
+    "dod_results": "6a26d0b6fa56006f03802ab07db98f17f54ac04351888608aa69be959d4e5b0c",
+    "gate_results": "7119c5e13bc732c561f13b5bd56d2802da1c3b856f315bcc45d7b98c2e67fd7c",
+    "out": "cbfa2cca2f4acbbefb9f6dcafbae89cbaa9251062247d45136b2c44c169a5ee9"
+  }
+}

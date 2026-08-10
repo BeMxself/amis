@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-overlay-theme-scope-propagation",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-design.md",
+    "checklist": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-gate-results.json"
+  },
+  "input_digests": {
+    "design": "0156136019acb18231aae375020f7b73353e0e694088c8c202cb71e41a257f57",
+    "checklist": "5ff0e571bc477460c15ce91d48776869f68d9c7208a2eb0e17b4194aa791b6d3",
+    "dod_results": "b4d534048b7718fcb3c2adadaf610ac696e1e7570dcc63a78f67e174342e6cc2",
+    "gate_results": "e44877f3190dabebdd61c0ef5667beaae7f33da17fbd212a0588a3f55146a469",
+    "out": "551393cb5753cf4060395fef90959ff9d76b985bb140a02e74b2293f1de74924"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "gate_id": "scope-gate",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-checklist.yaml",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-dod-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-24-theme-runtime-button-pilot",
+        ".codestable/features/2026-07-24-theme-runtime-button-pilot",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-24-theme-runtime-button-pilot",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-24-theme-runtime-button-pilot"
+  },
+  "input_digests": {}
+}

@@ -1,0 +1,136 @@
+feature: 2026-07-25-core-component-selector-migration
+created: 2026-07-25
+
+steps:
+  - action: "实现准入与基线：确认 stylesheet-stable-selector-build 和 overlay-theme-scope-propagation 已 done，并记录 selector/test 基线"
+    exit_signal: "items.yaml 依赖状态可证，baseline ledger 能解释当前核心组件命中"
+    status: done
+  - action: "Migration ledger：建立组件级迁移清单，覆盖 Button/Form/Select/Dialog/Table/Table2/Dropdown/Tooltip/Popover/Page/Layout"
+    exit_signal: "每个目标组件都有 SCSS、DOM query、token、测试入口和未迁移状态"
+    status: done
+  - action: "Wave A：迁移 Button 后续 modifier/mixin 与 Form 基础控件 selector/token"
+    exit_signal: "Button/Form targeted tests 或 snapshots 证明 DOM class 与样式路径稳定"
+    status: done
+  - action: "Wave B：迁移 Dialog/Drawer/Modal 与 Dropdown/Tooltip/Popover/Select 的 SCSS 和 DOM selector dependency"
+    exit_signal: "Dialog/Tooltip/Select/DropDownButton targeted tests 通过，selector guard 无新增 legacy 命中"
+    status: done
+  - action: "Wave C：迁移 Table/Table2 与 Page/Layout 选择器，核对固定列、拖拽、筛选、toolbar、aside/layout"
+    exit_signal: "Table/Table2/Page/Layout targeted snapshots 或测试通过，DOM query 不依赖主题前缀"
+    status: done
+  - action: "剩余命中分类与反向核对：把未迁移命中写入 ledger/allowlist，确认 editor/helper、legacy alias、非目标组件未被误改"
+    exit_signal: "剩余命中均有分类、owner 和退出条件，无未解释 .cxd-* / #{$ns} 新增"
+    status: done
+  - action: "验证与交接：运行 stylelint、selector guard、targeted tests 和 grep，形成 legacy-prefix-teardown 可消费的交接材料"
+    exit_signal: "命令输出、ledger 和剩余 legacy 命中说明均可供 legacy-prefix-teardown 直接消费"
+    status: done
+
+checks:
+  - item: "implementation 开始前重新确认依赖项 status=done，design-review passed 只允许 design admission"
+    source: 关键决策
+    status: passed
+  - item: "migration ledger 复用 stylesheet-stable-selector-build 的 inventory/allowlist/guard，不另起平行 selector 数据源"
+    source: 名词契约
+    status: passed
+  - item: "classPrefix 依赖已分类为 DOM selector dependency、legacy props passthrough、runtime alias 或 out-of-scope"
+    source: 名词契约
+    status: passed
+  - item: "Wave A 覆盖 Button 后续和 Form 基础控件，且不回退 Button pilot"
+    source: 推进策略
+    status: passed
+  - item: "Wave B 覆盖 Dialog/Drawer/Modal、Dropdown/Tooltip/Popover/Select，且不改变浮层/关闭/定位语义"
+    source: 推进策略
+    status: passed
+  - item: "Wave C 覆盖 Table/Table2、Page/Layout，且不改变表格固定列、拖拽、筛选、toolbar、aside/layout 行为"
+    source: 推进策略
+    status: passed
+  - item: "目标组件 SCSS 不新增 .cxd-* / .antd-* / .dark-* 公共选择器"
+    source: 范围守护
+    status: passed
+  - item: "目标组件 DOM 主路径使用 .amis-*，默认不依赖 .cxd-*"
+    source: 验收场景
+    status: passed
+  - item: "主题差异通过 component/state token 或 [data-amis-theme] 作用域表达"
+    source: 验收场景
+    status: passed
+  - item: "未迁移 #{$ns} / .cxd-* / classPrefix 命中均有 ledger 分类、owner 和退出条件"
+    source: 交接契约
+    status: passed
+  - item: "不迁移 editor/theme-editor helper、.AMISCSSWrapper、历史 schema 或 generated CSS"
+    source: 明确不做
+    status: passed
+  - item: "不删除 classPrefix 字段，不关闭 DOM-only .cxd-* alias，不执行 legacy-prefix-teardown"
+    source: 明确不做
+    status: passed
+  - item: "selector guard 是必跑命令；若前置项未提供真实命令，实现阶段必须阻塞或回前置项补齐"
+    source: 验证入口
+    status: passed
+  - item: "targeted tests / snapshots 覆盖 Button/Form/Dialog/Tooltip/Select/DropDownButton/Table"
+    source: DoD
+    status: passed
+  - item: "acceptance 能从 git diff、ledger、guard 输出和 roadmap 状态核验所有承诺产物"
+    source: DoD
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm run stylelint"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm run check:theme-selectors --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "npm test --workspace amis -- button"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-004
+      command: "npm test --workspace amis -- Dialog"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "npm test --workspace amis -- Tooltip"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-006
+      command: "npm test --workspace amis -- Select"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-007
+      command: "npm test --workspace amis -- DropDownButton"
+      core: false
+      failure_handling: fix-or-block
+    - id: CMD-008
+      command: "npm test --workspace amis -- Table"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-012
+      command: "npm test --workspace amis -- drawer"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-009
+      command: "rg -n -F '#{$ns}' packages/amis-ui/scss/components packages/amis-ui/scss/_mixins.scss"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-010
+      command: "rg -n \"\\.cxd-|\\.antd-|\\.dark-|classPrefix\" packages/amis-core/src packages/amis-ui/src packages/amis/src packages/amis-ui/scss"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-011
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - migration_ledger
+    - command_output
+    - targeted_tests
+    - DOM_snapshots
+    - selector_guard_output
+    - remaining_legacy_inventory
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

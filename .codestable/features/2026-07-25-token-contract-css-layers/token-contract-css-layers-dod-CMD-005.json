@@ -1,0 +1,26 @@
+{
+  "gate_id": "dod-runner",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "command": "rg -n \"\\.cxd-|#\\{\\$ns\\}\" packages/amis-ui/scss",
+      "exit_code": 0,
+      "stdout": "packages/amis-ui/scss/components/_mobile-dev-tool.scss:26:    .cxd-PopOver {\npackages/amis-ui/scss/components/form/_form.scss:186:      // 兼容 @media (min-width: 576px) .cxd-Form-control--sizeLg\npackages/amis-ui/scss/components/_condition-builder.scss:178:        & > .cxd-Button:not(:last-child) {\n",
+      "stderr": "",
+      "id": "CMD-005",
+      "core": true,
+      "failure_handling": "document-baseline"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-token-contract-css-layers",
+  "inputs": {
+    "checklist": ".codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml"
+  },
+  "input_digests": {
+    "checklist": "196e9925232d6b4cef7b8646731fcc4f812e8323f09167a7f1a63b9d67202003"
+  }
+}

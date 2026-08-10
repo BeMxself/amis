@@ -1,0 +1,108 @@
+feature: 2026-07-25-token-contract-css-layers
+created: 2026-07-25
+
+steps:
+  - action: "微重构入口：建立 token contract 目录/入口，并保持旧 _properties.scss 导入链可用"
+    exit_signal: "新增 token contract 入口可被主题入口或 _properties.scss 引入，现有组件消费点无需同步迁移"
+    status: done
+  - action: "契约骨架：声明 canonical CSS layer 顺序和 --amis-* token taxonomy"
+    exit_signal: "SCSS fixture 或主题入口中可观察 @layer amis.reset, amis.tokens, amis.components, amis.theme, amis.user，以及 palette→semantic→component/state token 链"
+    status: done
+  - action: "旧 token alias：集中映射 --colors-*、--Button* / --button-* 到新 token contract"
+    exit_signal: "旧 token 仍能解析，新增 alias 集中在 token contract 入口或明确允许的兼容入口，不散落到组件文件"
+    status: done
+  - action: "主题覆写入口：让 cxd/dark/antd/default 的 token 覆写走 [data-amis-theme] 或 amis.theme 层"
+    exit_signal: "主题差异不依赖新增 .cxd-* selector，且 IE11 入口只保留静态 CSS 降级边界"
+    status: done
+  - action: "构建验证：补齐 stylelint/build/grep 或 fixture 检查"
+    exit_signal: "核心验证命令通过；若全量 build/typecheck 有既有红灯，已记录归因并不阻断可核验契约"
+    status: done
+  - action: "范围收口：记录后续 selector build、component migration、editor migration 和 docs rollout 的交接边界"
+    exit_signal: "implementation/QA/acceptance artifact 能反向核对本 feature 未迁移全组件、未迁移 editor/helper、未新增 SCSS legacy selector 兼容"
+    status: done
+
+checks:
+  - item: "TokenContract 明确定义 palette → semantic → component → state 分层"
+    source: 名词契约
+    status: passed
+  - item: "新增公共 token 使用 --amis-* 命名空间"
+    source: 名词契约
+    status: passed
+  - item: "旧 --colors-*、--Button* / --button-* token 映射集中治理，不在组件文件散落新增"
+    source: 名词契约
+    status: passed
+  - item: "CSS layer 顺序固定为 amis.reset、amis.tokens、amis.components、amis.theme、amis.user"
+    source: 编排骨架
+    status: passed
+  - item: "主题包 token 覆写通过 [data-amis-theme] 或 amis.theme 层进入"
+    source: 编排骨架
+    status: passed
+  - item: "用户覆写边界是 amis.user 或更晚加载 CSS，不要求用户理解主题前缀"
+    source: 流程级约束
+    status: passed
+  - item: "IE11 只作为静态 CSS 降级边界，不承诺动态 token 主题切换"
+    source: 流程级约束
+    status: passed
+  - item: "挂载点仅限 token contract SCSS 入口、主题 SCSS 入口、构建/验证 fixture 和 CodeStable artifact"
+    source: 挂载点
+    status: passed
+  - item: "不迁移全部组件 SCSS 或 #{$ns} selector"
+    source: 范围守护
+    status: passed
+  - item: "不迁移 editor/theme-editor helper、ParseThemeData 或 AMISCSSWrapper"
+    source: 范围守护
+    status: passed
+  - item: "不输出 .cxd-* SCSS/CSS legacy selector 兼容层"
+    source: 范围守护
+    status: passed
+  - item: "构建产物或 fixture 可观察 canonical layer 顺序"
+    source: 验收场景
+    status: passed
+  - item: "--amis-* token 链路可观察且旧 token alias 继续可读"
+    source: 验收场景
+    status: passed
+  - item: "新增/修改 diff 能证明后续 feature 边界没有被偷塞进本项"
+    source: 验收场景
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm run stylelint"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm run build --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "rg -n \"@layer amis\\.reset, amis\\.tokens, amis\\.components, amis\\.theme, amis\\.user\" packages/amis-ui/scss"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-004
+      command: "rg -n -- \"--amis-(palette|color|Button)\" packages/amis-ui/scss"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "rg -n \"\\.cxd-|#\\{\\$ns\\}\" packages/amis-ui/scss"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-006
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-token-contract-css-layers/token-contract-css-layers-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-007
+      command: "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json"
+      core: false
+      failure_handling: document-baseline
+  evidence_required:
+    - command_output
+    - diff_summary
+    - fixture_or_build_css
+    - selector_grep
+    - baseline_notes
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

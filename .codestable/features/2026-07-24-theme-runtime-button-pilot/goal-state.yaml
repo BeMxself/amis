@@ -1,0 +1,15 @@
+feature: "2026-07-24-theme-runtime-button-pilot"
+status: passed
+baseline_ref: "0e1b07b495a14a6df2d06d21cdbae1807b3669ff"
+stage: complete
+driver_kind: none
+driver_id: ""
+acceptance_authorization: approved
+acceptance_authorization_ref: "approval-report.md#goal-acceptance"
+handoff_reason: ""
+handoff_next: ""
+design: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-design.md"
+checklist: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-checklist.yaml"
+review: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-review.md"
+qa: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-qa.md"
+acceptance: ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-acceptance.md"

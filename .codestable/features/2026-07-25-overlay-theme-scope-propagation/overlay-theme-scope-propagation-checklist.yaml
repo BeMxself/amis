@@ -1,0 +1,124 @@
+feature: 2026-07-25-overlay-theme-scope-propagation
+created: 2026-07-25
+
+steps:
+  - action: "基线预检：记录 Overlay/Modal 当前 container 解析和高风险调用点"
+    exit_signal: "列出默认 body、自定义 container、env.getModalContainer、containerSelector 的现状证据"
+    status: done
+  - action: "Scope helper：实现 ThemeScope DOM helper 和幂等 apply 规则"
+    exit_signal: "单测覆盖从 context/env 得到 scope、写入/保留 container scope、跨 document 不串线"
+    status: done
+  - action: "Overlay 接入：在 Overlay portal 边界应用 scope"
+    exit_signal: "Tooltip/Popover/Dropdown/Select 代表路径在 body/custom container 下可观察 data-amis-theme"
+    status: done
+  - action: "Modal 接入：在 Modal/Dialog/Drawer 主 portal 边界应用 scope"
+    exit_signal: "Dialog/Drawer 默认 container 和自定义 container 下可观察正确 data-amis-theme，拖拽/closeOnOutside 不被破坏"
+    status: done
+  - action: "多 root 与 preview 验证：覆盖两个 amis root 不同 theme、editor preview、iframe preview 代表场景"
+    exit_signal: "每个场景都有 DOM 断言或手工证据路径"
+    status: done
+  - action: "范围收口：记录未迁移的 editor/theme-editor CSS、第三方库浮层和组件选择器迁移边界"
+    exit_signal: "diff 未触碰无关迁移，QA/acceptance 能反向核对范围"
+    status: done
+
+checks:
+  - item: "OverlayThemeScope helper 是唯一 DOM scope applicator"
+    source: 名词契约
+    status: passed
+  - item: "getNearestThemeScope / applyThemeScope / resolveOverlayContainer 或等价 helper 语义清晰"
+    source: 名词契约
+    status: passed
+  - item: "Overlay portal 边界能传播触发 root 的 data-amis-theme"
+    source: 编排骨架
+    status: passed
+  - item: "Modal/Dialog/Drawer portal 边界能传播触发 root 的 data-amis-theme"
+    source: 编排骨架
+    status: passed
+  - item: "多 amis root 场景下浮层不回退到全局默认主题"
+    source: 流程级约束
+    status: passed
+  - item: "custom container 已有 data-amis-theme 时优先保留其 scope"
+    source: 流程级约束
+    status: passed
+  - item: "iframe/editor preview 不跨 document 写 scope"
+    source: 流程级约束
+    status: passed
+  - item: "挂载点仅限 helper、Overlay 接入、Modal 接入、targeted tests 和 CodeStable artifact"
+    source: 挂载点
+    status: passed
+  - item: "不改 Overlay 定位、RootClose、offset、scroll parent 语义"
+    source: 范围守护
+    status: passed
+  - item: "不改 Modal 动画、拖拽、closeOnOutside 语义"
+    source: 范围守护
+    status: passed
+  - item: "不迁移 editor/theme-editor CSS 或组件 SCSS"
+    source: 范围守护
+    status: passed
+  - item: "Tooltip / Dropdown / Select 在 body/custom container 下可观察 scope"
+    source: 验收场景
+    status: passed
+  - item: "Dialog / Drawer / Modal 在默认和自定义 container 下可观察 scope"
+    source: 验收场景
+    status: passed
+  - item: "两个 root 不同 theme 时 portal scope 不串线"
+    source: 验收场景
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm test --workspace amis-core -- theme"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm test --workspace amis -- Dialog"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-003
+      command: "npm test --workspace amis -- Tooltip"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-004
+      command: "npm test --workspace amis -- Select"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-005
+      command: "npm run stylelint"
+      core: false
+      failure_handling: fix-or-block
+    - id: CMD-006
+      command: "rg -n \"data-amis-theme|getNearestThemeScope|applyThemeScope|resolveOverlayContainer\" packages/amis-core packages/amis-ui packages/amis"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-007
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-008
+      command: "npm test --workspace amis-core -- Overlay"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-009
+      command: "npm test --workspace amis -- renderers/Dialog.test.tsx"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-010
+      command: "npm test --workspace amis -- DrawerThemeScope"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-011
+      command: "npm test --workspace amis -- OverlayThemeScope"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - command_output
+    - DOM_assertions
+    - multi_root_fixture
+    - preview_boundary_notes
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

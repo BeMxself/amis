@@ -1,0 +1,61 @@
+{
+  "gate_id": "scope-gate",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-design.md",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-items.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-roadmap.md",
+        "docs/zh-CN/components/form/transfer.md",
+        "docs/zh-CN/extend/contribute.md",
+        "docs/zh-CN/start/getting-started.md",
+        "docs/zh-CN/style/css-vars.md",
+        "docs/zh-CN/style/index.md",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/bad/legacy-dom-selector.tsx",
+        "packages/amis-ui/scripts/theme-selectors/fixtures/good/stable-dom-selector.tsx",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-docs-examples-grep-output.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-docs-migration-map.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-examples-inventory.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-ie11-static-fallback-notes.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-manual-validation-notes.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-release-risk-record.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-acceptance.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-implementation.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-qa.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-review.md",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-scope-gate.json",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-matrix.md"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-dod-results.json",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-evidence-pack-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout",
+        ".codestable/features/2026-07-25-theme-system-validation-docs-rollout",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-items.yaml",
+        ".codestable/roadmap/theme-system-refactor/theme-system-refactor-roadmap.md",
+        "docs/zh-CN/start/getting-started.md",
+        "docs/zh-CN/style/index.md",
+        "docs/zh-CN/style/css-vars.md",
+        "docs/zh-CN/extend/contribute.md",
+        "docs/zh-CN/components/form/transfer.md",
+        "packages/amis-ui/scripts/theme-selectors/fixtures"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-theme-system-validation-docs-rollout",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-25-theme-system-validation-docs-rollout"
+  },
+  "input_digests": {}
+}

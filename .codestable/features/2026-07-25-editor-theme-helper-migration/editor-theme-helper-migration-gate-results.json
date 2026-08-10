@@ -1,0 +1,47 @@
+{
+  "gate_id": "scope-gate",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-checklist.yaml",
+        "packages/amis-editor-core/src/component/IFramePreview.tsx",
+        "packages/amis-editor-core/src/component/Panel/RightPanels.tsx",
+        "packages/amis-editor-core/src/component/Preview.tsx",
+        "packages/amis-editor-core/src/component/ScaffoldModal.tsx",
+        "packages/amis-editor-core/src/manager.ts",
+        "packages/amis-editor-core/src/util.ts",
+        "packages/amis-editor/src/plugin/Collapse.tsx",
+        "packages/amis-theme-editor-helper/src/helper/ParseThemeData.ts",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-evidence-pack.md",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-helper-scss-inventory.md",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-implementation.md",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-review-packet.md",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-scope-gate.json",
+        "packages/amis-editor-core/__tests__/themeCssMigration.test.ts",
+        "packages/amis-editor-core/__tests__/themeScope.test.ts",
+        "packages/amis-editor-core/src/themeScope.ts",
+        "packages/amis-theme-editor-helper/__tests__/ParseThemeData.test.ts"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-dod-results.json",
+        ".codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-evidence-pack-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-25-editor-theme-helper-migration",
+        "packages/amis-editor-core",
+        "packages/amis-editor",
+        "packages/amis-theme-editor-helper"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-editor-theme-helper-migration",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-25-editor-theme-helper-migration"
+  },
+  "input_digests": {}
+}

@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-core-component-selector-migration",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-design.md",
+    "checklist": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-gate-results.json"
+  },
+  "input_digests": {
+    "design": "b0fce31401150b8730f9a2f23dbc88459f902de5080db8c2a84a983710fa2536",
+    "checklist": "11ab4099d8121efe8c950101843a834b3b0827116a9d1a871d7124e8fee23005",
+    "dod_results": "73c4a98b099c5e2d4206fcadccaf4fa625591d8e1cf10dfdd0bcfd2c2e61dd57",
+    "gate_results": "de0c894c20f5d62cb3bca14c0a35af71020f049e4541ee95b9510c15b52a41df",
+    "out": "ae5c25c4a1428805b61aa4a6c56dac73a78e05bb782c0ffbf6e267e275e327a4"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-legacy-prefix-teardown",
+  "inputs": {
+    "design": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-design.md",
+    "checklist": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-checklist.yaml",
+    "out": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-25-legacy-prefix-teardown/legacy-prefix-teardown-gate-results.json"
+  },
+  "input_digests": {
+    "design": "05c7a00ad560d1ac75374c3a8db5ed634b47a2c1d2615e8a829a36563cf56f56",
+    "checklist": "2c02742dee628b4843ab731f77e861a082d88df0b985e73ed7b5df27a3f4e511",
+    "dod_results": "857a8f3d55b80124471a5517e512e3a906d63c5dc727f060dddbba717c0f1afb",
+    "gate_results": "85d3088974da9b222ddf2eb4046cf5ee7e4ceefa99c48abf26b8a8e49fbeb55c",
+    "out": "f03b80f587666a33cc1c2e3a3d3585a2f6a754f56e130f3af9adf9174443091a"
+  }
+}

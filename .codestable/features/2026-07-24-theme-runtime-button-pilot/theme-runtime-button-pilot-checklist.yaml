@@ -1,0 +1,102 @@
+feature: 2026-07-24-theme-runtime-button-pilot
+created: 2026-07-24
+
+steps:
+  - action: "基线预检：确认 targeted test、selector grep 和当前 diff 基线"
+    exit_signal: "预检命令有记录，且 worktree diff 只包含本 feature 相关文件"
+    status: done
+  - action: "运行时契约：建立 ThemeScope、stable classnames 和显式 DOM-only alias 规则"
+    exit_signal: "amis-core theme 测试证明默认 .amis-*、alias 开启时 .amis-* + .cxd-*、主题回退一致，且 theme() 更新后缓存不陈旧"
+    status: done
+  - action: "Root 作用域：用同一规范化 themeName 驱动 env.theme、ThemeContext 和 data-amis-theme"
+    exit_signal: "Root scope 容器能读到 data-amis-theme=\"cxd\"，既有 root wrapper 顺序不被破坏，且 Button 使用同一主题实例"
+    status: done
+  - action: "Button 样式闭环：建立最小 .amis-Button selector 与 scoped token proof"
+    exit_signal: "样式侧存在 .amis-Button 与 [data-amis-theme] token 路径，且不生成 .cxd-Button 库 selector"
+    status: done
+  - action: "DOM alias 验证：覆盖 alias 关闭和显式开启两条 Button DOM 路径"
+    exit_signal: "关闭时 DOM 无 .cxd-Button；开启时 DOM 同时有 .amis-Button 与 .cxd-Button"
+    status: done
+  - action: "范围守护：核对没有扩展到全组件、editor、overlay 或 SCSS legacy selector 兼容"
+    exit_signal: "新增 .cxd-*、classPrefix、#{$ns} 命中均有允许原因，且 git diff 未触碰 editor/overlay 迁移"
+    status: done
+  - action: "收尾验证：运行 targeted test、typecheck、stylelint 和 selector grep"
+    exit_signal: "核心命令通过；若有既有红灯，已记录基线归因并阻断或交由 owner 决策"
+    status: done
+
+checks:
+  - item: "ThemeInstance.classnames 默认输出稳定 .amis-*，不再由 classPrefix 决定组件身份"
+    source: 名词契约
+    status: passed
+  - item: "ThemeConfig.legacyDomClassAlias 只允许显式开启 DOM-only .cxd-* alias"
+    source: 名词契约
+    status: passed
+  - item: "Root DOM attribute、ThemeContext 和 env.theme 来自同一规范化 themeName"
+    source: 编排骨架
+    status: passed
+  - item: "ThemeScopeRoot 或等价根容器输出 data-amis-theme，且不破坏既有 addRootWrapper 顺序"
+    source: 编排骨架
+    status: passed
+  - item: "theme() 更新 legacyDomClassAlias 后，后续 classnames 不使用陈旧缓存"
+    source: 流程级约束
+    status: passed
+  - item: "Button 不手写 legacy alias，只继续消费注入的 classnames"
+    source: 流程级约束
+    status: passed
+  - item: "本 feature 的挂载点仅限 ThemeConfig alias、stable classnames、Root data-amis-theme、Button 最小样式 proof"
+    source: 挂载点
+    status: passed
+  - item: "不迁移 Form、Select、Dialog、Table、Dropdown、Tooltip、Popover 等其他组件"
+    source: 范围守护
+    status: passed
+  - item: "不迁移 editor/theme-editor 的 .cxd-* 生成、查询或历史 schema"
+    source: 范围守护
+    status: passed
+  - item: "不输出 .cxd-Button 库 CSS selector，不做 SCSS/CSS legacy selector 双轨"
+    source: 范围守护
+    status: passed
+  - item: "默认 Button DOM 包含 .amis-Button 且不包含 .cxd-Button"
+    source: 验收场景
+    status: passed
+  - item: "alias 开启时 Button DOM 同时包含 .amis-Button 与 .cxd-Button"
+    source: 验收场景
+    status: passed
+  - item: "Root 渲染路径可观察 data-amis-theme=\"cxd\""
+    source: 验收场景
+    status: passed
+  - item: "先 getTheme 后 theme() 开启 alias 的顺序有单测覆盖"
+    source: 验收场景
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm test --workspace amis-core -- theme"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm test --workspace amis -- button"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "npm run typecheck"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-004
+      command: "npm run stylelint"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "rg -n \"\\.cxd-Button|#\\{\\$ns\\}Button|legacyDomClassAlias|componentClassPrefix|data-amis-theme\" packages/amis-core packages/amis-ui packages/amis"
+      core: true
+      failure_handling: document-baseline
+  evidence_required:
+    - command_output
+    - diff_summary
+    - test_assertions
+    - selector_grep
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

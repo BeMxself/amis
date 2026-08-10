@@ -1,0 +1,35 @@
+{
+  "gate_id": "dod-contract-gate",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "design": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-design.md",
+      "checked_block": "DoD Contract",
+      "structure_checks": {
+        "validation command id": [
+          "CMD-"
+        ],
+        "command core marker": [
+          "core",
+          "核心性"
+        ],
+        "failure handling marker": [
+          "failure_handling",
+          "失败处理"
+        ]
+      },
+      "strength": "minimal DoD Contract section check"
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-24-theme-runtime-button-pilot",
+  "inputs": {
+    "design": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-design.md"
+  },
+  "input_digests": {
+    "design": "e73eb040f1bc141455d590edc48e127cebb438e94212a5a487b8aca16446ee56"
+  }
+}

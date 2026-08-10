@@ -1,0 +1,40 @@
+{
+  "gate_id": "evidence-pack",
+  "stage": "acceptance",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "out": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-evidence-pack.md",
+      "providers": {
+        "archguard": {
+          "status": "skipped",
+          "reason": "archguard collection disabled",
+          "warnings": []
+        },
+        "meta_cc": {
+          "status": "skipped",
+          "reason": "meta-cc collection disabled",
+          "warnings": []
+        }
+      }
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-24-theme-runtime-button-pilot",
+  "inputs": {
+    "design": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-design.md",
+    "checklist": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-checklist.yaml",
+    "out": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-evidence-pack.md",
+    "dod_results": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-dod-results.json",
+    "gate_results": ".codestable/features/2026-07-24-theme-runtime-button-pilot/theme-runtime-button-pilot-gate-results.json"
+  },
+  "input_digests": {
+    "design": "e73eb040f1bc141455d590edc48e127cebb438e94212a5a487b8aca16446ee56",
+    "checklist": "a36acd359d43d6cde7660fd02b9bd0145ac445d2a55a0a2574802870cd6c4b6f",
+    "dod_results": "727580def75393e893dbbc0e49d929e2233ab7b7fa5b08b3dc43894bf6267e82",
+    "gate_results": "6de4f0de20bd02199b729b4bd33414854ebd94e78028fb28a8b1df908082f709",
+    "out": "4f5a5008279fe6652993550f933ec1ff74e9f85bca9b662c97f15873cebdd123"
+  }
+}

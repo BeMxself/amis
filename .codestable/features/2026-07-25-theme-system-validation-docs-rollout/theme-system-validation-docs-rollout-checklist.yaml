@@ -1,0 +1,117 @@
+feature: 2026-07-25-theme-system-validation-docs-rollout
+created: 2026-07-25
+
+steps:
+  - action: "实现准入与证据汇总：确认所有前置 feature done，读取 LegacyPrefixLedger、AliasRetentionRecord、selector guard、editor/helper notes、component ledger 和 overlay/editor 验证证据"
+    exit_signal: "每个前置 item 有 acceptance evidence；缺失项明确阻塞或回对应 feature"
+    status: done
+  - action: "Validation Matrix 建立：把 runtime、token、selector、overlay、component、editor、legacy alias、docs/examples 映射到命令、手工路径和证据文件"
+    exit_signal: "每个 ADR-001 核心契约都有至少一条核心证据和责任 feature"
+    status: done
+  - action: "DocsMigrationMap 与文档更新：更新 getting-started、contribute、style/css-vars、style/index 和必要主题指南，移除推荐 #{$ns} / .cxd-* 的新用法"
+    exit_signal: "docs grep 中旧前缀心智命中均被迁移、标为历史说明或文件名兼容"
+    status: done
+  - action: "ExamplesThemeInventory 与示例收口：扫描 examples/style.scss、sdk-placeholder、embed 和主题示例，迁移主路径或记录风险"
+    exit_signal: "examples 旧前缀命中均有分类；阻塞项被修复或进入 release risk record"
+    status: done
+  - action: "IE11 与 alias 迁移说明：把 IE11 静态 CSS 降级、DOM-only alias 默认关闭和人工复审策略写入 rollout notes"
+    exit_signal: "用户文档不暗示 IE11 动态 token；alias 文案只作为迁移辅助"
+    status: done
+  - action: "验证与发布风险记录：运行 build/test/guard/docs grep/examples grep，形成 ReleaseRiskRecord"
+    exit_signal: "核心命令通过或有基线归因；risk record 列出已知限制、迁移材料和发布判断"
+    status: done
+  - action: "acceptance 证据收口：回写 roadmap 状态，整理 final validation packet"
+    exit_signal: "acceptance 可从矩阵、文档 diff、examples inventory、命令输出和 risk record 反查完成状态"
+    status: done
+
+checks:
+  - item: "implementation 开始前重新确认 legacy-prefix-teardown status=done，design-review passed 只允许 design admission"
+    source: 关键决策
+    status: passed
+  - item: "Validation Matrix 覆盖 ADR-001 的 runtime、token、stable selector、theme scope、overlay、editor、legacy alias、docs/examples 契约"
+    source: Validation Matrix
+    status: passed
+  - item: "docs/zh-CN/extend/contribute.md 不再推荐 #{$ns} 生成 .cxd-*，改为 stable selector / helper / token 写法"
+    source: DocsMigrationMap
+    status: passed
+  - item: "getting-started 主题样式章节解释主题名、CSS 引入、data-amis-theme、token 和稳定类名的关系"
+    source: ThemeOverrideGuide
+    status: passed
+  - item: "style/css-vars 或新主题 token 指南解释 --amis-* 分层，不继续只列旧 token 作为主路径"
+    source: ThemeOverrideGuide
+    status: passed
+  - item: "DOM-only .cxd-* alias 被描述为显式迁移辅助，默认关闭，不是新定制入口"
+    source: AliasRetentionRecord
+    status: passed
+  - item: "IE11 文档明确静态 CSS 降级，不承诺动态 token 主题切换"
+    source: IE11 static fallback
+    status: passed
+  - item: "ExamplesThemeInventory 覆盖 examples/style.scss、sdk-placeholder、embed 和主题示例旧前缀命中"
+    source: Examples Inventory
+    status: passed
+  - item: "docs/examples 中保留的 cxd / antd / dark / #{$ns} / classPrefix 命中均分类为 historical、file-name compatibility、generated artifact、risk accepted 或 follow-up"
+    source: DocsMigrationMap / ExamplesThemeInventory
+    status: passed
+  - item: "ReleaseRiskRecord 包含 alias、IE11、旧前缀迁移、已知限制、验证摘要和发布判断"
+    source: Release Risk Record
+    status: passed
+  - item: "不修改 ADR 决策，不恢复 SCSS/CSS legacy selector 双轨，不自动发布或推送远端"
+    source: 范围守护
+    status: passed
+  - item: "acceptance 能从矩阵、文档 diff、examples inventory、grep output、manual notes 和 risk record 核验完成状态"
+    source: DoD
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "PYTHONPATH=/Users/songmingxu/Projects/gold-market/.venv/lib/python3.13/site-packages python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/codestable-workflow-next.py epic --roadmap .codestable/roadmap/theme-system-refactor --json"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm run typecheck"
+      core: false
+      failure_handling: document-baseline
+    - id: CMD-003
+      command: "npm run stylelint"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-004
+      command: "npm run check:theme-selectors --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-005
+      command: "npm test --workspace amis-core -- theme"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-006
+      command: "npm test --workspace amis -- button"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-007
+      command: "rg -n \"#\\{\\$ns\\}|\\.cxd-|\\.antd-|\\.dark-|classPrefix\" docs examples"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-008
+      command: "rg -n \"IE11|cxd-ie11|CSS 变量|data-amis-theme|--amis-|amis-\" docs/zh-CN/start docs/zh-CN/style docs/zh-CN/extend"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-009
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-theme-system-validation-docs-rollout/theme-system-validation-docs-rollout-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - ThemeSystemValidationMatrix
+    - DocsMigrationMap
+    - ExamplesThemeInventory
+    - ThemeOverrideGuide
+    - IE11StaticFallbackNotes
+    - ReleaseRiskRecord
+    - docs_examples_grep_output
+    - manual_validation_notes
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

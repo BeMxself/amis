@@ -1,0 +1,104 @@
+feature: 2026-07-25-stylesheet-stable-selector-build
+created: 2026-07-25
+
+steps:
+  - action: "基线扫描：统计现有 #{$ns}、.cxd-*、classPrefix 样式相关命中并建立 inventory"
+    exit_signal: "inventory 能解释现有主要命中，分类覆盖 SCSS、runtime DOM query、editor/helper、docs/generated，且不要求零命中"
+    status: done
+  - action: "分类与 allowlist：定义 selector taxonomy、允许范围、owner/退出条件和新增失败规则"
+    exit_signal: "allowlist 是机器可读或可被 guard 消费的结构，新增未分类命中默认失败"
+    status: done
+  - action: "SCSS helper：提供 .amis-* 与 [data-amis-theme] 的稳定 selector helper"
+    exit_signal: "helper 不输出 .cxd-*，Button proof 或 fixture 能使用 helper 路径"
+    status: done
+  - action: "Guard 命令：新增 selector policy 检查入口"
+    exit_signal: "guard 能读取 inventory/allowlist，并通过正例/反例 fixture 或等价测试证明新增违规会失败"
+    status: done
+  - action: "验证集成：记录 stylelint/build/guard/grep 的运行关系和基线归因"
+    exit_signal: "核心命令可运行；若 build/typecheck 存在既有红灯，已记录归因"
+    status: done
+  - action: "交接收口：明确后续 component migration 如何消费 helper、inventory 和 guard"
+    exit_signal: "implementation/QA/acceptance artifact 能反向核对本 feature 未迁移全组件、未迁移 editor/helper、未新增 SCSS legacy selector 兼容"
+    status: done
+
+checks:
+  - item: "Stable selector helper 只输出 .amis-* 和 [data-amis-theme] 公共路径"
+    source: 名词契约
+    status: passed
+  - item: "Selector inventory 分类覆盖 public-forbidden、dom-alias-generated、internal-legacy、docs-historical、generated-artifact、migration-target"
+    source: 名词契约
+    status: passed
+  - item: "Allowlist 有机器可读结构、分类原因和退出条件"
+    source: 名词契约
+    status: passed
+  - item: "Guard 默认阻止新增 .cxd-* / .antd-* / .dark-* SCSS 选择器"
+    source: 编排骨架
+    status: passed
+  - item: "Guard 默认阻止新增未分类 #{$ns} 组件选择器"
+    source: 编排骨架
+    status: passed
+  - item: "Guard 能区分既有 migration-target 与新增 public-forbidden"
+    source: 流程级约束
+    status: passed
+  - item: "DOM-only .cxd-* alias 不进入 SCSS helper，不生成库 CSS 兼容"
+    source: 流程级约束
+    status: passed
+  - item: "挂载点仅限 helper、inventory/allowlist、guard command 和 CodeStable artifact"
+    source: 挂载点
+    status: passed
+  - item: "不迁移 Form、Select、Dialog、Table、Dropdown、Tooltip、Popover 等核心组件"
+    source: 范围守护
+    status: passed
+  - item: "不迁移 editor/theme-editor helper 或历史 schema"
+    source: 范围守护
+    status: passed
+  - item: "不输出 .cxd-* SCSS/CSS legacy selector 双轨"
+    source: 范围守护
+    status: passed
+  - item: "新增违规 selector fixture 或等价测试会失败"
+    source: 验收场景
+    status: passed
+  - item: "允许的旧命中仍可通过 guard 且保留分类"
+    source: 验收场景
+    status: passed
+  - item: "Button pilot 的 .amis-Button proof 不被 guard 误判"
+    source: 验收场景
+    status: passed
+
+dod:
+  commands:
+    - id: CMD-001
+      command: "npm run stylelint"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-002
+      command: "npm run build --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-003
+      command: "rg -n -F '#{$ns}' packages/amis-ui/scss"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-004
+      command: "rg -n \"\\.cxd-|\\.antd-|\\.dark-\" packages/amis-ui/scss packages/amis-theme-editor-helper packages/amis-editor-core"
+      core: true
+      failure_handling: document-baseline
+    - id: CMD-005
+      command: "npm run check:theme-selectors --workspace amis-ui"
+      core: true
+      failure_handling: fix-or-block
+    - id: CMD-006
+      command: "python3 /Users/songmingxu/.agents/skills/cs-onboard/tools/validate-yaml.py --file .codestable/features/2026-07-25-stylesheet-stable-selector-build/stylesheet-stable-selector-build-checklist.yaml --yaml-only"
+      core: true
+      failure_handling: fix-or-block
+  evidence_required:
+    - command_output
+    - selector_inventory
+    - allowlist_diff
+    - guard_positive_negative_fixture
+    - diff_summary
+  cleanliness:
+    debug_output: forbidden
+    temporary_todo: forbidden
+    commented_code: forbidden
+    unused_import: forbidden

@@ -1,0 +1,152 @@
+{
+  "gate_id": "goal-consistency-gate",
+  "stage": "roadmap_audit.before_complete",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "authorizations": {
+        "acceptance_authorization": {
+          "status": "approved",
+          "reference": "approval-report.md#goal-acceptance",
+          "reason": ""
+        },
+        "commit_authorization": {
+          "status": "approved",
+          "reference": "approval-report.md#goal-commits",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "goal_execution_confirmation": {
+        "status": "approved",
+        "confirmation_id": "goal-execution-20260725160058",
+        "state_confirmation_id": "goal-execution-20260725160058",
+        "reason": ""
+      }
+    },
+    {
+      "feature": "theme-runtime-button-pilot",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "token-contract-css-layers",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "overlay-theme-scope-propagation",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "stylesheet-stable-selector-build",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "core-component-selector-migration",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "editor-theme-helper-migration",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "legacy-prefix-teardown",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    },
+    {
+      "feature": "theme-system-validation-docs-rollout",
+      "artifacts_checked": [
+        "acceptance",
+        "checklist",
+        "design",
+        "dod_contract_results",
+        "dod_results",
+        "evidence_pack",
+        "evidence_pack_results",
+        "gate_results",
+        "qa",
+        "review"
+      ]
+    }
+  ],
+  "providers": {}
+}

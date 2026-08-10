@@ -1,0 +1,57 @@
+{
+  "gate_id": "scope-gate",
+  "stage": "implementation.before_review",
+  "status": "passed",
+  "blocking": [],
+  "warnings": [],
+  "evidence": [
+    {
+      "changed_files": [
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/approval-report.md",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-checklist.yaml",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-design.md",
+        ".codestable/roadmap/theme-system-refactor/goal-state.yaml",
+        "packages/amis-core/__tests__/theme.test.ts",
+        "packages/amis-core/src/components/Overlay.tsx",
+        "packages/amis-core/src/index.tsx",
+        "packages/amis-core/src/theme.tsx",
+        "packages/amis-ui/src/components/Drawer.tsx",
+        "packages/amis-ui/src/components/Modal.tsx",
+        "packages/amis/__tests__/renderers/Dialog.test.tsx",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-evidence-pack.md",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-implementation.md",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-review-packet.md",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-review.md",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-scope-gate.json",
+        "packages/amis-core/__tests__/components/Overlay.test.tsx",
+        "packages/amis/__tests__/renderers/DrawerThemeScope.test.tsx",
+        "packages/amis/__tests__/renderers/OverlayThemeScope.test.tsx"
+      ],
+      "ignored_machine_artifacts": [
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-dod-results.json",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation/overlay-theme-scope-propagation-evidence-pack-results.json"
+      ],
+      "allowed_prefixes": [
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation",
+        ".codestable/features/2026-07-25-overlay-theme-scope-propagation",
+        ".codestable/roadmap/theme-system-refactor",
+        "packages/amis-core/src/theme.tsx",
+        "packages/amis-core/src/index.tsx",
+        "packages/amis-core/src/components/Overlay.tsx",
+        "packages/amis-core/__tests__/theme.test.ts",
+        "packages/amis-core/__tests__/components/Overlay.test.tsx",
+        "packages/amis-ui/src/components/Modal.tsx",
+        "packages/amis-ui/src/components/Drawer.tsx",
+        "packages/amis/__tests__/renderers/Dialog.test.tsx",
+        "packages/amis/__tests__/renderers/DrawerThemeScope.test.tsx",
+        "packages/amis/__tests__/renderers/OverlayThemeScope.test.tsx"
+      ]
+    }
+  ],
+  "providers": {},
+  "feature": "2026-07-25-overlay-theme-scope-propagation",
+  "inputs": {
+    "feature_dir": ".codestable/features/2026-07-25-overlay-theme-scope-propagation"
+  },
+  "input_digests": {}
+}
