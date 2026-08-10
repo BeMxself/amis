@@ -53,6 +53,7 @@ import LazyComponent from '../components/LazyComponent';
 import {isAlive} from 'mobx-state-tree';
 
 import type {LabelAlign} from './Item';
+import {getStableClassSelector} from '../theme';
 import {
   CustomStyleClassName,
   injectObjectChain,
@@ -1169,7 +1170,9 @@ export default class Form extends React.Component<FormProps, object> {
       renderer.focus();
     } else {
       this.formRef.current
-        ?.querySelector(`.${this.props.classPrefix}Form-feedback`)
+        ?.querySelector(
+          getStableClassSelector(this.props.classnames, 'Form-feedback')
+        )
         ?.scrollIntoView({
           behavior: 'smooth',
           block: 'center'

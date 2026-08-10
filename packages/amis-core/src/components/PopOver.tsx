@@ -6,7 +6,7 @@
 
 import React from 'react';
 import {findDomCompat as findDOMNode} from '../utils/findDomCompat';
-import {ClassNamesFn, themeable} from '../theme';
+import {ClassNamesFn, getStableClassSelector, themeable} from '../theme';
 import {autobind, camel, preventDefault, TestIdBuilder} from '../utils';
 import {SubPopoverDisplayedID} from './Overlay';
 
@@ -117,7 +117,7 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
   @autobind
   handleRootMouseDownCapture(e: MouseEvent) {
     const target = e.target as HTMLElement;
-    const {overlay: closeOnOutside, classPrefix: ns} = this.props;
+    const {overlay: closeOnOutside, classnames: cx} = this.props;
     const isLeftButton =
       (e.button === 1 && window.event !== null) || e.button === 0;
 
@@ -133,7 +133,8 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
         .find(n => n.startsWith(SubPopoverDisplayedID)) &&
       ((!this.wrapperRef.current.contains(target) &&
         !target.closest('[role=dialog]')) ||
-        (target.matches(`.${ns}Modal`) && target === this.wrapperRef.current))
+        (target.matches(getStableClassSelector(cx, 'Modal')) &&
+          target === this.wrapperRef.current))
     ); // 干脆过滤掉来自弹框里面的点击
   }
 

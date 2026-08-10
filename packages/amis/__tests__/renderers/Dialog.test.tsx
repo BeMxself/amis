@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   cleanup,
   fireEvent,
@@ -8,6 +9,7 @@ import {
 import '../../src';
 import {clearStoresCache, render as amisRender} from '../../src';
 import {makeEnv as makeEnvRaw, replaceReactAriaIds, wait} from '../helper';
+import {Drawer, Modal} from 'amis-ui';
 import rows from '../mockData/rows';
 import type {RenderOptions} from '../../src';
 
@@ -190,4 +192,151 @@ test('2. Renderer:dialog inner component with common action', async () => {
 
   expect(jumpTo).toBeCalledTimes(1);
   expect(jumpTo.mock.calls[0][0]).toBe('/api/filedown/zhuban');
+});
+
+test('Renderer:dialog applies theme scope to body portal dialog', async () => {
+  const {getByText} = render(
+    amisRender(
+      {
+        type: 'page',
+        body: {
+          type: 'button',
+          label: 'Open scoped dialog',
+          actionType: 'dialog',
+          dialog: {
+            title: 'Scoped dialog',
+            body: 'dialog body'
+          }
+        }
+      },
+      {},
+      makeEnv({})
+    )
+  );
+
+  fireEvent.click(getByText('Open scoped dialog'));
+
+  await waitFor(() => {
+    expect(document.body.querySelector('[role="dialog"]')).toHaveAttribute(
+      'data-amis-theme',
+      'cxd'
+    );
+  });
+});
+
+test('Renderer:dialog preserves custom modal container theme scope', async () => {
+  const modalContainer = document.createElement('div');
+  modalContainer.setAttribute('data-amis-theme', 'dark');
+  document.body.appendChild(modalContainer);
+
+  const {getByText} = render(
+    amisRender(
+      {
+        type: 'page',
+        body: {
+          type: 'button',
+          label: 'Open custom scoped dialog',
+          actionType: 'dialog',
+          dialog: {
+            title: 'Custom scoped dialog',
+            body: 'dialog body'
+          }
+        }
+      },
+      {},
+      makeEnv({
+        getModalContainer: () => modalContainer
+      })
+    )
+  );
+
+  fireEvent.click(getByText('Open custom scoped dialog'));
+
+  await waitFor(() => {
+    expect(modalContainer.querySelector('[role="dialog"]')).toHaveAttribute(
+      'data-amis-theme',
+      'dark'
+    );
+  });
+});
+
+test('Renderer:dialog does not fallback to body when custom modal container is unavailable', async () => {
+  const {getByText} = render(
+    amisRender(
+      {
+        type: 'page',
+        body: {
+          type: 'button',
+          label: 'Open unavailable container dialog',
+          actionType: 'dialog',
+          dialog: {
+            title: 'Unavailable dialog',
+            body: 'dialog body'
+          }
+        }
+      },
+      {},
+      makeEnv({
+        getModalContainer: () => null
+      })
+    )
+  );
+
+  fireEvent.click(getByText('Open unavailable container dialog'));
+  await wait(100);
+
+  expect(document.body.querySelector('[role="dialog"]')).toBeNull();
+});
+
+test('Components:Modal closes from stable root class on outside click', () => {
+  const onHide = jest.fn();
+
+  render(
+    <Modal show closeOnOutside onHide={onHide}>
+      <div>Modal body</div>
+    </Modal>
+  );
+
+  const modal = document.body.querySelector('.amis-Modal') as HTMLElement;
+  expect(modal).toBeInTheDocument();
+  expect(modal).toHaveClass('amis-Modal--1th');
+
+  fireEvent.mouseDown(modal, {button: 0});
+  fireEvent.mouseUp(modal, {button: 0});
+
+  expect(onHide).toHaveBeenCalledTimes(1);
+});
+
+test('Components:Drawer closes from stable overlay class on outside click', () => {
+  const onHide = jest.fn();
+
+  render(
+    <Drawer
+      show
+      closeOnOutside
+      overlay
+      position="left"
+      size="md"
+      container={document.body}
+      onHide={onHide}
+    >
+      <div>Drawer body</div>
+    </Drawer>
+  );
+
+  const drawer = document.body.querySelector('.amis-Drawer') as HTMLElement;
+  const overlay = document.body.querySelector(
+    '.amis-Drawer-overlay'
+  ) as HTMLElement;
+
+  expect(drawer).toBeInTheDocument();
+  expect(drawer).toHaveClass('amis-Drawer--left');
+  expect(drawer).toHaveClass('amis-Drawer--md');
+  expect(drawer).toHaveClass('amis-Modal--1th');
+  expect(overlay).toBeInTheDocument();
+
+  fireEvent.mouseDown(overlay, {button: 0});
+  fireEvent.mouseUp(overlay, {button: 0});
+
+  expect(onHide).toHaveBeenCalledTimes(1);
 });

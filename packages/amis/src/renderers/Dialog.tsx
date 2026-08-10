@@ -8,7 +8,8 @@ import {
   setVariable,
   setThemeClassName,
   ValidateError,
-  RendererEvent
+  RendererEvent,
+  getStableClassSelector
 } from 'amis-core';
 import {Renderer, RendererProps} from 'amis-core';
 import {SchemaNode, Schema, ActionObject} from 'amis-core';
@@ -387,7 +388,7 @@ export default class Dialog extends React.Component<DialogProps> {
   @autobind
   getPopOverContainer() {
     return (findDOMNode(this) as HTMLElement).querySelector(
-      `.${this.props.classPrefix}Modal-content`
+      getStableClassSelector(this.props.classnames, 'Modal-content')
     );
   }
 

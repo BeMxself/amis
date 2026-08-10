@@ -16,6 +16,7 @@ import LazyComponent from './components/LazyComponent';
 import {hasAsyncRenderers, loadAsyncRenderersByType} from './factory';
 import {dispatchEvent} from './utils/renderer-event';
 import {GlobalVariableItem} from './globalVar';
+import {getThemeScope} from './theme';
 
 export interface RootRendererProps extends RootProps {
   /**
@@ -107,6 +108,8 @@ export class RootRenderer extends React.Component<RootRendererProps> {
   }
 
   componentDidMount() {
+    this.applyRootThemeScope();
+
     // 不要设置太早，否则组件内部的监控可能会监控不到，因为初始值可能在监控之前就设置了。
     // 以至于监控不到变化。
     this.store.setGlobalVars(this.props.globalVars);
@@ -133,6 +136,8 @@ export class RootRenderer extends React.Component<RootRendererProps> {
   }
 
   componentDidUpdate(prevProps: RootRendererProps) {
+    this.applyRootThemeScope();
+
     const props = this.props;
 
     // 更新全局变量
@@ -172,6 +177,15 @@ export class RootRenderer extends React.Component<RootRendererProps> {
       'visibilitychange',
       this.handlePageVisibilityChange
     );
+  }
+
+  applyRootThemeScope() {
+    const node = findDOMNode(this) as HTMLElement;
+    const scope = getThemeScope(this.props.theme);
+
+    if (node) {
+      node.setAttribute(scope.attribute, scope.value);
+    }
   }
 
   handlePageVisibilityChange() {

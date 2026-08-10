@@ -13,11 +13,18 @@ import Transition, {
 } from 'react-transition-group/Transition';
 import Portal from 'react-overlays/Portal';
 import {Icon} from './icons';
-import cx from 'classnames';
 import {current, addModal, removeModal} from './ModalManager';
-import {ClassNamesFn, themeable} from 'amis-core';
+import {
+  applyThemeScope,
+  ClassNamesFn,
+  getThemeScope,
+  getStableClassName,
+  getStableClassSelector,
+  themeable
+} from 'amis-core';
+import type {ThemeScope} from 'amis-core';
 import {noop, autobind, getScrollbarWidth} from 'amis-core';
-import {getContainerWithFullscreen} from './Modal';
+import {getScopedContainerWithFullscreen} from './Modal';
 
 type DrawerPosition = 'top' | 'right' | 'bottom' | 'left';
 
@@ -46,6 +53,7 @@ export interface DrawerProps {
   drawerMaskClassName?: string;
   mobileUI?: boolean;
   onDragging?: (value: boolean) => void;
+  theme?: string;
 }
 
 export interface DrawerState {}
@@ -72,6 +80,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   modalDom: HTMLElement;
   contentDom: HTMLElement;
   isRootClosed = false;
+  portalThemeScope?: ThemeScope;
   resizer = React.createRef<HTMLDivElement>();
   resizeCoord: number = 0;
 
@@ -161,9 +170,10 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   modalRef = (ref: any) => {
     this.modalDom = ref;
     if (ref) {
+      applyThemeScope(ref as HTMLElement, this.portalThemeScope);
       addModal(this);
       (ref as HTMLElement).classList.add(
-        `${this.props.classPrefix}Modal--${current()}th`
+        getStableClassName(this.props.classnames, `Modal--${current()}th`)
       );
     } else {
       removeModal(this);
@@ -173,7 +183,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   @autobind
   handleRootMouseDownCapture(e: MouseEvent) {
     const target = e.target as HTMLElement;
-    const {closeOnOutside, classPrefix: ns, mobileUI} = this.props;
+    const {closeOnOutside, classnames: cx, mobileUI} = this.props;
     const isLeftButton =
       (e.button === 1 && window.event !== null) || e.button === 0;
 
@@ -185,7 +195,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
       ((!mobileUI &&
         !this.modalDom.contains(target) &&
         !target.closest('[role=dialog]')) ||
-        (target.matches(`.${ns}Drawer-overlay`) &&
+        (target.matches(getStableClassSelector(cx, 'Drawer-overlay')) &&
           target.parentElement === this.modalDom))
     ); // 干脆过滤掉来自弹框里面的点击
   }
@@ -227,7 +237,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
 
   @autobind
   resizeMouseDown(e: React.MouseEvent<any>) {
-    const {position, classPrefix: ns, onDragging} = this.props;
+    const {position, onDragging} = this.props;
     onDragging && onDragging(true);
     const drawer = this.contentDom;
     const resizer = this.resizer.current!;
@@ -309,7 +319,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
 
   render() {
     const {
-      classPrefix: ns,
+      classnames: cx,
       className,
       children,
       container,
@@ -327,9 +337,15 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
     } = this.props;
 
     const bodyStyle = this.getDrawerStyle();
+    const triggerScope = getThemeScope(this.props.theme);
+    const scopedContainer = getScopedContainerWithFullscreen(
+      container,
+      triggerScope,
+      scope => (this.portalThemeScope = scope)
+    );
 
     return (
-      <Portal container={getContainerWithFullscreen(container)}>
+      <Portal container={scopedContainer}>
         <Transition
           mountOnEnter
           unmountOnExit
@@ -353,11 +369,12 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
                 ref={this.modalRef}
                 role="dialog"
                 className={cx(
-                  `amis-dialog-widget ${ns}Drawer`,
+                  ':amis-dialog-widget',
+                  'Drawer',
                   {
-                    [`${ns}Drawer--${position}`]: position,
-                    [`${ns}Drawer--${size}`]: size,
-                    [`${ns}Drawer--noOverlay`]: !overlay
+                    [`Drawer--${position}`]: position,
+                    [`Drawer--${size}`]: size,
+                    'Drawer--noOverlay': !overlay
                   },
                   className
                 )}
@@ -366,7 +383,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
                 {overlay ? (
                   <div
                     className={cx(
-                      `${ns}Drawer-overlay`,
+                      'Drawer-overlay',
                       fadeStyles[status],
                       drawerMaskClassName
                     )}
@@ -376,7 +393,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
                   ref={this.contentRef}
                   style={bodyStyle}
                   className={cx(
-                    `${ns}Drawer-content`,
+                    'Drawer-content',
                     bodyClassName,
                     fadeStyles[status],
                     drawerClassName
@@ -385,7 +402,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
                   {show && showCloseButton ? (
                     <a
                       onClick={disabled ? undefined : onHide}
-                      className={`${ns}Drawer-close`}
+                      className={cx('Drawer-close')}
                     >
                       <Icon
                         icon="close"

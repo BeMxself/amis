@@ -14,8 +14,34 @@ export type ClassValue =
 
 export type ClassNamesFn = (...classes: ClassValue[]) => string;
 
-interface ThemeConfig {
+export type ComponentClassPrefix = 'amis-';
+export type LegacyDomClassAlias = false | 'cxd';
+
+export interface ThemeScope {
+  theme: string;
+  attribute: 'data-amis-theme';
+  value: string;
+  selector: string;
+  tokenScopeSelector: string;
+}
+
+export interface ThemeScopeProps {
+  'data-amis-theme': string;
+}
+
+export interface OverlayContainerResolution {
+  container: HTMLElement;
+  scope: ThemeScope;
+}
+
+export interface ThemeConfig {
+  /**
+   * @deprecated Legacy/internal namespace for old DOM queries and migration
+   * boundaries. New public component classes are driven by componentClassPrefix.
+   */
   classPrefix?: string;
+  componentClassPrefix?: ComponentClassPrefix;
+  legacyDomClassAlias?: LegacyDomClassAlias;
   renderers?: {
     [propName: string]: any;
   };
@@ -27,9 +53,14 @@ interface ThemeConfig {
 }
 
 const themes: Record<string, ThemeConfig> = {
-  default: {},
+  default: {
+    componentClassPrefix: 'amis-',
+    legacyDomClassAlias: false
+  },
   cxd: {
-    classPrefix: 'cxd-'
+    classPrefix: 'cxd-',
+    componentClassPrefix: 'amis-',
+    legacyDomClassAlias: false
   }
 };
 
@@ -60,9 +91,102 @@ export function makeClassnames(ns?: string) {
   return fn;
 }
 
+const stableFns: Record<string, ClassNamesFn> = {};
+const themeFns: Record<string, ClassNamesFn> = {};
+
+function makePrefixedClassnames(prefixes: Array<string>): ClassNamesFn {
+  return (...classes: ClassValue[]) => {
+    const str = cx(...classes);
+
+    if (!str) {
+      return '';
+    }
+
+    if (!prefixes.length) {
+      return str;
+    }
+
+    return str
+      .split(/\s+/)
+      .reduce((tokens: Array<string>, token: string) => {
+        if (!token) {
+          return tokens;
+        }
+
+        if (token.charAt(0) === ':') {
+          tokens.push(token.substring(1));
+          return tokens;
+        }
+
+        if (/^[A-Z]/.test(token)) {
+          prefixes.forEach(prefix => tokens.push(`${prefix}${token}`));
+        } else {
+          tokens.push(token);
+        }
+
+        return tokens;
+      }, [])
+      .join(' ');
+  };
+}
+
+export function makeStableClassnames(
+  prefix: ComponentClassPrefix = 'amis-'
+): ClassNamesFn {
+  if (stableFns[prefix]) {
+    return stableFns[prefix];
+  }
+
+  return (stableFns[prefix] = makePrefixedClassnames([prefix]));
+}
+
+export function getStableClassName(
+  classnames: ClassNamesFn,
+  className: string
+): string {
+  const value = classnames(className);
+  return value ? value.split(/\s+/).filter(Boolean)[0] || className : className;
+}
+
+function escapeClassSelector(className: string): string {
+  return className.replace(/([ !"#$%&'()*+,./:;<=>?@[\\\]^`{|}~])/g, '\\$1');
+}
+
+export function getStableClassSelector(
+  classnames: ClassNamesFn,
+  className: string
+): string {
+  return `.${escapeClassSelector(getStableClassName(classnames, className))}`;
+}
+
+function makeThemeClassnames(
+  componentClassPrefix: ComponentClassPrefix,
+  legacyDomClassAlias: LegacyDomClassAlias = false
+): ClassNamesFn {
+  const aliasPrefix = legacyDomClassAlias === 'cxd' ? 'cxd-' : '';
+  const cacheKey = `${componentClassPrefix}|${aliasPrefix}`;
+
+  if (themeFns[cacheKey]) {
+    return themeFns[cacheKey];
+  }
+
+  return (themeFns[cacheKey] = makePrefixedClassnames(
+    aliasPrefix ? [componentClassPrefix, aliasPrefix] : [componentClassPrefix]
+  ));
+}
+
+function normalizeLegacyDomClassAlias(
+  legacyDomClassAlias: ThemeConfig['legacyDomClassAlias']
+): LegacyDomClassAlias {
+  return legacyDomClassAlias === 'cxd' ? 'cxd' : false;
+}
+
 export interface ThemeInstance extends ThemeConfig {
+  name: string;
+  scope: ThemeScope;
   getRendererConfig: (name?: string) => any;
   getComponentConfig: (name?: string) => any;
+  stableClassnames: ClassNamesFn;
   classnames: ClassNamesFn;
 }
 
@@ -81,26 +205,124 @@ export function classnames(...classes: ClassValue[]) {
 }
 
 export function getClassPrefix() {
-  return getTheme(defaultTheme).classPrefix;
+  return getTheme(defaultTheme).componentClassPrefix || 'amis-';
+}
+
+export function normalizeThemeName(theme?: string): string {
+  let themeName =
+    typeof theme === 'string' && theme ? theme : defaultTheme || 'cxd';
+
+  if (themeName === 'default') {
+    themeName =
+      defaultTheme && defaultTheme !== 'default' ? defaultTheme : 'cxd';
+  }
+
+  if (!hasTheme(themeName)) {
+    themeName =
+      defaultTheme && defaultTheme !== 'default' && hasTheme(defaultTheme)
+        ? defaultTheme
+        : 'cxd';
+  }
+
+  return themeName;
+}
+
+function createThemeScope(value: string): ThemeScope {
+  const selector = `[data-amis-theme="${value.replace(/"/g, '\\"')}"]`;
+
+  return {
+    theme: value,
+    attribute: 'data-amis-theme',
+    value,
+    selector,
+    tokenScopeSelector: selector
+  };
+}
+
+export function getThemeScope(themeName?: string): ThemeScope {
+  return createThemeScope(normalizeThemeName(themeName));
+}
+
+export function getThemeScopeProps(themeName?: string): ThemeScopeProps {
+  return {
+    'data-amis-theme': getThemeScope(themeName).value
+  };
+}
+
+export function getNearestThemeScope(
+  node: HTMLElement | null | undefined
+): ThemeScope | null {
+  const scopeNode = node?.closest?.('[data-amis-theme]');
+  const themeValue = scopeNode?.getAttribute('data-amis-theme');
+
+  return themeValue ? createThemeScope(themeValue) : null;
+}
+
+export function applyThemeScope(
+  node: HTMLElement | null | undefined,
+  scope: ThemeScope | null | undefined
+): ThemeScope | null {
+  if (!node || !scope) {
+    return null;
+  }
+
+  const existingValue = node.getAttribute(scope.attribute);
+
+  if (existingValue) {
+    return createThemeScope(existingValue);
+  }
+
+  node.setAttribute(scope.attribute, scope.value);
+  return scope;
+}
+
+export function resolveOverlayContainer(
+  container: HTMLElement | null | undefined,
+  fallback: HTMLElement,
+  scope: ThemeScope
+): OverlayContainerResolution {
+  const resolvedContainer = container || fallback;
+
+  return {
+    container: resolvedContainer,
+    scope: getNearestThemeScope(resolvedContainer) || scope
+  };
 }
 
 export function getTheme(theme: string): ThemeInstance {
-  if (typeof theme !== 'string') {
-    theme = 'cxd';
-  }
+  theme = normalizeThemeName(theme);
 
-  const config = themes[theme || 'cxd'];
+  const config = themes[theme];
+  const componentClassPrefix = config.componentClassPrefix || 'amis-';
+  const legacyDomClassAlias = normalizeLegacyDomClassAlias(
+    config.legacyDomClassAlias
+  );
+  const classnamesKey = `${componentClassPrefix}|${legacyDomClassAlias || ''}`;
 
   if (!config.getRendererConfig) {
     config.getRendererConfig = (name?: string) => {
-      const config = themes[theme || 'cxd'];
+      const config = themes[theme];
       return config.renderers && name ? config.renderers[name] : null;
     };
   }
 
-  if (!config.classnames) {
-    const ns = config.classPrefix;
-    config.classnames = config.classnames || makeClassnames(ns);
+  config.name = theme;
+  config.scope = getThemeScope(theme);
+
+  if (
+    !config.stableClassnames ||
+    config.__stableClassnamesKey !== componentClassPrefix
+  ) {
+    config.stableClassnames = makeStableClassnames(componentClassPrefix);
+    config.__stableClassnamesKey = componentClassPrefix;
+  }
+
+  if (!config.classnames || config.__classnamesKey !== classnamesKey) {
+    config.classnames = makeThemeClassnames(
+      componentClassPrefix,
+      legacyDomClassAlias
+    );
+    config.__classnamesKey = classnamesKey;
   }
 
   if (!config.getComponentConfig) {
@@ -158,24 +380,23 @@ export function themeable<
         }
 
         this.ref = ref;
-      }
+      };
 
       getWrappedInstance = () => {
         return this.ref;
-      }
+      };
 
       render() {
-        const theme: string =
-          this.props.theme || (this.context as string) || defaultTheme;
-        const config = hasTheme(theme)
-          ? getTheme(theme)
-          : getTheme(defaultTheme);
+        const theme: string = normalizeThemeName(
+          this.props.theme || (this.context as string) || defaultTheme
+        );
+        const config = getTheme(theme);
         const injectedProps: {
           classPrefix: string;
           classnames: ClassNamesFn;
           theme: string;
         } = {
-          classPrefix: config.classPrefix as string,
+          classPrefix: config.componentClassPrefix || 'amis-',
           classnames: config.classnames,
           theme
         };

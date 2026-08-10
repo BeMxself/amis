@@ -13,7 +13,17 @@ import Transition, {
 } from 'react-transition-group/Transition';
 import Portal from 'react-overlays/Portal';
 import {current, addModal, removeModal} from './ModalManager';
-import {ClassNamesFn, themeable, ThemeProps} from 'amis-core';
+import {
+  applyThemeScope,
+  ClassNamesFn,
+  getThemeScope,
+  getStableClassName,
+  getStableClassSelector,
+  resolveOverlayContainer,
+  themeable,
+  ThemeProps
+} from 'amis-core';
+import type {ThemeScope} from 'amis-core';
 import {Icon} from './icons';
 import {LocaleProps, localeable} from 'amis-core';
 import {autobind, getScrollbarWidth} from 'amis-core';
@@ -40,6 +50,31 @@ export const getContainerWithFullscreen =
       return fullscreenElement as HTMLElement;
     }
     return envContainer || null;
+  };
+
+export const getScopedContainerWithFullscreen =
+  (
+    container: (() => HTMLElement | HTMLElement | null) | undefined,
+    triggerScope: ThemeScope,
+    onResolveScope?: (scope: ThemeScope) => void
+  ) =>
+  () => {
+    const fallback = document.body;
+    const resolvedContainer = getContainerWithFullscreen(container)();
+
+    if (!resolvedContainer) {
+      onResolveScope?.(triggerScope);
+      return resolvedContainer;
+    }
+
+    const resolution = resolveOverlayContainer(
+      resolvedContainer,
+      fallback,
+      triggerScope
+    );
+
+    onResolveScope?.(resolution.scope);
+    return resolution.container;
   };
 
 export interface ModalProps extends ThemeProps, LocaleProps {
@@ -94,6 +129,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
 
   isRootClosed = false;
   modalDom: HTMLElement;
+  portalThemeScope?: ThemeScope;
 
   static Header = themeable(
     localeable(
@@ -258,10 +294,13 @@ export class Modal extends React.Component<ModalProps, ModalState> {
 
   modalRef = (ref: any) => {
     this.modalDom = ref;
-    const {classPrefix: ns} = this.props;
+    const {classnames: cx} = this.props;
     if (ref) {
+      applyThemeScope(ref as HTMLElement, this.portalThemeScope);
       addModal(this);
-      (ref as HTMLElement).classList.add(`${ns}Modal--${current()}th`);
+      (ref as HTMLElement).classList.add(
+        getStableClassName(cx, `Modal--${current()}th`)
+      );
     } else {
       removeModal(this);
     }
@@ -270,7 +309,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
   @autobind
   handleRootMouseDownCapture(e: MouseEvent) {
     const target = e.target as HTMLElement;
-    const {closeOnOutside, classPrefix: ns, mobileUI} = this.props;
+    const {closeOnOutside, classnames: cx, mobileUI} = this.props;
     const isLeftButton =
       (e.button === 1 && window.event !== null) || e.button === 0;
 
@@ -282,7 +321,8 @@ export class Modal extends React.Component<ModalProps, ModalState> {
       ((!mobileUI &&
         !this.modalDom.contains(target) &&
         !target.closest('[role=dialog]')) ||
-        (target.matches(`.${ns}Modal`) && target === this.modalDom))
+        (target.matches(getStableClassSelector(cx, 'Modal')) &&
+          target === this.modalDom))
     ); // 干脆过滤掉来自弹框里面的点击
   }
 
@@ -400,9 +440,14 @@ export class Modal extends React.Component<ModalProps, ModalState> {
       modalMaskClassName,
       classnames: cx,
       mobileUI,
-      draggable,
-      classPrefix
+      draggable
     } = this.props;
+    const triggerScope = getThemeScope(this.props.theme);
+    const scopedContainer = getScopedContainerWithFullscreen(
+      container,
+      triggerScope,
+      scope => (this.portalThemeScope = scope)
+    );
 
     let _style = {
       width: style?.width ? style?.width : width,
@@ -420,7 +465,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
         onEntered={this.handleEntered}
       >
         {(status: string) => (
-          <Portal container={getContainerWithFullscreen(container)}>
+          <Portal container={scopedContainer}>
             <div
               ref={this.modalRef}
               role="dialog"
@@ -447,7 +492,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
                 onDrag={this.handleDrag}
                 onStop={this.handleDragStop}
                 cancel="Icon, svg, a, svg *"
-                handle={`.${classPrefix}Modal-header`}
+                handle={getStableClassSelector(cx, 'Modal-header')}
               >
                 <div
                   className={cx(

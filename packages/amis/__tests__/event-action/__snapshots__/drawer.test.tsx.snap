@@ -3,42 +3,47 @@
 exports[`EventAction:drawer 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Drawer cxd-Drawer--right cxd-Drawer--md cxd-Modal--1th"
+    class="amis-dialog-widget amis-Drawer amis-Drawer--right amis-Drawer--md amis-Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Drawer-overlay in"
+      class="amis-Drawer-overlay in"
     />
     <div
-      class="cxd-Drawer-content in"
+      class="amis-Drawer-content in"
     >
       <a
-        class="cxd-Drawer-close"
+        class="amis-Drawer-close"
       >
         <icon-mock
           classname="icon icon-close"
@@ -46,13 +51,13 @@ exports[`EventAction:drawer 1`] = `
         />
       </a>
       <div
-        class="cxd-Drawer-header"
+        class="amis-Drawer-header"
       >
         <div
-          class="cxd-Drawer-title"
+          class="amis-Drawer-title"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="amis-TplField fr-view"
           >
             <span>
               模态抽屉
@@ -61,25 +66,25 @@ exports[`EventAction:drawer 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Drawer-body"
+        class="amis-Drawer-body"
       >
         <div
-          class="cxd-Spinner-overlay in"
+          class="amis-Spinner-overlay in"
         />
         <div
-          class="cxd-Spinner cxd-Spinner--overlay in"
+          class="amis-Spinner amis-Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+            class="amis-Spinner-icon amis-Spinner-icon--lg amis-Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="cxd-Drawer-footer"
+        class="amis-Drawer-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="amis-Button amis-Button--default amis-Button--size-default"
           type="button"
         >
           <span>
@@ -87,7 +92,7 @@ exports[`EventAction:drawer 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="amis-Button amis-Button--primary amis-Button--size-default"
           type="button"
         >
           <span>
@@ -103,26 +108,30 @@ exports[`EventAction:drawer 1`] = `
 exports[`EventAction:drawer 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -133,26 +142,30 @@ exports[`EventAction:drawer 2`] = `
 exports[`EventAction:drawer 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -163,26 +176,30 @@ exports[`EventAction:drawer 3`] = `
 exports[`EventAction:drawer 4`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -193,26 +210,30 @@ exports[`EventAction:drawer 4`] = `
 exports[`EventAction:drawer 5`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -223,26 +244,30 @@ exports[`EventAction:drawer 5`] = `
 exports[`EventAction:drawer 6`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -253,26 +278,30 @@ exports[`EventAction:drawer 6`] = `
 exports[`EventAction:drawer 7`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -283,42 +312,47 @@ exports[`EventAction:drawer 7`] = `
 exports[`EventAction:drawer args 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Drawer cxd-Drawer--right cxd-Drawer--md cxd-Modal--1th"
+    class="amis-dialog-widget amis-Drawer amis-Drawer--right amis-Drawer--md amis-Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Drawer-overlay in"
+      class="amis-Drawer-overlay in"
     />
     <div
-      class="cxd-Drawer-content in"
+      class="amis-Drawer-content in"
     >
       <a
-        class="cxd-Drawer-close"
+        class="amis-Drawer-close"
       >
         <icon-mock
           classname="icon icon-close"
@@ -326,13 +360,13 @@ exports[`EventAction:drawer args 1`] = `
         />
       </a>
       <div
-        class="cxd-Drawer-header"
+        class="amis-Drawer-header"
       >
         <div
-          class="cxd-Drawer-title"
+          class="amis-Drawer-title"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="amis-TplField fr-view"
           >
             <span>
               模态抽屉
@@ -341,25 +375,25 @@ exports[`EventAction:drawer args 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Drawer-body"
+        class="amis-Drawer-body"
       >
         <div
-          class="cxd-Spinner-overlay in"
+          class="amis-Spinner-overlay in"
         />
         <div
-          class="cxd-Spinner cxd-Spinner--overlay in"
+          class="amis-Spinner amis-Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+            class="amis-Spinner-icon amis-Spinner-icon--lg amis-Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="cxd-Drawer-footer"
+        class="amis-Drawer-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="amis-Button amis-Button--default amis-Button--size-default"
           type="button"
         >
           <span>
@@ -367,7 +401,7 @@ exports[`EventAction:drawer args 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="amis-Button amis-Button--primary amis-Button--size-default"
           type="button"
         >
           <span>
@@ -383,26 +417,30 @@ exports[`EventAction:drawer args 1`] = `
 exports[`EventAction:drawer args 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -413,26 +451,30 @@ exports[`EventAction:drawer args 2`] = `
 exports[`EventAction:drawer args 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -443,26 +485,30 @@ exports[`EventAction:drawer args 3`] = `
 exports[`EventAction:drawer args 4`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -473,26 +519,30 @@ exports[`EventAction:drawer args 4`] = `
 exports[`EventAction:drawer args 5`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -503,26 +553,30 @@ exports[`EventAction:drawer args 5`] = `
 exports[`EventAction:drawer args 6`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -533,26 +587,30 @@ exports[`EventAction:drawer args 6`] = `
 exports[`EventAction:drawer args 7`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
+          <div
+            class="amis-Page-body"
+            role="page-body"
           >
-            <span>
-              打开抽屉
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                打开抽屉
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

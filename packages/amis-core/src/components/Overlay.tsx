@@ -22,6 +22,13 @@ import {
   uuid
 } from '../utils';
 import {EnvContext} from '../env';
+import {
+  getNearestThemeScope,
+  getThemeScope,
+  resolveOverlayContainer,
+  ThemeContext,
+  type ThemeScope
+} from '../theme';
 
 export const SubPopoverDisplayedID = 'data-sub-popover-displayed';
 
@@ -290,7 +297,42 @@ export default class Overlay extends React.Component<
     return container;
   }
 
-  render() {
+  getTargetDom() {
+    const {target} = this.props;
+    const targetElement = typeof target === 'function' ? target() : target;
+    return (targetElement && findDOMNode(targetElement)) || null;
+  }
+
+  getTriggerThemeScope(themeName?: string) {
+    return (
+      getNearestThemeScope(this.getTargetDom() as HTMLElement) ||
+      (themeName ? getThemeScope(themeName) : null) ||
+      this.context?.theme?.scope ||
+      getThemeScope(this.context?.theme?.name)
+    );
+  }
+
+  getScopedContainerResolver(container: any, triggerScope: ThemeScope) {
+    return () => {
+      const fallback = ownerDocument(this).body;
+      const resolvedContainer = getContainer(container, fallback);
+
+      return resolveOverlayContainer(resolvedContainer, fallback, triggerScope)
+        .container;
+    };
+  }
+
+  getOverlayThemeScopeResolver(container: any, triggerScope: ThemeScope) {
+    return () => {
+      const fallback = ownerDocument(this).body;
+      const resolvedContainer = getContainer(container, fallback);
+
+      return resolveOverlayContainer(resolvedContainer, fallback, triggerScope)
+        .scope;
+    };
+  }
+
+  renderWithThemeContext(themeName?: string) {
     const {
       containerPadding,
       target,
@@ -307,11 +349,24 @@ export default class Overlay extends React.Component<
       (this.getContainerSelector()
         ? this.getContainerSelector
         : this.props.container) || this.context?.getModalContainer;
+    const triggerScope = this.getTriggerThemeScope(themeName);
+    const scopedContainer = this.getScopedContainerResolver(
+      container,
+      triggerScope
+    );
     const mountOverlay = props.show || (Transition && !this.state.exited);
     if (!mountOverlay) {
       // Don't bother showing anything if we don't have to.
       return null;
     }
+    const themeScope = this.getOverlayThemeScopeResolver(
+      container,
+      triggerScope
+    );
+    const scope = themeScope();
+    const scopeProps = {
+      [scope.attribute]: scope.value
+    };
 
     let child = children;
 
@@ -328,6 +383,7 @@ export default class Overlay extends React.Component<
           shouldUpdatePosition,
           offset
         }}
+        {...scopeProps}
         ref={this.positionRef}
       >
         {child}
@@ -359,7 +415,7 @@ export default class Overlay extends React.Component<
     if (rootClose) {
       return (
         // @ts-ignore
-        <Portal container={container}>
+        <Portal container={scopedContainer}>
           <RootClose onRootClose={props.onHide}>
             {(ref: any) => {
               if (React.isValidElement(child)) {
@@ -376,6 +432,14 @@ export default class Overlay extends React.Component<
     }
 
     // @ts-ignore
-    return <Portal container={container}>{child}</Portal>;
+    return <Portal container={scopedContainer}>{child}</Portal>;
+  }
+
+  render() {
+    return (
+      <ThemeContext.Consumer>
+        {themeName => this.renderWithThemeContext(themeName)}
+      </ThemeContext.Consumer>
+    );
   }
 }

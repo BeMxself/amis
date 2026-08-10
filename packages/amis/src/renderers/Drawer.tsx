@@ -9,7 +9,8 @@ import {
   ValidateError,
   RendererEvent,
   AMISSchema,
-  AMISButtonSchema
+  AMISButtonSchema,
+  getStableClassSelector
 } from 'amis-core';
 import {Renderer, RendererProps} from 'amis-core';
 import {SchemaNode, Schema, ActionObject} from 'amis-core';
@@ -360,7 +361,7 @@ export default class Drawer extends React.Component<DrawerProps> {
   @autobind
   getPopOverContainer() {
     return (findDOMNode(this) as HTMLElement).querySelector(
-      `.${this.props.classPrefix}Drawer-content`
+      getStableClassSelector(this.props.classnames, 'Drawer-content')
     );
   }
 

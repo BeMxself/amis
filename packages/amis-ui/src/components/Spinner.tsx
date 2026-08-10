@@ -7,7 +7,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {themeable, ThemeProps} from 'amis-core';
+import {
+  getThemeScope,
+  resolveOverlayContainer,
+  themeable,
+  ThemeProps,
+  ThemeScopeProps
+} from 'amis-core';
 import Transition, {ENTERED, ENTERING} from 'react-transition-group/Transition';
 import {Icon, hasIcon} from './icons';
 import {types} from 'mobx-state-tree';
@@ -196,7 +202,7 @@ export class Spinner extends React.Component<
     }
   );
 
-  renderBody() {
+  renderBody(scopeProps: Partial<ThemeScopeProps> = {}) {
     const {
       classnames: cx,
       className,
@@ -233,11 +239,15 @@ export class Spinner extends React.Component<
               <>
                 {/* 遮罩层 */}
                 {showOverlay ? (
-                  <div className={cx(`Spinner-overlay`, fadeStyles[status])} />
+                  <div
+                    {...scopeProps}
+                    className={cx(`Spinner-overlay`, fadeStyles[status])}
+                  />
                 ) : null}
 
                 {/* spinner图标和文案 */}
                 <div
+                  {...scopeProps}
                   data-testid="spinner"
                   className={cx(
                     `Spinner`,
@@ -285,16 +295,26 @@ export class Spinner extends React.Component<
   render() {
     const {loadingConfig} = this.props;
 
-    const spinnerBody = this.renderBody();
     const root = loadingConfig?.root;
     const dom = root ? document.querySelector(root) : null;
 
     if (dom) {
-      // TODO: 找到准确的 元素
-      return ReactDOM.createPortal(spinnerBody, dom);
+      const resolution = resolveOverlayContainer(
+        dom as HTMLElement,
+        document.body,
+        getThemeScope(this.props.theme)
+      );
+      const scopeProps = {
+        [resolution.scope.attribute]: resolution.scope.value
+      };
+
+      return ReactDOM.createPortal(
+        this.renderBody(scopeProps),
+        resolution.container
+      );
     }
 
-    return spinnerBody;
+    return this.renderBody();
   }
 }
 

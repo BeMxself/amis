@@ -59,7 +59,9 @@ exports[`factory unregistered Renderer 1`] = `
 
 exports[`factory:registerRenderer 1`] = `
 <div>
-  <div>
+  <div
+    data-amis-theme="cxd"
+  >
     This is Custom Renderer, a is 
     23
   </div>

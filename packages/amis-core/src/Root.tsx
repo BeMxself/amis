@@ -7,7 +7,7 @@ import {RootRenderer} from './RootRenderer';
 import {SchemaRenderer} from './SchemaRenderer';
 import Scoped from './Scoped';
 import {IRendererStore} from './store';
-import {ThemeContext} from './theme';
+import {normalizeThemeName, ThemeContext} from './theme';
 import {Schema, SchemaNode} from './types';
 import {autobind, isEmpty} from './utils/helper';
 import {RootStoreContext} from './WithRootStore';
@@ -86,11 +86,8 @@ export class Root extends React.Component<RootProps> {
       ...rest
     } = this.props;
     const theme = env.theme;
-    let themeName = this.props.theme || 'cxd';
-
-    if (themeName === 'default') {
-      themeName = 'cxd';
-    }
+    const themeName = theme.name || normalizeThemeName(this.props.theme);
+    const componentClassPrefix = theme.componentClassPrefix || 'amis-';
 
     return (
       <RootStoreContext.Provider value={rootStore}>
@@ -120,7 +117,7 @@ export class Root extends React.Component<RootProps> {
                   data,
                   env: env,
                   classnames: theme.classnames,
-                  classPrefix: theme.classPrefix,
+                  classPrefix: componentClassPrefix,
                   locale: locale,
                   translate: translate,
                   children: (
@@ -142,8 +139,9 @@ export class Root extends React.Component<RootProps> {
                       data={data}
                       context={context}
                       env={env}
+                      theme={themeName}
                       classnames={theme.classnames}
-                      classPrefix={theme.classPrefix}
+                      classPrefix={componentClassPrefix}
                       locale={locale}
                       translate={translate}
                     />

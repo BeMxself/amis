@@ -71,9 +71,23 @@ import {
   getTheme,
   themeable,
   makeClassnames,
+  makeStableClassnames,
+  getStableClassName,
+  getStableClassSelector,
+  getThemeScope,
+  getThemeScopeProps,
+  getNearestThemeScope,
+  applyThemeScope,
+  resolveOverlayContainer,
+  normalizeThemeName,
   defaultTheme
 } from './theme';
-import type {ClassNamesFn, ThemeProps} from './theme';
+import type {
+  ClassNamesFn,
+  ThemeProps,
+  ThemeScope,
+  ThemeScopeProps
+} from './theme';
 const classPrefix = getClassPrefix();
 
 export * from './actions';
@@ -219,6 +233,17 @@ export {
   getClassPrefix,
   classnames,
   makeClassnames,
+  makeStableClassnames,
+  getStableClassName,
+  getStableClassSelector,
+  getThemeScope,
+  getThemeScopeProps,
+  getNearestThemeScope,
+  applyThemeScope,
+  resolveOverlayContainer,
+  normalizeThemeName,
+  ThemeScope,
+  ThemeScopeProps,
   // 全局广播事件
   bindGlobalEvent,
   dispatchGlobalEvent,
@@ -375,10 +400,7 @@ function AMISSchema({
   }, Object.keys(options).concat(Object.values(options)).concat(locale));
 
   const env = getEnv(store);
-  let theme = props.theme || options.theme || defaultTheme;
-  if (theme === 'default') {
-    theme = defaultTheme;
-  }
+  let theme = normalizeThemeName(props.theme || options.theme || defaultTheme);
   env.theme = getTheme(theme);
 
   React.useEffect(() => {
