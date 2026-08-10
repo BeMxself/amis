@@ -140,15 +140,15 @@ test('Renderer:list with title & header & footer & headerClassName & footerClass
     })
   );
 
-  const header = container.querySelector('.cxd-List-header');
+  const header = container.querySelector('.amis-List-header');
   expect(header).toHaveClass('headerTplClassName');
   expect(header).toHaveTextContent('头部标题');
 
-  const footer = container.querySelector('.cxd-List-footer');
+  const footer = container.querySelector('.amis-List-footer');
   expect(footer).toHaveClass('footerButtonClassName');
-  expect(footer!.querySelector('.cxd-Button')).toBeInTheDocument();
+  expect(footer!.querySelector('.amis-Button')).toBeInTheDocument();
 
-  expect(container.querySelector('.cxd-List-heading')).toHaveTextContent(
+  expect(container.querySelector('.amis-List-heading')).toHaveTextContent(
     'listTitleForTest'
   );
 
@@ -189,12 +189,12 @@ test('Renderer:list with itemAction', () => {
     })
   );
 
-  fireEvent.click(container.querySelector('.cxd-ListItem')!);
+  fireEvent.click(container.querySelector('.amis-ListItem')!);
 
   expect(baseElement).toMatchSnapshot();
-  expect(baseElement.querySelector('.cxd-Modal-content')).toBeInTheDocument();
+  expect(baseElement.querySelector('.amis-Modal-content')).toBeInTheDocument();
 
-  expect(baseElement.querySelector('.cxd-Modal-content')).toHaveTextContent(
+  expect(baseElement.querySelector('.amis-Modal-content')).toHaveTextContent(
     `当前行的数据 browser: ${miniRows[0].browser}, version: ${miniRows[0].version}`
   );
 });
@@ -235,15 +235,16 @@ describe('Renderer:list with listItem', () => {
     expect(container).toMatchSnapshot();
 
     expect(
-      container.querySelector('.cxd-ListItem .cxd-ListItem-title')!.innerHTML
+      container.querySelector('.amis-ListItem .amis-ListItem-title')!.innerHTML
     ).toBe(miniRows[0].platform);
     expect(
-      container.querySelector('.cxd-ListItem .cxd-ListItem-title')
+      container.querySelector('.amis-ListItem .amis-ListItem-title')
     ).toHaveClass('classForItemTitle');
     expect(
-      container.querySelector('.cxd-ListItem .cxd-ListItem-subtitle')!.innerHTML
+      container.querySelector('.amis-ListItem .amis-ListItem-subtitle')!
+        .innerHTML
     ).toBe(`等级为：${miniRows[0].grade}`);
-    expect(container.querySelector('.cxd-ListItem')).toHaveTextContent(
+    expect(container.querySelector('.amis-ListItem')).toHaveTextContent(
       'this is list item desc'
     );
   });
@@ -267,7 +268,7 @@ describe('Renderer:list with listItem', () => {
     );
 
     expect(container).toMatchSnapshot();
-    const avatar = container.querySelector('.cxd-ListItem-avatar')!;
+    const avatar = container.querySelector('.amis-ListItem-avatar')!;
     expect(avatar).toHaveClass('avatarClassNameForTest');
     expect(avatar.querySelector('img')).toHaveAttribute(
       'src',
@@ -299,8 +300,8 @@ describe('Renderer:list with listItem', () => {
     );
 
     expect(container).toMatchSnapshot();
-    expect(container.querySelector('.cxd-ListItem')!).toHaveClass(
-      'cxd-ListItem--actions-at-right'
+    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
+      'amis-ListItem--actions-at-right'
     );
 
     rerender(
@@ -326,8 +327,8 @@ describe('Renderer:list with listItem', () => {
       })
     );
 
-    expect(container.querySelector('.cxd-ListItem')!).toHaveClass(
-      'cxd-ListItem--actions-at-left'
+    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
+      'amis-ListItem--actions-at-left'
     );
   });
 });

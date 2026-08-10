@@ -7,122 +7,127 @@ exports[`Renderer:InputSubForm base 1`] = `
 >
   <div>
     <div
-      class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-      data-role="container"
+      data-amis-theme="cxd"
     >
       <div
-        class="cxd-Panel-heading"
+        class="amis-Panel amis-Panel--default amis-Panel--form"
+        data-role="container"
       >
-        <h3
-          class="cxd-Panel-title"
+        <div
+          class="amis-Panel-heading"
         >
-          <span
-            class="cxd-TplField fr-view"
+          <h3
+            class="amis-Panel-title"
           >
-            <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="cxd-Panel-body"
-      >
-        <form
-          class="cxd-Form cxd-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="cxd-Form-item cxd-Form-item--normal"
-            data-amis-name="form"
-            data-role="form-item"
-          >
-            <label
-              class="cxd-Form-label"
+            <span
+              class="amis-TplField fr-view"
             >
               <span>
-                <span
-                  class="cxd-TplField fr-view"
-                >
-                  <span>
-                    子Form
-                  </span>
-                </span>
+                表单
               </span>
-            </label>
+            </span>
+          </h3>
+        </div>
+        <div
+          class="amis-Panel-body"
+        >
+          <form
+            class="amis-Form amis-Form--normal"
+            novalidate=""
+          >
+            <input
+              style="display: none;"
+              type="submit"
+            />
             <div
-              class="cxd-SubFormControl cxd-Form-control"
+              class="amis-Form-item amis-Form-item--normal"
+              data-amis-name="form"
+              data-role="form-item"
             >
-              <div
-                class="cxd-SubForm-values"
+              <label
+                class="amis-Form-label"
               >
-                <div
-                  class="cxd-SubForm-value"
-                  data-position="bottom"
-                  data-tooltip="编辑详情"
-                >
+                <span>
                   <span
-                    class="cxd-SubForm-valueLabel"
+                    class="amis-TplField fr-view"
                   >
-                    <span
-                      class="cxd-TplField fr-view"
-                    >
-                      <span>
-                        设置子表单
-                      </span>
+                    <span>
+                      子Form
                     </span>
                   </span>
-                  <a
-                    class="cxd-SubForm-valueEdit"
+                </span>
+              </label>
+              <div
+                class="cxd-SubFormControl amis-Form-control"
+              >
+                <div
+                  class="amis-SubForm-values"
+                >
+                  <div
+                    class="amis-SubForm-value"
+                    data-position="bottom"
+                    data-tooltip="编辑详情"
                   >
-                    <icon-mock
-                      classname="icon icon-pencil"
-                      icon="pencil"
-                    />
-                  </a>
+                    <span
+                      class="amis-SubForm-valueLabel"
+                    >
+                      <span
+                        class="amis-TplField fr-view"
+                      >
+                        <span>
+                          设置子表单
+                        </span>
+                      </span>
+                    </span>
+                    <a
+                      class="amis-SubForm-valueEdit"
+                    >
+                      <icon-mock
+                        classname="icon icon-pencil"
+                        icon="pencil"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </form>
-      </div>
-      <div
-        class="cxd-Panel-footerWrap"
-      >
+          </form>
+        </div>
         <div
-          class="cxd-Panel-btnToolbar cxd-Panel-footer"
+          class="amis-Panel-footerWrap"
         >
-          <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-            type="submit"
+          <div
+            class="amis-Panel-btnToolbar amis-Panel-footer"
           >
-            <span>
-              提交
-            </span>
-          </button>
+            <button
+              class="amis-Button amis-Button--primary amis-Button--size-default"
+              type="submit"
+            >
+              <span>
+                提交
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="amis-Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="amis-Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="amis-Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="amis-Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -132,17 +137,17 @@ exports[`Renderer:InputSubForm base 1`] = `
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="amis-Modal-title"
         >
           配置子表单
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="amis-Modal-body"
         role="dialog-body"
       >
         <div
-          class="cxd-Form cxd-Form--horizontal"
+          class="amis-Form amis-Form--horizontal"
           novalidate=""
         >
           <input
@@ -150,16 +155,16 @@ exports[`Renderer:InputSubForm base 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="amis-Form-item amis-Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="amis-Form-label amis-Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   <span>
                     A
@@ -168,13 +173,13 @@ exports[`Renderer:InputSubForm base 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-value"
+              class="amis-Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="amis-Form-control cxd-TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="amis-TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -190,16 +195,16 @@ exports[`Renderer:InputSubForm base 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="amis-Form-item amis-Form-item--horizontal"
             data-amis-name="b"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="amis-Form-label amis-Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   <span>
                     B
@@ -208,13 +213,13 @@ exports[`Renderer:InputSubForm base 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-value"
+              class="amis-Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="amis-Form-control cxd-TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="amis-TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -232,10 +237,10 @@ exports[`Renderer:InputSubForm base 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="amis-Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="amis-Button amis-Button--default amis-Button--size-default"
           type="button"
         >
           <span>
@@ -243,7 +248,7 @@ exports[`Renderer:InputSubForm base 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="amis-Button amis-Button--primary amis-Button--size-default"
           type="button"
         >
           <span>
@@ -259,148 +264,152 @@ exports[`Renderer:InputSubForm base 1`] = `
 exports[`Renderer:InputSubForm with addButtonClassName & itemsClassName & itemClassName & addButtonText & labelField 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
-    >
-      <h3
-        class="cxd-Panel-title"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="form2"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
-                </span>
-              </span>
-            </span>
-          </label>
-          <div
-            class="cxd-SubFormControl cxd-Form-control"
-          >
-            <div
-              class="cxd-SubForm-values items-wrapper"
-            >
-              <div
-                class="cxd-SubForm-value item-classname"
-              >
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  设置
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-              <div
-                class="cxd-SubForm-value item-classname"
-              >
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  设置
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-            </div>
-            <div
-              class="cxd-SubForm-toolbar"
-            >
-              <button
-                class="cxd-Button cxd-SubForm-addBtn thisis-add-btn"
-                type="button"
-              >
-                <icon-mock
-                  classname="icon icon-plus"
-                  icon="plus"
-                />
-                <span>
-                  自定义的新增
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-heading"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            提交
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </button>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="form2"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="cxd-SubFormControl amis-Form-control"
+            >
+              <div
+                class="amis-SubForm-values items-wrapper"
+              >
+                <div
+                  class="amis-SubForm-value item-classname"
+                >
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    设置
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="amis-SubForm-value item-classname"
+                >
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    设置
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="amis-SubForm-toolbar"
+              >
+                <button
+                  class="amis-Button amis-SubForm-addBtn thisis-add-btn"
+                  type="button"
+                >
+                  <icon-mock
+                    classname="icon icon-plus"
+                    icon="plus"
+                  />
+                  <span>
+                    自定义的新增
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="amis-Panel-footerWrap"
+      >
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
+        >
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -410,208 +419,212 @@ exports[`Renderer:InputSubForm with addButtonClassName & itemsClassName & itemCl
 exports[`Renderer:InputSubForm with draggable & addable & removable 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
-    >
-      <h3
-        class="cxd-Panel-title"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="form"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  子Form
-                </span>
-              </span>
-            </span>
-          </label>
-          <div
-            class="cxd-SubFormControl cxd-Form-control"
-          >
-            <div
-              class="cxd-SubForm-values"
-            >
-              <div
-                class="cxd-SubForm-value"
-              >
-                <a
-                  class="cxd-SubForm-valueDragBar"
-                >
-                  <icon-mock
-                    classname="icon icon-drag-bar"
-                    icon="drag-bar"
-                  />
-                </a>
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  <span
-                    class="cxd-TplField fr-view"
-                  >
-                    <span>
-                      设置val-b-change
-                    </span>
-                  </span>
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-              <div
-                class="cxd-SubForm-value"
-              >
-                <a
-                  class="cxd-SubForm-valueDragBar"
-                >
-                  <icon-mock
-                    classname="icon icon-drag-bar"
-                    icon="drag-bar"
-                  />
-                </a>
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  <span
-                    class="cxd-TplField fr-view"
-                  >
-                    <span>
-                      设置val-c
-                    </span>
-                  </span>
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-              <div
-                class="cxd-SubForm-value"
-              >
-                <a
-                  class="cxd-SubForm-valueDragBar"
-                >
-                  <icon-mock
-                    classname="icon icon-drag-bar"
-                    icon="drag-bar"
-                  />
-                </a>
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  <span
-                    class="cxd-TplField fr-view"
-                  >
-                    <span>
-                      设置val-d
-                    </span>
-                  </span>
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="2"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="2"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-            </div>
-            <div
-              class="cxd-SubForm-toolbar"
-            >
-              <span
-                class="cxd-Combo-dragableTip"
-              />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-heading"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            提交
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </button>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="form"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    子Form
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="cxd-SubFormControl amis-Form-control"
+            >
+              <div
+                class="amis-SubForm-values"
+              >
+                <div
+                  class="amis-SubForm-value"
+                >
+                  <a
+                    class="amis-SubForm-valueDragBar"
+                  >
+                    <icon-mock
+                      classname="icon icon-drag-bar"
+                      icon="drag-bar"
+                    />
+                  </a>
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    <span
+                      class="amis-TplField fr-view"
+                    >
+                      <span>
+                        设置val-b-change
+                      </span>
+                    </span>
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="amis-SubForm-value"
+                >
+                  <a
+                    class="amis-SubForm-valueDragBar"
+                  >
+                    <icon-mock
+                      classname="icon icon-drag-bar"
+                      icon="drag-bar"
+                    />
+                  </a>
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    <span
+                      class="amis-TplField fr-view"
+                    >
+                      <span>
+                        设置val-c
+                      </span>
+                    </span>
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="amis-SubForm-value"
+                >
+                  <a
+                    class="amis-SubForm-valueDragBar"
+                  >
+                    <icon-mock
+                      classname="icon icon-drag-bar"
+                      icon="drag-bar"
+                    />
+                  </a>
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    <span
+                      class="amis-TplField fr-view"
+                    >
+                      <span>
+                        设置val-d
+                      </span>
+                    </span>
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="2"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="2"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="amis-SubForm-toolbar"
+              >
+                <span
+                  class="amis-Combo-dragableTip"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="amis-Panel-footerWrap"
+      >
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
+        >
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -621,161 +634,165 @@ exports[`Renderer:InputSubForm with draggable & addable & removable 1`] = `
 exports[`Renderer:InputSubForm with multiple & maxLength & btnLabel 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
-    >
-      <h3
-        class="cxd-Panel-title"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="form"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  子Form
-                </span>
-              </span>
-            </span>
-          </label>
-          <div
-            class="cxd-SubFormControl cxd-Form-control"
-          >
-            <div
-              class="cxd-SubForm-values"
-            >
-              <div
-                class="cxd-SubForm-value"
-              >
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  <span
-                    class="cxd-TplField fr-view"
-                  >
-                    <span>
-                      设置val-1-1
-                    </span>
-                  </span>
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="0"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-              <div
-                class="cxd-SubForm-value"
-              >
-                <span
-                  class="cxd-SubForm-valueLabel"
-                >
-                  <span
-                    class="cxd-TplField fr-view"
-                  >
-                    <span>
-                      设置val-2-1
-                    </span>
-                  </span>
-                </span>
-                <a
-                  class="cxd-SubForm-valueEdit"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-pencil"
-                    icon="pencil"
-                  />
-                </a>
-                <a
-                  class="cxd-SubForm-valueDel"
-                  data-index="1"
-                >
-                  <icon-mock
-                    classname="icon icon-close"
-                    icon="close"
-                  />
-                </a>
-              </div>
-            </div>
-            <div
-              class="cxd-SubForm-toolbar"
-            >
-              <button
-                class="cxd-Button cxd-SubForm-addBtn"
-                disabled=""
-                type="button"
-              >
-                <icon-mock
-                  classname="icon icon-plus"
-                  icon="plus"
-                />
-                <span>
-                  新增一项
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-heading"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            提交
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </button>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="form"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    子Form
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="cxd-SubFormControl amis-Form-control"
+            >
+              <div
+                class="amis-SubForm-values"
+              >
+                <div
+                  class="amis-SubForm-value"
+                >
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    <span
+                      class="amis-TplField fr-view"
+                    >
+                      <span>
+                        设置val-1-1
+                      </span>
+                    </span>
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="0"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="amis-SubForm-value"
+                >
+                  <span
+                    class="amis-SubForm-valueLabel"
+                  >
+                    <span
+                      class="amis-TplField fr-view"
+                    >
+                      <span>
+                        设置val-2-1
+                      </span>
+                    </span>
+                  </span>
+                  <a
+                    class="amis-SubForm-valueEdit"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-pencil"
+                      icon="pencil"
+                    />
+                  </a>
+                  <a
+                    class="amis-SubForm-valueDel"
+                    data-index="1"
+                  >
+                    <icon-mock
+                      classname="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="amis-SubForm-toolbar"
+              >
+                <button
+                  class="amis-Button amis-SubForm-addBtn"
+                  disabled=""
+                  type="button"
+                >
+                  <icon-mock
+                    classname="icon icon-plus"
+                    icon="plus"
+                  />
+                  <span>
+                    新增一项
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="amis-Panel-footerWrap"
+      >
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
+        >
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

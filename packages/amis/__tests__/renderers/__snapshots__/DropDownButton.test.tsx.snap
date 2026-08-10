@@ -3,47 +3,51 @@
 exports[`Renderer:dropdown-button 1`] = `
 <div>
   <div
-    class="cxd-DropDown  is-opened show"
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+    <div
+      class="amis-DropDown is-opened show"
     >
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--primary amis-Button--size-default"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
-        />
-      </span>
-    </button>
-    <ul
-      class="cxd-DropDown-menu-root cxd-DropDown-menu"
-      style="width: 0px;"
-    >
-      <li
-        class="cxd-DropDown-button"
-      >
-        <a
-          class=""
+        <span
+          class="amis-DropDown-caret"
         >
-          <span>
-            按钮
-          </span>
-        </a>
-      </li>
-      <li
-        class="cxd-DropDown-button"
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
+          />
+        </span>
+      </button>
+      <ul
+        class="amis-DropDown-menu-root amis-DropDown-menu"
+        style="width: 0px;"
       >
-        <a
-          class=""
+        <li
+          class="amis-DropDown-button"
         >
-          <span>
-            按钮
-          </span>
-        </a>
-      </li>
-    </ul>
+          <a
+            class=""
+          >
+            <span>
+              按钮
+            </span>
+          </a>
+        </li>
+        <li
+          class="amis-DropDown-button"
+        >
+          <a
+            class=""
+          >
+            <span>
+              按钮
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 `;
@@ -51,20 +55,24 @@ exports[`Renderer:dropdown-button 1`] = `
 exports[`Renderer:dropdown-button 2`] = `
 <div>
   <div
-    class="cxd-DropDown  show"
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+    <div
+      class="amis-DropDown show"
     >
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--primary amis-Button--size-default"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
-        />
-      </span>
-    </button>
+        <span
+          class="amis-DropDown-caret"
+        >
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
+          />
+        </span>
+      </button>
+    </div>
   </div>
 </div>
 `;
@@ -72,21 +80,25 @@ exports[`Renderer:dropdown-button 2`] = `
 exports[`Renderer:dropdown-button with block & size 1`] = `
 <div>
   <div
-    class="cxd-DropDown  cxd-DropDown--block"
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--default cxd-Button--block cxd-Button--size-default"
+    <div
+      class="amis-DropDown amis-DropDown--block"
     >
-      下拉菜单
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--default amis-Button--block amis-Button--size-default"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
-        />
-      </span>
-    </button>
+        下拉菜单
+        <span
+          class="amis-DropDown-caret"
+        >
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
+          />
+        </span>
+      </button>
+    </div>
   </div>
 </div>
 `;
@@ -94,21 +106,25 @@ exports[`Renderer:dropdown-button with block & size 1`] = `
 exports[`Renderer:dropdown-button with block & size 2`] = `
 <div>
   <div
-    class="cxd-DropDown "
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--default cxd-Button--size-lg"
+    <div
+      class="amis-DropDown"
     >
-      下拉菜单
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--default amis-Button--size-lg"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
-        />
-      </span>
-    </button>
+        下拉菜单
+        <span
+          class="amis-DropDown-caret"
+        >
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
+          />
+        </span>
+      </button>
+    </div>
   </div>
 </div>
 `;
@@ -116,127 +132,131 @@ exports[`Renderer:dropdown-button with block & size 2`] = `
 exports[`Renderer:dropdown-button with buttons group 1`] = `
 <div>
   <div
-    class="cxd-DropDown  is-opened"
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--default cxd-Button--size-default"
+    <div
+      class="amis-DropDown is-opened"
     >
-      下拉菜单
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--default amis-Button--size-default"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
-        />
-      </span>
-    </button>
-    <ul
-      class="cxd-DropDown-menu-root cxd-DropDown-menu"
-      style="width: 0px;"
-    >
-      <div
-        class="cxd-DropDown-menu"
-      >
-        <li
-          class="cxd-DropDown-groupTitle"
+        下拉菜单
+        <span
+          class="amis-DropDown-caret"
         >
-          <i
-            class="fa fa-user m-r-xs fa fa-user"
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
           />
-          <span>
-            RD
-          </span>
-        </li>
-        <li
-          class="cxd-DropDown-button"
-        >
-          <a
-            class=""
-          >
-            <span>
-              前端FE
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-DropDown-button"
-        >
-          <a
-            class=""
-          >
-            <span>
-              后端RD
-            </span>
-          </a>
-        </li>
-      </div>
-      <div
-        class="cxd-DropDown-menu"
+        </span>
+      </button>
+      <ul
+        class="amis-DropDown-menu-root amis-DropDown-menu"
+        style="width: 0px;"
       >
-        <li
-          class="cxd-DropDown-groupTitle"
+        <div
+          class="amis-DropDown-menu"
         >
-          <i
-            class="fa fa-user m-r-xs fa fa-user"
+          <li
+            class="amis-DropDown-groupTitle"
+          >
+            <i
+              class="fa fa-user m-r-xs fa fa-user"
+            />
+            <span>
+              RD
+            </span>
+          </li>
+          <li
+            class="amis-DropDown-button"
+          >
+            <a
+              class=""
+            >
+              <span>
+                前端FE
+              </span>
+            </a>
+          </li>
+          <li
+            class="amis-DropDown-button"
+          >
+            <a
+              class=""
+            >
+              <span>
+                后端RD
+              </span>
+            </a>
+          </li>
+        </div>
+        <div
+          class="amis-DropDown-menu"
+        >
+          <li
+            class="amis-DropDown-groupTitle"
+          >
+            <i
+              class="fa fa-user m-r-xs fa fa-user"
+            />
+            <span>
+              QA
+            </span>
+          </li>
+          <li
+            class="amis-DropDown-button"
+          >
+            <a
+              class=""
+            >
+              <span>
+                测试QA
+              </span>
+            </a>
+          </li>
+          <li
+            class="amis-DropDown-button is-disabled"
+          >
+            <a
+              class=""
+              disabled=""
+            >
+              <span>
+                交付测试DQA
+              </span>
+            </a>
+          </li>
+          <li
+            class="amis-DropDown-divider"
           />
-          <span>
-            QA
-          </span>
-        </li>
-        <li
-          class="cxd-DropDown-button"
+        </div>
+        <div
+          class="amis-DropDown-menu"
         >
-          <a
-            class=""
+          <li
+            class="amis-DropDown-groupTitle"
           >
+            <i
+              class="fa fa-user m-r-xs fa fa-user"
+            />
             <span>
-              测试QA
+              Manager
             </span>
-          </a>
-        </li>
-        <li
-          class="cxd-DropDown-button is-disabled"
-        >
-          <a
-            class=""
-            disabled=""
+          </li>
+          <li
+            class="amis-DropDown-button"
           >
-            <span>
-              交付测试DQA
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-DropDown-divider"
-        />
-      </div>
-      <div
-        class="cxd-DropDown-menu"
-      >
-        <li
-          class="cxd-DropDown-groupTitle"
-        >
-          <i
-            class="fa fa-user m-r-xs fa fa-user"
-          />
-          <span>
-            Manager
-          </span>
-        </li>
-        <li
-          class="cxd-DropDown-button"
-        >
-          <a
-            class=""
-          >
-            <span>
-              项目经理PM
-            </span>
-          </a>
-        </li>
-      </div>
-    </ul>
+            <a
+              class=""
+            >
+              <span>
+                项目经理PM
+              </span>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
   </div>
 </div>
 `;
@@ -244,70 +264,74 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
 exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-DropDown  is-opened"
+            class="amis-Page-body"
+            role="page-body"
           >
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            <div
+              class="amis-DropDown is-opened"
             >
-              下拉菜单
-              <span
-                class="cxd-DropDown-caret"
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
               >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
+                下拉菜单
+                <span
+                  class="amis-DropDown-caret"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
+              </button>
+              <ul
+                class="amis-DropDown-menu-root amis-DropDown-menu"
+                style="width: 0px;"
+              >
+                <li
+                  class="amis-DropDown-button"
+                >
+                  <a
+                    class=""
+                  >
+                    <span>
+                      按钮1
+                    </span>
+                  </a>
+                </li>
+                <li
+                  class="amis-DropDown-button"
+                >
+                  <a
+                    class=""
+                  >
+                    <span>
+                      按钮2
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <button
+              class="amis-Button amis-Button--default amis-Button--size-default"
+              type="button"
+            >
+              <span>
+                outside
               </span>
             </button>
-            <ul
-              class="cxd-DropDown-menu-root cxd-DropDown-menu"
-              style="width: 0px;"
-            >
-              <li
-                class="cxd-DropDown-button"
-              >
-                <a
-                  class=""
-                >
-                  <span>
-                    按钮1
-                  </span>
-                </a>
-              </li>
-              <li
-                class="cxd-DropDown-button"
-              >
-                <a
-                  class=""
-                >
-                  <span>
-                    按钮2
-                  </span>
-                </a>
-              </li>
-            </ul>
           </div>
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
-            type="button"
-          >
-            <span>
-              outside
-            </span>
-          </button>
         </div>
       </div>
     </div>
@@ -318,16 +342,20 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 exports[`Renderer:dropdown-button with hideCaret 1`] = `
 <div>
   <div
-    class="cxd-DropDown "
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--link cxd-Button--size-default"
+    <div
+      class="amis-DropDown"
     >
-      <i
-        class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
-      />
-      下拉菜单
-    </button>
+      <button
+        class="amis-Button amis-Button--link amis-Button--size-default"
+      >
+        <i
+          class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
+        />
+        下拉菜单
+      </button>
+    </div>
   </div>
 </div>
 `;
@@ -335,27 +363,31 @@ exports[`Renderer:dropdown-button with hideCaret 1`] = `
 exports[`Renderer:dropdown-button with icon & rightIcon 1`] = `
 <div>
   <div
-    class="cxd-DropDown "
+    data-amis-theme="cxd"
   >
-    <button
-      class="cxd-Button cxd-Button--default cxd-Button--size-default"
+    <div
+      class="amis-DropDown"
     >
-      <i
-        class="fa fa-home icon m-r-xs fa fa-home"
-      />
-      下拉菜单
-      <i
-        class="fa fa-ellipsis-v icon m-l-xs fa fa-ellipsis-v"
-      />
-      <span
-        class="cxd-DropDown-caret"
+      <button
+        class="amis-Button amis-Button--default amis-Button--size-default"
       >
-        <icon-mock
-          classname="icon icon-right-arrow-bold"
-          icon="right-arrow-bold"
+        <i
+          class="fa fa-home icon m-r-xs fa fa-home"
         />
-      </span>
-    </button>
+        下拉菜单
+        <i
+          class="fa fa-ellipsis-v icon m-l-xs fa fa-ellipsis-v"
+        />
+        <span
+          class="amis-DropDown-caret"
+        >
+          <icon-mock
+            classname="icon icon-right-arrow-bold"
+            icon="right-arrow-bold"
+          />
+        </span>
+      </button>
+    </div>
   </div>
 </div>
 `;

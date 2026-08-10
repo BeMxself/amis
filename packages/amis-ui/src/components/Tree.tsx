@@ -30,7 +30,8 @@ import {
   flattenTreeWithLeafNodes,
   TestIdBuilder,
   resizeSensor,
-  calculateHeight
+  calculateHeight,
+  getStableClassSelector
 } from 'amis-core';
 import {Option, Options, value2array} from './Select';
 import {themeable, ThemeProps, highlight} from 'amis-core';
@@ -293,7 +294,7 @@ export class TreeSelector extends React.Component<
   }
 
   componentDidMount() {
-    const {enableNodePath} = this.props;
+    const {enableNodePath, classnames: cx} = this.props;
 
     // onRef只有渲染器的情况才会使用
     this.props.onRef?.(this);
@@ -301,8 +302,9 @@ export class TreeSelector extends React.Component<
 
     let treeElement: HTMLElement = this.root.current!;
     treeElement =
-      treeElement?.parentElement?.matches('.cxd-TreeControl') &&
-      treeElement.parentElement.childElementCount === 1
+      treeElement?.parentElement?.matches(
+        getStableClassSelector(cx, 'TreeControl')
+      ) && treeElement.parentElement.childElementCount === 1
         ? treeElement.parentElement
         : treeElement;
 
@@ -1662,7 +1664,7 @@ export class TreeSelector extends React.Component<
 
   @autobind
   handleVirtualHeight() {
-    const {virtualThreshold} = this.props;
+    const {virtualThreshold, classnames: cx} = this.props;
     const {flattenedOptions, itemHeight} = this.state;
 
     if (virtualThreshold && flattenedOptions.length > virtualThreshold) {
@@ -1677,8 +1679,9 @@ export class TreeSelector extends React.Component<
       }
 
       treeElement =
-        treeElement?.parentElement?.matches('.cxd-TreeControl') &&
-        treeElement.parentElement.childElementCount === 1
+        treeElement?.parentElement?.matches(
+          getStableClassSelector(cx, 'TreeControl')
+        ) && treeElement.parentElement.childElementCount === 1
           ? treeElement.parentElement
           : treeElement;
 

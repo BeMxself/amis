@@ -9,7 +9,8 @@ import {
   getVariable,
   setThemeClassName,
   CustomStyle,
-  AMISFormItemWithOptions
+  AMISFormItemWithOptions,
+  getStableClassName
 } from 'amis-core';
 import {Select, Spinner} from 'amis-ui';
 import {Api, ApiObject} from 'amis-core';
@@ -289,7 +290,6 @@ export default class ChainedSelectControl extends React.Component<
       options = [],
       labelField,
       valueField,
-      classPrefix,
       classnames: cx,
       className,
       value,
@@ -322,9 +322,7 @@ export default class ChainedSelectControl extends React.Component<
     }
 
     return (
-      <div className={cx(`${classPrefix}SelectStaticControl`, className)}>
-        {displayValue}
-      </div>
+      <div className={cx('SelectStaticControl', className)}>{displayValue}</div>
     );
   }
 
@@ -347,6 +345,7 @@ export default class ChainedSelectControl extends React.Component<
       testIdBuilder,
       popoverClassName,
       placeholder,
+      classnames: themeCx,
       ...rest
     } = this.props;
     const arr = Array.isArray(value)
@@ -356,11 +355,15 @@ export default class ChainedSelectControl extends React.Component<
       : [];
 
     const {themeCss, id} = this.props;
+    const stableSelectOptionClass = getStableClassName(
+      themeCx,
+      'Select-option'
+    );
 
     const hasStackLoading = this.state.stack.find((a: StackItem) => a.loading);
 
     return (
-      <div className={cx(`${ns}ChainedSelectControl`, className)}>
+      <div className={themeCx('ChainedSelectControl', className)}>
         <Select
           {...rest}
           placeholder={placeholder as string}
@@ -441,7 +444,7 @@ export default class ChainedSelectControl extends React.Component<
         {hasStackLoading && (
           <Spinner
             size="sm"
-            className={cx(`${ns}ChainedSelectControl-spinner`)}
+            className={themeCx('ChainedSelectControl-spinner')}
           />
         )}
         <CustomStyle
@@ -464,13 +467,13 @@ export default class ChainedSelectControl extends React.Component<
                 key: 'chainedSelectPopoverClassName',
                 weights: {
                   default: {
-                    suf: ` .${ns}Select-option`
+                    suf: ` .${stableSelectOptionClass}`
                   },
                   hover: {
-                    suf: ` .${ns}Select-option.is-highlight`
+                    suf: ` .${stableSelectOptionClass}.is-highlight`
                   },
                   focused: {
-                    inner: `.${ns}Select-option.is-active`
+                    inner: `.${stableSelectOptionClass}.is-active`
                   }
                 }
               }

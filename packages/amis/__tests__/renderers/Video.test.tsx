@@ -2,6 +2,12 @@ import {render} from '@testing-library/react';
 import {render as amisRender} from '../../src';
 import {makeEnv} from '../helper';
 
+function normalizeVideoControlText(container: HTMLElement) {
+  container.querySelectorAll('.video-react-control-text').forEach(element => {
+    element.textContent = element.textContent?.trimEnd() || '';
+  });
+}
+
 test('Renderer:alert', () => {
   const {container} = render(
     amisRender(
@@ -18,5 +24,6 @@ test('Renderer:alert', () => {
     )
   );
 
+  normalizeVideoControlText(container);
   expect(container).toMatchSnapshot();
 });

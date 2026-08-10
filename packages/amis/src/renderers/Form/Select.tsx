@@ -20,7 +20,8 @@ import {
   CustomStyle,
   setThemeClassName,
   AMISFormItemWithOptions,
-  AMISSpinnerConfig
+  AMISSpinnerConfig,
+  getStableClassName
 } from 'amis-core';
 import {TransferDropDown, Spinner, Select, SpinnerExtraProps} from 'amis-ui';
 import {FormOptionsSchema, SchemaApi} from '../../Schema';
@@ -541,7 +542,6 @@ export default class SelectControl extends React.Component<SelectProps, any> {
       multiple,
       placeholder,
       id,
-      classPrefix,
       classnames,
       creatable,
       inline,
@@ -557,16 +557,17 @@ export default class SelectControl extends React.Component<SelectProps, any> {
       ...rest
     } = this.props;
     const {classPrefix: ns, themeCss} = this.props;
+    const stableSelectOptionClass = getStableClassName(
+      classnames,
+      'Select-option'
+    );
 
     if (noResultsText) {
       noResultsText = render('noResultText', noResultsText);
     }
 
     return (
-      <div
-        className={cx(`${classPrefix}SelectControl`, className)}
-        style={style}
-      >
+      <div className={classnames('SelectControl', className)} style={style}>
         {['table', 'list', 'group', 'tree', 'chained', 'associated'].includes(
           selectMode
         ) ? (
@@ -646,13 +647,13 @@ export default class SelectControl extends React.Component<SelectProps, any> {
                 key: 'selectPopoverClassName',
                 weights: {
                   default: {
-                    suf: ` .${ns}Select-option`
+                    suf: ` .${stableSelectOptionClass}`
                   },
                   hover: {
-                    suf: ` .${ns}Select-option.is-highlight`
+                    suf: ` .${stableSelectOptionClass}.is-highlight`
                   },
                   focused: {
-                    inner: `.${ns}Select-option.is-active`
+                    inner: `.${stableSelectOptionClass}.is-active`
                   }
                 }
               }

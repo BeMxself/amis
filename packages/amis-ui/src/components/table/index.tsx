@@ -21,7 +21,9 @@ import {
   isObject,
   offset,
   getScrollParent,
-  position
+  position,
+  getStableClassName,
+  getStableClassSelector
 } from 'amis-core';
 import {resizeSensor} from 'amis-core';
 import {getStyleNumber} from 'amis-core';
@@ -515,7 +517,7 @@ export class Table extends React.PureComponent<TableProps, TableState> {
     this.sortable = new Sortable(this.tbodyDom?.current as HTMLElement, {
       group: 'table',
       animation: 150,
-      handle: `.${cx('Table-dragCell')}`,
+      handle: getStableClassSelector(cx, 'Table-dragCell'),
       ghostClass: 'is-dragging',
       onMove: (e: any) => {
         const dragged = e.dragged;
@@ -523,7 +525,9 @@ export class Table extends React.PureComponent<TableProps, TableState> {
 
         if (
           related &&
-          related.classList.contains(`${cx('Table-summary-row')}`)
+          related.classList.contains(
+            getStableClassName(cx, 'Table-summary-row')
+          )
         ) {
           return false;
         }

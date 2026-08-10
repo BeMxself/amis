@@ -5,6 +5,7 @@ import {
   RendererProps,
   ScopedContext,
   buildStyle,
+  getStableClassSelector,
   getMatchedEventTargets,
   getPropValue
 } from 'amis-core';
@@ -594,13 +595,15 @@ export default class Cards extends React.Component<GridProps, object> {
 
     const store = this.props.store;
     const dom = findDOMNode(this) as HTMLElement;
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}Cards-body`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'Cards-body')
+      ) as HTMLElement,
       {
         group: 'table',
         animation: 150,
-        handle: `.${ns}Card-dragBtn`,
+        handle: getStableClassSelector(cx, 'Card-dragBtn'),
         ghostClass: `is-dragging`,
         onEnd: (e: any) => {
           // 没有移动

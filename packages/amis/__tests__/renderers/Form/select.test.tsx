@@ -36,7 +36,7 @@ const setup = async (items: any = {}, formOptions: any = {}) => {
   );
 
   const select = utils.container.querySelector(
-    '.cxd-SelectControl .cxd-TransferDropDown'
+    '.amis-SelectControl .amis-TransferDropDown'
   );
 
   expect(select).toBeInTheDocument();
@@ -297,7 +297,7 @@ test('Renderer:select table with labelField & valueField', async () => {
 
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-TransferDropDown-popover')
+      container.querySelector('.amis-TransferDropDown-popover')
     ).toBeInTheDocument();
   });
 
@@ -870,7 +870,7 @@ test('Renderer:select value contains delimiter when single', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-Select-valueWrap .cxd-Select-value')!
+    container.querySelector('.amis-Select-valueWrap .amis-Select-value')!
       .innerHTML
   ).toEqual('ALabel');
 });

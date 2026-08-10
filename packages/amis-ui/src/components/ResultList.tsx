@@ -11,6 +11,7 @@ import {Option, Options} from './Select';
 import {ThemeProps, themeable} from 'amis-core';
 import {Icon} from './icons';
 import {autobind, guid} from 'amis-core';
+import {getStableClassName, getStableClassSelector} from 'amis-core';
 import {LocaleProps, localeable, ClassNamesFn} from 'amis-core';
 import TransferSearch from './TransferSearch';
 import VirtualList, {AutoSizer} from './virtual-list';
@@ -123,10 +124,10 @@ export class ResultList extends React.Component<
   }
 
   initSortable() {
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     const dom = findDOMNode(this) as HTMLElement;
     const container = dom.querySelector(
-      `.${ns}Selections-items`
+      getStableClassSelector(cx, 'Selections-items')
     ) as HTMLElement;
 
     if (!container) {
@@ -136,8 +137,8 @@ export class ResultList extends React.Component<
     this.sortable = new Sortable(container, {
       group: `selections-${this.id}`,
       animation: 150,
-      handle: `.${ns}Selections-dragbar`,
-      ghostClass: `${ns}Selections-item--dragging`,
+      handle: getStableClassSelector(cx, 'Selections-dragbar'),
+      ghostClass: getStableClassName(cx, 'Selections-item--dragging'),
       onEnd: (e: any) => {
         // 没有移动
         if (e.newIndex === e.oldIndex) {

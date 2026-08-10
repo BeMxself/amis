@@ -52,13 +52,13 @@ test('Renderer:inputMonthRange click', async () => {
   const nextMonthValue = moment().add(1, 'month').format('YYYY-MM');
 
   const startMonth = await within(
-    document.querySelector('.cxd-DateRangePicker-start')!
+    document.querySelector('.amis-DateRangePicker-start')!
   ).findByText(thisMonthText);
 
   fireEvent.click(startMonth);
 
   const endMonth = await within(
-    document.querySelector('.cxd-DateRangePicker-end')!
+    document.querySelector('.amis-DateRangePicker-end')!
   ).findByText(nextMonthText);
 
   fireEvent.click(endMonth);
@@ -67,7 +67,7 @@ test('Renderer:inputMonthRange click', async () => {
 
   fireEvent.click(confirm);
 
-  const value = document.querySelectorAll('.cxd-DateRangePicker-input')!;
+  const value = document.querySelectorAll('.amis-DateRangePicker-input')!;
 
   expect((value[0] as HTMLInputElement).value).toEqual(thisMonthValue);
   expect((value[1] as HTMLInputElement).value).toEqual(nextMonthValue);
@@ -99,20 +99,20 @@ test('Renderer:inputMonthRange with embed', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-DateRangePicker-start .rdtSwitch')!.innerHTML
+    container.querySelector('.amis-DateRangePicker-start .rdtSwitch')!.innerHTML
   ).toBe('2019年');
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-start .rdtMonth.rdtActive span'
+      '.amis-DateRangePicker-start .rdtMonth.rdtActive span'
     )!.innerHTML
   ).toBe('10月');
 
   expect(
-    container.querySelector('.cxd-DateRangePicker-end .rdtSwitch')!.innerHTML
+    container.querySelector('.amis-DateRangePicker-end .rdtSwitch')!.innerHTML
   ).toBe('2022年');
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-end .rdtMonth.rdtActive span'
+      '.amis-DateRangePicker-end .rdtMonth.rdtActive span'
     )!.innerHTML
   ).toBe('11月');
 

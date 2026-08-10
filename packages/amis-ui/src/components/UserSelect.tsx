@@ -4,7 +4,14 @@
  */
 
 import React from 'react';
-import {eachTree, Payload, themeable, ThemeProps} from 'amis-core';
+import {
+  eachTree,
+  getStableClassName,
+  getStableClassSelector,
+  Payload,
+  themeable,
+  ThemeProps
+} from 'amis-core';
 import {LocaleProps, localeable} from 'amis-core';
 import ResultBox from './ResultBox';
 import type {Option} from 'amis-core';
@@ -244,14 +251,16 @@ export class UserSelect extends React.Component<
   }
 
   initDragging() {
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     this.sortable = new Sortable(
-      document.querySelector(`.${ns}UserSelect-checkContent`) as HTMLElement,
+      document.querySelector(
+        getStableClassSelector(cx, 'UserSelect-checkContent')
+      ) as HTMLElement,
       {
         group: `UserSelect-checkContent`,
         animation: 150,
-        handle: `.${ns}UserSelect-dragBar`,
-        ghostClass: `${ns}UserSelect--dragging`,
+        handle: getStableClassSelector(cx, 'UserSelect-dragBar'),
+        ghostClass: getStableClassName(cx, 'UserSelect--dragging'),
         onEnd: (e: any) => {
           if (!this.state.isEdit || e.newIndex === e.oldIndex) {
             return;

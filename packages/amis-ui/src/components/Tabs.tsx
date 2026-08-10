@@ -18,6 +18,7 @@ import {themeable, ThemeProps, noop} from 'amis-core';
 import {uncontrollable} from 'amis-core';
 import {isObjectShallowModified} from 'amis-core';
 import {autobind, guid} from 'amis-core';
+import {getStableClassName, getStableClassSelector} from 'amis-core';
 import {Icon} from './icons';
 import debounce from 'lodash/debounce';
 import {findDomCompat as findDOMNode} from 'amis-core';
@@ -334,12 +335,11 @@ export class Tabs extends React.Component<TabsProps, any> {
     }
 
     // 移动端取消箭头切换，改为滚动切换激活项居中
-    const {classPrefix: ns, activeKey, mobileUI} = this.props;
+    const {activeKey, classnames: cx, mobileUI} = this.props;
     if (mobileUI && preProps.activeKey !== activeKey) {
-      const {classPrefix: ns} = this.props;
       const dom = findDOMNode(this) as HTMLElement;
       const activeTab = dom.querySelector(
-        `.${ns}Tabs-link.is-active`
+        `${getStableClassSelector(cx, 'Tabs-link')}.is-active`
       ) as HTMLElement;
       const parentWidth = (activeTab.parentNode?.parentNode as any).offsetWidth;
       const offsetLeft = activeTab.offsetLeft;
@@ -486,16 +486,18 @@ export class Tabs extends React.Component<TabsProps, any> {
 
   @autobind
   initDragging() {
-    const {classPrefix: ns, onDragChange} = this.props;
+    const {classnames: cx, onDragChange} = this.props;
     const dom = findDOMNode(this) as HTMLElement;
 
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}Tabs-links`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'Tabs-links')
+      ) as HTMLElement,
       {
         group: this.id,
         animation: 250,
-        handle: `.${ns}Tabs-link`,
-        ghostClass: `${ns}Tabs-link--dragging`,
+        handle: getStableClassSelector(cx, 'Tabs-link'),
+        ghostClass: getStableClassName(cx, 'Tabs-link--dragging'),
         onStart: () => {
           this.draging = true;
         },

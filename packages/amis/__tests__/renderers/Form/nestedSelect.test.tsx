@@ -42,12 +42,12 @@ const setupNestedSelect = async (
 
   await waitFor(() => {
     expect(
-      renderResult.container.querySelector('.cxd-NestedSelectControl')
+      renderResult.container.querySelector('.amis-NestedSelectControl')
     ).toBeInTheDocument();
   });
 
   const cmpt = renderResult.container.querySelector(
-    '.cxd-ResultBox .cxd-NestedSelect'
+    '.amis-ResultBox .amis-NestedSelect'
   ) as HTMLDivElement;
 
   return {
@@ -103,7 +103,7 @@ describe('Renderer:NestedSelect', () => {
   //       }
   //     ]
   //   });
-  //   const list = container.querySelectorAll('.cxd-ResultBox-value-wrap')[0];
+  //   const list = container.querySelectorAll('.amis-ResultBox-value-wrap')[0];
   //   /** Tag 数量正确 */
   //   expect(list.childNodes.length).toBe(4);
   //   const overflowText = '+ 10 ...';
@@ -133,18 +133,18 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
       ]
     });
 
-    const trigger = container.querySelector('.cxd-ResultBox');
+    const trigger = container.querySelector('.amis-ResultBox');
     expect(trigger).toBeInTheDocument();
 
     fireEvent.click(trigger!);
     await wait(200);
 
     const parentNum =
-      container.querySelectorAll('.cxd-NestedSelect-optionArrowRight')
+      container.querySelectorAll('.amis-NestedSelect-optionArrowRight')
         ?.length ?? 0;
     expect(parentNum).toEqual(1);
 
-    let options = container.querySelectorAll('.cxd-NestedSelect-optionLabel');
+    let options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
     expect(options.length).toEqual(3);
 
     /** onlyLeaf开启后，children为空数组的选项也可以选择 */
@@ -154,7 +154,7 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
 
     fireEvent.click(trigger!);
     await wait(200);
-    options = container.querySelectorAll('.cxd-NestedSelect-optionLabel');
+    options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
     fireEvent.click(options[2]);
     await wait(300);
     fireEvent.click(trigger!);
@@ -184,18 +184,18 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
       ]
     });
 
-    const trigger = container.querySelector('.cxd-ResultBox');
+    const trigger = container.querySelector('.amis-ResultBox');
     expect(trigger).toBeInTheDocument();
 
     fireEvent.click(trigger!);
     await wait(200);
 
     const parentNum =
-      container.querySelectorAll('.cxd-NestedSelect-optionArrowRight')
+      container.querySelectorAll('.amis-NestedSelect-optionArrowRight')
         ?.length ?? 0;
     expect(parentNum).toEqual(1);
 
-    let options = container.querySelectorAll('.cxd-NestedSelect-optionLabel');
+    let options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
     expect(options.length).toEqual(3);
 
     /** onlyLeaf开启后，children为空数组的选项也可以选择 */
@@ -207,7 +207,7 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
 
     fireEvent.click(trigger!);
     await wait(200);
-    options = container.querySelectorAll('.cxd-NestedSelect-optionLabel');
+    options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
     fireEvent.click(options[2]);
     await wait(300);
     fireEvent.click(trigger!);
@@ -241,7 +241,7 @@ test('test onlyChildren&onlyleaf', async () => {
     ]
   });
 
-  const trigger = container.querySelector('.cxd-ResultBox');
+  const trigger = container.querySelector('.amis-ResultBox');
   expect(trigger).toBeInTheDocument();
 
   fireEvent.click(trigger!);

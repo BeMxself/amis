@@ -3,42 +3,46 @@
 exports[`Renderer:button-toolbar 1`] = `
 <div>
   <div
-    class="cxd-Form-item cxd-Form-item--normal show"
-    data-amis-name="button-toolbar"
-    data-role="form-item"
+    data-amis-theme="cxd"
   >
-    <label
-      class="cxd-Form-label"
+    <div
+      class="amis-Form-item amis-Form-item--normal show"
+      data-amis-name="button-toolbar"
+      data-role="form-item"
     >
-      <span>
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            button-toolbar
+      <label
+        class="amis-Form-label"
+      >
+        <span>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              button-toolbar
+            </span>
           </span>
         </span>
-      </span>
-    </label>
-    <div
-      class="cxd-ButtonToolbar cxd-Form-control"
-    >
-      <button
-        class="cxd-Button cxd-Button--default cxd-Button--size-default"
-        type="button"
+      </label>
+      <div
+        class="amis-ButtonToolbar amis-Form-control"
       >
-        <span>
-          按钮1
-        </span>
-      </button>
-      <button
-        class="cxd-Button cxd-Button--default cxd-Button--size-default"
-        type="button"
-      >
-        <span>
-          按钮2
-        </span>
-      </button>
+        <button
+          class="amis-Button amis-Button--default amis-Button--size-default"
+          type="button"
+        >
+          <span>
+            按钮1
+          </span>
+        </button>
+        <button
+          class="amis-Button amis-Button--default amis-Button--size-default"
+          type="button"
+        >
+          <span>
+            按钮2
+          </span>
+        </button>
+      </div>
     </div>
   </div>
 </div>

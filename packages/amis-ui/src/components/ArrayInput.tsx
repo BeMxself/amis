@@ -1,5 +1,5 @@
 import React from 'react';
-import {ThemeProps, themeable} from 'amis-core';
+import {getStableClassName, ThemeProps, themeable} from 'amis-core';
 import {LocaleProps, localeable} from 'amis-core';
 import InputBox from './InputBox';
 import {Icon} from './icons';
@@ -88,7 +88,7 @@ export class ArrayInput extends React.Component<ArrayInputProps> {
 
   initDragging() {
     const onChange = this.props.onChange;
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     const dom = findDOMNode(this) as HTMLElement;
     this.sortable = new Sortable(
       dom.querySelector(`.drag-group`) as HTMLElement,
@@ -96,7 +96,7 @@ export class ArrayInput extends React.Component<ArrayInputProps> {
         group: `array-input-${this.id}`,
         animation: 150,
         handle: `.drag-bar`,
-        ghostClass: `${ns}ArrayInput-item--dragging`,
+        ghostClass: getStableClassName(cx, 'ArrayInput-item--dragging'),
         onEnd: (e: any) => {
           // 没有移动
           if (e.newIndex === e.oldIndex) {

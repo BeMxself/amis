@@ -2,509 +2,525 @@
 
 exports[`options:linkage 1`] = `
 <div>
-  <form
-    class="cxd-Form cxd-Form--normal"
-    novalidate=""
+  <div
+    data-amis-theme="cxd"
   >
-    <input
-      style="display: none;"
-      type="submit"
-    />
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="a"
-      data-role="form-item"
+    <form
+      class="amis-Form amis-Form--normal"
+      novalidate=""
     >
-      <label
-        class="cxd-Form-label text-muted"
+      <input
+        style="display: none;"
+        type="submit"
+      />
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="a"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项x
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项x
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-ListControl cxd-Form-control is-inline"
-      >
+        </label>
         <div
-          class="cxd-ListControl-items"
+          class="amis-ListControl amis-Form-control is-inline"
         >
           <div
-            class="cxd-ListControl-item"
+            class="amis-ListControl-items"
           >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项1
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项1
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项2
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项2
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项3
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项3
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="b"
-      data-role="form-item"
-    >
-      <label
-        class="cxd-Form-label text-muted"
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="b"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项y
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项y
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-RadiosControl cxd-Form-control is-inline is-thin"
-      >
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
-        >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
-          >
-            选项a
-          </span>
         </label>
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
+        <div
+          class="amis-RadiosControl amis-Form-control is-inline is-thin"
         >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
           >
-            选项b
-          </span>
-        </label>
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项a
+            </span>
+          </label>
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
+          >
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项b
+            </span>
+          </label>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
 `;
 
 exports[`options:linkage 2`] = `
 <div>
-  <form
-    class="cxd-Form cxd-Form--normal"
-    novalidate=""
+  <div
+    data-amis-theme="cxd"
   >
-    <input
-      style="display: none;"
-      type="submit"
-    />
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="a"
-      data-role="form-item"
+    <form
+      class="amis-Form amis-Form--normal"
+      novalidate=""
     >
-      <label
-        class="cxd-Form-label text-muted"
+      <input
+        style="display: none;"
+        type="submit"
+      />
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="a"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项x
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项x
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-ListControl cxd-Form-control is-inline"
-      >
+        </label>
         <div
-          class="cxd-ListControl-items"
+          class="amis-ListControl amis-Form-control is-inline"
         >
           <div
-            class="cxd-ListControl-item is-active"
+            class="amis-ListControl-items"
           >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item is-active"
             >
-              选项1
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项1
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项2
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项2
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项3
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项3
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="b"
-      data-role="form-item"
-    >
-      <label
-        class="cxd-Form-label text-muted"
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="b"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项y
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项y
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-RadiosControl cxd-Form-control is-inline is-thin"
-      >
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default disabled cxd-Checkbox--radio--default--disabled--unchecked"
-          data-role="checkbox"
-        >
-          <input
-            disabled=""
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
-          >
-            选项a
-          </span>
         </label>
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
+        <div
+          class="amis-RadiosControl amis-Form-control is-inline is-thin"
         >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default disabled amis-Checkbox--radio--default--disabled--unchecked"
+            data-role="checkbox"
           >
-            选项b
-          </span>
-        </label>
+            <input
+              disabled=""
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项a
+            </span>
+          </label>
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
+          >
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项b
+            </span>
+          </label>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
 `;
 
 exports[`options:linkage 3`] = `
 <div>
-  <form
-    class="cxd-Form cxd-Form--normal"
-    novalidate=""
+  <div
+    data-amis-theme="cxd"
   >
-    <input
-      style="display: none;"
-      type="submit"
-    />
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="a"
-      data-role="form-item"
+    <form
+      class="amis-Form amis-Form--normal"
+      novalidate=""
     >
-      <label
-        class="cxd-Form-label text-muted"
+      <input
+        style="display: none;"
+        type="submit"
+      />
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="a"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项x
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项x
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-ListControl cxd-Form-control is-inline"
-      >
+        </label>
         <div
-          class="cxd-ListControl-items"
+          class="amis-ListControl amis-Form-control is-inline"
         >
           <div
-            class="cxd-ListControl-item"
+            class="amis-ListControl-items"
           >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项1
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项1
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item is-active"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item is-active"
             >
-              选项2
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项2
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项3
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项3
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="b"
-      data-role="form-item"
-    >
-      <label
-        class="cxd-Form-label text-muted"
-      >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项y
-            </span>
-          </span>
-        </span>
-      </label>
       <div
-        class="cxd-RadiosControl cxd-Form-control is-inline is-thin"
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="b"
+        data-role="form-item"
       >
         <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
+          class="amis-Form-label text-muted"
         >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
-          >
-            选项a
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项y
+              </span>
+            </span>
           </span>
         </label>
+        <div
+          class="amis-RadiosControl amis-Form-control is-inline is-thin"
+        >
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
+          >
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项a
+            </span>
+          </label>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
 `;
 
 exports[`options:linkage 4`] = `
 <div>
-  <form
-    class="cxd-Form cxd-Form--normal"
-    novalidate=""
+  <div
+    data-amis-theme="cxd"
   >
-    <input
-      style="display: none;"
-      type="submit"
-    />
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="a"
-      data-role="form-item"
+    <form
+      class="amis-Form amis-Form--normal"
+      novalidate=""
     >
-      <label
-        class="cxd-Form-label text-muted"
+      <input
+        style="display: none;"
+        type="submit"
+      />
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="a"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项x
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项x
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-ListControl cxd-Form-control is-inline"
-      >
+        </label>
         <div
-          class="cxd-ListControl-items"
+          class="amis-ListControl amis-Form-control is-inline"
         >
           <div
-            class="cxd-ListControl-item"
+            class="amis-ListControl-items"
           >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项1
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项1
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item"
             >
-              选项2
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项2
+              </div>
             </div>
-          </div>
-          <div
-            class="cxd-ListControl-item is-active"
-          >
             <div
-              class="cxd-ListControl-itemLabel"
+              class="amis-ListControl-item is-active"
             >
-              选项3
+              <div
+                class="amis-ListControl-itemLabel"
+              >
+                选项3
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Form-item cxd-Form-item--normal"
-      data-amis-name="b"
-      data-role="form-item"
-    >
-      <label
-        class="cxd-Form-label text-muted"
+      <div
+        class="amis-Form-item amis-Form-item--normal"
+        data-amis-name="b"
+        data-role="form-item"
       >
-        <span>
-          <span
-            class="cxd-TplField fr-view"
-          >
-            <span>
-              选项y
+        <label
+          class="amis-Form-label text-muted"
+        >
+          <span>
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                选项y
+              </span>
             </span>
           </span>
-        </span>
-      </label>
-      <div
-        class="cxd-RadiosControl cxd-Form-control is-inline is-thin"
-      >
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
-        >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
-          >
-            选项a
-          </span>
         </label>
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
+        <div
+          class="amis-RadiosControl amis-Form-control is-inline is-thin"
         >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
-            />
-          </i>
-          <span
-            class="text-muted"
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
           >
-            选项b
-          </span>
-        </label>
-        <label
-          class="cxd-Checkbox cxd-Checkbox--radio--default"
-          data-role="checkbox"
-        >
-          <input
-            type="radio"
-          />
-          <i>
-            <div
-              class="radio-icon icon"
+            <input
+              type="radio"
             />
-          </i>
-          <span
-            class="text-muted"
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项a
+            </span>
+          </label>
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
           >
-            选项c
-          </span>
-        </label>
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项b
+            </span>
+          </label>
+          <label
+            class="amis-Checkbox amis-Checkbox--radio--default"
+            data-role="checkbox"
+          >
+            <input
+              type="radio"
+            />
+            <i>
+              <div
+                class="radio-icon icon"
+              />
+            </i>
+            <span
+              class="text-muted"
+            >
+              选项c
+            </span>
+          </label>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
 `;

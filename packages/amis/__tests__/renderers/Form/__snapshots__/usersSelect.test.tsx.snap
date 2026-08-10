@@ -3,80 +3,84 @@
 exports[`Renderer:usersselect 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="usersselect"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  人员选择
+              The form
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="usersselect"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    人员选择
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="UserSelectControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-UserSelect"
+              class="UserSelectControl amis-Form-control"
             >
               <div
-                class="cxd-ResultBox cxd-UserSelect-input is-clickable is-group"
-                tabindex="-1"
+                class="amis-UserSelect"
               >
                 <div
-                  class="cxd-ResultBox-value-wrap"
+                  class="amis-ResultBox amis-UserSelect-input is-clickable is-group"
+                  tabindex="-1"
                 >
-                  <span
-                    class="cxd-ResultBox-placeholder"
+                  <div
+                    class="amis-ResultBox-value-wrap"
                   >
-                    请选择
-                  </span>
+                    <span
+                      class="amis-ResultBox-placeholder"
+                    >
+                      请选择
+                    </span>
+                  </div>
+                  <div
+                    class="amis-ResultBox-actions"
+                  />
                 </div>
-                <div
-                  class="cxd-ResultBox-actions"
-                />
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>

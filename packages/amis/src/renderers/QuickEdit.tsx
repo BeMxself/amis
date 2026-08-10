@@ -10,6 +10,7 @@ import {
   AMISSchema,
   RendererProps,
   difference,
+  getStableClassSelector,
   getPropValue,
   getRendererByName,
   noop,
@@ -169,9 +170,13 @@ export const HocQuickEdit =
       }
 
       handleWindowKeyPress(e: Event) {
-        const ns = this.props.classPrefix;
+        const cx = this.props.classnames;
+        const quickEditableSelector = getStableClassSelector(
+          cx,
+          'Field--quickEditable'
+        );
         let el: HTMLElement = (e.target as HTMLElement).closest(
-          `.${ns}Field--quickEditable`
+          quickEditableSelector
         ) as HTMLElement;
         if (!el) {
           return;
@@ -204,12 +209,16 @@ export const HocQuickEdit =
         }
 
         e.preventDefault();
-        const ns = this.props.classPrefix;
+        const cx = this.props.classnames;
+        const quickEditableSelector = getStableClassSelector(
+          cx,
+          'Field--quickEditable'
+        );
+        const quickEditableTabSelector = `${quickEditableSelector}[tabindex]`;
         let el: HTMLElement =
           ((e.target as HTMLElement).closest(
-            `.${ns}Field--quickEditable`
-          ) as HTMLElement) ||
-          document.querySelector(`.${ns}Field--quickEditable`);
+            quickEditableSelector
+          ) as HTMLElement) || document.querySelector(quickEditableSelector);
         if (!el) {
           return;
         }
@@ -220,12 +229,12 @@ export const HocQuickEdit =
         }
 
         let current = table.querySelector(
-          `.${ns}Field--quickEditable:focus`
+          `${quickEditableSelector}:focus`
         ) as HTMLTableDataCellElement;
 
         if (!current) {
           let dom = table.querySelector(
-            `.${ns}Field--quickEditable[tabindex]`
+            quickEditableTabSelector
           ) as HTMLElement;
           dom && dom.focus();
         } else {
@@ -254,7 +263,7 @@ export const HocQuickEdit =
               prevTd = current.previousElementSibling as HTMLTableCellElement;
 
               while (prevTd) {
-                if (prevTd.matches(`.${ns}Field--quickEditable[tabindex]`)) {
+                if (prevTd.matches(quickEditableTabSelector)) {
                   break;
                 }
                 prevTd = prevTd.previousElementSibling;
@@ -266,7 +275,7 @@ export const HocQuickEdit =
                 let tds = (
                   (current.parentNode as HTMLElement)
                     .previousSibling as HTMLElement
-                ).querySelectorAll(`.${ns}Field--quickEditable[tabindex]`);
+                ).querySelectorAll(quickEditableTabSelector);
 
                 if (tds.length) {
                   (tds[tds.length - 1] as HTMLElement).focus();
@@ -276,11 +285,7 @@ export const HocQuickEdit =
             case 'right':
               nextTd = current.nextSibling;
               while (nextTd) {
-                if (
-                  (nextTd as Element).matches(
-                    `.${ns}Field--quickEditable[tabindex]`
-                  )
-                ) {
+                if ((nextTd as Element).matches(quickEditableTabSelector)) {
                   break;
                 }
 
@@ -292,7 +297,7 @@ export const HocQuickEdit =
               } else if ((current.parentNode as HTMLElement).nextSibling) {
                 nextTd = (
                   (current.parentNode as HTMLElement).nextSibling as HTMLElement
-                ).querySelector(`.${ns}Field--quickEditable[tabindex]`);
+                ).querySelector(quickEditableTabSelector);
 
                 if (nextTd) {
                   (nextTd as any).focus();
@@ -392,7 +397,11 @@ export const HocQuickEdit =
           return;
         }
         currentOpened = null;
-        const ns = this.props.classPrefix;
+        const cx = this.props.classnames;
+        const quickEditableSelector = getStableClassSelector(
+          cx,
+          'Field--quickEditable'
+        );
         this.setState(
           {
             isOpened: false
@@ -401,7 +410,7 @@ export const HocQuickEdit =
             let el = findDOMNode(this) as HTMLElement;
             let table = el.closest('table') as HTMLElement;
             ((table &&
-              table.querySelectorAll(`td.${ns}Field--quickEditable:focus`)
+              table.querySelectorAll(`td${quickEditableSelector}:focus`)
                 .length) ||
               el) &&
               el.focus();

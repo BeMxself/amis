@@ -6,6 +6,8 @@ import {
   prettyBytes,
   resolveEventData,
   CustomStyle,
+  getStableClassName,
+  getStableClassSelector,
   setThemeClassName,
   PlainObject,
   localeFormatter,
@@ -1573,12 +1575,15 @@ export default class ImageControl extends React.Component<
   }
 
   initDragging(dom: HTMLElement) {
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     this.sortable = new Sortable(dom, {
       group: `inputimages-${this.id}`,
       animation: 150,
-      handle: `.${ns}ImageControl-item [data-role="dragBar"]`,
-      ghostClass: `${ns}ImageControl-item--dragging`,
+      handle: `${getStableClassSelector(
+        cx,
+        'ImageControl-item'
+      )} [data-role="dragBar"]`,
+      ghostClass: getStableClassName(cx, 'ImageControl-item--dragging'),
       onEnd: (e: any) => {
         // 没有移动
         if (e.newIndex === e.oldIndex) {

@@ -186,7 +186,7 @@ test('Renderer:input table add', async () => {
 
   fireEvent.change(inputs[1], {target: {value: 'bb'}});
 
-  const save = document.querySelector('.cxd-OperationField button');
+  const save = document.querySelector('.amis-OperationField button');
 
   fireEvent.click(save!);
 
@@ -909,7 +909,7 @@ test('Renderer:input-table autoFill', async () => {
 
   await wait(200);
 
-  const add = container.querySelector('.cxd-InputTable-toolbar button');
+  const add = container.querySelector('.amis-InputTable-toolbar button');
   fireEvent.click(add!);
   await wait(200);
 
@@ -923,12 +923,12 @@ test('Renderer:input-table autoFill', async () => {
   });
   await wait(200);
 
-  fireEvent.click(container.querySelector('.cxd-Select')!);
+  fireEvent.click(container.querySelector('.amis-Select')!);
   await wait(200);
-  fireEvent.click(container.querySelector('.cxd-Select-menu [role="option"]')!);
+  fireEvent.click(container.querySelector('.amis-Select-menu [role="option"]')!);
   await wait(200);
 
-  fireEvent.click(container.querySelector('.cxd-OperationField button')!);
+  fireEvent.click(container.querySelector('.amis-OperationField button')!);
   await wait(200);
 
   const submitBtn = container.querySelector('button[type=submit]');
@@ -1003,12 +1003,12 @@ test('Renderer:input-table canAccessSuperData', async () => {
   );
 
   await wait(200);
-  const addBtn = container.querySelector('.cxd-OperationField button');
+  const addBtn = container.querySelector('.amis-OperationField button');
   expect(addBtn).toBeInTheDocument();
   fireEvent.click(addBtn!);
 
   await wait(200);
-  const confrimBtn = container.querySelector('.cxd-OperationField button');
+  const confrimBtn = container.querySelector('.amis-OperationField button');
   expect(confrimBtn).toBeInTheDocument();
   fireEvent.click(confrimBtn!);
 
@@ -1070,12 +1070,12 @@ test('Renderer:input-table item confirm validate', async () => {
   );
 
   await wait(200);
-  const addBtn = container.querySelector('.cxd-OperationField button');
+  const addBtn = container.querySelector('.amis-OperationField button');
   expect(addBtn).toBeInTheDocument();
   fireEvent.click(addBtn!);
 
   await wait(200);
-  const confirmBtn = container.querySelector('.cxd-OperationField button');
+  const confirmBtn = container.querySelector('.amis-OperationField button');
   expect(confirmBtn).toBeInTheDocument();
   fireEvent.click(confirmBtn!);
 
@@ -1147,7 +1147,7 @@ test('Renderer:input-table pagination data issue', async () => {
   );
 
   await wait(200);
-  const nextBtn = container.querySelector('.cxd-Pagination-next');
+  const nextBtn = container.querySelector('.amis-Pagination-next');
   fireEvent.click(nextBtn!);
   await wait(200);
 
@@ -1217,7 +1217,7 @@ test('Renderer:input-table cancel new item from addAction', async () => {
   );
 
   await wait(200);
-  const addBtn = container.querySelector('.cxd-Button.add-item');
+  const addBtn = container.querySelector('.amis-Button.add-item');
   expect(addBtn).toBeInTheDocument();
 
   fireEvent.click(addBtn!);
@@ -1232,7 +1232,7 @@ test('Renderer:input-table cancel new item from addAction', async () => {
   ) as HTMLInputElement;
   expect(inputB?.value).toEqual('newb');
 
-  const operationBtn = container.querySelectorAll('.cxd-OperationField button');
+  const operationBtn = container.querySelectorAll('.amis-OperationField button');
   const saveBtn = operationBtn?.[0] as HTMLButtonElement;
   expect(saveBtn).toBeInTheDocument();
   const cancelBtn = operationBtn?.[1] as HTMLButtonElement;

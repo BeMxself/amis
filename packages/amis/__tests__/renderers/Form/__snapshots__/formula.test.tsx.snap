@@ -3,444 +3,448 @@
 exports[`Renderer:formula 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="a"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
-          <label
-            class="cxd-Form-label"
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="a"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  a
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    a
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="1"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="a"
+                    role="spinbutton"
+                    step="1"
+                    value="1"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="1"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="a"
-                  role="spinbutton"
-                  step="1"
-                  value="1"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="b"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="b"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  b
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    b
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="2"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="b"
+                    role="spinbutton"
+                    step="1"
+                    value="2"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="2"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="b"
-                  role="spinbutton"
-                  step="1"
-                  value="2"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="sum1"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="sum1"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  sum1
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    sum1
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="3"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="sum1"
+                    role="spinbutton"
+                    step="1"
+                    value="3"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="3"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="sum1"
-                  role="spinbutton"
-                  step="1"
-                  value="3"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="sum2"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="sum2"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  sum2
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    sum2
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="4"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="sum2"
+                    role="spinbutton"
+                    step="1"
+                    value="4"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="4"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="sum2"
-                  role="spinbutton"
-                  step="1"
-                  value="4"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="sum3"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="sum3"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  sum3
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    sum3
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="5"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="sum3"
+                    role="spinbutton"
+                    step="1"
+                    value="5"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="5"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="sum3"
-                  role="spinbutton"
-                  step="1"
-                  value="5"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="sum4"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="sum4"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  sum4
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    sum4
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="cxd-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="cxd-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="cxd-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="cxd-Number-handler cxd-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="cxd-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="cxd-Number-handler cxd-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="cxd-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="cxd-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="5"
+                    autocomplete="off"
+                    class="cxd-Number-input"
+                    name="sum4"
+                    role="spinbutton"
+                    step="1"
+                    value="5"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="5"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="sum4"
-                  role="spinbutton"
-                  step="1"
-                  value="5"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>

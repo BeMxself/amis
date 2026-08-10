@@ -57,7 +57,7 @@ test('Renderer:dropdown-button', async () => {
     )
   );
 
-  const dropdowmButton = document.querySelector('button.cxd-Button');
+  const dropdowmButton = document.querySelector('button.amis-Button');
   fireEvent.click(dropdowmButton as HTMLDivElement);
   expect(container).toMatchSnapshot();
   fireEvent.click(dropdowmButton as HTMLDivElement);
@@ -121,17 +121,17 @@ test('Renderer:dropdown-button with buttons group', async () => {
     })
   );
 
-  const dropdowmButton = document.querySelector('button.cxd-Button');
+  const dropdowmButton = document.querySelector('button.amis-Button');
   fireEvent.click(dropdowmButton as HTMLDivElement);
 
   const menus = container.querySelectorAll(
-    '.cxd-DropDown-menu-root > .cxd-DropDown-menu'
+    '.amis-DropDown-menu-root > .amis-DropDown-menu'
   );
   expect(container).toMatchSnapshot();
   expect(menus.length).toBe(3);
 
   expect(
-    container.querySelectorAll('.cxd-DropDown-menu-root .cxd-DropDown-button')!
+    container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')!
       .length
   ).toBe(5);
 });
@@ -170,14 +170,14 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
     )
   );
 
-  fireEvent.click(document.querySelector('button.cxd-Button')!);
+  fireEvent.click(document.querySelector('button.amis-Button')!);
 
   const isMenuExist = (exist: boolean) => {
     exist
       ? expect(
-          container.querySelector('.cxd-DropDown-menu-root')!
+          container.querySelector('.amis-DropDown-menu-root')!
         ).toBeInTheDocument()
-      : expect(container.querySelector('.cxd-DropDown-menu-root')!).toBeNull();
+      : expect(container.querySelector('.amis-DropDown-menu-root')!).toBeNull();
   };
 
   isMenuExist(true);
@@ -199,7 +199,7 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
   await wait(500);
   isMenuExist(false);
 
-  fireEvent.click(document.querySelector('button.cxd-Button')!);
+  fireEvent.click(document.querySelector('button.amis-Button')!);
   isMenuExist(true);
 
   fireEvent.click(getByText('outside'));
@@ -215,7 +215,7 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
     )
   );
 
-  fireEvent.click(document.querySelector('button.cxd-Button')!);
+  fireEvent.click(document.querySelector('button.amis-Button')!);
   isMenuExist(true);
 
   fireEvent.click(getByText('outside'));
@@ -241,10 +241,10 @@ test('Renderer:dropdown-button with trigger', async () => {
       ]
     })
   );
-  fireEvent.mouseEnter(document.querySelector('button.cxd-Button')!);
+  fireEvent.mouseEnter(document.querySelector('button.amis-Button')!);
   await wait(200);
   expect(
-    container.querySelector('.cxd-DropDown-menu-root')!
+    container.querySelector('.amis-DropDown-menu-root')!
   ).toBeInTheDocument();
 });
 
@@ -294,7 +294,7 @@ test('Renderer:dropdown-button with hideCaret', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-DropDown-caret')!).toBeNull();
+  expect(container.querySelector('.amis-DropDown-caret')!).toBeNull();
   expect(container).toMatchSnapshot();
 });
 
@@ -318,7 +318,7 @@ test('Renderer:dropdown-button with defaultIsOpened', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-DropDown-menu-root')!
+    container.querySelector('.amis-DropDown-menu-root')!
   ).toBeInTheDocument();
 });
 
@@ -343,10 +343,10 @@ test('Renderer:dropdown-button with align', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-DropDown-menu-root')!
+    container.querySelector('.amis-DropDown-menu-root')!
   ).toBeInTheDocument();
-  expect(container.querySelector('.cxd-DropDown')!).toHaveClass(
-    'cxd-DropDown--alignRight'
+  expect(container.querySelector('.amis-DropDown')!).toHaveClass(
+    'amis-DropDown--alignRight'
   );
 });
 
@@ -369,8 +369,8 @@ test('Renderer:dropdown-button with block & size', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-DropDown')!).toHaveClass(
-    'cxd-DropDown--block'
+  expect(container.querySelector('.amis-DropDown')!).toHaveClass(
+    'amis-DropDown--block'
   );
   expect(container).toMatchSnapshot();
 
@@ -392,8 +392,8 @@ test('Renderer:dropdown-button with block & size', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-DropDown .cxd-Button')!).toHaveClass(
-    'cxd-Button--size-lg'
+  expect(container.querySelector('.amis-DropDown .amis-Button')!).toHaveClass(
+    'amis-Button--size-lg'
   );
   expect(container).toMatchSnapshot();
 });
@@ -419,14 +419,14 @@ test('Renderer:dropdown-button buttons with className & level', async () => {
     })
   );
 
-  const dropdownButton = document.querySelector('button.cxd-Button');
+  const dropdownButton = document.querySelector('button.amis-Button');
   fireEvent.click(dropdownButton as HTMLDivElement);
 
-  expect(container.querySelectorAll('.cxd-DropDown-menu-root .cxd-DropDown-button')[0]!).toHaveClass(
-    'cxd-Button--success'
+  expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(
+    'amis-Button--success'
   );
 
-  expect(container.querySelectorAll('.cxd-DropDown-menu-root .cxd-DropDown-button')[0]!).toHaveClass(
+  expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(
     'custom-button-class'
   );
 });

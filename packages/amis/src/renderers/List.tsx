@@ -31,7 +31,8 @@ import {
   isDisabled,
   AMISRemarkBase,
   noop,
-  isClickOnInput
+  isClickOnInput,
+  getStableClassSelector
 } from 'amis-core';
 
 import QuickEdit, {SchemaQuickEdit} from './QuickEdit';
@@ -728,13 +729,15 @@ export default class List extends React.Component<ListProps, ListState> {
   initDragging() {
     const store = this.props.store;
     const dom = findDOMNode(this) as HTMLElement;
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}List-items`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'List-items')
+      ) as HTMLElement,
       {
         group: 'table',
         animation: 150,
-        handle: `.${ns}ListItem-dragBtn`,
+        handle: getStableClassSelector(cx, 'ListItem-dragBtn'),
         ghostClass: 'is-dragging',
         onEnd: (e: any) => {
           // 没有移动

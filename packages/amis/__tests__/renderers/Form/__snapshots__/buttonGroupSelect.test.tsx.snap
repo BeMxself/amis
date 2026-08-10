@@ -3,83 +3,87 @@
 exports[`Renderer:button-group with btnActiveLevel 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="type"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  选项
+              The form
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="type"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    选项
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ButtonGroup cxd-Form-control"
-          >
-            <button
-              class="cxd-Button cxd-Button--warning cxd-Button--size-default cxd-ButtonGroup-button--active"
-              type="button"
+            </label>
+            <div
+              class="amis-ButtonGroup amis-Form-control"
             >
-              <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--light cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option C
-              </span>
-            </button>
+              <button
+                class="amis-Button amis-Button--warning amis-Button--size-default amis-ButtonGroup-button--active"
+                type="button"
+              >
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--primary amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--light amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option C
+                </span>
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -88,75 +92,79 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
 exports[`Renderer:button-group with tiled 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
+              The form
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ButtonGroup cxd-ButtonGroup--tiled cxd-Form-control"
-          >
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
+            </label>
+            <div
+              class="amis-ButtonGroup amis-ButtonGroup--tiled amis-Form-control"
             >
-              <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -165,75 +173,79 @@ exports[`Renderer:button-group with tiled 1`] = `
 exports[`Renderer:button-group with vertical 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
+              The form
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ButtonGroup cxd-ButtonGroup--vertical cxd-Form-control"
-          >
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
+            </label>
+            <div
+              class="amis-ButtonGroup amis-ButtonGroup--vertical amis-Form-control"
             >
-              <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -242,107 +254,111 @@ exports[`Renderer:button-group with vertical 1`] = `
 exports[`Renderer:button-group:multiple clearable 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
-                </span>
-              </span>
-            </span>
-          </label>
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-ButtonGroup cxd-Form-control"
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
           >
-            <button
-              class="cxd-Button cxd-Button--primary cxd-Button--size-default cxd-ButtonGroup-button--active"
-              type="button"
+            <label
+              class="amis-Form-label"
             >
               <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  当前值
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-Form-static"
-          >
+            </label>
             <div
-              class="cxd-Form-control"
+              class="amis-ButtonGroup amis-Form-control"
             >
-              <span
-                class="cxd-PlainField"
+              <button
+                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
+                type="button"
               >
-                a
-              </span>
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
             </div>
           </div>
-        </div>
-      </form>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    当前值
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-Form-static"
+            >
+              <div
+                class="amis-Form-control"
+              >
+                <span
+                  class="amis-PlainField"
+                >
+                  a
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -351,107 +367,111 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
 exports[`Renderer:button-group:multiple clearable 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
-                </span>
-              </span>
-            </span>
-          </label>
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-ButtonGroup cxd-Form-control"
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
           >
-            <button
-              class="cxd-Button cxd-Button--primary cxd-Button--size-default cxd-ButtonGroup-button--active"
-              type="button"
+            <label
+              class="amis-Form-label"
             >
               <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--primary cxd-Button--size-default cxd-ButtonGroup-button--active"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  当前值
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-Form-static"
-          >
+            </label>
             <div
-              class="cxd-Form-control"
+              class="amis-ButtonGroup amis-Form-control"
             >
-              <span
-                class="cxd-PlainField"
+              <button
+                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
+                type="button"
               >
-                a,b
-              </span>
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
             </div>
           </div>
-        </div>
-      </form>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    当前值
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-Form-static"
+            >
+              <div
+                class="amis-Form-control"
+              >
+                <span
+                  class="amis-PlainField"
+                >
+                  a,b
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -460,107 +480,111 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
 exports[`Renderer:button-group:multiple clearable 3`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  多选
-                </span>
-              </span>
-            </span>
-          </label>
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-ButtonGroup cxd-Form-control"
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
           >
-            <button
-              class="cxd-Button cxd-Button--primary cxd-Button--size-default cxd-ButtonGroup-button--active"
-              type="button"
+            <label
+              class="amis-Form-label"
             >
               <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  当前值
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    多选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-Form-static"
-          >
+            </label>
             <div
-              class="cxd-Form-control"
+              class="amis-ButtonGroup amis-Form-control"
             >
-              <span
-                class="cxd-PlainField"
+              <button
+                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
+                type="button"
               >
-                a
-              </span>
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
             </div>
           </div>
-        </div>
-      </form>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    当前值
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-Form-static"
+            >
+              <div
+                class="amis-Form-control"
+              >
+                <span
+                  class="amis-PlainField"
+                >
+                  a
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -569,111 +593,115 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
 exports[`Renderer:button-group-select 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  单选
-                </span>
-              </span>
-            </span>
-          </label>
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-ButtonGroup cxd-Form-control"
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
           >
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
+            <label
+              class="amis-Form-label"
             >
               <span>
-                Option A
-              </span>
-            </button>
-            <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
-              type="button"
-            >
-              <span>
-                Option B
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  当前值
-                </span>
-              </span>
-            </span>
-          </label>
-          <div
-            class="cxd-Form-static"
-          >
-            <div
-              class="cxd-Form-control"
-            >
-              <span
-                class="cxd-PlainField"
-              >
                 <span
-                  class="text-muted"
+                  class="amis-TplField fr-view"
                 >
-                  -
+                  <span>
+                    单选
+                  </span>
                 </span>
               </span>
+            </label>
+            <div
+              class="amis-ButtonGroup amis-Form-control"
+            >
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option A
+                </span>
+              </button>
+              <button
+                class="amis-Button amis-Button--default amis-Button--size-default"
+                type="button"
+              >
+                <span>
+                  Option B
+                </span>
+              </button>
             </div>
           </div>
-        </div>
-      </form>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    当前值
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-Form-static"
+            >
+              <div
+                class="amis-Form-control"
+              >
+                <span
+                  class="amis-PlainField"
+                >
+                  <span
+                    class="text-muted"
+                  >
+                    -
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>

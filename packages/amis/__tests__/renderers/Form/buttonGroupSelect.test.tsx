@@ -97,7 +97,7 @@ test('Renderer:button-group:multiple clearable', async () => {
     )
   );
   // 这个是为了用于监视值是否变更完成
-  const refDom = container.querySelector('.cxd-PlainField') as Element;
+  const refDom = container.querySelector('.amis-PlainField') as Element;
 
   fireEvent.click(await findByText(/Option A/));
   await waitFor(() => expect(refDom.innerHTML).toBe('a'));
@@ -146,7 +146,7 @@ test('Renderer:button-group with vertical', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-ButtonGroup.cxd-ButtonGroup--vertical')!
+    container.querySelector('.amis-ButtonGroup.amis-ButtonGroup--vertical')!
   ).toBeInTheDocument();
 
   expect(container).toMatchSnapshot();
@@ -186,7 +186,7 @@ test('Renderer:button-group with tiled', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-ButtonGroup.cxd-ButtonGroup--tiled')!
+    container.querySelector('.amis-ButtonGroup.amis-ButtonGroup--tiled')!
   ).toBeInTheDocument();
 
   expect(container).toMatchSnapshot();
@@ -233,11 +233,11 @@ test('Renderer:button-group with btnActiveLevel', async () => {
     )
   );
 
-  const buttons = container.querySelectorAll('.cxd-ButtonGroup .cxd-Button')!;
+  const buttons = container.querySelectorAll('.amis-ButtonGroup .amis-Button')!;
   expect(buttons.length).toBe(3);
 
   expect(container).toMatchSnapshot();
-  expect(buttons[0]).toHaveClass('cxd-Button--warning');
-  expect(buttons[1]).toHaveClass('cxd-Button--primary');
-  expect(buttons[2]).toHaveClass('cxd-Button--light');
+  expect(buttons[0]).toHaveClass('amis-Button--warning');
+  expect(buttons[1]).toHaveClass('amis-Button--primary');
+  expect(buttons[2]).toHaveClass('amis-Button--light');
 });

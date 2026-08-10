@@ -1,6 +1,12 @@
 import React, {useEffect} from 'react';
 
-import {themeable, ThemeProps, filterTree, mapTree} from 'amis-core';
+import {
+  themeable,
+  ThemeProps,
+  filterTree,
+  mapTree,
+  getStableClassSelector
+} from 'amis-core';
 import GroupedSelection from '../GroupedSelection';
 import Tabs, {Tab} from '../Tabs';
 import TreeSelection from '../TreeSelection';
@@ -178,7 +184,7 @@ function VariableList(props: VariableListProps) {
                         popOverContainer ||
                         (() =>
                           document.querySelector(
-                            `.${cx('FormulaPicker-Modal')}`
+                            getStableClassSelector(cx, 'FormulaPicker-Modal')
                           ))
                       }
                       popOverRender={({onClose}) => (

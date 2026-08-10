@@ -12,6 +12,7 @@ import {TooltipWrapper} from 'amis-ui';
 
 import {noop, autobind, anyChanged, createObject} from 'amis-core';
 import {filter} from 'amis-core';
+import {getStableClassName, getStableClassSelector} from 'amis-core';
 import {Icon} from 'amis-ui';
 import {RootClose} from 'amis-core';
 import type {TooltipObject} from 'amis-ui/lib/components/TooltipWrapper';
@@ -259,15 +260,17 @@ export default class ColumnToggler<
 
   initDragging() {
     const dom = findDOMNode(this) as HTMLElement;
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
 
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}ColumnToggler-modal-content`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'ColumnToggler-modal-content')
+      ) as HTMLElement,
       {
         group: `ColumnToggler-modal-content`,
         animation: 150,
-        handle: `.${ns}ColumnToggler-menuItem-dragBar`,
-        ghostClass: `${ns}ColumnToggler-menuItem--dragging`,
+        handle: getStableClassSelector(cx, 'ColumnToggler-menuItem-dragBar'),
+        ghostClass: getStableClassName(cx, 'ColumnToggler-menuItem--dragging'),
         onEnd: (e: any) => {
           if (e.newIndex === e.oldIndex) return;
           this.moveColumn(e.oldIndex, e.newIndex);

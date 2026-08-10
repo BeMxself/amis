@@ -7,7 +7,7 @@
 import React from 'react';
 import moment from 'moment';
 import Calendar from './calendar/Calendar';
-import {themeable, ThemeProps} from 'amis-core';
+import {getStableClassSelector, themeable, ThemeProps} from 'amis-core';
 import {LocaleProps, localeable} from 'amis-core';
 import {autobind} from 'amis-core';
 import {ShortCuts} from './DatePicker';
@@ -154,7 +154,7 @@ export class CalendarMobile extends React.Component<
 
   componentDidUpdate(prevProps: CalendarMobileProps) {
     const props = this.props;
-    const {classPrefix: ns} = props;
+    const {classnames: cx} = props;
 
     if (
       prevProps.minDate !== props.minDate ||
@@ -189,9 +189,17 @@ export class CalendarMobile extends React.Component<
         },
         () =>
           requestAnimationFrame(() => {
+            const calendarSelector = getStableClassSelector(
+              cx,
+              'CalendarMobile'
+            );
+            const embedSelector = getStableClassSelector(
+              cx,
+              'CalendarMobile-embed'
+            );
             document
               .querySelector(
-                `.${ns}CalendarMobile:not(.${ns}CalendarMobile-embed) .rdtRangeStart:not(.rdtNew)`
+                `${calendarSelector}:not(${embedSelector}) .rdtRangeStart:not(.rdtNew)`
               )
               ?.scrollIntoView();
           })

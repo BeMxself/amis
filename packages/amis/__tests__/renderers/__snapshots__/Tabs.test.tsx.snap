@@ -3,125 +3,129 @@
 exports[`Renderer:tabs as form item 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Tabs cxd-Tabs--line"
-          data-role="container"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-Tabs-linksContainer-wrapper"
+            class="amis-Tabs amis-Tabs--line"
+            data-role="container"
           >
             <div
-              class="cxd-Tabs-linksContainer"
+              class="amis-Tabs-linksContainer-wrapper"
             >
               <div
-                class="cxd-Tabs-linksContainer-main"
+                class="amis-Tabs-linksContainer"
               >
-                <ul
-                  class="cxd-Tabs-links"
-                  role="tablist"
+                <div
+                  class="amis-Tabs-linksContainer-main"
                 >
-                  <li
-                    class="cxd-Tabs-link"
+                  <ul
+                    class="amis-Tabs-links"
+                    role="tablist"
                   >
-                    <a
-                      title="Tab 1"
+                    <li
+                      class="amis-Tabs-link"
                     >
-                      <span
-                        class="cxd-Tabs-link-text"
+                      <a
+                        title="Tab 1"
                       >
-                        Tab 1
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    class="cxd-Tabs-link is-active"
-                  >
-                    <a
-                      title="Tab 2"
+                        <span
+                          class="amis-Tabs-link-text"
+                        >
+                          Tab 1
+                        </span>
+                      </a>
+                    </li>
+                    <li
+                      class="amis-Tabs-link is-active"
                     >
-                      <span
-                        class="cxd-Tabs-link-text"
+                      <a
+                        title="Tab 2"
                       >
-                        Tab 2
-                      </span>
-                    </a>
-                  </li>
-                </ul>
+                        <span
+                          class="amis-Tabs-link-text"
+                        >
+                          Tab 2
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="amis-Tabs-content"
+            >
+              <div
+                class="amis-Tabs-pane"
+              >
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    Content 1
+                  </span>
+                </span>
+              </div>
+              <div
+                class="in is-active amis-Tabs-pane"
+              >
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    Content 2
+                  </span>
+                </span>
               </div>
             </div>
           </div>
-          <div
-            class="cxd-Tabs-content"
-          >
-            <div
-              class="cxd-Tabs-pane"
-            >
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  Content 1
-                </span>
-              </span>
-            </div>
-            <div
-              class="in is-active cxd-Tabs-pane"
-            >
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  Content 2
-                </span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            submitText
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              submitText
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -131,83 +135,87 @@ exports[`Renderer:tabs as form item 1`] = `
 exports[`Renderer:tabs change active tab 1`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--line tabs-wrapper"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--line tabs-wrapper"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-              <span
-                class="cxd-Tabs-link-close"
-              >
-                <icon-mock
-                  classname="cxd-Tabs-link-close-icon icon-close"
-                  icon="close"
-                />
-              </span>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
-              >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
                 <span
-                  class="cxd-Tabs-link-text"
+                  class="amis-Tabs-link-close"
                 >
-                  其他配置
+                  <icon-mock
+                    classname="amis-Tabs-link-close-icon icon-close"
+                    icon="close"
+                  />
                 </span>
-              </a>
-              <span
-                class="cxd-Tabs-link-close"
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <icon-mock
-                  classname="cxd-Tabs-link-close-icon icon-close"
-                  icon="close"
-                />
-              </span>
-            </li>
-          </ul>
+                <a
+                  title="其他配置"
+                >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+                <span
+                  class="amis-Tabs-link-close"
+                >
+                  <icon-mock
+                    classname="amis-Tabs-link-close-icon icon-close"
+                    icon="close"
+                  />
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -217,156 +225,160 @@ exports[`Renderer:tabs change active tab 1`] = `
 exports[`Renderer:tabs change active tab 2`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--line tabs-wrapper"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--line tabs-wrapper"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
-          >
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="基本配置"
-              >
-                <span
-                  class="cxd-Tabs-link-text"
-                >
-                  基本配置
-                </span>
-              </a>
-              <span
-                class="cxd-Tabs-link-close"
-              >
-                <icon-mock
-                  classname="cxd-Tabs-link-close-icon icon-close"
-                  icon="close"
-                />
-              </span>
-            </li>
-            <li
-              class="cxd-Tabs-link is-active"
-            >
-              <a
-                title="其他配置"
-              >
-                <span
-                  class="cxd-Tabs-link-text"
-                >
-                  其他配置
-                </span>
-              </a>
-              <span
-                class="cxd-Tabs-link-close"
-              >
-                <icon-mock
-                  classname="cxd-Tabs-link-close-icon icon-close"
-                  icon="close"
-                />
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
-      <div
-        class="cxd-Tabs-pane"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            <p>
-              tab1 内容
-            </p>
-          </span>
-        </span>
-      </div>
-      <div
-        class="in is-active cxd-Tabs-pane"
-      >
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="c"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  文本3
-                </span>
-              </span>
-            </span>
-          </label>
           <div
-            class="cxd-Form-control cxd-TextControl"
+            class="amis-Tabs-linksContainer-main"
           >
-            <div
-              class="cxd-TextControl-input"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <input
-                autocomplete="off"
-                class=""
-                name="c"
-                placeholder=""
-                size="10"
-                type="text"
-                value=""
-              />
-            </div>
+              <li
+                class="amis-Tabs-link"
+              >
+                <a
+                  title="基本配置"
+                >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+                <span
+                  class="amis-Tabs-link-close"
+                >
+                  <icon-mock
+                    classname="amis-Tabs-link-close-icon icon-close"
+                    icon="close"
+                  />
+                </span>
+              </li>
+              <li
+                class="amis-Tabs-link is-active"
+              >
+                <a
+                  title="其他配置"
+                >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+                <span
+                  class="amis-Tabs-link-close"
+                >
+                  <icon-mock
+                    classname="amis-Tabs-link-close-icon icon-close"
+                    icon="close"
+                  />
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
+      <div
+        class="amis-Tabs-content"
+      >
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="d"
-          data-role="form-item"
+          class="amis-Tabs-pane"
         >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  文本4
+              <p>
+                tab1 内容
+              </p>
+            </span>
+          </span>
+        </div>
+        <div
+          class="in is-active amis-Tabs-pane"
+        >
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="c"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    文本3
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-Form-control cxd-TextControl"
-          >
+            </label>
             <div
-              class="cxd-TextControl-input"
+              class="amis-Form-control cxd-TextControl"
             >
-              <input
-                autocomplete="off"
-                class=""
-                name="d"
-                placeholder=""
-                size="10"
-                type="text"
-                value=""
-              />
+              <div
+                class="amis-TextControl-input"
+              >
+                <input
+                  autocomplete="off"
+                  class=""
+                  name="c"
+                  placeholder=""
+                  size="10"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="d"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    文本4
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-Form-control cxd-TextControl"
+            >
+              <div
+                class="amis-TextControl-input"
+              >
+                <input
+                  autocomplete="off"
+                  class=""
+                  name="d"
+                  placeholder=""
+                  size="10"
+                  type="text"
+                  value=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -379,67 +391,71 @@ exports[`Renderer:tabs change active tab 2`] = `
 exports[`Renderer:tabs tabsMode 1`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--card"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--card"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-          </ul>
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -449,67 +465,71 @@ exports[`Renderer:tabs tabsMode 1`] = `
 exports[`Renderer:tabs tabsMode 2`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--radio"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--radio"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-          </ul>
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -519,59 +539,63 @@ exports[`Renderer:tabs tabsMode 2`] = `
 exports[`Renderer:tabs tabsMode 3`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--vertical"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksWrapper"
-    >
-      <ul
-        class="cxd-Tabs-links"
-        role="tablist"
-      >
-        <li
-          class="cxd-Tabs-link is-active"
-        >
-          <a
-            title="基本配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              基本配置
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="其他配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              其他配置
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div
-      class="cxd-Tabs-content"
+      class="amis-Tabs amis-Tabs--vertical"
+      data-role="container"
     >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-linksWrapper"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <ul
+          class="amis-Tabs-links"
+          role="tablist"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <li
+            class="amis-Tabs-link is-active"
+          >
+            <a
+              title="基本配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                基本配置
+              </span>
+            </a>
+          </li>
+          <li
+            class="amis-Tabs-link"
+          >
+            <a
+              title="其他配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                其他配置
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="amis-Tabs-content"
+      >
+        <div
+          class="in is-active amis-Tabs-pane"
+        >
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -581,99 +605,103 @@ exports[`Renderer:tabs tabsMode 3`] = `
 exports[`Renderer:tabs tabsMode 4`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--chrome"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksWrapper"
-    >
-      <ul
-        class="cxd-Tabs-links"
-        role="tablist"
-      >
-        <li
-          class="cxd-Tabs-link is-active"
-        >
-          <a
-            title="基本配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              基本配置
-            </span>
-          </a>
-          <div
-            class="chrome-tab-background"
-          >
-            <svg
-              class="chrome-tab-background--right"
-              viewBox="0 0 124 124"
-            >
-              <path
-                d="M0,0 C0,68.483309 55.516691,124 124,124 L0,124 L0,-1 C0.00132103964,-0.667821298 0,-0.334064922 0,0 Z"
-              />
-            </svg>
-            <svg
-              class="chrome-tab-background--left"
-              viewBox="0 0 124 124"
-            >
-              <path
-                d="M124,0 L124,125 L0,125 L0,125 C68.483309,125 124,69.483309 124,1 L123.992,0 L124,0 Z"
-              />
-            </svg>
-          </div>
-        </li>
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="其他配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              其他配置
-            </span>
-          </a>
-          <div
-            class="chrome-tab-background"
-          >
-            <svg
-              class="chrome-tab-background--right"
-              viewBox="0 0 124 124"
-            >
-              <path
-                d="M0,0 C0,68.483309 55.516691,124 124,124 L0,124 L0,-1 C0.00132103964,-0.667821298 0,-0.334064922 0,0 Z"
-              />
-            </svg>
-            <svg
-              class="chrome-tab-background--left"
-              viewBox="0 0 124 124"
-            >
-              <path
-                d="M124,0 L124,125 L0,125 L0,125 C68.483309,125 124,69.483309 124,1 L123.992,0 L124,0 Z"
-              />
-            </svg>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div
-      class="cxd-Tabs-content"
+      class="amis-Tabs amis-Tabs--chrome"
+      data-role="container"
     >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-linksWrapper"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <ul
+          class="amis-Tabs-links"
+          role="tablist"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <li
+            class="amis-Tabs-link is-active"
+          >
+            <a
+              title="基本配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                基本配置
+              </span>
+            </a>
+            <div
+              class="chrome-tab-background"
+            >
+              <svg
+                class="chrome-tab-background--right"
+                viewBox="0 0 124 124"
+              >
+                <path
+                  d="M0,0 C0,68.483309 55.516691,124 124,124 L0,124 L0,-1 C0.00132103964,-0.667821298 0,-0.334064922 0,0 Z"
+                />
+              </svg>
+              <svg
+                class="chrome-tab-background--left"
+                viewBox="0 0 124 124"
+              >
+                <path
+                  d="M124,0 L124,125 L0,125 L0,125 C68.483309,125 124,69.483309 124,1 L123.992,0 L124,0 Z"
+                />
+              </svg>
+            </div>
+          </li>
+          <li
+            class="amis-Tabs-link"
+          >
+            <a
+              title="其他配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                其他配置
+              </span>
+            </a>
+            <div
+              class="chrome-tab-background"
+            >
+              <svg
+                class="chrome-tab-background--right"
+                viewBox="0 0 124 124"
+              >
+                <path
+                  d="M0,0 C0,68.483309 55.516691,124 124,124 L0,124 L0,-1 C0.00132103964,-0.667821298 0,-0.334064922 0,0 Z"
+                />
+              </svg>
+              <svg
+                class="chrome-tab-background--left"
+                viewBox="0 0 124 124"
+              >
+                <path
+                  d="M124,0 L124,125 L0,125 L0,125 C68.483309,125 124,69.483309 124,1 L123.992,0 L124,0 Z"
+                />
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="amis-Tabs-content"
+      >
+        <div
+          class="in is-active amis-Tabs-pane"
+        >
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -683,67 +711,71 @@ exports[`Renderer:tabs tabsMode 4`] = `
 exports[`Renderer:tabs tabsMode 5`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--simple"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--simple"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-          </ul>
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -753,67 +785,71 @@ exports[`Renderer:tabs tabsMode 5`] = `
 exports[`Renderer:tabs tabsMode 6`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--strong"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--strong"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-          </ul>
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -823,67 +859,71 @@ exports[`Renderer:tabs tabsMode 6`] = `
 exports[`Renderer:tabs tabsMode 7`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--tiled"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--tiled"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-          </ul>
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -893,59 +933,63 @@ exports[`Renderer:tabs tabsMode 7`] = `
 exports[`Renderer:tabs tabsMode 8`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--sidebar sidebar--right"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksWrapper"
-    >
-      <ul
-        class="cxd-Tabs-links"
-        role="tablist"
-      >
-        <li
-          class="cxd-Tabs-link is-active"
-        >
-          <a
-            title="基本配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              基本配置
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="其他配置"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              其他配置
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div
-      class="cxd-Tabs-content"
+      class="amis-Tabs amis-Tabs--sidebar sidebar--right"
+      data-role="container"
     >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-linksWrapper"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <ul
+          class="amis-Tabs-links"
+          role="tablist"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <li
+            class="amis-Tabs-link is-active"
+          >
+            <a
+              title="基本配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                基本配置
+              </span>
+            </a>
+          </li>
+          <li
+            class="amis-Tabs-link"
+          >
+            <a
+              title="其他配置"
+            >
+              <span
+                class="amis-Tabs-link-text"
+              >
+                其他配置
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="amis-Tabs-content"
+      >
+        <div
+          class="in is-active amis-Tabs-pane"
+        >
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -955,79 +999,83 @@ exports[`Renderer:tabs tabsMode 8`] = `
 exports[`Renderer:tabs toolbar 1`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--line"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper cxd-Tabs-linksContainer-wrapper--toolbar"
+      class="amis-Tabs amis-Tabs--line"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper amis-Tabs-linksContainer-wrapper--toolbar"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
-          <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+          <div
+            class="amis-Tabs-linksContainer-main"
           >
-            <li
-              class="cxd-Tabs-link is-active"
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
             >
-              <a
-                title="基本配置"
+              <li
+                class="amis-Tabs-link is-active"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="基本配置"
                 >
-                  基本配置
-                </span>
-              </a>
-            </li>
-            <li
-              class="cxd-Tabs-link"
-            >
-              <a
-                title="其他配置"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    基本配置
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
               >
-                <span
-                  class="cxd-Tabs-link-text"
+                <a
+                  title="其他配置"
                 >
-                  其他配置
-                </span>
-              </a>
-            </li>
-            <div
-              class="cxd-Tabs-toolbar toolbarClassName"
-            >
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-sm"
-                type="button"
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    其他配置
+                  </span>
+                </a>
+              </li>
+              <div
+                class="amis-Tabs-toolbar toolbarClassName"
               >
-                <span>
-                  按钮
-                </span>
-              </button>
-            </div>
-          </ul>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-sm"
+                  type="button"
+                >
+                  <span>
+                    按钮
+                  </span>
+                </button>
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
       <div
-        class="in is-active cxd-Tabs-pane"
+        class="amis-Tabs-content"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <div
+          class="in is-active amis-Tabs-pane"
         >
-          <span>
-            <p>
-              tab1 内容
-            </p>
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              <p>
+                tab1 内容
+              </p>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
   </div>
@@ -1037,138 +1085,147 @@ exports[`Renderer:tabs toolbar 1`] = `
 exports[`Renderer:tabs with collapseOnExceed: popover show 1`] = `
 <div>
   <div
-    class="cxd-Tabs cxd-Tabs--tiled has-popover"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Tabs-linksContainer-wrapper"
+      class="amis-Tabs amis-Tabs--tiled"
+      data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer"
+        class="amis-Tabs-linksContainer-wrapper"
       >
         <div
-          class="cxd-Tabs-linksContainer-main"
+          class="amis-Tabs-linksContainer"
         >
+          <div
+            class="amis-Tabs-linksContainer-main"
+          >
+            <ul
+              class="amis-Tabs-links"
+              role="tablist"
+            >
+              <li
+                class="amis-Tabs-link is-active"
+              >
+                <a
+                  title="Tab 1"
+                >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    Tab 1
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
+              >
+                <a
+                  title="Tab 2"
+                >
+                  <span
+                    class="amis-Tabs-link-text"
+                  >
+                    Tab 2
+                  </span>
+                </a>
+              </li>
+              <li
+                class="amis-Tabs-link"
+              >
+                <a
+                  class="amis-Tabs-togglor is-opened"
+                >
+                  <span>
+                    更多
+                  </span>
+                  <span
+                    class="amis-Tabs-togglor-arrow"
+                  >
+                    <icon-mock
+                      classname="icon icon-right-arrow-bold"
+                      icon="right-arrow-bold"
+                    />
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="amis-Tabs-content"
+      >
+        <div
+          class="in is-active amis-Tabs-pane"
+        >
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              Content 1
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="has-popover"
+        data-amis-theme="cxd"
+      >
+        <div
+          class="amis-PopOver amis-Tabs-PopOver"
+          role="popover"
+          style="display: block; min-width: auto; left: 0px; top: 0px; visibility: hidden;"
+          theme="cxd"
+        >
+          <div
+            class="cxd-PopOver-overlay"
+          />
           <ul
-            class="cxd-Tabs-links"
-            role="tablist"
+            class="amis-Tabs-PopOverList amis-DropDown-menu"
           >
             <li
-              class="cxd-Tabs-link is-active"
+              class="amis-Tabs-link"
             >
               <a
-                title="Tab 1"
+                title="Tab 3"
               >
                 <span
-                  class="cxd-Tabs-link-text"
+                  class="amis-Tabs-link-text"
                 >
-                  Tab 1
+                  Tab 3
                 </span>
               </a>
             </li>
             <li
-              class="cxd-Tabs-link"
+              class="amis-Tabs-link"
             >
               <a
-                title="Tab 2"
+                title="Tab 4"
               >
                 <span
-                  class="cxd-Tabs-link-text"
+                  class="amis-Tabs-link-text"
                 >
-                  Tab 2
+                  Tab 4
                 </span>
               </a>
             </li>
             <li
-              class="cxd-Tabs-link"
+              class="amis-Tabs-link"
             >
               <a
-                class="cxd-Tabs-togglor is-opened"
+                title="Tab 5"
               >
-                <span>
-                  更多
-                </span>
                 <span
-                  class="cxd-Tabs-togglor-arrow"
+                  class="amis-Tabs-link-text"
                 >
-                  <icon-mock
-                    classname="icon icon-right-arrow-bold"
-                    icon="right-arrow-bold"
-                  />
+                  Tab 5
                 </span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
-    <div
-      class="cxd-Tabs-content"
-    >
-      <div
-        class="in is-active cxd-Tabs-pane"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            Content 1
-          </span>
-        </span>
-      </div>
-    </div>
-    <div
-      class="cxd-PopOver cxd-Tabs-PopOver"
-      role="popover"
-      style="display: block; min-width: auto; left: 0px; top: 0px; visibility: hidden;"
-      theme="cxd"
-    >
-      <div
-        class="cxd-PopOver-overlay"
-      />
-      <ul
-        class="cxd-Tabs-PopOverList cxd-DropDown-menu"
-      >
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="Tab 3"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              Tab 3
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="Tab 4"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              Tab 4
-            </span>
-          </a>
-        </li>
-        <li
-          class="cxd-Tabs-link"
-        >
-          <a
-            title="Tab 5"
-          >
-            <span
-              class="cxd-Tabs-link-text"
-            >
-              Tab 5
-            </span>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 </div>

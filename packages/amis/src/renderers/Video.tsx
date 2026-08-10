@@ -12,7 +12,12 @@ import {
   PlaybackRateMenuButton
   // @ts-ignore
 } from 'video-react';
-import {autobind, getPropValue, padArr} from 'amis-core';
+import {
+  autobind,
+  getPropValue,
+  getStableClassSelector,
+  padArr
+} from 'amis-core';
 import {Renderer, RendererProps} from 'amis-core';
 import {resolveVariable} from 'amis-core';
 import {filter} from 'amis-core';
@@ -539,11 +544,13 @@ export default class Video extends React.Component<VideoProps, VideoState> {
   }
 
   moveCursorToIndex(index: number) {
-    const {classPrefix: ns} = this.props;
+    const {classnames: cx} = this.props;
     if (!this.frameDom || !this.cursorDom) {
       return;
     }
-    const items = this.frameDom.querySelectorAll(`.${ns}Video-frame`);
+    const items = this.frameDom.querySelectorAll(
+      getStableClassSelector(cx, 'Video-frame')
+    );
 
     if (items && items.length && items[index]) {
       this.currentIndex = index;

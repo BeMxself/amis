@@ -1,5 +1,12 @@
 import React, {startTransition} from 'react';
-import {ITableStore, localeable, themeable, ThemeProps} from 'amis-core';
+import {
+  getStableClassName,
+  getStableClassSelector,
+  ITableStore,
+  localeable,
+  themeable,
+  ThemeProps
+} from 'amis-core';
 import {getScrollParent} from 'amis-core';
 import {resizeSensor} from 'amis-core';
 import type {IRow} from 'amis-core/lib/store/table';
@@ -10,7 +17,7 @@ export interface VirtualTableBodyProps extends ThemeProps {
 }
 
 function VirtualTableBody(props: VirtualTableBodyProps) {
-  const {className, rows, store, classPrefix} = props;
+  const {className, rows, store, classnames: cx} = props;
   const leadingPlaceholderRef = React.useRef<HTMLTableSectionElement>(null);
   const trailingPlaceholderRef = React.useRef<HTMLTableSectionElement>(null);
   const tBodyRef = React.useRef<HTMLTableSectionElement>(null);
@@ -97,13 +104,15 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
     const tbody = tBodyRef.current!;
     const table = tbody.parentElement!;
     const wrap = table.parentElement!;
-    const rootDom = wrap.closest(`.${classPrefix}Table`)!;
+    const rootDom = wrap.closest(getStableClassSelector(cx, 'Table'))!;
 
-    const fixedHeader = rootDom?.querySelector(`:scope > .${classPrefix}Table-fixedTop`);
+    const fixedHeader = rootDom?.querySelector(
+      `:scope > ${getStableClassSelector(cx, 'Table-fixedTop')}`
+    );
     const header = fixedHeader || table.querySelector(':scope > thead')!;
     const firstRow = leadingPlaceholderRef.current!;
     const isAutoFill = rootDom.classList.contains(
-      `${classPrefix}Table--autoFillHeight`
+      getStableClassName(cx, 'Table--autoFillHeight')
     );
     const toDispose: Array<() => void> = [];
     const check = () => {
@@ -116,9 +125,11 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
         scrollTop = rect.bottom - rect2.top;
       } else {
         // 普通 thead：直接读取滚动容器的 scrollTop
-        const scrollContainer: any = isAutoFill ? wrap : 
-          (getScrollParent(rootDom as HTMLElement) === document.body ? 
-            document.documentElement : getScrollParent(rootDom as HTMLElement));
+        const scrollContainer: any = isAutoFill
+          ? wrap
+          : getScrollParent(rootDom as HTMLElement) === document.body
+          ? document.documentElement
+          : getScrollParent(rootDom as HTMLElement);
         scrollTop = scrollContainer.scrollTop || 0;
       }
       setScrollTop(scrollTop);

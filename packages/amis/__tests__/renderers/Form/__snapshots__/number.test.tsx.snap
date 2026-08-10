@@ -3,104 +3,108 @@
 exports[`Renderer:number 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="a"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              The form
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="a"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="456"
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="a"
+                    role="spinbutton"
+                    step="1"
+                    value="456"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="456"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="a"
-                  role="spinbutton"
-                  step="1"
-                  value="456"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -109,121 +113,125 @@ exports[`Renderer:number 1`] = `
 exports[`Renderer:number with big value 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="true"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up cxd-Number-handler-up-disabled"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="true"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up amis-Number-handler-up-disabled"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    aria-valuemax="99999999999999999.99"
+                    aria-valuemin="9999999999999999.99"
+                    aria-valuenow="99999999999999999.99"
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="1"
+                    value="99999999999999999.99"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuemax="99999999999999999.99"
-                  aria-valuemin="9999999999999999.99"
-                  aria-valuenow="99999999999999999.99"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="1"
-                  value="99999999999999999.99"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -233,118 +241,122 @@ exports[`Renderer:number with big value 1`] = `
 exports[`Renderer:number with borderMode 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderNone"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderNone"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="1"
+                    value=""
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="1"
-                  value=""
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -354,118 +366,122 @@ exports[`Renderer:number with borderMode 1`] = `
 exports[`Renderer:number with borderMode 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderHalf"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderHalf"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="1"
+                    value=""
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="1"
-                  value=""
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -475,119 +491,123 @@ exports[`Renderer:number with borderMode 2`] = `
 exports[`Renderer:number with precision and default value 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="2.99"
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="0.01"
+                    value="2.99"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="2.99"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="0.01"
-                  value="2.99"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -597,119 +617,123 @@ exports[`Renderer:number with precision and default value 1`] = `
 exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number cxd-Number--borderFull"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number-handler-wrap"
+                class="amis-Number amis-Number--borderFull"
               >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
+                <div
+                  class="amis-Number-handler-wrap"
                 >
                   <span
-                    class="cxd-Number-handler-up-inner"
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
                     unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
                   <span
-                    class="cxd-Number-handler-down-inner"
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
                     unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="123456"
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="1"
+                    value="$123,456%"
                   />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="123456"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="1"
-                  value="$123,456%"
-                />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -719,139 +743,143 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
 exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-Number--enhance cxd-Number--enhance-borderFull"
+              class="amis-NumberControl amis-Form-control"
             >
               <div
-                class="cxd-Number--enhance-left-icon"
-              >
-                <icon-mock
-                  classname="icon icon-minus cxd-InputNumber-enhance-minus icon"
-                  icon="minus"
-                />
-              </div>
-              <div
-                class="cxd-Number cxd-Number--enhance-input cxd-Number--borderFull"
+                class="amis-Number--enhance amis-Number--enhance-borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="amis-Number--enhance-left-icon"
                 >
-                  <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
+                  <icon-mock
+                    classname="icon icon-minus amis-InputNumber-enhance-minus icon"
+                    icon="minus"
+                  />
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="amis-Number amis-Number--enhance-input amis-Number--borderFull"
                 >
-                  <input
-                    aria-valuenow="14.111"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="number"
-                    role="spinbutton"
-                    step="3"
-                    value="14.111"
+                  <div
+                    class="amis-Number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled="false"
+                      aria-label="Increase Value"
+                      class="amis-Number-handler amis-Number-handler-up"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        class="amis-Number-handler-up-inner"
+                        unselectable="on"
+                      />
+                    </span>
+                    <span
+                      aria-disabled="false"
+                      aria-label="Decrease Value"
+                      class="amis-Number-handler amis-Number-handler-down"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        class="amis-Number-handler-down-inner"
+                        unselectable="on"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="amis-Number-input-wrap"
+                  >
+                    <input
+                      aria-valuenow="14.111"
+                      autocomplete="off"
+                      class="amis-Number-input"
+                      name="number"
+                      role="spinbutton"
+                      step="3"
+                      value="14.111"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="amis-Number--enhance-right-icon"
+                >
+                  <icon-mock
+                    classname="icon icon-plus amis-InputNumber-enhance-plus icon"
+                    icon="plus"
                   />
                 </div>
               </div>
-              <div
-                class="cxd-Number--enhance-right-icon"
-              >
-                <icon-mock
-                  classname="icon icon-plus cxd-InputNumber-enhance-plus icon"
-                  icon="plus"
-                />
-              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -861,163 +889,167 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
 exports[`Renderer:number with unitOptions 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
-    >
-      <h3
-        class="cxd-Panel-title"
-      >
-        <span
-          class="cxd-TplField fr-view"
-        >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
-          >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  number
-                </span>
-              </span>
-            </span>
-          </label>
-          <div
-            class="cxd-NumberControl cxd-NumberControl--withUnit cxd-Form-control"
-          >
-            <div
-              class="cxd-Number cxd-Number--borderFull"
-            >
-              <div
-                class="cxd-Number-handler-wrap"
-              >
-                <span
-                  aria-disabled="false"
-                  aria-label="Increase Value"
-                  class="cxd-Number-handler cxd-Number-handler-up"
-                  role="button"
-                  unselectable="on"
-                >
-                  <span
-                    class="cxd-Number-handler-up-inner"
-                    unselectable="on"
-                  />
-                </span>
-                <span
-                  aria-disabled="false"
-                  aria-label="Decrease Value"
-                  class="cxd-Number-handler cxd-Number-handler-down"
-                  role="button"
-                  unselectable="on"
-                >
-                  <span
-                    class="cxd-Number-handler-down-inner"
-                    unselectable="on"
-                  />
-                </span>
-              </div>
-              <div
-                class="cxd-Number-input-wrap"
-              >
-                <input
-                  aria-valuenow="99"
-                  autocomplete="off"
-                  class="cxd-Number-input"
-                  name="number"
-                  role="spinbutton"
-                  step="1"
-                  value="99"
-                />
-              </div>
-            </div>
-            <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              class="cxd-Select cxd-NumberControl-unit"
-              role="combobox"
-              tabindex="0"
-            >
-              <div
-                class="cxd-Select-valueWrap"
-              >
-                <div
-                  class="cxd-Select-value"
-                >
-                  em
-                </div>
-              </div>
-              <span
-                class="cxd-Select-arrow"
-              >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
-              </span>
-            </div>
-          </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="number"
-          data-role="form-item"
-        >
-          <div
-            class="cxd-Form-static"
-          >
-            <div
-              class="cxd-Form-control"
-            >
-              <span
-                class="cxd-PlainField"
-              >
-                99em
-              </span>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-heading"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            提交
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </button>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    number
+                  </span>
+                </span>
+              </span>
+            </label>
+            <div
+              class="amis-NumberControl amis-NumberControl--withUnit amis-Form-control"
+            >
+              <div
+                class="amis-Number amis-Number--borderFull"
+              >
+                <div
+                  class="amis-Number-handler-wrap"
+                >
+                  <span
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="amis-Number-handler amis-Number-handler-up"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-up-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="amis-Number-handler amis-Number-handler-down"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      class="amis-Number-handler-down-inner"
+                      unselectable="on"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="amis-Number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="99"
+                    autocomplete="off"
+                    class="amis-Number-input"
+                    name="number"
+                    role="spinbutton"
+                    step="1"
+                    value="99"
+                  />
+                </div>
+              </div>
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="amis-Select amis-NumberControl-unit"
+                role="combobox"
+                tabindex="0"
+              >
+                <div
+                  class="amis-Select-valueWrap"
+                >
+                  <div
+                    class="amis-Select-value"
+                  >
+                    em
+                  </div>
+                </div>
+                <span
+                  class="amis-Select-arrow"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="number"
+            data-role="form-item"
+          >
+            <div
+              class="amis-Form-static"
+            >
+              <div
+                class="amis-Form-control"
+              >
+                <span
+                  class="amis-PlainField"
+                >
+                  99em
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="amis-Panel-footerWrap"
+      >
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
+        >
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

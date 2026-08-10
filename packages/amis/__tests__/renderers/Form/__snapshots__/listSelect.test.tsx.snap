@@ -3,112 +3,116 @@
 exports[`Renderer:listSelect with image option & listClassName 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  单选
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    单选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ListControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-ListControl-items items-wrapper"
+              class="amis-ListControl amis-Form-control"
             >
               <div
-                class="cxd-ListControl-item"
+                class="amis-ListControl-items items-wrapper"
               >
                 <div
-                  class="cxd-ListControl-itemImage"
+                  class="amis-ListControl-item"
                 >
-                  <img
-                    alt="OptionA"
-                    src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3893101144,2877209892&fm=23&gp=0.jpg"
-                  />
+                  <div
+                    class="amis-ListControl-itemImage"
+                  >
+                    <img
+                      alt="OptionA"
+                      src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3893101144,2877209892&fm=23&gp=0.jpg"
+                    />
+                  </div>
+                  <div
+                    class="amis-ListControl-itemLabel"
+                  >
+                    OptionA
+                  </div>
                 </div>
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="amis-ListControl-item"
                 >
-                  OptionA
-                </div>
-              </div>
-              <div
-                class="cxd-ListControl-item"
-              >
-                <div
-                  class="cxd-ListControl-itemImage"
-                >
-                  <img
-                    alt="OptionB"
-                    src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3893101144,2877209892&fm=23&gp=0.jpg"
-                  />
-                </div>
-                <div
-                  class="cxd-ListControl-itemLabel"
-                >
-                  OptionB
+                  <div
+                    class="amis-ListControl-itemImage"
+                  >
+                    <img
+                      alt="OptionB"
+                      src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3893101144,2877209892&fm=23&gp=0.jpg"
+                    />
+                  </div>
+                  <div
+                    class="amis-ListControl-itemLabel"
+                  >
+                    OptionB
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -118,96 +122,100 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
 exports[`Renderer:listSelect with multiple & clearable 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
-          </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
-      >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <span
+            class="amis-TplField fr-view"
           >
             <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  单选
+              表单
+            </span>
+          </span>
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
+      >
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
+        >
+          <input
+            style="display: none;"
+            type="submit"
+          />
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select"
+            data-role="form-item"
+          >
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    单选
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ListControl cxd-Form-control"
-          >
+            </label>
             <div
-              class="cxd-ListControl-items"
+              class="amis-ListControl amis-Form-control"
             >
               <div
-                class="cxd-ListControl-item is-active"
+                class="amis-ListControl-items"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="amis-ListControl-item is-active"
                 >
-                  Option A
+                  <div
+                    class="amis-ListControl-itemLabel"
+                  >
+                    Option A
+                  </div>
                 </div>
-              </div>
-              <div
-                class="cxd-ListControl-item is-active"
-              >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="amis-ListControl-item is-active"
                 >
-                  Option B
+                  <div
+                    class="amis-ListControl-itemLabel"
+                  >
+                    Option B
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            Submit
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

@@ -47,6 +47,7 @@ import {
   loopTooMuch,
   filterClassNameObject
 } from 'amis-core';
+import {getStableClassSelector} from 'amis-core';
 import {
   Button,
   Icon,
@@ -1544,14 +1545,17 @@ export default class Table<
   }
 
   initDragging() {
-    const {store, classPrefix: ns} = this.props;
+    const {store, classnames: cx} = this.props;
     this.sortable = new Sortable(
       (this.table as HTMLElement).querySelector(':scope>tbody') as HTMLElement,
       {
         group: 'table',
         animation: 150,
-        handle: `.${ns}Table-dragCell`,
-        filter: `.${ns}Table-dragCell.is-dragDisabled`,
+        handle: getStableClassSelector(cx, 'Table-dragCell'),
+        filter: `${getStableClassSelector(
+          cx,
+          'Table-dragCell'
+        )}.is-dragDisabled`,
         ghostClass: 'is-dragging',
         onEnd: async (e: any) => {
           // 没有移动

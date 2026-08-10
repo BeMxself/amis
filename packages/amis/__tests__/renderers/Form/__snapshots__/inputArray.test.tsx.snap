@@ -3,122 +3,126 @@
 exports[`Renderer:inputArray 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="cxd-Panel-heading"
+              class="amis-Panel amis-Panel--default amis-Panel--form"
+              data-role="container"
             >
-              <h3
-                class="cxd-Panel-title"
+              <div
+                class="amis-Panel-heading"
               >
-                <span
-                  class="cxd-TplField fr-view"
+                <h3
+                  class="amis-Panel-title"
                 >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--horizontal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
-                  data-amis-name="array"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                  <span
+                    class="amis-TplField fr-view"
                   >
                     <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          颜色集合
+                      表单
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="amis-Panel-body"
+              >
+                <form
+                  class="amis-Form amis-Form--horizontal"
+                  novalidate=""
+                >
+                  <input
+                    style="display: none;"
+                    type="submit"
+                  />
+                  <div
+                    class="amis-Form-item amis-Form-item--horizontal"
+                    data-amis-name="array"
+                    data-role="form-item"
+                  >
+                    <label
+                      class="amis-Form-label amis-Form-itemColumn--normal"
+                    >
+                      <span>
+                        <span
+                          class="amis-TplField fr-view"
+                        >
+                          <span>
+                            颜色集合
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-value"
-                  >
+                    </label>
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-inline"
+                      class="amis-Form-value"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="amis-ComboControl amis-Form-control is-inline"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="amis-Combo amis-Combo--multi amis-Combo--hor"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-items"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="amis-Combo-item"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
+                                class="amis-Combo-itemInner"
                               >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
                                 >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
                                   <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
+                                    class="amis-Form-row"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="amis-Form-rowInner"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="amis-Form-control amis-TextControl"
                                           >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="amis"
-                                            />
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="amis"
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -126,55 +130,55 @@ exports[`Renderer:inputArray 1`] = `
                                   </div>
                                 </div>
                               </div>
+                              <a
+                                class="amis-Combo-delBtn"
+                                data-position="bottom"
+                                data-tooltip="删除"
+                              >
+                                <icon-mock
+                                  classname="icon icon-status-close"
+                                  icon="status-close"
+                                />
+                              </a>
                             </div>
-                            <a
-                              class="cxd-Combo-delBtn "
-                              data-position="bottom"
-                              data-tooltip="删除"
+                          </div>
+                          <div
+                            class="amis-Combo-toolbar"
+                          >
+                            <button
+                              class="amis-Button amis-Button--default amis-Button--size-default amis-Combo-addBtn"
+                              type="button"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
-                                icon="status-close"
+                                classname="icon icon-plus-fine"
+                                icon="plus-fine"
                               />
-                            </a>
+                              <span>
+                                新增
+                              </span>
+                            </button>
                           </div>
-                        </div>
-                        <div
-                          class="cxd-Combo-toolbar"
-                        >
-                          <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
-                            type="button"
-                          >
-                            <icon-mock
-                              classname="icon icon-plus-fine"
-                              icon="plus-fine"
-                            />
-                            <span>
-                              新增
-                            </span>
-                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
+                </form>
+              </div>
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="amis-Panel-footerWrap"
               >
-                <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-                  type="submit"
+                <div
+                  class="amis-Panel-btnToolbar amis-Panel-footer"
                 >
-                  <span>
-                    Submit
-                  </span>
-                </button>
+                  <button
+                    class="amis-Button amis-Button--primary amis-Button--size-default"
+                    type="submit"
+                  >
+                    <span>
+                      Submit
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -188,135 +192,139 @@ exports[`Renderer:inputArray 1`] = `
 exports[`Renderer:inputArray with draggable & draggableTip 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="cxd-Panel-heading"
+              class="amis-Panel amis-Panel--default amis-Panel--form"
+              data-role="container"
             >
-              <h3
-                class="cxd-Panel-title"
+              <div
+                class="amis-Panel-heading"
               >
-                <span
-                  class="cxd-TplField fr-view"
+                <h3
+                  class="amis-Panel-title"
                 >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--horizontal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
-                  data-amis-name="array"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                  <span
+                    class="amis-TplField fr-view"
                   >
                     <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          颜色集合
+                      表单
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="amis-Panel-body"
+              >
+                <form
+                  class="amis-Form amis-Form--horizontal"
+                  novalidate=""
+                >
+                  <input
+                    style="display: none;"
+                    type="submit"
+                  />
+                  <div
+                    class="amis-Form-item amis-Form-item--horizontal"
+                    data-amis-name="array"
+                    data-role="form-item"
+                  >
+                    <label
+                      class="amis-Form-label amis-Form-itemColumn--normal"
+                    >
+                      <span>
+                        <span
+                          class="amis-TplField fr-view"
+                        >
+                          <span>
+                            颜色集合
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-value"
-                  >
+                    </label>
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-inline"
+                      class="amis-Form-value"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor is-draggable"
+                        class="amis-ComboControl amis-Form-control is-inline"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="amis-Combo amis-Combo--multi amis-Combo--hor is-draggable"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-items"
                           >
                             <div
-                              class="cxd-Combo-itemDrager"
-                            >
-                              <a
-                                data-position="bottom"
-                                data-tooltip="拖拽排序"
-                              >
-                                <icon-mock
-                                  classname="icon icon-drag-bar"
-                                  icon="drag-bar"
-                                />
-                              </a>
-                            </div>
-                            <div
-                              class="cxd-Combo-itemInner"
+                              class="amis-Combo-item"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
+                                class="amis-Combo-itemDrager"
                               >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
-                                <div
-                                  class="cxd-Form-row"
+                                <a
+                                  data-position="bottom"
+                                  data-tooltip="拖拽排序"
                                 >
+                                  <icon-mock
+                                    classname="icon icon-drag-bar"
+                                    icon="drag-bar"
+                                  />
+                                </a>
+                              </div>
+                              <div
+                                class="amis-Combo-itemInner"
+                              >
+                                <div
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
+                                >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
                                   <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
+                                    class="amis-Form-row"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="amis-Form-rowInner"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="amis-Form-control amis-TextControl"
                                           >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="red"
-                                            />
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="red"
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -324,212 +332,212 @@ exports[`Renderer:inputArray with draggable & draggableTip 1`] = `
                                   </div>
                                 </div>
                               </div>
+                              <a
+                                class="amis-Combo-delBtn"
+                                data-position="bottom"
+                                data-tooltip="删除"
+                              >
+                                <icon-mock
+                                  classname="icon icon-status-close"
+                                  icon="status-close"
+                                />
+                              </a>
                             </div>
-                            <a
-                              class="cxd-Combo-delBtn "
-                              data-position="bottom"
-                              data-tooltip="删除"
+                            <div
+                              class="amis-Combo-item"
                             >
-                              <icon-mock
-                                classname="icon icon-status-close"
-                                icon="status-close"
-                              />
-                            </a>
+                              <div
+                                class="amis-Combo-itemDrager"
+                              >
+                                <a
+                                  data-position="bottom"
+                                  data-tooltip="拖拽排序"
+                                >
+                                  <icon-mock
+                                    classname="icon icon-drag-bar"
+                                    icon="drag-bar"
+                                  />
+                                </a>
+                              </div>
+                              <div
+                                class="amis-Combo-itemInner"
+                              >
+                                <div
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
+                                >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
+                                  <div
+                                    class="amis-Form-row"
+                                  >
+                                    <div
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
+                                    >
+                                      <div
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
+                                      >
+                                        <div
+                                          class="amis-Form-rowInner"
+                                        >
+                                          <div
+                                            class="amis-Form-control amis-TextControl"
+                                          >
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="blue"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a
+                                class="amis-Combo-delBtn"
+                                data-position="bottom"
+                                data-tooltip="删除"
+                              >
+                                <icon-mock
+                                  classname="icon icon-status-close"
+                                  icon="status-close"
+                                />
+                              </a>
+                            </div>
+                            <div
+                              class="amis-Combo-item"
+                            >
+                              <div
+                                class="amis-Combo-itemDrager"
+                              >
+                                <a
+                                  data-position="bottom"
+                                  data-tooltip="拖拽排序"
+                                >
+                                  <icon-mock
+                                    classname="icon icon-drag-bar"
+                                    icon="drag-bar"
+                                  />
+                                </a>
+                              </div>
+                              <div
+                                class="amis-Combo-itemInner"
+                              >
+                                <div
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
+                                >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
+                                  <div
+                                    class="amis-Form-row"
+                                  >
+                                    <div
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
+                                    >
+                                      <div
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
+                                      >
+                                        <div
+                                          class="amis-Form-rowInner"
+                                        >
+                                          <div
+                                            class="amis-Form-control amis-TextControl"
+                                          >
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="green"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a
+                                class="amis-Combo-delBtn"
+                                data-position="bottom"
+                                data-tooltip="删除"
+                              >
+                                <icon-mock
+                                  classname="icon icon-status-close"
+                                  icon="status-close"
+                                />
+                              </a>
+                            </div>
                           </div>
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-toolbar"
                           >
-                            <div
-                              class="cxd-Combo-itemDrager"
-                            >
-                              <a
-                                data-position="bottom"
-                                data-tooltip="拖拽排序"
-                              >
-                                <icon-mock
-                                  classname="icon icon-drag-bar"
-                                  icon="drag-bar"
-                                />
-                              </a>
-                            </div>
-                            <div
-                              class="cxd-Combo-itemInner"
-                            >
-                              <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
-                              >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
-                                <div
-                                  class="cxd-Form-row"
-                                >
-                                  <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
-                                  >
-                                    <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
-                                    >
-                                      <div
-                                        class="cxd-Form-rowInner"
-                                      >
-                                        <div
-                                          class="cxd-Form-control cxd-TextControl"
-                                        >
-                                          <div
-                                            class="cxd-TextControl-input"
-                                          >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="blue"
-                                            />
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <a
-                              class="cxd-Combo-delBtn "
-                              data-position="bottom"
-                              data-tooltip="删除"
+                            <button
+                              class="amis-Button amis-Button--default amis-Button--size-default amis-Combo-addBtn"
+                              type="button"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
-                                icon="status-close"
+                                classname="icon icon-plus-fine"
+                                icon="plus-fine"
                               />
-                            </a>
-                          </div>
-                          <div
-                            class="cxd-Combo-item"
-                          >
-                            <div
-                              class="cxd-Combo-itemDrager"
+                              <span>
+                                新增
+                              </span>
+                            </button>
+                            <span
+                              class="amis-Combo-dragableTip"
                             >
-                              <a
-                                data-position="bottom"
-                                data-tooltip="拖拽排序"
-                              >
-                                <icon-mock
-                                  classname="icon icon-drag-bar"
-                                  icon="drag-bar"
-                                />
-                              </a>
-                            </div>
-                            <div
-                              class="cxd-Combo-itemInner"
-                            >
-                              <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
-                              >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
-                                <div
-                                  class="cxd-Form-row"
-                                >
-                                  <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
-                                  >
-                                    <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
-                                    >
-                                      <div
-                                        class="cxd-Form-rowInner"
-                                      >
-                                        <div
-                                          class="cxd-Form-control cxd-TextControl"
-                                        >
-                                          <div
-                                            class="cxd-TextControl-input"
-                                          >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="green"
-                                            />
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <a
-                              class="cxd-Combo-delBtn "
-                              data-position="bottom"
-                              data-tooltip="删除"
-                            >
-                              <icon-mock
-                                classname="icon icon-status-close"
-                                icon="status-close"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                        <div
-                          class="cxd-Combo-toolbar"
-                        >
-                          <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
-                            type="button"
-                          >
-                            <icon-mock
-                              classname="icon icon-plus-fine"
-                              icon="plus-fine"
-                            />
-                            <span>
-                              新增
+                              我是拖拽提示
                             </span>
-                          </button>
-                          <span
-                            class="cxd-Combo-dragableTip"
-                          >
-                            我是拖拽提示
-                          </span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
+                </form>
+              </div>
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="amis-Panel-footerWrap"
               >
-                <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-                  type="submit"
+                <div
+                  class="amis-Panel-btnToolbar amis-Panel-footer"
                 >
-                  <span>
-                    Submit
-                  </span>
-                </button>
+                  <button
+                    class="amis-Button amis-Button--primary amis-Button--size-default"
+                    type="submit"
+                  >
+                    <span>
+                      Submit
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -543,122 +551,179 @@ exports[`Renderer:inputArray with draggable & draggableTip 1`] = `
 exports[`Renderer:inputArray with minLength & maxLength 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="cxd-Panel-heading"
+              class="amis-Panel amis-Panel--default amis-Panel--form"
+              data-role="container"
             >
-              <h3
-                class="cxd-Panel-title"
+              <div
+                class="amis-Panel-heading"
               >
-                <span
-                  class="cxd-TplField fr-view"
+                <h3
+                  class="amis-Panel-title"
                 >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--horizontal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
-                  data-amis-name="array"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                  <span
+                    class="amis-TplField fr-view"
                   >
                     <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          颜色集合
+                      表单
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="amis-Panel-body"
+              >
+                <form
+                  class="amis-Form amis-Form--horizontal"
+                  novalidate=""
+                >
+                  <input
+                    style="display: none;"
+                    type="submit"
+                  />
+                  <div
+                    class="amis-Form-item amis-Form-item--horizontal"
+                    data-amis-name="array"
+                    data-role="form-item"
+                  >
+                    <label
+                      class="amis-Form-label amis-Form-itemColumn--normal"
+                    >
+                      <span>
+                        <span
+                          class="amis-TplField fr-view"
+                        >
+                          <span>
+                            颜色集合
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-value"
-                  >
+                    </label>
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-inline"
+                      class="amis-Form-value"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="amis-ComboControl amis-Form-control is-inline"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="amis-Combo amis-Combo--multi amis-Combo--hor"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-items"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="amis-Combo-item"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
+                                class="amis-Combo-itemInner"
                               >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
                                 >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
                                   <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
+                                    class="amis-Form-row"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="amis-Form-rowInner"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="amis-Form-control amis-TextControl"
                                           >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="green"
-                                            />
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="green"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="amis-Combo-item"
+                            >
+                              <div
+                                class="amis-Combo-itemInner"
+                              >
+                                <div
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
+                                >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
+                                  <div
+                                    class="amis-Form-row"
+                                  >
+                                    <div
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
+                                    >
+                                      <div
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
+                                      >
+                                        <div
+                                          class="amis-Form-rowInner"
+                                        >
+                                          <div
+                                            class="amis-Form-control amis-TextControl"
+                                          >
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value=""
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -669,95 +734,42 @@ exports[`Renderer:inputArray with minLength & maxLength 1`] = `
                             </div>
                           </div>
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-toolbar"
                           >
-                            <div
-                              class="cxd-Combo-itemInner"
+                            <button
+                              class="amis-Button amis-Button--default amis-Button--size-default amis-Combo-addBtn"
+                              type="button"
                             >
-                              <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
-                              >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
-                                <div
-                                  class="cxd-Form-row"
-                                >
-                                  <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
-                                  >
-                                    <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
-                                    >
-                                      <div
-                                        class="cxd-Form-rowInner"
-                                      >
-                                        <div
-                                          class="cxd-Form-control cxd-TextControl"
-                                        >
-                                          <div
-                                            class="cxd-TextControl-input"
-                                          >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value=""
-                                            />
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                              <icon-mock
+                                classname="icon icon-plus-fine"
+                                icon="plus-fine"
+                              />
+                              <span>
+                                新增
+                              </span>
+                            </button>
                           </div>
-                        </div>
-                        <div
-                          class="cxd-Combo-toolbar"
-                        >
-                          <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
-                            type="button"
-                          >
-                            <icon-mock
-                              classname="icon icon-plus-fine"
-                              icon="plus-fine"
-                            />
-                            <span>
-                              新增
-                            </span>
-                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
+                </form>
+              </div>
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="amis-Panel-footerWrap"
               >
-                <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-                  type="submit"
+                <div
+                  class="amis-Panel-btnToolbar amis-Panel-footer"
                 >
-                  <span>
-                    Submit
-                  </span>
-                </button>
+                  <button
+                    class="amis-Button amis-Button--primary amis-Button--size-default"
+                    type="submit"
+                  >
+                    <span>
+                      Submit
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -771,122 +783,179 @@ exports[`Renderer:inputArray with minLength & maxLength 1`] = `
 exports[`Renderer:inputArray with removable & addable & addButtonText: false 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="cxd-Panel-heading"
+              class="amis-Panel amis-Panel--default amis-Panel--form"
+              data-role="container"
             >
-              <h3
-                class="cxd-Panel-title"
+              <div
+                class="amis-Panel-heading"
               >
-                <span
-                  class="cxd-TplField fr-view"
+                <h3
+                  class="amis-Panel-title"
                 >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--horizontal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
-                  data-amis-name="array"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                  <span
+                    class="amis-TplField fr-view"
                   >
                     <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          颜色集合
+                      表单
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="amis-Panel-body"
+              >
+                <form
+                  class="amis-Form amis-Form--horizontal"
+                  novalidate=""
+                >
+                  <input
+                    style="display: none;"
+                    type="submit"
+                  />
+                  <div
+                    class="amis-Form-item amis-Form-item--horizontal"
+                    data-amis-name="array"
+                    data-role="form-item"
+                  >
+                    <label
+                      class="amis-Form-label amis-Form-itemColumn--normal"
+                    >
+                      <span>
+                        <span
+                          class="amis-TplField fr-view"
+                        >
+                          <span>
+                            颜色集合
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-value"
-                  >
+                    </label>
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-inline"
+                      class="amis-Form-value"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="amis-ComboControl amis-Form-control is-inline"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="amis-Combo amis-Combo--multi amis-Combo--hor"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-items"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="amis-Combo-item"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
+                                class="amis-Combo-itemInner"
                               >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
                                 >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
                                   <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
+                                    class="amis-Form-row"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="amis-Form-rowInner"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="amis-Form-control amis-TextControl"
                                           >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="red"
-                                            />
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="red"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="amis-Combo-item"
+                            >
+                              <div
+                                class="amis-Combo-itemInner"
+                              >
+                                <div
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
+                                >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
+                                  <div
+                                    class="amis-Form-row"
+                                  >
+                                    <div
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
+                                    >
+                                      <div
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
+                                      >
+                                        <div
+                                          class="amis-Form-rowInner"
+                                        >
+                                          <div
+                                            class="amis-Form-control amis-TextControl"
+                                          >
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="blue"
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -897,82 +966,29 @@ exports[`Renderer:inputArray with removable & addable & addButtonText: false 1`]
                             </div>
                           </div>
                           <div
-                            class="cxd-Combo-item"
-                          >
-                            <div
-                              class="cxd-Combo-itemInner"
-                            >
-                              <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
-                              >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
-                                <div
-                                  class="cxd-Form-row"
-                                >
-                                  <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
-                                  >
-                                    <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
-                                    >
-                                      <div
-                                        class="cxd-Form-rowInner"
-                                      >
-                                        <div
-                                          class="cxd-Form-control cxd-TextControl"
-                                        >
-                                          <div
-                                            class="cxd-TextControl-input"
-                                          >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="blue"
-                                            />
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                            class="amis-Combo-toolbar"
+                          />
                         </div>
-                        <div
-                          class="cxd-Combo-toolbar"
-                        />
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
+                </form>
+              </div>
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="amis-Panel-footerWrap"
               >
-                <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-                  type="submit"
+                <div
+                  class="amis-Panel-btnToolbar amis-Panel-footer"
                 >
-                  <span>
-                    Submit
-                  </span>
-                </button>
+                  <button
+                    class="amis-Button amis-Button--primary amis-Button--size-default"
+                    type="submit"
+                  >
+                    <span>
+                      Submit
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -986,122 +1002,126 @@ exports[`Renderer:inputArray with removable & addable & addButtonText: false 1`]
 exports[`Renderer:inputArray with removable & addable & addButtonText: false 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-content"
       >
         <div
-          class="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-main"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="cxd-Panel-heading"
+              class="amis-Panel amis-Panel--default amis-Panel--form"
+              data-role="container"
             >
-              <h3
-                class="cxd-Panel-title"
+              <div
+                class="amis-Panel-heading"
               >
-                <span
-                  class="cxd-TplField fr-view"
+                <h3
+                  class="amis-Panel-title"
                 >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--horizontal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
-                  data-amis-name="array"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                  <span
+                    class="amis-TplField fr-view"
                   >
                     <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          颜色集合
+                      表单
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="amis-Panel-body"
+              >
+                <form
+                  class="amis-Form amis-Form--horizontal"
+                  novalidate=""
+                >
+                  <input
+                    style="display: none;"
+                    type="submit"
+                  />
+                  <div
+                    class="amis-Form-item amis-Form-item--horizontal"
+                    data-amis-name="array"
+                    data-role="form-item"
+                  >
+                    <label
+                      class="amis-Form-label amis-Form-itemColumn--normal"
+                    >
+                      <span>
+                        <span
+                          class="amis-TplField fr-view"
+                        >
+                          <span>
+                            颜色集合
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-value"
-                  >
+                    </label>
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-inline"
+                      class="amis-Form-value"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="amis-ComboControl amis-Form-control is-inline"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="amis-Combo amis-Combo--multi amis-Combo--hor"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="amis-Combo-items"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="amis-Combo-item"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
-                                novalidate=""
+                                class="amis-Combo-itemInner"
                               >
-                                <input
-                                  style="display: none;"
-                                  type="submit"
-                                />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="amis-Form amis-Form--row amis-Combo-form"
+                                  novalidate=""
                                 >
+                                  <input
+                                    style="display: none;"
+                                    type="submit"
+                                  />
                                   <div
-                                    class="cxd-Form-col"
-                                    style="flex: 1;"
+                                    class="amis-Form-row"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
-                                      data-amis-name="flat"
-                                      data-role="form-item"
+                                      class="amis-Form-col"
+                                      style="flex: 1;"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="amis-Form-item amis-Form-item--row"
+                                        data-amis-name="flat"
+                                        data-role="form-item"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="amis-Form-rowInner"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="amis-Form-control amis-TextControl"
                                           >
-                                            <input
-                                              autocomplete="off"
-                                              class=""
-                                              name="flat"
-                                              placeholder=""
-                                              size="10"
-                                              type="text"
-                                              value="blue"
-                                            />
+                                            <div
+                                              class="amis-TextControl-input"
+                                            >
+                                              <input
+                                                autocomplete="off"
+                                                class=""
+                                                name="flat"
+                                                placeholder=""
+                                                size="10"
+                                                type="text"
+                                                value="blue"
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -1109,55 +1129,55 @@ exports[`Renderer:inputArray with removable & addable & addButtonText: false 2`]
                                   </div>
                                 </div>
                               </div>
+                              <a
+                                class="amis-Combo-delBtn"
+                                data-position="bottom"
+                                data-tooltip="删除"
+                              >
+                                <icon-mock
+                                  classname="icon icon-status-close"
+                                  icon="status-close"
+                                />
+                              </a>
                             </div>
-                            <a
-                              class="cxd-Combo-delBtn "
-                              data-position="bottom"
-                              data-tooltip="删除"
+                          </div>
+                          <div
+                            class="amis-Combo-toolbar"
+                          >
+                            <button
+                              class="amis-Button amis-Button--default amis-Button--size-default amis-Combo-addBtn"
+                              type="button"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
-                                icon="status-close"
+                                classname="icon icon-plus-fine"
+                                icon="plus-fine"
                               />
-                            </a>
+                              <span>
+                                我是增加按钮
+                              </span>
+                            </button>
                           </div>
-                        </div>
-                        <div
-                          class="cxd-Combo-toolbar"
-                        >
-                          <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
-                            type="button"
-                          >
-                            <icon-mock
-                              classname="icon icon-plus-fine"
-                              icon="plus-fine"
-                            />
-                            <span>
-                              我是增加按钮
-                            </span>
-                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
+                </form>
+              </div>
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="amis-Panel-footerWrap"
               >
-                <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-                  type="submit"
+                <div
+                  class="amis-Panel-btnToolbar amis-Panel-footer"
                 >
-                  <span>
-                    Submit
-                  </span>
-                </button>
+                  <button
+                    class="amis-Button amis-Button--primary amis-Button--size-default"
+                    type="submit"
+                  >
+                    <span>
+                      Submit
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

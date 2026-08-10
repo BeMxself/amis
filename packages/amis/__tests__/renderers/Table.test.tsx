@@ -1259,7 +1259,7 @@ test('Renderer:table-each', () => {
   const td2 = container.querySelector('tr:first-child>td:nth-child(2)');
 
   expect(td2?.innerHTML).toBe(
-    '<div class="cxd-Each"><span class="cxd-TplField fr-view"><span><span class="label label-info m-l-sm">a</span></span></span><span class="cxd-TplField fr-view"><span><span class="label label-info m-l-sm">b</span></span></span><span class="cxd-TplField fr-view"><span><span class="label label-info m-l-sm">c</span></span></span></div>'
+    '<div class="amis-Each"><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">a</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">b</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">c</span></span></span></div>'
   );
 });
 
@@ -1335,7 +1335,7 @@ test('Renderer:table-column-quickEdit-inline', async () => {
 
   await waitFor(() => {
     expect(getByText('赋值')).toBeInTheDocument();
-    expect(container.querySelector('.cxd-Switch')).toBeInTheDocument();
+    expect(container.querySelector('.amis-Switch')).toBeInTheDocument();
     expect(container.querySelector('.is-checked')).not.toBeInTheDocument();
   });
 
@@ -1397,7 +1397,7 @@ test('Renderer:table-column-quickEdit-saveImmediately', async () => {
   );
 
   await wait(200);
-  const btn = container.querySelector('.cxd-Field-quickEditBtn');
+  const btn = container.querySelector('.amis-Field-quickEditBtn');
   expect(btn).toBeInTheDocument();
   fireEvent.click(btn!);
   await wait(200);

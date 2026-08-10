@@ -7,6 +7,8 @@ import {
   FormItem,
   FormControlProps,
   FormBaseControl,
+  getStableClassName,
+  getStableClassSelector,
   resolveEventData,
   ApiObject,
   FormHorizontal,
@@ -1105,17 +1107,19 @@ export default class ComboControl extends React.Component<ComboProps> {
   }
 
   initDragging() {
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     const submitOnChange = this.props.submitOnChange;
     const dom = findDOMNode(this) as HTMLElement;
 
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}Combo-items`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'Combo-items')
+      ) as HTMLElement,
       {
         group: `combo-${this.id}`,
         animation: 150,
-        handle: `.${ns}Combo-itemDrager`,
-        ghostClass: `${ns}Combo-item--dragging`,
+        handle: getStableClassSelector(cx, 'Combo-itemDrager'),
+        ghostClass: getStableClassName(cx, 'Combo-item--dragging'),
         onEnd: (e: any) => {
           // 没有移动
           if (e.newIndex === e.oldIndex) {

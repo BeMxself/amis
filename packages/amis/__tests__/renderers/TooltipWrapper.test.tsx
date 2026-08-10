@@ -82,8 +82,8 @@ test('Renderer:TooltipWrapper with trigger & title', async () => {
 
 //   fireEvent.mouseEnter(getByText('激活文字提示'));
 //   await wait(500);
-//   // expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveClass(
-//   //   'cxd-Tooltip--top'
+//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+//   //   'amis-Tooltip--top'
 //   // );
 
 //   rerender(
@@ -93,8 +93,8 @@ test('Renderer:TooltipWrapper with trigger & title', async () => {
 //     })
 //   );
 //   await wait(500);
-//   // expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveClass(
-//   //   'cxd-Tooltip--right'
+//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+//   //   'amis-Tooltip--right'
 //   // );
 
 //   rerender(
@@ -104,8 +104,8 @@ test('Renderer:TooltipWrapper with trigger & title', async () => {
 //     })
 //   );
 //   await wait(500);
-//   // expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveClass(
-//   //   'cxd-Tooltip--left'
+//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+//   //   'amis-Tooltip--left'
 //   // );
 
 //   rerender(
@@ -115,8 +115,8 @@ test('Renderer:TooltipWrapper with trigger & title', async () => {
 //     })
 //   );
 //   await wait(500);
-//   // )expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveClass(
-//   // )  'cxd-Tooltip--bottom'
+//   // )expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+//   // )  'amis-Tooltip--bottom'
 //   // ));
 
 //   expect(baseElement).toMatchSnapshot();
@@ -141,7 +141,7 @@ test('Renderer:TooltipWrapper with offset', async () => {
   fireEvent.mouseEnter(getByText('激活文字提示'));
   await wait(500);
 
-  expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveAttribute(
+  expect(baseElement.querySelector('.amis-Tooltip')!).toHaveAttribute(
     'offset',
     '19,-22'
   );
@@ -164,7 +164,7 @@ test('Renderer:TooltipWrapper with showArrow', async () => {
   await wait(500);
 
   expect(
-    baseElement.querySelector('.cxd-Tooltip .cxd-Tooltip-arrow')!
+    baseElement.querySelector('.amis-Tooltip .amis-Tooltip-arrow')!
   ).toBeInTheDocument();
 
   rerender(
@@ -180,7 +180,7 @@ test('Renderer:TooltipWrapper with showArrow', async () => {
 
   expect(baseElement).toMatchSnapshot();
   expect(
-    baseElement.querySelector('.cxd-Tooltip .cxd-Tooltip-arrow')!
+    baseElement.querySelector('.amis-Tooltip .amis-Tooltip-arrow')!
   ).toBeNull();
 });
 
@@ -199,8 +199,8 @@ test('Renderer:TooltipWrapper with tooltipTheme', async () => {
   fireEvent.mouseEnter(getByText('dark主题提示'));
   await wait(500);
 
-  expect(baseElement.querySelector('.cxd-Tooltip')!).toHaveClass(
-    'cxd-Tooltip--dark'
+  expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+    'amis-Tooltip--dark'
   );
 });
 
@@ -219,15 +219,15 @@ test('Renderer:TooltipWrapper with mouseEnterDelay & mouseLeaveDelay', async () 
 
   fireEvent.mouseEnter(getByText('延迟'));
   await wait(100);
-  expect(baseElement.querySelector('.cxd-Tooltip')!).toBeNull();
+  expect(baseElement.querySelector('.amis-Tooltip')!).toBeNull();
   await wait(250);
-  expect(baseElement.querySelector('.cxd-Tooltip')!).not.toBeNull();
+  expect(baseElement.querySelector('.amis-Tooltip')!).not.toBeNull();
 
   fireEvent.mouseLeave(getByText('延迟'));
   await wait(400);
-  expect(baseElement.querySelector('.cxd-Tooltip')!).not.toBeNull();
+  expect(baseElement.querySelector('.amis-Tooltip')!).not.toBeNull();
   await wait(250);
-  expect(baseElement.querySelector('.cxd-Tooltip')!).toBeNull();
+  expect(baseElement.querySelector('.amis-Tooltip')!).toBeNull();
 });
 
 test('Renderer:TooltipWrapper with context data', async () => {
@@ -251,10 +251,10 @@ test('Renderer:TooltipWrapper with context data', async () => {
   fireEvent.mouseEnter(getByText('body:this-is-text'));
 
   await wait(500);
-  expect(baseElement.querySelector('.cxd-Tooltip-title')!).toHaveTextContent(
+  expect(baseElement.querySelector('.amis-Tooltip-title')!).toHaveTextContent(
     'title:second-text'
   );
-  expect(baseElement.querySelector('.cxd-Tooltip-body')!).toHaveTextContent(
+  expect(baseElement.querySelector('.amis-Tooltip-body')!).toHaveTextContent(
     'info:this-is-text'
   );
   expect(baseElement).toMatchSnapshot();
@@ -270,8 +270,8 @@ test('Renderer:TooltipWrapper with inline', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-TooltipWrapper')).toHaveClass(
-    'cxd-TooltipWrapper--inline'
+  expect(container.querySelector('.amis-TooltipWrapper')).toHaveClass(
+    'amis-TooltipWrapper--inline'
   );
 });
 
@@ -291,14 +291,14 @@ test('Renderer:TooltipWrapper with style & tooltipStyle', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-TooltipWrapper')).toHaveStyle({
+  expect(container.querySelector('.amis-TooltipWrapper')).toHaveStyle({
     'font-style': 'italic'
   });
 
   fireEvent.mouseEnter(getByText('一段文案'));
 
   await wait(500);
-  expect(baseElement.querySelector('.cxd-Tooltip')).toHaveStyle({
+  expect(baseElement.querySelector('.amis-Tooltip')).toHaveStyle({
     'font-weight': 'bold'
   });
   expect(baseElement).toMatchSnapshot();
@@ -313,7 +313,7 @@ test('Renderer:TooltipWrapper with wrapperComponent', async () => {
       body: "function HelloWorld() {\n    console.log('Hello World');\n}"
     })
   );
-  expect(container.querySelector('pre.cxd-TooltipWrapper')).toBeInTheDocument();
+  expect(container.querySelector('pre.amis-TooltipWrapper')).toBeInTheDocument();
   expect(container).toHaveTextContent(
     `function HelloWorld() { console.log('Hello World'); }`
   );

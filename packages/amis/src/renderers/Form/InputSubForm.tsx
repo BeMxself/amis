@@ -1,5 +1,11 @@
 import React from 'react';
-import {FormItem, FormControlProps, FormBaseControl} from 'amis-core';
+import {
+  FormItem,
+  FormControlProps,
+  FormBaseControl,
+  getStableClassName,
+  getStableClassSelector
+} from 'amis-core';
 import cx from 'classnames';
 import omit from 'lodash/omit';
 import pick from 'lodash/pick';
@@ -303,16 +309,18 @@ export default class SubFormControl extends React.PureComponent<
   }
 
   initDragging() {
-    const ns = this.props.classPrefix;
+    const cx = this.props.classnames;
     const submitOnChange = this.props.submitOnChange;
     const dom = findDOMNode(this) as HTMLElement;
     this.sortable = new Sortable(
-      dom.querySelector(`.${ns}SubForm-values`) as HTMLElement,
+      dom.querySelector(
+        getStableClassSelector(cx, 'SubForm-values')
+      ) as HTMLElement,
       {
         group: `SubForm-${this.id}`,
         animation: 150,
-        handle: `.${ns}SubForm-valueDragBar`,
-        ghostClass: `${ns}SubForm-value--dragging`,
+        handle: getStableClassSelector(cx, 'SubForm-valueDragBar'),
+        ghostClass: getStableClassName(cx, 'SubForm-value--dragging'),
         onEnd: (e: any) => {
           // 没有移动
           if (e.newIndex === e.oldIndex) {

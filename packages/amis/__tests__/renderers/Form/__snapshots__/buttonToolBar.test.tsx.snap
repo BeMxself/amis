@@ -3,74 +3,78 @@
 exports[`Renderer:button-toolbar 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="amis-Form-item amis-Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="cxd-ButtonToolbar cxd-Form-control"
+              class="amis-Form-item amis-Form-item--normal"
+              data-role="form-item"
             >
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="button"
+              <div
+                class="amis-ButtonToolbar amis-Form-control"
               >
-                <span>
-                  OpenDialog
-                </span>
-              </button>
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="submit"
-              >
-                <span>
-                  Submit
-                </span>
-              </button>
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="reset"
-              >
-                <span>
-                  Reset
-                </span>
-              </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="button"
+                >
+                  <span>
+                    OpenDialog
+                  </span>
+                </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    Submit
+                  </span>
+                </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="reset"
+                >
+                  <span>
+                    Reset
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>
@@ -79,91 +83,96 @@ exports[`Renderer:button-toolbar 1`] = `
 exports[`Renderer:button-toolbar 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            The form
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              The form
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-role="form-item"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="amis-Form-item amis-Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="cxd-ButtonToolbar cxd-Form-control"
+              class="amis-Form-item amis-Form-item--normal"
+              data-role="form-item"
             >
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="button"
+              <div
+                class="amis-ButtonToolbar amis-Form-control"
               >
-                <span>
-                  OpenDialog
-                </span>
-              </button>
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="submit"
-              >
-                <span>
-                  Submit
-                </span>
-              </button>
-              <button
-                class="cxd-Button cxd-Button--default cxd-Button--size-default"
-                type="reset"
-              >
-                <span>
-                  Reset
-                </span>
-              </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="button"
+                >
+                  <span>
+                    OpenDialog
+                  </span>
+                </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    Submit
+                  </span>
+                </button>
+                <button
+                  class="amis-Button amis-Button--default amis-Button--size-default"
+                  type="reset"
+                >
+                  <span>
+                    Reset
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="amis-Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="amis-Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="amis-Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="amis-Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -173,17 +182,17 @@ exports[`Renderer:button-toolbar 2`] = `
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="amis-Modal-title"
         >
           提示
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="amis-Modal-body"
         role="dialog-body"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="amis-TplField fr-view"
         >
           <span>
             对，你刚点击了！
@@ -191,10 +200,10 @@ exports[`Renderer:button-toolbar 2`] = `
         </span>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="amis-Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="amis-Button amis-Button--default amis-Button--size-default"
           type="button"
         >
           <span>
@@ -202,7 +211,7 @@ exports[`Renderer:button-toolbar 2`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="amis-Button amis-Button--primary amis-Button--size-default"
           type="button"
         >
           <span>

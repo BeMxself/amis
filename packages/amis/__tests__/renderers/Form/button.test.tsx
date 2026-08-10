@@ -1,11 +1,15 @@
 import React = require('react');
 import {render, cleanup, fireEvent} from '@testing-library/react';
 import '../../../src';
-import {render as amisRender} from '../../../src';
+import {render as amisRender, theme} from '../../../src';
 import {wait, makeEnv} from '../../helper';
 import {clearStoresCache} from '../../../src';
 
 afterEach(() => {
+  theme('cxd', {
+    componentClassPrefix: 'amis-',
+    legacyDomClassAlias: false
+  });
   cleanup();
   clearStoresCache();
 });
@@ -58,8 +62,39 @@ test('Renderer:button', async () => {
   );
   const getByText = renderResult.getByText;
   container = renderResult.container;
+  const textButton = getByText('Text').closest('button')!;
+  const submitButton = getByText('Submit').closest('button')!;
+  const resetButton = getByText('Reset').closest('button')!;
+
+  expect(container.querySelector('[data-amis-theme="cxd"]')).toBeTruthy();
+  expect(textButton).toHaveClass('amis-Button');
+  expect(textButton).toHaveClass('amis-Button--default');
+  expect(textButton).toHaveClass('amis-Button--size-default');
+  expect(textButton).not.toHaveClass('cxd-Button');
+  expect(submitButton).toHaveClass('amis-Button--primary');
+  expect(resetButton).toHaveClass('amis-Button--size-sm');
   expect(container).toMatchSnapshot();
   fireEvent.click(getByText(/OpenDialog/));
   await wait(300);
   expect(container).toMatchSnapshot();
+});
+
+test('Renderer:button legacy DOM alias', () => {
+  theme('cxd', {
+    legacyDomClassAlias: 'cxd'
+  });
+
+  const {getByText} = render(
+    amisRender({
+      type: 'button',
+      label: 'Alias Button',
+      level: 'primary'
+    })
+  );
+  const aliasButton = getByText('Alias Button').closest('button')!;
+
+  expect(aliasButton).toHaveClass('amis-Button');
+  expect(aliasButton).toHaveClass('cxd-Button');
+  expect(aliasButton).toHaveClass('amis-Button--primary');
+  expect(aliasButton).toHaveClass('cxd-Button--primary');
 });

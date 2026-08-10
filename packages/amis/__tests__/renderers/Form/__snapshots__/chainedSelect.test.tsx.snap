@@ -3,314 +3,318 @@
 exports[`Renderer:chained-select 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-    data-role="container"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Panel-heading"
+      class="amis-Panel amis-Panel--default amis-Panel--form"
+      data-role="container"
     >
-      <h3
-        class="cxd-Panel-title"
+      <div
+        class="amis-Panel-heading"
       >
-        <span
-          class="cxd-TplField fr-view"
+        <h3
+          class="amis-Panel-title"
         >
-          <span>
-            表单
+          <span
+            class="amis-TplField fr-view"
+          >
+            <span>
+              表单
+            </span>
           </span>
-        </span>
-      </h3>
-    </div>
-    <div
-      class="cxd-Panel-body"
-    >
-      <form
-        class="cxd-Form cxd-Form--normal"
-        novalidate=""
+        </h3>
+      </div>
+      <div
+        class="amis-Panel-body"
       >
-        <input
-          style="display: none;"
-          type="submit"
-        />
-        <div
-          class="cxd-JsonField cxd-Form--debug"
+        <form
+          class="amis-Form amis-Form--normal"
+          novalidate=""
         >
+          <input
+            style="display: none;"
+            type="submit"
+          />
           <div
-            class="react-json-view"
-            style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
+            class="amis-JsonField amis-Form--debug"
           >
             <div
-              class="pretty-json-container object-container"
+              class="react-json-view"
+              style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
             >
               <div
-                class="object-content"
+                class="pretty-json-container object-container"
               >
                 <div
-                  class="object-key-val"
+                  class="object-content"
                 >
-                  <span>
-                    <span
-                      style="display: inline-block; cursor: pointer;"
-                    >
+                  <div
+                    class="object-key-val"
+                  >
+                    <span>
+                      <span
+                        style="display: inline-block; cursor: pointer;"
+                      >
+                        <div
+                          class="icon-container"
+                          style="display: inline-block; width: 17px;"
+                        >
+                          <span
+                            class="expanded-icon"
+                          >
+                            <svg
+                              fill="#586e75"
+                              height="1em"
+                              style="vertical-align: middle; color: rgb(88, 110, 117); height: 1em; width: 1em;"
+                              viewBox="0 0 1792 1792"
+                              width="1em"
+                            >
+                              <path
+                                d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
+                              />
+                            </svg>
+                          </span>
+                        </div>
+                        <span />
+                        <span
+                          style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
+                        >
+                          {
+                        </span>
+                      </span>
                       <div
-                        class="icon-container"
-                        style="display: inline-block; width: 17px;"
+                        class="object-meta-data"
+                        style="display: inline-block; padding: 0px 0px 0px 10px;"
                       >
                         <span
-                          class="expanded-icon"
+                          class="object-size"
+                          style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
                         >
-                          <svg
-                            fill="#586e75"
-                            height="1em"
-                            style="vertical-align: middle; color: rgb(88, 110, 117); height: 1em; width: 1em;"
-                            viewBox="0 0 1792 1792"
-                            width="1em"
-                          >
-                            <path
-                              d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
-                            />
-                          </svg>
+                          1
+                           item
                         </span>
                       </div>
-                      <span />
-                      <span
-                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
-                      >
-                        {
-                      </span>
                     </span>
                     <div
-                      class="object-meta-data"
-                      style="display: inline-block; padding: 0px 0px 0px 10px;"
-                    >
-                      <span
-                        class="object-size"
-                        style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                      >
-                        1
-                         item
-                      </span>
-                    </div>
-                  </span>
-                  <div
-                    class="pushed-content object-container"
-                  >
-                    <div
-                      class="object-content"
-                      style="margin-left: 6px;"
+                      class="pushed-content object-container"
                     >
                       <div
-                        class="variable-row"
-                        style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
+                        class="object-content"
+                        style="margin-left: 6px;"
                       >
-                        <span>
-                          <span
-                            class="object-key"
-                            style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                          >
-                            <span
-                              style="vertical-align: top;"
-                            >
-                              "
-                            </span>
-                            <span
-                              style="display: inline-block;"
-                            >
-                              select3
-                            </span>
-                            <span
-                              style="vertical-align: top;"
-                            >
-                              "
-                            </span>
-                          </span>
-                          <span
-                            style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                          >
-                            :
-                          </span>
-                        </span>
                         <div
-                          class="variable-value"
-                          style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
+                          class="variable-row"
+                          style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
                         >
-                          <div
-                            style="display: inline-block; color: rgb(203, 75, 22);"
-                          >
+                          <span>
                             <span
-                              class="string-value"
-                              style="cursor: default;"
+                              class="object-key"
+                              style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                             >
-                              "
-                              a,b
-                              "
+                              <span
+                                style="vertical-align: top;"
+                              >
+                                "
+                              </span>
+                              <span
+                                style="display: inline-block;"
+                              >
+                                select3
+                              </span>
+                              <span
+                                style="vertical-align: top;"
+                              >
+                                "
+                              </span>
                             </span>
+                            <span
+                              style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
+                            >
+                              :
+                            </span>
+                          </span>
+                          <div
+                            class="variable-value"
+                            style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
+                          >
+                            <div
+                              style="display: inline-block; color: rgb(203, 75, 22);"
+                            >
+                              <span
+                                class="string-value"
+                                style="cursor: default;"
+                              >
+                                "
+                                a,b
+                                "
+                              </span>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <span
-                    class="brace-row"
-                  >
                     <span
-                      style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                      class="brace-row"
                     >
-                      }
+                      <span
+                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
+                      >
+                        }
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="cxd-Form-item cxd-Form-item--normal"
-          data-amis-name="select3"
-          data-role="form-item"
-        >
-          <label
-            class="cxd-Form-label"
+          <div
+            class="amis-Form-item amis-Form-item--normal"
+            data-amis-name="select3"
+            data-role="form-item"
           >
-            <span>
-              <span
-                class="cxd-TplField fr-view"
-              >
-                <span>
-                  级联下拉
+            <label
+              class="amis-Form-label"
+            >
+              <span>
+                <span
+                  class="amis-TplField fr-view"
+                >
+                  <span>
+                    级联下拉
+                  </span>
                 </span>
               </span>
-            </span>
-          </label>
-          <div
-            class="cxd-ChainedSelectControl cxd-Form-control"
-          >
+            </label>
             <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              class="cxd-Select cxd-Select--inline"
-              role="combobox"
-              tabindex="0"
+              class="amis-ChainedSelectControl amis-Form-control"
             >
               <div
-                class="cxd-Select-valueWrap"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="amis-Select amis-Select--inline"
+                role="combobox"
+                tabindex="0"
               >
                 <div
-                  class="cxd-Select-value"
+                  class="amis-Select-valueWrap"
                 >
-                  A 0
+                  <div
+                    class="amis-Select-value"
+                  >
+                    A 0
+                  </div>
                 </div>
+                <span
+                  class="amis-Select-arrow"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
               </div>
-              <span
-                class="cxd-Select-arrow"
-              >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
-              </span>
-            </div>
-            <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              class="cxd-Select cxd-Select--inline"
-              role="combobox"
-              tabindex="0"
-            >
               <div
-                class="cxd-Select-valueWrap"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="amis-Select amis-Select--inline"
+                role="combobox"
+                tabindex="0"
               >
                 <div
-                  class="cxd-Select-value"
+                  class="amis-Select-valueWrap"
                 >
-                  B 1
+                  <div
+                    class="amis-Select-value"
+                  >
+                    B 1
+                  </div>
                 </div>
+                <span
+                  class="amis-Select-arrow"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
               </div>
-              <span
-                class="cxd-Select-arrow"
-              >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
-              </span>
-            </div>
-            <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              class="cxd-Select cxd-Select--inline"
-              role="combobox"
-              tabindex="0"
-            >
               <div
-                class="cxd-Select-valueWrap"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="amis-Select amis-Select--inline"
+                role="combobox"
+                tabindex="0"
               >
                 <div
-                  class="cxd-Select-value"
+                  class="amis-Select-valueWrap"
                 >
-                  D 2
+                  <div
+                    class="amis-Select-value"
+                  >
+                    D 2
+                  </div>
                 </div>
+                <span
+                  class="amis-Select-arrow"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
               </div>
-              <span
-                class="cxd-Select-arrow"
-              >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
-              </span>
-            </div>
-            <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              class="cxd-Select cxd-Select--inline"
-              role="combobox"
-              tabindex="0"
-            >
               <div
-                class="cxd-Select-valueWrap"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="amis-Select amis-Select--inline"
+                role="combobox"
+                tabindex="0"
               >
                 <div
-                  class="cxd-Select-value"
+                  class="amis-Select-valueWrap"
                 >
-                  C 3
+                  <div
+                    class="amis-Select-value"
+                  >
+                    C 3
+                  </div>
                 </div>
+                <span
+                  class="amis-Select-arrow"
+                >
+                  <icon-mock
+                    classname="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
+                  />
+                </span>
               </div>
-              <span
-                class="cxd-Select-arrow"
-              >
-                <icon-mock
-                  classname="icon icon-right-arrow-bold"
-                  icon="right-arrow-bold"
-                />
-              </span>
-            </div>
-            <div
-              class="cxd-Spinner in cxd-ChainedSelectControl-spinner"
-              data-testid="spinner"
-            >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--sm cxd-Spinner-icon--default"
-              />
+                class="amis-Spinner in amis-ChainedSelectControl-spinner"
+                data-testid="spinner"
+              >
+                <div
+                  class="amis-Spinner-icon amis-Spinner-icon--sm amis-Spinner-icon--default"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div
-      class="cxd-Panel-footerWrap"
-    >
+        </form>
+      </div>
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="amis-Panel-footerWrap"
       >
-        <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
-          type="submit"
+        <div
+          class="amis-Panel-btnToolbar amis-Panel-footer"
         >
-          <span>
-            提交
-          </span>
-        </button>
+          <button
+            class="amis-Button amis-Button--primary amis-Button--size-default"
+            type="submit"
+          >
+            <span>
+              提交
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

@@ -120,7 +120,7 @@ test('Renderer:chained-select', async () => {
 
   expect(container).not.toHaveTextContent('请选择');
   expect(
-    container.querySelectorAll('.cxd-ChainedSelectControl > .cxd-Select')!
+    container.querySelectorAll('.amis-ChainedSelectControl > .amis-Select')!
       .length
   ).toBe(4);
 
