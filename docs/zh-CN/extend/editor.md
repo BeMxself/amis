@@ -7,6 +7,8 @@ title: 可视化编辑器
 在线体验：https://aisuda.github.io/amis-editor-demo
 示例代码：https://github.com/aisuda/amis-editor-demo
 
+如果需要系统了解编辑器二次开发入口，包括属性定制、插件定制、左右面板定制、全局插件与渲染器插件的边界，请参考[可视化编辑器定制指南](./editor-customization)。
+
 ## 使用
 
 目前有两个 npm 包：`amis-editor` 和 `amis-editor-core`。

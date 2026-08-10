@@ -108,8 +108,8 @@ export class AvatarFieldRenderer extends AvatarField {}
 新组件一般都需要对应的样式，首先创建 `scss/components/_avatar.scss` 文件，内容是：
 
 ```css
-// 注意必须有这个 #{$ns}，它是为了方便生成主题，比如在 cxd 主题下，会转成 `.cxd-Avatar`
-.#{$ns}Avatar {
+.amis-Avatar {
+  color: var(--amis-color-brand-bg);
 }
 ```
 
@@ -117,7 +117,7 @@ export class AvatarFieldRenderer extends AvatarField {}
 
 amis 中的 css 命名使用 [SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) 规范，请按照这个规范编写。
 
-如果样式在不同主题下有区别，则需要使用 CSS 变量，在 `scss/_properties.scss` 里定义这个变量的默认值，让后在对应的主题文件中覆盖，比如 `scss/themes/_cxd-variables.scss`。
+新增组件样式应使用稳定的 `.amis-*` 组件类名和 `--amis-*` token。不同主题下的差异应通过 token 或 `[data-amis-theme="主题名"] .amis-*` 作用域覆写，不要通过主题类前缀或 `classPrefix` 生成新的公共选择器。
 
 ### 编写文档
 

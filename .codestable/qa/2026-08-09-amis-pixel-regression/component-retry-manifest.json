@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-08-09T07:32:08.958Z",
+  "baseUrl": "http://127.0.0.1:8888",
+  "total": 11,
+  "totals": {
+    "components": 11
+  },
+  "sources": [
+    {
+      "tab": "docs",
+      "tabTitle": "文档",
+      "source": "examples/components/DocNavCN.ts",
+      "exportName": "default"
+    },
+    {
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "exportName": "components"
+    },
+    {
+      "tab": "style",
+      "tabTitle": "样式",
+      "source": "examples/components/CssDocs.tsx",
+      "exportName": "cssDocs"
+    },
+    {
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "exportName": "examples"
+    }
+  ],
+  "note": "组件页签首轮 fail/error 复跑清单",
+  "pages": [
+    {
+      "index": 51,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "DiffEditor 对比编辑器",
+      "breadcrumb": "数据输入 / DiffEditor 对比编辑器",
+      "path": "/zh-CN/components/form/diff-editor",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/diff-editor"
+    },
+    {
+      "index": 75,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "InputRange 滑块",
+      "breadcrumb": "数据输入 / InputRange 滑块",
+      "path": "/zh-CN/components/form/input-range",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/input-range"
+    },
+    {
+      "index": 77,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "InputRichText 富文本编辑器",
+      "breadcrumb": "数据输入 / InputRichText 富文本编辑器",
+      "path": "/zh-CN/components/form/input-rich-text",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/input-rich-text"
+    },
+    {
+      "index": 102,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "Table2 表格",
+      "breadcrumb": "数据展示 / Table2 表格",
+      "path": "/zh-CN/components/table2",
+      "url": "http://127.0.0.1:8888/zh-CN/components/table2"
+    },
+    {
+      "index": 123,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "Mapping 映射",
+      "breadcrumb": "数据展示 / Mapping 映射",
+      "path": "/zh-CN/components/mapping",
+      "url": "http://127.0.0.1:8888/zh-CN/components/mapping"
+    },
+    {
+      "index": 125,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "Markdown 渲染",
+      "breadcrumb": "数据展示 / Markdown 渲染",
+      "path": "/zh-CN/components/markdown",
+      "url": "http://127.0.0.1:8888/zh-CN/components/markdown"
+    },
+    {
+      "index": 126,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "OfficeViewer Word 渲染",
+      "breadcrumb": "数据展示 / OfficeViewer Word 渲染",
+      "path": "/zh-CN/components/office-viewer",
+      "url": "http://127.0.0.1:8888/zh-CN/components/office-viewer"
+    },
+    {
+      "index": 127,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "OfficeViewer Excel 渲染",
+      "breadcrumb": "数据展示 / OfficeViewer Excel 渲染",
+      "path": "/zh-CN/components/office-viewer-excel",
+      "url": "http://127.0.0.1:8888/zh-CN/components/office-viewer-excel"
+    },
+    {
+      "index": 128,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "PDFViewer 渲染",
+      "breadcrumb": "数据展示 / PDFViewer 渲染",
+      "path": "/zh-CN/components/pdf-viewer",
+      "url": "http://127.0.0.1:8888/zh-CN/components/pdf-viewer"
+    },
+    {
+      "index": 147,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "反馈",
+      "label": "Spinner 加载中",
+      "breadcrumb": "反馈 / Spinner 加载中",
+      "path": "/zh-CN/components/spinner",
+      "url": "http://127.0.0.1:8888/zh-CN/components/spinner"
+    },
+    {
+      "index": 155,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "其他",
+      "label": "amis 渲染器",
+      "breadcrumb": "其他 / amis 渲染器",
+      "path": "/zh-CN/components/amis",
+      "url": "http://127.0.0.1:8888/zh-CN/components/amis"
+    }
+  ]
+}

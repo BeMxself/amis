@@ -183,6 +183,7 @@ body {
         }
       }
 
+      .amis-Layout-brand > a,
       .a-Layout-brand > a,
       .cxd-Layout-brand > a,
       .antd-Layout-brand > a {
@@ -261,6 +262,7 @@ body {
     }
   }
 
+  .amis-Layout,
   .a-Layout,
   .cxd-Layout,
   .antd-Layout {
@@ -314,6 +316,7 @@ body {
   white-space: nowrap;
 }
 
+.amis-Layout-offScreen-btn,
 .a-Layout-offScreen-btn,
 .cxd-Layout-offScreen-btn,
 .antd-Layout-offScreen-btn,
@@ -387,6 +390,7 @@ body {
   }
 
   &-navigation {
+    .amis-AsideNav,
     .a-AsideNav,
     .cxd-AsideNav,
     .antd-AsideNav,
@@ -460,6 +464,7 @@ body {
       }
     }
 
+    .amis-AsideNav,
     .a-AsideNav,
     .cxd-AsideNav,
     .antd-AsideNav {
@@ -655,6 +660,7 @@ body {
   > .schema-wrapper {
     padding: 0 35px;
 
+    > .amis-Page,
     > .a-Page,
     > .cxd-Page,
     > .antd-Page,
@@ -664,10 +670,12 @@ body {
     }
   }
 
+  .amis-AsideNav-item .amis-AsideNav-item a,
   .a-AsideNav-item .a-AsideNav-item a,
   .cxd-AsideNav-item .cxd-AsideNav-item a,
   .antd-AsideNav-item .antd-AsideNav-item a,
   .dark-AsideNav-item .dark-AsideNav-item a,
+  .amis-AsideNav-item .amis-AsideNav-item .amis-AsideNav-item a,
   .a-AsideNav-item .a-AsideNav-item .a-AsideNav-item a,
   .cxd-AsideNav-item .cxd-AsideNav-item .cxd-AsideNav-item a,
   .antd-AsideNav-item .antd-AsideNav-item .antd-AsideNav-item a,
@@ -677,6 +685,7 @@ body {
 }
 
 .Doc-navDrawer {
+  .amis-Drawer,
   .a-Drawer,
   .cxd-Drawer,
   .antd-Drawer,
@@ -931,6 +940,7 @@ body {
 .Doc-searchDrawer {
   border: 0;
 
+  .amis-Drawer-content,
   .a-Drawer-content,
   .cxd-Drawer-content,
   .antd-Drawer-content,
@@ -938,6 +948,7 @@ body {
     border: 0;
   }
 
+  .amis-Drawer-close,
   .a-Drawer-close,
   .cxd-Drawer-close,
   .antd-Drawer-close,
@@ -945,6 +956,7 @@ body {
     display: none;
   }
 
+  .amis-Drawer-overlay,
   .a-Drawer-overlay,
   .cxd-Drawer-overlay,
   .antd-Drawer-overlay,

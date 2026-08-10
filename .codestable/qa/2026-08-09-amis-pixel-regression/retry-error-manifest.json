@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-08-09T09:31:17.433Z",
+  "baseUrl": "http://127.0.0.1:8888",
+  "total": 28,
+  "totals": {
+    "components": 10,
+    "examples": 18
+  },
+  "sources": [
+    "retry-from-full-2026-08-09-theme-r3"
+  ],
+  "note": "Retry manifest generated from first-pass ERROR pages; paths normalized with leading slash.",
+  "pages": [
+    {
+      "index": 29,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "FormItem 表单项通用",
+      "breadcrumb": "数据输入 / FormItem 表单项通用",
+      "path": "/zh-CN/components/form/formitem",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/formitem"
+    },
+    {
+      "index": 36,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "Checkbox 勾选框",
+      "breadcrumb": "数据输入 / Checkbox 勾选框",
+      "path": "/zh-CN/components/form/checkbox",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/checkbox"
+    },
+    {
+      "index": 40,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "Combo 组合",
+      "breadcrumb": "数据输入 / Combo 组合",
+      "path": "/zh-CN/components/form/combo",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/combo"
+    },
+    {
+      "index": 53,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "FieldSet 表单项集合",
+      "breadcrumb": "数据输入 / FieldSet 表单项集合",
+      "path": "/zh-CN/components/form/fieldset",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/fieldset"
+    },
+    {
+      "index": 64,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "MatrixCheckboxes 矩阵勾选",
+      "breadcrumb": "数据输入 / MatrixCheckboxes 矩阵勾选",
+      "path": "/zh-CN/components/form/matrix-checkboxes",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/matrix-checkboxes"
+    },
+    {
+      "index": 97,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据输入",
+      "label": "JsonSchema Editor",
+      "breadcrumb": "数据输入 / JsonSchema Editor",
+      "path": "/zh-CN/components/form/json-schema-editor",
+      "url": "http://127.0.0.1:8888/zh-CN/components/form/json-schema-editor"
+    },
+    {
+      "index": 108,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "Chart 图表",
+      "breadcrumb": "数据展示 / Chart 图表",
+      "path": "/zh-CN/components/chart",
+      "url": "http://127.0.0.1:8888/zh-CN/components/chart"
+    },
+    {
+      "index": 109,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "Code 代码高亮",
+      "breadcrumb": "数据展示 / Code 代码高亮",
+      "path": "/zh-CN/components/code",
+      "url": "http://127.0.0.1:8888/zh-CN/components/code"
+    },
+    {
+      "index": 132,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "QRCode 二维码",
+      "breadcrumb": "数据展示 / QRCode 二维码",
+      "path": "/zh-CN/components/qrcode",
+      "url": "http://127.0.0.1:8888/zh-CN/components/qrcode"
+    },
+    {
+      "index": 133,
+      "tab": "components",
+      "tabTitle": "组件",
+      "source": "examples/components/Components.tsx",
+      "group": "数据展示",
+      "label": "BarCode 条形码",
+      "breadcrumb": "数据展示 / BarCode 条形码",
+      "path": "/zh-CN/components/barcode",
+      "url": "http://127.0.0.1:8888/zh-CN/components/barcode"
+    },
+    {
+      "index": 88,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "时间类组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 时间类组件",
+      "path": "/examples/event/date",
+      "url": "http://127.0.0.1:8888examples/event/date"
+    },
+    {
+      "index": 89,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "可关闭的tag group",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 可关闭的tag group",
+      "path": "/examples/event/each-tag",
+      "url": "http://127.0.0.1:8888examples/event/each-tag"
+    },
+    {
+      "index": 90,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "开关组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 开关组件",
+      "path": "/examples/event/switch",
+      "url": "http://127.0.0.1:8888examples/event/switch"
+    },
+    {
+      "index": 91,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "选项卡组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 选项卡组件",
+      "path": "/examples/event/tabs",
+      "url": "http://127.0.0.1:8888examples/event/tabs"
+    },
+    {
+      "index": 92,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "评分组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 评分组件",
+      "path": "/examples/event/input-rating",
+      "url": "http://127.0.0.1:8888examples/event/input-rating"
+    },
+    {
+      "index": 93,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "excel",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / excel",
+      "path": "/examples/event/excel",
+      "url": "http://127.0.0.1:8888examples/event/excel"
+    },
+    {
+      "index": 94,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "向导组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 向导组件",
+      "path": "/examples/event/wizard",
+      "url": "http://127.0.0.1:8888examples/event/wizard"
+    },
+    {
+      "index": 95,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "树形选择框",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 树形选择框",
+      "path": "/examples/event/input-tree",
+      "url": "http://127.0.0.1:8888examples/event/input-tree"
+    },
+    {
+      "index": 96,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "树形选择器",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 树形选择器",
+      "path": "/examples/event/tree-select",
+      "url": "http://127.0.0.1:8888examples/event/tree-select"
+    },
+    {
+      "index": 97,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "form表单",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / form表单",
+      "path": "/examples/event/form",
+      "url": "http://127.0.0.1:8888examples/event/form"
+    },
+    {
+      "index": 98,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "穿梭框类组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 穿梭框类组件",
+      "path": "/examples/event/transfer",
+      "url": "http://127.0.0.1:8888examples/event/transfer"
+    },
+    {
+      "index": 99,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "轮播图组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 轮播图组件",
+      "path": "/examples/event/carousel",
+      "url": "http://127.0.0.1:8888examples/event/carousel"
+    },
+    {
+      "index": 100,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "Service组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / Service组件",
+      "path": "/examples/event/service",
+      "url": "http://127.0.0.1:8888examples/event/service"
+    },
+    {
+      "index": 101,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "表格组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 表格组件",
+      "path": "/examples/event/table",
+      "url": "http://127.0.0.1:8888examples/event/table"
+    },
+    {
+      "index": 102,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "列表展示类组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / 列表展示类组件",
+      "path": "/examples/event/list",
+      "url": "http://127.0.0.1:8888examples/event/list"
+    },
+    {
+      "index": 103,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "chart组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / chart组件",
+      "path": "/examples/event/chart",
+      "url": "http://127.0.0.1:8888examples/event/chart"
+    },
+    {
+      "index": 104,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "SearchBox组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / SearchBox组件",
+      "path": "/examples/event/searchbox",
+      "url": "http://127.0.0.1:8888examples/event/searchbox"
+    },
+    {
+      "index": 105,
+      "tab": "examples",
+      "tabTitle": "示例",
+      "source": "examples/components/Example.jsx",
+      "group": "示例 / 事件动作机制 / 执行其他组件动作",
+      "label": "input-table组件",
+      "breadcrumb": "示例 / 事件动作机制 / 执行其他组件动作 / input-table组件",
+      "path": "/examples/event/input-table",
+      "url": "http://127.0.0.1:8888examples/event/input-table"
+    }
+  ]
+}

@@ -130,7 +130,7 @@ class Preview extends React.Component {
     if (!htmlPreviews && !htmlPreviews.length) {
       return;
     }
-    const ns = getTheme(this.props.theme)?.classPrefix;
+    const ns = getTheme(this.props.theme)?.componentClassPrefix || 'amis-';
     [].slice.call(htmlPreviews).forEach(dom => {
       eachDom(dom, dom => {
         if (typeof dom.className !== 'string') {

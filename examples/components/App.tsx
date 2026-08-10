@@ -207,11 +207,14 @@ export class App extends React.PureComponent<{
   renderHeader(docPage = true) {
     const location = this.props.location;
     const theme = this.state.theme;
+    const componentClassPrefix = 'amis-';
 
     if (location.pathname === '/edit') {
       return (
         <div id="headerBar" className="box-shadow bg-dark">
-          <div className={`${theme.ns}Layout-brand`}>amis 可视化编辑器</div>
+          <div className={`${componentClassPrefix}Layout-brand`}>
+            amis 可视化编辑器
+          </div>
         </div>
       );
     }
@@ -219,13 +222,13 @@ export class App extends React.PureComponent<{
     return (
       <>
         <div
-          className={`${theme.ns}Layout-brandBar ${
+          className={`${componentClassPrefix}Layout-brandBar ${
             docPage ? 'DocLayout-brandBar' : ''
           }`}
         >
           <div
             onClick={() => this.setState({offScreen: !this.state.offScreen})}
-            className={`${theme.ns}Layout-offScreen-btn ${
+            className={`${componentClassPrefix}Layout-offScreen-btn ${
               docPage ? 'DocLayout-offScreen-btn' : ''
             } pull-right visible-xs`}
           >
@@ -234,7 +237,7 @@ export class App extends React.PureComponent<{
 
           {docPage ? (
             <div
-              className={`${theme.ns}Layout-brand  ${
+              className={`${componentClassPrefix}Layout-brand  ${
                 docPage ? 'DocLayout-brand' : ''
               }`}
             >
@@ -243,7 +246,9 @@ export class App extends React.PureComponent<{
               </Link>
             </div>
           ) : (
-            <div className={`${theme.ns}Layout-brand text-ellipsis`}>
+            <div
+              className={`${componentClassPrefix}Layout-brand text-ellipsis`}
+            >
               <i className="fa fa-paw" />
               <span className="hidden-folded m-l-sm">AMIS 示例</span>
             </div>
@@ -251,7 +256,7 @@ export class App extends React.PureComponent<{
         </div>
 
         <div
-          className={`${theme.ns}Layout-headerBar ${
+          className={`${componentClassPrefix}Layout-headerBar ${
             docPage ? 'DocLayout-headerBar pc:inline-flex' : 'pc:flex'
           } items-center`}
         >
@@ -388,7 +393,7 @@ export class App extends React.PureComponent<{
         {docPage ? (
           <>
             <div
-              className={`${theme.ns}Layout-searchBar ${
+              className={`${componentClassPrefix}Layout-searchBar ${
                 docPage ? 'DocLayout-searchBar' : ''
               } hidden-xs hidden-sm`}
             >

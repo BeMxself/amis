@@ -35,7 +35,7 @@ SDK 版本适合对前端或 React 不了解的开发者，它不依赖 npm 及 
     <link rel="stylesheet" href="helper.css" />
     <link rel="stylesheet" href="iconfont.css" />
     <!-- 这是默认主题所需的，如果是其他主题则不需要 -->
-    <!-- 从 1.1.0 开始 sdk.css 将不支持 IE 11，如果要支持 IE11 请引用这个 css，并把前面那个删了 -->
+    <!-- 从 1.1.0 开始 sdk.css 将不支持 IE11；如果要支持 IE11，只能使用静态 CSS 降级文件，并把前面的 sdk.css 删掉 -->
     <!-- <link rel="stylesheet" href="sdk-ie11.css" /> -->
     <!-- 不过 amis 开发团队几乎没测试过 IE 11 下的效果，所以可能有细节功能用不了，如果发现请报 issue -->
     <style>
@@ -87,7 +87,7 @@ SDK 版本适合对前端或 React 不了解的开发者，它不依赖 npm 及 
 
 ### 切换主题
 
-jssdk 版本默认使用 `sdk.css` 即云舍主题，如果你想使用仿 Antd，请将 css 引用改成 `antd.css`。同时 js 渲染地方第四个参数传入 `theme` 属性。如：
+jssdk 版本默认使用 `sdk.css`。如果要使用其它主题，需要先加载对应主题 CSS，再在 js 渲染第四个参数里传入 `theme`。`theme` 决定 `[data-amis-theme]` 的主题作用域，组件 DOM 主类名仍是稳定的 `.amis-*`。
 
 ```js
 amis.embed(
@@ -105,7 +105,7 @@ amis.embed(
 );
 ```
 
-> 如果想使用 amis 1.2.2 之前的默认主题，名字是 ang
+> `cxd.css`、`antd.css`、`dark.css` 是主题包文件名，不代表新样式应该写成 `.cxd-*`、`.antd-*` 或 `.dark-*` 选择器。业务覆写请优先使用 `--amis-*` token、`.amis-*` 稳定组件类名和 `[data-amis-theme]` 作用域。
 
 ### 初始值
 
@@ -191,8 +191,9 @@ let amisScoped = amis.embed(
     // 用来实现确认框。
     // confirm: content => {},
     //
-    // 主题，默认是 default，还可以设置成 cxd 或 dark，但记得引用它们的 css，比如 sdk 目录下的 cxd.css
-    // theme: 'cxd'
+    // 主题，默认是 default。使用其它主题时需要同时引用对应主题 CSS。
+    // 组件 DOM 主类名保持 .amis-*，主题身份通过 data-amis-theme 表达。
+    // theme: 'antd'
     //
     // 用来实现用户行为跟踪，详细请查看左侧高级中的说明
     // tracker: (eventTracker) => {},
@@ -449,8 +450,8 @@ import 'amis/sdk/iconfont.css';
 // 或 import 'amis/lib/themes/antd.css';
 ```
 
-> 上面只是示例，请根据自己的项目结构调整引用路径
-> 如果要支持 IE 11 请引入 amis/sdk/cxd-ie11.css，但这样就没法支持 CSS 变量了
+> 上面只是示例，请根据自己的项目结构调整引用路径。
+> 如果要支持 IE11，只能引入对应的静态 CSS 降级文件，例如 `amis/sdk/cxd-ie11.css`；IE11 不支持基于 CSS 变量的动态 token 主题切换。
 
 2. 渲染器使用配置主题
 
@@ -466,7 +467,7 @@ renderAmis(
   },
   {
     // env...
-    theme: 'cxd' // cxd 或 antd
+    theme: 'cxd' // 选择已加载的主题包；DOM 主类名仍是 .amis-*
   }
 );
 ```

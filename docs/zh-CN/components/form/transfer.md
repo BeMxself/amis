@@ -899,7 +899,7 @@ icon:
         "pagination": {
           "enable": true,
           "layout": ["pager", "perpage", "total"],
-          "popOverContainerSelector": ".cxd-Panel--form"
+          "popOverContainerSelector": ".amis-Panel--form"
         },
         "value": [
           {"label": "Laura Lewis", "value": "1", "id": 1},
@@ -943,7 +943,7 @@ icon:
             "pagination": {
               "enable": true,
               "layout": ["pager", "perpage", "total"],
-              "popOverContainerSelector": ".cxd-Panel--form"
+              "popOverContainerSelector": ".amis-Panel--form"
             },
             "value": [
               {"label": "Laura Lewis", "value": "1", "id": 1},
