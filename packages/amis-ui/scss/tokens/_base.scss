@@ -1,0 +1,31 @@
+@layer amis.tokens {
+  :root,
+  .AMISCSSWrapper {
+    --amis-palette-brand-400: #{$amis-palette-brand-400};
+    --amis-palette-brand-500: #{$amis-palette-brand-500};
+    --amis-palette-brand-600: #{$amis-palette-brand-600};
+    --amis-palette-neutral-text-inverse: #{$amis-palette-neutral-text-inverse};
+
+    --amis-color-brand-bg: var(--amis-palette-brand-500);
+    --amis-color-brand-hover-bg: var(--amis-palette-brand-600);
+    --amis-color-brand-active-bg: var(--amis-palette-brand-400);
+    --amis-color-brand-border: var(--amis-palette-brand-500);
+    --amis-color-brand-hover-border: var(--amis-palette-brand-600);
+    --amis-color-brand-active-border: var(--amis-palette-brand-400);
+    --amis-color-text-inverse: var(--amis-palette-neutral-text-inverse);
+
+    --amis-Button-primary-bg: var(--amis-color-brand-bg);
+    --amis-Button-primary-hover-bg: var(--amis-color-brand-hover-bg);
+    --amis-Button-primary-active-bg: var(--amis-color-brand-active-bg);
+    --amis-Button-primary-border-color: var(--amis-color-brand-border);
+    --amis-Button-primary-hover-border-color: var(
+      --amis-color-brand-hover-border
+    );
+    --amis-Button-primary-active-border-color: var(
+      --amis-color-brand-active-border
+    );
+    --amis-Button-primary-color: var(--amis-color-text-inverse);
+    --amis-Button-primary-hover-color: var(--amis-color-text-inverse);
+    --amis-Button-primary-active-color: var(--amis-color-text-inverse);
+  }
+}

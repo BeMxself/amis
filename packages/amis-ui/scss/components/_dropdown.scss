@@ -1,4 +1,4 @@
-.#{$ns}DropDown {
+.amis-DropDown {
   position: relative;
   display: inline-block;
 
@@ -21,7 +21,7 @@
   }
 
   &.is-actived {
-    .#{$ns}Button {
+    .amis-Button {
       color: var(--link-color);
     }
   }
@@ -29,7 +29,7 @@
   &--block {
     display: block;
 
-    .#{$ns}Button {
+    .amis-Button {
       display: block;
     }
   }
@@ -95,7 +95,7 @@
       filter: grayscale(80%);
     }
 
-    &.#{$ns}DropDown-divider {
+    &.amis-DropDown-divider {
       height: px2rem(1px);
       margin: px2rem(4px) 0;
       overflow: hidden;
@@ -103,7 +103,7 @@
       padding: 0;
     }
 
-    &.#{$ns}DropDown-groupTitle {
+    &.amis-DropDown-groupTitle {
       //height: inherit;
       height: auto;
       line-height: 1;
@@ -123,7 +123,7 @@
         white-space: nowrap;
       }
 
-      & ~ .#{$ns}DropDown-button {
+      & ~ .amis-DropDown-button {
         padding-left: var(--gap-lg);
       }
     }
@@ -148,12 +148,12 @@
     box-shadow: none;
     // 如果是在PopOver position: absolute会使overlayNode没有高度 定位不正确
     // 改成static z-index不生效 无法点击操作
-    > .#{$ns}DropDown-menu-root {
+    > .amis-DropDown-menu-root {
       position: relative;
     }
   }
 
-  > .#{$ns}Button {
+  > .amis-Button {
     min-width: unset;
   }
 }

@@ -1,4 +1,4 @@
-.#{$ns}PopOver {
+.amis-PopOver {
   position: absolute;
   background: var(--PopOver-bg);
   top: 0;
@@ -40,7 +40,7 @@
   }
 
   &-isMobile {
-    .#{$ns}PopOver-overlay {
+    .amis-PopOver-overlay {
       background: rgba(0, 0, 0, 0.3);
     }
   }

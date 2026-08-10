@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-.#{$ns}Layout {
+.amis-Layout {
   min-height: 100%;
   width: 100%;
   position: relative;
@@ -31,7 +31,7 @@ body {
     // box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   }
 
-  .#{$ns}Layout-header {
+  .amis-Layout-header {
     background: var(--Layout-header-bg);
     box-shadow: var(--Layout-header-boxShadow);
     height: var(--Layout-header-height);
@@ -40,7 +40,7 @@ body {
   &--headerFixed {
     padding-top: var(--Layout-header-height);
 
-    .#{$ns}Layout-header {
+    .amis-Layout-header {
       position: fixed;
       top: 0;
       width: 100%;
@@ -174,38 +174,38 @@ body {
   }
 
   &--sm {
-    .#{$ns}Layout-asideFooter {
+    .amis-Layout-asideFooter {
       max-width: var(--Layout-aside--sm-width);
     }
 
-    .#{$ns}AsideNav-item a {
+    .amis-AsideNav-item a {
       font-size: var(--fontSizeSm);
     }
   }
 
-  &--md .#{$ns}Layout-asideFooter {
+  &--md .amis-Layout-asideFooter {
     max-width: var(--Layout-aside--md-width);
   }
 
-  &--lg .#{$ns}Layout-asideFooter {
+  &--lg .amis-Layout-asideFooter {
     max-width: var(--Layout-aside--lg-width);
   }
 }
 
 @include media-breakpoint-down(sm) {
-  // .#{$ns}Layout {
+  // .amis-Layout {
   // Layout 层没有出现滚动条件，导致移动端无法响应固定顶部/底部效果
   // overflow-x: hidden;
   // }
 
-  .#{$ns}Layout-content {
+  .amis-Layout-content {
     transition: transform var(--animation-duration) ease;
   }
 
-  .#{$ns}Layout-aside {
+  .amis-Layout-aside {
     display: none;
 
-    .#{$ns}Layout--offScreen & {
+    .amis-Layout--offScreen & {
       position: fixed;
       top: px2rem(50px);
       bottom: 0;
@@ -219,13 +219,13 @@ body {
     }
   }
 
-  .#{$ns}Layout-headerBar {
+  .amis-Layout-headerBar {
     display: none;
   }
 
-  .#{$ns}Layout--offScreen {
-    .#{$ns}Layout-body,
-    .#{$ns}Layout-footer {
+  .amis-Layout--offScreen {
+    .amis-Layout-body,
+    .amis-Layout-footer {
       background: var(--body-bg);
       transition: transform var(--animation-duration) ease;
       backface-visibility: hidden;
@@ -242,13 +242,13 @@ body {
     }
   }
 
-  .#{$ns}Layout-offScreenBtn {
+  .amis-Layout-offScreenBtn {
     display: block;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .#{$ns}Layout {
+  .amis-Layout {
     display: flex;
     flex-direction: column;
 
@@ -283,7 +283,7 @@ body {
       // height: 0;
     }
 
-    > .#{$ns}Layout-body {
+    > .amis-Layout-body {
       flex-grow: 1;
       position: relative;
       // height: 0;
@@ -292,7 +292,7 @@ body {
     &--boxed {
       width: px2rem(760px);
 
-      &.#{$ns}Layout--headerFixed .#{$ns}Layout-header {
+      &.amis-Layout--headerFixed .amis-Layout-header {
         width: px2rem(760px);
       }
     }
@@ -314,14 +314,14 @@ body {
       // flex-wrap: wrap;
       // justify-content: stretch;
 
-      // > .#{$ns}Layout-content {
+      // > .amis-Layout-content {
       //   flex-grow: 1;
       //   width: 0;
       //   position: relative;
       // }
 
-      .#{$ns}Layout-headerBar,
-      .#{$ns}Layout-footer {
+      .amis-Layout-headerBar,
+      .amis-Layout-footer {
         margin-left: var(--Layout-aside-width);
         transition: margin var(--animation-duration) ease;
       }
@@ -352,19 +352,19 @@ body {
         width: auto;
       }
 
-      .#{$ns}Layout-aside,
-      .#{$ns}Layout-brandBar {
+      .amis-Layout-aside,
+      .amis-Layout-brandBar {
         width: var(--Layout-aside--folded-width);
       }
 
-      &.#{$ns}Layout--withAside {
-        .#{$ns}Layout-headerBar,
-        .#{$ns}Layout-footer {
+      &.amis-Layout--withAside {
+        .amis-Layout-headerBar,
+        .amis-Layout-footer {
           margin-left: var(--Layout-aside--folded-width);
         }
       }
 
-      .#{$ns}Layout-brand {
+      .amis-Layout-brand {
         display: block;
         padding: 0;
         font-size: var(--fontSizeLg);
@@ -373,7 +373,7 @@ body {
     }
 
     &--asideFixed {
-      .#{$ns}Layout-aside {
+      .amis-Layout-aside {
         height: 100%;
 
         &:before {
@@ -382,11 +382,11 @@ body {
         }
       }
 
-      .#{$ns}Layout-brandBar {
+      .amis-Layout-brandBar {
         position: fixed;
       }
 
-      .#{$ns}Layout-asideWrap {
+      .amis-Layout-asideWrap {
         position: fixed;
         overflow: hidden;
         top: var(--Layout-header-height);
@@ -396,7 +396,7 @@ body {
         z-index: $zindex-fixed;
       }
 
-      .#{$ns}Layout-asideInner {
+      .amis-Layout-asideInner {
         position: relative;
         width: 100%;
         height: 100%;
@@ -419,48 +419,48 @@ body {
       top: 0;
     }
 
-    &--asideFixed.#{$ns}Layout--folded {
-      .#{$ns}Layout-aside {
+    &--asideFixed.amis-Layout--folded {
+      .amis-Layout-aside {
         position: static;
       }
 
-      .#{$ns}Layout-brandBar {
+      .amis-Layout-brandBar {
         position: static;
         padding-right: 17px;
       }
 
-      .#{$ns}Layout-asideWrap {
+      .amis-Layout-asideWrap {
         overflow: visible;
         // position: relative;
         // top: 0;
       }
 
-      .#{$ns}Layout-asideInner {
+      .amis-Layout-asideInner {
         overflow: visible;
         padding-right: 17px;
       }
     }
 
-    &--sm:not(.#{$ns}Layout--folded) {
-      .#{$ns}Layout-brand,
-      .#{$ns}Layout-brandBar,
-      .#{$ns}Layout-aside {
+    &--sm:not(.amis-Layout--folded) {
+      .amis-Layout-brand,
+      .amis-Layout-brandBar,
+      .amis-Layout-aside {
         width: var(--Layout-aside--sm-width);
       }
     }
 
-    &--md:not(.#{$ns}Layout--folded) {
-      .#{$ns}Layout-brand,
-      .#{$ns}Layout-brandBar,
-      .#{$ns}Layout-aside {
+    &--md:not(.amis-Layout--folded) {
+      .amis-Layout-brand,
+      .amis-Layout-brandBar,
+      .amis-Layout-aside {
         width: var(--Layout-aside--md-width);
       }
     }
 
-    &--lg:not(.#{$ns}Layout--folded) {
-      .#{$ns}Layout-brand,
-      .#{$ns}Layout-brandBar,
-      .#{$ns}Layout-aside {
+    &--lg:not(.amis-Layout--folded) {
+      .amis-Layout-brand,
+      .amis-Layout-brandBar,
+      .amis-Layout-aside {
         width: var(--Layout-aside--lg-width);
       }
     }
@@ -468,11 +468,11 @@ body {
 }
 
 @include media-breakpoint-up(lg) {
-  .#{$ns}Layout {
+  .amis-Layout {
     &--boxed {
       width: px2rem(980px);
 
-      &.#{$ns}Layout--headerFixed .#{$ns}Layout-header {
+      &.amis-Layout--headerFixed .amis-Layout-header {
         width: px2rem(980px);
       }
     }
@@ -480,11 +480,11 @@ body {
 }
 
 @include media-breakpoint-up(xl) {
-  .#{$ns}Layout {
+  .amis-Layout {
     &--boxed {
       width: px2rem(1180px);
 
-      &.#{$ns}Layout--headerFixed .#{$ns}Layout-header {
+      &.amis-Layout--headerFixed .amis-Layout-header {
         width: px2rem(1180px);
       }
     }

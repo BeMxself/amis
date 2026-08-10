@@ -1,0 +1,7 @@
+@include amis-component('GuardFixture') {
+  color: var(--amis-color-text);
+}
+
+@include amis-themed-component('cxd', 'GuardFixture') {
+  color: var(--amis-color-brand);
+}

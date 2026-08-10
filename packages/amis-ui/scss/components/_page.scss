@@ -1,4 +1,4 @@
-.#{$ns}Page {
+.amis-Page {
   width: 100%;
   background: var(--Page-main-bg);
   display: flex;
@@ -36,13 +36,13 @@
     flex-direction: row;
     align-items: center;
 
-    .#{$ns}Page-header,
-    .#{$ns}Page-toolbar {
+    .amis-Page-header,
+    .amis-Page-toolbar {
       flex-grow: 1;
       min-height: 100%;
     }
 
-    .#{$ns}Page-toolbar {
+    .amis-Page-toolbar {
       text-align: right;
       padding-right: var(--gap-base);
       display: flex;
@@ -101,26 +101,26 @@
   }
 }
 
-.#{$ns}Page-toolbar {
+.amis-Page-toolbar {
   > * + * {
     margin-left: var(--gap-xs);
   }
 }
 
-.#{$ns}Page-aside {
+.amis-Page-aside {
   // background: var(--Page-aside-bg);
 }
 
 @include media-breakpoint-down(sm) {
-  .#{$ns}Page {
+  .amis-Page {
     flex-direction: column;
   }
 
-  .#{$ns}Page-aside {
+  .amis-Page-aside {
     flex-shrink: 0;
   }
 
-  .#{$ns}Page-content {
+  .amis-Page-content {
     flex-grow: 1;
     min-height: 0;
     display: flex;
@@ -128,14 +128,14 @@
     flex-direction: row;
   }
 
-  .#{$ns}Page-main {
+  .amis-Page-main {
     height: auto;
     width: 100%;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .#{$ns}Page-aside {
+  .amis-Page-aside {
     &::before {
       content: '';
       position: absolute;
@@ -157,35 +157,35 @@
     }
   }
 
-  .#{$ns}Page--withSidebar {
+  .amis-Page--withSidebar {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 
-    > .#{$ns}Page-content,
-    > .#{$ns}PullRefresh {
+    > .amis-Page-content,
+    > .amis-PullRefresh {
       width: 0;
       flex-grow: 1;
     }
   }
 
   // 右侧侧边栏时，调整侧边栏相关的样式
-  .#{$ns}Page--rightAside {
+  .amis-Page--rightAside {
     flex-direction: row-reverse;
 
-    > .#{$ns}Page-aside {
+    > .amis-Page-aside {
       border-left: var(--borderWidth) solid var(--borderColor);
       border-right: unset;
 
-      > .#{$ns}Page-asideResizor {
+      > .amis-Page-asideResizor {
         left: px2rem(-6px);
         right: unset;
       }
     }
   }
 
-  .#{$ns}Page--asideSticky {
-    > .#{$ns}Page-aside {
+  .amis-Page--asideSticky {
+    > .amis-Page-aside {
       position: sticky;
       top: var(--affix-offset-top);
       max-height: calc(

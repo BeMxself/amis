@@ -1,9 +1,9 @@
-.#{$ns}Select {
+.amis-Select {
   display: inline-flex;
 
   /* select 标签样式 */
   @mixin select-value {
-    .#{$ns}Select-value {
+    .amis-Select-value {
       position: static;
       white-space: normal;
       flex-shrink: 0;
@@ -37,7 +37,7 @@
       }
     }
 
-    .#{$ns}Select-valueLabel {
+    .amis-Select-valueLabel {
       display: inline-block;
       max-width: var(--Form-valueLabel-maxWidth);
       overflow: hidden;
@@ -90,7 +90,7 @@
       var(--select-base-hover-bottom-border-color)
       var(--select-base-hover-left-border-color);
 
-    .#{$ns}Select-arrow:before {
+    .amis-Select-arrow:before {
       color: var(--Form-select-caret-onHover-iconColor);
     }
   }
@@ -151,23 +151,23 @@
     box-shadow: var(--Form-select-onFocus-boxShadow);
   }
 
-  .#{$ns}PopOver.#{$ns}Select-popover {
-    &.#{$ns}PopOver--v-top {
+  .amis-PopOver.amis-Select-popover {
+    &.amis-PopOver--v-top {
       margin-top: px2rem(4px);
     }
-    &.#{$ns}PopOver--v-bottom {
+    &.amis-PopOver--v-bottom {
       margin-bottom: px2rem(4px);
     }
-    .#{$ns}Select-menu {
-      .#{$ns}Checkbox span {
+    .amis-Select-menu {
+      .amis-Checkbox span {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
-      .#{$ns}Select-option {
+      .amis-Select-option {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
-      .#{$ns}Select-addBtn {
+      .amis-Select-addBtn {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
@@ -226,14 +226,14 @@
       var(--select-base-default-paddingBottom)
       var(--select-base-default-paddingLeft);
 
-    .#{$ns}Select-valueWrap {
+    .amis-Select-valueWrap {
       > input {
         display: inline-block;
         width: px2rem(100px);
         margin-bottom: var(--gap-xs);
       }
     }
-    .#{$ns}Select-values + .#{$ns}Select-input {
+    .amis-Select-values + .amis-Select-input {
       transform: translateY(0);
     }
 
@@ -290,11 +290,11 @@
     padding: 0;
     font-size: var(--select-base-default-fontSize);
 
-    .#{$ns}Select-valueWrap {
+    .amis-Select-valueWrap {
       text-align: left;
       padding-right: 4px;
     }
-    .#{$ns}Select-arrow {
+    .amis-Select-arrow {
       > svg {
         transform: rotate(-90deg);
       }
@@ -307,13 +307,13 @@
     padding-bottom: px2rem(4px);
     overflow: auto;
     user-select: none;
-    .#{$ns}Checkbox--sm > i {
+    .amis-Checkbox--sm > i {
       margin-right: px2rem(4px);
     }
     &.is-mobile {
       width: 100%;
       text-align: center;
-      .#{$ns}Select-option {
+      .amis-Select-option {
         line-height: px2rem(36px);
       }
     }
@@ -370,7 +370,7 @@
     background: var(--select-base-default-option-bg-color);
     line-height: var(--select-base-default-option-line-height);
 
-    .#{$ns}Checkbox {
+    .amis-Checkbox {
       width: 100%;
       display: flex;
       align-items: center;
@@ -391,7 +391,7 @@
         font-weight: var(--select-base-default-option-fontWeight);
         color: var(--select-base-default-option-color);
       }
-      .#{$ns}TplField {
+      .amis-TplField {
         > span > p {
           margin: 0;
           text-overflow: ellipsis;
@@ -405,7 +405,7 @@
       color: var(--Form-select-menu-onActive-color);
       background: var(--Form-select-menu-onActive-bg);
 
-      .#{$ns}Select-option-checkbox > label > span {
+      .amis-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onActive-color);
       }
     }
@@ -414,7 +414,7 @@
       color: var(--Form-select-menu-onHover-color);
       background: var(--Form-select-menu-onHover-bg);
 
-      .#{$ns}Select-option-checkbox > label > span {
+      .amis-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onHover-color);
       }
     }
@@ -423,7 +423,7 @@
       color: var(--Form-select-menu-onDisabled-color);
       background: var(--Form-select-menu-onDisabled-bg);
 
-      .#{$ns}Select-option-checkbox > label > span {
+      .amis-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onDisabled-color);
       }
     }
@@ -442,8 +442,8 @@
       display: block;
     }
 
-    .#{$ns}Select-option-content,
-    .#{$ns}Select-option-content > span > div {
+    .amis-Select-option-content,
+    .amis-Select-option-content > span > div {
       flex: auto;
       overflow: hidden;
       white-space: nowrap;
@@ -466,7 +466,7 @@
         );
       }
 
-      .#{$ns}Select-option-item-check {
+      .amis-Select-option-item-check {
         min-width: 0;
         min-height: 0;
         flex: 1;
@@ -474,7 +474,7 @@
         border-bottom: px2rem(1px) solid var(--borderColor);
       }
 
-      .#{$ns}Select-option-mcheck {
+      .amis-Select-option-mcheck {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -485,7 +485,7 @@
       }
 
       &:last-child {
-        .#{$ns}Select-option-item-check {
+        .amis-Select-option-item-check {
           border-bottom: none;
         }
       }
@@ -588,9 +588,9 @@
       @include select-value();
     }
 
-    &.#{$ns}Tooltip--dark {
-      .#{$ns}Select-overflow-wrapper {
-        .#{$ns}Select-value {
+    &.amis-Tooltip--dark {
+      .amis-Select-overflow-wrapper {
+        .amis-Select-value {
           background-color: var(--Form-select-value-bgColor--dark);
           border: none;
 
@@ -598,7 +598,7 @@
             background-color: var(--ResultBox-value--onHover-bg--dark);
           }
 
-          .#{$ns}Select-valueIcon {
+          .amis-Select-valueIcon {
             color: var(--Form-select-valueIcon-color--dark);
           }
         }
@@ -607,13 +607,13 @@
   }
 }
 
-.#{$ns}Select-overflow-wrapper {
-  .#{$ns}Select-value {
+.amis-Select-overflow-wrapper {
+  .amis-Select-value {
     margin-bottom: var(--gap-xs);
   }
 }
 
-.#{$ns}Select-popover {
+.amis-Select-popover {
   background: var(--Form-select-menu-bg);
   color: var(--Form-select-menu-color);
   border: var(--Form-select-outer-borderWidth) solid
@@ -624,36 +624,36 @@
   // PopOver 上已经配置了，这个要是配置就会覆盖，所以先干掉好了
   // z-index: 10;
 }
-.#{$ns}InputGroup:hover {
-  .#{$ns}Select-popover {
+.amis-InputGroup:hover {
+  .amis-Select-popover {
     border-color: var(--Form-select-outer-borderColor) !important;
   }
 }
 
-.#{$ns}SelectControl {
-  &:not(.is-inline) > .#{$ns}Select {
+.amis-SelectControl {
+  &:not(.is-inline) > .amis-Select {
     display: flex;
   }
 
-  &.is-error > .#{$ns}Select {
+  &.is-error > .amis-Select {
     border-color: var(--Form-input-onError-borderColor);
     background: var(--Form-input-onError-bg);
   }
 
-  .#{$ns}TransferDropDown-popover {
-    .#{$ns}Tree-list {
-      .#{$ns}Tree-item {
-        .#{$ns}Tree-itemLabel,
-        .#{$ns}Tree-item--isLeaf {
+  .amis-TransferDropDown-popover {
+    .amis-Tree-list {
+      .amis-Tree-item {
+        .amis-Tree-itemLabel,
+        .amis-Tree-item--isLeaf {
           &:hover {
             background-color: transparent;
-            .#{$ns}Tree-itemText {
+            .amis-Tree-itemText {
               background: var(--select-tree-hover-bg-color);
             }
           }
           &:active {
             background-color: transparent;
-            .#{$ns}Tree-itemText {
+            .amis-Tree-itemText {
               background: var(--select-tree-active-bg-color);
             }
           }
@@ -666,45 +666,45 @@
   }
 }
 
-.#{$ns}Select.is-error {
+.amis-Select.is-error {
   border-color: var(--Form-input-onError-borderColor);
   background: var(--Form-input-onError-bg);
 }
 
 // 需要能撑开
 @include media-breakpoint-up(sm) {
-  .#{$ns}Form-control--sizeXs > .#{$ns}Select,
-  .#{$ns}Form-control--sizeSm > .#{$ns}Select,
-  .#{$ns}Form-control--sizeMd > .#{$ns}Select,
-  .#{$ns}Form-control--sizeLg > .#{$ns}Select {
+  .amis-Form-control--sizeXs > .amis-Select,
+  .amis-Form-control--sizeSm > .amis-Select,
+  .amis-Form-control--sizeMd > .amis-Select,
+  .amis-Form-control--sizeLg > .amis-Select {
     min-width: 100%;
     max-width: 100%;
     display: inline-flex !important;
 
-    .#{$ns}Select-valueWrap {
+    .amis-Select-valueWrap {
       width: 0; // ! 没有这个会撑开。
     }
   }
 }
 
 // 下拉框在弹框中的的时候没有select层，所以把这部分单独提出来
-.#{$ns}PopOver.#{$ns}Select-popover {
-  &.#{$ns}PopOver--v-top {
+.amis-PopOver.amis-Select-popover {
+  &.amis-PopOver--v-top {
     margin-top: px2rem(4px);
   }
-  &.#{$ns}PopOver--v-bottom {
+  &.amis-PopOver--v-bottom {
     margin-bottom: px2rem(4px);
   }
-  .#{$ns}Select-menu {
-    .#{$ns}Checkbox span {
+  .amis-Select-menu {
+    .amis-Checkbox span {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }
-    .#{$ns}Select-option {
+    .amis-Select-option {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }
-    .#{$ns}Select-addBtn {
+    .amis-Select-addBtn {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }

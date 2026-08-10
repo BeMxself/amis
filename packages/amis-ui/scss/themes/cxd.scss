@@ -1,5 +1,12 @@
 // 百度云舍主题：http://console.yunshe.design/docs/index
+$amis-theme-name: 'cxd';
+$amis-palette-brand-400: #144bcc;
+$amis-palette-brand-500: #2468f2;
+$amis-palette-brand-600: #528eff;
+$amis-palette-neutral-text-inverse: #fff;
 @import '../properties';
 @import '../components';
 @import './cxd-variables';
+$ns: 'amis-';
 @import './common';
+@import '../tokens/legacy-palette-aliases';

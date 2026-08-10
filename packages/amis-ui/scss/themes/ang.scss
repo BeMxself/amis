@@ -1,8 +1,15 @@
 // Ang 主题
+$amis-theme-name: 'ang';
+$amis-palette-brand-400: #584a94;
+$amis-palette-brand-500: #7266ba;
+$amis-palette-brand-600: #897fc7;
+$amis-palette-neutral-text-inverse: #fff;
 @import '../properties';
 @import '../components';
 @import './ang-variables';
+$ns: 'amis-';
 @import './common';
+@import '../tokens/legacy-palette-aliases';
 
 :root {
   --Layout-header-boxShadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.05),

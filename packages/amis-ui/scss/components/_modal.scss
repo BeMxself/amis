@@ -1,7 +1,7 @@
 .is-modalOpened {
   overflow: hidden;
 
-  .#{$ns}Modal {
+  .amis-Modal {
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-.#{$ns}Modal {
+.amis-Modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -182,7 +182,7 @@
     border-bottom-left-radius: var(--Modal-content-borderRadius);
     border-bottom-right-radius: var(--Modal-content-borderRadius);
 
-    .#{$ns}Button {
+    .amis-Button {
       min-width: var(--Modal-footer-button-width);
       margin-left: var(--dialog-footer-margin-left);
     }
@@ -190,8 +190,8 @@
 }
 
 @for $i from (2) through 10 {
-  .#{$ns}Modal--#{$i}th {
-    .#{$ns}Modal-content {
+  .amis-Modal--#{$i}th {
+    .amis-Modal-content {
       margin-top: calc(
         var(--Modal-content-startMarginTop) +
           #{($i - 1)} *
@@ -202,58 +202,58 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .#{$ns}Modal-content:not(.#{$ns}Modal-content-custom) {
+  .amis-Modal-content:not(.amis-Modal-content-custom) {
     max-width: var(--dialog-size-normal-width);
   }
 
-  .#{$ns}Modal--sm .#{$ns}Modal-content {
+  .amis-Modal--sm .amis-Modal-content {
     max-width: var(--dialog-size-sm-width);
   }
 
-  .#{$ns}Modal--base .#{$ns}Modal-content {
+  .amis-Modal--base .amis-Modal-content {
     max-width: var(--Modal-widthBase);
   }
 
-  .#{$ns}Modal--md .#{$ns}Modal-content {
+  .amis-Modal--md .amis-Modal-content {
     max-width: var(--Modal-widthMd);
   }
 
-  .#{$ns}Modal--lg .#{$ns}Modal-content {
+  .amis-Modal--lg .amis-Modal-content {
     max-width: var(--dialog-size-lg-width);
   }
 
-  .#{$ns}Modal--xl .#{$ns}Modal-content {
+  .amis-Modal--xl .amis-Modal-content {
     max-width: var(--dialog-size-xl-width);
   }
 }
 
-.#{$ns}Dialog-info {
+.amis-Dialog-info {
   flex-basis: 0;
   flex-grow: 1;
   text-align: left;
 }
 
-.#{$ns}Dialog-error {
+.amis-Dialog-error {
   color: var(--danger);
   white-space: pre-wrap;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
-.#{$ns}Modal--full {
+.amis-Modal--full {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  > .#{$ns}Modal-content {
+  > .amis-Modal-content {
     flex-basis: 0;
     flex-grow: 1;
     margin: 30px;
     width: calc(100% - 60px);
     max-width: unset;
 
-    > .#{$ns}Modal-body {
+    > .amis-Modal-body {
       height: 0;
       overflow: auto;
     }
@@ -262,11 +262,11 @@
 
 /* 移动端样式调整 */
 @include media-breakpoint-down(sm) {
-  .#{$ns}Modal {
-    .#{$ns}Modal-footer {
+  .amis-Modal {
+    .amis-Modal-footer {
       display: flex;
 
-      > .#{$ns}Button {
+      > .amis-Button {
         min-width: 0;
         min-height: 0;
         flex: 1;

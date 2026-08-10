@@ -1,0 +1,19 @@
+$amis-component-prefix: 'amis-' !default;
+
+@mixin amis-component($name) {
+  .#{$amis-component-prefix}#{$name} {
+    @content;
+  }
+}
+
+@mixin amis-theme($theme) {
+  [data-amis-theme='#{$theme}'] {
+    @content;
+  }
+}
+
+@mixin amis-themed-component($theme, $name) {
+  [data-amis-theme='#{$theme}'] .#{$amis-component-prefix}#{$name} {
+    @content;
+  }
+}

@@ -1,5 +1,12 @@
 // 参考 antd 主题
+$amis-theme-name: 'antd';
+$amis-palette-brand-400: #096dd9;
+$amis-palette-brand-500: #1677ff;
+$amis-palette-brand-600: #45a8ff;
+$amis-palette-neutral-text-inverse: #fff;
 @import '../properties';
 @import '../components';
 @import './antd-variables';
+$ns: 'amis-';
 @import './common';
+@import '../tokens/legacy-palette-aliases';

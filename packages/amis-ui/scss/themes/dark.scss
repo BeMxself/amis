@@ -1,7 +1,14 @@
+$amis-theme-name: 'dark';
+$amis-palette-brand-400: #2486ff;
+$amis-palette-brand-500: #1677ff;
+$amis-palette-brand-600: #0061f2;
+$amis-palette-neutral-text-inverse: #f7f8fa;
 @import '../properties';
 @import '../components';
 @import './dark-variables';
+$ns: 'amis-';
 @import './common';
+@import '../tokens/legacy-palette-aliases';
 
 :root,
 .AMISCSSWrapper {
@@ -10,9 +17,6 @@
   --switch-text-off-color: var(--colors-neutral-text-2);
   --switch-default-on-slider-color: var(--colors-neutral-fill-2);
   --switch-default-off-slider-color: var(--colors-neutral-fill-2);
-  --button-primary-default-font-color: var(--colors-neutral-text-2);
-  --button-primary-hover-font-color: var(--colors-neutral-text-2);
-  --button-primary-active-font-color: var(--colors-neutral-text-2);
   --button-info-default-font-color: var(--colors-neutral-text-2);
   --button-info-hover-font-color: var(--colors-neutral-text-2);
   --button-info-active-font-color: var(--colors-neutral-text-2);

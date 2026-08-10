@@ -1,4 +1,4 @@
-.#{$ns}Drawer {
+.amis-Drawer {
   position: fixed;
   top: 0;
   right: 0;
@@ -116,28 +116,28 @@
     border-bottom-left-radius: var(--Drawer-content-borderRadius);
     border-bottom-right-radius: var(--Drawer-content-borderRadius);
 
-    .#{$ns}Button {
+    .amis-Button {
       margin-left: var(--gap-xs);
     }
 
-    .#{$ns}Drawer-info {
+    .amis-Drawer-info {
       flex-basis: 0;
       flex-grow: 1;
       text-align: left;
       align-self: center;
     }
 
-    .#{$ns}Drawer-error {
+    .amis-Drawer-error {
       color: var(--danger);
       white-space: pre-wrap;
     }
   }
 
-  &.#{$ns}Drawer--noOverlay {
+  &.amis-Drawer--noOverlay {
     pointer-events: none;
   }
 
-  .#{$ns}Drawer-resizeCtrl {
+  .amis-Drawer-resizeCtrl {
     position: absolute;
     border: var(--borderWidth) solid var(--borderColor);
     background: var(--white);
@@ -151,32 +151,32 @@
 
 // size
 @include media-breakpoint-up(sm) {
-  .#{$ns}Drawer .#{$ns}Drawer-content {
+  .amis-Drawer .amis-Drawer-content {
     width: var(--Drawer-widthBase);
     height: var(--Drawer-widthBase);
   }
 
-  .#{$ns}Drawer--xs .#{$ns}Drawer-content {
+  .amis-Drawer--xs .amis-Drawer-content {
     width: var(--drawer-size-xs-width);
     height: var(--Drawer-widthXs);
   }
 
-  .#{$ns}Drawer--sm .#{$ns}Drawer-content {
+  .amis-Drawer--sm .amis-Drawer-content {
     width: var(--drawer-size-sm-width);
     height: var(--Drawer-widthSm);
   }
 
-  .#{$ns}Drawer--md .#{$ns}Drawer-content {
+  .amis-Drawer--md .amis-Drawer-content {
     width: var(--drawer-size-md-width);
     height: var(--Drawer-widthMd);
   }
 
-  .#{$ns}Drawer--lg .#{$ns}Drawer-content {
+  .amis-Drawer--lg .amis-Drawer-content {
     width: var(--drawer-size-lg-width);
     height: var(--Drawer-widthLg);
   }
 
-  .#{$ns}Drawer--xl .#{$ns}Drawer-content {
+  .amis-Drawer--xl .amis-Drawer-content {
     width: var(--drawer-size-xl-width);
     height: var(--Drawer-widthXl);
   }
@@ -184,56 +184,56 @@
   // 从第二层弹框开始左右弹框的每层宽度或高度递减
   @for $i from 2 through 6 {
     $space-diff: 20;
-    .#{$ns}Drawer--right.#{$ns}Modal--#{$i}th,
-    .#{$ns}Drawer--left.#{$ns}Modal--#{$i}th {
-      &.#{$ns}Drawer .#{$ns}Drawer-content {
+    .amis-Drawer--right.amis-Modal--#{$i}th,
+    .amis-Drawer--left.amis-Modal--#{$i}th {
+      &.amis-Drawer .amis-Drawer-content {
         width: calc(var(--Drawer-widthBase) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--xs .#{$ns}Drawer-content {
+      &.amis-Drawer--xs .amis-Drawer-content {
         width: calc(var(--Drawer-widthXs) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--sm .#{$ns}Drawer-content {
+      &.amis-Drawer--sm .amis-Drawer-content {
         width: calc(var(--Drawer-widthSm) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--md .#{$ns}Drawer-content {
+      &.amis-Drawer--md .amis-Drawer-content {
         width: calc(var(--Drawer-widthMd) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--lg .#{$ns}Drawer-content {
+      &.amis-Drawer--lg .amis-Drawer-content {
         width: calc(var(--Drawer-widthLg) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--xl .#{$ns}Drawer-content {
+      &.amis-Drawer--xl .amis-Drawer-content {
         width: calc(var(--Drawer-widthXl) - #{($i - 1) * $space-diff}px);
       }
     }
 
-    .#{$ns}Drawer--top.#{$ns}Modal--#{$i}th,
-    .#{$ns}Drawer--bottom.#{$ns}Modal--#{$i}th {
-      &.#{$ns}Drawer .#{$ns}Drawer-content {
+    .amis-Drawer--top.amis-Modal--#{$i}th,
+    .amis-Drawer--bottom.amis-Modal--#{$i}th {
+      &.amis-Drawer .amis-Drawer-content {
         height: calc(var(--Drawer-widthBase) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--xs .#{$ns}Drawer-content {
+      &.amis-Drawer--xs .amis-Drawer-content {
         height: calc(var(--Drawer-widthXs) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--sm .#{$ns}Drawer-content {
+      &.amis-Drawer--sm .amis-Drawer-content {
         height: calc(var(--Drawer-widthSm) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--md .#{$ns}Drawer-content {
+      &.amis-Drawer--md .amis-Drawer-content {
         height: calc(var(--Drawer-widthMd) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--lg .#{$ns}Drawer-content {
+      &.amis-Drawer--lg .amis-Drawer-content {
         height: calc(var(--Drawer-widthLg) - #{($i - 1) * $space-diff}px);
       }
 
-      &.#{$ns}Drawer--xl .#{$ns}Drawer-content {
+      &.amis-Drawer--xl .amis-Drawer-content {
         height: calc(var(--Drawer-widthXl) - #{($i - 1) * $space-diff}px);
       }
     }
@@ -241,15 +241,15 @@
 }
 
 // positons
-.#{$ns}Drawer--top .#{$ns}Drawer-content.in,
-.#{$ns}Drawer--right .#{$ns}Drawer-content.in,
-.#{$ns}Drawer--bottom .#{$ns}Drawer-content.in,
-.#{$ns}Drawer--left .#{$ns}Drawer-content.in {
+.amis-Drawer--top .amis-Drawer-content.in,
+.amis-Drawer--right .amis-Drawer-content.in,
+.amis-Drawer--bottom .amis-Drawer-content.in,
+.amis-Drawer--left .amis-Drawer-content.in {
   transform: translate3d(0, 0, 0);
 }
 
-.#{$ns}Drawer--top {
-  .#{$ns}Drawer-close {
+.amis-Drawer--top {
+  .amis-Drawer-close {
     top: var(--gap-base);
     right: var(--gap-base);
     left: auto;
@@ -257,7 +257,7 @@
     z-index: 10;
   }
 
-  .#{$ns}Drawer-content {
+  .amis-Drawer-content {
     top: 0;
     bottom: auto;
     left: 0;
@@ -269,7 +269,7 @@
     border-bottom: var(--common-popover-border);
   }
 
-  .#{$ns}Drawer-resizeCtrl {
+  .amis-Drawer-resizeCtrl {
     bottom: px2rem(-6px);
     left: 50%;
     cursor: ns-resize;
@@ -278,15 +278,15 @@
   }
 }
 
-.#{$ns}Drawer--right {
-  .#{$ns}Drawer-close {
+.amis-Drawer--right {
+  .amis-Drawer-close {
     top: var(--gap-md);
     right: var(--gap-md);
     margin-right: 0;
     z-index: 10;
   }
 
-  .#{$ns}Drawer-content {
+  .amis-Drawer-content {
     top: 0;
     bottom: 0;
     left: auto;
@@ -298,26 +298,26 @@
     border-left: var(--common-popover-border);
   }
 
-  .#{$ns}Drawer-footer {
+  .amis-Drawer-footer {
     justify-content: flex-end;
 
-    .#{$ns}Button {
+    .amis-Button {
       margin-left: var(--drawer-footer-margin-left);
       margin-right: var(--gap-xs);
     }
 
-    .#{$ns}Drawer-info {
+    .amis-Drawer-info {
       flex-basis: 0;
       flex-grow: 1;
       align-self: center;
     }
 
-    .#{$ns}Drawer-error {
+    .amis-Drawer-error {
       color: var(--danger);
     }
   }
 
-  .#{$ns}Drawer-resizeCtrl {
+  .amis-Drawer-resizeCtrl {
     left: px2rem(-6px);
     top: 50%;
     cursor: ew-resize;
@@ -327,8 +327,8 @@
   }
 }
 
-.#{$ns}Drawer--bottom {
-  .#{$ns}Drawer-close {
+.amis-Drawer--bottom {
+  .amis-Drawer-close {
     top: var(--gap-base);
     right: var(--gap-base);
     left: auto;
@@ -336,7 +336,7 @@
     z-index: 10;
   }
 
-  .#{$ns}Drawer-content {
+  .amis-Drawer-content {
     top: auto;
     bottom: 0;
     left: 0;
@@ -348,7 +348,7 @@
     border-top: var(--common-popover-border);
   }
 
-  .#{$ns}Drawer-resizeCtrl {
+  .amis-Drawer-resizeCtrl {
     top: px2rem(-6px);
     left: 50%;
     cursor: ns-resize;
@@ -357,15 +357,15 @@
   }
 }
 
-.#{$ns}Drawer--left {
-  .#{$ns}Drawer-close {
+.amis-Drawer--left {
+  .amis-Drawer-close {
     left: auto;
     right: var(--gap-base);
     top: var(--gap-base);
     z-index: 10;
   }
 
-  .#{$ns}Drawer-content {
+  .amis-Drawer-content {
     top: 0;
     bottom: 0;
     right: auto;
@@ -378,7 +378,7 @@
     border-right: var(--common-popover-border);
   }
 
-  .#{$ns}Drawer-resizeCtrl {
+  .amis-Drawer-resizeCtrl {
     right: px2rem(-6px);
     top: 50%;
     cursor: ew-resize;
@@ -387,7 +387,7 @@
     height: px2rem(24px);
   }
 
-  .#{$ns}Button {
+  .amis-Button {
     margin-left: var(--Drawer-footer-margin);
   }
 }

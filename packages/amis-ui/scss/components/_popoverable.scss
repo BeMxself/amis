@@ -1,4 +1,4 @@
-.#{$ns}Field-popOverBtn {
+.amis-Field-popOverBtn {
   color: var(--PopOverAble-iconColor);
   margin-left: var(--gap-xs);
   display: inline-block;
@@ -12,16 +12,16 @@
   }
 }
 
-.#{$ns}TableCell-ellipsis {
+.amis-TableCell-ellipsis {
   display: flex;
   align-items: center;
 }
 
-.#{$ns}Field--popOverAble {
+.amis-Field--popOverAble {
   outline: none;
   position: relative;
 
-  .#{$ns}Field-popOverWrap {
+  .amis-Field-popOverWrap {
     display: -webkit-inline-box;
     vertical-align: middle;
 
@@ -42,30 +42,30 @@
   }
 }
 
-.#{$ns}Field--copyable {
+.amis-Field--copyable {
   white-space: nowrap;
 
-  .#{$ns}Form-item {
+  .amis-Form-item {
     display: inline-block;
     margin-bottom: unset;
     vertical-align: middle;
   }
-  .#{$ns}Field-copyBtn {
+  .amis-Field-copyBtn {
     vertical-align: middle;
   }
 }
 
-.#{$ns}PopOverAble-popover {
+.amis-PopOverAble-popover {
   min-width: px2rem(320px);
   max-width: px2rem(640px);
 
-  .#{$ns}Panel {
+  .amis-Panel {
     margin-bottom: 0;
     border: none;
   }
 }
 
-.#{$ns}PopOverAble--fixed {
+.amis-PopOverAble--fixed {
   position: fixed;
 
   > * {
@@ -73,28 +73,28 @@
   }
 }
 
-.#{$ns}PopOverAble--fixed-center {
+.amis-PopOverAble--fixed-center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.#{$ns}PopOverAble--fixed-left-top {
+.amis-PopOverAble--fixed-left-top {
   top: 0;
   left: 0;
 }
 
-.#{$ns}PopOverAble--fixed-right-top {
+.amis-PopOverAble--fixed-right-top {
   top: 0;
   right: 0;
 }
 
-.#{$ns}PopOverAble--fixed-left-bottom {
+.amis-PopOverAble--fixed-left-bottom {
   bottom: 0;
   left: 0;
 }
 
-.#{$ns}PopOverAble--fixed-right-bottom {
+.amis-PopOverAble--fixed-right-bottom {
   bottom: 0;
   right: 0;
 }
