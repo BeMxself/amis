@@ -77,21 +77,22 @@
 }
 
 .ae-BadgeControl {
-  .cxd-Form-groupColumn:nth-child(1) {
+  .#{$amis-component-prefix}Form-groupColumn:nth-child(1) {
     padding-right: 4px;
   }
-  .cxd-Form-groupColumn:nth-child(2) {
+  .#{$amis-component-prefix}Form-groupColumn:nth-child(2) {
     padding-left: 4px;
   }
-  .cxd-TextControl.is-focused > .cxd-TextControl-input {
+  .#{$amis-component-prefix}TextControl.is-focused
+    > .#{$amis-component-prefix}TextControl-input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding-left: 4px;
   }
-  .cxd-TextControl-addOn:first-child {
+  .#{$amis-component-prefix}TextControl-addOn:first-child {
     border-left-width: 0.0625rem;
   }
-  .cxd-TextControl-input {
+  .#{$amis-component-prefix}TextControl-input {
     padding: 4px;
   }
 }
@@ -178,7 +179,7 @@
   }
 }
 .ae-NavControl-dialog {
-  .cxd-IconPickerControl-valueWrap {
+  .#{$amis-component-prefix}IconPickerControl-valueWrap {
     display: flex;
   }
 }

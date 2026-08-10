@@ -17,7 +17,7 @@
   .ae-ExtendMore {
     position: relative;
 
-    .cxd-Container-body {
+    .#{$amis-component-prefix}Container-body {
       margin-top: 20px;
     }
   }

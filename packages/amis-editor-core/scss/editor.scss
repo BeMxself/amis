@@ -1,6 +1,7 @@
 @import '../../../node_modules/amis-ui/scss/functions';
 @import '../../../node_modules/amis-ui/scss/variables';
 @import '../../../node_modules/amis-ui/scss/mixins';
+@import '../../../node_modules/amis-ui/scss/stable-selectors';
 @import './mixin';
 @import './variables';
 @import './backTop';
@@ -280,10 +281,10 @@
       //     z-index: 0;
       //   }
 
-      //   > .cxd-Page {
+      //   > .#{$amis-component-prefix}Page {
       //     // 这里主要是为了确保能撑开画布区
       //     display: flex;
-      //     > .cxd-Page-content {
+      //     > .#{$amis-component-prefix}Page-content {
       //       height: auto;
       //     }
       //   }

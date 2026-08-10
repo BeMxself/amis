@@ -9,6 +9,7 @@ import {autobind, isHasPluginIcon} from '../../util';
 import {findDomCompat as findDOMNode} from 'amis-core';
 import {PanelItem} from '../../plugin';
 import {WidthDraggableBtn} from '../base/WidthDraggableBtn';
+import {getEditorThemeScopeProps} from '../../themeScope';
 
 export interface RightPanelsProps {
   store: EditorStoreType;
@@ -112,6 +113,7 @@ export class RightPanels extends React.Component<
 
     return panels.length > 0 ? (
       <div
+        {...getEditorThemeScopeProps(theme, manager.config.theme || 'cxd')}
         className={cx(
           'editor-right-panel width-draggable',
           'AMISCSSWrapper',

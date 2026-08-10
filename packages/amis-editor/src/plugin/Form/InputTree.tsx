@@ -842,11 +842,11 @@ export class TreeControlPlugin extends BasePlugin {
             selectors: [
               {
                 label: '树基本样式',
-                selector: '.cxd-TreeControl'
+                selector: this.manager.getThemeClassSelector('TreeControl')
               },
               {
                 label: '树工具栏样式',
-                selector: '.cxd-Tabs-toolbar'
+                selector: this.manager.getThemeClassSelector('Tabs-toolbar')
               }
             ]
           })

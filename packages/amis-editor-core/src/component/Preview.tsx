@@ -25,6 +25,7 @@ import {reaction} from 'mobx';
 import type {RendererConfig} from 'amis-core';
 import IFramePreview from './IFramePreview';
 import {SchemaRenderer} from './SchemaRenderer';
+import {getEditorThemeScopeProps, resolveEditorThemeName} from '../themeScope';
 
 export interface PreviewProps {
   // isEditorEnabled?: (
@@ -656,9 +657,14 @@ export default class Preview extends Component<PreviewProps> {
       ...rest
     } = this.props;
 
+    const themeName = resolveEditorThemeName(
+      theme || amisEnv?.theme || this.env.theme,
+      manager.config.theme || 'cxd'
+    );
     const env = {
       ...this.env,
-      ...amisEnv
+      ...amisEnv,
+      theme: themeName
     };
 
     return (
@@ -668,6 +674,7 @@ export default class Preview extends Component<PreviewProps> {
         onDragLeave={this.handleDragLeave}
         onDragOver={this.handleDragOver}
         onDrop={this.handleDrop}
+        {...getEditorThemeScopeProps(themeName)}
         className={cx(
           'ae-Preview',
           'AMISCSSWrapper',

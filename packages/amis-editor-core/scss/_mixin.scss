@@ -84,7 +84,7 @@
   fieldset {
     margin-bottom: var(--Form-item-gap);
 
-    .cxd-Collapse-content {
+    .#{$amis-component-prefix}Collapse-content {
       background-color: transparent;
     }
   }

@@ -4,6 +4,7 @@ import {EditorStoreType} from '../store/editor';
 import {render, Modal, getTheme, Icon, Spinner, Button} from 'amis';
 import {observer} from 'mobx-react';
 import {autobind, isObject} from '../util';
+import {getEditorThemeScopeProps} from '../themeScope';
 
 export interface SubEditorProps {
   store: EditorStoreType;
@@ -235,7 +236,11 @@ export class ScaffoldModal extends React.Component<SubEditorProps> {
           ) : null}
           <div className={cx('Modal-title')}>{scaffoldFormContext?.title}</div>
         </div>
-        <div ref={this.modalBodyRef} className={cx('Modal-body')}>
+        <div
+          ref={this.modalBodyRef}
+          className={cx('Modal-body')}
+          {...getEditorThemeScopeProps(theme, manager.config.theme || 'cxd')}
+        >
           {scaffoldFormContext ? (
             render(
               this.buildSchema(),

@@ -34,8 +34,8 @@
     }
   }
 
-  .cxd-DropDown,
-  .cxd-DropDown > .cxd-Button {
+  .#{$amis-component-prefix}DropDown,
+  .#{$amis-component-prefix}DropDown > .#{$amis-component-prefix}Button {
     width: 100%;
   }
 

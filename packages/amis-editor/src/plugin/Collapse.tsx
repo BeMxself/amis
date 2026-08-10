@@ -283,7 +283,7 @@ export class CollapsePlugin extends BasePlugin {
       return false;
     } else if (
       (mouseEvent.target as HTMLElement).closest(
-        `.${this.manager.getThemeClassPrefix()}Collapse-arrow-wrap`
+        `.${this.manager.getThemeClassName('Collapse-arrow-wrap')}`
       )
     ) {
       return false;

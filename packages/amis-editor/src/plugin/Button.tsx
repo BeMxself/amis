@@ -377,7 +377,7 @@ export class ButtonPlugin extends BasePlugin {
               {
                 label: '按钮基本样式',
                 isRoot: true,
-                selector: '.cxd-Button'
+                selector: this.manager.getThemeClassSelector('Button')
               },
               {
                 label: '按钮内容样式',

@@ -150,11 +150,11 @@
     }
     &-editor {
       margin-bottom: 0;
-      .cxd-EditorControl {
+      .#{$amis-component-prefix}EditorControl {
         padding-top: 20px;
         padding-bottom: 20px;
       }
-      .cxd-MonacoEditor-placeholder {
+      .#{$amis-component-prefix}MonacoEditor-placeholder {
         line-height: 18px;
         font-size: 12px;
       }

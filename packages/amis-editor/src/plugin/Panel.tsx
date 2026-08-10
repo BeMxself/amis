@@ -86,7 +86,9 @@ export class PanelPlugin extends BasePlugin {
   // 定义可以内联编辑的元素
   inlineEditableElements: Array<InlineEditableElement> = [
     {
-      match: ':scope.cxd-Panel .cxd-Panel-title',
+      match: `:scope${this.manager.getThemeClassSelector(
+        'Panel'
+      )} ${this.manager.getThemeClassSelector('Panel-title')}`,
       key: 'title'
     }
   ];

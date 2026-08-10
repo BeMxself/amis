@@ -388,19 +388,19 @@ export class TabsPlugin extends BasePlugin {
                 {
                   label: '选项卡基本样式',
                   isRoot: true,
-                  selector: '.cxd-Tabs'
+                  selector: this.manager.getThemeClassSelector('Tabs')
                 },
                 {
                   label: '选项卡工具栏样式',
-                  selector: '.cxd-Tabs-toolbar'
+                  selector: this.manager.getThemeClassSelector('Tabs-toolbar')
                 },
                 {
                   label: '选项卡标题样式',
-                  selector: '.cxd-Tabs-link'
+                  selector: this.manager.getThemeClassSelector('Tabs-link')
                 },
                 {
                   label: '选项卡内容区样式',
-                  selector: '.cxd-Tabs-content'
+                  selector: this.manager.getThemeClassSelector('Tabs-content')
                 }
               ]
             })

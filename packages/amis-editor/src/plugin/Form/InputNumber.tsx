@@ -337,19 +337,19 @@ export class NumberControlPlugin extends BasePlugin {
                   {
                     label: '表单项基本样式',
                     isRoot: true,
-                    selector: '.cxd-from-item'
+                    selector: `.${this.manager.getThemeClassPrefix()}from-item`
                   },
                   {
                     label: '标题样式',
-                    selector: '.cxd-Form-label'
+                    selector: this.manager.getThemeClassSelector('Form-label')
                   },
                   {
                     label: '数字框基本样式',
-                    selector: '.cxd-Number'
+                    selector: this.manager.getThemeClassSelector('Number')
                   },
                   {
                     label: '输入框样式',
-                    selector: '.cxd-Number-input'
+                    selector: this.manager.getThemeClassSelector('Number-input')
                   }
                 ]
               })

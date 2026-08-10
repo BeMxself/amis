@@ -137,11 +137,11 @@ export class PagePlugin extends BasePlugin {
   // 定义可以内联编辑的元素
   inlineEditableElements: Array<InlineEditableElement> = [
     {
-      match: '.cxd-Page-title',
+      match: this.manager.getThemeClassSelector('Page-title'),
       key: 'title'
     },
     {
-      match: '.cxd-Page-subTitle',
+      match: this.manager.getThemeClassSelector('Page-subTitle'),
       key: 'subTitle'
     }
   ];
@@ -365,23 +365,23 @@ export class PagePlugin extends BasePlugin {
                   {
                     label: '页面基本样式',
                     isRoot: true,
-                    selector: '.cxd-Page'
+                    selector: this.manager.getThemeClassSelector('Page')
                   },
                   {
                     label: '页面内容区样式',
-                    selector: '.cxd-Page-body'
+                    selector: this.manager.getThemeClassSelector('Page-body')
                   },
                   {
                     label: '页面标题栏样式',
-                    selector: '.cxd-Page-title'
+                    selector: this.manager.getThemeClassSelector('Page-title')
                   },
                   {
                     label: '页面工具栏样式',
-                    selector: '.cxd-Page-toolbar'
+                    selector: this.manager.getThemeClassSelector('Page-toolbar')
                   },
                   {
                     label: '页面边栏样式',
-                    selector: '.cxd-Page-aside'
+                    selector: this.manager.getThemeClassSelector('Page-aside')
                   }
                 ]
               })

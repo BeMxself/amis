@@ -84,6 +84,7 @@ export class ModalForm extends React.Component<ModalFormProps> {
     const {store, theme, manager} = this.props;
     const modalFormContext = store.modalForm;
     const modalMode = store.modalMode || 'dialog';
+    const cx = (name: string) => manager.getThemeClassName(name);
     const contents = modalFormContext
       ? render(
           this.buildSchema(),
@@ -108,12 +109,12 @@ export class ModalForm extends React.Component<ModalFormProps> {
         show={!!modalFormContext}
         onHide={store.closeModalForm}
       >
-        <div className="cxd-Drawer-header">{modalFormContext?.title}</div>
-        <div className="cxd-Drawer-body">{contents}</div>
-        <div className="cxd-Drawer-footer">
-          <div className="cxd-Drawer-info">
+        <div className={cx('Drawer-header')}>{modalFormContext?.title}</div>
+        <div className={cx('Drawer-body')}>{contents}</div>
+        <div className={cx('Drawer-footer')}>
+          <div className={cx('Drawer-info')}>
             {store.modalFormError ? (
-              <div className="cxd-Drawer-error">{store.modalFormError}</div>
+              <div className={cx('Drawer-error')}>{store.modalFormError}</div>
             ) : null}
           </div>
           <Button
@@ -141,9 +142,9 @@ export class ModalForm extends React.Component<ModalFormProps> {
         ) : null}
         <Modal.Body>{contents}</Modal.Body>
         <Modal.Footer>
-          <div className="cxd-Dialog-info">
+          <div className={cx('Dialog-info')}>
             {store.modalFormError ? (
-              <div className="cxd-Dialog-error">{store.modalFormError}</div>
+              <div className={cx('Dialog-error')}>{store.modalFormError}</div>
             ) : null}
           </div>
           <Button

@@ -12,6 +12,12 @@ import {
   resizeSensor
 } from 'amis';
 import {isAlive} from 'mobx-state-tree';
+import {
+  applyEditorThemeScope,
+  getEditorThemeScopeHtmlAttrs,
+  getEditorThemeScopeProps,
+  resolveEditorThemeName
+} from '../themeScope';
 
 /**
  * 这个用了 observer，所以能最小程度的刷新，数据不变按理是不会刷新的。
@@ -33,6 +39,10 @@ export default class IFramePreview extends React.Component<IFramePreviewProps> {
   iframeRef: HTMLIFrameElement;
   constructor(props: IFramePreviewProps) {
     super(props);
+    const themeAttrs = getEditorThemeScopeHtmlAttrs(
+      props.env?.theme,
+      props.manager.config.theme || 'cxd'
+    );
 
     const styles = [].slice
       .call(document.querySelectorAll('link[rel="stylesheet"], style'))
@@ -53,7 +63,7 @@ export default class IFramePreview extends React.Component<IFramePreviewProps> {
 
     this.initialContent = `<!DOCTYPE html><html><head>${styles.join(
       ''
-    )}</head><body><div class="ae-IFramePreview AMISCSSWrapper"></div></body></html>`;
+    )}</head><body ${themeAttrs}><div class="ae-IFramePreview AMISCSSWrapper" ${themeAttrs}></div></body></html>`;
   }
 
   componentDidMount() {
@@ -103,6 +113,18 @@ export default class IFramePreview extends React.Component<IFramePreviewProps> {
   iframeContentDidMount() {
     const body = this.iframeRef.contentWindow?.document.body;
     body?.classList.add('ae-PreviewIFrameBody');
+    applyEditorThemeScope(body, this.getThemeName());
+    applyEditorThemeScope(
+      body?.querySelector('.ae-IFramePreview') as HTMLElement,
+      this.getThemeName()
+    );
+  }
+
+  getThemeName() {
+    return resolveEditorThemeName(
+      this.props.env?.theme,
+      this.props.manager.config.theme || 'cxd'
+    );
   }
 
   render() {
@@ -117,7 +139,11 @@ export default class IFramePreview extends React.Component<IFramePreviewProps> {
         contentDidMount={this.iframeContentDidMount}
       >
         <InnerComponent store={store} editable={editable} manager={manager} />
-        <div ref={this.dialogMountRef} className="ae-PageWrapper">
+        <div
+          ref={this.dialogMountRef}
+          className="ae-PageWrapper"
+          {...getEditorThemeScopeProps(this.getThemeName())}
+        >
           {render(
             editable ? store.filteredSchema : store.filteredSchemaForPreview,
             {

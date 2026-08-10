@@ -1,15 +1,46 @@
 import type {PlainObject, ThemeDefinition} from './declares';
 
+const LEGACY_THEME_CLASS_PREFIX = ['.', 'cxd-'].join('');
+
+export interface ThemeCssGenerationOptions {
+  theme?: string;
+  scope?: string | {selector?: string; value?: string};
+  componentClassPrefix?: string;
+  tokenNamespace?: '--amis';
+  legacySelectorPolicy?: 'warn-and-migrate' | 'reject-new';
+}
+
+export interface GeneratedThemeCss {
+  tokenCss: string;
+  selectorCss: string;
+  customCss: string;
+  migrationWarnings: string[];
+}
+
 export class ParseThemeData {
   style: string[] = [];
   class: string[] = [];
+  migrationWarnings: string[] = [];
   data: ThemeDefinition;
   scope: string[];
   theme: string;
-  constructor(data: ThemeDefinition, scope: string[]) {
+  options: Required<ThemeCssGenerationOptions>;
+
+  constructor(
+    data: ThemeDefinition,
+    scope: string[],
+    options: ThemeCssGenerationOptions = {}
+  ) {
     this.data = data;
-    this.scope = scope;
-    this.theme = data.config.key;
+    this.theme = options.theme || data.config.key;
+    this.options = {
+      theme: this.theme,
+      scope: options.scope || '',
+      componentClassPrefix: options.componentClassPrefix || 'amis-',
+      tokenNamespace: options.tokenNamespace || '--amis',
+      legacySelectorPolicy: options.legacySelectorPolicy || 'warn-and-migrate'
+    };
+    this.scope = this.normalizeScope(scope);
   }
 
   generator() {
@@ -34,6 +65,15 @@ export class ParseThemeData {
 
   getStyle() {
     return this.getCssVariable() + this.getCustomClass();
+  }
+
+  getGeneratedCss(): GeneratedThemeCss {
+    return {
+      tokenCss: this.getCssVariable(),
+      selectorCss: this.getCustomClass(),
+      customCss: this.getCustomStyle(),
+      migrationWarnings: [...this.migrationWarnings]
+    };
   }
 
   getCssVariable() {
@@ -66,8 +106,62 @@ export class ParseThemeData {
    * 装载class
    */
   classFormat(classname: string, value: string) {
-    // 自定义的不需要在命名空间下了
-    this.class.push(`${classname}{${value}}`);
+    this.class.push(`${this.scopeSelector(classname)}{${value}}`);
+  }
+
+  private normalizeScope(scope: string[]) {
+    const themeScope = this.themeScopeSelector();
+    const scopes = [...(scope || [])];
+    const hasThemeScope = scopes.some(item =>
+      item.includes('[data-amis-theme')
+    );
+
+    if (!hasThemeScope) {
+      scopes.push(themeScope);
+    }
+
+    return scopes;
+  }
+
+  private themeScopeSelector() {
+    const scope = this.options.scope;
+    if (typeof scope === 'string' && scope) {
+      return scope;
+    }
+
+    if (typeof scope === 'object' && scope?.selector) {
+      return scope.selector;
+    }
+
+    if (typeof scope === 'object' && scope?.value) {
+      return `[data-amis-theme="${scope.value.replace(/"/g, '\\"')}"]`;
+    }
+
+    return `[data-amis-theme="${this.theme.replace(/"/g, '\\"')}"]`;
+  }
+
+  private scopeSelector(selector: string) {
+    if (selector.includes('[data-amis-theme')) {
+      return selector;
+    }
+
+    return `${this.themeScopeSelector()} ${selector}`;
+  }
+
+  private stableButtonClass(modifier: string) {
+    return `.${this.options.componentClassPrefix}Button--${modifier}`;
+  }
+
+  private legacyThemeClass(name: string) {
+    return `${LEGACY_THEME_CLASS_PREFIX}${name}`;
+  }
+
+  private recordLegacySelectorMigration(from: string, to: string) {
+    const warning = `migrated legacy selector ${from} to ${to}`;
+
+    if (!this.migrationWarnings.includes(warning)) {
+      this.migrationWarnings.push(warning);
+    }
   }
 
   /**
@@ -224,13 +318,18 @@ export class ParseThemeData {
             `border-style: var(--button-${fontType}-${state}-top-border-style) var(--button-${fontType}-${state}-right-border-style) var(--button-${fontType}-${state}-bottom-border-style) var(--button-${fontType}-${state}-left-border-style)`
           ].join(';');
 
-        this.classFormat(`.cxd-Button--${fontType}`, `${style('default')}`);
+        const buttonSelector = this.stableButtonClass(fontType);
+        this.recordLegacySelectorMigration(
+          this.legacyThemeClass(`Button--${fontType}`),
+          buttonSelector
+        );
+        this.classFormat(buttonSelector, `${style('default')}`);
         this.classFormat(
-          `.cxd-Button--${fontType}:not(:disabled):not(.is-disabled):hover`,
+          `${buttonSelector}:not(:disabled):not(.is-disabled):hover`,
           `${style('hover')}`
         );
         this.classFormat(
-          `.cxd-Button--${fontType}:not(:disabled):not(.is-disabled):hover:active`,
+          `${buttonSelector}:not(:disabled):not(.is-disabled):hover:active`,
           `${style('active')}`
         );
       }
@@ -239,8 +338,13 @@ export class ParseThemeData {
       setButtonCssValue(item.token, item.body);
       if (item.custom) {
         const fontType = item.type;
+        const sizeSelector = this.stableButtonClass(`size-${fontType}`);
+        this.recordLegacySelectorMigration(
+          this.legacyThemeClass(`Button--size-${fontType}`),
+          sizeSelector
+        );
         this.classFormat(
-          `.cxd-Button--size-${fontType}`,
+          sizeSelector,
           [
             `font-size: var(--button-size-${fontType}-fonSize)`,
             `font-weight: var(--button-size-${fontType}-fontWeight)`,

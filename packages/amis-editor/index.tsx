@@ -6,7 +6,7 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 
 import {Layout, AsideNav, Spinner, NotFound} from 'amis-ui';
-import {eachTree, TreeArray, TreeItem} from 'amis-core';
+import {eachTree, getTheme, TreeArray, TreeItem} from 'amis-core';
 import {
   HashRouter as Router,
   Route,
@@ -41,6 +41,8 @@ const pages: TreeArray = [
     ]
   }
 ];
+
+const editorDemoClassnames = getTheme('cxd').stableClassnames;
 
 function getPath(path: string) {
   return path ? (path[0] === '/' ? path : `/${path}`) : '';
@@ -181,7 +183,9 @@ export function Main() {
           <Layout
             header={
               <div id="headerBar" className="box-shadow bg-dark">
-                <div className={`cxd-Layout-brand`}>编辑器面板示例</div>
+                <div className={editorDemoClassnames('Layout-brand')}>
+                  编辑器面板示例
+                </div>
                 <Link to="/">回到编辑器</Link>
               </div>
             }

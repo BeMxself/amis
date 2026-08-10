@@ -516,23 +516,26 @@ export class TextControlPlugin extends BasePlugin {
                 {
                   label: '表单项基本样式',
                   isRoot: true,
-                  selector: '.cxd-from-item'
+                  selector: `.${this.manager.getThemeClassPrefix()}from-item`
                 },
                 {
                   label: '标题样式',
-                  selector: '.cxd-Form-label'
+                  selector: this.manager.getThemeClassSelector('Form-label')
                 },
                 {
                   label: '文本框基本样式',
-                  selector: '.cxd-TextControl'
+                  selector: this.manager.getThemeClassSelector('TextControl')
                 },
                 {
                   label: '输入框外层样式',
-                  selector: '.cxd-TextControl-input'
+                  selector:
+                    this.manager.getThemeClassSelector('TextControl-input')
                 },
                 {
                   label: '输入框样式',
-                  selector: '.cxd-TextControl-input input'
+                  selector: `${this.manager.getThemeClassSelector(
+                    'TextControl-input'
+                  )} input`
                 }
               ]
             })

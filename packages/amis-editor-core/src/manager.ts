@@ -15,8 +15,7 @@ import {
   JSONTraverse,
   wrapFetcher,
   GlobalVariableItem,
-  setVariable,
-  getTheme
+  setVariable
 } from 'amis-core';
 import {
   PluginInterface,
@@ -78,6 +77,11 @@ import {EditorNodeType} from './store/node';
 import {EditorProps} from './component/Editor';
 import {EditorDNDManager} from './dnd';
 import {VariableManager} from './variable';
+import {
+  getEditorThemeClassName,
+  getEditorThemeClassSelector,
+  resolveEditorComponentClassPrefix
+} from './themeScope';
 
 import type {IScopedContext} from 'amis';
 import type {SchemaObject, SchemaCollection} from 'amis';
@@ -2493,7 +2497,16 @@ export class EditorManager {
   }
 
   getThemeClassPrefix() {
-    return getTheme(this.config.theme || 'cxd').classPrefix;
+    // Historical API name; returns the stable component prefix, not legacy theme classPrefix.
+    return resolveEditorComponentClassPrefix(this.config.theme);
+  }
+
+  getThemeClassName(name: string) {
+    return getEditorThemeClassName(this.config.theme, name);
+  }
+
+  getThemeClassSelector(name: string) {
+    return getEditorThemeClassSelector(this.config.theme, name);
   }
 
   /**

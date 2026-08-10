@@ -1,4 +1,4 @@
-$ns: cxd-;
+$ns: $amis-component-prefix;
 .Theme-ColorPicker {
   &-label-out {
     height: px2rem(32px);
@@ -241,7 +241,7 @@ $ns: cxd-;
     input {
       font-size: 12px;
     }
-    .cxd-SearchBox.is-active {
+    .#{$amis-component-prefix}SearchBox.is-active {
       width: px2rem(216px);
     }
   }
@@ -280,13 +280,13 @@ $ns: cxd-;
   &-range {
     width: px2rem(40px);
     position: relative;
-    .cxd-Number {
+    .#{$amis-component-prefix}Number {
       height: px2rem(26px);
     }
-    .cxd-Number-handler-wrap {
+    .#{$amis-component-prefix}Number-handler-wrap {
       display: none !important;
     }
-    .cxd-Number-input {
+    .#{$amis-component-prefix}Number-input {
       padding: 0 px2rem(4px);
       font-size: 12px;
     }

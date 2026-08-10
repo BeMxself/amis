@@ -1,5 +1,6 @@
 $remFactor: 16px;
 @import '../../../../node_modules/amis-ui/scss/functions';
+@import '../../../../node_modules/amis-ui/scss/stable-selectors';
 @import './padding-and-margin';
 @import './border';
 @import './radius';
@@ -10,6 +11,6 @@ $remFactor: 16px;
 @import './theme-wrapper';
 @import './shadow';
 
-.cxd-PopOver {
+.#{$amis-component-prefix}PopOver {
   z-index: 1400 !important;
 }

@@ -25,6 +25,7 @@ import {filter} from 'lodash';
 import type {SchemaType} from 'amis/lib/Schema';
 import type {DialogSchema} from 'amis/lib/renderers/Dialog';
 import type {DrawerSchema} from 'amis/lib/renderers/Drawer';
+import {resolveEditorComponentClassPrefix} from './themeScope';
 
 const {
   guid,
@@ -58,6 +59,21 @@ export {
 export let themeConfig: any = {};
 export let themeOptionsData: any = {};
 export let cssVars: any = {};
+export const THEME_CSS_MIGRATION_WARNINGS_KEY = '__themeCssMigrationWarnings';
+
+export function migrateLegacyThemeSelector(selector: string, theme?: any) {
+  const componentClassPrefix = resolveEditorComponentClassPrefix(theme);
+
+  return selector.replace(/\.cxd-/g, () => `.${componentClassPrefix}`);
+}
+
+function appendThemeCssMigrationWarning(data: any, warning: string) {
+  const warnings = data[THEME_CSS_MIGRATION_WARNINGS_KEY] || [];
+
+  if (!warnings.includes(warning)) {
+    data[THEME_CSS_MIGRATION_WARNINGS_KEY] = [...warnings, warning];
+  }
+}
 
 export function __uri(id: string) {
   return id;
@@ -1214,22 +1230,32 @@ export function setThemeConfig(config: any) {
  * @param selectorText 选择器
  * @returns css变量
  */
-export function getCssVarById(id: string, selectorText: string) {
+export function getCssVarById(id: string, selectorText: string | string[]) {
   const styleSheets = document.styleSheets;
+  const targetNode = document.getElementById(id) as HTMLStyleElement | null;
   let cssVars: PlainObject = {};
+  const selectorTexts = Array.isArray(selectorText)
+    ? selectorText
+    : [selectorText];
   for (const styleSheet of styleSheets) {
-    if ((styleSheet.ownerNode as Element)?.id === id) {
+    if (
+      (styleSheet.ownerNode as Element)?.id === id ||
+      targetNode?.sheet === styleSheet
+    ) {
       for (let i = 0; i < styleSheet.cssRules.length; i++) {
         const cssRule = styleSheet.cssRules[i] as any;
-        if ((cssRule as any).selectorText?.includes(selectorText)) {
-          const cssText = cssRule.style.cssText;
-          const cssArr = cssText.split('; ');
-          cssArr.forEach((item: string) => {
-            if (item) {
-              const [key, value] = item.split(': ');
-              cssVars[key] = value;
+        if (
+          selectorTexts.some(selector =>
+            (cssRule as any).selectorText?.includes(selector)
+          )
+        ) {
+          const style = cssRule.style;
+          for (let j = 0; j < style.length; j++) {
+            const key = style[j];
+            if (key?.startsWith('--')) {
+              cssVars[key] = style.getPropertyValue(key);
             }
-          });
+          }
         }
       }
       break;
@@ -1239,11 +1265,16 @@ export function getCssVarById(id: string, selectorText: string) {
 }
 
 export function getAllCssVar() {
-  const cssVars = getCssVarById('baseStyle', ':root, .AMISCSSWrapper');
-  const themeCssVars = getCssVarById(
-    'themeCss',
-    '.app-popover, #editor-preview-body'
-  );
+  const cssVars = getCssVarById('baseStyle', [
+    ':root',
+    '[data-amis-theme',
+    '.AMISCSSWrapper'
+  ]);
+  const themeCssVars = getCssVarById('themeCss', [
+    '[data-amis-theme',
+    '.app-popover',
+    '#editor-preview-body'
+  ]);
 
   return Object.assign({}, cssVars, themeCssVars);
 }
@@ -1334,6 +1365,14 @@ export function clearDirtyCssKey(data: any) {
   const temp = {...data};
   Object.keys(temp).forEach(key => {
     if (key.startsWith('.') || key.startsWith('#')) {
+      if (key.includes('.cxd-')) {
+        appendThemeCssMigrationWarning(
+          temp,
+          `removed legacy selector ${key}; stable candidate ${migrateLegacyThemeSelector(
+            key
+          )}`
+        );
+      }
       delete temp[key];
     }
     if (key === 'editorState') {

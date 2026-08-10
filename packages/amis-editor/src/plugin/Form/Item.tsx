@@ -40,11 +40,11 @@ export class ItemPlugin extends BasePlugin {
 
       inlineEditableElements.push(
         {
-          match: '.cxd-Form-label',
+          match: this.manager.getThemeClassSelector('Form-label'),
           key: 'label'
         },
         {
-          match: '.cxd-Form-description',
+          match: this.manager.getThemeClassSelector('Form-description'),
           key: 'description'
         }
       );

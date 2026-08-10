@@ -136,11 +136,6 @@ export default class FunctionEditorControl extends React.Component<
           body: '<span class="mtk1 bracket-highlighting-0">}</span>',
           className: 'ae-FunctionEditorControl-func-footer'
         })}
-        {/* {render('api-function-editor-control-editor/3', {
-          type: 'container',
-          className: 'cxd-Form-description',
-          body: desc
-        })} */}
       </>
     );
   }
