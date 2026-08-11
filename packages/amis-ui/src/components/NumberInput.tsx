@@ -1,7 +1,6 @@
 import React from 'react';
 import isInteger from 'lodash/isInteger';
-// @ts-ignore
-import InputNumber from 'rc-input-number';
+import InputNumber from '@rc-component/input-number';
 import getMiniDecimal, {
   DecimalClass,
   toFixed,
@@ -253,13 +252,16 @@ export class NumberInput extends React.Component<NumberProps, NumberState> {
   }
 
   @autobind
-  handleChange(value: any) {
+  handleChange(value: any, skipPercentNormalize: boolean = false) {
     const {min, max, step, resetValue, clearValueOnEmpty, onChange} =
       this.props;
     let {suffix, precision, showAsPercent} = this.props;
     //在显示百分号情况下，需先将数值恢复到实际value值
     if (showAsPercent && suffix == '%') {
-      value = value / 100;
+      if (!skipPercentNormalize) {
+        value = value / 100;
+      }
+
       precision = (precision || 0) + 2;
     }
     const finalPrecision = NumberInput.normalizePrecision(precision, step);
@@ -273,6 +275,14 @@ export class NumberInput extends React.Component<NumberProps, NumberState> {
       this.isBig
     );
     onChange?.(result);
+  }
+
+  @autobind
+  handleInputNumberChange(value: any) {
+    this.handleChange(
+      value,
+      this.props.showAsPercent && this.props.suffix === '%'
+    );
   }
 
   @autobind
@@ -373,17 +383,42 @@ export class NumberInput extends React.Component<NumberProps, NumberState> {
 
     let {value, max, min} = this.props;
     //需要展示百分号的情况下,数值乘100显示,注意精度丢失问题
-    if (showAsPercent && suffix == '%' && value) {
-      value = parseFloat((Number(value) * 100).toFixed(precision));
-      max = max != null ? Math.round(Number(max) * 100) : max;
-      min = min != null ? Math.round(Number(min) * 100) : min;
+    let inputFormatter = formatter;
+    let inputParser = parser;
+    let inputPrecision = precision;
+
+    if (showAsPercent && suffix == '%') {
+      inputPrecision = (precision || 0) + 2;
+      inputFormatter = (
+        nextValue: string | number,
+        info: {userTyping: boolean; input: string}
+      ) => {
+        const percentValue = nextValue
+          ? parseFloat((Number(nextValue) * 100).toFixed(precision))
+          : nextValue;
+
+        return formatter ? formatter(percentValue, info) : percentValue;
+      };
+      inputParser = (nextValue: string) => {
+        const parsedValue = parser ? parser(nextValue) : nextValue;
+
+        return isNumeric(parsedValue) ? Number(parsedValue) / 100 : parsedValue;
+      };
     }
     const precisionProps: any = {
-      precision: NumberInput.normalizePrecision(precision, step)
+      precision: NumberInput.normalizePrecision(inputPrecision, step)
     };
+    const inputKey =
+      showAsPercent && suffix === '%' && !this.state.focused
+        ? `percent-${value ?? ''}`
+        : undefined;
 
+    // @rc-component/input-number keeps its formatted display value internally.
+    // Remount only after percent editing finishes so the visible percent text
+    // follows the canonical value without interrupting typing.
     return (
       <InputNumber
+        key={inputKey}
         name={name}
         className={cx(
           className,
@@ -405,15 +440,15 @@ export class NumberInput extends React.Component<NumberProps, NumberState> {
         step={step}
         max={max}
         min={min}
-        formatter={formatter}
-        parser={parser}
-        onChange={this.handleChange}
+        formatter={inputFormatter}
+        parser={inputParser}
+        onChange={this.handleInputNumberChange}
         disabled={disabled}
         placeholder={placeholder}
         onFocus={this.handleFocus}
         onClick={this.handleClick}
         onBlur={this.handleBlur}
-        stringMode={this.isBig ? true : false}
+        stringMode={this.isBig || (showAsPercent && suffix === '%')}
         keyboard={keyboard}
         {...precisionProps}
         {...testIdBuilder?.getTestId()}

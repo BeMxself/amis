@@ -283,7 +283,7 @@ test('Renderer:number with step & precision & displayMode & keyboard', async () 
   await wait(300);
   expect(input.value).toBe('14.111');
 
-  // rc-input-number 中 keyDown 使用 which 判断 keyCode，当前环境此字段为空，无法响应
+  // input-number 中 keyDown 使用 which 判断 keyCode，当前环境此字段为空，无法响应
   // fireEvent.focus(input);
   // await wait(300);
   // fireEvent.keyDown(input, {key: 'ArrowUp', code: 38});
@@ -358,7 +358,7 @@ test('Renderer:number with static', async () => {
 });
 
 test('Renderer:number with showAsPercent', async () => {
-  const {input} = await setup({
+  const {input, container} = await setup({
     suffix: '%',
     showAsPercent: true,
     value: 1.123,
@@ -370,5 +370,8 @@ test('Renderer:number with showAsPercent', async () => {
   fireEvent.change(input, {target: {value: 23.1234}});
   fireEvent.blur(input);
   await wait(300);
-  expect(input.value).toEqual('23.123%');
+  const currentInput = container.querySelector(
+    '.amis-Number-input-wrap input'
+  ) as HTMLInputElement;
+  expect(currentInput.value).toEqual('23.123%');
 });

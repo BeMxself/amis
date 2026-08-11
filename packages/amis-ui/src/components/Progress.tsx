@@ -1,6 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
-import {Circle} from 'rc-progress';
+import {Circle} from '@rc-component/progress';
 import {ClassNamesFn, ClassName, themeable, ThemeProps} from 'amis-core';
 
 interface ColorProps {
@@ -198,7 +198,7 @@ export class Progress extends React.Component<ProgressProps, Object> {
             percent={value}
             strokeColor={!isColorClass ? bgColor : ''}
             strokeWidth={circleWidth}
-            trailWidth={circleWidth}
+            railWidth={circleWidth}
             prefixCls={isColorClass ? bgColor : ''}
             gapDegree={getGapDegree()}
             gapPosition={gapPos}
