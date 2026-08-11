@@ -451,6 +451,9 @@ export default class Overlay extends React.Component<
       // This animates the child node by injecting props, so it must precede
       // anything that adds a wrapping div.
       child = (
+        // `transition` is an arbitrary adapter prop and Overlay does not own
+        // its animated DOM node. Keep this seam explicit until callers provide
+        // a transition interface with a nodeRef contract.
         <Transition
           in={props.show}
           appear

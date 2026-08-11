@@ -133,6 +133,7 @@ export class Spinner extends React.Component<
   };
 
   parent: HTMLElement | null = null;
+  spinnerNodeRef = React.createRef<HTMLDivElement>();
 
   /**
    * 解决同级（same parent node） spinner 的 show 不全为 true 时
@@ -229,6 +230,7 @@ export class Spinner extends React.Component<
           <span className={cx('Spinner-mark')} ref={this.spinnerRef as any} />
         )}
         <Transition
+          nodeRef={this.spinnerNodeRef}
           mountOnEnter
           unmountOnExit
           in={this.state.spinning}
@@ -247,6 +249,7 @@ export class Spinner extends React.Component<
 
                 {/* spinner图标和文案 */}
                 <div
+                  ref={this.spinnerNodeRef}
                   {...scopeProps}
                   data-testid="spinner"
                   className={cx(

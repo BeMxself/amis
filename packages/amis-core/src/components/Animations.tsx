@@ -1,10 +1,11 @@
-import React, {useEffect, useMemo, useState, useCallback} from 'react';
+import React, {useEffect, useMemo, useState, useCallback, useRef} from 'react';
 import {CSSTransition} from 'react-transition-group';
 import {Schema} from '../types';
 import {formateId} from '../utils';
 import {createAnimationStyle} from '../utils/animations';
 import styleManager from '../StyleManager';
 import {AMISSchemaBase} from '../schema';
+import {mergeRefs} from '../utils/reactRef';
 
 function Animations({
   schema,
@@ -23,6 +24,7 @@ function Animations({
   const observer = useMemo(newObserver, []);
   const animationClassNames = useMemo(initAnimationClassNames, []);
   const animationTimeout = useMemo(initAnimationTimeout, []);
+  const transitionNodeRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     createAnimationStyle(id, schema.animations!);
@@ -108,7 +110,31 @@ function Animations({
     }
   }
 
-  const handleEntered = useCallback((node: HTMLElement) => {
+  function renderTransitionComponent() {
+    if (!React.isValidElement(component)) {
+      return component;
+    }
+
+    if (typeof component.type === 'string') {
+      return React.cloneElement(component, {
+        ref: mergeRefs((component as any).ref, transitionNodeRef)
+      } as any);
+    }
+
+    return React.cloneElement(component, {
+      forwardedRef: mergeRefs(
+        (component.props as any).forwardedRef,
+        transitionNodeRef
+      )
+    } as any);
+  }
+
+  const handleEntered = useCallback(() => {
+    const node = transitionNodeRef.current;
+    if (!node) {
+      return;
+    }
+
     const {attention, exit, enter, hover} = schema.animations || {};
     if (attention) {
       node.classList.add(`${attention.type}-${id}-attention`);
@@ -124,7 +150,12 @@ function Animations({
     }
   }, []);
 
-  const handleExit = useCallback((node: HTMLElement) => {
+  const handleExit = useCallback(() => {
+    const node = transitionNodeRef.current;
+    if (!node) {
+      return;
+    }
+
     const {attention, hover} = schema.animations || {};
     if (attention) {
       node.classList.remove(`${attention.type}-${id}-attention`);
@@ -152,6 +183,7 @@ function Animations({
       )}
       <CSSTransition
         in={animationShow && show}
+        nodeRef={transitionNodeRef}
         timeout={animationTimeout}
         classNames={animationClassNames}
         onEntered={handleEntered}
@@ -160,7 +192,7 @@ function Animations({
         appear
         unmountOnExit
       >
-        {component}
+        {renderTransitionComponent()}
       </CSSTransition>
     </>
   );
