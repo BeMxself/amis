@@ -824,6 +824,7 @@ export class Tabs extends React.Component<TabsProps, any> {
         <PopOverContainer
           key="togglor"
           placement="center-bottom-center-top center-top-center-bottom"
+          overlayWidth="auto"
           popOverClassName={cx('Tabs-PopOver')}
           popOverContainer={popOverContainer || (() => this.rootDom)}
           popOverRender={({onClose}) => (
@@ -837,6 +838,7 @@ export class Tabs extends React.Component<TabsProps, any> {
         >
           {({onClick, ref, isOpened}) => (
             <li
+              ref={ref}
               className={cx(
                 'Tabs-link',
                 titleClassName,

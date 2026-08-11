@@ -1,7 +1,12 @@
 import React from 'react';
-import {autobind, PopOver, Overlay, toNumber} from 'amis-core';
+import {
+  autobind,
+  PopOver,
+  Overlay,
+  resolveDOMElement,
+  toNumber
+} from 'amis-core';
 import PopUp from './PopUp';
-import {findDomCompat} from 'amis-core';
 import isNumber from 'lodash/isNumber';
 
 export type OverlayAlignType = 'left' | 'center' | 'right';
@@ -43,10 +48,6 @@ export interface PopOverContainerState {
   isOpened: boolean;
 }
 
-function resolveTargetElement(target: any): HTMLElement | null {
-  return target ? findDomCompat(target) : null;
-}
-
 export class PopOverContainer extends React.Component<
   PopOverContainerProps,
   PopOverContainerState
@@ -65,7 +66,7 @@ export class PopOverContainer extends React.Component<
 
   @autobind
   targetRef(target: any) {
-    this.target = resolveTargetElement(target);
+    this.target = resolveDOMElement(target);
   }
 
   @autobind
@@ -102,7 +103,7 @@ export class PopOverContainer extends React.Component<
 
   @autobind
   getTarget() {
-    return this.target || resolveTargetElement(this);
+    return this.target;
   }
 
   @autobind
@@ -119,6 +120,7 @@ export class PopOverContainer extends React.Component<
   static calcOverlayWidth(overlay: PopOverOverlay, targetWidth: number) {
     const overlayWidth = overlay && overlay.width;
 
+    if (overlayWidth === 'auto') return 'auto';
     if (!overlayWidth || !isNumber(targetWidth) || targetWidth < 1) return;
     // 数字字符串需要转化下，否则不生效
     if (typeof overlayWidth === 'number' || /^\d+$/.test(overlayWidth)) {

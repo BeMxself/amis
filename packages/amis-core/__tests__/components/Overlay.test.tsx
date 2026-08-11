@@ -1,5 +1,5 @@
 import React from 'react';
-import {cleanup, render, waitFor} from '@testing-library/react';
+import {cleanup, fireEvent, render, waitFor} from '@testing-library/react';
 import Overlay from '../../src/components/Overlay';
 import PopOver from '../../src/components/PopOver';
 import {EnvContext} from '../../src/env';
@@ -243,5 +243,41 @@ test('Overlay preserves PopOver forwarded root ref while positioning', async () 
 
     expect(popover).toBeTruthy();
     expect(popover.style.visibility).not.toBe('hidden');
+  });
+});
+
+test('Overlay rootClose listens on positioned overlay DOM', async () => {
+  const target = document.createElement('button');
+  mockElementRect(target, {left: 8, top: 12, width: 80, height: 24});
+  document.body.appendChild(target);
+  const onHide = jest.fn();
+
+  render(
+    <EnvContext.Provider
+      value={
+        {
+          getModalContainer: () => document.body,
+          theme: getTheme('cxd')
+        } as any
+      }
+    >
+      <ThemeContext.Provider value="cxd">
+        <Overlay show target={() => target} rootClose onHide={onHide}>
+          <div role="tooltip">root close tooltip</div>
+        </Overlay>
+      </ThemeContext.Provider>
+    </EnvContext.Provider>
+  );
+
+  await waitFor(() => {
+    expect(document.body.querySelector('[role="tooltip"]')).toBeTruthy();
+  });
+
+  fireEvent.mouseDown(document.body, {button: 0});
+  fireEvent.mouseUp(document.body, {button: 0});
+  fireEvent.click(document.body, {button: 0});
+
+  await waitFor(() => {
+    expect(onHide).toHaveBeenCalled();
   });
 });

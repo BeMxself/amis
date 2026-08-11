@@ -1,5 +1,6 @@
 import React from 'react';
-import {findDomCompat} from './utils/findDomCompat';
+import {resolveDOMElement} from './utils/dom';
+import {setReactRef} from './utils/reactRef';
 
 interface TaggerWrapperProps {
   children: React.ReactElement;
@@ -17,14 +18,13 @@ export const TaggerWrapper: React.FC<TaggerWrapperProps> = ({
   children,
   tagger
 }) => {
-  const ref = React.useRef<HTMLElement | null>(null);
+  const [dom, setDom] = React.useState<HTMLElement | null>(null);
 
   React.useLayoutEffect(() => {
-    if (!ref.current || !tagger) {
+    if (!dom || !tagger) {
       return;
     }
 
-    const dom = findDomCompat(ref.current);
     const attrs: any = {};
     Object.keys(tagger).forEach(key => {
       if (typeof tagger[key] === 'string' || typeof tagger[key] === 'number') {
@@ -41,23 +41,17 @@ export const TaggerWrapper: React.FC<TaggerWrapperProps> = ({
         dom?.removeAttribute(key);
       });
     };
-  }, [tagger, ref.current]);
+  }, [dom, tagger]);
 
   // 合并 ref：保持原有 ref，同时添加我们的 ref
   const mergedRef = React.useCallback(
-    (node: HTMLElement | null) => {
-      ref.current = node;
+    (node: any) => {
+      const nextDom = resolveDOMElement(node);
+
+      setDom(prevDom => (prevDom === nextDom ? prevDom : nextDom));
 
       // 如果原有 children 有 ref，也调用它
-      const childRef = (children as any).ref;
-      if (childRef) {
-        if (typeof childRef === 'function') {
-          childRef(node);
-        } else {
-          // ref 对象
-          childRef.current = node;
-        }
-      }
+      setReactRef((children as any).ref, node);
     },
     [children]
   );

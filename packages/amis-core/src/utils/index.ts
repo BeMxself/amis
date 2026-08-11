@@ -61,7 +61,6 @@ export * from './resolveCondition';
 export * from './arraySlice';
 export * from './math';
 export * from './memoryParse';
-export * from './findDomCompat';
 export * from './reactRef';
 export * from './reactRoot';
 

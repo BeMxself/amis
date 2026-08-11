@@ -6,9 +6,8 @@
 
 import Portal from 'react-overlays/Portal';
 import classNames from 'classnames';
-import {findDomCompat} from '../utils';
 import React, {cloneElement} from 'react';
-import {mergeRefs} from '../utils/reactRef';
+import {mergeRefs, setReactRef} from '../utils/reactRef';
 import {
   autobind,
   calculatePosition,
@@ -17,6 +16,7 @@ import {
   getScrollParent,
   noop,
   ownerDocument,
+  resolveDOMElement,
   resizeSensor,
   RootClose,
   uuid
@@ -40,10 +40,6 @@ function onScroll(elem: HTMLElement, callback: () => void) {
   return function () {
     elem.removeEventListener('scroll', handler);
   };
-}
-
-function resolveDOMElement(target: any): HTMLElement | null {
-  return target ? findDomCompat(target) : null;
 }
 
 const forwardRefSymbol = Symbol.for('react.forward_ref');
@@ -125,7 +121,7 @@ class Position extends React.Component<any, any> {
 
     const container = getContainer(
       this.props.container,
-      ownerDocument(this).body
+      ownerDocument(target || overlay).body
     );
 
     if (!this.watchedTarget || this.watchedTarget !== target) {
@@ -162,10 +158,6 @@ class Position extends React.Component<any, any> {
   }
 
   componentDidMount() {
-    if (!this.overlay) {
-      this.overlay = resolveDOMElement(this) as HTMLDivElement;
-    }
-
     this.updatePosition(this.getTarget());
   }
 
@@ -176,6 +168,11 @@ class Position extends React.Component<any, any> {
   };
 
   componentDidUpdate(prevProps: any) {
+    if (prevProps.rootCloseRef !== this.props.rootCloseRef) {
+      setReactRef(prevProps.rootCloseRef, null);
+      setReactRef(this.props.rootCloseRef, this.overlay);
+    }
+
     this.maybeUpdatePosition(this.props.placement !== prevProps.placement);
   }
 
@@ -195,6 +192,7 @@ class Position extends React.Component<any, any> {
 
   overlayRef = (overlay: any) => {
     this.overlay = resolveDOMElement(overlay) as HTMLDivElement | null;
+    setReactRef(this.props.rootCloseRef, this.overlay);
   };
 
   getOverlayRefProps(child: React.ReactElement) {
@@ -232,6 +230,7 @@ class Position extends React.Component<any, any> {
     }
 
     this.resizeDispose?.forEach(fn => fn());
+    setReactRef(this.props.rootCloseRef, null);
   }
 
   render() {
@@ -243,6 +242,7 @@ class Position extends React.Component<any, any> {
     delete props.container;
     delete props.containerPadding;
     delete props.shouldUpdatePosition;
+    delete props.rootCloseRef;
 
     const child = React.Children.only(children);
     const overlayRefProps = this.getOverlayRefProps(child);
@@ -369,8 +369,9 @@ export default class Overlay extends React.Component<
 
   getScopedContainerResolver(container: any, triggerScope: ThemeScope) {
     return () => {
-      const fallback = ownerDocument(this).body;
-      const resolvedContainer = getContainer(container, fallback);
+      const triggerFallback = ownerDocument(this.getTargetDom()).body;
+      const resolvedContainer = getContainer(container, triggerFallback);
+      const fallback = ownerDocument(resolvedContainer).body;
 
       return resolveOverlayContainer(resolvedContainer, fallback, triggerScope)
         .container;
@@ -379,8 +380,9 @@ export default class Overlay extends React.Component<
 
   getOverlayThemeScopeResolver(container: any, triggerScope: ThemeScope) {
     return () => {
-      const fallback = ownerDocument(this).body;
-      const resolvedContainer = getContainer(container, fallback);
+      const triggerFallback = ownerDocument(this.getTargetDom()).body;
+      const resolvedContainer = getContainer(container, triggerFallback);
+      const fallback = ownerDocument(resolvedContainer).body;
 
       return resolveOverlayContainer(resolvedContainer, fallback, triggerScope)
         .scope;
@@ -423,74 +425,71 @@ export default class Overlay extends React.Component<
       [scope.attribute]: scope.value
     };
 
-    let child = children;
+    const renderChild = (rootCloseRef?: React.Ref<HTMLElement>) => {
+      let child = children;
 
-    // Position is be inner-most because it adds inline styles into the child,
-    // which the other wrappers don't forward correctly.
-    child = (
-      // @ts-ignore
-      <Position
-        {...{
-          container,
-          containerPadding,
-          target,
-          placement,
-          shouldUpdatePosition,
-          offset
-        }}
-        {...scopeProps}
-        ref={this.positionRef}
-      >
-        {child}
-      </Position>
-    );
-
-    if (Transition) {
-      let {onExit, onExiting, onEnter, onEntering, onEntered} = props;
-
-      // This animates the child node by injecting props, so it must precede
-      // anything that adds a wrapping div.
+      // Position is be inner-most because it adds inline styles into the child,
+      // which the other wrappers don't forward correctly.
       child = (
-        // `transition` is an arbitrary adapter prop and Overlay does not own
-        // its animated DOM node. Keep this seam explicit until callers provide
-        // a transition interface with a nodeRef contract.
-        <Transition
-          in={props.show}
-          appear
-          onExit={onExit}
-          onExiting={onExiting}
-          onExited={this.onHiddenListener}
-          onEnter={onEnter}
-          onEntering={onEntering}
-          onEntered={onEntered}
+        // @ts-ignore
+        <Position
+          {...{
+            container,
+            containerPadding,
+            target,
+            placement,
+            shouldUpdatePosition,
+            offset,
+            rootCloseRef
+          }}
+          {...scopeProps}
+          ref={this.positionRef}
         >
           {child}
-        </Transition>
+        </Position>
       );
-    }
 
-    // This goes after everything else because it adds a wrapping div.
+      if (Transition) {
+        let {onExit, onExiting, onEnter, onEntering, onEntered} = props;
+
+        // This animates the child node by injecting props, so it must precede
+        // anything that adds a wrapping div.
+        child = (
+          // `transition` is an arbitrary adapter prop and Overlay does not own
+          // its animated DOM node. Keep this seam explicit until callers provide
+          // a transition interface with a nodeRef contract.
+          <Transition
+            in={props.show}
+            appear
+            onExit={onExit}
+            onExiting={onExiting}
+            onExited={this.onHiddenListener}
+            onEnter={onEnter}
+            onEntering={onEntering}
+            onEntered={onEntered}
+          >
+            {child}
+          </Transition>
+        );
+      }
+
+      return child;
+    };
+
+    // RootClose listens on the actual overlay DOM captured by Position.
     if (rootClose) {
       return (
         // @ts-ignore
         <Portal container={scopedContainer}>
           <RootClose onRootClose={props.onHide}>
-            {(ref: any) => {
-              if (React.isValidElement(child)) {
-                return React.cloneElement(child as React.ReactElement, {
-                  ref: ref
-                });
-              }
-
-              return <div ref={ref}>{child}</div>;
-            }}
+            {(ref: React.Ref<HTMLElement>) => renderChild(ref)}
           </RootClose>
         </Portal>
       );
     }
 
     // @ts-ignore
-    return <Portal container={scopedContainer}>{child}</Portal>;
+    return <Portal container={scopedContainer}>{renderChild()}</Portal>;
   }
 
   render() {
