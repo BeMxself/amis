@@ -38,7 +38,6 @@ import {HocStoreFactory} from '../WithStore';
 import {wrapControl} from './wrapControl';
 import debounce from 'lodash/debounce';
 import {isApiOutdated, isEffectiveApi} from '../utils/api';
-import {findDomCompat as findDOMNode} from '../utils/findDomCompat';
 import {
   createObjectFromChain,
   dataMapping,
@@ -46,6 +45,7 @@ import {
   getTreeAncestors,
   isEmpty,
   keyToPath,
+  mergeRefs,
   setThemeClassName,
   setVariable
 } from '../utils';
@@ -660,7 +660,7 @@ const getItemInputClassName = (props: FormItemProps) => {
 
 export class FormItemWrap extends React.Component<FormItemProps> {
   lastSearchTerm: any;
-  target: HTMLElement;
+  rootRef = React.createRef<HTMLElement>();
   mounted = false;
   initedOptionFilled = false;
   initedApiFilled = false;
@@ -727,7 +727,6 @@ export class FormItemWrap extends React.Component<FormItemProps> {
 
   componentDidMount() {
     this.mounted = true;
-    this.target = findDOMNode(this) as HTMLElement;
   }
 
   componentDidUpdate(prevProps: FormItemProps) {
@@ -2076,10 +2075,13 @@ export class FormItemWrap extends React.Component<FormItemProps> {
     const renderLayout =
       FormItemWrap.layoutRenderers[mode] ||
       FormItemWrap.layoutRenderers['normal'];
+    const root = renderLayout(this.props, this.renderControl.bind(this));
 
     return (
       <>
-        {renderLayout(this.props, this.renderControl.bind(this))}
+        {React.cloneElement(root, {
+          ref: mergeRefs((root as any).ref, this.rootRef)
+        } as any)}
 
         {model
           ? render(
@@ -2100,8 +2102,8 @@ export class FormItemWrap extends React.Component<FormItemProps> {
 
         {model ? (
           <Overlay
-            container={popOverContainer || this.target}
-            target={() => this.target}
+            container={popOverContainer || this.rootRef.current}
+            target={() => this.rootRef.current}
             placement={model.popOverSchema?.placement || 'left-bottom-left-top'}
             show={model.popOverOpen}
           >
@@ -2111,7 +2113,9 @@ export class FormItemWrap extends React.Component<FormItemProps> {
                 model.popOverSchema?.popOverClassName
               )}
               style={{
-                minWidth: this.target ? this.target.offsetWidth : undefined
+                minWidth: this.rootRef.current
+                  ? this.rootRef.current.offsetWidth
+                  : undefined
               }}
               offset={model.popOverSchema?.offset}
               onHide={this.closePopOver}

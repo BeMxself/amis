@@ -47,6 +47,7 @@ import type {IRootStore} from './store/root';
 import {createObjectFromChain, extractObjectChain} from './utils';
 import {IIRendererStore} from './store/index';
 import TaggerWrapper from './TaggerWrapper';
+import {mergeRefs} from './utils/reactRef';
 
 interface SchemaRendererProps
   extends Partial<Omit<RendererProps, 'statusStore'>>,
@@ -642,7 +643,7 @@ export class SchemaRenderer extends React.Component<SchemaRendererProps, any> {
     ) : (
       <Component
         {...props}
-        forwardedRef={this.childRef}
+        forwardedRef={mergeRefs(props.forwardedRef, this.childRef)}
         storeRef={this.storeRef}
       />
     );

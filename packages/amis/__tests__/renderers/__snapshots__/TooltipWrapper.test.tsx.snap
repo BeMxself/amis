@@ -4,32 +4,29 @@ exports[`Renderer:TooltipWrapper with context data 1`] = `
 <body>
   <div>
     <div
+      class="amis-Page"
       data-amis-theme="cxd"
     >
       <div
-        class="amis-Page"
+        class="amis-Page-content"
       >
         <div
-          class="amis-Page-content"
+          class="amis-Page-main"
         >
           <div
-            class="amis-Page-main"
+            class="amis-Page-body"
+            role="page-body"
           >
             <div
-              class="amis-Page-body"
-              role="page-body"
+              class="amis-TooltipWrapper"
             >
-              <div
-                class="amis-TooltipWrapper"
+              <span
+                class="amis-TplField fr-view"
               >
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    body:this-is-text
-                  </span>
+                <span>
+                  body:this-is-text
                 </span>
-              </div>
+              </span>
             </div>
           </div>
         </div>
@@ -37,32 +34,29 @@ exports[`Renderer:TooltipWrapper with context data 1`] = `
     </div>
   </div>
   <div
+    class="amis-Tooltip amis-Tooltip--light"
     data-amis-theme="cxd"
+    offset="0,0"
+    role="tooltip"
+    style="left: 0px; top: 0px; visibility: hidden;"
+    theme="cxd"
   >
     <div
-      class="amis-Tooltip amis-Tooltip--light"
-      offset="0,0"
-      role="tooltip"
-      style="left: 0px; top: 0px; visibility: hidden;"
-      theme="cxd"
+      class="amis-Tooltip-arrow"
+    />
+    <div
+      class="amis-Tooltip-title"
     >
-      <div
-        class="amis-Tooltip-arrow"
-      />
-      <div
-        class="amis-Tooltip-title"
+      title:second-text
+    </div>
+    <div
+      class="amis-Tooltip-body"
+    >
+      <span
+        class="amis-Html"
       >
-        title:second-text
-      </div>
-      <div
-        class="amis-Tooltip-body"
-      >
-        <span
-          class="amis-Html"
-        >
-          info:this-is-text
-        </span>
-      </div>
+        info:this-is-text
+      </span>
     </div>
   </div>
 </body>
@@ -72,167 +66,8 @@ exports[`Renderer:TooltipWrapper with offset 1`] = `
 <body>
   <div>
     <div
-      data-amis-theme="cxd"
-    >
-      <div
-        class="amis-Page"
-      >
-        <div
-          class="amis-Page-content"
-        >
-          <div
-            class="amis-Page-main"
-          >
-            <div
-              class="amis-Page-body"
-              role="page-body"
-            >
-              <div
-                class="amis-TooltipWrapper mb-1"
-              >
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    激活文字提示
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    data-amis-theme="cxd"
-  >
-    <div
-      class="amis-Tooltip amis-Tooltip--light"
-      offset="19,-22"
-      role="tooltip"
-      style="left: 0px; top: 0px; visibility: hidden;"
-      theme="cxd"
-    >
-      <div
-        class="amis-Tooltip-arrow"
-      />
-      <div
-        class="amis-Tooltip-body"
-      >
-        <span
-          class="amis-Html"
-        >
-          提示文字
-        </span>
-      </div>
-    </div>
-  </div>
-</body>
-`;
-
-exports[`Renderer:TooltipWrapper with showArrow 1`] = `
-<body>
-  <div>
-    <div
-      data-amis-theme="cxd"
-    >
-      <div
-        class="amis-TooltipWrapper"
-      >
-        <span
-          class="amis-TplField fr-view"
-        >
-          <span>
-            没有箭头
-          </span>
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    data-amis-theme="cxd"
-  >
-    <div
-      class="amis-Tooltip amis-Tooltip--light"
-      offset="0,0"
-      role="tooltip"
-      style="left: 0px; top: 0px; visibility: hidden;"
-      theme="cxd"
-    >
-      <div
-        class="amis-Tooltip-title"
-      >
-        标题
-      </div>
-      <div
-        class="amis-Tooltip-body"
-      >
-        <span
-          class="amis-Html"
-        >
-          提示内容
-        </span>
-      </div>
-    </div>
-  </div>
-</body>
-`;
-
-exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
-<body>
-  <div>
-    <div
-      data-amis-theme="cxd"
-    >
-      <span
-        class="amis-TooltipWrapper amis-TooltipWrapper--inline"
-        style="font-style: italic;"
-      >
-        <span
-          class="amis-TplField fr-view"
-        >
-          <span>
-            一段文案
-          </span>
-        </span>
-      </span>
-    </div>
-  </div>
-  <div
-    data-amis-theme="cxd"
-  >
-    <div
-      class="amis-Tooltip amis-Tooltip--light"
-      offset="0,0"
-      role="tooltip"
-      style="font-weight: bold; left: 0px; top: 0px; visibility: hidden;"
-      theme="cxd"
-    >
-      <div
-        class="amis-Tooltip-arrow"
-      />
-      <div
-        class="amis-Tooltip-body"
-      >
-        <span
-          class="amis-Html"
-        >
-          文字提示(加粗)
-        </span>
-      </div>
-    </div>
-  </div>
-</body>
-`;
-
-exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
-<div>
-  <div
-    data-amis-theme="cxd"
-  >
-    <div
       class="amis-Page"
+      data-amis-theme="cxd"
     >
       <div
         class="amis-Page-content"
@@ -251,21 +86,157 @@ exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
                 class="amis-TplField fr-view"
               >
                 <span>
-                  hover激活文字提示
+                  激活文字提示
                 </span>
               </span>
             </div>
-            <div
-              class="amis-TooltipWrapper mb-1"
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="amis-Tooltip amis-Tooltip--light"
+    data-amis-theme="cxd"
+    offset="19,-22"
+    role="tooltip"
+    style="left: 0px; top: 0px; visibility: hidden;"
+    theme="cxd"
+  >
+    <div
+      class="amis-Tooltip-arrow"
+    />
+    <div
+      class="amis-Tooltip-body"
+    >
+      <span
+        class="amis-Html"
+      >
+        提示文字
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Renderer:TooltipWrapper with showArrow 1`] = `
+<body>
+  <div>
+    <div
+      class="amis-TooltipWrapper"
+    >
+      <span
+        class="amis-TplField fr-view"
+      >
+        <span>
+          没有箭头
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="amis-Tooltip amis-Tooltip--light"
+    data-amis-theme="cxd"
+    offset="0,0"
+    role="tooltip"
+    style="left: 0px; top: 0px; visibility: hidden;"
+    theme="cxd"
+  >
+    <div
+      class="amis-Tooltip-title"
+    >
+      标题
+    </div>
+    <div
+      class="amis-Tooltip-body"
+    >
+      <span
+        class="amis-Html"
+      >
+        提示内容
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
+<body>
+  <div>
+    <span
+      class="amis-TooltipWrapper amis-TooltipWrapper--inline"
+      style="font-style: italic;"
+    >
+      <span
+        class="amis-TplField fr-view"
+      >
+        <span>
+          一段文案
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="amis-Tooltip amis-Tooltip--light"
+    data-amis-theme="cxd"
+    offset="0,0"
+    role="tooltip"
+    style="font-weight: bold; left: 0px; top: 0px; visibility: hidden;"
+    theme="cxd"
+  >
+    <div
+      class="amis-Tooltip-arrow"
+    />
+    <div
+      class="amis-Tooltip-body"
+    >
+      <span
+        class="amis-Html"
+      >
+        文字提示(加粗)
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
+<div>
+  <div
+    class="amis-Page"
+    data-amis-theme="cxd"
+  >
+    <div
+      class="amis-Page-content"
+    >
+      <div
+        class="amis-Page-main"
+      >
+        <div
+          class="amis-Page-body"
+          role="page-body"
+        >
+          <div
+            class="amis-TooltipWrapper mb-1"
+          >
+            <span
+              class="amis-TplField fr-view"
             >
-              <span
-                class="amis-TplField fr-view"
-              >
-                <span>
-                  click激活文字提示
-                </span>
+              <span>
+                hover激活文字提示
               </span>
-            </div>
+            </span>
+          </div>
+          <div
+            class="amis-TooltipWrapper mb-1"
+          >
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                click激活文字提示
+              </span>
+            </span>
           </div>
         </div>
       </div>
@@ -277,23 +248,19 @@ exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
 exports[`Renderer:TooltipWrapper with wrapperComponent 1`] = `
 <body>
   <div>
-    <div
-      data-amis-theme="cxd"
+    <pre
+      class="amis-TooltipWrapper"
     >
-      <pre
-        class="amis-TooltipWrapper"
+      <span
+        class="amis-TplField fr-view"
       >
-        <span
-          class="amis-TplField fr-view"
-        >
-          <span>
-            function HelloWorld() {
+        <span>
+          function HelloWorld() {
     console.log('Hello World');
 }
-          </span>
         </span>
-      </pre>
-    </div>
+      </span>
+    </pre>
   </div>
 </body>
 `;

@@ -6,8 +6,7 @@
 
 import React from 'react';
 import Html from './Html';
-import {EnvContext, uncontrollable} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
+import {EnvContext, mergeRefs, uncontrollable} from 'amis-core';
 import Tooltip from './Tooltip';
 import {ClassNamesFn, themeable} from 'amis-core';
 import {Overlay} from 'amis-core';
@@ -137,7 +136,7 @@ export class TooltipWrapper extends React.Component<
     delay: 300
   };
 
-  target: HTMLElement;
+  targetRef = React.createRef<HTMLElement>();
   timer: ReturnType<typeof setTimeout>;
   moutned = true;
   constructor(props: TooltipWrapperProps) {
@@ -165,7 +164,7 @@ export class TooltipWrapper extends React.Component<
   }
 
   getTarget() {
-    return findDOMNode(this);
+    return this.targetRef.current;
   }
 
   show() {
@@ -323,6 +322,17 @@ export class TooltipWrapper extends React.Component<
     const childProps: any = {
       key: 'target'
     };
+
+    if (React.isValidElement(child)) {
+      if (typeof child.type === 'string') {
+        childProps.ref = mergeRefs((child as any).ref, this.targetRef);
+      } else {
+        childProps.forwardedRef = mergeRefs(
+          (child.props as any).forwardedRef,
+          this.targetRef
+        );
+      }
+    }
 
     const triggers = Array.isArray(trigger) ? trigger.concat() : [trigger];
 

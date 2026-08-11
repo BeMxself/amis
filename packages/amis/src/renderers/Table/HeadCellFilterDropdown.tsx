@@ -1,6 +1,5 @@
 import React from 'react';
 import xor from 'lodash/xor';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {
   Overlay,
   PopOver,
@@ -51,6 +50,8 @@ export class HeadCellFilterDropDown extends React.Component<
   HeadCellFilterProps,
   any
 > {
+  rootRef: React.RefObject<HTMLSpanElement> = React.createRef();
+
   state = {
     isOpened: false,
     keyword: '',
@@ -350,6 +351,7 @@ export class HeadCellFilterDropDown extends React.Component<
 
     return (
       <span
+        ref={this.rootRef}
         className={cx(
           `${ns}TableCell-filterBtn`,
           data && typeof data[name] !== 'undefined' ? 'is-active' : ''
@@ -360,10 +362,10 @@ export class HeadCellFilterDropDown extends React.Component<
         </span>
         {isOpened ? (
           <Overlay
-            container={popOverContainer || (() => findDOMNode(this))}
+            container={popOverContainer || (() => this.rootRef.current)}
             placement="left-bottom-left-top right-bottom-right-top"
             target={
-              popOverContainer ? () => findDOMNode(this)!.parentNode : null
+              popOverContainer ? () => this.rootRef.current?.parentNode : null
             }
             show
           >

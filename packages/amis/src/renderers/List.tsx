@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import Sortable from 'sortablejs';
 import omit from 'lodash/omit';
 import {
@@ -532,7 +531,7 @@ export default class List extends React.Component<ListProps, ListState> {
   }
 
   getPopOverContainer() {
-    return findDOMNode(this);
+    return this.body;
   }
 
   handleAction(
@@ -728,7 +727,11 @@ export default class List extends React.Component<ListProps, ListState> {
 
   initDragging() {
     const store = this.props.store;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.body;
+    if (!dom) {
+      return;
+    }
+
     const cx = this.props.classnames;
     this.sortable = new Sortable(
       dom.querySelector(
@@ -1830,6 +1833,7 @@ export class ListItemFieldRenderer extends TableCell {
       render,
       style,
       wrapperComponent: Component,
+      wrapperRef,
       contentsOnly,
       labelClassName,
       value,
@@ -1873,6 +1877,7 @@ export class ListItemFieldRenderer extends TableCell {
 
     return (
       <Component
+        ref={wrapperRef as any}
         style={style}
         className={className}
         tabIndex={tabIndex}

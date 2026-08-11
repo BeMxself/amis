@@ -350,9 +350,9 @@ amisScoped.unmount();
 
 初始项目请参考 <https://github.com/aisuda/amis-react-starter>。
 
-如果在已有项目中，React 版本需要是 `>=16.8.6`，mobx 需要 `^4.5.0`。
+如果在已有项目中，React 版本需要是 `>=18.0.0`，mobx 需要 `^4.5.0`。
 
-amis 1.6.5 及以上版本支持 React 17。
+当前版本支持 React 18 及以上版本。
 
 ### 安装
 

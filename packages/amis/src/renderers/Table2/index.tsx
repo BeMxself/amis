@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {reaction} from 'mobx';
 import {isAlive} from 'mobx-state-tree';
 import cloneDeep from 'lodash/cloneDeep';
@@ -530,6 +529,7 @@ export default class Table2 extends React.Component<Table2Props, object> {
   ];
 
   renderedToolbars: Array<string> = [];
+  rootRef: React.RefObject<HTMLDivElement> = React.createRef();
   tableRef?: any;
   subForms: any = {};
   columns: Array<ColumnProps> = [];
@@ -797,7 +797,7 @@ export default class Table2 extends React.Component<Table2Props, object> {
 
   @autobind
   getPopOverContainer() {
-    return findDOMNode(this);
+    return this.rootRef.current;
   }
 
   @autobind
@@ -2183,6 +2183,7 @@ export default class Table2 extends React.Component<Table2Props, object> {
 
     return (
       <div
+        ref={this.rootRef}
         className={cx(
           'Table-render-wrapper',
           setThemeClassName({

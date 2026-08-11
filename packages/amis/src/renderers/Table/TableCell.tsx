@@ -14,6 +14,7 @@ import type {TestIdBuilder} from 'amis-core';
 
 export interface TableCellProps extends RendererProps {
   wrapperComponent?: React.ElementType;
+  wrapperRef?: React.Ref<HTMLElement>;
   column: any;
   contentsOnly?: boolean;
   testIdBuilder?: TestIdBuilder;
@@ -45,6 +46,7 @@ export class TableCell extends React.Component<TableCellProps> {
       render,
       style = {},
       wrapperComponent: Component,
+      wrapperRef,
       contentsOnly,
       column,
       value,
@@ -171,6 +173,7 @@ export class TableCell extends React.Component<TableCellProps> {
 
     return (
       <Component
+        ref={wrapperRef as any}
         rowSpan={rowSpan > 1 ? rowSpan : undefined}
         style={style}
         className={cx(className)}

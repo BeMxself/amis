@@ -1,4 +1,3 @@
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {JSONPipeOut} from '../util';
 import React from 'react';
 import {NodeWrapper} from './NodeWrapper';
@@ -6,7 +5,7 @@ import {NodeWrapper} from './NodeWrapper';
 export class CommonConfigWrapper extends NodeWrapper {
   // 销毁的时候要把加的 aeEditor-common-config 干掉
   componentWillUnmount() {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.getRootDom();
 
     if (!root) {
       return;
@@ -23,7 +22,7 @@ export class CommonConfigWrapper extends NodeWrapper {
   }
 
   markDom(id: string) {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.getRootDom();
 
     if (!root || !id) {
       return;

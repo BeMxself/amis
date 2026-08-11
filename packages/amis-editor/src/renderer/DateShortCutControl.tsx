@@ -4,7 +4,6 @@
 import React from 'react';
 import cx from 'classnames';
 import Sortable from 'sortablejs';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {FormItem, Icon} from 'amis';
 
 import {FormControlProps, Option, optionValueCompare} from 'amis-core';
@@ -117,6 +116,7 @@ export class DateShortCutControl extends React.PureComponent<
   sortable?: Sortable;
   drag?: HTMLElement | null;
   target: HTMLElement | null;
+  rootRef = React.createRef<HTMLDivElement>();
   certainDropDownOptions: Array<Option>;
   modifyDropDownOptions: Array<Option>;
 
@@ -212,7 +212,11 @@ export class DateShortCutControl extends React.PureComponent<
    * 初始化拖动
    */
   initDragging() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
+
     this.sortable = new Sortable(
       dom.querySelector(`.${klass}-content`) as HTMLElement,
       {
@@ -475,7 +479,7 @@ export class DateShortCutControl extends React.PureComponent<
   render() {
     const {className, label, render} = this.props;
     return (
-      <div className={cx(klass, className)}>
+      <div ref={this.rootRef} className={cx(klass, className)}>
         <header className={klass + '-header'}>
           <label>{label}</label>
         </header>

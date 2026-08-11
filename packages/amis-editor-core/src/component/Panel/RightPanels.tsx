@@ -6,7 +6,6 @@ import {EditorManager} from '../../manager';
 import {EditorStoreType} from '../../store/editor';
 import {Icon} from '../../icons/index';
 import {autobind, isHasPluginIcon} from '../../util';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {PanelItem} from '../../plugin';
 import {WidthDraggableBtn} from '../base/WidthDraggableBtn';
 import {getEditorThemeScopeProps} from '../../themeScope';
@@ -30,6 +29,8 @@ export class RightPanels extends React.Component<
   RightPanelsProps,
   RightPanelsStates
 > {
+  rootRef = React.createRef<HTMLDivElement>();
+
   constructor(props: any) {
     super(props);
 
@@ -61,7 +62,7 @@ export class RightPanels extends React.Component<
 
   @autobind
   getPopOverContainer() {
-    return findDOMNode(this) as HTMLElement;
+    return this.rootRef.current || document.body;
   }
 
   @autobind
@@ -113,6 +114,7 @@ export class RightPanels extends React.Component<
 
     return panels.length > 0 ? (
       <div
+        ref={this.rootRef}
         {...getEditorThemeScopeProps(theme, manager.config.theme || 'cxd')}
         className={cx(
           'editor-right-panel width-draggable',

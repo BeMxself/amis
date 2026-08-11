@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cloneDeep from 'lodash/cloneDeep';
 import uniq from 'lodash/uniq';
 import {
@@ -65,6 +64,7 @@ export class CRUDFiltersControl extends React.Component<
   CRUDFiltersControlState
 > {
   dom?: HTMLElement;
+  rootRef = React.createRef<HTMLDivElement>();
 
   constructor(props: CRUDFiltersControlProps) {
     super(props);
@@ -76,7 +76,7 @@ export class CRUDFiltersControl extends React.Component<
   }
 
   componentDidMount(): void {
-    this.dom = findDOMNode(this) as HTMLElement;
+    this.dom = this.rootRef.current ?? undefined;
     this.initOptions();
   }
 
@@ -803,7 +803,7 @@ export class CRUDFiltersControl extends React.Component<
     const {options, loading} = this.state;
 
     return (
-      <div className={cx('ae-CRUDConfigControl')}>
+      <div ref={this.rootRef} className={cx('ae-CRUDConfigControl')}>
         {this.renderHeader()}
         <ul className={cx('ae-CRUDConfigControl-list')}>
           {loading ? (

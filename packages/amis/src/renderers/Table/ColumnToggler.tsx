@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import Sortable from 'sortablejs';
 import cloneDeep from 'lodash/cloneDeep';
 import {RendererProps} from 'amis-core';
@@ -252,6 +251,7 @@ export default class ColumnToggler<
   dragRef(ref: any) {
     const {enableSorting} = this.state;
     const {draggable} = this.props;
+    this.dragRefDOM = ref;
 
     if (enableSorting && draggable && ref) {
       this.initDragging();
@@ -259,24 +259,23 @@ export default class ColumnToggler<
   }
 
   initDragging() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.dragRefDOM;
+    if (!dom) {
+      return;
+    }
+
     const cx = this.props.classnames;
 
-    this.sortable = new Sortable(
-      dom.querySelector(
-        getStableClassSelector(cx, 'ColumnToggler-modal-content')
-      ) as HTMLElement,
-      {
-        group: `ColumnToggler-modal-content`,
-        animation: 150,
-        handle: getStableClassSelector(cx, 'ColumnToggler-menuItem-dragBar'),
-        ghostClass: getStableClassName(cx, 'ColumnToggler-menuItem--dragging'),
-        onEnd: (e: any) => {
-          if (e.newIndex === e.oldIndex) return;
-          this.moveColumn(e.oldIndex, e.newIndex);
-        }
+    this.sortable = new Sortable(dom, {
+      group: `ColumnToggler-modal-content`,
+      animation: 150,
+      handle: getStableClassSelector(cx, 'ColumnToggler-menuItem-dragBar'),
+      ghostClass: getStableClassName(cx, 'ColumnToggler-menuItem--dragging'),
+      onEnd: (e: any) => {
+        if (e.newIndex === e.oldIndex) return;
+        this.moveColumn(e.oldIndex, e.newIndex);
       }
-    );
+    });
   }
 
   destroyDragging() {

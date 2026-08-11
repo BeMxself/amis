@@ -29,7 +29,6 @@ import {isEffectiveApi} from 'amis-core';
 import {Spinner} from 'amis-ui';
 import {ResultBox} from 'amis-ui';
 import {autobind, getTreeAncestors, isMobile, createObject} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {normalizeOptions} from 'amis-core';
 import {ActionObject} from 'amis-core';
 import {FormOptionsSchema, SchemaApi} from '../../Schema';
@@ -211,8 +210,7 @@ export default class TreeSelectControl extends React.Component<
   } = {};
 
   target: HTMLElement | null;
-  targetRef = (ref: any) =>
-    (this.target = ref ? (findDOMNode(ref) as HTMLElement) : null);
+  targetRef = (ref: HTMLDivElement | null) => (this.target = ref);
 
   /** source数据源是否已加载 */
   sourceLoaded: boolean = false;
@@ -876,7 +874,7 @@ export default class TreeSelectControl extends React.Component<
             maxTagCount={maxTagCount}
             overflowTagPopover={overflowTagPopover}
             disabled={disabled}
-            ref={this.targetRef}
+            forwardedRef={this.targetRef}
             placeholder={__(placeholder ?? 'placeholder.empty')}
             inputPlaceholder={''}
             className={cx(`TreeSelect`, {

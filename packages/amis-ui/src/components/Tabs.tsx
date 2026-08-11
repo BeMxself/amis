@@ -21,7 +21,6 @@ import {autobind, guid} from 'amis-core';
 import {getStableClassName, getStableClassSelector} from 'amis-core';
 import {Icon} from './icons';
 import debounce from 'lodash/debounce';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import TooltipWrapper from './TooltipWrapper';
 import {resizeSensor} from 'amis-core';
 import PopOverContainer from './PopOverContainer';
@@ -71,10 +70,9 @@ export interface TabProps extends ThemeProps {
 }
 
 class TabComponent extends React.PureComponent<TabProps> {
-  contentDom: any;
   touch: any = {};
   touchStartTime: number;
-  contentRef = (ref: any) => (this.contentDom = ref);
+  contentRef = React.createRef<HTMLDivElement>();
 
   @autobind
   onTouchStart(event: React.TouchEvent) {
@@ -128,6 +126,7 @@ class TabComponent extends React.PureComponent<TabProps> {
 
     return (
       <Transition
+        nodeRef={this.contentRef}
         in={activeKey === eventKey}
         mountOnEnter={mountOnEnter}
         unmountOnExit={typeof reload === 'boolean' ? reload : unmountOnExit}
@@ -135,7 +134,7 @@ class TabComponent extends React.PureComponent<TabProps> {
       >
         {(status: string) => {
           if (status === ENTERING) {
-            this.contentDom.offsetWidth;
+            this.contentRef.current?.offsetWidth;
           }
           return (
             <div
@@ -221,6 +220,7 @@ export class Tabs extends React.Component<TabsProps, any> {
   };
 
   static Tab = Tab;
+  rootDom?: HTMLDivElement | null;
   navMain = React.createRef<HTMLUListElement>(); // HTMLDivElement
   scroll: boolean = false;
   sortable?: Sortable;
@@ -284,6 +284,14 @@ export class Tabs extends React.Component<TabsProps, any> {
     };
   }
 
+  rootRef = (ref: HTMLDivElement | null) => {
+    this.rootDom = ref;
+
+    if (ref && this.dragTip && !this.sortable) {
+      this.initDragging();
+    }
+  };
+
   componentDidMount() {
     this.computedWidth();
     if (this.navMain) {
@@ -337,7 +345,10 @@ export class Tabs extends React.Component<TabsProps, any> {
     // 移动端取消箭头切换，改为滚动切换激活项居中
     const {activeKey, classnames: cx, mobileUI} = this.props;
     if (mobileUI && preProps.activeKey !== activeKey) {
-      const dom = findDOMNode(this) as HTMLElement;
+      const dom = this.rootDom;
+      if (!dom) {
+        return;
+      }
       const activeTab = dom.querySelector(
         `${getStableClassSelector(cx, 'Tabs-link')}.is-active`
       ) as HTMLElement;
@@ -487,12 +498,17 @@ export class Tabs extends React.Component<TabsProps, any> {
   @autobind
   initDragging() {
     const {classnames: cx, onDragChange} = this.props;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootDom;
+    const links = dom?.querySelector(
+      getStableClassSelector(cx, 'Tabs-links')
+    ) as HTMLElement | null;
+
+    if (!links) {
+      return;
+    }
 
     this.sortable = new Sortable(
-      dom.querySelector(
-        getStableClassSelector(cx, 'Tabs-links')
-      ) as HTMLElement,
+      links,
       {
         group: this.id,
         animation: 250,
@@ -809,7 +825,7 @@ export class Tabs extends React.Component<TabsProps, any> {
           key="togglor"
           placement="center-bottom-center-top center-top-center-bottom"
           popOverClassName={cx('Tabs-PopOver')}
-          popOverContainer={popOverContainer || (() => findDOMNode(this))}
+          popOverContainer={popOverContainer || (() => this.rootDom)}
           popOverRender={({onClose}) => (
             <ul
               className={cx('Tabs-PopOverList', 'DropDown-menu')}
@@ -901,6 +917,7 @@ export class Tabs extends React.Component<TabsProps, any> {
           className
         )}
         style={style}
+        ref={this.rootRef}
         {...testIdBuilder?.getTestId()}
         data-role="container"
       >

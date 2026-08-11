@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {
   Renderer,
   RendererProps,
@@ -594,7 +593,11 @@ export default class Cards extends React.Component<GridProps, object> {
     if (this.sortable) return;
 
     const store = this.props.store;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.body;
+    if (!dom) {
+      return;
+    }
+
     const cx = this.props.classnames;
     this.sortable = new Sortable(
       dom.querySelector(

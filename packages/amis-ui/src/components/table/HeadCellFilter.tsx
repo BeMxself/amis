@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import isEqual from 'lodash/isEqual';
 
 import {
@@ -183,11 +182,7 @@ export class HeadCellFilter extends React.PureComponent<Props, State> {
           column.filtered ||
           (options && options.some((item: any) => item.selected))
         }
-        popOverContainer={
-          popOverContainer
-            ? popOverContainer
-            : () => findDOMNode(this) as HTMLElement
-        }
+        popOverContainer={popOverContainer}
         selectedKeys={this.state.filteredValue}
         {...filterProps}
       ></HeadCellDropDown>

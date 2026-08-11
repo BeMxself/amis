@@ -4,6 +4,17 @@ import * as renderer from 'react-test-renderer';
 import '../../src';
 import {render as amisRender} from '../../src';
 import {makeEnv, wait} from '../helper';
+import {Card} from 'amis-ui';
+
+test('Components:Card exposes root DOM through forwardedRef', () => {
+  const cardRef = React.createRef<HTMLDivElement>();
+
+  render(<Card forwardedRef={cardRef}>Card body</Card>);
+
+  expect(cardRef.current).toBeInTheDocument();
+  expect(cardRef.current).toHaveClass('amis-Card');
+  expect(cardRef.current).toHaveTextContent('Card body');
+});
 
 test('Renderer:card', () => {
   const {container} = render(

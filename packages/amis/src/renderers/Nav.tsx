@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {matchSorter} from 'match-sorter';
 import isEqual from 'lodash/isEqual';
 import isString from 'lodash/isString';
@@ -522,7 +521,13 @@ export class Navigation extends React.Component<
       this.dropInfo = null;
       return;
     }
-    const ul = (findDOMNode(this) as HTMLElement).firstChild as HTMLElement;
+    const ul = this.menuParentRef.current?.firstChild as HTMLElement;
+    if (!ul) {
+      this.setState({dropIndicator: undefined});
+      this.dropInfo = null;
+      return;
+    }
+
     if (position === 'self') {
       const dropIndicator = {
         top: rect.top - ul.getBoundingClientRect().top,

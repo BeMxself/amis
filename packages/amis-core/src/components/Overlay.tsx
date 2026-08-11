@@ -6,9 +6,9 @@
 
 import Portal from 'react-overlays/Portal';
 import classNames from 'classnames';
-import ReactDOM from 'react-dom';
-import {findDomCompat as findDOMNode} from '../utils';
+import {findDomCompat} from '../utils';
 import React, {cloneElement} from 'react';
+import {mergeRefs} from '../utils/reactRef';
 import {
   autobind,
   calculatePosition,
@@ -42,6 +42,29 @@ function onScroll(elem: HTMLElement, callback: () => void) {
   };
 }
 
+function resolveDOMElement(target: any): HTMLElement | null {
+  return target ? findDomCompat(target) : null;
+}
+
+const forwardRefSymbol = Symbol.for('react.forward_ref');
+
+function canAttachRef(child: React.ReactElement) {
+  const childType = child.type as any;
+
+  return (
+    typeof childType === 'string' ||
+    !!childType?.prototype?.isReactComponent ||
+    childType?.$$typeof === forwardRefSymbol
+  );
+}
+
+function shouldUseForwardedRef(child: React.ReactElement) {
+  const childType = child.type as any;
+  const composed = childType?.ComposedComponent;
+
+  return !!composed?.prototype?.isReactComponent;
+}
+
 class Position extends React.Component<any, any> {
   props: any;
   _lastTarget: any;
@@ -50,7 +73,7 @@ class Position extends React.Component<any, any> {
   parentPopover: any;
   // setState: (state: any) => void;
   componentId: string;
-  overlay: HTMLDivElement;
+  overlay: HTMLDivElement | null = null;
 
   static defaultProps = {
     containerPadding: 0,
@@ -96,6 +119,10 @@ class Position extends React.Component<any, any> {
 
     const watchTargetSizeChange = this.props.watchTargetSizeChange;
     const overlay = this.overlay;
+    if (!overlay) {
+      return this.setState({});
+    }
+
     const container = getContainer(
       this.props.container,
       ownerDocument(this).body
@@ -135,14 +162,17 @@ class Position extends React.Component<any, any> {
   }
 
   componentDidMount() {
-    this.overlay = findDOMNode(this) as HTMLDivElement;
+    if (!this.overlay) {
+      this.overlay = resolveDOMElement(this) as HTMLDivElement;
+    }
+
     this.updatePosition(this.getTarget());
   }
 
   getTarget = () => {
     const {target} = this.props;
     const targetElement = typeof target === 'function' ? target() : target;
-    return (targetElement && findDOMNode(targetElement)) || null;
+    return resolveDOMElement(targetElement);
   };
 
   componentDidUpdate(prevProps: any) {
@@ -162,6 +192,29 @@ class Position extends React.Component<any, any> {
 
     this.updatePosition(target);
   };
+
+  overlayRef = (overlay: any) => {
+    this.overlay = resolveDOMElement(overlay) as HTMLDivElement | null;
+  };
+
+  getOverlayRefProps(child: React.ReactElement) {
+    if (shouldUseForwardedRef(child)) {
+      return {
+        forwardedRef: mergeRefs(
+          (child.props as any).forwardedRef,
+          this.overlayRef
+        )
+      };
+    }
+
+    if (canAttachRef(child)) {
+      return {
+        ref: mergeRefs((child as any).ref, this.overlayRef)
+      };
+    }
+
+    return {};
+  }
 
   componentWillUnmount() {
     // 一个 PopOver 关闭时，需把挂载父 PopOver 的标记去掉
@@ -192,8 +245,10 @@ class Position extends React.Component<any, any> {
     delete props.shouldUpdatePosition;
 
     const child = React.Children.only(children);
+    const overlayRefProps = this.getOverlayRefProps(child);
     return cloneElement(child, {
       ...props,
+      ...overlayRefProps,
       ...arrowPosition,
       // 防止 child offset 被 Overlay offset 覆盖
       ...(child.props.offset ? {offset: child.props.offset} : {}),
@@ -300,7 +355,7 @@ export default class Overlay extends React.Component<
   getTargetDom() {
     const {target} = this.props;
     const targetElement = typeof target === 'function' ? target() : target;
-    return (targetElement && findDOMNode(targetElement)) || null;
+    return resolveDOMElement(targetElement);
   }
 
   getTriggerThemeScope(themeName?: string) {

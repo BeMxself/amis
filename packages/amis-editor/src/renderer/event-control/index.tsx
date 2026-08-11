@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import Sortable from 'sortablejs';
 import {
@@ -158,6 +157,7 @@ export class EventControl extends React.Component<
     [prop: string]: Sortable;
   } = {};
   drag?: HTMLElement | null;
+  rootRef = React.createRef<HTMLDivElement>();
   unReaction: any;
   unEventReaction: any;
   submitSubscribers: Array<(value: any) => any> = [];
@@ -571,7 +571,11 @@ export class EventControl extends React.Component<
 
   initDragging() {
     this.eventPanelSortMap = {};
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
+
     const {onEvent, eventPanelActive} = this.state;
     const eventPanel: object[] = Array.prototype.slice.call(
       dom.getElementsByClassName('item-content')
@@ -1141,7 +1145,7 @@ export class EventControl extends React.Component<
     const events = [...itemEvents, ...commonEvents];
 
     return (
-      <div className="ae-event-control">
+      <div ref={this.rootRef} className="ae-event-control">
         <header
           className={cx({
             'ae-event-control-header': true,

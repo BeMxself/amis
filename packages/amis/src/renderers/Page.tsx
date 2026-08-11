@@ -10,6 +10,7 @@ import {
   Renderer,
   RendererProps,
   filterTarget,
+  setReactRef,
   setThemeClassName
 } from 'amis-core';
 import {observer} from 'mobx-react';
@@ -257,6 +258,7 @@ export interface PageProps
   data: any;
   store: IServiceStore;
   location?: Location;
+  forwardedRef?: React.Ref<HTMLDivElement>;
 }
 
 export default class Page extends React.Component<PageProps> {
@@ -267,6 +269,7 @@ export default class Page extends React.Component<PageProps> {
   startX: number;
   startWidth: number;
   codeWrap: HTMLElement;
+  rootDom: HTMLDivElement | null = null;
 
   static defaultProps = {
     asideClassName: '',
@@ -281,6 +284,11 @@ export default class Page extends React.Component<PageProps> {
     pullRefresh: {
       disabled: true
     }
+  };
+
+  setRootRef = (ref: HTMLDivElement | null) => {
+    this.rootDom = ref;
+    setReactRef(this.props.forwardedRef, ref);
   };
 
   static propsList: Array<keyof PageProps> = [
@@ -449,6 +457,11 @@ export default class Page extends React.Component<PageProps> {
     const props = this.props;
     const store = props.store;
     const initApi = props.initApi;
+
+    if (prevProps.forwardedRef !== props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(props.forwardedRef, this.rootDom);
+    }
 
     if (
       // 前一次不构成条件，这次更新构成了条件，则需要重新拉取
@@ -1050,6 +1063,7 @@ export default class Page extends React.Component<PageProps> {
 
     return (
       <div
+        ref={this.setRootRef}
         className={cx(
           `Page`,
           hasAside ? `Page--withSidebar` : '',

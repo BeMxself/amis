@@ -14,7 +14,6 @@ import FormulaPicker, {CustomFormulaPickerProps} from './FormulaPicker';
 import {reaction} from 'mobx';
 import {renderFormulaValue} from '../FormulaControl';
 import {getVariables, getQuickVariables} from 'amis-editor-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 
 import type {VariableItem, CodeMirror} from 'amis-ui';
 
@@ -674,7 +673,7 @@ export class TextareaFormulaControl extends React.Component<
         ) : null}
 
         <TooltipWrapper
-          container={() => findDOMNode(this) as HTMLElement}
+          container={() => this.wrapRef.current}
           trigger="hover"
           placement="top"
           style={{fontSize: '12px'}}

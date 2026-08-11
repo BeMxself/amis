@@ -51,7 +51,6 @@ import {Button, SpinnerExtraProps, TooltipWrapper} from 'amis-ui';
 import {Select} from 'amis-ui';
 import {getExprProperties, isObject} from 'amis-core';
 import pick from 'lodash/pick';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {evalExpression, filter} from 'amis-core';
 import {isEffectiveApi, isApiOutdated, str2function} from 'amis-core';
 import omit from 'lodash/omit';
@@ -690,6 +689,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   mounted: boolean;
   /** 父容器, 主要用于定位CRUD内部popover的挂载点 */
   parentContainer: Element | null;
+  rootRef = React.createRef<HTMLDivElement>();
 
   filterOnEvent = memoize(onEvent =>
     omitBy(onEvent, (event, key: any) => !INNER_EVENTS.includes(key))
@@ -919,10 +919,10 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
 
   /** 查找CRUD最近层级的父窗口 */
   getClosestParentContainer() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
     const overlay = dom?.closest('[role=dialog]');
 
-    return overlay;
+    return overlay || null;
   }
 
   controlRef(control: any) {
@@ -1704,11 +1704,11 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
 
     this.search(undefined, undefined, undefined);
 
-    if (autoJumpToTopOnPagerChange && this.control) {
-      if (this.control.scrollToTop) {
+    if (autoJumpToTopOnPagerChange) {
+      if (this.control?.scrollToTop) {
         this.control.scrollToTop();
       } else {
-        (findDOMNode(this.control) as HTMLElement).scrollIntoView();
+        this.rootRef.current?.scrollIntoView();
         const scrolledY = window.scrollY;
         scrolledY && window.scroll(0, scrolledY);
       }
@@ -3219,6 +3219,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
 
     return (
       <div
+        ref={this.rootRef}
         className={cx('Crud', className, {
           'is-loading': store.loading,
           'is-mobile': mobileUI

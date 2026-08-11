@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import DeepDiff from 'deep-diff';
 import uniqBy from 'lodash/uniqBy';
@@ -79,10 +78,11 @@ class CustomOptionControl extends React.Component<OptionSourceControlProps> {
   sortable?: Sortable;
   drag?: HTMLElement | null;
   target: HTMLElement | null;
+  rootRef = React.createRef<HTMLDivElement>();
 
   @autobind
-  targetRef(ref: any) {
-    this.target = ref ? (findDOMNode(ref) as HTMLElement) : null;
+  targetRef(ref: HTMLElement | null) {
+    this.target = ref;
   }
 
   @autobind
@@ -98,7 +98,10 @@ class CustomOptionControl extends React.Component<OptionSourceControlProps> {
 
   initDragging() {
     const {onChange} = this.props;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
     this.sortable = new Sortable(
       dom.querySelector('.ae-OptionControl-content') as HTMLElement,
@@ -554,7 +557,7 @@ class CustomOptionControl extends React.Component<OptionSourceControlProps> {
   render() {
     const {options, multiple: multipleProps, render} = this.props;
     return (
-      <div className="ae-OptionControl-wrapper">
+      <div ref={this.rootRef} className="ae-OptionControl-wrapper">
         {Array.isArray(options) && options.length ? (
           <ul className="ae-OptionControl-content" ref={this.dragRef}>
             {options.map((option, index) =>
@@ -569,8 +572,8 @@ class CustomOptionControl extends React.Component<OptionSourceControlProps> {
         ) : (
           <div className="ae-OptionControl-placeholder">无选项</div>
         )}
-        <div className="ae-OptionControl-footer">
-          <Button level="enhance" onClick={this.handleAdd} ref={this.targetRef}>
+        <div className="ae-OptionControl-footer" ref={this.targetRef}>
+          <Button level="enhance" onClick={this.handleAdd}>
             添加选项
           </Button>
           {/* {render('option-control-batchAdd', this.buildBatchAddSchema())} */}

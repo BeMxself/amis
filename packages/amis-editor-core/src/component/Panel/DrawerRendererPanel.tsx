@@ -4,7 +4,6 @@ import {EditorManager} from '../../manager';
 import {EditorStoreType} from '../../store/editor';
 import {Drawer} from 'amis';
 import {autobind} from '../../util';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {EditorNodeType} from '../../store/node';
 
 export interface PanelsProps {
@@ -17,9 +16,11 @@ export interface PanelsProps {
 
 @observer
 export class DrawerRendererPanel extends React.Component<PanelsProps> {
+  drawerRef = React.createRef<any>();
+
   @autobind
   getPopOverContainer() {
-    return findDOMNode(this) as HTMLElement;
+    return this.drawerRef.current?.modalDom || document.body;
   }
 
   render() {
@@ -29,6 +30,7 @@ export class DrawerRendererPanel extends React.Component<PanelsProps> {
 
     return (
       <Drawer
+        ref={this.drawerRef}
         position="left"
         size="md"
         theme={theme}

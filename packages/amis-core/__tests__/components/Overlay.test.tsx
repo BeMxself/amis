@@ -1,6 +1,7 @@
 import React from 'react';
 import {cleanup, render, waitFor} from '@testing-library/react';
 import Overlay from '../../src/components/Overlay';
+import PopOver from '../../src/components/PopOver';
 import {EnvContext} from '../../src/env';
 import {getTheme, theme, ThemeContext} from '../../src/theme';
 
@@ -64,6 +65,33 @@ function expectTooltipInScope(
         `[data-amis-theme="${themeName}"] [role="tooltip"]`
     )
   ).toBeTruthy();
+}
+
+function mockElementRect(
+  element: HTMLElement,
+  rect: Partial<DOMRect> = {}
+) {
+  const width = rect.width ?? 100;
+  const height = rect.height ?? 20;
+  const left = rect.left ?? 0;
+  const top = rect.top ?? 0;
+
+  Object.defineProperties(element, {
+    offsetWidth: {configurable: true, value: width},
+    offsetHeight: {configurable: true, value: height}
+  });
+  element.getBoundingClientRect = () =>
+    ({
+      x: left,
+      y: top,
+      top,
+      left,
+      width,
+      height,
+      right: left + width,
+      bottom: top + height,
+      toJSON: () => ({})
+    } as DOMRect);
 }
 
 afterEach(() => {
@@ -178,4 +206,42 @@ test('Overlay applies scope inside iframe container document', async () => {
     expectTooltipInScope(previewBody, 'cxd', 'iframe scoped tooltip');
   });
   expect(document.body.querySelector('[role="tooltip"]')).toBeNull();
+});
+
+test('Overlay preserves PopOver forwarded root ref while positioning', async () => {
+  const target = document.createElement('button');
+  mockElementRect(target, {left: 8, top: 12, width: 80, height: 24});
+  document.body.appendChild(target);
+
+  const forwardedRef = jest.fn();
+
+  render(
+    <EnvContext.Provider
+      value={
+        {
+          getModalContainer: () => document.body,
+          theme: getTheme('cxd')
+        } as any
+      }
+    >
+      <ThemeContext.Provider value="cxd">
+        <Overlay show target={() => target}>
+          <PopOver forwardedRef={forwardedRef}>popover content</PopOver>
+        </Overlay>
+      </ThemeContext.Provider>
+    </EnvContext.Provider>
+  );
+
+  await waitFor(() => {
+    expect(forwardedRef).toHaveBeenCalledWith(expect.any(HTMLDivElement));
+  });
+
+  await waitFor(() => {
+    const popover = document.body.querySelector(
+      '[role="popover"]'
+    ) as HTMLElement;
+
+    expect(popover).toBeTruthy();
+    expect(popover.style.visibility).not.toBe('hidden');
+  });
 });

@@ -288,6 +288,45 @@ test('Renderer:dialog does not fallback to body when custom modal container is u
   expect(document.body.querySelector('[role="dialog"]')).toBeNull();
 });
 
+test('Components:Modal exposes content DOM through contentDomRef', () => {
+  const contentDomRef = React.createRef<HTMLDivElement>();
+
+  render(
+    <Modal show onHide={jest.fn()} contentDomRef={contentDomRef}>
+      <div data-testid="modal-body">Modal body</div>
+    </Modal>
+  );
+
+  expect(contentDomRef.current).toBeInTheDocument();
+  expect(contentDomRef.current).toHaveClass('amis-Modal-content');
+  expect(contentDomRef.current).toContainElement(
+    screen.getByTestId('modal-body')
+  );
+});
+
+test('Components:Drawer exposes content DOM through contentDomRef', () => {
+  const contentDomRef = React.createRef<HTMLDivElement>();
+
+  render(
+    <Drawer
+      show
+      position="left"
+      size="md"
+      container={document.body}
+      onHide={jest.fn()}
+      contentDomRef={contentDomRef}
+    >
+      <div data-testid="drawer-body">Drawer body</div>
+    </Drawer>
+  );
+
+  expect(contentDomRef.current).toBeInTheDocument();
+  expect(contentDomRef.current).toHaveClass('amis-Drawer-content');
+  expect(contentDomRef.current).toContainElement(
+    screen.getByTestId('drawer-body')
+  );
+});
+
 test('Components:Modal closes from stable root class on outside click', () => {
   const onHide = jest.fn();
 

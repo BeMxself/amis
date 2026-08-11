@@ -11,12 +11,12 @@ import pick from 'lodash/pick';
 import mapValues from 'lodash/mapValues';
 import {saveAs} from 'file-saver';
 import {normalizeApi} from './utils/api';
-import {findDomCompat as findDOMNode} from './utils/findDomCompat';
 import LazyComponent from './components/LazyComponent';
 import {hasAsyncRenderers, loadAsyncRenderersByType} from './factory';
 import {dispatchEvent} from './utils/renderer-event';
 import {GlobalVariableItem} from './globalVar';
 import {getThemeScope} from './theme';
+import {mergeRefs} from './utils/reactRef';
 
 export interface RootRendererProps extends RootProps {
   /**
@@ -49,6 +49,7 @@ export interface RootRendererProps extends RootProps {
 @observer
 export class RootRenderer extends React.Component<RootRendererProps> {
   store: IRootStore;
+  rootRef = React.createRef<HTMLElement>();
   static contextType = ScopedContext;
 
   constructor(props: RootRendererProps) {
@@ -107,6 +108,22 @@ export class RootRenderer extends React.Component<RootRendererProps> {
     });
   }
 
+  attachRootRef(node: React.ReactNode) {
+    if (!React.isValidElement(node)) {
+      return node;
+    }
+
+    if (typeof node.type === 'string') {
+      return React.cloneElement(node, {
+        ref: mergeRefs((node as any).ref, this.rootRef)
+      } as any);
+    }
+
+    return React.cloneElement(node, {
+      forwardedRef: mergeRefs((node.props as any).forwardedRef, this.rootRef)
+    } as any);
+  }
+
   componentDidMount() {
     this.applyRootThemeScope();
 
@@ -124,7 +141,7 @@ export class RootRenderer extends React.Component<RootRendererProps> {
       typeof this.props.env.affixOffsetBottom !== 'undefined'
     ) {
       // top: var(--affix-offset-top);
-      const dom = findDOMNode(this);
+      const dom = this.rootRef.current;
       if (dom?.parentElement) {
         dom.parentElement.style.cssText += `--affix-offset-top: ${
           this.props.env.affixOffsetTop || 0
@@ -180,7 +197,7 @@ export class RootRenderer extends React.Component<RootRendererProps> {
   }
 
   applyRootThemeScope() {
-    const node = findDOMNode(this) as HTMLElement;
+    const node = this.rootRef.current;
     const scope = getThemeScope(this.props.theme);
 
     if (node) {
@@ -600,18 +617,20 @@ export class RootRenderer extends React.Component<RootRendererProps> {
       return <LazyComponent className="RootLoader" />;
     }
 
+    const root = this.attachRootRef(
+      render(pathPrefix!, schema, {
+        ...rest,
+        topStore: this.store,
+        data: this.store.downStream,
+        context: store.context,
+        onAction: this.handleAction,
+        dispatchEvent: this.dispatchEvent
+      }) as JSX.Element
+    );
+
     return (
       <>
-        {
-          render(pathPrefix!, schema, {
-            ...rest,
-            topStore: this.store,
-            data: this.store.downStream,
-            context: store.context,
-            onAction: this.handleAction,
-            dispatchEvent: this.dispatchEvent
-          }) as JSX.Element
-        }
+        {root}
 
         {this.renderSpinner()}
 

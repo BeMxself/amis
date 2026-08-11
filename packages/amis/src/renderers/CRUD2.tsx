@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import omitBy from 'lodash/omitBy';
 import pick from 'lodash/pick';
 import findIndex from 'lodash/findIndex';
@@ -392,6 +391,7 @@ export default class CRUD2<T extends CRUD2Props> extends React.Component<
   };
 
   control: any;
+  rootRef = React.createRef<HTMLDivElement>();
 
   lastQuery: any;
   lastData: any;
@@ -847,8 +847,12 @@ export default class CRUD2<T extends CRUD2Props> extends React.Component<
     store.changePage(page, perPage);
     this.getData();
 
-    if (autoJumpToTopOnPagerChange && this.control) {
-      (findDOMNode(this.control) as HTMLElement).scrollIntoView();
+    if (autoJumpToTopOnPagerChange) {
+      if (this.control?.scrollToTop) {
+        this.control.scrollToTop();
+      } else {
+        this.rootRef.current?.scrollIntoView();
+      }
       const scrolledY = window.scrollY;
       scrolledY && window.scroll(0, scrolledY);
     }
@@ -1748,6 +1752,7 @@ export default class CRUD2<T extends CRUD2Props> extends React.Component<
 
     return (
       <div
+        ref={this.rootRef}
         className={cx('Crud2', className, {
           'is-loading': store.loading,
           'is-mobile': mobileUI,

@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {observer} from 'mobx-react';
 import {
   RendererProps,
@@ -280,9 +279,7 @@ export class HeadCellSearchDropDown extends React.Component<
             testIdBuilder={testIdBuilder?.getChild('search-icon')}
           />
         }
-        popOverContainer={
-          popOverContainer ? popOverContainer : () => findDOMNode(this)
-        }
+        popOverContainer={popOverContainer}
         filterDropdown={({
           setSelectedKeys,
           selectedKeys,

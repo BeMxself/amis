@@ -12,7 +12,6 @@ import isInteger from 'lodash/isInteger';
 import unionWith from 'lodash/unionWith';
 import compact from 'lodash/compact';
 import uniq from 'lodash/uniq';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {PopUp, ResultBox, SpinnerExtraProps} from 'amis-ui';
 import {autobind, filterTree, createObject} from 'amis-core';
 import {Spinner} from 'amis-ui';
@@ -118,6 +117,7 @@ export default class TagControl extends React.PureComponent<
   TagState
 > {
   input: React.RefObject<any> = React.createRef();
+  inputRoot: React.RefObject<HTMLDivElement> = React.createRef();
 
   static defaultProps = {
     resetValue: '',
@@ -540,12 +540,12 @@ export default class TagControl extends React.PureComponent<
 
   @autobind
   getTarget() {
-    return this.input.current;
+    return this.inputRoot.current;
   }
 
   @autobind
   getParent() {
-    return this.input.current && findDOMNode(this.input.current)!.parentElement;
+    return this.inputRoot.current?.parentElement;
   }
 
   reload(subpath?: string, query?: any) {
@@ -636,6 +636,7 @@ export default class TagControl extends React.PureComponent<
                   disabled
                 })}
                 onResultClick={mobileUI ? this.handleFocus : undefined}
+                forwardedRef={this.inputRoot}
                 inputPlaceholder={''}
                 onChange={this.handleInputChange}
                 className={cx('TagControl-input')}

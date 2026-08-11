@@ -221,14 +221,14 @@ function VariableList(props: VariableListProps) {
                           tooltip={option.description ?? option.label}
                           tooltipTheme="dark"
                         >
-                          <>
+                          <span ref={ref}>
                             <label onClick={onClick}>{option.label}</label>
                             <Icon
                               onClick={onClick}
                               icon="ellipsis-v"
                               className="icon"
                             />
-                          </>
+                          </span>
                         </TooltipWrapper>
                       )}
                     </PopOverContainer>

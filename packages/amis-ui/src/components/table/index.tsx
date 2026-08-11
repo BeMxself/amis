@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import find from 'lodash/find';
 import isEqual from 'lodash/isEqual';
 import debounce from 'lodash/debounce';
@@ -247,7 +246,7 @@ export class Table extends React.PureComponent<TableProps, TableState> {
 
   @autobind
   getPopOverContainer() {
-    return findDOMNode(this) as HTMLElement;
+    return this.tableDom.current as HTMLElement;
   }
 
   // 表头配置
@@ -310,7 +309,7 @@ export class Table extends React.PureComponent<TableProps, TableState> {
 
     this.updateStickyHeader();
 
-    const currentNode = findDOMNode(this) as HTMLElement;
+    const currentNode = this.tableDom.current as HTMLElement;
     if (this.props.autoFillHeight) {
       this.toDispose.push(
         resizeSensor(

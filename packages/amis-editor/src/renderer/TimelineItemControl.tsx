@@ -2,7 +2,6 @@
  * @file Timeline组件节点的可视化编辑控件
  */
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import uniqBy from 'lodash/uniqBy';
 import Sortable from 'sortablejs';
@@ -41,6 +40,7 @@ export default class TimelineItemControl extends React.Component<
 > {
   sortable?: Sortable;
   drag?: HTMLElement | null;
+  rootRef = React.createRef<HTMLDivElement>();
   target: HTMLElement | null;
 
   constructor(props: TimelineItemProps) {
@@ -285,7 +285,10 @@ export default class TimelineItemControl extends React.Component<
   }
 
   initDragging() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
     this.sortable = new Sortable(
       dom.querySelector('.ae-TimelineItemControl-content') as HTMLElement,
@@ -541,7 +544,10 @@ export default class TimelineItemControl extends React.Component<
     const {source, items} = this.state;
     const {render, className} = this.props;
     return (
-      <div className={cx('ae-TimelineItemControl', className)}>
+      <div
+        ref={this.rootRef}
+        className={cx('ae-TimelineItemControl', className)}
+      >
         {this.renderHeader()}
 
         {source === 'custom' ? (

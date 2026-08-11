@@ -9,6 +9,7 @@ import {
   applyThemeScope,
   getThemeScope,
   resolveOverlayContainer,
+  setReactRef,
   themeable,
   ThemeProps
 } from 'amis-core';
@@ -41,6 +42,7 @@ export interface PopUpPorps extends ThemeProps, LocaleProps {
   children?: React.ReactNode | Array<React.ReactNode>;
   onExited?: () => void;
   onEntered?: () => void;
+  forwardedRef?: React.Ref<HTMLDivElement>;
 }
 
 const fadeStyles: {
@@ -62,7 +64,12 @@ export class PopUp extends React.PureComponent<PopUpPorps> {
     showClose: true,
     onConfirm: () => {}
   };
-  componentDidUpdate() {
+  componentDidUpdate(prevProps: PopUpPorps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(this.props.forwardedRef, this.popupRef.current);
+    }
+
     if (this.props.isShow) {
       this.scrollTop =
         document.body.scrollTop || document.documentElement.scrollTop;
@@ -73,6 +80,7 @@ export class PopUp extends React.PureComponent<PopUpPorps> {
     }
   }
   componentWillUnmount() {
+    setReactRef(this.props.forwardedRef, null);
     document.body.style.overflow = 'auto';
     document.body.scrollTop = this.scrollTop;
   }
@@ -101,7 +109,11 @@ export class PopUp extends React.PureComponent<PopUpPorps> {
     return resolution.container;
   };
 
-  popupRef = (ref: HTMLDivElement | null) => {
+  popupRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  setPopupRef = (ref: HTMLDivElement | null) => {
+    this.popupRef.current = ref;
+    setReactRef(this.props.forwardedRef, ref);
     if (ref) {
       applyThemeScope(ref, this.portalThemeScope);
     }
@@ -137,6 +149,7 @@ export class PopUp extends React.PureComponent<PopUpPorps> {
     return (
       <Portal container={this.getScopedContainer}>
         <Transition
+          nodeRef={this.popupRef}
           onEntered={onEntered}
           onExit={onExited}
           mountOnEnter
@@ -148,7 +161,7 @@ export class PopUp extends React.PureComponent<PopUpPorps> {
           {(status: string) => {
             return (
               <div
-                ref={this.popupRef}
+                ref={this.setPopupRef}
                 className={cx(`${ns}PopUp`, className, fadeStyles[status])}
                 style={outerStyle}
                 {...rest}

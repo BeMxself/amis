@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {
   ConditionBuilderFields,
   ConditionBuilderFuncs,
@@ -58,6 +57,10 @@ export interface ConditionItemProps extends ThemeProps, LocaleProps {
 }
 
 export class ConditionItem extends React.Component<ConditionItemProps> {
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  getPopOverContainer = () => this.rootRef.current;
+
   @autobind
   handleLeftFieldSelect(field: any) {
     const value = {...this.props.value};
@@ -235,7 +238,7 @@ export class ConditionItem extends React.Component<ConditionItemProps> {
         <PopOverContainer
           mobileUI={mobileUI}
           disabled={!!(value?.op && operators.length < 2)}
-          popOverContainer={popOverContainer || (() => findDOMNode(this))}
+          popOverContainer={popOverContainer || this.getPopOverContainer}
           popOverRender={({onClose}) => (
             <GroupedSelection
               onClick={onClose}
@@ -255,7 +258,7 @@ export class ConditionItem extends React.Component<ConditionItemProps> {
                   'CBGroup-operatorInput',
                   isOpened ? 'is-active' : ''
                 )}
-                ref={ref}
+                forwardedRef={ref}
                 allowInput={false}
                 result={
                   options.find(option => option.value === value.op)?.label ||
@@ -468,7 +471,7 @@ export class ConditionItem extends React.Component<ConditionItemProps> {
     const {classnames: cx} = this.props;
 
     return (
-      <div className={cx('CBItem')}>
+      <div className={cx('CBItem')} ref={this.rootRef}>
         {this.renderLeft()}
         {this.renderOperator()}
         {this.renderRight()}

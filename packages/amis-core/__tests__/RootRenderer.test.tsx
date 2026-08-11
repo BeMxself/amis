@@ -53,6 +53,7 @@ test('RootRenderer scopes its host root without adding a layout wrapper', async 
     <RootRenderer
       schema={{type: 'page'} as any}
       rootStore={rootStore as any}
+      statusStore={{} as any}
       env={{theme: getTheme('cxd')} as any}
       theme="cxd"
       render={path => (!path ? <div className="amis-Page">content</div> : null)}
@@ -74,6 +75,7 @@ test('RootRenderer scopes its host root without adding a layout wrapper', async 
     <RootRenderer
       schema={{type: 'page'} as any}
       rootStore={rootStore as any}
+      statusStore={{} as any}
       env={{theme: getTheme('dark')} as any}
       theme="dark"
       render={path => (!path ? <div className="amis-Page">content</div> : null)}

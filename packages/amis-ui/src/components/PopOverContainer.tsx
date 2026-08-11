@@ -1,7 +1,7 @@
 import React from 'react';
 import {autobind, PopOver, Overlay, toNumber} from 'amis-core';
 import PopUp from './PopUp';
-import {findDomCompat as findDOMNode} from 'amis-core';
+import {findDomCompat} from 'amis-core';
 import isNumber from 'lodash/isNumber';
 
 export type OverlayAlignType = 'left' | 'center' | 'right';
@@ -43,6 +43,10 @@ export interface PopOverContainerState {
   isOpened: boolean;
 }
 
+function resolveTargetElement(target: any): HTMLElement | null {
+  return target ? findDomCompat(target) : null;
+}
+
 export class PopOverContainer extends React.Component<
   PopOverContainerProps,
   PopOverContainerState
@@ -61,7 +65,7 @@ export class PopOverContainer extends React.Component<
 
   @autobind
   targetRef(target: any) {
-    this.target = target ? findDOMNode(target) : null;
+    this.target = resolveTargetElement(target);
   }
 
   @autobind
@@ -98,7 +102,7 @@ export class PopOverContainer extends React.Component<
 
   @autobind
   getTarget() {
-    return this.target || (findDOMNode(this) as HTMLElement);
+    return this.target || resolveTargetElement(this);
   }
 
   @autobind

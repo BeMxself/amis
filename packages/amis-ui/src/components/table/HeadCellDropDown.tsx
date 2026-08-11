@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 
 import {
   themeable,
@@ -48,6 +47,8 @@ export interface State {
 }
 
 export class HeadCellDropDown extends React.PureComponent<Props, State> {
+  rootRef: React.RefObject<HTMLSpanElement> = React.createRef();
+
   constructor(props: Props) {
     super(props);
 
@@ -73,7 +74,10 @@ export class HeadCellDropDown extends React.PureComponent<Props, State> {
     } = this.props;
 
     return (
-      <span className={cx(className, active ? 'is-active' : '')}>
+      <span
+        ref={this.rootRef}
+        className={cx(className, active ? 'is-active' : '')}
+      >
         <span onClick={this.openLayer}>
           {filterIcon && typeof filterIcon === 'function'
             ? filterIcon(active)
@@ -81,12 +85,10 @@ export class HeadCellDropDown extends React.PureComponent<Props, State> {
         </span>
         {isOpened ? (
           <Overlay
-            container={
-              popOverContainer || (() => findDOMNode(this) as HTMLElement)
-            }
+            container={popOverContainer || (() => this.rootRef.current)}
             placement="left-bottom-left-top right-bottom-right-top"
             target={
-              popOverContainer ? () => findDOMNode(this)!.parentNode : null
+              popOverContainer ? () => this.rootRef.current?.parentNode : null
             }
             show
           >

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {resizeSensor} from 'amis-core';
 
 export type Size = {
@@ -19,6 +18,7 @@ export default class AutoSizer extends React.PureComponent<
   Size
 > {
   unSensor: Function;
+  rootRef = React.createRef<HTMLElement>();
 
   constructor(props: AutoSizerProps) {
     super(props);
@@ -27,7 +27,11 @@ export default class AutoSizer extends React.PureComponent<
   }
 
   componentDidMount() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+
+    if (!dom) {
+      return;
+    }
 
     this.unSensor = resizeSensor(dom, () => this.sizer(dom));
     this.sizer(dom);
@@ -57,6 +61,7 @@ export default class AutoSizer extends React.PureComponent<
 
     return (
       <WrapperCmpt
+        ref={this.rootRef as any}
         style={{
           display: 'block',
           position: 'relative',

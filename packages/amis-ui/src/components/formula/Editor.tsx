@@ -127,6 +127,7 @@ export class FormulaEditor extends React.Component<
   };
   unmounted: boolean = false;
   editor = React.createRef<any>();
+  runPanelRef = React.createRef<HTMLDivElement>();
 
   static async buildFunctions(
     functions?: Array<any>,
@@ -537,6 +538,7 @@ export class FormulaEditor extends React.Component<
             />
 
             <Transition
+              nodeRef={this.runPanelRef}
               mountOnEnter
               unmountOnExit
               key="run-panel"
@@ -546,6 +548,7 @@ export class FormulaEditor extends React.Component<
               {(status: string) => {
                 return (
                   <div
+                    ref={this.runPanelRef}
                     className={cx(
                       `FormulaEditor-runPanel`,
                       collapseStyles[status]

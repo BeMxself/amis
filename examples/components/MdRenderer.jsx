@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {createRoot} from 'react-dom/client';
 import {getTheme, render} from 'amis';
 import {LazyComponent} from 'amis-core';
@@ -36,6 +35,7 @@ function eachDom(dom, iterator) {
 
 class Preview extends React.Component {
   static displayName = 'MarkdownRenderer';
+  rootRef = React.createRef();
   ref = null;
   roots = [];
   constructor(props) {
@@ -113,7 +113,7 @@ class Preview extends React.Component {
       root.render(
         <LazyComponent
           {...this.props}
-          container={() => findDOMNode(this)}
+          container={() => this.rootRef.current}
           component={CodePreview}
           code={script.innerText}
           scope={props.scope}
@@ -147,7 +147,7 @@ class Preview extends React.Component {
 
   render() {
     return (
-      <div className="MDPreview">
+      <div className="MDPreview" ref={this.rootRef}>
         <div className="markdown" ref={this.divRef}>
           Doc
         </div>

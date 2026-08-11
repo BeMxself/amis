@@ -23,7 +23,7 @@ import {
   themeable
 } from 'amis-core';
 import type {ThemeScope} from 'amis-core';
-import {noop, autobind, getScrollbarWidth} from 'amis-core';
+import {noop, autobind, getScrollbarWidth, setReactRef} from 'amis-core';
 import {getScopedContainerWithFullscreen} from './Modal';
 
 type DrawerPosition = 'top' | 'right' | 'bottom' | 'left';
@@ -51,6 +51,7 @@ export interface DrawerProps {
   onEntered?: () => void;
   drawerClassName?: string;
   drawerMaskClassName?: string;
+  contentDomRef?: React.Ref<HTMLDivElement>;
   mobileUI?: boolean;
   onDragging?: (value: boolean) => void;
   theme?: string;
@@ -78,10 +79,11 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   };
 
   modalDom: HTMLElement;
-  contentDom: HTMLElement;
+  modalNodeRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
   isRootClosed = false;
   portalThemeScope?: ThemeScope;
   resizer = React.createRef<HTMLDivElement>();
+  contentDom: HTMLDivElement | null = null;
   resizeCoord: number = 0;
 
   componentDidMount() {
@@ -91,6 +93,11 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   }
 
   componentDidUpdate(prevProps: DrawerProps) {
+    if (prevProps.contentDomRef !== this.props.contentDomRef) {
+      setReactRef(prevProps.contentDomRef, null);
+      setReactRef(this.props.contentDomRef, this.contentDom);
+    }
+
     // jest 里面没有触发 entered 导致后续的逻辑错误，
     // 所以直接 300 ms 后触发
     if (
@@ -110,7 +117,10 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
     }
   }
 
-  contentRef = (ref: any) => (this.contentDom = ref);
+  setContentRef = (ref: HTMLDivElement | null) => {
+    this.contentDom = ref;
+    setReactRef(this.props.contentDomRef, ref);
+  };
 
   handleEnter = () => {
     document.body.classList.add(`is-modalOpened`);
@@ -168,6 +178,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
   };
 
   modalRef = (ref: any) => {
+    this.modalNodeRef.current = ref;
     this.modalDom = ref;
     if (ref) {
       applyThemeScope(ref as HTMLElement, this.portalThemeScope);
@@ -240,7 +251,11 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
     const {position, onDragging} = this.props;
     onDragging && onDragging(true);
     const drawer = this.contentDom;
-    const resizer = this.resizer.current!;
+    const resizer = this.resizer.current;
+
+    if (!drawer || !resizer) {
+      return;
+    }
 
     const drawerWidth = getComputedStyle(drawer).width as string;
     const drawerHeight = getComputedStyle(drawer).height as string;
@@ -275,6 +290,10 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
     const {position} = this.props;
     const maxWH = 'calc(100% - 50px)';
     const drawer = this.contentDom;
+    if (!drawer) {
+      return;
+    }
+
     const drawerStyle = drawer.style;
     let wh =
       (position === 'left' && e.clientX) ||
@@ -347,6 +366,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
     return (
       <Portal container={scopedContainer}>
         <Transition
+          nodeRef={this.modalNodeRef}
           mountOnEnter
           unmountOnExit
           appear
@@ -361,7 +381,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
               // force reflow
               // 由于从 mount 进来到加上 in 这个 class 估计是时间太短，上次的样式还没应用进去，所以这里强制reflow一把。
               // 否则看不到动画。
-              this.contentDom.offsetWidth;
+              this.contentDom?.offsetWidth;
             }
 
             return (
@@ -390,7 +410,7 @@ export class Drawer extends React.Component<DrawerProps, DrawerState> {
                   />
                 ) : null}
                 <div
-                  ref={this.contentRef}
+                  ref={this.setContentRef}
                   style={bodyStyle}
                   className={cx(
                     'Drawer-content',

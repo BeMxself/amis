@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cloneDeep from 'lodash/cloneDeep';
 import isNumber from 'lodash/isNumber';
 import get from 'lodash/get';
@@ -411,6 +410,7 @@ export default class ComboControl extends React.Component<ComboProps> {
   defaultValue?: any;
   toDispose: Array<Function> = [];
   id: string = guid();
+  rootRef = React.createRef<HTMLDivElement>();
   constructor(props: ComboProps) {
     super(props);
 
@@ -1109,7 +1109,10 @@ export default class ComboControl extends React.Component<ComboProps> {
   initDragging() {
     const cx = this.props.classnames;
     const submitOnChange = this.props.submitOnChange;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
     this.sortable = new Sortable(
       dom.querySelector(
@@ -1723,6 +1726,7 @@ export default class ComboControl extends React.Component<ComboProps> {
 
     return (
       <div
+        ref={this.rootRef}
         className={cx(
           `Combo Combo--multi`,
           {
@@ -1886,6 +1890,7 @@ export default class ComboControl extends React.Component<ComboProps> {
 
     return (
       <div
+        ref={this.rootRef}
         className={cx(
           `Combo Combo--single`,
           {

@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import Sortable from 'sortablejs';
 import cx from 'classnames';
 import cloneDeep from 'lodash/cloneDeep';
@@ -59,6 +58,8 @@ export default class FeatureControl extends React.Component<
   FeatureControlProps,
   FeatureControlState
 > {
+  rootRef = React.createRef<HTMLDivElement>();
+
   constructor(props: FeatureControlProps) {
     super(props);
     this.state = FeatureControl.initState(props.data, props.features);
@@ -161,7 +162,11 @@ export default class FeatureControl extends React.Component<
    * 初始化拖动
    */
   initDragging() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
+
     this.sortable = new Sortable(
       dom.querySelector(`.${klass}-features`) as HTMLElement,
       {
@@ -329,7 +334,7 @@ export default class FeatureControl extends React.Component<
     }
 
     return (
-      <div className={cx('ae-FeatureControl', className)}>
+      <div ref={this.rootRef} className={cx('ae-FeatureControl', className)}>
         <ul className={cx('ae-FeatureControl-features')} ref={this.dragRef}>
           {this.state.inUseFeat.map((item, index) =>
             this.renderItem(item, index, isCheckable)

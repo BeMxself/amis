@@ -5,7 +5,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {SketchPicker, GithubPicker, ColorResult} from 'react-color';
 import {Icon} from './icons';
 import {Overlay} from 'amis-core';
@@ -62,6 +61,7 @@ export class ColorControl extends React.PureComponent<
   };
   popover: any;
   closeTimer: number;
+  root: React.RefObject<HTMLDivElement>;
   preview: React.RefObject<HTMLElement>;
   input: React.RefObject<HTMLInputElement>;
   constructor(props: ColorProps) {
@@ -79,6 +79,7 @@ export class ColorControl extends React.PureComponent<
     this.clearValue = this.clearValue.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.root = React.createRef();
     this.preview = React.createRef();
     this.input = React.createRef();
   }
@@ -302,6 +303,7 @@ export class ColorControl extends React.PureComponent<
 
     return (
       <div
+        ref={this.root}
         className={cx(
           `ColorPicker`,
           {
@@ -353,9 +355,9 @@ export class ColorControl extends React.PureComponent<
         {!mobileUI && isOpened ? (
           <Overlay
             placement={placement || 'auto'}
-            target={() => findDOMNode(this)}
+            target={() => this.root.current}
             onHide={this.close}
-            container={popOverContainer || (() => findDOMNode(this))}
+            container={popOverContainer || (() => this.root.current)}
             containerSelector={popOverContainerSelector}
             rootClose={false}
             show

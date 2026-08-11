@@ -3,7 +3,7 @@
  */
 import {isAlive} from 'mobx-state-tree';
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
+import {mergeRefs} from 'amis-core';
 import {RendererInfo} from '../plugin';
 import {EditorNodeContext, EditorNodeType} from '../store/node';
 
@@ -17,6 +17,11 @@ export interface VRendererProps extends RendererInfo {
 export class VRenderer extends React.Component<VRendererProps> {
   static contextType = EditorNodeContext;
   editorNode: EditorNodeType;
+  rootDom: HTMLElement | null = null;
+
+  setRootRef = (ref: HTMLElement | null) => {
+    this.rootDom = ref;
+  };
 
   UNSAFE_componentWillMount() {
     const {data, path, widthMutable, ...info} = this.props;
@@ -53,7 +58,7 @@ export class VRenderer extends React.Component<VRendererProps> {
    * 弄点标记
    */
   markDom(id: string) {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.rootDom;
 
     if (!root) {
       return;
@@ -68,10 +73,35 @@ export class VRenderer extends React.Component<VRendererProps> {
     );
   }
 
+  renderChildren() {
+    let attached = false;
+
+    return React.Children.map(this.props.children, child => {
+      if (attached || !React.isValidElement(child)) {
+        return child;
+      }
+
+      attached = true;
+
+      if (typeof child.type === 'string') {
+        return React.cloneElement(child, {
+          ref: mergeRefs((child as any).ref, this.setRootRef)
+        } as any);
+      }
+
+      return React.cloneElement(child, {
+        forwardedRef: mergeRefs(
+          (child.props as any).forwardedRef,
+          this.setRootRef
+        )
+      } as any);
+    });
+  }
+
   render() {
     return (
       <EditorNodeContext.Provider value={this.editorNode}>
-        {this.props.children}
+        {this.renderChildren()}
       </EditorNodeContext.Provider>
     );
   }

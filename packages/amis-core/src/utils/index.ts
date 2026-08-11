@@ -62,6 +62,8 @@ export * from './arraySlice';
 export * from './math';
 export * from './memoryParse';
 export * from './findDomCompat';
+export * from './reactRef';
+export * from './reactRoot';
 
 import animation from './Animation';
 

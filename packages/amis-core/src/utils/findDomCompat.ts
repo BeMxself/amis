@@ -15,6 +15,9 @@ const HostSingleton = 27;
 const NoFlags = /*                      */ 0b0000000000000000000000000000000;
 const Placement = /*                    */ 0b0000000000000000000000000000010;
 const Hydrating = /*                    */ 0b0000000000000000001000000000000;
+const legacyFindDOMNode = (ReactDom as any).findDOMNode as
+  | ((instance: React.Component) => Element | Text | null)
+  | undefined;
 
 /**
  * 从 React 组件实例获取关联的 DOM 节点
@@ -48,8 +51,8 @@ function getDOMNode(
     (instance as any)._reactInternals || (instance as any)._reactInternalFiber;
 
   if (!fiber) {
-    if (ReactDom.findDOMNode) {
-      return ReactDom.findDOMNode(instance) as HTMLElement;
+    if (legacyFindDOMNode) {
+      return legacyFindDOMNode(instance) as HTMLElement;
     }
     throw new Error(
       'Cannot support the current React version. Please report an issue.'

@@ -2,11 +2,10 @@
  * amis 运行时调试功能，为了避免循环引用，这个组件不要依赖 amis 里的组件
  */
 
-import React, {Component, useEffect, useRef, useState, version} from 'react';
+import React, {Component, useEffect, useRef, useState} from 'react';
 import cx from 'classnames';
-import {render, unmountComponentAtNode} from 'react-dom';
-import {findDomCompat as findDOMNode} from './findDomCompat';
-// import {createRoot} from 'react-dom/client';
+import {renderReactNode, unmountReactNode} from './reactRoot';
+import {mergeRefs} from './reactRef';
 import {autorun, observable, action} from 'mobx';
 import {observer} from 'mobx-react';
 import {uuidv4, importLazyComponent} from './helper';
@@ -489,20 +488,11 @@ export function enableDebug() {
   document.body.appendChild(amisDebugElement);
   const element = <AMISDebug store={store} />;
 
-  // if (parseInt(version.split('.')[0], 10) >= 18) {
-  //   const root = createRoot(amisDebugElement);
-  //   root.render(element);
-  //   unmount = () => {
-  //     root.unmount();
-  //     document.body.removeChild(amisDebugElement);
-  //   };
-  // } else {
-  render(element, amisDebugElement);
+  renderReactNode(element, amisDebugElement);
   unmount = () => {
-    unmountComponentAtNode(amisDebugElement);
+    unmountReactNode(amisDebugElement);
     document.body.removeChild(amisDebugElement);
   };
-  // }
 
   document.body.appendChild(amisHoverBox);
   document.body.appendChild(amisActiveBox);
@@ -529,8 +519,10 @@ interface DebugWrapperProps {
 
 export class DebugWrapper extends Component<DebugWrapperProps> {
   debugId: string = uuidv4();
+  rootRef = React.createRef<HTMLElement>();
+
   componentDidMount() {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.rootRef.current;
     if (!root) {
       return;
     }
@@ -564,7 +556,21 @@ export class DebugWrapper extends Component<DebugWrapperProps> {
   }
 
   render() {
-    return this.props.children;
+    const child = React.Children.only(this.props.children);
+
+    if (!React.isValidElement(child)) {
+      return child;
+    }
+
+    if (typeof child.type === 'string') {
+      return React.cloneElement(child, {
+        ref: mergeRefs((child as any).ref, this.rootRef)
+      } as any);
+    }
+
+    return React.cloneElement(child, {
+      forwardedRef: mergeRefs((child.props as any).forwardedRef, this.rootRef)
+    } as any);
   }
 }
 

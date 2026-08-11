@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import Picker from './Picker';
 import PopUp from './PopUp';
 import {autobind, highlight} from 'amis-core';
@@ -31,7 +30,7 @@ interface Props extends SelectProps {
 
 export default class SelectMobile extends React.Component<Props, SelectState> {
   input: HTMLInputElement;
-  target: HTMLElement;
+  targetRef = React.createRef<HTMLDivElement>();
 
   constructor(props: Props) {
     super(props);
@@ -86,10 +85,7 @@ export default class SelectMobile extends React.Component<Props, SelectState> {
 
   @autobind
   getTarget() {
-    if (!this.target) {
-      this.target = findDOMNode(this) as HTMLElement;
-    }
-    return this.target as HTMLElement;
+    return this.targetRef.current as HTMLElement;
   }
 
   @autobind
@@ -496,6 +492,7 @@ export default class SelectMobile extends React.Component<Props, SelectState> {
 
     return (
       <PopUp
+        forwardedRef={this.targetRef}
         className={cx(`Select-popup`)}
         container={popOverContainer}
         isShow={isOpen}

@@ -1,4 +1,4 @@
-import {TestIdBuilder, ThemeProps, themeable} from 'amis-core';
+import {setReactRef, TestIdBuilder, ThemeProps, themeable} from 'amis-core';
 import React from 'react';
 import omit from 'lodash/omit';
 import isInteger from 'lodash/isInteger';
@@ -32,6 +32,7 @@ export interface ResultBoxProps
   showInvalidMatch?: boolean;
   popOverContainer?: any;
   showArrow?: boolean;
+  forwardedRef?: React.Ref<HTMLDivElement>;
   testIdBuilder?: TestIdBuilder;
 }
 
@@ -58,6 +59,19 @@ export class ResultBox extends React.Component<ResultBoxProps> {
   };
 
   inputRef: React.RefObject<any> = React.createRef();
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  setRootRef = (ref: HTMLDivElement | null) => {
+    this.rootRef.current = ref;
+    setReactRef(this.props.forwardedRef, ref);
+  };
+
+  componentDidUpdate(prevProps: ResultBoxProps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(this.props.forwardedRef, this.rootRef.current);
+    }
+  }
 
   focus() {
     this.inputRef.current?.focus();
@@ -266,6 +280,7 @@ export class ResultBox extends React.Component<ResultBoxProps> {
       overflowTagPopover,
       showArrow,
       popOverContainer,
+      forwardedRef,
       testIdBuilder,
       ...rest
     } = this.props;
@@ -273,6 +288,7 @@ export class ResultBox extends React.Component<ResultBoxProps> {
 
     return (
       <div
+        ref={this.setRootRef}
         className={cx('ResultBox', className, {
           'is-focused': isFocused,
           'is-disabled': disabled,

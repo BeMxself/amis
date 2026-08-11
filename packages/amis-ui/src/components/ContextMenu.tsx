@@ -1,6 +1,5 @@
-import {ClassNamesFn, themeable} from 'amis-core';
-import React, {version} from 'react';
-import {render} from 'react-dom';
+import {ClassNamesFn, renderReactNode, themeable} from 'amis-core';
+import React from 'react';
 import {autobind, calculatePosition} from 'amis-core';
 import Transition, {
   ENTERED,
@@ -9,7 +8,6 @@ import Transition, {
 } from 'react-transition-group/Transition';
 import debounce from 'lodash/debounce';
 import type {DebouncedFunc} from 'lodash';
-// import {createRoot} from 'react-dom/client';
 const fadeStyles: {
   [propName: string]: string;
 } = {
@@ -64,15 +62,7 @@ export class ContextMenu extends React.Component<
       const container = document.body;
       const div = document.createElement('div');
       container.appendChild(div);
-
-      // if (parseInt(version.split('.')[0], 10) >= 18) {
-      //   const root = createRoot(div);
-      //   await new Promise<void>(resolve =>
-      //     root.render(<ThemedContextMenu ref={() => resolve()} />)
-      //   );
-      // } else {
-      render(<ThemedContextMenu />, div);
-      // }
+      renderReactNode(<ThemedContextMenu />, div);
     }
 
     return ContextMenu.instance;
@@ -154,7 +144,7 @@ export class ContextMenu extends React.Component<
           preventClose: options?.preventClose
         },
         () => {
-          this.handleEnter(this.menuRef.current as HTMLElement);
+          this.handleEnter();
         }
       );
     } else {
@@ -252,14 +242,20 @@ export class ContextMenu extends React.Component<
   resizeObserver: null | ResizeObserver = null;
 
   @autobind
-  handleEnter(menu: HTMLElement) {
+  handleEnter() {
+    const menu = this.menuRef.current;
+    if (!menu) {
+      return;
+    }
+
     this.autoCalculatePosition(menu);
   }
 
   @autobind
-  handleEntered(menu: HTMLElement) {
+  handleEntered() {
+    const menu = this.menuRef.current;
     this.menuEntered = true;
-    if (!this.contentRef.current || !window.ResizeObserver) {
+    if (!menu || !this.contentRef.current || !window.ResizeObserver) {
       return;
     }
     // 监听菜单大小变化，并自动重新计算位置
@@ -346,6 +342,7 @@ export class ContextMenu extends React.Component<
 
     return (
       <Transition
+        nodeRef={this.menuRef}
         mountOnEnter
         unmountOnExit
         onEnter={this.handleEnter}

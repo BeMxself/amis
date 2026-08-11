@@ -971,28 +971,28 @@ describe('Renderer: condition-builder with formula', () => {
     replaceReactAriaIds(container);
     // 7种类型都存在
     expect(
-      container.querySelectorAll('.cxd-FormulaPicker-input')?.length
+      container.querySelectorAll('.amis-FormulaPicker-input')?.length
     ).toEqual(7);
     expect(
-      container.querySelector('.cxd-FormulaPicker--text')
+      container.querySelector('.amis-FormulaPicker--text')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-number')
+      container.querySelector('.amis-FormulaPicker-input-number')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-boolean')
+      container.querySelector('.amis-FormulaPicker-input-boolean')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-select')
+      container.querySelector('.amis-FormulaPicker-input-select')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-date')
+      container.querySelector('.amis-FormulaPicker-input-date')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-time')
+      container.querySelector('.amis-FormulaPicker-input-time')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-FormulaPicker-input-datetime')
+      container.querySelector('.amis-FormulaPicker-input-datetime')
     ).toBeInTheDocument();
   });
 
@@ -1063,29 +1063,29 @@ describe('Renderer: condition-builder with formula', () => {
 
     // 选中第一个选项（Form中默认值是等于操作）
     let fieldValueControl = container.querySelector(
-      '.cxd-FormulaPicker-input-select'
+      '.amis-FormulaPicker-input-select'
     )!;
     fireEvent.click(fieldValueControl);
     await wait(100);
     fireEvent.click(await findByText('A'));
-    expect(container.querySelector('.cxd-Tag-text')?.innerHTML).toEqual('A');
+    expect(container.querySelector('.amis-Tag-text')?.innerHTML).toEqual('A');
 
     // 切换操作符，字段值清空，需要重新选择，且下拉选项变成多选
-    const opControl = container.querySelector('.cxd-CBGroup-operatorInput')!;
+    const opControl = container.querySelector('.amis-CBGroup-operatorInput')!;
     fireEvent.click(opControl);
     await wait(100);
     fireEvent.click(await findByText('包含'));
     await wait(100);
     expect(
-      container.querySelector('.cxd-Select-placeholder')
+      container.querySelector('.amis-Select-placeholder')
     ).toBeInTheDocument();
     fieldValueControl = container.querySelector(
-      '.cxd-FormulaPicker-input-select'
+      '.amis-FormulaPicker-input-select'
     )!;
     fireEvent.click(fieldValueControl);
     await wait(100);
     expect(
-      container.querySelectorAll('.cxd-Select-option-checkbox').length
+      document.body.querySelectorAll('.amis-Select-option-checkbox').length
     ).toEqual(3);
   });
 
@@ -1162,40 +1162,40 @@ describe('Renderer: condition-builder with formula', () => {
 
     // 切换字段类型，对应字段值控件更新
     const fieldControl = container.querySelector(
-      '.cxd-DropDownSelection-input'
+      '.amis-DropDownSelection-input'
     )!;
     fireEvent.click(fieldControl);
     await wait(100);
     fireEvent.click(await findByText('选项'));
     await wait(100);
     let selectValueControl = container.querySelector(
-      '.cxd-FormulaPicker-input-select'
+      '.amis-FormulaPicker-input-select'
     )!;
     expect(selectValueControl).toBeInTheDocument();
 
     // 切换操作符，下拉选项变成多选
-    const opControl = container.querySelector('.cxd-CBGroup-operatorInput')!;
+    const opControl = container.querySelector('.amis-CBGroup-operatorInput')!;
     fireEvent.click(opControl);
     await wait(100);
     fireEvent.click(await findByText('包含'));
     await wait(100);
     expect(
-      container.querySelector('.cxd-Select-placeholder')
+      container.querySelector('.amis-Select-placeholder')
     ).toBeInTheDocument();
     selectValueControl = container.querySelector(
-      '.cxd-FormulaPicker-input-select'
+      '.amis-FormulaPicker-input-select'
     )!;
     fireEvent.click(selectValueControl);
     await wait(100);
     expect(
-      container.querySelectorAll('.cxd-Select-option-checkbox').length
+      document.body.querySelectorAll('.amis-Select-option-checkbox').length
     ).toEqual(3);
 
     // 选择2个选项，绑定值变化
     fireEvent.click(await findByText('A'));
     fireEvent.click(await findByText('C'));
     const selectedValues = [];
-    const nodes = container.querySelectorAll('.cxd-Select-valueLabel');
+    const nodes = container.querySelectorAll('.amis-Select-valueLabel');
     for (const el of nodes.values()) {
       selectedValues.push(el?.innerHTML);
     }

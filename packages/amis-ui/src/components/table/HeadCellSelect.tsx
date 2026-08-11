@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 
 import {
   themeable,
@@ -60,11 +59,7 @@ export class HeadCellSelect extends React.PureComponent<Props, State> {
         layerClassName={`${ns}TableCell-selectionPopOver`}
         filterIcon={<Icon icon="left-arrow" className="icon" />}
         active={false}
-        popOverContainer={
-          popOverContainer
-            ? popOverContainer
-            : () => findDOMNode(this) as HTMLElement
-        }
+        popOverContainer={popOverContainer}
         filterDropdown={({
           setSelectedKeys,
           selectedKeys,

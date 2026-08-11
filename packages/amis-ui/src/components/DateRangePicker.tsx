@@ -5,7 +5,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import moment, {locale, unitOfTime} from 'moment';
 import omit from 'lodash/omit';
 import kebabCase from 'lodash/kebabCase';
@@ -2179,7 +2178,7 @@ export class DateRangePicker extends React.Component<
             <Overlay
               target={() => this.dom.current}
               onHide={this.close}
-              container={popOverContainer || (() => findDOMNode(this))}
+              container={popOverContainer || (() => this.dom.current)}
               containerSelector={popOverContainerSelector}
               rootClose={false}
               placement={overlayPlacement}

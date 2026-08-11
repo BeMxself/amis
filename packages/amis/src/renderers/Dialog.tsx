@@ -8,8 +8,7 @@ import {
   setVariable,
   setThemeClassName,
   ValidateError,
-  RendererEvent,
-  getStableClassSelector
+  RendererEvent
 } from 'amis-core';
 import {Renderer, RendererProps} from 'amis-core';
 import {SchemaNode, Schema, ActionObject} from 'amis-core';
@@ -25,7 +24,6 @@ import {
 import {reaction} from 'mobx';
 import {Icon} from 'amis-ui';
 import {ModalStore, IModalStore} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {Spinner} from 'amis-ui';
 import {
   IServiceStore,
@@ -103,6 +101,10 @@ export default class Dialog extends React.Component<DialogProps> {
   reaction: any;
   isDead = false;
   $$id: string = guid();
+  modalContentRef: React.MutableRefObject<HTMLDivElement | null> = {
+    current: null
+  };
+
   constructor(props: DialogProps) {
     super(props);
 
@@ -313,7 +315,7 @@ export default class Dialog extends React.Component<DialogProps> {
 
     const activeElem = document.activeElement as HTMLElement;
     if (activeElem) {
-      const dom = findDOMNode(this) as HTMLElement;
+      const dom = this.modalContentRef.current?.closest('[role=dialog]');
       dom && !dom.contains(activeElem) && activeElem.blur();
     }
   }
@@ -387,9 +389,7 @@ export default class Dialog extends React.Component<DialogProps> {
 
   @autobind
   getPopOverContainer() {
-    return (findDOMNode(this) as HTMLElement).querySelector(
-      getStableClassSelector(this.props.classnames, 'Modal-content')
-    );
+    return this.modalContentRef.current;
   }
 
   renderBody(body: AMISSchemaCollection, key?: any): React.ReactNode {
@@ -534,9 +534,13 @@ export default class Dialog extends React.Component<DialogProps> {
     } as DialogProps;
 
     const Wrapper = wrapperComponent || Modal;
+    const contentDomRefProps =
+      typeof Wrapper === 'string' ? {} : {contentDomRef: this.modalContentRef};
+
     return (
       <Wrapper
         {...rest}
+        {...contentDomRefProps}
         classPrefix={classPrefix}
         className={cx(className)}
         style={style}

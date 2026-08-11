@@ -4,9 +4,8 @@
  */
 
 import React, {useState, useEffect, useRef, useCallback} from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import omit from 'lodash/omit';
-import {themeable, isObject} from 'amis-core';
+import {themeable, isObject, mergeRefs} from 'amis-core';
 import TooltipWrapper from './TooltipWrapper';
 
 import type {ThemeProps} from 'amis-core';
@@ -47,7 +46,7 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
   } = props;
   const [ellipsisAvtived, setEllipsisAvtived] = useState(false);
   const [innerText, setInnerText] = useState('');
-  const innerRef = useRef<Element | React.ReactInstance>(null);
+  const innerRef = useRef<Element | null>(null);
   const defaultTooltip = tooltip
     ? typeof tooltip === 'string'
       ? {content: tooltip}
@@ -112,10 +111,7 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
 
   /** 监听目标元素的DOM变化 */
   useEffect(() => {
-    const element =
-      innerRef.current instanceof React.Component
-        ? (findDOMNode(innerRef.current) as Element)
-        : innerRef.current;
+    const element = innerRef.current;
 
     if (element) {
       const observer = new MutationObserver(onMutation);
@@ -133,10 +129,7 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
 
   /** 监听目标元素的尺寸变化 */
   useEffect(() => {
-    const element =
-      innerRef.current instanceof React.Component
-        ? (findDOMNode(innerRef.current) as Element)
-        : innerRef.current;
+    const element = innerRef.current;
 
     if (element) {
       const observer = new ResizeObserver(onResize);
@@ -150,7 +143,17 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
   const WrapComponent = inline !== false ? 'span' : 'div';
   const showTooltip = ellipsisAvtived && normalizedTooltip;
   const Body = React.isValidElement(children) ? (
-    React.cloneElement(children as React.ReactElement, {ref: innerRef})
+    React.cloneElement(
+      children as React.ReactElement,
+      typeof (children as React.ReactElement).type === 'string'
+        ? ({ref: mergeRefs((children as any).ref, innerRef)} as any)
+        : ({
+            forwardedRef: mergeRefs(
+              ((children as React.ReactElement).props as any).forwardedRef,
+              innerRef
+            )
+          } as any)
+    )
   ) : (
     <WrapComponent
       ref={innerRef as React.RefObject<HTMLDivElement>}

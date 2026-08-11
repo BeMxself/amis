@@ -1055,7 +1055,7 @@ test('16. Renderer: crud searchable sortable filterable', async () => {
   fireEvent.click(container.querySelector('[icon="search"]')!);
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-PopOver')).toBeInTheDocument();
+    expect(container.querySelector('.amis-PopOver')).toBeInTheDocument();
   });
 
   // 弹窗中没有 排序

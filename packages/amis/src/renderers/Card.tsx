@@ -28,7 +28,6 @@ import {
 } from '../Schema';
 import {ActionSchema} from './Action';
 import {Card} from 'amis-ui';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {Icon} from 'amis-ui';
 import type {
   AMISButtonSchema,
@@ -322,6 +321,8 @@ export class CardRenderer extends React.Component<CardProps> {
     'hideCheckToggler'
   ];
 
+  cardRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
   constructor(props: CardProps) {
     super(props);
 
@@ -386,7 +387,7 @@ export class CardRenderer extends React.Component<CardProps> {
   }
 
   getPopOverContainer() {
-    return findDOMNode(this);
+    return this.cardRef.current;
   }
 
   handleQuickChange(
@@ -824,6 +825,7 @@ export class CardRenderer extends React.Component<CardProps> {
     return (
       <Card
         {...rest}
+        forwardedRef={this.cardRef}
         title={this.rederTitle()}
         subTitle={this.renderSubTitle()}
         subTitlePlaceholder={this.renderSubTitlePlaceholder()}
@@ -883,6 +885,7 @@ export class CardItemFieldRenderer extends TableCell {
       render,
       style,
       wrapperComponent: Component,
+      wrapperRef,
       contentsOnly,
       labelClassName,
       value,
@@ -928,6 +931,7 @@ export class CardItemFieldRenderer extends TableCell {
 
     return (
       <Component
+        ref={wrapperRef as any}
         style={style}
         className={className}
         tabIndex={tabIndex}

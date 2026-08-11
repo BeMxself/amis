@@ -6,7 +6,6 @@ import {EditorManager} from '../../manager';
 import {EditorStoreType} from '../../store/editor';
 import {Tab, Tabs} from 'amis';
 import {autobind} from '../../util';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import find from 'lodash/find';
 import {PanelItem} from '../../plugin';
 import {DrawerPanel} from './DrawerPanel';
@@ -27,6 +26,8 @@ export class LeftPanels extends React.Component<
   LeftPanelsProps,
   LeftPanelsStates
 > {
+  rootRef = React.createRef<HTMLDivElement>();
+
   constructor(props: any) {
     super(props);
 
@@ -69,7 +70,7 @@ export class LeftPanels extends React.Component<
 
   @autobind
   getPopOverContainer() {
-    return findDOMNode(this) as HTMLElement;
+    return this.rootRef.current || document.body;
   }
 
   render() {
@@ -120,6 +121,7 @@ export class LeftPanels extends React.Component<
       <>
         {panels.length > 0 && (
           <div
+            ref={this.rootRef}
             className={cx(
               'editor-left-panel width-draggable',
               leftPanelOpenStatus ? '' : 'hidden-status',

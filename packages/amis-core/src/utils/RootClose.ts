@@ -4,11 +4,15 @@
 
 import React, {useState} from 'react';
 import useRootClose from 'react-overlays/useRootClose';
-import {findDomCompat as findDOMNode} from '../utils/findDomCompat';
+import {findDomCompat} from '../utils/findDomCompat';
+
+function resolveRootElement(rootComponent: any): Element | null {
+  return rootComponent ? findDomCompat(rootComponent) : null;
+}
 
 export const RootClose = ({children, onRootClose, ...props}: any) => {
   const [rootComponent, attachRef] = useState(null);
-  const rootElement = findDOMNode(rootComponent) as Element;
+  const rootElement = resolveRootElement(rootComponent);
   const onClose = React.useCallback(
     (e: Event) => {
       const target = e.target as HTMLElement;

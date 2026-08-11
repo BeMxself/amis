@@ -25,7 +25,6 @@ import Checkbox from './Checkbox';
 import {optionValueCompare, value2array} from './Select';
 import Spinner, {SpinnerExtraProps} from './Spinner';
 import flatten from 'lodash/flatten';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {Api, PlainObject} from 'amis-core';
 
 export interface UserSelectProps

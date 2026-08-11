@@ -11,7 +11,6 @@ import {observer} from 'mobx-react';
 import {EditorNodeContext, EditorNodeType} from '../store/node';
 import {EditorManager} from '../manager';
 import flatten from 'lodash/flatten';
-import {render as reactRender, unmountComponentAtNode} from 'react-dom';
 import {autobind, JSONGetById, JSONUpdate, appTranslate} from '../util';
 import {ErrorBoundary, LazyComponent} from 'amis-core';
 import {CommonConfigWrapper} from './CommonConfigWrapper';

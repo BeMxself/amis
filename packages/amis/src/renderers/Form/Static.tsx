@@ -188,6 +188,7 @@ export class StaticFieldRenderer extends TableCell {
       render,
       style,
       wrapperComponent: Component,
+      wrapperRef,
       contentsOnly,
       labelClassName,
       value,
@@ -228,7 +229,12 @@ export class StaticFieldRenderer extends TableCell {
     Component = Component || 'div';
 
     return (
-      <Component className={className} tabIndex={tabIndex} onKeyUp={onKeyUp}>
+      <Component
+        ref={wrapperRef as any}
+        className={className}
+        tabIndex={tabIndex}
+        onKeyUp={onKeyUp}
+      >
         {body}
       </Component>
     );

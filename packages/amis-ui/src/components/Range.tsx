@@ -18,7 +18,6 @@ import {themeable} from 'amis-core';
 import {autobind, camel} from 'amis-core';
 import {stripNumber} from 'amis-core';
 import {safeAdd, safeSub} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {Icon} from './icons';
 
 type MarksType = {
@@ -241,8 +240,8 @@ class HandleItem extends React.Component<HandleItemProps, HandleItemState> {
 
         <Overlay
           placement={tooltipPlacement}
-          target={() => findDOMNode(this)}
-          container={() => findDOMNode(this) as HTMLElement}
+          target={() => this.handleRef.current}
+          container={() => this.handleRef.current as HTMLElement}
           rootClose={false}
           show={true}
         >

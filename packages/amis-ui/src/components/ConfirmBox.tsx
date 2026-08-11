@@ -5,7 +5,6 @@ import Drawer from './Drawer';
 import {localeable, LocaleProps, themeable, ThemeProps} from 'amis-core';
 import Spinner from './Spinner';
 import PopUp from './PopUp';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import type {TestIdBuilder} from 'amis-core';
 
 export interface ConfirmBoxProps extends LocaleProps, ThemeProps {
@@ -79,11 +78,7 @@ export function ConfirmBox({
   >();
   const bodyDomRef = React.useRef<HTMLElement | null>();
   const getPopOverContainer = React.useCallback(() => {
-    const dom =
-      bodyDomRef.current && !(bodyDomRef.current as HTMLElement).nodeType
-        ? findDOMNode(bodyDomRef.current)
-        : null;
-    return dom?.parentElement;
+    return bodyDomRef.current?.parentElement;
   }, []);
   const handleConfirm = React.useCallback(async () => {
     setError('');

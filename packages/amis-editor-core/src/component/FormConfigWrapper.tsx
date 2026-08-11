@@ -1,4 +1,3 @@
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {JSONPipeOut} from '../util';
 import React from 'react';
 import {NodeWrapper} from './NodeWrapper';
@@ -6,7 +5,7 @@ import {NodeWrapper} from './NodeWrapper';
 export class FormConfigWrapper extends NodeWrapper {
   // 销毁的时候要把加的 aeEditor-form-config 干掉
   componentWillUnmount() {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.getRootDom();
 
     if (!root) {
       return;
@@ -23,7 +22,7 @@ export class FormConfigWrapper extends NodeWrapper {
   }
 
   markDom(id: string) {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.getRootDom();
 
     if (!root || !id) {
       return;

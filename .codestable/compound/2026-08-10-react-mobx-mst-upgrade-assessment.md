@@ -34,10 +34,36 @@ Current declarations were found in `package.json`, `packages/amis/package.json`,
 ## Source facts
 
 - React 19 removes several legacy `react-dom` APIs including `findDOMNode`, `hydrate`, `render`, and `unmountComponentAtNode`; React documents `createRoot`, `hydrateRoot`, and `root.unmount()` as replacements. Sources: <https://react.dev/blog/2024/04/25/react-19-upgrade-guide>, <https://react.dev/reference/react-dom>.
+- React's `findDOMNode` replacement guidance is to use a ref for a known DOM node, add a wrapper element where the module truly owns the DOM shape, or use `forwardRef` when a parent needs access to a child's DOM node. That means each removal should happen at a real DOM ownership seam, not by hiding the call in another generic helper. Sources: <https://react.dev/reference/react-dom/findDOMNode>, <https://react.dev/reference/react/forwardRef>.
+- `react-transition-group@4` can call `findDOMNode` internally unless callers provide `nodeRef`; its migration path is to create a stable ref, pass it as `nodeRef`, and attach the same ref to the transitioning DOM node. Sources: <https://reactcommunity.org/react-transition-group/transition/#Transition-prop-nodeRef>, <https://reactcommunity.org/react-transition-group/css-transition/#CSSTransition-prop-nodeRef>.
+- Real-world component-library guidance follows the same pattern: replace hidden DOM discovery with explicit ref-capable children and documented container hooks. MUI's Tooltip docs require custom children to spread props and forward refs before the library can safely attach event handlers and refs. Source: <https://mui.com/material-ui/react-tooltip/#custom-child-element>.
 - React 19 removes `propTypes` checks and `defaultProps` support for function components; class components keep `defaultProps`. Source: <https://react.dev/blog/2024/04/25/react-19-upgrade-guide>.
 - MobX documents migration from 4/5 to 6 as a multi-step migration: upgrade within 4/5 first, resolve deprecations, call `configure({ enforceActions: "never" })` initially to emulate older behavior, and add `makeObservable(this)` or run `mobx-undecorate` where decorators are used. Source: <https://mobx.js.org/migrating-from-4-or-5.html>.
 - MST documentation positions MST as a MobX-based state container and recommends modern strict TypeScript settings for best type behavior. Sources: <https://mobx-state-tree.js.org/intro/installation>, <https://mobx-state-tree.js.org/tips/typescript>.
 - npm registry metadata observed on 2026-08-10: `mobx-react@10.0.0` and `mobx-react-lite@5.0.0` peer on `mobx: ^7.0.0`; `mobx-state-tree@7.3.2` peers on `mobx: ^6.3.0`. That makes “latest everything” internally inconsistent without peer overrides.
+
+## `findDOMNode` migration guardrails
+
+The external migration guidance changes the cleanup order:
+
+1. **Replace owned DOM first.** If the module renders the actual DOM node it queries, add or reuse a local ref and remove `findDOMNode` there. This is the lowest-risk path already used for local renderers, tables, range handles, and tab navigation.
+2. **Use `nodeRef` for transition modules.** Existing `react-transition-group` usage will not show up in local `findDOMNode` greps, but it is still part of React 19 readiness. Each `Transition` / `CSSTransition` instance needs a stable `nodeRef` attached to the transitioning DOM node.
+3. **Do not paper over HOC or arbitrary-child seams.** If a module renders only a provider, arbitrary `children`, or a themed/HOC child, replacing `findDOMNode(this)` usually requires either `forwardRef` support in the child module or a new owned wrapper. Do that only when the wrapper is semantically correct or the child interface is deliberately ref-forwarded.
+4. **Keep overlay and portal seams explicit.** `Overlay`, `RootClose`, `PopOverContainer`, Modal/Drawer content lookup, and editor wrapper marking are shared DOM ownership seams. They should be redesigned as interfaces for target/container/root DOM access, not patched one caller at a time.
+5. **Avoid a new generic compatibility layer.** The repo already has `findDomCompat`; adding another helper would hide the remaining problem instead of reducing it. The useful metric is fewer ambiguous DOM ownership seams, not merely fewer textual `findDOMNode` calls.
+
+## Refactor checkpoint
+
+- React root ownership now lives behind `renderReactNode` / `unmountReactNode`, so local legacy `ReactDOM.render` / `unmountComponentAtNode` callers can move without each caller owning its own root registry.
+- `react-transition-group` usage has been migrated to `nodeRef` where the transitioning DOM node is explicitly owned by the caller; shared arbitrary-child transitions are intentionally left for a deeper interface change.
+- The `Overlay` / `PopOver` seam now prefers an explicit root DOM ref: `Position` can attach to ref-capable children, and themed `PopOver` forwards its root DOM through the existing `forwardedRef` convention. The `findDomCompat` fallback remains only for arbitrary legacy children.
+- `Modal` / `Drawer` now expose their owned content DOM through a narrow `contentDomRef` interface, so dialog/drawer renderers no longer need to know internal content class names or use `findDOMNode(this).querySelector(...)` for nested popover containers.
+- `Card` now exposes its root DOM through the existing `forwardedRef` convention, letting `CardRenderer` provide nested field popover containers without resolving its class instance.
+- Table head select/filter wrappers now rely on `HeadCellDropDown`'s existing root-ref fallback instead of layering their own `findDOMNode(this)` fallback.
+- `InputBox`, `DropDownSelection`, `InputBoxWithSuggestion`, and condition-builder operator selection now use owner/root refs for target and popover container lookup, preserving their local container semantics without resolving wrapper instances.
+- Owned-root components such as `ColorPicker`, `Select`, `DateRangePicker`, `MonthRangePicker`, `NestedSelect`, `Table2`, and table head dropdowns now use local root refs for overlay target/container lookup instead of resolving their class instance.
+- `ResultBox` now exposes its root DOM through the existing `forwardedRef` convention, letting `TreeSelect` consume a DOM ref without coupling to the HOC/component instance.
+- Components with arbitrary wrappers or child-instance seams, such as `AutoSizer`, `ConfirmBox`, `SelectMobile`, editor wrappers, and some table/dropdown adapters, should not be rewritten mechanically; each needs an explicit owned DOM ref, documented child ref interface, or a justified wrapper element.
 
 ## Local coupling scan
 

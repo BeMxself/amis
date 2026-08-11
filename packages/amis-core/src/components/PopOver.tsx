@@ -5,9 +5,9 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from '../utils/findDomCompat';
 import {ClassNamesFn, getStableClassSelector, themeable} from '../theme';
 import {autobind, camel, preventDefault, TestIdBuilder} from '../utils';
+import {setReactRef} from '../utils/reactRef';
 import {SubPopoverDisplayedID} from './Overlay';
 
 export interface Offset {
@@ -29,6 +29,7 @@ export interface PopOverProps {
   onClick?: (e: React.MouseEvent<any>) => void;
   classPrefix: string;
   classnames: ClassNamesFn;
+  forwardedRef?: React.Ref<HTMLDivElement>;
   testIdBuilder?: TestIdBuilder;
   [propName: string]: any;
 }
@@ -55,12 +56,21 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
   };
 
   parent: HTMLElement;
-  wrapperRef: React.RefObject<HTMLDivElement> = React.createRef();
+  wrapperRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
   isRootClosed = false;
+
+  setWrapperRef = (ref: HTMLDivElement | null) => {
+    this.wrapperRef.current = ref;
+    setReactRef(this.props.forwardedRef, ref);
+  };
 
   componentDidMount() {
     this.mayUpdateOffset();
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.wrapperRef.current;
+    if (!dom) {
+      return;
+    }
+
     this.parent = dom.parentNode as HTMLElement;
     this.parent.classList.add('has-popover');
 
@@ -90,7 +100,12 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
     document.body.addEventListener('mouseup', this.handleRootMouseUp);
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps: PopOverProps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(this.props.forwardedRef, this.wrapperRef.current);
+    }
+
     this.mayUpdateOffset();
   }
 
@@ -169,10 +184,15 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
     let getOffset = this.props.offset;
 
     if (getOffset && typeof getOffset === 'function') {
+      const dom = this.wrapperRef.current;
+      if (!dom) {
+        return;
+      }
+
       const {placement, positionTop: y, positionLeft: x} = this.props;
 
       offset = getOffset(
-        (findDOMNode(this) as HTMLElement).getBoundingClientRect(),
+        dom.getBoundingClientRect(),
         {
           x,
           y,
@@ -211,6 +231,7 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
       classnames: cx,
       className,
       componentId,
+      forwardedRef,
       testIdBuilder,
       ...rest
     } = this.props;
@@ -227,7 +248,7 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
 
     return (
       <div
-        ref={this.wrapperRef}
+        ref={this.setWrapperRef}
         role="popover"
         className={cx(
           `PopOver`,

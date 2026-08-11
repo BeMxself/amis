@@ -26,7 +26,7 @@ import {
 import type {ThemeScope} from 'amis-core';
 import {Icon} from './icons';
 import {LocaleProps, localeable} from 'amis-core';
-import {autobind, getScrollbarWidth} from 'amis-core';
+import {autobind, getScrollbarWidth, setReactRef} from 'amis-core';
 import {
   DraggableCore,
   type DraggableBounds,
@@ -95,6 +95,7 @@ export interface ModalProps extends ThemeProps, LocaleProps {
   children?: React.ReactNode | Array<React.ReactNode>;
   modalClassName?: string;
   modalMaskClassName?: string;
+  contentDomRef?: React.Ref<HTMLDivElement>;
   draggable?: boolean;
 }
 
@@ -129,6 +130,8 @@ export class Modal extends React.Component<ModalProps, ModalState> {
 
   isRootClosed = false;
   modalDom: HTMLElement;
+  modalNodeRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+  contentDom: HTMLDivElement | null = null;
   portalThemeScope?: ThemeScope;
 
   static Header = themeable(
@@ -234,6 +237,13 @@ export class Modal extends React.Component<ModalProps, ModalState> {
     }
   }
 
+  componentDidUpdate(prevProps: ModalProps) {
+    if (prevProps.contentDomRef !== this.props.contentDomRef) {
+      setReactRef(prevProps.contentDomRef, null);
+      setReactRef(this.props.contentDomRef, this.contentDom);
+    }
+  }
+
   componentWillUnmount() {
     if (this.props.show) {
       this.handleExited();
@@ -293,6 +303,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
   };
 
   modalRef = (ref: any) => {
+    this.modalNodeRef.current = ref;
     this.modalDom = ref;
     const {classnames: cx} = this.props;
     if (ref) {
@@ -304,6 +315,11 @@ export class Modal extends React.Component<ModalProps, ModalState> {
     } else {
       removeModal(this);
     }
+  };
+
+  contentRef = (ref: HTMLDivElement | null) => {
+    this.contentDom = ref;
+    setReactRef(this.props.contentDomRef, ref);
   };
 
   @autobind
@@ -455,6 +471,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
     };
     return (
       <Transition
+        nodeRef={this.modalNodeRef}
         mountOnEnter
         unmountOnExit
         appear
@@ -495,6 +512,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
                 handle={getStableClassSelector(cx, 'Modal-header')}
               >
                 <div
+                  ref={this.contentRef}
                   className={cx(
                     `Modal-content`,
                     draggable && !mobileUI ? 'Modal-draggable' : '',

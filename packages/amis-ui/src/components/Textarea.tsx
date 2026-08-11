@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import BaseTextArea from 'react-textarea-autosize';
 import {localeable, LocaleProps, TestIdBuilder} from 'amis-core';
 import {themeable, ThemeProps} from 'amis-core';
@@ -82,7 +81,7 @@ export class Textarea extends React.Component<TextAreaProps, TextAreaState> {
 
   input?: HTMLTextAreaElement;
   inputRef = (ref: HTMLTextAreaElement) => {
-    this.input = findDOMNode(ref) as HTMLTextAreaElement;
+    this.input = ref;
     if (this.props.forwardRef) {
       this.props.forwardRef.current = this.input;
     }

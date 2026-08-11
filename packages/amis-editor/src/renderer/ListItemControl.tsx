@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import get from 'lodash/get';
 import Sortable from 'sortablejs';
@@ -41,6 +40,7 @@ export default class ListItemControl extends React.Component<
   sortable?: Sortable;
   drag?: HTMLElement | null;
   target: HTMLElement | null;
+  rootRef = React.createRef<HTMLDivElement>();
 
   internalProps = ['checked', 'editing'];
 
@@ -108,8 +108,8 @@ export default class ListItemControl extends React.Component<
   }
 
   @autobind
-  targetRef(ref: any) {
-    this.target = ref ? (findDOMNode(ref) as HTMLElement) : null;
+  targetRef(ref: HTMLElement | null) {
+    this.target = ref;
   }
 
   @autobind
@@ -124,7 +124,10 @@ export default class ListItemControl extends React.Component<
   }
 
   initDragging() {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
     this.sortable = new Sortable(
       dom.querySelector('.ae-OptionControl-content') as HTMLElement,
@@ -361,7 +364,7 @@ export default class ListItemControl extends React.Component<
     const {className, addTip, placeholder} = this.props;
 
     return (
-      <div className={cx('ae-OptionControl', className)}>
+      <div ref={this.rootRef} className={cx('ae-OptionControl', className)}>
         {this.renderHeader()}
 
         <div className="ae-OptionControl-wrapper">
@@ -374,11 +377,10 @@ export default class ListItemControl extends React.Component<
               {placeholder || '无数据'}
             </div>
           )}
-          <div className="ae-OptionControl-footer">
+          <div className="ae-OptionControl-footer" ref={this.targetRef}>
             <Button
               level="enhance"
               onClick={this.handleAdd}
-              ref={this.targetRef}
               className="w-full"
             >
               {addTip || '添加选项'}

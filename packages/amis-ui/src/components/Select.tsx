@@ -34,7 +34,6 @@ import find from 'lodash/find';
 import isPlainObject from 'lodash/isPlainObject';
 import union from 'lodash/union';
 import {highlight} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {ClassNamesFn, themeable, ThemeProps} from 'amis-core';
 import Checkbox from './Checkbox';
 import Input from './Input';
@@ -442,7 +441,7 @@ export class Select extends React.Component<SelectProps, SelectState> {
   };
 
   input: HTMLInputElement;
-  target: HTMLElement;
+  target: HTMLDivElement | null = null;
   menu: React.RefObject<HTMLDivElement> = React.createRef();
   constructor(props: SelectProps) {
     super(props);
@@ -573,23 +572,25 @@ export class Select extends React.Component<SelectProps, SelectState> {
 
   @autobind
   focus() {
-    this.input
-      ? this.input.focus()
-      : this.getTarget() && this.getTarget().focus();
+    const target = this.getTarget();
+
+    this.input ? this.input.focus() : target?.focus();
   }
 
   blur() {
-    this.input
-      ? this.input.blur()
-      : this.getTarget() && this.getTarget().blur();
+    const target = this.getTarget();
+
+    this.input ? this.input.blur() : target?.blur();
   }
 
   @autobind
   getTarget() {
-    if (!this.target) {
-      this.target = findDOMNode(this) as HTMLElement;
-    }
-    return this.target as HTMLElement;
+    return this.target;
+  }
+
+  @autobind
+  targetRef(ref: HTMLDivElement | null) {
+    this.target = ref;
   }
 
   @autobind
@@ -1254,13 +1255,14 @@ export class Select extends React.Component<SelectProps, SelectState> {
           overlay
           className={cx('Select-popover', popoverClassName)}
           style={{
-            width:
-              (overlay &&
-                BasePopover.calcOverlayWidth(
-                  overlay,
-                  this.target?.offsetWidth
-                )) ||
-              (this.target ? this.target.offsetWidth : 'auto')
+            width: this.target
+              ? (overlay &&
+                  BasePopover.calcOverlayWidth(
+                    overlay,
+                    this.target.offsetWidth
+                  )) ||
+                this.target.offsetWidth
+              : 'auto'
           }}
           onHide={this.close}
         >
@@ -1316,6 +1318,7 @@ export class Select extends React.Component<SelectProps, SelectState> {
           const {isOpen} = options;
           return (
             <div
+              ref={this.targetRef}
               tabIndex={disabled ? -1 : 0}
               onKeyPress={this.handleKeyPress}
               onClick={this.toggle}

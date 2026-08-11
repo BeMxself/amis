@@ -1,7 +1,6 @@
 import {FormItem, utils, Button, Overlay, PopOver, RendererProps} from 'amis';
 import React from 'react';
 import type {Schema} from 'amis';
-import {findDomCompat as findDOMNode} from 'amis-core';
 
 interface ClassNameControlProps extends RendererProps {
   schema: Schema;
@@ -746,6 +745,7 @@ export class ClassNameControl extends React.Component<
   };
 
   values: Array<string> = [];
+  rootRef = React.createRef<HTMLDivElement>();
 
   @utils.autobind
   open() {
@@ -793,12 +793,12 @@ export class ClassNameControl extends React.Component<
 
   @utils.autobind
   getParent() {
-    return findDOMNode(this);
+    return this.rootRef.current;
   }
 
   @utils.autobind
   getTarget() {
-    return findDOMNode(this) as HTMLElement;
+    return this.rootRef.current as HTMLElement;
   }
 
   handlePopOverChange(option: any) {
@@ -999,7 +999,7 @@ export class ClassNameControl extends React.Component<
     } = this.props;
 
     return (
-      <div className={className}>
+      <div className={className} ref={this.rootRef}>
         <div
           className={cx(`TextControl`, {
             [`TextControl--withAddOn`]: true,

@@ -1,8 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import memoize from 'lodash/memoize';
 import isString from 'lodash/isString';
-import {AMISSchemaBase, Renderer, RendererProps} from 'amis-core';
+import {
+  AMISSchemaBase,
+  Renderer,
+  RendererProps,
+  renderReactNode,
+  unmountReactNode
+} from 'amis-core';
 import {BaseSchema} from '../Schema';
 import {FormControlProps} from 'amis-core';
 import isEqual from 'lodash/isEqual';
@@ -171,14 +176,14 @@ export class Custom extends React.Component<CustomProps, object> {
   unmountChildElem() {
     if (this.childElemArr && this.childElemArr.length > 0) {
       this.childElemArr.forEach(childElemItem =>
-        ReactDOM.unmountComponentAtNode(childElemItem)
+        unmountReactNode(childElemItem)
       );
     }
   }
 
   /**
    * 渲染子元素
-   * 备注：现有custom组件通过props.render生成的子元素是react虚拟dom对象，需要使用ReactDOM.render渲染，不能直接插入到当前dom中。
+   * 备注：现有custom组件通过props.render生成的子元素是react虚拟dom对象，需要挂载到独立React root中，不能直接插入到当前dom中。
    **/
   renderChild(
     schemaPosition: string,
@@ -186,7 +191,6 @@ export class Custom extends React.Component<CustomProps, object> {
     insertElemDom: HTMLElement | string
   ) {
     const {render} = this.props;
-    let childEleCont = null;
     let curInsertElemDom: any = null;
     if (isString(insertElemDom)) {
       const _curInsertElem = document.getElementById(insertElemDom);
@@ -198,11 +202,10 @@ export class Custom extends React.Component<CustomProps, object> {
     }
     if (childSchema && curInsertElemDom) {
       const childHTMLElem = render(schemaPosition, childSchema);
-      childEleCont = ReactDOM.render(childHTMLElem, curInsertElemDom, () => {
+      renderReactNode(childHTMLElem, curInsertElemDom, () => {
         this.recordChildElem(curInsertElemDom);
       });
     }
-    return childEleCont;
   }
 
   render() {

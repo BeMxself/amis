@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {
   AMISFormSchema,
   AMISSchema,
@@ -13,6 +12,7 @@ import {
   getStableClassSelector,
   getPropValue,
   getRendererByName,
+  mergeRefs,
   noop,
   setVariable
 } from 'amis-core';
@@ -22,7 +22,6 @@ import keycode from 'keycode';
 import {Overlay} from 'amis-core';
 import {PopOver, AMISSchemaCollection} from 'amis-core';
 import omit from 'lodash/omit';
-import {AMISFormBase} from 'packages/amis-core/lib';
 import {SchemaApi} from '../Schema';
 
 export interface AMISQuickEditObject {
@@ -77,6 +76,7 @@ export interface QuickEditProps extends RendererProps {
   label?: string;
   quickEdit: boolean | QuickEditConfig;
   quickEditEnabled?: boolean;
+  wrapperRef?: React.Ref<HTMLElement>;
 }
 
 export interface QuickEditState {
@@ -108,7 +108,7 @@ export const HocQuickEdit =
       QuickEditProps,
       QuickEditState
     > {
-      target: HTMLElement;
+      rootRef = React.createRef<HTMLElement>();
       overlay: HTMLElement;
       form?: any;
       formItem?: any;
@@ -137,8 +137,6 @@ export const HocQuickEdit =
       }
 
       componentDidMount() {
-        this.target = findDOMNode(this) as HTMLElement;
-
         if (inited) {
           return;
         }
@@ -407,7 +405,10 @@ export const HocQuickEdit =
             isOpened: false
           },
           () => {
-            let el = findDOMNode(this) as HTMLElement;
+            let el = this.rootRef.current;
+            if (!el) {
+              return;
+            }
             let table = el.closest('table') as HTMLElement;
             ((table &&
               table.querySelectorAll(`td${quickEditableSelector}:focus`)
@@ -560,12 +561,13 @@ export const HocQuickEdit =
           </div>
         );
 
-        popOverContainer = popOverContainer || (() => findDOMNode(this));
+        popOverContainer =
+          popOverContainer || (() => this.rootRef.current as HTMLElement);
 
         return (
           <Overlay
             container={popOverContainer}
-            target={() => this.target}
+            target={() => this.rootRef.current}
             onHide={this.closeQuickEdit}
             placement="left-top right-top left-bottom right-bottom left-top-right-top left-bottom-right-bottom left-top"
             show
@@ -660,8 +662,11 @@ export const HocQuickEdit =
           buildItemProps,
           quickEditFormRef,
           quickEditFormItemRef,
+          wrapperRef,
           ...restProps
         } = this.props;
+        const quickEditRootRef = mergeRefs(wrapperRef, this.rootRef);
+
         if (
           isStatic ||
           !quickEdit ||
@@ -682,6 +687,7 @@ export const HocQuickEdit =
           return (
             <Component
               {...restProps}
+              wrapperRef={quickEditRootRef}
               className={cx(`Field--quickEditable`, className)}
               tabIndex={
                 (quickEdit as QuickEditConfig).focusable === false
@@ -697,6 +703,7 @@ export const HocQuickEdit =
           return (
             <Component
               {...restProps}
+              wrapperRef={quickEditRootRef}
               className={cx(`Field--quickEditable`, className, {
                 in: this.state.isOpened
               })}

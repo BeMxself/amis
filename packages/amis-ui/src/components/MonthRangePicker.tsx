@@ -6,7 +6,6 @@
 
 import React from 'react';
 import moment from 'moment';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import {Icon} from './icons';
 import {Overlay} from 'amis-core';
@@ -706,7 +705,7 @@ export class MonthRangePicker extends React.Component<
             <Overlay
               target={() => this.dom.current}
               onHide={this.close}
-              container={popOverContainer || (() => findDOMNode(this))}
+              container={popOverContainer || (() => this.dom.current)}
               rootClose={false}
               placement={overlayPlacement}
               show

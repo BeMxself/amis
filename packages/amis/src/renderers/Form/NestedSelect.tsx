@@ -34,7 +34,6 @@ import {
   setThemeClassName,
   CustomStyle
 } from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import xor from 'lodash/xor';
 import union from 'lodash/union';
 import compact from 'lodash/compact';
@@ -536,10 +535,7 @@ export default class NestedSelectControl extends React.Component<
 
   @autobind
   getTarget() {
-    if (!this.target) {
-      this.target = findDOMNode(this) as HTMLElement;
-    }
-    return this.target as HTMLElement;
+    return this.target || this.outTarget.current;
   }
 
   @autobind
@@ -940,7 +936,7 @@ export default class NestedSelectControl extends React.Component<
     return (
       <Overlay
         target={this.getTarget}
-        container={popOverContainer || (() => findDOMNode(this))}
+        container={popOverContainer || (() => this.outTarget.current)}
         placement={'auto'}
         show
       >

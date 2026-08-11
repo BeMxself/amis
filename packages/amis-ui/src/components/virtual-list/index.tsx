@@ -3,7 +3,6 @@
  */
 
 import * as React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import * as PropTypes from 'prop-types';
 import SizeAndPositionManager, {ItemSize} from './SizeAndPositionManager';
 import {

@@ -4,8 +4,7 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
-import {RendererProps} from 'amis-core';
+import {mergeRefs, RendererProps} from 'amis-core';
 import cx from 'classnames';
 import hoistNonReactStatic from 'hoist-non-react-statics';
 import {PopOver} from 'amis-core';
@@ -27,6 +26,7 @@ export interface PopOverProps extends RendererProps {
   onPopOverOpened: (popover: any) => void;
   onPopOverClosed: (popover: any) => void;
   textOverflow?: 'noWrap' | 'ellipsis' | 'default';
+  wrapperRef?: React.Ref<HTMLElement>;
 }
 
 export interface PopOverState {
@@ -43,7 +43,8 @@ export const HocPopOver =
   (Component: React.ComponentType<any>): any => {
     let lastOpenedInstance: PopOverComponent | null = null;
     class PopOverComponent extends React.Component<PopOverProps, PopOverState> {
-      target: HTMLElement;
+      rootRef = React.createRef<HTMLElement>();
+      target: HTMLElement | null = null;
       timer: ReturnType<typeof setTimeout>;
       static ComposedComponent = Component;
       constructor(props: PopOverProps) {
@@ -63,6 +64,10 @@ export const HocPopOver =
       targetRef(ref: any) {
         this.target = ref;
       }
+
+      getTarget = () => {
+        return config.targetOutter ? this.rootRef.current : this.target;
+      };
 
       openPopOver(event: any) {
         const onPopOverOpened = this.props.onPopOverOpened;
@@ -194,9 +199,8 @@ export const HocPopOver =
           className: cx(popOver && (popOver as SchemaPopOverObject).className)
         }) as JSX.Element;
 
-        if (!popOverContainer) {
-          popOverContainer = () => findDOMNode(this);
-        }
+        popOverContainer =
+          popOverContainer || (() => this.rootRef.current as HTMLElement);
 
         const selectClassName = this.getClassName();
         const defaultPlacement =
@@ -235,7 +239,7 @@ export const HocPopOver =
           <Overlay
             container={popOverContainer}
             placement={position || config.position || defaultPlacement}
-            target={() => this.target}
+            target={this.getTarget}
             onHide={this.closePopOver}
             rootClose
             show
@@ -279,7 +283,8 @@ export const HocPopOver =
           noHoc,
           width,
           classnames: cx,
-          showIcon
+          showIcon,
+          wrapperRef
         } = this.props;
 
         const selectClassName = this.getClassName();
@@ -308,10 +313,10 @@ export const HocPopOver =
         return (
           <Component
             {...this.props}
+            wrapperRef={mergeRefs(wrapperRef, this.rootRef)}
             className={cx(`Field--popOverAble`, className, {
               in: this.state.isOpened
             })}
-            ref={config.targetOutter ? this.targetRef : undefined}
           >
             {(popOver as SchemaPopOverObject)?.showIcon !== false && popOver ? (
               <>

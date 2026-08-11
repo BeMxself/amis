@@ -5,7 +5,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cx from 'classnames';
 import {FormItem, Button, Overlay, PopOver, Icon, Switch} from 'amis';
 
@@ -169,8 +168,8 @@ export default class SwitchMore extends React.Component<
   }
 
   @autobind
-  overlayRef(ref: any) {
-    this.overlay = ref ? (findDOMNode(ref) as HTMLElement) : null;
+  overlayRef(ref: HTMLSpanElement | null) {
+    this.overlay = ref;
   }
 
   @autobind
@@ -326,16 +325,16 @@ export default class SwitchMore extends React.Component<
       );
     } else if (formType === 'pop') {
       actions.push(
-        <Button
-          key="edit"
-          level="link"
-          size="sm"
-          className="action-btn"
-          ref={this.overlayRef}
-          onClick={this.openPopover}
-        >
-          <Icon icon="pencil" className="icon" />
-        </Button>
+        <span key="edit" ref={this.overlayRef}>
+          <Button
+            level="link"
+            size="sm"
+            className="action-btn"
+            onClick={this.openPopover}
+          >
+            <Icon icon="pencil" className="icon" />
+          </Button>
+        </span>
       );
     } else if (hiddenOnDefault && formType === 'extend') {
       actions.push(

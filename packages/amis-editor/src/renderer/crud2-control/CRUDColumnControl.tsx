@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import Sortable from 'sortablejs';
 import {FormItem, Button, Icon, toast, Tag, Spinner, autobind} from 'amis';
 import {TooltipWrapper} from 'amis-ui';
@@ -62,6 +61,7 @@ export class CRUDColumnControl extends React.Component<
   drag?: HTMLElement | null;
 
   dom?: HTMLElement;
+  rootRef = React.createRef<HTMLDivElement>();
 
   constructor(props: CRUDColumnControlProps) {
     super(props);
@@ -74,7 +74,7 @@ export class CRUDColumnControl extends React.Component<
   }
 
   componentDidMount(): void {
-    this.dom = findDOMNode(this) as HTMLElement;
+    this.dom = this.rootRef.current as HTMLElement;
     this.initOptions();
   }
 
@@ -154,7 +154,10 @@ export class CRUDColumnControl extends React.Component<
 
   initDragging() {
     const {classnames: cx} = this.props;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
     this.sortable = new Sortable(
       dom.querySelector(
@@ -446,7 +449,7 @@ export class CRUDColumnControl extends React.Component<
     const {options, loading, showAddModal, addModalData} = this.state;
 
     return (
-      <div className={cx('ae-CRUDConfigControl')}>
+      <div ref={this.rootRef} className={cx('ae-CRUDConfigControl')}>
         {loading ? (
           <Spinner
             show

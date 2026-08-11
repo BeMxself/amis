@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import Sortable from 'sortablejs';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cloneDeep from 'lodash/cloneDeep';
 import cx from 'classnames';
 
@@ -97,6 +96,7 @@ export class ResultList extends React.Component<
   sortable?: Sortable;
   unmounted = false;
   searchRef?: any;
+  rootRef = React.createRef<HTMLDivElement>();
 
   componentDidMount() {
     this.props.sortable && this.initSortable();
@@ -125,7 +125,11 @@ export class ResultList extends React.Component<
 
   initSortable() {
     const cx = this.props.classnames;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
+
     const container = dom.querySelector(
       getStableClassSelector(cx, 'Selections-items')
     ) as HTMLElement;
@@ -390,7 +394,7 @@ export class ResultList extends React.Component<
     const {searchResult} = this.state;
 
     return (
-      <div className={cx('Selections', className)}>
+      <div className={cx('Selections', className)} ref={this.rootRef}>
         {title ? <div className={cx('Selections-title')}>{title}</div> : null}
         {searchable ? (
           <TransferSearch

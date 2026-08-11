@@ -1,6 +1,6 @@
 import {isAlive} from 'mobx-state-tree';
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
+import {mergeRefs, setReactRef} from 'amis-core';
 import {EditorManager} from '../manager';
 import {RegionConfig, RendererInfo} from '../plugin';
 import {needFillPlaceholder} from '../util';
@@ -20,6 +20,7 @@ export interface RegionWrapperProps {
   regionConfig: RegionConfig;
   node?: EditorNodeType; // 虚拟dom节点信息
   $$editor?: RendererInfo; // 当前节点信息（info）
+  forwardedRef?: React.Ref<HTMLElement>;
   children?: React.ReactNode;
 }
 
@@ -31,6 +32,26 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
   static contextType = EditorNodeContext;
   parentNode: EditorNodeType;
   editorNode: EditorNodeType;
+  rootDom: HTMLElement | null = null;
+  placeholderDom: HTMLSpanElement | null = null;
+
+  setRootRef = (ref: HTMLElement | null) => {
+    this.rootDom = ref;
+    this.syncForwardedRef();
+  };
+
+  setPlaceholderRef = (ref: HTMLSpanElement | null) => {
+    this.placeholderDom = ref;
+    this.syncForwardedRef();
+  };
+
+  getMarkerDom() {
+    return this.rootDom || this.placeholderDom;
+  }
+
+  syncForwardedRef() {
+    setReactRef(this.props.forwardedRef, this.getMarkerDom());
+  }
 
   UNSAFE_componentWillMount() {
     this.parentNode = (this.context as any)!;
@@ -74,6 +95,11 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
   }
 
   componentDidUpdate(prevProps: RegionWrapperProps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      this.syncForwardedRef();
+    }
+
     this.editorNode &&
       this.markDom(
         this.editorNode.id,
@@ -83,6 +109,8 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
   }
 
   componentWillUnmount() {
+    setReactRef(this.props.forwardedRef, null);
+
     if (this.editorNode && isAlive(this.editorNode) && this.parentNode) {
       this.parentNode.removeChild(this.editorNode);
     }
@@ -92,7 +120,7 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
    * 弄点标记
    */
   markDom(id: string, region: string, rendererName?: string) {
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.getMarkerDom();
 
     if (!dom) {
       return;
@@ -107,6 +135,31 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
     rendererName && wrapper.setAttribute('data-renderer', rendererName);
   }
 
+  renderChildren() {
+    let attached = false;
+
+    return React.Children.map(this.props.children, child => {
+      if (attached || !React.isValidElement(child)) {
+        return child;
+      }
+
+      attached = true;
+
+      if (typeof child.type === 'string') {
+        return React.cloneElement(child, {
+          ref: mergeRefs((child as any).ref, this.setRootRef)
+        } as any);
+      }
+
+      return React.cloneElement(child, {
+        forwardedRef: mergeRefs(
+          (child.props as any).forwardedRef,
+          this.setRootRef
+        )
+      } as any);
+    });
+  }
+
   render() {
     const isLayoutItem =
       this.props.rendererName === 'wrapper' ||
@@ -117,8 +170,9 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
     }
     return (
       <EditorNodeContext.Provider value={this.editorNode}>
-        {this.props.children}
+        {this.renderChildren()}
         <span
+          ref={this.setPlaceholderRef}
           className={`ae-Region-placeholder ${
             isLayoutItem ? 'layout-content' : ''
           } ${isNeedFillPlaceholder ? 'fill-placeholder' : ''}`}

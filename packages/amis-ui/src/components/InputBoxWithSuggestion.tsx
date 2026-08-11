@@ -1,6 +1,5 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
-import {localeable, LocaleProps} from 'amis-core';
+import {localeable, LocaleProps, mergeRefs} from 'amis-core';
 import {themeable, ThemeProps} from 'amis-core';
 // @ts-ignore
 import {matchSorter} from 'match-sorter';
@@ -25,6 +24,8 @@ export interface InputBoxWithSuggestionProps extends ThemeProps, LocaleProps {
 const option2value = (item: any) => item.value;
 
 export class InputBoxWithSuggestion extends React.Component<InputBoxWithSuggestionProps> {
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
   constructor(props: InputBoxWithSuggestionProps) {
     super(props);
     this.state = {
@@ -33,6 +34,8 @@ export class InputBoxWithSuggestion extends React.Component<InputBoxWithSuggesti
     this.onSearch = this.onSearch.bind(this);
     this.filterOptions = this.filterOptions.bind(this);
   }
+
+  getPopOverContainer = () => this.rootRef.current;
 
   onSearch(text: string) {
     let txt = text.toLowerCase();
@@ -77,7 +80,7 @@ export class InputBoxWithSuggestion extends React.Component<InputBoxWithSuggesti
     return (
       <PopOverContainer
         show={!!options.length}
-        popOverContainer={popOverContainer || (() => findDOMNode(this))}
+        popOverContainer={popOverContainer || this.getPopOverContainer}
         popOverRender={({onClose}) => (
           <>
             {searchable ? (
@@ -103,7 +106,7 @@ export class InputBoxWithSuggestion extends React.Component<InputBoxWithSuggesti
               className,
               isOpened ? 'is-active' : ''
             )}
-            ref={ref}
+            forwardedRef={mergeRefs(ref, this.rootRef)}
             placeholder={placeholder}
             disabled={disabled}
             value={value}

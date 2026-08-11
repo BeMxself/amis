@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import cloneDeep from 'lodash/cloneDeep';
 import pick from 'lodash/pick';
 import {FormItem, Button, Icon, toast, Spinner, autobind} from 'amis';
@@ -50,6 +49,7 @@ export class CRUDToolbarControl extends React.Component<
   drag?: HTMLElement | null;
 
   dom?: HTMLElement;
+  rootRef = React.createRef<HTMLDivElement>();
 
   /** 可供使用的功能集合 */
   collection: ActionValue[] = [
@@ -69,7 +69,7 @@ export class CRUDToolbarControl extends React.Component<
   }
 
   componentDidMount(): void {
-    this.dom = findDOMNode(this) as HTMLElement;
+    this.dom = this.rootRef.current ?? undefined;
     const actions = this.getActionNodes(this.props);
     this.initOptions(actions);
   }
@@ -396,7 +396,7 @@ export class CRUDToolbarControl extends React.Component<
     const {options, loading} = this.state;
 
     return (
-      <div className={cx('ae-CRUDConfigControl')}>
+      <div ref={this.rootRef} className={cx('ae-CRUDConfigControl')}>
         {loading ? (
           <Spinner
             show

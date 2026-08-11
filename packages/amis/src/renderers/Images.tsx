@@ -253,6 +253,14 @@ export class ImagesField extends React.Component<ImagesProps, ImagesState> {
   evenReg = /^even-[1-9]\d*-[1-9]\d*$/;
 
   wrapperRef: React.RefObject<HTMLDivElement> = React.createRef();
+  transitionRefs: Record<number, React.RefObject<HTMLDivElement>> = {};
+
+  getTransitionRef(index: number) {
+    return (
+      this.transitionRefs[index] ||
+      (this.transitionRefs[index] = createRef<HTMLDivElement>())
+    );
+  }
 
   // 根据当前索引和方向获取下一帧的索引
   @autobind
@@ -835,83 +843,89 @@ export class ImagesField extends React.Component<ImagesProps, ImagesState> {
             <div className={cx('Images', listClassName)}>
               {displayMode === 'full' ? (
                 <div className={cx('Images-container')}>
-                  {list.map((item: any, index: number) => (
-                    <Transition
-                      key={index}
-                      in={index === currentIndex}
-                      timeout={300}
-                      mountOnEnter
-                      unmountOnExit
-                    >
-                      {(status: string) => {
-                        if (status === ENTERING) {
-                          this.wrapperRef.current?.childNodes.forEach(
-                            (item: HTMLElement) => item.offsetHeight
-                          );
-                        }
+                  {list.map((item: any, index: number) => {
+                    const nodeRef = this.getTransitionRef(index);
 
-                        const animationStyles: {
-                          [propName: string]: React.CSSProperties;
-                        } = {
-                          [ENTERING]: {
-                            opacity: 1,
-                            transform: 'translateX(0)'
-                          },
-                          [ENTERED]: {
-                            opacity: 1,
-                            transform: 'translateX(0)'
-                          },
-                          [EXITING]: {
-                            opacity: 0,
-                            transform:
-                              this.state.nextAnimation === 'slideRight'
-                                ? 'translateX(100%)'
-                                : 'translateX(-100%)'
-                          },
-                          [EXITED]: {
-                            opacity: 0,
-                            transform:
-                              this.state.nextAnimation === 'slideRight'
-                                ? 'translateX(-100%)'
-                                : 'translateX(100%)'
+                    return (
+                      <Transition
+                        nodeRef={nodeRef}
+                        key={index}
+                        in={index === currentIndex}
+                        timeout={300}
+                        mountOnEnter
+                        unmountOnExit
+                      >
+                        {(status: string) => {
+                          if (status === ENTERING) {
+                            this.wrapperRef.current?.childNodes.forEach(
+                              (item: HTMLElement) => item.offsetHeight
+                            );
                           }
-                        };
 
-                        return (
-                          <div
-                            className={cx('Images-item')}
-                            style={{
-                              position: 'absolute',
-                              width: '100%',
-                              height: '100%',
-                              transition: 'all 300ms ease-in-out',
-                              ...animationStyles[status]
-                            }}
-                          >
-                            <div className={cx('Images-itemInner')}>
-                              <img
-                                className={cx('Image-image', {
-                                  [`Image-image--${fullThumbMode}`]:
-                                    displayMode === 'full'
-                                })}
-                                src={
-                                  (src
-                                    ? filter(src, item, '| raw')
-                                    : item && item.image) || item
-                                }
-                                alt={item && item.title}
-                                draggable={false}
-                                onDragStart={e => e.preventDefault()}
-                              />
-                              <div className={cx('Images-itemIndex')}>
-                                {index + 1}/{list.length}
+                          const animationStyles: {
+                            [propName: string]: React.CSSProperties;
+                          } = {
+                            [ENTERING]: {
+                              opacity: 1,
+                              transform: 'translateX(0)'
+                            },
+                            [ENTERED]: {
+                              opacity: 1,
+                              transform: 'translateX(0)'
+                            },
+                            [EXITING]: {
+                              opacity: 0,
+                              transform:
+                                this.state.nextAnimation === 'slideRight'
+                                  ? 'translateX(100%)'
+                                  : 'translateX(-100%)'
+                            },
+                            [EXITED]: {
+                              opacity: 0,
+                              transform:
+                                this.state.nextAnimation === 'slideRight'
+                                  ? 'translateX(-100%)'
+                                  : 'translateX(100%)'
+                            }
+                          };
+
+                          return (
+                            <div
+                              ref={nodeRef}
+                              className={cx('Images-item')}
+                              style={{
+                                position: 'absolute',
+                                width: '100%',
+                                height: '100%',
+                                transition: 'all 300ms ease-in-out',
+                                ...animationStyles[status]
+                              }}
+                            >
+                              <div className={cx('Images-itemInner')}>
+                                <img
+                                  className={cx('Image-image', {
+                                    [`Image-image--${fullThumbMode}`]:
+                                      displayMode === 'full'
+                                  })}
+                                  src={
+                                    (src
+                                      ? filter(src, item, '| raw')
+                                      : item && item.image) || item
+                                  }
+                                  alt={item && item.title}
+                                  draggable={false}
+                                  onDragStart={e => e.preventDefault()}
+                                />
+                                <div className={cx('Images-itemIndex')}>
+                                  {index + 1}/{list.length}
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        );
-                      }}
-                    </Transition>
-                  ))}
+                          );
+                        }}
+                      </Transition>
+                    );
+                  })}
                 </div>
               ) : (
                 list.map((item: any, index: number) => (

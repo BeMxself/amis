@@ -1,5 +1,5 @@
 import React from 'react';
-import {TestIdBuilder, ThemeProps, themeable} from 'amis-core';
+import {setReactRef, TestIdBuilder, ThemeProps, themeable} from 'amis-core';
 import Input from './Input';
 import {autobind, ucFirst} from 'amis-core';
 import {Icon} from './icons';
@@ -25,6 +25,7 @@ export interface InputBoxProps
   testIdBuilder?: TestIdBuilder;
   inputRender?: (props: any, ref?: any) => JSX.Element;
   dataName?: string;
+  forwardedRef?: React.Ref<HTMLDivElement>;
 }
 
 export interface InputBoxState {
@@ -40,6 +41,20 @@ export class InputBox extends React.Component<InputBoxProps, InputBoxState> {
   state = {
     isFocused: false
   };
+
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  setRootRef = (ref: HTMLDivElement | null) => {
+    this.rootRef.current = ref;
+    setReactRef(this.props.forwardedRef, ref);
+  };
+
+  componentDidUpdate(prevProps: InputBoxProps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(this.props.forwardedRef, this.rootRef.current);
+    }
+  }
 
   @autobind
   clearValue(e: any) {
@@ -95,12 +110,14 @@ export class InputBox extends React.Component<InputBoxProps, InputBoxState> {
       testIdBuilder,
       inputRender,
       dataName,
+      forwardedRef,
       ...rest
     } = this.props;
     const isFocused = this.state.isFocused;
 
     return (
       <div
+        ref={this.setRootRef}
         className={cx('InputBox', className, {
           'is-mobile': mobileUI,
           'is-focused': isFocused,

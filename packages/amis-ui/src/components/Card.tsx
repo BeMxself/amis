@@ -1,5 +1,5 @@
 import React from 'react';
-import {isClickOnInput} from 'amis-core';
+import {isClickOnInput, setReactRef} from 'amis-core';
 import {ClassNamesFn, themeable, ThemeProps} from 'amis-core';
 import {buildStyle} from 'amis-core';
 export interface CardProps extends ThemeProps {
@@ -30,6 +30,7 @@ export interface CardProps extends ThemeProps {
   avatarText?: string | JSX.Element;
   secondary?: string | JSX.Element;
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+  forwardedRef?: React.Ref<HTMLDivElement>;
   classnames: ClassNamesFn;
   data?: any;
 }
@@ -53,6 +54,20 @@ export class Card extends React.Component<CardProps> {
   constructor(props: CardProps) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
+  }
+
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  setRootRef = (ref: HTMLDivElement | null) => {
+    this.rootRef.current = ref;
+    setReactRef(this.props.forwardedRef, ref);
+  };
+
+  componentDidUpdate(prevProps: CardProps) {
+    if (prevProps.forwardedRef !== this.props.forwardedRef) {
+      setReactRef(prevProps.forwardedRef, null);
+      setReactRef(this.props.forwardedRef, this.rootRef.current);
+    }
   }
 
   handleClick(e: React.MouseEvent<HTMLDivElement>) {
@@ -168,6 +183,7 @@ export class Card extends React.Component<CardProps> {
 
     return (
       <div
+        ref={this.setRootRef}
         onClick={this.handleClick}
         className={cx('Card', className, {
           'Card--link': onClick

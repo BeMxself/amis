@@ -136,26 +136,45 @@ export class Collapse extends React.Component<CollapseProps, CollapseState> {
     );
   }
 
-  contentDom: any;
-  contentRef = (ref: any) => (this.contentDom = ref);
+  contentRef = React.createRef<HTMLDivElement>();
 
   @autobind
-  handleEnter(elem: HTMLElement) {
+  handleEnter() {
+    const elem = this.contentRef.current;
+    if (!elem) {
+      return;
+    }
+
     elem.style['height'] = '';
   }
 
   @autobind
-  handleEntering(elem: HTMLElement) {
+  handleEntering() {
+    const elem = this.contentRef.current;
+    if (!elem) {
+      return;
+    }
+
     elem.style['height'] = `${elem['scrollHeight']}px`;
   }
 
   @autobind
-  handleEntered(elem: HTMLElement) {
+  handleEntered() {
+    const elem = this.contentRef.current;
+    if (!elem) {
+      return;
+    }
+
     elem.style['height'] = '';
   }
 
   @autobind
-  handleExit(elem: HTMLElement) {
+  handleExit() {
+    const elem = this.contentRef.current;
+    if (!elem) {
+      return;
+    }
+
     let offsetHeight = elem['offsetHeight'];
     const height =
       offsetHeight +
@@ -167,7 +186,12 @@ export class Collapse extends React.Component<CollapseProps, CollapseState> {
   }
 
   @autobind
-  handleExiting(elem: HTMLElement) {
+  handleExiting() {
+    const elem = this.contentRef.current;
+    if (!elem) {
+      return;
+    }
+
     elem.style['height'] = '';
   }
 
@@ -239,6 +263,7 @@ export class Collapse extends React.Component<CollapseProps, CollapseState> {
       </HeadingComponent>,
       <Transition
         key="body"
+        nodeRef={this.contentRef}
         mountOnEnter={mountOnEnter}
         unmountOnExit={unmountOnExit}
         in={!this.state.collapsed}
@@ -251,7 +276,7 @@ export class Collapse extends React.Component<CollapseProps, CollapseState> {
       >
         {(status: string) => {
           if (status === ENTERING) {
-            this.contentDom.offsetWidth;
+            this.contentRef.current?.offsetWidth;
           }
           return (
             <div

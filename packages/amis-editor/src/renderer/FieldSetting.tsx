@@ -9,7 +9,6 @@ import pick from 'lodash/pick';
 import isEqual from 'lodash/isEqual';
 import debounce from 'lodash/debounce';
 import {isObject} from 'amis-core';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {
   FormItem,
   FormControlProps,
@@ -85,8 +84,6 @@ export class FieldSetting extends React.Component<
 
   reaction: IReactionDisposer;
 
-  dom: HTMLElement;
-
   formRef = React.createRef<{submit: () => Promise<Record<string, any>>}>();
 
   tableRef = React.createRef<any>();
@@ -102,11 +99,6 @@ export class FieldSetting extends React.Component<
 
   constructor(props: FieldSettingProps) {
     super(props);
-
-    const {render, classnames: cx, env, config, data, renderer, feat} = props;
-    const popOverContainer = env?.getModalContainer?.() ?? this.dom;
-    const {showDisplayType, showInputType} = config || {};
-    const isFirstStep = data?.__step === 0;
 
     this.state = {
       loading: false,
@@ -127,10 +119,6 @@ export class FieldSetting extends React.Component<
       },
       () => this.forceUpdate()
     );
-  }
-
-  componentDidMount() {
-    this.dom = findDOMNode(this) as HTMLElement;
   }
 
   componentDidUpdate(

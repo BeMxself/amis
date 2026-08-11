@@ -1,8 +1,7 @@
-import {RendererProps, isObject} from 'amis-core';
+import {RendererProps, isObject, mergeRefs} from 'amis-core';
 import {observer} from 'mobx-react';
 import {isAlive} from 'mobx-state-tree';
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import merge from 'lodash/merge';
 import omit from 'lodash/omit';
 import {RendererInfo} from '../plugin';
@@ -19,6 +18,7 @@ export interface NodeWrapperProps extends RendererProps {
 export class NodeWrapper extends React.Component<NodeWrapperProps> {
   /** 合并 Mock 配置时应该忽略的属性 */
   omitMockProps = ['id', '$$id', 'enable', 'maxDisplayRows'];
+  rootRef: React.RefObject<HTMLElement> = React.createRef();
 
   componentDidMount() {
     this.markDom(this.props.$$editor.id);
@@ -45,11 +45,15 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
     this.ref = ref;
   }
 
+  protected getRootDom() {
+    return this.rootRef.current;
+  }
+
   /**
    * 弄点标记
    */
   markDom(id: string) {
-    const root = findDOMNode(this) as HTMLElement;
+    const root = this.getRootDom();
 
     if (!root || !id) {
       return;
@@ -114,6 +118,11 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
           ...$$node?.state,
           $$editor,
           ...$$editor.wrapperProps,
+          forwardedRef: mergeRefs(
+            (rest as any).forwardedRef,
+            this.rootRef,
+            this.refFn
+          ),
           ref: this.refFn
         },
         $$editor
@@ -132,6 +141,7 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
         {...$$node?.state}
         $$editor={$$editor}
         {...$$editor.wrapperProps}
+        forwardedRef={mergeRefs((rest as any).forwardedRef, this.rootRef)}
         ref={supportRef ? this.refFn : undefined}
       />
     );

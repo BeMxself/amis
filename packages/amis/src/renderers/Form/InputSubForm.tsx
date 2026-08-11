@@ -13,7 +13,6 @@ import {createObject, guid} from 'amis-core';
 import {Icon} from 'amis-ui';
 import {FormBaseControlSchema, AMISClassName} from '../../Schema';
 import Sortable from 'sortablejs';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {isMobile} from 'amis-core';
 import {PopUp} from 'amis-ui';
 import {autobind} from 'amis-core';
@@ -164,6 +163,7 @@ export default class SubFormControl extends React.PureComponent<
   sortable?: Sortable;
   id: string = guid();
   tempValue: any;
+  rootRef = React.createRef<HTMLDivElement>();
   constructor(props: SubFormProps) {
     super(props);
 
@@ -311,7 +311,11 @@ export default class SubFormControl extends React.PureComponent<
   initDragging() {
     const cx = this.props.classnames;
     const submitOnChange = this.props.submitOnChange;
-    const dom = findDOMNode(this) as HTMLElement;
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
+
     this.sortable = new Sortable(
       dom.querySelector(
         getStableClassSelector(cx, 'SubForm-values')
@@ -609,7 +613,7 @@ export default class SubFormControl extends React.PureComponent<
     const dialogCtx = this.state.dialogCtx;
 
     return (
-      <div className={cx(`${ns}SubFormControl`, className)}>
+      <div className={cx(`${ns}SubFormControl`, className)} ref={this.rootRef}>
         {multiple ? this.renderMultipe() : this.renderSingle()}
         {!mobileUI ? (
           render(`modal`, this.buildDialogSchema(), {

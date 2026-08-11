@@ -7,7 +7,6 @@ import Button from './Button';
 import {autobind, guid} from 'amis-core';
 import {uncontrollable} from 'amis-core';
 import Sortable from 'sortablejs';
-import {findDomCompat as findDOMNode} from 'amis-core';
 
 export interface ArrayInputProps extends ThemeProps, LocaleProps {
   value?: Array<any>;
@@ -47,6 +46,7 @@ export class ArrayInput extends React.Component<ArrayInputProps> {
   id: string = guid();
   dragTip?: HTMLElement;
   sortable?: Sortable;
+  rootRef = React.createRef<HTMLDivElement>();
 
   handleItemOnChange(index: number, itemValue: any) {
     const {onChange} = this.props;
@@ -89,43 +89,49 @@ export class ArrayInput extends React.Component<ArrayInputProps> {
   initDragging() {
     const onChange = this.props.onChange;
     const cx = this.props.classnames;
-    const dom = findDOMNode(this) as HTMLElement;
-    this.sortable = new Sortable(
-      dom.querySelector(`.drag-group`) as HTMLElement,
-      {
-        group: `array-input-${this.id}`,
-        animation: 150,
-        handle: `.drag-bar`,
-        ghostClass: getStableClassName(cx, 'ArrayInput-item--dragging'),
-        onEnd: (e: any) => {
-          // 没有移动
-          if (e.newIndex === e.oldIndex) {
-            return;
-          }
+    const dom = this.rootRef.current;
+    if (!dom) {
+      return;
+    }
 
-          // 换回来
-          const parent = e.to as HTMLElement;
-          if (e.oldIndex < parent.childNodes.length - 1) {
-            parent.insertBefore(
-              e.item,
-              parent.childNodes[
-                e.oldIndex > e.newIndex ? e.oldIndex + 1 : e.oldIndex
-              ]
-            );
-          } else {
-            parent.appendChild(e.item);
-          }
+    const container = dom.querySelector(`.drag-group`) as HTMLElement;
+    if (!container) {
+      return;
+    }
 
-          const value = this.props.value;
-          if (!Array.isArray(value)) {
-            return;
-          }
-          const newValue = value.concat();
-          newValue.splice(e.newIndex, 0, newValue.splice(e.oldIndex, 1)[0]);
-          onChange?.(newValue);
+    this.sortable = new Sortable(container, {
+      group: `array-input-${this.id}`,
+      animation: 150,
+      handle: `.drag-bar`,
+      ghostClass: getStableClassName(cx, 'ArrayInput-item--dragging'),
+      onEnd: (e: any) => {
+        // 没有移动
+        if (e.newIndex === e.oldIndex) {
+          return;
         }
+
+        // 换回来
+        const parent = e.to as HTMLElement;
+        if (e.oldIndex < parent.childNodes.length - 1) {
+          parent.insertBefore(
+            e.item,
+            parent.childNodes[
+              e.oldIndex > e.newIndex ? e.oldIndex + 1 : e.oldIndex
+            ]
+          );
+        } else {
+          parent.appendChild(e.item);
+        }
+
+        const value = this.props.value;
+        if (!Array.isArray(value)) {
+          return;
+        }
+        const newValue = value.concat();
+        newValue.splice(e.newIndex, 0, newValue.splice(e.oldIndex, 1)[0]);
+        onChange?.(newValue);
       }
-    );
+    });
   }
 
   destroyDragging() {
@@ -185,7 +191,7 @@ export class ArrayInput extends React.Component<ArrayInputProps> {
     } = this.props;
 
     return (
-      <div className={cx('ArrayInput')}>
+      <div className={cx('ArrayInput')} ref={this.rootRef}>
         {Array.isArray(value) && value.length ? (
           <div className={cx('ArrayInput-items drag-group')}>
             {value.map((item, index) => this.renderItem(item, index, value))}

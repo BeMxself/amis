@@ -1,5 +1,4 @@
 import React from 'react';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {BaseSelection, BaseSelectionProps} from './Selection';
 import {SpinnerExtraProps} from './Spinner';
 import PopOverContainer from './PopOverContainer';
@@ -53,6 +52,10 @@ class DropDownSelection extends BaseSelection<
     this.onSearch = this.onSearch.bind(this);
     this.filterOptions = this.filterOptions.bind(this);
   }
+
+  rootRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+
+  getPopOverContainer = () => this.rootRef.current;
 
   onSearch(text: string) {
     this.setState({searchText: text});
@@ -109,7 +112,7 @@ class DropDownSelection extends BaseSelection<
       <PopOverContainer
         mobileUI={mobileUI}
         overlayWidthField="width"
-        popOverContainer={popOverContainer || (() => findDOMNode(this))}
+        popOverContainer={popOverContainer || this.getPopOverContainer}
         popOverRender={({onClose}) => (
           <div>
             {searchable ? (
@@ -150,13 +153,13 @@ class DropDownSelection extends BaseSelection<
         )}
       >
         {({onClick, ref, isOpened}) => (
-          <div className={cx('DropDownSelection')}>
+          <div className={cx('DropDownSelection')} ref={this.rootRef}>
             <ResultBox
               className={cx(
                 'DropDownSelection-input',
                 isOpened ? 'is-active' : ''
               )}
-              ref={ref}
+              forwardedRef={ref}
               allowInput={false}
               result={
                 value

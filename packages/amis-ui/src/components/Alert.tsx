@@ -3,15 +3,13 @@
  * @author fex
  */
 
-import React, {version} from 'react';
-import {render} from 'react-dom';
+import React from 'react';
 import Modal from './Modal';
 import Button from './Button';
-import {ClassNamesFn, themeable, ThemeProps} from 'amis-core';
+import {ClassNamesFn, renderReactNode, themeable, ThemeProps} from 'amis-core';
 import {LocaleProps, localeable} from 'amis-core';
 import Html from './Html';
 import type {PlainObject} from 'amis-core';
-// import {createRoot} from 'react-dom/client';
 export interface AlertProps extends ThemeProps, LocaleProps {
   container?: any;
   confirmText?: string;
@@ -61,15 +59,7 @@ export class Alert extends React.Component<AlertProps, AlertState> {
       const container = document.body;
       const div = document.createElement('div');
       container.appendChild(div);
-
-      // if (parseInt(version.split('.')[0], 10) >= 18) {
-      //   const root = createRoot(div);
-      //   await new Promise<void>(resolve =>
-      //     root.render(<FinnalAlert ref={() => resolve()} />)
-      //   );
-      // } else {
-      render(<FinnalAlert />, div);
-      // }
+      renderReactNode(<FinnalAlert />, div);
     }
 
     return Alert.instance;

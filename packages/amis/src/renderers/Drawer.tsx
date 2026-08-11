@@ -9,8 +9,7 @@ import {
   ValidateError,
   RendererEvent,
   AMISSchema,
-  AMISButtonSchema,
-  getStableClassSelector
+  AMISButtonSchema
 } from 'amis-core';
 import {Renderer, RendererProps} from 'amis-core';
 import {SchemaNode, Schema, ActionObject} from 'amis-core';
@@ -23,7 +22,6 @@ import {
   isObjectShallowModified
 } from 'amis-core';
 import {reaction} from 'mobx';
-import {findDomCompat as findDOMNode} from 'amis-core';
 import {IModalStore, ModalStore} from 'amis-core';
 import {filter} from 'amis-core';
 import {Spinner} from 'amis-ui';
@@ -114,6 +112,9 @@ export default class Drawer extends React.Component<DrawerProps> {
   reaction: any;
   $$id: string = guid();
   drawer: any;
+  drawerContentRef: React.MutableRefObject<HTMLDivElement | null> = {
+    current: null
+  };
   clearErrorTimer: ReturnType<typeof setTimeout> | undefined;
 
   constructor(props: DrawerProps) {
@@ -360,9 +361,7 @@ export default class Drawer extends React.Component<DrawerProps> {
 
   @autobind
   getPopOverContainer() {
-    return (findDOMNode(this) as HTMLElement).querySelector(
-      getStableClassSelector(this.props.classnames, 'Drawer-content')
-    );
+    return this.drawerContentRef.current;
   }
 
   renderBody(body: AMISSchemaCollection, key?: any): React.ReactNode {
@@ -512,10 +511,15 @@ export default class Drawer extends React.Component<DrawerProps> {
     } as DrawerProps;
 
     const Container = wrapperComponent || DrawerContainer;
+    const contentDomRefProps =
+      typeof Container === 'string'
+        ? {}
+        : {contentDomRef: this.drawerContentRef};
 
     return (
       <Container
         {...rest}
+        {...contentDomRefProps}
         resizable={resizable}
         classPrefix={ns}
         className={className}
