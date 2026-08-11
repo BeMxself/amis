@@ -7,7 +7,7 @@
 import React from 'react';
 import type {NavigationItem} from './';
 import {ClassNamesFn, themeable} from 'amis-core';
-import {Item as RcItem} from 'rc-menu';
+import {Item as RcItem} from '@rc-component/menu';
 import {MenuContextProps, MenuContext} from './MenuContext';
 import Icon from '../Icon';
 interface PanelMenuProps extends NavigationItem {
@@ -27,7 +27,7 @@ function PanelMenuItem(props: PanelMenuProps) {
   }
 
   return (
-    // eventKey不传会影响rc-menu构建keyPath，影响父级菜单选中状态
+    // eventKey不传会影响@rc-component/menu构建keyPath，影响父级菜单选中状态
     <RcItem key={props.id} eventKey={props.id} {...props} onClick={onMenuClick}>
       <div className={cx('Nav-Menu-panel-item')}>
         {!!link?.icon && (

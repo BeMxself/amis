@@ -6,7 +6,10 @@
 
 import React from 'react';
 import pick from 'lodash/pick';
-import {SubMenu as RcSubMenu, SubMenuProps as RcSubMenuProps} from 'rc-menu';
+import {
+  SubMenu as RcSubMenu,
+  SubMenuProps as RcSubMenuProps
+} from '@rc-component/menu';
 import {
   ClassNamesFn,
   themeable,

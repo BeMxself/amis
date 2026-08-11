@@ -1,6 +1,6 @@
 /**
  * @file Menu
- * @description 导航菜单，基于rc-menu实现：https://github.com/react-component/menu
+ * @description 导航菜单，基于@rc-component/menu实现：https://github.com/react-component/menu
  * @author fex
  */
 
@@ -11,7 +11,7 @@ import RcMenu, {
   MenuProps as RcMenuProps,
   Divider as RcDivider,
   ItemGroup
-} from 'rc-menu';
+} from '@rc-component/menu';
 import Sortable from 'sortablejs';
 import {
   mapTree,
@@ -785,7 +785,7 @@ export class Menu extends React.Component<MenuProps, MenuState> {
           defaultOpenKeys={disableOpen ? undefined : defaultOpenKeys}
           openKeys={disableOpen ? undefined : openKeys}
           onClick={this.handleItemClick}
-          disabledOverflow={disabledOverflow} // 这里不传rc-menu会和maxCount有冲突异常覆盖，导致子菜单不能唤起
+          disabledOverflow={disabledOverflow} // 这里不传@rc-component/menu会和maxCount有冲突异常覆盖，导致子菜单不能唤起
         >
           {this.renderMenuContent(navigations, 0, mode)}
         </RcMenu>

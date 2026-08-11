@@ -495,7 +495,7 @@ export class Navigation extends React.Component<
   @autobind
   updateDropIndicator(e: DragEvent) {
     const {dragOnSameLevel, overflow} = this.props;
-    // 因为使用了rc-menu 因此拖拽事件拿到的rc-menu的li
+    // 因为使用了@rc-component/menu 因此拖拽事件拿到菜单的li
     // id和depth在li里的a标签上
     const target = (e.target as HTMLElement).querySelector('a');
     const targetId = target?.getAttribute('data-id') as string;
@@ -916,7 +916,7 @@ export class Navigation extends React.Component<
         // 一个nav对应一个classNameId 避免重复
         classNameId = cx(`Nav-PopupClassName-${id}`);
         if (!document.getElementById(classNameId)) {
-          // rc-menu的浮层只支持配置popupClassName 因此需要将配置的style插入到页面 然后将className赋值给浮层
+          // @rc-component/menu的浮层只支持配置popupClassName 因此需要将配置的style插入到页面 然后将className赋值给浮层
           insertStyle({
             style: `.${classNameId} ${styleText}`,
             classId: classNameId
@@ -950,7 +950,7 @@ export class Navigation extends React.Component<
             testIdBuilder={testIdBuilder}
             themeColor={themeColor}
             onSelect={(link: any, depth: number) =>
-              // 这里需要返回 promise 让事件在rc-menu之后处理
+              // 这里需要返回 promise 让事件在@rc-component/menu之后处理
               new Promise(resolve => {
                 this.handleClick(link, depth);
 

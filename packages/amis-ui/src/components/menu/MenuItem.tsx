@@ -6,7 +6,10 @@
 
 import React from 'react';
 import pick from 'lodash/pick';
-import {Item as RcItem, MenuItemProps as RcMenuItemProps} from 'rc-menu';
+import {
+  Item as RcItem,
+  MenuItemProps as RcMenuItemProps
+} from '@rc-component/menu';
 import {
   ClassNamesFn,
   themeable,
