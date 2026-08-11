@@ -1,6 +1,5 @@
 import React = require('react');
 import {render} from '@testing-library/react';
-import * as renderer from 'react-test-renderer';
 import '../../src';
 import {render as amisRender} from '../../src';
 import {makeEnv, wait} from '../helper';

@@ -1,124 +1,84 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Renderer:Page 1`] = `
-[
+<div
+  class="amis-Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-headerRow"
       >
         <div
-          className="cxd-Page-headerRow"
+          class="amis-Page-header"
         >
-          <div
-            className="cxd-Page-header"
-          >
-            <h2
-              className="cxd-Page-title"
-            >
-              <span
-                className="cxd-TplField fr-view"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-              >
-                <span
-                  dangerouslySetInnerHTML={
-                    {
-                      "__html": "This is Title",
-                    }
-                  }
-                />
-              </span>
-              <div
-                className="cxd-Remark cxd-Remark--warning"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onMouseOut={[Function]}
-                onMouseOver={[Function]}
-              >
-                <span
-                  className="cxd-Remark-icon"
-                >
-                  <icon-mock
-                    className="icon-question-mark"
-                    icon="question-mark"
-                  />
-                </span>
-              </div>
-            </h2>
-            <small
-              className="cxd-Page-subTitle"
-            >
-              <span
-                className="cxd-TplField fr-view"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-              >
-                <span
-                  dangerouslySetInnerHTML={
-                    {
-                      "__html": "This is SubTitle",
-                    }
-                  }
-                />
-              </span>
-            </small>
-          </div>
-          <div
-            className="cxd-Page-toolbar"
+          <h2
+            class="amis-Page-title"
           >
             <span
-              className="cxd-TplField fr-view"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              class="amis-TplField fr-view"
+            >
+              <span>
+                This is Title
+              </span>
+            </span>
+            <div
+              class="amis-Remark amis-Remark--warning"
             >
               <span
-                dangerouslySetInnerHTML={
-                  {
-                    "__html": "This is toolbar",
-                  }
-                }
-              />
+                class="amis-Remark-icon"
+              >
+                <icon-mock
+                  classname="icon-question-mark"
+                  icon="question-mark"
+                />
+              </span>
+            </div>
+          </h2>
+          <small
+            class="amis-Page-subTitle"
+          >
+            <span
+              class="amis-TplField fr-view"
+            >
+              <span>
+                This is SubTitle
+              </span>
             </span>
-          </div>
+          </small>
         </div>
         <div
-          className="cxd-Page-body"
-          role="page-body"
+          class="amis-Page-toolbar"
         >
           <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+            class="amis-TplField fr-view"
           >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "This is body",
-                }
-              }
-            />
+            <span>
+              This is toolbar
+            </span>
           </span>
         </div>
       </div>
+      <div
+        class="amis-Page-body"
+        role="page-body"
+      >
+        <span
+          class="amis-TplField fr-view"
+        >
+          <span>
+            This is body
+          </span>
+        </span>
+      </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page classNames 1`] = `
@@ -1942,173 +1902,113 @@ exports[`Renderer:Page initApi silentPolling 2`] = `
 `;
 
 exports[`Renderer:Page initData 1`] = `
-[
+<div
+  class="amis-Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="amis-TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 1",
-                }
-              }
-            />
+          <span>
+            The variable value is 1
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page initFetchOn trigger initApi fetch when condition becomes ture 1`] = `
-[
+<div
+  class="amis-Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="amis-TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 6",
-                }
-              }
-            />
+          <span>
+            The variable value is 6
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page location query 1`] = `
-[
+<div
+  class="amis-Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="amis-TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 5",
-                }
-              }
-            />
+          <span>
+            The variable value is 5
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page location query 2`] = `
-[
+<div
+  class="amis-Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="amis-TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 6",
-                }
-              }
-            />
+          <span>
+            The variable value is 6
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;

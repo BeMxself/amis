@@ -1,4 +1,3 @@
-import * as renderer from 'react-test-renderer';
 import {render, fireEvent, cleanup, waitFor} from '@testing-library/react';
 import '../../src';
 import {render as amisRender} from '../../src';
@@ -13,7 +12,7 @@ afterEach(() => {
 });
 
 test('Renderer:Page', () => {
-  const component = renderer.create(
+  const {container} = render(
     amisRender({
       type: 'page',
       title: 'This is Title',
@@ -23,13 +22,12 @@ test('Renderer:Page', () => {
       body: 'This is body'
     })
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('Renderer:Page initData', () => {
-  const component = renderer.create(
+  const {container} = render(
     amisRender({
       type: 'page',
       data: {
@@ -38,9 +36,8 @@ test('Renderer:Page initData', () => {
       body: 'The variable value is ${a}'
     })
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('Renderer:Page initApi', async () => {
@@ -339,7 +336,7 @@ test('Renderer:Page initApi interval 轮询调用', async () => {
       }
     })
   );
-  const component = renderer.create(
+  const {unmount} = render(
     amisRender(
       {
         type: 'page',
@@ -361,7 +358,7 @@ test('Renderer:Page initApi interval 轮询调用', async () => {
 
   // 至少调用了 1次
   expect(times).toBeGreaterThan(0);
-  component.unmount();
+  unmount();
 });
 
 test('Renderer:Page initApi interval 轮询调用自动停止', async () => {
@@ -379,7 +376,7 @@ test('Renderer:Page initApi interval 轮询调用自动停止', async () => {
       }
     });
   });
-  renderer.create(
+  render(
     amisRender(
       {
         type: 'page',
@@ -556,7 +553,7 @@ test('Renderer:Page location query', async () => {
     initialEntries: ['/xxx?a=5']
   });
 
-  const component = renderer.create(
+  const {container, rerender} = render(
     amisRender(
       {
         type: 'page',
@@ -568,11 +565,11 @@ test('Renderer:Page location query', async () => {
     )
   );
 
-  expect(component.toJSON()).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
   history.push('/xxx?a=6');
 
-  component.update(
+  rerender(
     amisRender(
       {
         type: 'page',
@@ -585,7 +582,7 @@ test('Renderer:Page location query', async () => {
   );
 
   await wait(300);
-  expect(component.toJSON()).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('Renderer:Page initFetchOn trigger initApi fetch when condition becomes ture', async () => {
@@ -603,7 +600,7 @@ test('Renderer:Page initFetchOn trigger initApi fetch when condition becomes tur
   const history = createMemoryHistory({
     initialEntries: ['/xxx']
   });
-  const component = renderer.create(
+  const {container, rerender} = render(
     amisRender(
       {
         type: 'page',
@@ -626,7 +623,7 @@ test('Renderer:Page initFetchOn trigger initApi fetch when condition becomes tur
   await wait(300);
   history.push('/xxxx?id=1');
 
-  component.update(
+  rerender(
     amisRender(
       {
         type: 'page',
@@ -648,7 +645,7 @@ test('Renderer:Page initFetchOn trigger initApi fetch when condition becomes tur
 
   await wait(300);
   expect(fetcher).toHaveBeenCalledTimes(1);
-  expect(component.toJSON()).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('Renderer:Page handleAction actionType=url|link', async () => {
@@ -1048,7 +1045,7 @@ test('Renderer:Page initApi reFetch when condition changes', async () => {
   const history = createMemoryHistory({
     initialEntries: ['/xxx']
   });
-  const component = renderer.create(
+  const {container, rerender} = render(
     amisRender(
       {
         type: 'page',
@@ -1068,10 +1065,10 @@ test('Renderer:Page initApi reFetch when condition changes', async () => {
   );
 
   await wait(300);
-  expect(component.toJSON()).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
   history.push('/xxxx?id=1');
 
-  component.update(
+  rerender(
     amisRender(
       {
         type: 'page',
@@ -1092,7 +1089,7 @@ test('Renderer:Page initApi reFetch when condition changes', async () => {
 
   await wait(500);
   expect(fetcher).toHaveBeenCalledTimes(2);
-  expect(component.toJSON()).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('Renderer:Page initApi reload by action', async () => {

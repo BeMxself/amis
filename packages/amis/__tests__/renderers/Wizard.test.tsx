@@ -1,5 +1,4 @@
 import React = require('react');
-import * as renderer from 'react-test-renderer';
 import {
   render,
   fireEvent,

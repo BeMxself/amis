@@ -326,77 +326,70 @@ exports[`Renderer:breadcrumb separator 1`] = `
 `;
 
 exports[`Renderer:breadcrumb tooltip labelMaxLength 1`] = `
-[
+<div>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          className="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
           <div
-            className="cxd-Breadcrumb"
+            class="amis-Breadcrumb"
           >
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  className="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 />
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onMouseOut={[Function]}
-                onMouseOver={[Function]}
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
             >
               <span
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -406,85 +399,75 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 1`] = `
         </div>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:breadcrumb tooltip labelMaxLength 2`] = `
-[
+<div>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          className="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
           <div
-            className="cxd-Breadcrumb"
+            class="amis-Breadcrumb"
           >
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  className="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 />
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onMouseOut={[Function]}
-                onMouseOver={[Function]}
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
             >
               <span
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -494,85 +477,75 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 2`] = `
         </div>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:breadcrumb tooltip labelMaxLength 3`] = `
-[
+<div>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          className="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
           <div
-            className="cxd-Breadcrumb"
+            class="amis-Breadcrumb"
           >
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  className="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 />
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onMouseOut={[Function]}
-                onMouseOver={[Function]}
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
             >
               <span
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -582,85 +555,75 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 3`] = `
         </div>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:breadcrumb tooltip labelMaxLength 4`] = `
-[
+<div>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      className="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        className="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          className="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
           <div
-            className="cxd-Breadcrumb"
+            class="amis-Breadcrumb"
           >
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  className="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 />
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item"
+              class="amis-Breadcrumb-item"
             >
               <a
-                className="cxd-Breadcrumb-item-default"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onMouseOut={[Function]}
-                onMouseOver={[Function]}
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              className="cxd-Breadcrumb-separator text-black"
+              class="amis-Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              className="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
             >
               <span
-                className="cxd-Breadcrumb-item-default"
+                class="amis-Breadcrumb-item-default"
               >
                 <span
-                  className="cxd-TplField fr-view"
+                  class="amis-TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -670,11 +633,8 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 4`] = `
         </div>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:breadcrumb var 1`] = `

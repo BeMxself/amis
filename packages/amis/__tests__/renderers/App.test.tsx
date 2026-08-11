@@ -1,6 +1,5 @@
 import React from 'react';
 import Action from '../../src/renderers/Action';
-import * as renderer from 'react-test-renderer';
 import {
   render,
   fireEvent,

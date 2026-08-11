@@ -7,7 +7,6 @@
 
 import React from 'react';
 import Action from '../../src/renderers/Action';
-import * as renderer from 'react-test-renderer';
 import {
   render,
   fireEvent,
@@ -71,70 +70,61 @@ test('Renderers:Action all levels', () => {
 
 // 2. Action 组件尺寸
 test('Renderers:Action display size[xs, sm, md, lg]', () => {
-  const component = renderer.create(<Action size="xs" />);
-  let tree = component.toJSON();
+  const {container, rerender} = render(<Action size="xs" />);
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(<Action size="sm" />);
+  rerender(<Action size="sm" />);
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(<Action size="md" />);
+  rerender(<Action size="md" />);
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(<Action size="lg" />);
+  rerender(<Action size="lg" />);
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 3. MenuItem 下激活与禁用状态
 test('Renderers:Action MenuItem changes class when actived & disabled', () => {
-  const component = renderer.create(
+  const {container, rerender} = render(
     <Action isMenuItem className="a" label="123" />
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(<Action isMenuItem className="a" label="233" active />);
+  rerender(<Action isMenuItem className="a" label="233" active />);
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(
+  rerender(
     <Action isMenuItem className="a" label="233" active disabled />
   );
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 4. MenuItem 下设置图标
 test('Renderers:Action MenuItem display icon', () => {
-  const component = renderer.create(
+  const {container, rerender} = render(
     <Action isMenuItem className="a" label="123" />
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(
+  rerender(
     <Action isMenuItem className="a" label="123" icon="fa fa-cloud" />
   );
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 5. actionType 为 link 时的 类
 test('Renderers:Action [actionType = "link"] show active class', () => {
   const isCurrentUrl = (link: string) => link === 'b';
-  const component = renderer.create(
+  const {container, rerender} = render(
     <Action
       actionType="link"
       link="a"
@@ -143,11 +133,10 @@ test('Renderers:Action [actionType = "link"] show active class', () => {
       isCurrentUrl={isCurrentUrl}
     />
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(
+  rerender(
     <Action
       actionType="link"
       link="b"
@@ -157,25 +146,22 @@ test('Renderers:Action [actionType = "link"] show active class', () => {
     />
   );
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 6. 自定义激活态下的类
 test('Renderers:Action custom activeClass', () => {
-  const component = renderer.create(
+  const {container, rerender} = render(
     <Action className="a" label="123" activeClassName="custom-active" />
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 
-  component.update(
+  rerender(
     <Action className="a" label="123" activeClassName="custom-active" active />
   );
 
-  tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 7. onAction 方法调用
@@ -222,12 +208,11 @@ test('Renderers:Action onClick cancel onAction?', () => {
 
 // 10. actionType 为 download
 test('Renderers:Action download shortcut', () => {
-  const component = renderer.create(
+  const {container} = render(
     <Action actionType="download" link="a" label="123" />
   );
-  let tree = component.toJSON();
 
-  expect(tree).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 // 11. countDown 倒计时

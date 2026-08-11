@@ -1,5 +1,4 @@
 import React = require('react');
-import * as renderer from 'react-test-renderer';
 import {fireEvent, render, waitFor} from '@testing-library/react';
 import '../../../../src';
 import {render as amisRender} from '../../../../src';

@@ -1,6 +1,5 @@
 import React from 'react';
 import PageRenderer from '../../../../amis-core/src/renderers/Form';
-import * as renderer from 'react-test-renderer';
 import {
   render,
   fireEvent,

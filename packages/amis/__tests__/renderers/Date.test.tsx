@@ -1,10 +1,10 @@
 import React = require('react');
+import {act} from 'react';
 import {render, fireEvent} from '@testing-library/react';
 import '../../src';
 import {render as amisRender} from '../../src';
 import {makeEnv, wait} from '../helper';
 import moment from 'moment';
-import {act} from 'react-test-renderer';
 
 test('Renderer:date', async () => {
   const {container} = render(

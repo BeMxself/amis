@@ -3,7 +3,6 @@ import {fireEvent, render, screen} from '@testing-library/react';
 import '../../src';
 import {render as amisRender} from '../../src';
 import {makeEnv} from '../helper';
-import * as renderer from 'react-test-renderer';
 
 test('Renderer:breadcrumb', () => {
   const {container} = render(
@@ -158,20 +157,20 @@ test('Renderer:breadcrumb tooltip labelMaxLength', () => {
       ]
     }
   };
-  const component = renderer.create(amisRender(schema, {}, makeEnv({})));
-  expect(component.toJSON()).toMatchSnapshot();
+  const {container, rerender} = render(amisRender(schema, {}, makeEnv({})));
+  expect(container).toMatchSnapshot();
 
   schema.body.tooltipPosition = 'top';
-  component.update(amisRender(schema, {}, makeEnv({})));
-  expect(component.toJSON()).toMatchSnapshot();
+  rerender(amisRender(schema, {}, makeEnv({})));
+  expect(container).toMatchSnapshot();
 
   schema.body.tooltipPosition = 'left';
-  component.update(amisRender(schema, {}, makeEnv({})));
-  expect(component.toJSON()).toMatchSnapshot();
+  rerender(amisRender(schema, {}, makeEnv({})));
+  expect(container).toMatchSnapshot();
 
   schema.body.tooltipPosition = 'right';
-  component.update(amisRender(schema, {}, makeEnv({})));
-  expect(component.toJSON()).toMatchSnapshot();
+  rerender(amisRender(schema, {}, makeEnv({})));
+  expect(container).toMatchSnapshot();
 });
 
 test('Renderer:breadcrumb className', () => {

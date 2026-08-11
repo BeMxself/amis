@@ -2,8 +2,7 @@
 
 exports[`Renderers:Action [actionType = "link"] show active class 1`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-default a"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-default a"
   type="button"
 >
   <span>
@@ -14,8 +13,7 @@ exports[`Renderers:Action [actionType = "link"] show active class 1`] = `
 
 exports[`Renderers:Action [actionType = "link"] show active class 2`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-default a is-active"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-default a is-active"
   type="button"
 >
   <span>
@@ -26,8 +24,7 @@ exports[`Renderers:Action [actionType = "link"] show active class 2`] = `
 
 exports[`Renderers:Action MenuItem changes class when actived & disabled 1`] = `
 <a
-  className="a"
-  onClick={[Function]}
+  class="a"
 >
   <span>
     123
@@ -37,8 +34,7 @@ exports[`Renderers:Action MenuItem changes class when actived & disabled 1`] = `
 
 exports[`Renderers:Action MenuItem changes class when actived & disabled 2`] = `
 <a
-  className="a is-active"
-  onClick={[Function]}
+  class="a is-active"
 >
   <span>
     233
@@ -48,9 +44,8 @@ exports[`Renderers:Action MenuItem changes class when actived & disabled 2`] = `
 
 exports[`Renderers:Action MenuItem changes class when actived & disabled 3`] = `
 <a
-  className="a is-active"
-  disabled={true}
-  onClick={[Function]}
+  class="a is-active"
+  disabled=""
 >
   <span>
     233
@@ -60,8 +55,7 @@ exports[`Renderers:Action MenuItem changes class when actived & disabled 3`] = `
 
 exports[`Renderers:Action MenuItem display icon 1`] = `
 <a
-  className="a"
-  onClick={[Function]}
+  class="a"
 >
   <span>
     123
@@ -71,11 +65,10 @@ exports[`Renderers:Action MenuItem display icon 1`] = `
 
 exports[`Renderers:Action MenuItem display icon 2`] = `
 <a
-  className="a"
-  onClick={[Function]}
+  class="a"
 >
   <i
-    className="fa fa-cloud cxd-Button-icon fa fa-cloud"
+    class="fa fa-cloud amis-Button-icon fa fa-cloud"
   />
   <span>
     123
@@ -292,8 +285,7 @@ exports[`Renderers:Action as container 1`] = `
 
 exports[`Renderers:Action custom activeClass 1`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-default a"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-default a"
   type="button"
 >
   <span>
@@ -304,8 +296,7 @@ exports[`Renderers:Action custom activeClass 1`] = `
 
 exports[`Renderers:Action custom activeClass 2`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-default a custom-active"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-default a custom-active"
   type="button"
 >
   <span>
@@ -316,40 +307,35 @@ exports[`Renderers:Action custom activeClass 2`] = `
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 1`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-xs"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-xs"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 2`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-sm"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-sm"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 3`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-md"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-md"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 4`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-lg"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-lg"
   type="button"
 />
 `;
 
 exports[`Renderers:Action download shortcut 1`] = `
 <button
-  className="cxd-Button cxd-Button--default cxd-Button--size-default"
-  onClick={[Function]}
+  class="amis-Button amis-Button--default amis-Button--size-default"
   type="button"
 >
   <span>
