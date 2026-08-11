@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {
   cleanup,
   fireEvent,
@@ -277,7 +278,7 @@ test('Renderer:dialog does not fallback to body when custom modal container is u
       },
       {},
       makeEnv({
-        getModalContainer: () => null
+        getModalContainer: () => null as any
       })
     )
   );
@@ -302,6 +303,30 @@ test('Components:Modal exposes content DOM through contentDomRef', () => {
   expect(contentDomRef.current).toContainElement(
     screen.getByTestId('modal-body')
   );
+});
+
+test('Components:Modal draggable uses content nodeRef instead of findDOMNode', () => {
+  const findDOMNodeSpy = (ReactDOM as any).findDOMNode
+    ? jest.spyOn(ReactDOM as any, 'findDOMNode')
+    : null;
+
+  render(
+    <Modal show draggable onHide={jest.fn()}>
+      <Modal.Header>Modal title</Modal.Header>
+      <div data-testid="modal-body">Modal body</div>
+    </Modal>
+  );
+
+  fireEvent.mouseDown(document.body.querySelector('.amis-Modal-header')!, {
+    button: 0,
+    clientX: 10,
+    clientY: 10
+  });
+
+  if (findDOMNodeSpy) {
+    expect(findDOMNodeSpy).not.toHaveBeenCalled();
+    findDOMNodeSpy.mockRestore();
+  }
 });
 
 test('Components:Drawer exposes content DOM through contentDomRef', () => {

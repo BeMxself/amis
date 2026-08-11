@@ -136,6 +136,14 @@ export default class Container<T> extends React.Component<
     }
   };
 
+  containerNodeRef: React.MutableRefObject<HTMLElement | null> = {
+    current: null
+  };
+
+  containerRef = (ref: HTMLElement | null) => {
+    this.containerNodeRef.current = ref;
+  };
+
   @autobind
   handleClick(e: React.MouseEvent<any>) {
     const {dispatchEvent, data} = this.props;
@@ -213,10 +221,11 @@ export default class Container<T> extends React.Component<
         ? resolveVariableAndFilter(draggableConfig, data, '| raw')
         : draggableConfig
     );
-    const Component =
-      (wrapperComponent as keyof JSX.IntrinsicElements) || 'div';
+    const Component = ((wrapperComponent as keyof JSX.IntrinsicElements) ||
+      'div') as any;
     const contentDom = (
       <Component
+        ref={this.containerRef as any}
         className={cx(
           'Container',
           size && size !== 'none' ? `Container--${size}` : '',
@@ -260,7 +269,11 @@ export default class Container<T> extends React.Component<
     );
 
     return finalDraggable ? (
-      <DndWrapper {...finalDraggableConfig} draggable={true}>
+      <DndWrapper
+        {...finalDraggableConfig}
+        draggable={true}
+        nodeRef={this.containerNodeRef}
+      >
         {contentDom}
       </DndWrapper>
     ) : (

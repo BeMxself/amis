@@ -131,6 +131,9 @@ export class Modal extends React.Component<ModalProps, ModalState> {
   isRootClosed = false;
   modalDom: HTMLElement;
   modalNodeRef: React.MutableRefObject<HTMLDivElement | null> = {current: null};
+  contentNodeRef: React.MutableRefObject<HTMLDivElement | null> = {
+    current: null
+  };
   contentDom: HTMLDivElement | null = null;
   portalThemeScope?: ThemeScope;
 
@@ -318,6 +321,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
   };
 
   contentRef = (ref: HTMLDivElement | null) => {
+    this.contentNodeRef.current = ref;
     this.contentDom = ref;
     setReactRef(this.props.contentDomRef, ref);
   };
@@ -504,6 +508,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
                 />
               ) : null}
               <DraggableCore
+                nodeRef={this.contentNodeRef}
                 disabled={!draggable || mobileUI}
                 onStart={this.handleDragStart}
                 onDrag={this.handleDrag}
