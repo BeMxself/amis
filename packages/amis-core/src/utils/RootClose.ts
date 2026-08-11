@@ -4,10 +4,11 @@
 
 import React, {useState} from 'react';
 import useRootClose from 'react-overlays/useRootClose';
-import {findDomCompat} from '../utils/findDomCompat';
 
 function resolveRootElement(rootComponent: any): Element | null {
-  return rootComponent ? findDomCompat(rootComponent) : null;
+  return typeof Element !== 'undefined' && rootComponent instanceof Element
+    ? rootComponent
+    : null;
 }
 
 export const RootClose = ({children, onRootClose, ...props}: any) => {
