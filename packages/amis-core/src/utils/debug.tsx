@@ -6,7 +6,7 @@ import React, {Component, useEffect, useRef, useState} from 'react';
 import cx from 'classnames';
 import {renderReactNode, unmountReactNode} from './reactRoot';
 import {mergeRefs} from './reactRef';
-import {autorun, observable, action} from 'mobx';
+import {autorun, observable, action, makeObservable} from 'mobx';
 import {observer} from 'mobx-react';
 import {uuidv4} from './helper';
 import JsonView from '../components/JsonView';
@@ -15,61 +15,75 @@ import {resolveVariableAndFilter} from './resolveVariableAndFilter';
 import {callStrFunction} from './api';
 import isPlainObject from 'lodash/isPlainObject';
 
-class Log {
-  @observable cat = '';
-  @observable level = '';
-  @observable msg = '';
-  @observable ext?: any = '';
+interface Log {
+  cat: string;
+  level: string;
+  msg: string;
+  ext?: any;
 }
 
 class AMISDebugStore {
   /**
    * 当前 tab
    */
-  @observable tab: 'log' | 'inspect' = 'log';
+  tab: 'log' | 'inspect' = 'log';
 
   /**
    * 显示位置，默认在右边
    */
-  @observable position: 'left' | 'right' = 'right';
+  position: 'left' | 'right' = 'right';
 
   /**
    * 组件日志
    */
-  @observable logs: Log[] = [];
+  logs: Log[] = [];
 
   /**
    * Debug 面板是否展开
    */
-  @observable isExpanded = false;
+  isExpanded = false;
 
   /**
    * 是否是 inspect 模式，在这个模式下可以查看数据域
    */
-  @observable inspectMode = false;
+  inspectMode = false;
 
   /**
    * 当前高亮的组件节点 id
    */
-  @observable hoverId: string;
+  hoverId = '';
 
   /**
    * 当前选中的组件节点 id
    */
-  @observable activeId: string;
+  activeId = '';
 
   /**
    * 字段值文本最大展示长度
    */
-  @observable ellipsisThreshold: number;
+  ellipsisThreshold = 50;
 
-  @action.bound
+  constructor() {
+    makeObservable(this, {
+      tab: observable,
+      position: observable,
+      logs: observable,
+      isExpanded: observable,
+      inspectMode: observable,
+      hoverId: observable,
+      activeId: observable,
+      ellipsisThreshold: observable,
+      open: action.bound,
+      close: action.bound,
+      toggleInspectMode: action.bound
+    });
+  }
+
   open() {
     this.isExpanded = true;
     this.inspectMode = true;
   }
 
-  @action.bound
   close() {
     this.isExpanded = false;
     this.activeId = '';
@@ -77,7 +91,6 @@ class AMISDebugStore {
     this.inspectMode = false;
   }
 
-  @action.bound
   toggleInspectMode() {
     this.inspectMode = !this.inspectMode;
   }
