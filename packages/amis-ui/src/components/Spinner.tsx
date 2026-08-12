@@ -81,6 +81,10 @@ const SpinnerSharedStore = types
        * @returns {boolean} 是否可以进入 loading
        */
       checkLoading: (spinnerContainerWillCheck: HTMLElement | null) => {
+        if (!spinnerContainerWillCheck) {
+          return false;
+        }
+
         if (self.spinningContainers.has(spinnerContainerWillCheck)) {
           if (!self.spinningContainers.size) {
             return false;

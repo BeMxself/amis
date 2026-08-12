@@ -68,6 +68,7 @@ export function HocStoreFactory(renderer: {
       ref: any;
       state: any;
       unReaction: any;
+      renderFn: Props['render'];
 
       constructor(
         props: Props,
@@ -78,6 +79,7 @@ export function HocStoreFactory(renderer: {
         const rootStore = context;
         this.renderChild = this.renderChild.bind(this);
         this.refFn = this.refFn.bind(this);
+        this.renderFn = props.render;
 
         const store = rootStore.addStore({
           id: guid(),
@@ -172,10 +174,10 @@ export function HocStoreFactory(renderer: {
           };
 
           this.unReaction = reaction(
-            () => JSON.stringify(getExprProperties(this.props, store.data)),
+            () => JSON.stringify(getExprProperties(props, store.data)),
             () =>
               this.setState({
-                ...getExprProperties(this.props, store.data)
+                ...getExprProperties(props, store.data)
               })
           );
         }
@@ -214,8 +216,9 @@ export function HocStoreFactory(renderer: {
           isObjectShallowModified(state, this.state) && this.setState(state);
           // 需要重新监听
           this.unReaction?.();
+          const reactionProps = props;
           this.unReaction = reaction(
-            () => getExprProperties(this.props, store.data),
+            () => getExprProperties(reactionProps, store.data),
             (exprProps: any) => this.setState(exprProps)
           );
         }
@@ -417,9 +420,7 @@ export function HocStoreFactory(renderer: {
           [propName: string]: any;
         } = {}
       ) {
-        let {render} = this.props;
-
-        return render(region, node, {
+        return this.renderFn(region, node, {
           data: this.store.data,
           dataUpdatedAt: this.store.updatedAt,
           ...subProps,
@@ -430,6 +431,7 @@ export function HocStoreFactory(renderer: {
 
       render() {
         const {detectField, storeRef, ...rest} = this.props;
+        this.renderFn = rest.render;
 
         if (this.state.hidden || this.state.visible === false) {
           return null;

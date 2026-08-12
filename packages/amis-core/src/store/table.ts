@@ -1666,7 +1666,7 @@ export const TableStore = iRendererStore
     }
 
     // 获取所有层级的子节点id
-    function getExpandAllRows(arr: Array<SRow>): string[] {
+    function getExpandAllRows(arr: ReadonlyArray<SRow>): string[] {
       return arr.reduce((result: string[], current) => {
         result.push(current.id);
 

@@ -57,9 +57,9 @@
     "keycode": "^2.2.1",
     "lodash": "^4.17.15",
     "match-sorter": "^6.3.1",
-    "mobx": "^4.5.0",
-    "mobx-react": "^6.3.1",
-    "mobx-state-tree": "^3.17.3",
+    "mobx": "^6.16.1",
+    "mobx-react": "^9.2.2",
+    "mobx-state-tree": "^7.3.2",
     "moment": "^2.19.4",
     "moment-timezone": "^0.5.34",
     "mpegts.js": "^1.6.10",
@@ -74,7 +74,7 @@
     "sortablejs": "1.15.0",
     "tslib": "^2.3.1",
     "xlsx": "^0.18.5",
-    "mobx-react-lite": "^2.2.0"
+    "mobx-react-lite": "^4.1.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
@@ -135,8 +135,8 @@
     "prismjs": "^1.25.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router": "5.2.1",
-    "react-router-dom": "5.3.0",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
     "regexp.prototype.flags": "1.5.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.79.1",

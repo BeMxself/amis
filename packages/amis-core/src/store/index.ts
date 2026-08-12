@@ -1,6 +1,7 @@
 import {
   types,
   getEnv,
+  hasEnv,
   detach,
   setLivelinessChecking,
   isAlive,
@@ -55,25 +56,31 @@ const allowedStoreList = [
   AppStore
 ];
 
+const emptyEnv = {};
+
+function getStoreEnv(store: any) {
+  return hasEnv(store) ? getEnv(store) : emptyEnv;
+}
+
 export const RendererStore = types
   .model('RendererStore', {
     storeType: 'RendererStore'
   })
   .views(self => ({
     get fetcher() {
-      return getEnv(self).fetcher;
+      return getStoreEnv(self).fetcher;
     },
 
     get notify() {
-      return getEnv(self).notify;
+      return getStoreEnv(self).notify;
     },
 
     get isCancel(): (value: any) => boolean {
-      return getEnv(self).isCancel;
+      return getStoreEnv(self).isCancel;
     },
 
     get __(): TranslateFn {
-      return getEnv(self).translate;
+      return getStoreEnv(self).translate;
     },
     getStoreById(id: string) {
       return getStoreById(id);
@@ -91,8 +98,10 @@ export const RendererStore = types
       parentId?: string;
       [propName: string]: any;
     }): IStoreNode {
+      const env = getStoreEnv(self);
+
       if (store.storeType === RootStore.name) {
-        return addStore(RootStore.create(store, getEnv(self)));
+        return addStore(RootStore.create(store, env));
       }
 
       const factory = find(
@@ -100,7 +109,7 @@ export const RendererStore = types
         item => item.name === store.storeType
       )!;
 
-      return addStore(factory.create(store as any, getEnv(self)));
+      return addStore(factory.create(store as any, env));
     },
 
     removeStore(store: IStoreNode) {

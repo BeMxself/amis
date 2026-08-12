@@ -249,7 +249,7 @@ export const TableStore2 = ServiceStore.named('TableStore2')
       return getToggableColumns().filter(item => item.toggled);
     }
 
-    function getAllFilteredColumns(columns?: Array<SColumn2>): Array<any> {
+    function getAllFilteredColumns(columns?: ReadonlyArray<SColumn2>): Array<any> {
       if (columns) {
         return columns
           .filter(
@@ -418,7 +418,7 @@ export const TableStore2 = ServiceStore.named('TableStore2')
   })
   .actions(self => {
     function updateColumns(
-      columns: Array<SColumn2>,
+      columns: ReadonlyArray<SColumn2>,
       options?: {
         resolveDefinitions?: (ref: string) => any;
       }
