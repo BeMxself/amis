@@ -617,6 +617,8 @@ export default class Table<
   subForms: any = {};
   timer: ReturnType<typeof setTimeout>;
   toDispose: Array<() => void> = [];
+  onImageEnlarge?: TableProps['onImageEnlarge'];
+  store: TableProps['store'];
   updateTableInfoLazy = debounce(this.updateTableInfo.bind(this), 250, {
     trailing: true,
     leading: false
@@ -636,6 +638,8 @@ export default class Table<
 
     const scoped = context;
     scoped.registerComponent(this);
+    this.onImageEnlarge = props.onImageEnlarge;
+    this.store = props.store;
 
     this.handleOutterScroll = this.handleOutterScroll.bind(this);
     this.tableRef = this.tableRef.bind(this);
@@ -1742,7 +1746,7 @@ export default class Table<
     info: any,
     target: {rowIndex: number; colIndex: number; type: string}
   ) {
-    const onImageEnlarge = this.props.onImageEnlarge;
+    const onImageEnlarge = this.onImageEnlarge;
 
     // 如果已经是多张了，直接跳过
     if (
@@ -1753,7 +1757,7 @@ export default class Table<
     }
 
     // 从列表中收集所有图片，然后作为一个图片集合派送出去。
-    const store = this.props.store;
+    const store = this.store;
     const column = store.columns[target.colIndex].pristine;
 
     let index = target.rowIndex;
@@ -2992,6 +2996,9 @@ export default class Table<
       testIdBuilder,
       id
     } = this.props;
+
+    this.onImageEnlarge = this.props.onImageEnlarge;
+    this.store = store;
 
     this.renderedToolbars = []; // 用来记录哪些 toolbar 已经渲染了，已经渲染了就不重复渲染了。
     const heading =

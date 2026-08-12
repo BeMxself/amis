@@ -136,6 +136,23 @@ interface AMISLoadMoreConfig {
   dataAppendTo?: 'top' | 'bottom';
 }
 
+function filterItemIndexByStore(index: number | string, store: ICRUDStore) {
+  const indexes = `${index}`.split('.').map(index => parseInt(index, 10));
+
+  if (!Array.isArray(store.data.items)) {
+    // something wrong.
+    return index;
+  }
+
+  const top = store.data.items?.[indexes[0]];
+  if (top) {
+    indexes[0] = store.items.findIndex(
+      a => (a.__pristine || a) === (top.__pristine || top)
+    );
+  }
+  return indexes.join('.');
+}
+
 /**
  * 内置工具栏类型
  */
@@ -690,6 +707,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   /** 父容器, 主要用于定位CRUD内部popover的挂载点 */
   parentContainer: Element | null;
   rootRef = React.createRef<HTMLDivElement>();
+  propsSnapshot: T;
 
   filterOnEvent = memoize(onEvent =>
     omitBy(onEvent, (event, key: any) => !INNER_EVENTS.includes(key))
@@ -697,6 +715,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
 
   constructor(props: T) {
     super(props);
+    this.propsSnapshot = props;
 
     this.controlRef = this.controlRef.bind(this);
     this.handleFilterReset = this.handleFilterReset.bind(this);
@@ -2374,7 +2393,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       classnames: cx,
       primaryField,
       enableBulkActions
-    } = this.props;
+    } = this.propsSnapshot;
 
     if (!bulkActions || !bulkActions.length || enableBulkActions === false) {
       return null;
@@ -2485,7 +2504,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       alwaysShowPagination,
       perPageAvailable,
       testIdBuilder
-    } = this.props;
+    } = this.propsSnapshot;
     const {page, lastPage} = store;
 
     if (
@@ -2557,7 +2576,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       classnames: cx,
       translate: __,
       alwaysShowPagination
-    } = this.props;
+    } = this.propsSnapshot;
 
     if (store.lastPage <= 1 && !alwaysShowPagination) {
       return null;
@@ -2583,7 +2602,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       classPrefix: ns,
       translate: __,
       testIdBuilder
-    } = this.props;
+    } = this.propsSnapshot;
 
     const items = childProps.items;
 
@@ -2627,7 +2646,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       translate: __,
       testIdBuilder,
       loadMoreProps = {}
-    } = this.props;
+    } = this.propsSnapshot;
     const {page, lastPage} = store;
 
     const {
@@ -2685,7 +2704,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   }
 
   renderFilterToggler() {
-    const {store, classnames: cx, translate: __, filterTogglable} = this.props;
+    const {store, classnames: cx, translate: __, filterTogglable} =
+      this.propsSnapshot;
 
     if (!store.filterTogglable) {
       return null;
@@ -2724,7 +2744,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   }
 
   renderExportCSV(toolbar: Schema) {
-    const {store, classPrefix: ns, translate: __, loadDataOnce} = this.props;
+    const {store, classPrefix: ns, translate: __, loadDataOnce} =
+      this.propsSnapshot;
     const api = (toolbar as Schema).api;
     const filename = toolbar.filename;
 
@@ -2758,7 +2779,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       return null;
     }
 
-    const {render, store, mobileUI, translate: __, testIdBuilder} = this.props;
+    const {render, store, mobileUI, translate: __, testIdBuilder} =
+      this.propsSnapshot;
     const type = (toolbar as Schema).type || toolbar;
 
     if (type === 'bulkActions' || type === 'bulk-actions') {
@@ -2800,7 +2822,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
         }))
         .filter(item => item.dom);
       const len = children.length;
-      const cx = this.props.classnames;
+      const cx = this.propsSnapshot.classnames;
       if (len) {
         return (
           <div
@@ -2864,7 +2886,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
       index: number
     ) => React.ReactNode
   ) {
-    let {toolbar, toolbarInline, headerToolbar} = this.props;
+    let {toolbar, toolbarInline, headerToolbar} = this.propsSnapshot;
 
     if (toolbar) {
       if (Array.isArray(headerToolbar)) {
@@ -2890,7 +2912,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
     childProps: any,
     toolbarRenderer?: (toolbar: SchemaNode, index: number) => React.ReactNode
   ) {
-    let {toolbar, toolbarInline, footerToolbar} = this.props;
+    let {toolbar, toolbarInline, footerToolbar} = this.propsSnapshot;
 
     if (toolbar) {
       if (Array.isArray(footerToolbar)) {
@@ -3066,21 +3088,7 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   }
 
   filterItemIndex(index: number | string) {
-    const {store} = this.props;
-    const indexes = `${index}`.split('.').map(index => parseInt(index, 10));
-
-    if (!Array.isArray(store.data.items)) {
-      // something wrong.
-      return index;
-    }
-
-    const top = store.data.items?.[indexes[0]];
-    if (top) {
-      indexes[0] = store.items.findIndex(
-        a => (a.__pristine || a) === (top.__pristine || top)
-      );
-    }
-    return indexes.join('.');
+    return filterItemIndexByStore(index, this.props.store);
   }
 
   filterBodySchema(subSchema: any) {
@@ -3088,6 +3096,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   }
 
   renderBody() {
+    this.propsSnapshot = this.props;
+
     const {
       className,
       style,
@@ -3197,7 +3207,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
         loading: store.loading,
         offset: store.offset,
         host: this,
-        filterItemIndex: this.filterItemIndex,
+        filterItemIndex: (index: number | string) =>
+          filterItemIndexByStore(index, store),
         onDbClick: this.props.rowDbClick,
         testIdBuilder: testIdBuilder?.getChild('body')
       }
@@ -3205,6 +3216,8 @@ export default class CRUD<T extends CRUDProps> extends React.Component<T, any> {
   }
 
   render() {
+    this.propsSnapshot = this.props;
+
     const {
       className,
       style,
