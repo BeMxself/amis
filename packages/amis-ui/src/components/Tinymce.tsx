@@ -121,6 +121,7 @@ export default class TinymceEditor extends React.Component<TinymceEditorProps> {
       skin: false,
       content_css: false,
       height: 400,
+      license_key: 'gpl',
       language: !locale || locale === 'zh-CN' ? 'zh_CN' : 'en',
       branding: false,
       plugins: [
