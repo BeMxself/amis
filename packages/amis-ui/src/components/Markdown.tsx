@@ -5,13 +5,14 @@ import React from 'react';
  */
 
 import markdownIt from 'markdown-it';
+import type {MarkdownItOptions} from 'markdown-it';
 // @ts-ignore
 import {html5Media} from 'markdown-it-html5-media';
 
 const doMarkdown = markdownIt();
 doMarkdown.use(html5Media);
 
-export function markdown(content: string, options?: markdownIt.Options) {
+export function markdown(content: string, options?: MarkdownItOptions) {
   if (options) {
     doMarkdown.set(options);
   }
