@@ -17,12 +17,30 @@
     text-align: center;
   }
 
-  .video-react-paused .video-react-big-play-button.big-play-button-hide {
-    display: block;
-  }
-
   &-player {
     position: relative;
+  }
+
+  &-mediaWrap {
+    background: #000;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  &-media {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  &-playbackRate {
+    align-items: center;
+    display: inline-flex;
+    gap: var(--gap-xs);
+    margin-top: var(--gap-xs);
   }
 
   &-error {
