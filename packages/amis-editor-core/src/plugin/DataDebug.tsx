@@ -1,10 +1,7 @@
 import {registerEditorPlugin} from '../manager';
 import {BaseEventContext, BasePlugin, BasicToolbarItem} from '../plugin';
 import React from 'react';
-import {importLazyComponent} from 'amis-core';
-export const JsonView = React.lazy(() =>
-  import('react-json-view').then(importLazyComponent)
-);
+import {JsonView} from 'amis-core';
 
 /**
  * 添加调试功能

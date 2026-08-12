@@ -46,15 +46,17 @@ export default function (props: PanelPreviewProps) {
           }
         )}
       </div>
-      <JsonView
-        name={false}
-        src={data}
-        theme={'rjv-default'}
-        enableClipboard={false}
-        onEdit={onJsonEdit}
-        onDelete={onJsonEdit}
-        onAdd={onJsonEdit}
-      />
+      <React.Suspense fallback={<div>...</div>}>
+        <JsonView
+          name={false}
+          src={data}
+          theme={'rjv-default'}
+          enableClipboard={false}
+          onEdit={onJsonEdit}
+          onDelete={onJsonEdit}
+          onAdd={onJsonEdit}
+        />
+      </React.Suspense>
     </div>
   );
 }

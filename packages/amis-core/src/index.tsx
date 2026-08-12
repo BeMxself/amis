@@ -137,6 +137,8 @@ import {
 } from 'amis-formula';
 import type {FilterContext} from 'amis-formula';
 import LazyComponent from './components/LazyComponent';
+import JsonView from './components/JsonView';
+import type {JsonViewInteractionProps} from './components/JsonView';
 import Overlay from './components/Overlay';
 import PopOver from './components/PopOver';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -199,6 +201,8 @@ export {
   useRenderOptionsContext,
   RegisterStore,
   registerStore,
+  JsonView,
+  JsonViewInteractionProps,
   FormItem,
   FormItemWrap,
   FormItemProps,

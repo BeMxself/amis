@@ -8,15 +8,12 @@ import {renderReactNode, unmountReactNode} from './reactRoot';
 import {mergeRefs} from './reactRef';
 import {autorun, observable, action} from 'mobx';
 import {observer} from 'mobx-react';
-import {uuidv4, importLazyComponent} from './helper';
+import {uuidv4} from './helper';
+import JsonView from '../components/JsonView';
 import position from './position';
 import {resolveVariableAndFilter} from './resolveVariableAndFilter';
 import {callStrFunction} from './api';
 import isPlainObject from 'lodash/isPlainObject';
-
-export const JsonView = React.lazy(() =>
-  import('react-json-view').then(importLazyComponent)
-);
 
 class Log {
   @observable cat = '';

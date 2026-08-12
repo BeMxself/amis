@@ -1,18 +1,18 @@
 import React from 'react';
-import {AMISSchemaBase, Renderer, RendererProps} from 'amis-core';
-
-import type {InteractionProps} from 'react-json-view';
+import {
+  AMISSchemaBase,
+  Renderer,
+  RendererProps,
+  JsonView,
+  JsonViewInteractionProps
+} from 'amis-core';
 import {autobind, getPropValue, noop} from 'amis-core';
 import {BaseSchema} from '../Schema';
 import {
   resolveVariableAndFilter,
-  isPureVariable,
-  importLazyComponent
+  isPureVariable
 } from 'amis-core';
-
-export const JsonView = React.lazy(() =>
-  import('react-json-view').then(importLazyComponent)
-);
+export {JsonView};
 /**
  * JSON 数据查看/编辑控件。用于展示或编辑 JSON 数据，支持复制、折叠、键排序等。
  */
@@ -96,7 +96,7 @@ export class JSONField extends React.Component<JSONProps, object> {
   };
 
   @autobind
-  emitChange(e: InteractionProps) {
+  emitChange(e: JsonViewInteractionProps) {
     const {onChange, name} = this.props;
 
     if (!name || !onChange) {
@@ -105,17 +105,6 @@ export class JSONField extends React.Component<JSONProps, object> {
 
     onChange(e.updated_src, name);
     return true;
-  }
-
-  @autobind
-  shouldExpandNode({namespace}: {namespace: Array<string | null>}) {
-    const {levelExpand} = this.props;
-
-    if (typeof levelExpand !== 'number') {
-      return false;
-    }
-
-    return namespace.length > levelExpand;
   }
 
   render() {
@@ -175,7 +164,7 @@ export class JSONField extends React.Component<JSONProps, object> {
               name={false}
               src={data}
               theme={(jsonThemeValue as any) ?? 'rjv-default'}
-              shouldCollapse={this.shouldExpandNode}
+              collapsed={levelExpand}
               enableClipboard={enableClipboard}
               displayDataTypes={displayDataTypes}
               collapseStringsAfterLength={ellipsisThreshold}
