@@ -386,6 +386,8 @@ export class Chart extends React.Component<ChartProps> {
     if (ref) {
       Promise.all([
         import('echarts'),
+        // @ts-ignore 官方没提供 type
+        import('echarts/theme/v5.js'),
         import('echarts-stat'),
         // @ts-ignore 官方没提供 type
         import('echarts/extension/dataTool'),
@@ -393,7 +395,7 @@ export class Chart extends React.Component<ChartProps> {
         import('echarts/extension/bmap/bmap'),
         // @ts-ignore 官方没提供 type
         import('echarts-wordcloud/dist/echarts-wordcloud')
-      ]).then(async ([echarts, ecStat]) => {
+      ]).then(async ([echarts, , ecStat]) => {
         (window as any).echarts = echarts;
         (window as any).ecStat = ecStat?.default || ecStat;
 
@@ -407,7 +409,7 @@ export class Chart extends React.Component<ChartProps> {
           );
         }
 
-        let theme = 'default';
+        let theme = 'v5';
 
         if (chartTheme) {
           echarts.registerTheme('custom', chartTheme);
