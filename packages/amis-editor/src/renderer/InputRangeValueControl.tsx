@@ -134,11 +134,6 @@ const InputRangeValue: React.FC<InputRangeValueProps> = props => {
   );
 };
 
-InputRangeValue.defaultProps = {
-  minField: 'min',
-  maxField: 'max'
-};
-
 @FormItem({type: 'ae-input-range-value'})
 export default class InputRangeValueRenderer extends React.Component<FormControlProps> {
   render() {

@@ -177,8 +177,4 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
   );
 };
 
-OverflowTpl.defaultProps = {
-  inline: true
-};
-
 export default themeable(OverflowTpl);

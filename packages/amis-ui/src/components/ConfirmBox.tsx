@@ -34,7 +34,7 @@ export interface ConfirmBoxProps extends LocaleProps, ThemeProps {
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'full';
   position?: 'top' | 'right' | 'bottom' | 'left';
   resizable?: boolean;
-  type: 'dialog' | 'drawer';
+  type?: 'dialog' | 'drawer';
   className?: string;
   headerClassName?: string;
   bodyClassName?: string;
@@ -45,7 +45,7 @@ export interface ConfirmBoxProps extends LocaleProps, ThemeProps {
 }
 
 export function ConfirmBox({
-  type,
+  type = 'dialog',
   size,
   closeOnEsc,
   show,
@@ -59,7 +59,7 @@ export function ConfirmBox({
   onConfirm,
   beforeConfirm,
   popOverContainer,
-  position,
+  position = 'right',
   resizable,
   classnames: cx,
   className,
@@ -237,10 +237,5 @@ export function ConfirmBox({
 
   return type === 'drawer' ? renderDrawer() : renderDialog();
 }
-
-ConfirmBox.defaultProps = {
-  type: 'dialog' as 'dialog',
-  position: 'right' as 'right'
-};
 
 export default localeable(themeable(ConfirmBox));
