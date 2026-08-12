@@ -1136,7 +1136,7 @@ function ColorSelect(props: ColorSelectProps) {
     needCustom
   } = props;
   const [tab, setTab] = useState('color');
-  const presetColorRef = useRef<any>();
+  const presetColorRef = useRef<any>(null);
 
   const tabMap: any = {
     color: {name: 'color', label: '主题颜色'}

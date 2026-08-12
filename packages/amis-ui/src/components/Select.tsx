@@ -442,7 +442,7 @@ export class Select extends React.Component<SelectProps, SelectState> {
 
   input: HTMLInputElement;
   target: HTMLDivElement | null = null;
-  menu: React.RefObject<HTMLDivElement> = React.createRef();
+  menu: React.RefObject<HTMLDivElement | null> = React.createRef();
   constructor(props: SelectProps) {
     super(props);
 

@@ -70,7 +70,7 @@ export function DropdownContextMenus<T = Record<string, any>>({
   className
 }: DropdownContextMenusProps<T>) {
   const [menus, setMenus] = React.useState<ContextMenu<T>[]>([]);
-  const domRef = React.useRef<HTMLElement>();
+  const domRef = React.useRef<HTMLElement | null>(null);
 
   /** 处理菜单项点击事件 */
   const handleItemClick = React.useCallback(

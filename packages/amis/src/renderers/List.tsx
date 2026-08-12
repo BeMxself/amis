@@ -1772,9 +1772,11 @@ export class ListItem extends React.Component<ListItemProps> {
               ? `${indexBarOffset}px`
               : 'var(--affix-offset-top)'
         }}
-        ref={ref =>
-          itemRef && itemIndex !== undefined && itemRef(itemIndex, item, ref)
-        }
+        ref={ref => {
+          if (itemRef && itemIndex !== undefined) {
+            itemRef(itemIndex, item, ref);
+          }
+        }}
       >
         {this.renderLeft()}
         {this.renderRight()}

@@ -184,7 +184,7 @@ export function Combo({
       const map = subForms.current;
 
       if (typeof rules?.validate === 'function') {
-        const result = await rules.validate(items);
+        const result = await rules.validate(items, undefined as any);
         if (result) {
           return result;
         }

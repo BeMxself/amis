@@ -102,7 +102,7 @@ export function InputJSONSchemaObject(
   const [members, _setMembers] = React.useState<Array<JSONSchemaObjectMember>>(
     []
   );
-  const membersRef = React.useRef<Array<JSONSchemaObjectMember>>();
+  const membersRef = React.useRef<Array<JSONSchemaObjectMember>>([]);
   membersRef.current = members;
   const setMembers = (members: Array<JSONSchemaObjectMember>) => {
     _setMembers(members);

@@ -78,7 +78,7 @@ export class LocationControl extends React.Component<LocationControlProps> {
     vendor: 'baidu',
     coordinatesType: 'bd09'
   };
-  domRef: React.RefObject<HTMLDivElement> = React.createRef();
+  domRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   state = {
     isOpened: false
   };

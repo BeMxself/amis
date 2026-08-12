@@ -44,7 +44,7 @@ export class TableViewEditor extends React.Component<
   TableViewEditorProps,
   TableViewEditorState
 > {
-  tableViewWrapperRef: React.RefObject<HTMLDivElement>;
+  tableViewWrapperRef: React.RefObject<HTMLDivElement | null>;
 
   // 下面这些用于行和线的拖拽，来改变高宽
   // 但这里有个问题还没解决：同一列中如果同时有两个单元格设置宽度，这时究竟该改哪个？

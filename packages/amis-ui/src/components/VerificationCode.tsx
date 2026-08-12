@@ -94,7 +94,7 @@ export function isUndefined(obj: any): obj is undefined {
 }
 
 export function usePrevious<T>(value: PropsWithoutRef<T> | ComponentState) {
-  const ref = useRef();
+  const ref = useRef<PropsWithoutRef<T> | ComponentState | undefined>(undefined);
   useEffect(() => {
     ref.current = value;
   });
@@ -122,7 +122,7 @@ export function useMergeValue<T>(
     }
 
     if (value === undefined && prevPropsValue !== value) {
-      setStateValue(value);
+      setStateValue(value as T);
     }
   }, [value]);
 

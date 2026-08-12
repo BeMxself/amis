@@ -47,7 +47,7 @@ export class LocationPicker extends React.Component<
     getLocationPlaceholder: 'LocationPicker.getLocation',
     clearable: false
   };
-  domRef: React.RefObject<HTMLDivElement> = React.createRef();
+  domRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   tempValue: any;
   state = {
     isFocused: false,

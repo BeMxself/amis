@@ -54,9 +54,9 @@ export class HorizontalScroll extends React.Component<
   HorizontalScrollProps,
   HorizontalScrollState
 > {
-  innerWrapper: React.RefObject<HTMLDivElement> = React.createRef(); // 内部滚动容器
+  innerWrapper: React.RefObject<HTMLDivElement | null> = React.createRef(); // 内部滚动容器
 
-  resizeDom: React.RefObject<HTMLDivElement> = React.createRef(); // 外部容器
+  resizeDom: React.RefObject<HTMLDivElement | null> = React.createRef(); // 外部容器
 
   toDispose: Array<() => void> = []; // 监听函数数组
 

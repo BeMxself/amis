@@ -138,7 +138,7 @@ export default class NestedSelectControl extends React.Component<
     checkAllLabel: 'Select.checkAll',
     hideNodePathLabel: false
   };
-  outTarget: React.RefObject<HTMLDivElement> = React.createRef();
+  outTarget: React.RefObject<HTMLDivElement | null> = React.createRef();
   outTargetWidth?: number;
   target: any;
   input: HTMLInputElement;

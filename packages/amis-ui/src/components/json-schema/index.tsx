@@ -48,7 +48,7 @@ function InputJSONSchema(props: InputJSONSchemaProps, ref: any) {
     properties: {}
   };
 
-  const childRef = React.useRef<any>();
+  const childRef = React.useRef<any>(null);
 
   React.useImperativeHandle(ref, () => {
     return {

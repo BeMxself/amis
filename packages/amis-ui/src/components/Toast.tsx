@@ -291,7 +291,7 @@ export class ToastMessage extends React.Component<
     visible: false
   };
 
-  // content: React.RefObject<HTMLDivElement>;
+  // content: React.RefObject<HTMLDivElement | null>;
   toastDomRef = React.createRef<HTMLDivElement>();
   timer: ReturnType<typeof setTimeout>;
   mounted: boolean = false;
@@ -394,14 +394,20 @@ export class ToastMessage extends React.Component<
                 {typeof title === 'string' ? (
                   <span className={cx(`Toast-title`)}>{title}</span>
                 ) : React.isValidElement(title) ? (
-                  React.cloneElement(title as React.ReactElement, {
-                    className: cx(`Toast-title`, title?.props?.className ?? '')
+                  React.cloneElement(title as React.ReactElement<any>, {
+                    className: cx(
+                      `Toast-title`,
+                      (title.props as any)?.className ?? ''
+                    )
                   })
                 ) : null}
 
                 {React.isValidElement(body) ? (
-                  React.cloneElement(body as React.ReactElement, {
-                    className: cx(`Toast-body`, body?.props?.className ?? '')
+                  React.cloneElement(body as React.ReactElement<any>, {
+                    className: cx(
+                      `Toast-body`,
+                      (body.props as any)?.className ?? ''
+                    )
                   })
                 ) : typeof body === 'string' || typeof body === 'object' ? (
                   <div className={cx('Toast-body')}>

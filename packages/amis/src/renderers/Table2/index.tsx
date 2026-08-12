@@ -529,7 +529,7 @@ export default class Table2 extends React.Component<Table2Props, object> {
   ];
 
   renderedToolbars: Array<string> = [];
-  rootRef: React.RefObject<HTMLDivElement> = React.createRef();
+  rootRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   tableRef?: any;
   subForms: any = {};
   columns: Array<ColumnProps> = [];

@@ -85,7 +85,7 @@ export class MonthRangePicker extends React.Component<
   popover: any;
   input?: HTMLInputElement;
 
-  dom: React.RefObject<HTMLDivElement>;
+  dom: React.RefObject<HTMLDivElement | null>;
   nextMonth = moment().add(1, 'year').startOf('month');
 
   constructor(props: MonthRangePickerProps) {

@@ -35,7 +35,7 @@ export interface IFramePreviewProps {
 @observer
 export default class IFramePreview extends React.Component<IFramePreviewProps> {
   initialContent: string = '';
-  dialogMountRef: React.RefObject<HTMLDivElement> = React.createRef();
+  dialogMountRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   iframeRef: HTMLIFrameElement;
   constructor(props: IFramePreviewProps) {
     super(props);

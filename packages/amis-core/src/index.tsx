@@ -435,10 +435,12 @@ function AMISSchema({
   }, [schema.meta]);
 
   const partialProps = React.useContext(AMISPartialPropsContext);
+  const ScopedRootRendererComponent =
+    ScopedRootRenderer as unknown as React.ComponentType<any>;
 
   return (
     <EnvContext.Provider value={env}>
-      <ScopedRootRenderer
+      <ScopedRootRendererComponent
         {...partialProps}
         {...props}
         schema={schema}

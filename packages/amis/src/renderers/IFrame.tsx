@@ -59,7 +59,7 @@ export interface IFrameProps
 }
 
 export default class IFrame extends React.Component<IFrameProps, object> {
-  IFrameRef: React.RefObject<HTMLIFrameElement> = React.createRef();
+  IFrameRef: React.RefObject<HTMLIFrameElement | null> = React.createRef();
   static propsList: Array<string> = ['src', 'className'];
   static defaultProps: Partial<IFrameProps> = {
     className: '',

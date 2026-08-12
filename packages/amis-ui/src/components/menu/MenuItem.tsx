@@ -120,8 +120,8 @@ export class MenuItem extends React.Component<MenuItemProps> {
           />
         )
       ) : React.isValidElement(icon) ? (
-        React.cloneElement(icon as React.ReactElement, {
-          className: cx(`Nav-Menu-item-icon`, icon.props?.className, {
+        React.cloneElement(icon as React.ReactElement<any>, {
+          className: cx(`Nav-Menu-item-icon`, (icon.props as any)?.className, {
             ['Nav-Menu-item-icon-svg-collapsed']: isCollapsedNode
           })
         })

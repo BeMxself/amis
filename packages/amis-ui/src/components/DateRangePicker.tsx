@@ -557,14 +557,14 @@ export class DateRangePicker extends React.Component<
     };
   }
 
-  dom: React.RefObject<HTMLDivElement>;
-  calendarRef: React.RefObject<HTMLDivElement>;
+  dom: React.RefObject<HTMLDivElement | null>;
+  calendarRef: React.RefObject<HTMLDivElement | null>;
   nextMonth = moment().add(1, 'months').startOf('day');
   currentMonth = moment().startOf('day');
 
-  startInputRef: React.RefObject<HTMLInputElement>;
-  endInputRef: React.RefObject<HTMLInputElement>;
-  separatorRef: React.RefObject<HTMLSpanElement>;
+  startInputRef: React.RefObject<HTMLInputElement | null>;
+  endInputRef: React.RefObject<HTMLInputElement | null>;
+  separatorRef: React.RefObject<HTMLSpanElement | null>;
 
   constructor(props: DateRangePickerProps) {
     super(props);

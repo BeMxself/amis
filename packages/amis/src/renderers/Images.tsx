@@ -252,8 +252,8 @@ export class ImagesField extends React.Component<ImagesProps, ImagesState> {
   gap = 5;
   evenReg = /^even-[1-9]\d*-[1-9]\d*$/;
 
-  wrapperRef: React.RefObject<HTMLDivElement> = React.createRef();
-  transitionRefs: Record<number, React.RefObject<HTMLDivElement>> = {};
+  wrapperRef: React.RefObject<HTMLDivElement | null> = React.createRef();
+  transitionRefs: Record<number, React.RefObject<HTMLDivElement | null>> = {};
 
   getTransitionRef(index: number) {
     return (

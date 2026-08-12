@@ -75,8 +75,8 @@ export function ConfirmBox({
   const [error, setError] = React.useState<string>();
   const bodyRef = React.useRef<
     {submit: () => Promise<Record<string, any>>} | undefined
-  >();
-  const bodyDomRef = React.useRef<HTMLElement | null>();
+  >(undefined);
+  const bodyDomRef = React.useRef<HTMLElement | null>(null);
   const getPopOverContainer = React.useCallback(() => {
     return bodyDomRef.current?.parentElement;
   }, []);

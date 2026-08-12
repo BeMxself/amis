@@ -2276,7 +2276,7 @@ export function asFormItem(config: Omit<FormItemConfig, 'component'>) {
             sizeMutable: config.sizeMutable,
             wrap: config.wrap,
             showErrorMsg: config.showErrorMsg,
-            ...Control.defaultProps
+            ...(Control as any).defaultProps
           };
           static propsList: any = [
             'value',

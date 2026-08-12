@@ -156,7 +156,7 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
     )
   ) : (
     <WrapComponent
-      ref={innerRef as React.RefObject<HTMLDivElement>}
+      ref={innerRef as React.RefObject<HTMLDivElement | null>}
       className={cx('OverflowTpl', className, {
         'OverflowTpl--with-tooltip': showTooltip
       })}

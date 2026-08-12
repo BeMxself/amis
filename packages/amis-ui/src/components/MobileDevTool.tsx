@@ -111,7 +111,7 @@ export default function MobileDevTool(props: {
         localStorage.getItem('amis-mobile-dev-tool-dimension') || 'null'
       ) || dimensions[1]
   );
-  const defaultScale = useRef<number>();
+  const defaultScale = useRef<number>(0);
   const [scale, setScale] = React.useState(100);
   const [autoScale, setAutoScale] = React.useState(100);
 

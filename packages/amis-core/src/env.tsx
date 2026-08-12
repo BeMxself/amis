@@ -74,7 +74,7 @@ export interface RendererEnv {
     props: any
   ) => null | RendererConfig;
   copy?: (contents: string, format?: any) => void;
-  getModalContainer?: () => HTMLElement;
+  getModalContainer?: () => HTMLElement | null;
   theme: ThemeInstance;
 
   /**

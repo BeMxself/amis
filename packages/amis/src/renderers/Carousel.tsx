@@ -194,8 +194,8 @@ const defaultSchema = {
 const SCROLL_THRESHOLD = 20;
 
 export class Carousel extends React.Component<CarouselProps, CarouselState> {
-  wrapperRef: React.RefObject<HTMLDivElement> = React.createRef();
-  transitionRefs: Record<number, React.RefObject<HTMLDivElement>> = {};
+  wrapperRef: React.RefObject<HTMLDivElement | null> = React.createRef();
+  transitionRefs: Record<number, React.RefObject<HTMLDivElement | null>> = {};
   intervalTimeout: NodeJS.Timer | number;
   durationTimeout: NodeJS.Timer | number;
 

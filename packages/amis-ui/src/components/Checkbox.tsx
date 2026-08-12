@@ -42,7 +42,7 @@ export class Checkbox extends React.Component<CheckboxProps, any> {
     falseValue: false,
     type: 'checkbox'
   };
-  labelRef: React.RefObject<HTMLLabelElement> = React.createRef();
+  labelRef: React.RefObject<HTMLLabelElement | null> = React.createRef();
   @autobind
   handleCheck(e: React.ChangeEvent<any>) {
     const {trueValue, falseValue, onChange} = this.props;

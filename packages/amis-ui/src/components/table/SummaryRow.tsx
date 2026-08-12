@@ -24,7 +24,7 @@ export interface Props extends RowProps {
 }
 
 export class SummaryRow extends React.PureComponent<RowProps> {
-  domRef: React.RefObject<HTMLTableRowElement> = React.createRef();
+  domRef: React.RefObject<HTMLTableRowElement | null> = React.createRef();
 
   updateFixedRow() {
     const {classnames: cx, row} = this.props;

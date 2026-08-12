@@ -1429,7 +1429,7 @@ export default class ImageControl extends React.Component<
   }
 
   handleClick() {
-    (this.refs.dropzone as any).open();
+    this.dropzone.current && this.dropzone.current.open();
   }
 
   handleImageLoaded(index: number, e: React.UIEvent<any>) {

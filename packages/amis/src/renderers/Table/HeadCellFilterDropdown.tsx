@@ -50,7 +50,7 @@ export class HeadCellFilterDropDown extends React.Component<
   HeadCellFilterProps,
   any
 > {
-  rootRef: React.RefObject<HTMLSpanElement> = React.createRef();
+  rootRef: React.RefObject<HTMLSpanElement | null> = React.createRef();
 
   state = {
     isOpened: false,

@@ -8,7 +8,7 @@ import InputJSONSchemaObject from './Object';
 import {FormulaPicker} from '../formula/Picker';
 
 export function InputJSONSchemaItem(props: InputJSONSchemaItemProps, ref: any) {
-  const childRef = React.useRef<any>();
+  const childRef = React.useRef<any>(null);
   React.useImperativeHandle(ref, () => {
     return {
       validate() {

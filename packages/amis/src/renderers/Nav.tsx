@@ -1001,7 +1001,7 @@ export class Navigation extends React.Component<
               popOverContainer
                 ? popOverContainer
                 : env && env.getModalContainer
-                ? env.getModalContainer
+                ? () => env.getModalContainer?.() || document.body
                 : () => document.body
             }
           />

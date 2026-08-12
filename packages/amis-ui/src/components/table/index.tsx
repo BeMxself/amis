@@ -265,12 +265,12 @@ export class Table extends React.PureComponent<TableProps, TableState> {
   resizeWidth: number;
   resizeIndex: number;
 
-  tableDom: React.RefObject<HTMLDivElement> = React.createRef();
-  tbodyDom: React.RefObject<HTMLTableSectionElement> = React.createRef();
-  contentDom: React.RefObject<HTMLDivElement> = React.createRef();
-  headerDom: React.RefObject<HTMLDivElement> = React.createRef();
-  footDom: React.RefObject<HTMLDivElement> = React.createRef();
-  containerDom: React.RefObject<HTMLDivElement> = React.createRef();
+  tableDom: React.RefObject<HTMLDivElement | null> = React.createRef();
+  tbodyDom: React.RefObject<HTMLTableSectionElement | null> = React.createRef();
+  contentDom: React.RefObject<HTMLDivElement | null> = React.createRef();
+  headerDom: React.RefObject<HTMLDivElement | null> = React.createRef();
+  footDom: React.RefObject<HTMLDivElement | null> = React.createRef();
+  containerDom: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   toDispose: Array<() => void> = [];
   updateTableInfoLazy = debounce(this.updateTableInfo.bind(this), 250, {

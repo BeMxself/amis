@@ -10,6 +10,8 @@ import {
 import {getScrollParent} from 'amis-core';
 import {resizeSensor} from 'amis-core';
 import type {IRow} from 'amis-core/lib/store/table';
+type VirtualTableRowElement = React.ReactElement<{item?: IRow}>;
+
 export interface VirtualTableBodyProps extends ThemeProps {
   className?: string;
   rows: React.ReactNode[];
@@ -32,7 +34,7 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
     let offsetHeight = 0;
 
     for (let i = 0, len = rows.length; i < len; i++) {
-      const row = rows[from] as React.ReactElement;
+      const row = rows[from] as VirtualTableRowElement;
       const item = row?.props?.item;
       const height = item?.height || itemHeight.current;
       if (offsetHeight + height > scrollTop) {
@@ -49,7 +51,7 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
       // 开头的 rowSpan 如果有 0 的话，继续往上找，直到找到没有 0 的为止
       // 如果有 0 意味着这个单元格是被上面的单元格合并了的，要保证 table 的完整性需要这么处理
       while (from > 0) {
-        const row = rows[from] as React.ReactElement;
+        const row = rows[from] as VirtualTableRowElement;
         const item = row?.props?.item;
         if (
           Object.values(item?.rowSpans || {}).some(
@@ -65,7 +67,7 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
       // 保障表格渲染的完整性，不能因为滚动位置的原因把 rowspan 切断了
       let index = to;
       for (; index >= from; index--) {
-        const row = rows[index] as React.ReactElement;
+        const row = rows[index] as VirtualTableRowElement;
         const item = row?.props?.item;
         const rowSpan = Math.max(
           1,
@@ -87,7 +89,7 @@ function VirtualTableBody(props: VirtualTableBodyProps) {
       let virtualHeight = 0;
       offsetHeight = 0;
       rows.forEach((item, index) => {
-        const row: IRow = (item as React.ReactElement)?.props?.item;
+        const row = (item as VirtualTableRowElement)?.props?.item;
         const height = row?.height || itemHeight.current;
 
         totalHeight += height;

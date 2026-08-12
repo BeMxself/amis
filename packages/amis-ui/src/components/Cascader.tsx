@@ -66,8 +66,8 @@ export class Cascader extends React.Component<CascaderProps, CascaderState> {
     labelField: 'label',
     valueField: 'value'
   };
-  tabsRef: React.RefObject<HTMLDivElement> = React.createRef();
-  tabRef: React.RefObject<HTMLDivElement> = React.createRef();
+  tabsRef: React.RefObject<HTMLDivElement | null> = React.createRef();
+  tabRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   constructor(props: CascaderProps) {
     super(props);
     this.state = {

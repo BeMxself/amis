@@ -225,7 +225,7 @@ const GridNav: React.FC<GridNavProps> = ({
       {React.Children.toArray(children)
         .filter(Boolean)
         .map((child: React.ReactElement, index: number) =>
-          React.cloneElement(child, {
+          React.cloneElement(child as React.ReactElement<any>, {
             index,
             parent,
             className: itemClassName,

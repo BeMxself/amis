@@ -117,7 +117,7 @@ export default class TagControl extends React.PureComponent<
   TagState
 > {
   input: React.RefObject<any> = React.createRef();
-  inputRoot: React.RefObject<HTMLDivElement> = React.createRef();
+  inputRoot: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   static defaultProps = {
     resetValue: '',

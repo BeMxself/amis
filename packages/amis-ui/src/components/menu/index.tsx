@@ -55,7 +55,7 @@ export interface NavigationItem {
 }
 
 // RcMenu中支持vertical-right 但RcMenuProps没有同步更新
-export interface MenuProps extends Omit<RcMenuProps, 'mode'> {
+export interface MenuProps extends Omit<RcMenuProps, 'mode' | 'onToggle'> {
   className?: string;
   classPrefix: string;
   classnames: ClassNamesFn;
@@ -754,10 +754,10 @@ export class Menu extends React.Component<MenuProps, MenuState> {
           getPopupContainer={popOverContainer}
           overflowedIndicator={
             React.isValidElement(overflowedIndicator) ? (
-              React.cloneElement(overflowedIndicator as React.ReactElement, {
+              React.cloneElement(overflowedIndicator as React.ReactElement<any>, {
                 className: cx(
                   'Nav-Menu-item-icon Nav-Menu-overflowedIcon',
-                  overflowedIndicator.props?.className
+                  (overflowedIndicator.props as any)?.className
                 )
               })
             ) : (

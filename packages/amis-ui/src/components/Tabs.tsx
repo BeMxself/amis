@@ -927,7 +927,7 @@ export class Tabs extends React.Component<TabsProps, any> {
           <div
             className={cx(
               'Tabs-linksContainer-wrapper',
-              toolbar && 'Tabs-linksContainer-wrapper--toolbar'
+              toolbar ? 'Tabs-linksContainer-wrapper--toolbar' : undefined
             )}
             ref={this.resizeDom}
           >

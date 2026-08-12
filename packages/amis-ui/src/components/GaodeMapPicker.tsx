@@ -47,8 +47,8 @@ export class BaiduMapPicker extends React.Component<
   };
 
   id = uuid();
-  mapRef: React.RefObject<HTMLDivElement> = React.createRef();
-  resultListRef: React.RefObject<HTMLDivElement> = React.createRef();
+  mapRef: React.RefObject<HTMLDivElement | null> = React.createRef();
+  resultListRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   placeholderInput?: HTMLInputElement;
   map: any;
   ac: any;

@@ -119,7 +119,7 @@ class CollapseGroup extends React.Component<
     }
 
     return children.map((child: React.ReactElement, index: number) => {
-      let props = child.props;
+      let props = child.props as any;
 
       const collapseId = props.propKey || String(index);
       // 判断是否折叠

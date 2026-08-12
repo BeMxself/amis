@@ -60,7 +60,7 @@ export interface Props extends ThemeProps {
 }
 
 class BodyRow extends React.PureComponent<Props> {
-  domRef: React.RefObject<HTMLTableRowElement> = React.createRef();
+  domRef: React.RefObject<HTMLTableRowElement | null> = React.createRef();
   // 表格配置
   tdColumns: Array<TdProps>;
 

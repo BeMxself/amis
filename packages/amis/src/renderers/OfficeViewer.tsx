@@ -57,7 +57,7 @@ export default class OfficeViewer extends React.Component<
   OfficeViewerProps,
   OfficeViewerState
 > {
-  rootElement: React.RefObject<HTMLDivElement>;
+  rootElement: React.RefObject<HTMLDivElement | null>;
 
   office: Word | Excel;
 

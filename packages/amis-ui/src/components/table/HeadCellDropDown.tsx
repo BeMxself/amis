@@ -47,7 +47,7 @@ export interface State {
 }
 
 export class HeadCellDropDown extends React.PureComponent<Props, State> {
-  rootRef: React.RefObject<HTMLSpanElement> = React.createRef();
+  rootRef: React.RefObject<HTMLSpanElement | null> = React.createRef();
 
   constructor(props: Props) {
     super(props);

@@ -1445,18 +1445,18 @@ export function registerOptionsControl(config: OptionsConfig) {
 
   class FormOptionsItem extends OptionsControlBase<OptionsProps> {
     static displayName = `OptionsControl(${config.type})`;
-    static defaultProps = {
-      delimiter: ',',
-      labelField: 'label',
-      valueField: 'value',
-      joinValues: true,
-      extractValue: false,
-      multiple: false,
-      placeholder: 'Select.placeholder',
-      resetValue: '',
-      deleteConfirmText: 'deleteConfirm',
-      ...Control.defaultProps
-    };
+      static defaultProps = {
+        delimiter: ',',
+        labelField: 'label',
+        valueField: 'value',
+        joinValues: true,
+        extractValue: false,
+        multiple: false,
+        placeholder: 'Select.placeholder',
+        resetValue: '',
+        deleteConfirmText: 'deleteConfirm',
+        ...(Control as any).defaultProps
+      };
     static propsList: any = (Control as any).propsList
       ? [...(Control as any).propsList]
       : [];

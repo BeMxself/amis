@@ -143,7 +143,7 @@ export default class QRCode extends React.Component<QRCodeProps, any> {
     mode: 'canvas'
   };
 
-  ref: React.RefObject<HTMLDivElement>;
+  ref: React.RefObject<HTMLDivElement | null>;
 
   constructor(props: QRCodeProps) {
     super(props);

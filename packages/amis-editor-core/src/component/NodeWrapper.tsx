@@ -18,7 +18,7 @@ export interface NodeWrapperProps extends RendererProps {
 export class NodeWrapper extends React.Component<NodeWrapperProps> {
   /** 合并 Mock 配置时应该忽略的属性 */
   omitMockProps = ['id', '$$id', 'enable', 'maxDisplayRows'];
-  rootRef: React.RefObject<HTMLElement> = React.createRef();
+  rootRef: React.RefObject<HTMLElement | null> = React.createRef();
 
   componentDidMount() {
     this.markDom(this.props.$$editor.id);

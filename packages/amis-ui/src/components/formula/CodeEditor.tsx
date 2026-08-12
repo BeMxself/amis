@@ -97,7 +97,7 @@ function CodeEditor(props: CodeEditorProps, ref: any) {
     placeholder,
     highlightMode
   } = props;
-  const pluginRef = React.useRef<FormulaPlugin>();
+  const pluginRef = React.useRef<FormulaPlugin | null>(null);
 
   const editorFactory = React.useCallback((dom: HTMLElement, cm: any) => {
     let theme =

@@ -291,7 +291,13 @@ class FroalaEditorComponent extends React.Component<FroalaEditorComponentProps> 
 
   render() {
     return (
-      <textarea ref={el => (this.el = el)}>{this.props.children}</textarea>
+      <textarea
+        ref={el => {
+          this.el = el;
+        }}
+      >
+        {this.props.children}
+      </textarea>
     );
   }
 }

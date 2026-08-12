@@ -130,7 +130,7 @@ export class Log extends React.Component<LogProps, LogState> {
 
   autoScroll: boolean = false;
 
-  logRef: React.RefObject<HTMLDivElement>;
+  logRef: React.RefObject<HTMLDivElement | null>;
 
   state: LogState = {
     lastLine: '',

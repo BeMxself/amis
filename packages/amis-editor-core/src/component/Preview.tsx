@@ -800,7 +800,7 @@ export interface SmartPreviewProps {
 }
 @observer
 class SmartPreview extends React.Component<SmartPreviewProps> {
-  dialogMountRef: React.RefObject<HTMLDivElement> = React.createRef();
+  dialogMountRef: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   componentDidMount() {
     const store = this.props.store;

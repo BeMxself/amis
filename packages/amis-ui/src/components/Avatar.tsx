@@ -112,8 +112,8 @@ export class Avatar extends React.Component<AvatarCmptProps, AvatarState> {
     hasImg: true
   };
 
-  avatarChildrenRef: React.RefObject<HTMLElement>;
-  avatarRef: React.RefObject<HTMLElement>;
+  avatarChildrenRef: React.RefObject<HTMLElement | null>;
+  avatarRef: React.RefObject<HTMLElement | null>;
 
   constructor(props: AvatarCmptProps) {
     super(props);

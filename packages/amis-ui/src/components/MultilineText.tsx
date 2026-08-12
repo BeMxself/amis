@@ -45,7 +45,7 @@ export class MultilineText extends React.Component<
     showBtn: false
   };
 
-  ref?: React.RefObject<HTMLDivElement>;
+  ref?: React.RefObject<HTMLDivElement | null>;
 
   constructor(props: MultilineTextProps) {
     super(props);

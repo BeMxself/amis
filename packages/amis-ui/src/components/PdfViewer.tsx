@@ -27,7 +27,7 @@ const PdfViewer: React.FC<PdfViewerProps> = props => {
   const [page, setPage] = React.useState(1);
   const [scale, setScale] = React.useState(1);
   const [total, setTotal] = React.useState(1);
-  const inputRef = React.useRef<HTMLInputElement>();
+  const inputRef = React.useRef<HTMLInputElement | null>(null);
 
   React.useEffect(() => {
     if (props.file instanceof ArrayBuffer && props.file.byteLength > 0) {

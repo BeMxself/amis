@@ -437,7 +437,7 @@ export class DatePicker extends React.Component<DateProps, DatePickerState> {
 
   dom: HTMLDivElement;
 
-  inputRef: React.RefObject<HTMLInputElement>;
+  inputRef: React.RefObject<HTMLInputElement | null>;
   // 缓存上一次的input值
   inputValueCache: string;
 

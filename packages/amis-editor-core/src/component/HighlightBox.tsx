@@ -138,7 +138,7 @@ export default observer(function ({
     },
     []
   );
-  const wResizerDom = React.useRef<HTMLElement>();
+  const wResizerDom = React.useRef<HTMLElement | null>(null);
   const wResizerRef = React.useCallback((ref: HTMLElement) => {
     if (ref) {
       ref.addEventListener('mousedown', handleWResizerMouseDown);
@@ -152,7 +152,7 @@ export default observer(function ({
     wResizerDom.current = ref;
   }, []);
 
-  const hResizerDom = React.useRef<HTMLElement>();
+  const hResizerDom = React.useRef<HTMLElement | null>(null);
   const hResizerRef = React.useCallback((ref: HTMLElement) => {
     if (ref) {
       ref.addEventListener('mousedown', handleHResizerMouseDown);
@@ -166,7 +166,7 @@ export default observer(function ({
     hResizerDom.current = ref;
   }, []);
 
-  const resizerDom = React.useRef<HTMLElement>();
+  const resizerDom = React.useRef<HTMLElement | null>(null);
   const resizerRef = React.useCallback((ref: HTMLElement) => {
     if (ref) {
       ref.addEventListener('mousedown', handleResizerMouseDown);

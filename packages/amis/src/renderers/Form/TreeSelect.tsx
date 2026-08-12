@@ -201,7 +201,7 @@ export default class TreeSelectControl extends React.Component<
 
   treeRef: any;
 
-  container: React.RefObject<HTMLDivElement> = React.createRef();
+  container: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   input: React.RefObject<any> = React.createRef();
 
@@ -210,7 +210,9 @@ export default class TreeSelectControl extends React.Component<
   } = {};
 
   target: HTMLElement | null;
-  targetRef = (ref: HTMLDivElement | null) => (this.target = ref);
+  targetRef = (ref: HTMLDivElement | null) => {
+    this.target = ref;
+  };
 
   /** source数据源是否已加载 */
   sourceLoaded: boolean = false;

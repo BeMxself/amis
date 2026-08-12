@@ -67,7 +67,7 @@ export class AnchorNav extends React.Component<AnchorNavProps> {
   };
 
   // 滚动区域DOM
-  contentDom: React.RefObject<HTMLDivElement> = React.createRef();
+  contentDom: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   // 后代节点观察器
   observer: IntersectionObserver;

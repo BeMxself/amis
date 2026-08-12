@@ -180,7 +180,10 @@ export function wrapControl<
             this.renderChild = this.renderChild.bind(this);
             let name =
               this.props.$schema.name ||
-              (ComposedComponent.defaultProps as Record<string, unknown>)?.name;
+              ((ComposedComponent as any).defaultProps as Record<
+                string,
+                unknown
+              >)?.name;
 
             // 如果 name 是表达式
             // 扩充 each 用法
@@ -215,7 +218,10 @@ export function wrapControl<
             model.config({
               // 理论上需要将渲染器的 defaultProps 全部生效，此处保险起见先只处理 multiple
               ...pick(
-                {...ComposedComponent.defaultProps, ...this.props.$schema},
+                {
+                  ...(ComposedComponent as any).defaultProps,
+                  ...this.props.$schema
+                },
                 ['multiple']
               ),
               id,

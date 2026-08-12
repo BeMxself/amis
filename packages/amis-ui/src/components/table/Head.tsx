@@ -55,7 +55,7 @@ export interface Props extends ThemeProps {
 }
 
 export default class Head extends React.PureComponent<Props> {
-  domRef: React.RefObject<HTMLTableSectionElement> = React.createRef();
+  domRef: React.RefObject<HTMLTableSectionElement | null> = React.createRef();
   // 表头配置
   thColumns: Array<Array<ThProps>>;
   // 表格配置

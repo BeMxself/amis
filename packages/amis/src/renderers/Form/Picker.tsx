@@ -187,7 +187,7 @@ export default class PickerControl extends React.PureComponent<
     isFocused: false
   };
 
-  input: React.RefObject<HTMLInputElement> = React.createRef();
+  input: React.RefObject<HTMLInputElement | null> = React.createRef();
   toDispose: Array<() => void> = [];
   mounted = false;
 

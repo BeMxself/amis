@@ -77,8 +77,8 @@ export class ContextMenu extends React.Component<
     cursorY: -99999
   };
 
-  menuRef: React.RefObject<HTMLDivElement> = React.createRef();
-  contentRef: React.RefObject<HTMLDivElement> = React.createRef();
+  menuRef: React.RefObject<HTMLDivElement | null> = React.createRef();
+  contentRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   originInstance: this | null;
   prevInfo: {
     // 记录当前右键位置: 方便下一次做对比

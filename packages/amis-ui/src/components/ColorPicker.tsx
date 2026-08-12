@@ -61,9 +61,9 @@ export class ColorControl extends React.PureComponent<
   };
   popover: any;
   closeTimer: number;
-  root: React.RefObject<HTMLDivElement>;
-  preview: React.RefObject<HTMLElement>;
-  input: React.RefObject<HTMLInputElement>;
+  root: React.RefObject<HTMLDivElement | null>;
+  preview: React.RefObject<HTMLElement | null>;
+  input: React.RefObject<HTMLInputElement | null>;
   constructor(props: ColorProps) {
     super(props);
 

@@ -68,7 +68,7 @@ export default class TinymceEditor extends React.Component<TinymceEditorProps> {
   editorInitialized?: boolean = false;
   currentContent?: string;
 
-  elementRef: React.RefObject<HTMLTextAreaElement> = React.createRef();
+  elementRef: React.RefObject<HTMLTextAreaElement | null> = React.createRef();
 
   componentDidMount() {
     this.initTiny();

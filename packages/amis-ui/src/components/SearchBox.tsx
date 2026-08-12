@@ -74,7 +74,7 @@ const historyDefaultOptions: Required<SearchHistoryOptions> = {
 };
 
 export class SearchBox extends React.Component<SearchBoxProps, SearchBoxState> {
-  inputRef: React.RefObject<HTMLInputElement> = React.createRef();
+  inputRef: React.RefObject<HTMLInputElement | null> = React.createRef();
 
   static defaultProps = {
     mini: true,

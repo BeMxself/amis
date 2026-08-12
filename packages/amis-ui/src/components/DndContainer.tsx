@@ -38,7 +38,7 @@ export interface DndContainerProps extends LocaleProps, ThemeProps {
   draggable?: boolean;
   /** 默认设置容器内部为'user-select:none', 可以设置true关闭 */
   enableUserSelect?: boolean;
-  nodeRef?: React.RefObject<HTMLElement>;
+  nodeRef?: React.RefObject<HTMLElement | null>;
   children?: React.ReactElement<any>;
   onStart?: (event: DraggableEvent, data: DraggableData) => void | false;
   onDrag?: (event: DraggableEvent, data: DraggableData) => void | false;
@@ -88,7 +88,7 @@ const DndContainer: React.FC<DndContainerProps> = (
       onDrag={onDrag}
       onStop={onStop}
     >
-      {children}
+      {children as any}
     </Draggable>
   );
 };

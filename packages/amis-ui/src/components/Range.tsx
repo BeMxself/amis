@@ -87,7 +87,7 @@ const valueToOffsetLeft = (value: any, min: number, max: number) =>
  * 双滑块涉及两个handle，单独抽一个组件
  */
 class HandleItem extends React.Component<HandleItemProps, HandleItemState> {
-  handleRef: React.RefObject<HTMLDivElement> = React.createRef();
+  handleRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   constructor(props: HandleItemProps) {
     super(props);
 
@@ -315,7 +315,7 @@ export class Range extends React.Component<RangeItemProps, any> {
     min: (this.props.value as MultipleValue).min,
     max: (this.props.value as MultipleValue).max
   };
-  trackRef: React.RefObject<HTMLDivElement> = React.createRef();
+  trackRef: React.RefObject<HTMLDivElement | null> = React.createRef();
 
   /**
    * 接收组件value变换

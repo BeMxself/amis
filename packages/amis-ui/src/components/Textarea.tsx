@@ -79,13 +79,12 @@ export class Textarea extends React.Component<TextAreaProps, TextAreaState> {
     focused: false
   };
 
-  input?: HTMLTextAreaElement;
-  inputRef = (ref: HTMLTextAreaElement) => {
+  input: HTMLTextAreaElement | null = null;
+  inputRef = (ref: HTMLTextAreaElement | null) => {
     this.input = ref;
     if (this.props.forwardRef) {
       this.props.forwardRef.current = this.input;
     }
-    return this.input;
   };
 
   valueToString(value: any) {

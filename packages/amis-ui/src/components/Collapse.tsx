@@ -239,11 +239,11 @@ export class Collapse extends React.Component<CollapseProps, CollapseState> {
       >
         {showArrow && collapsable ? (
           expandIcon ? (
-            React.cloneElement(expandIcon, {
-              ...expandIcon.props,
+            React.cloneElement(expandIcon as React.ReactElement<any>, {
+              ...(expandIcon.props as any),
               className: cx(
                 'Collapse-icon-tranform',
-                expandIcon.props?.className
+                (expandIcon.props as any)?.className
               )
             })
           ) : (

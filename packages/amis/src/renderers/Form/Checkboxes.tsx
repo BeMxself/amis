@@ -102,7 +102,7 @@ export default class CheckboxesControl extends React.Component<
     optionType: 'default'
   };
 
-  checkboxRef: React.RefObject<HTMLDivElement> = React.createRef();
+  checkboxRef: React.RefObject<HTMLDivElement | null> = React.createRef();
   checkboxRefObserver: ResizeObserver;
   childRefs: Array<any> = [];
 
