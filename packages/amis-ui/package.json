@@ -141,7 +141,11 @@
     "moduleNameMapper": {
       "\\.(css|less|sass|scss)$": "<rootDir>/../../__mocks__/styleMock.js",
       "\\.(svg)$": "<rootDir>/../../__mocks__/svgMock.js",
-      "\\.svg\\.js$": "<rootDir>/../../__mocks__/svgJsMock.js"
+      "\\.svg\\.js$": "<rootDir>/../../__mocks__/svgJsMock.js",
+      "^amis\\-core$": "<rootDir>/../amis-core/src/index.tsx",
+      "^amis\\-formula$": "<rootDir>/../amis-formula/src/index.ts",
+      "^amis\\-ui$": "<rootDir>/src/index.tsx",
+      "^amis\\-ui/lib/(.*)$": "<rootDir>/src/$1"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/../amis-core/__tests__/jest.setup.js"
