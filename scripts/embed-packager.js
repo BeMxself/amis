@@ -5,20 +5,10 @@ var buildSdkThemeCss = require('./sdk-build/build-sdk-theme-css')
   .buildSdkThemeCss;
 var collectSdkPlaceholderAssets = require('./sdk-build/collect-sdk-placeholder-assets')
   .collectSdkPlaceholderAssets;
-var rSourceMap =
-  /(?:\/\/\#\s*sourceMappingURL[^\r\n\'\"]*|\/\*\#\s*sourceMappingURL[^\r\n\'\"]*\*\/)(?:\r?\n|$)/gi;
+var prepareSdkJs = require('./sdk-build/prepare-sdk-js').prepareSdkJs;
 var caches = {};
 var createResource = fis.require('postpackager-loader/lib/resource.js');
 const package = require('../packages/amis/package.json');
-
-function unicodeJs(str) {
-  return str.replace(
-    /([\u4E00-\u9FA5]|[\uFE30-\uFFA0]|[\u2019])/g,
-    function (_, value) {
-      return '\\u' + value.charCodeAt(0).toString(16);
-    }
-  );
-}
 
 module.exports = function (ret, pack, settings, opt) {
   var root = fis.project.getProjectPath();
@@ -54,8 +44,7 @@ module.exports = function (ret, pack, settings, opt) {
     }
   });
 
-  let jsContents = sdkAssets.jsContents.replace(rSourceMap, '');
-  jsContents = unicodeJs(jsContents);
+  let jsContents = prepareSdkJs(sdkAssets.jsContents);
 
   let jsFile = fis.file(root, 'sdk.js');
   jsFile.setContent(jsContents);
