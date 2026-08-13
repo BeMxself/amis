@@ -33,7 +33,6 @@ const tinymceOptions = [
   'nonbreaking',
   'table',
   'emoticons',
-  'template',
   'help'
 ];
 
@@ -97,7 +96,6 @@ const tinymceToolbars = [
   'tablerowheader',
   'tablecolheader',
   'emoticons',
-  'template',
   'link',
   'openlink',
   'unlink',

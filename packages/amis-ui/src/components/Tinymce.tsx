@@ -31,7 +31,6 @@ import 'tinymce/plugins/help';
 import 'tinymce/plugins/wordcount';
 import 'tinymce/plugins/pagebreak';
 import 'tinymce/plugins/visualchars';
-import 'tinymce/plugins/template';
 import 'tinymce/plugins/nonbreaking';
 import 'tinymce/plugins/emoticons';
 import 'tinymce/plugins/emoticons/js/emojis';
@@ -146,7 +145,6 @@ export default class TinymceEditor extends React.Component<TinymceEditorProps> {
         'nonbreaking',
         'table',
         'emoticons',
-        'template',
         'help',
         'quickbars'
       ],
@@ -173,7 +171,7 @@ export default class TinymceEditor extends React.Component<TinymceEditorProps> {
         insert: {
           title: 'Insert',
           items:
-            'image link media template codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime'
+            'image link media codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime'
         },
         format: {
           title: 'Format',
