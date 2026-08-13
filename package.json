@@ -19,6 +19,7 @@
     "build": "npm run build --workspaces",
     "build-esm": "npm run build-esm --workspaces",
     "build-sdk-next": "node scripts/sdk-build/build-sdk-next.js",
+    "build-sdk-next-rollup-entry": "node scripts/sdk-build/build-sdk-next.js --mode rollup-entry",
     "check-sdk-contract": "node scripts/sdk-build/check-sdk-contract.js",
     "check-sdk-next-contract": "node scripts/sdk-build/check-sdk-contract.js --sdk-dir packages/amis/sdk-next",
     "check-sdk-rollup-entry": "node scripts/sdk-build/check-rollup-sdk-entry.js",

@@ -5,11 +5,17 @@ const fs = require('fs');
 const path = require('path');
 const {
   getExpectedSdkFiles,
+  parseResourceMap,
   sdkChunkPlan
 } = require('./sdk-contract');
+const {
+  defaultEntry,
+  generateRollupSdkEntryOutput
+} = require('./rollup-sdk-entry-build');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
+const mode = readOption('--mode') || 'contract-mirror';
 const sourceSdkDir = path.resolve(
   repoRoot,
   readOption('--source-sdk-dir') || 'packages/amis/sdk'
@@ -19,24 +25,42 @@ const outDir = path.resolve(
   readOption('--out-dir') || 'packages/amis/sdk-next'
 );
 const manifestFile = path.join(outDir, 'sdk-next-manifest.json');
+const rollupEntryOutDir = path.join(outDir, 'rollup-entry');
 
-main();
+main().catch(error => {
+  console.error(error);
+  process.exitCode = 1;
+});
 
-function main() {
+async function main() {
   assertDirectory(sourceSdkDir, 'source SDK directory');
   assertExpectedArtifacts(sourceSdkDir);
+  assertSupportedMode(mode);
 
   fs.rmSync(outDir, {recursive: true, force: true});
   fs.mkdirSync(path.dirname(outDir), {recursive: true});
   fs.cpSync(sourceSdkDir, outDir, {recursive: true});
 
-  const manifest = createSdkNextManifest(outDir, sourceSdkDir);
+  const rollupEntry =
+    mode === 'rollup-entry' ? await writeRollupEntryOutput() : undefined;
+  const manifest = createSdkNextManifest(outDir, sourceSdkDir, {
+    mode,
+    rollupEntry
+  });
   fs.writeFileSync(manifestFile, JSON.stringify(manifest, null, 2) + '\n');
 
   console.log(
     `SDK next written: ${relative(outDir)} (${manifest.files.length} files).`
   );
   console.log(`SDK next manifest: ${relative(manifestFile)}.`);
+}
+
+function assertSupportedMode(value) {
+  if (value !== 'contract-mirror' && value !== 'rollup-entry') {
+    throw new Error(
+      `Unsupported SDK next mode: ${value}. Use contract-mirror or rollup-entry.`
+    );
+  }
 }
 
 function readOption(name) {
@@ -69,19 +93,56 @@ function assertExpectedArtifacts(sdkDir) {
   }
 }
 
-function createSdkNextManifest(sdkDir, sourceDir) {
+async function writeRollupEntryOutput() {
+  const {output} = await generateRollupSdkEntryOutput();
+
+  fs.mkdirSync(rollupEntryOutDir, {recursive: true});
+  output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
+
+  const resourceMap = parseResourceMap(
+    fs.readFileSync(path.join(rollupEntryOutDir, 'resource-map.js'), 'utf8')
+  );
+  const chunkManifest = JSON.parse(
+    fs.readFileSync(
+      path.join(rollupEntryOutDir, 'sdk-chunk-manifest.json'),
+      'utf8'
+    )
+  );
+
+  return {
+    outDir: relative(rollupEntryOutDir),
+    entry: relative(defaultEntry),
+    resourceCount: Object.keys(resourceMap.res || {}).length,
+    packageCount: Object.keys(resourceMap.pkg || {}).length,
+    chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),
+    files: listFiles(rollupEntryOutDir).map(file => `rollup-entry/${file}`)
+  };
+}
+
+function writeRollupOutputItem(dir, item) {
+  const fileName = item.fileName;
+  const outputFile = path.join(dir, fileName);
+  const contents = item.type === 'chunk' ? item.code : item.source;
+
+  fs.mkdirSync(path.dirname(outputFile), {recursive: true});
+  fs.writeFileSync(outputFile, contents);
+}
+
+function createSdkNextManifest(sdkDir, sourceDir, options) {
+  options = options || {};
   const files = listFiles(sdkDir)
     .filter(file => file !== path.basename(manifestFile))
     .map(file => describeFile(sdkDir, file));
 
   return {
     generatedAt: new Date().toISOString(),
-    mode: 'contract-mirror',
+    mode: options.mode || 'contract-mirror',
     sourceSdkDir: relative(sourceDir),
     outDir: relative(sdkDir),
     entry: sdkChunkPlan.entry,
     chunks: Object.keys(sdkChunkPlan.chunks),
     expectedFiles: getExpectedSdkFiles(sourceDir),
+    ...(options.rollupEntry ? {rollupEntry: options.rollupEntry} : {}),
     files
   };
 }
