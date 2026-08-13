@@ -3,20 +3,21 @@
 exports[`Renderer:qr-code QRCode render with svg 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
           <div
-            class="cxd-QrCode"
+            class="amis-QrCode"
           >
             <svg
               class="qr-container qr-svg"
@@ -52,20 +53,21 @@ exports[`Renderer:qr-code QRCode render with svg 1`] = `
 exports[`Renderer:qr-code QRCode with background/foreground color in svg 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
           <div
-            class="cxd-QrCode"
+            class="amis-QrCode"
           >
             <svg
               class="qr-container qr-svg"
@@ -101,20 +103,21 @@ exports[`Renderer:qr-code QRCode with background/foreground color in svg 1`] = `
 exports[`Renderer:qr-code QRCode with image in svg 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="amis-Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="amis-Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="amis-Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="amis-Page-body"
           role="page-body"
         >
           <div
-            class="cxd-QrCode"
+            class="amis-QrCode"
           >
             <svg
               class="qr-container qr-svg"

@@ -25,15 +25,18 @@ const setupQRCode = async (qrcodeProps: any = {}) => {
     )
   );
 
+  const getQRCode = () =>
+    result.container.querySelector('.amis-QrCode, .cxd-QrCode');
+
   await waitFor(() => {
-    expect(result.container.querySelector('.cxd-QrCode')).toBeInTheDocument();
+    expect(getQRCode()).toBeInTheDocument();
   });
 
   return {
     ...result,
-    qrcode: result.container.querySelector('.cxd-QrCode'),
-    svgEl: result.container.querySelector('.cxd-QrCode')?.firstElementChild,
-    canvasEl: result.container.querySelector('.cxd-QrCode')?.firstElementChild
+    qrcode: getQRCode(),
+    svgEl: getQRCode()?.firstElementChild,
+    canvasEl: getQRCode()?.firstElementChild
   };
 };
 

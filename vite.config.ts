@@ -49,7 +49,13 @@ export default defineConfig({
   ].filter(n => n),
   optimizeDeps: {
     include: ['amis-formula/lib/doc'],
-    exclude: ['amis-core', 'amis-formula', 'amis', 'amis-ui'],
+    exclude: [
+      'amis-core',
+      'amis-formula',
+      'amis',
+      'amis-ui',
+      'qrcode-react-next'
+    ],
     esbuildOptions: {
       target: 'esnext'
     }
@@ -66,6 +72,7 @@ export default defineConfig({
     port: 8888
   },
   resolve: {
+    dedupe: ['react', 'react-dom'],
     alias: [
       {
         find: 'moment/locale',
