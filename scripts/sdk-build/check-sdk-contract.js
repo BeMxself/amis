@@ -3,10 +3,10 @@
 const fs = require('fs');
 const path = require('path');
 const {
-  sdkChunkPlan,
-  sdkCssFiles,
-  sdkStaticFiles
-} = require('./chunk-plan');
+  getExpectedChunkFiles,
+  getExpectedSdkFiles,
+  parseResourceMap
+} = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
@@ -18,13 +18,8 @@ const sdkDir = path.resolve(
 const errors = [];
 const warnings = [];
 
-const expectedChunkFiles = Object.keys(sdkChunkPlan.chunks);
-const optionalChunkFiles = new Set(sdkChunkPlan.optionalChunks || []);
-const expectedFiles = [
-  ...expectedChunkFiles.filter(file => !optionalChunkFiles.has(file)),
-  ...sdkCssFiles,
-  ...sdkStaticFiles
-];
+const expectedChunkFiles = getExpectedChunkFiles(sdkDir);
+const expectedFiles = getExpectedSdkFiles(sdkDir);
 
 if (!fs.existsSync(sdkDir)) {
   fail(
@@ -97,8 +92,12 @@ function assertContains(contents, needle, label) {
 }
 
 function assertResourceMap(sdkJs) {
-  const resourceMap = parseResourceMap(sdkJs);
-  if (!resourceMap) {
+  let resourceMap;
+
+  try {
+    resourceMap = parseResourceMap(sdkJs);
+  } catch (error) {
+    fail(error.message);
     return;
   }
 
@@ -116,10 +115,6 @@ function assertResourceMap(sdkJs) {
   }
 
   for (const file of expectedChunkFiles) {
-    if (optionalChunkFiles.has(file) && !fs.existsSync(sdkPath(file))) {
-      continue;
-    }
-
     if (!packageUrls.some(url => typeof url === 'string' && url.endsWith('/' + file))) {
       fail(`SDK resource map does not reference chunk package: ${file}`);
     }
@@ -141,84 +136,6 @@ function assertResourceMap(sdkJs) {
   console.log(
     `SDK resource map: ${Object.keys(res).length} resources, ${Object.keys(pkg).length} packages.`
   );
-}
-
-function parseResourceMap(sdkJs) {
-  const marker = 'amis.require.resourceMap(';
-  const markerIndex = sdkJs.indexOf(marker);
-  if (markerIndex === -1) {
-    fail('Cannot find amis.require.resourceMap(...) in sdk.js.');
-    return null;
-  }
-
-  const objectStart = sdkJs.indexOf('{', markerIndex + marker.length);
-  if (objectStart === -1) {
-    fail('Cannot find resource map object literal in sdk.js.');
-    return null;
-  }
-
-  const objectEnd = findBalancedObjectEnd(sdkJs, objectStart);
-  if (objectEnd === -1) {
-    fail('Cannot parse resource map object literal in sdk.js.');
-    return null;
-  }
-
-  const expression = sdkJs.slice(objectStart, objectEnd + 1);
-  try {
-    const amis = new Proxy(
-      {},
-      {
-        get() {
-          return '/__AMIS_SDK_BASE__';
-        }
-      }
-    );
-
-    return new Function('d', 'amis', `return (${expression});`)(
-      '/__AMIS_SDK_BASE__',
-      amis
-    );
-  } catch (error) {
-    fail(`Cannot evaluate SDK resource map object: ${error.message}`);
-    return null;
-  }
-}
-
-function findBalancedObjectEnd(source, start) {
-  let depth = 0;
-  let quote = '';
-  let escaped = false;
-
-  for (let index = start; index < source.length; index++) {
-    const char = source[index];
-
-    if (quote) {
-      if (escaped) {
-        escaped = false;
-      } else if (char === '\\') {
-        escaped = true;
-      } else if (char === quote) {
-        quote = '';
-      }
-      continue;
-    }
-
-    if (char === '"' || char === "'" || char === '`') {
-      quote = char;
-      continue;
-    }
-
-    if (char === '{') {
-      depth++;
-    } else if (char === '}') {
-      depth--;
-      if (depth === 0) {
-        return index;
-      }
-    }
-  }
-
-  return -1;
 }
 
 function fail(message) {

@@ -4,10 +4,9 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const {
-  sdkChunkPlan,
-  sdkCssFiles,
-  sdkStaticFiles
-} = require('./chunk-plan');
+  getExpectedSdkFiles,
+  sdkChunkPlan
+} = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
@@ -58,7 +57,7 @@ function assertDirectory(dir, label) {
 }
 
 function assertExpectedArtifacts(sdkDir) {
-  const missing = getExpectedArtifactFiles()
+  const missing = getExpectedSdkFiles(sdkDir)
     .filter(file => !fs.existsSync(path.join(sdkDir, file)));
 
   if (missing.length) {
@@ -68,15 +67,6 @@ function assertExpectedArtifacts(sdkDir) {
         .join('\n')}`
     );
   }
-}
-
-function getExpectedArtifactFiles() {
-  const optionalChunks = new Set(sdkChunkPlan.optionalChunks || []);
-  const chunkFiles = Object.keys(sdkChunkPlan.chunks).filter(
-    file => !optionalChunks.has(file) || fs.existsSync(path.join(sourceSdkDir, file))
-  );
-
-  return [...chunkFiles, ...sdkCssFiles, ...sdkStaticFiles];
 }
 
 function createSdkNextManifest(sdkDir, sourceDir) {
@@ -91,7 +81,7 @@ function createSdkNextManifest(sdkDir, sourceDir) {
     outDir: relative(sdkDir),
     entry: sdkChunkPlan.entry,
     chunks: Object.keys(sdkChunkPlan.chunks),
-    expectedFiles: getExpectedArtifactFiles(),
+    expectedFiles: getExpectedSdkFiles(sourceDir),
     files
   };
 }
