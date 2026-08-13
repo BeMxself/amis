@@ -22,6 +22,7 @@
     "build-sdk-next-rollup-entry": "node scripts/sdk-build/build-sdk-next.js --mode rollup-entry",
     "check-sdk-contract": "node scripts/sdk-build/check-sdk-contract.js",
     "check-sdk-next-contract": "node scripts/sdk-build/check-sdk-contract.js --sdk-dir packages/amis/sdk-next",
+    "check-sdk-rollup-directives": "node scripts/sdk-build/check-sdk-rollup-directives.js",
     "check-sdk-rollup-entry": "node scripts/sdk-build/check-rollup-sdk-entry.js",
     "check-sdk-rollup-plugins": "node scripts/sdk-build/check-rollup-sdk-plugins.js",
     "check-sdk-theme-css": "node scripts/sdk-build/check-sdk-theme-css.js",

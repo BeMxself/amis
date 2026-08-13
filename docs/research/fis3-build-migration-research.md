@@ -204,6 +204,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
 
+当前还新增 `npm run check-sdk-rollup-directives` 和 Rollup entry 内的 `sdk-fis-directives` 插件，先覆盖 SDK 真实入口里已经出现的 FIS 专有资源语义：`examples/loadPdfjsWorker.ts` 的 `__uri('pdfjs-dist/...')` 会被改写成 SDK 内 `/thirds/...` URL，`filterUrl(url)` 会按正式 SDK 行为拼上 `amis['sdk@<version>BasePath'] + url.substring(1)`；`packages/amis-ui/lib/components/Editor.js` 的 Monaco worker `/pkg/*.js` 也复用同一 `filterUrl` 改写。插件同时覆盖 `examples/loadMonacoEditor.ts` 这条后续可能进入 Rollup 图的 Monaco loader 路径。这个插件目前只覆盖 worker/thirds URL，不处理 examples 普通图片音视频，也不处理 `__inline`。
+
 runtime smoke 曾暴露过两个边界：正式 FIS SDK 在同一 jsdom 环境下会先遇到 `Cannot find module "util"` 的基线问题；Rollup entry 如果使用未重新构建的 checked-in `lib`，会触发 `registerRenderer({getComponent})` 与 `packages/amis-core/lib/factory.js` 旧实现不兼容的问题。当前采用“先运行 workspace build 生成 fresh lib”的路线通过检查，并在 Rollup entry helper 中显式校验 `packages/amis-core/lib/factory.js` 已包含 async renderer 支持；另一条“让 Rollup 输入图直接吃 `src`”会继续牵涉 decorators、type-only import 等 TS 语义，暂不在 entry overlay 里临时补丁化。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
 4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。

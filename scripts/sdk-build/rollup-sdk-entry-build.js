@@ -8,6 +8,7 @@ const swc = require('@swc/core');
 const {version} = require('../../packages/amis/package.json');
 const {prepareSdkJs} = require('./prepare-sdk-js');
 const {createSdkManualChunks} = require('./rollup-sdk-manual-chunks');
+const {sdkFisDirectivePlugin} = require('./rollup-fis-directives');
 const {sdkChunkManifestPlugin} = require('./rollup-sdk-chunk-manifest');
 const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
 
@@ -31,6 +32,7 @@ async function generateRollupSdkEntryOutput(options) {
       resolveWorkspaceLibImports(),
       emptyAssetImports(),
       transformSdkEntryTypescript(),
+      sdkFisDirectivePlugin({basePathExpression: sdkBasePathExpression}),
       json(),
       resolve({
         browser: true,

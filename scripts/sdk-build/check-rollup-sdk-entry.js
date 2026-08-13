@@ -61,6 +61,15 @@ async function main() {
     'embedded sdk.js should include SDK base path expression'
   );
   assert(
+    embeddedSdkJs.includes('/thirds/pdfjs-dist/build/pdf.worker.min.mjs'),
+    'embedded sdk.js should rewrite pdf worker __uri() to the SDK thirds path'
+  );
+  assert(
+    embeddedSdkJs.includes("return amis['sdk@") &&
+      embeddedSdkJs.includes("BasePath'] + url.substring(1)"),
+    'embedded sdk.js should rewrite SDK worker filterUrl() to use base path relative URLs'
+  );
+  assert(
     Object.keys(resourceMap.res).some(moduleId => moduleId === 'examples/embed.tsx'),
     'resource map should include examples/embed.tsx'
   );
