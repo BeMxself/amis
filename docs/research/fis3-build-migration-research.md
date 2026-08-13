@@ -202,6 +202,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前还新增 `npm run check-sdk-rollup-entry`，使用真实 `examples/embed.tsx` 入口跑一次内存 Rollup 构建，并把 workspace 包显式锚到当前 SDK/FIS3 依赖的 `lib` 入口，避免 package `exports.import` 把 `amis-ui/lib/*` 重定向到 `esm/*` 后产生与现有 SDK 路径不同的导出校验结果。现在该检查还会用 jsdom 执行 embedded `sdk.js`，验证 `window.amisRequire`、`amis/embed` 和 `amis@<version>/embed` 在 runtime 下能拿到 `embed()`，并拦截动态 script 加载来渲染一个最小 `page` schema，覆盖 lazy renderer chunk 加载链路。Rollup entry helper 也已把 FIS CJS 产物里的 `require(['./renderers/X.js', 'tslib'], cb)` 转成 Rollup 可见的 dynamic import，并让 resource map 使用 chunk module id 而不是 package id 表达依赖。这一步依赖先按正式发布顺序生成 fresh workspace `lib`；它只证明真实入口、SWC TS/TSX transform、asset 空模块、loader bridge、entry alias、resource map、chunk manifest 和基础 lazy renderer 的最小链路能跑通，尚不声明 `sdk-next` 已具备完整 SDK 分包能力。
 
+当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
+
 runtime smoke 曾暴露过两个边界：正式 FIS SDK 在同一 jsdom 环境下会先遇到 `Cannot find module "util"` 的基线问题；Rollup entry 如果使用未重新构建的 checked-in `lib`，会触发 `registerRenderer({getComponent})` 与 `packages/amis-core/lib/factory.js` 旧实现不兼容的问题。当前采用“先运行 workspace build 生成 fresh lib”的路线通过检查，并在 Rollup entry helper 中显式校验 `packages/amis-core/lib/factory.js` 已包含 async renderer 支持；另一条“让 Rollup 输入图直接吃 `src`”会继续牵涉 decorators、type-only import 等 TS 语义，暂不在 entry overlay 里临时补丁化。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
 4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。

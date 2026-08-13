@@ -24,6 +24,7 @@
     "check-sdk-next-contract": "node scripts/sdk-build/check-sdk-contract.js --sdk-dir packages/amis/sdk-next",
     "check-sdk-rollup-entry": "node scripts/sdk-build/check-rollup-sdk-entry.js",
     "check-sdk-rollup-plugins": "node scripts/sdk-build/check-rollup-sdk-plugins.js",
+    "check-sdk-theme-css": "node scripts/sdk-build/check-sdk-theme-css.js",
     "test": "npm test --workspaces",
     "update-snapshot": "npm run update-snapshot --workspaces",
     "prepare": "husky install",
