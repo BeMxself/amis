@@ -102,6 +102,7 @@ async function writeRollupEntryOutput() {
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
+  const staticFiles = copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
   const chunkManifest = JSON.parse(
@@ -120,8 +121,30 @@ async function writeRollupEntryOutput() {
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),
+    staticFiles,
     files: listFiles(rollupEntryOutDir).map(file => `rollup-entry/${file}`)
   };
+}
+
+function copyRollupEntryStaticAssets() {
+  const staticDirs = ['thirds'];
+
+  staticDirs.forEach(dir => {
+    const sourceDir = path.join(sourceSdkDir, dir);
+    const targetDir = path.join(rollupEntryOutDir, dir);
+
+    if (fs.existsSync(sourceDir)) {
+      fs.cpSync(sourceDir, targetDir, {recursive: true});
+    }
+  });
+
+  return staticDirs.flatMap(dir => {
+    const targetDir = path.join(rollupEntryOutDir, dir);
+
+    return fs.existsSync(targetDir)
+      ? listFiles(rollupEntryOutDir, dir)
+      : [];
+  }).sort();
 }
 
 function writeRollupOutputItem(dir, item) {

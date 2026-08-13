@@ -20,6 +20,11 @@ const warnings = [];
 
 const expectedChunkFiles = getExpectedChunkFiles(sdkDir);
 const expectedFiles = getExpectedSdkFiles(sdkDir);
+const expectedRollupEntryStaticFiles = [
+  'thirds/pdfjs-dist/build/pdf.worker.min.mjs',
+  'thirds/monaco-editor/min/vs/loader.js',
+  'thirds/monaco-editor/min/vs/base/worker/workerMain.js'
+];
 
 if (!fs.existsSync(sdkDir)) {
   fail(
@@ -38,6 +43,8 @@ if (sdkJs) {
   assertContains(sdkJs, "sdk@", 'sdk.js versioned base path marker');
   assertResourceMap(sdkJs);
 }
+
+assertRollupEntryStaticAssets();
 
 for (const cssFile of ['sdk.css', 'ang.css', 'dark.css', 'antd.css']) {
   const css = readSdkText(cssFile);
@@ -136,6 +143,30 @@ function assertResourceMap(sdkJs) {
   console.log(
     `SDK resource map: ${Object.keys(res).length} resources, ${Object.keys(pkg).length} packages.`
   );
+}
+
+function assertRollupEntryStaticAssets() {
+  const manifestFile = sdkPath('sdk-next-manifest.json');
+
+  if (!fs.existsSync(manifestFile)) {
+    return;
+  }
+
+  const manifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
+
+  if (!manifest.rollupEntry) {
+    return;
+  }
+
+  const staticFiles = new Set(manifest.rollupEntry.staticFiles || []);
+
+  expectedRollupEntryStaticFiles.forEach(file => {
+    if (!staticFiles.has(file)) {
+      fail(`Rollup entry manifest does not list static asset: ${file}`);
+    }
+
+    assertNonEmptyFile(`rollup-entry/${file}`);
+  });
 }
 
 function fail(message) {
