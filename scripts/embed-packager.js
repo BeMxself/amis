@@ -1,9 +1,10 @@
 /* eslint-disable */
 
 var path = require('path');
+var buildSdkThemeCss = require('./sdk-build/build-sdk-theme-css')
+  .buildSdkThemeCss;
 var collectSdkPlaceholderAssets = require('./sdk-build/collect-sdk-placeholder-assets')
   .collectSdkPlaceholderAssets;
-var prefixSdkCss = require('./sdk-build/prefix-sdk-css').prefixSdkCss;
 var rSourceMap =
   /(?:\/\/\#\s*sourceMappingURL[^\r\n\'\"]*|\/\*\#\s*sourceMappingURL[^\r\n\'\"]*\*\/)(?:\r?\n|$)/gi;
 var caches = {};
@@ -60,23 +61,9 @@ module.exports = function (ret, pack, settings, opt) {
   jsFile.setContent(jsContents);
   ret.pkg[jsFile.subpath] = jsFile;
 
-  // cssContents = prefixSdkCss(cssContents, '.amis-scope');
-  // let cssFile = fis.file(root, 'sdk.css');
-  // cssFile.setContent(cssContents);
-  // ret.pkg[cssFile.subpath] = cssFile;
-
-  const themes = ['ang', 'cxd', 'dark', 'antd'];
-
-  themes.forEach(function (theme) {
-    const rest = themes.filter(a => a !== theme).map(item => item + '.scss');
-    let contents = sdkAssets.cssContents
-      .filter(item => !rest.includes(item.name))
-      .map(item => item.content)
-      .join('\n');
-
-    contents = prefixSdkCss(contents, '.amis-scope', theme);
-    let cssFile = fis.file(root, (theme === 'cxd' ? 'sdk' : theme) + '.css');
-    cssFile.setContent(contents);
+  buildSdkThemeCss(sdkAssets.cssContents).forEach(function (themeCss) {
+    let cssFile = fis.file(root, themeCss.filename);
+    cssFile.setContent(themeCss.content);
     ret.pkg[cssFile.subpath] = cssFile;
   });
 
