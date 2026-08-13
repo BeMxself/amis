@@ -40,6 +40,8 @@ interface PopOverState {
 }
 
 export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
+  static supportForwardedRef = true;
+
   static defaultProps = {
     className: '',
     offset: {
@@ -191,14 +193,11 @@ export class PopOver extends React.PureComponent<PopOverProps, PopOverState> {
 
       const {placement, positionTop: y, positionLeft: x} = this.props;
 
-      offset = getOffset(
-        dom.getBoundingClientRect(),
-        {
-          x,
-          y,
-          placement
-        }
-      );
+      offset = getOffset(dom.getBoundingClientRect(), {
+        x,
+        y,
+        placement
+      });
     } else {
       offset = getOffset as Offset;
     }

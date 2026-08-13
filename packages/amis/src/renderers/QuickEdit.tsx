@@ -663,9 +663,14 @@ export const HocQuickEdit =
           quickEditFormRef,
           quickEditFormItemRef,
           wrapperRef,
+          forwardedRef,
           ...restProps
         } = this.props;
-        const quickEditRootRef = mergeRefs(wrapperRef, this.rootRef);
+        const quickEditRootRef = mergeRefs(
+          wrapperRef,
+          forwardedRef,
+          this.rootRef
+        );
 
         if (
           isStatic ||

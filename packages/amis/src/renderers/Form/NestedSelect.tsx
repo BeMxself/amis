@@ -995,7 +995,7 @@ export default class NestedSelectControl extends React.Component<
           maxTagCount={maxTagCount}
           overflowTagPopover={overflowTagPopover}
           disabled={disabled}
-          ref={this.domRef}
+          forwardedRef={this.domRef}
           placeholder={__(placeholder ?? 'placeholder.empty')}
           inputPlaceholder={''}
           className={cx(

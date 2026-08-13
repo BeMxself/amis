@@ -58,7 +58,7 @@ function shouldUseForwardedRef(child: React.ReactElement) {
   const childType = child.type as any;
   const composed = childType?.ComposedComponent;
 
-  return !!composed?.prototype?.isReactComponent;
+  return !!(childType?.supportForwardedRef || composed?.supportForwardedRef);
 }
 
 class Position extends React.Component<any, any> {
