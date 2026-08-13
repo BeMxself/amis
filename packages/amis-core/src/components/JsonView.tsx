@@ -48,6 +48,67 @@ type JsonViewDeleteOption = {
   namespace?: Array<string | number>;
 };
 
+type LegacyJsonArrowProps = React.SVGProps<SVGSVGElement> & {
+  'data-expand'?: boolean;
+  'iconStyle'?: Exclude<JsonViewProps['iconStyle'], 'triangle'>;
+};
+
+function LegacyJsonArrow({
+  iconStyle = 'square',
+  'data-expand': expand,
+  style,
+  ...props
+}: LegacyJsonArrowProps) {
+  const shapeProps = {
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.8
+  };
+
+  return (
+    <svg
+      {...props}
+      data-expand={expand}
+      data-icon-style={iconStyle}
+      style={{cursor: 'pointer', height: '1em', width: '1em', ...style}}
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      {iconStyle === 'circle' ? (
+        <circle cx="12" cy="12" r="8" {...shapeProps} />
+      ) : (
+        <rect x="5" y="5" width="14" height="14" rx="1.5" {...shapeProps} />
+      )}
+      <path d="M8 12h8" {...shapeProps} />
+      {!expand ? <path d="M12 8v8" {...shapeProps} /> : null}
+    </svg>
+  );
+}
+
+function LegacyCountInfo({count}: {count: number}) {
+  return (
+    <span
+      className="w-rjv-object-size"
+      style={{
+        paddingLeft: 4,
+        fontStyle: 'italic',
+        color: 'var(--w-rjv-info-color, #0000004d)'
+      }}
+    >
+      {count} {count === 1 ? 'item' : 'items'}
+    </span>
+  );
+}
+
+function createLegacyComponents(iconStyle: JsonViewProps['iconStyle']) {
+  return {
+    countInfo: LegacyCountInfo,
+    ...(iconStyle && iconStyle !== 'triangle'
+      ? {arrow: <LegacyJsonArrow iconStyle={iconStyle} />}
+      : null)
+  };
+}
+
 function cloneRoot(value: any) {
   if (Array.isArray(value)) {
     return value.slice();
@@ -194,6 +255,7 @@ function createJsonViewComponent(modules: JsonViewModules) {
     displayDataTypes = true,
     displayObjectSize = true,
     collapseStringsAfterLength,
+    iconStyle,
     quotesOnKeys = true,
     sortKeys = false,
     onEdit,
@@ -225,6 +287,10 @@ function createJsonViewComponent(modules: JsonViewModules) {
 
     const editable = Boolean(onEdit || onDelete || onAdd);
     const quotes: '"' | '' = quotesOnKeys ? '"' : '';
+    const components = React.useMemo(
+      () => createLegacyComponents(iconStyle),
+      [iconStyle]
+    );
     const commonProps = {
       value: data,
       keyName: typeof name === 'string' ? name : undefined,
@@ -236,6 +302,7 @@ function createJsonViewComponent(modules: JsonViewModules) {
         collapseStringsAfterLength === false ? 0 : collapseStringsAfterLength,
       objectSortKeys: sortKeys,
       quotes,
+      components,
       className,
       style: {
         ...resolveTheme(theme, themes),

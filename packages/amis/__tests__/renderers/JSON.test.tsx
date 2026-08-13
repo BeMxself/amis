@@ -49,3 +49,24 @@ test('JsonView keeps legacy collapsed boolean semantics', async () => {
 
   expect(container.textContent).not.toContain('"a"');
 });
+
+test('JsonView keeps legacy icon style and object size text', async () => {
+  const {container} = render(
+    <React.Suspense fallback={<div>...</div>}>
+      <JsonView
+        name={false}
+        src={{child: {a: 'a'}}}
+        collapsed={1}
+        iconStyle="square"
+      />
+    </React.Suspense>
+  );
+
+  await waitFor(() => {
+    expect(container.querySelector('.w-rjv')).toBeTruthy();
+  });
+
+  expect(container.querySelector('svg[data-icon-style="square"]')).toBeTruthy();
+  expect(container.textContent).toContain('1 item');
+  expect(container.textContent).not.toContain('1 items');
+});
