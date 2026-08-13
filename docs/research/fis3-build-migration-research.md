@@ -193,6 +193,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 1. `legacyResourcePlugin`：生成兼容 `amis.require.resourceMap(...)` 的 map，保持 module id 规则。
    - 当前已先新增 `scripts/sdk-build/rollup-resource-map.js` 和 `scripts/sdk-build/rollup-sdk-resource-map-plugin.js`，用 synthetic Rollup bundle 验证从 chunk/imports/modules 生成 `pkg`/`res` 的最小 resourceMap 形态，并通过 Rollup `generateBundle` 插件壳 `emitFile` 输出 `amis.require.resourceMap(...)`。
 2. `sdkChunkPlanPlugin`：用显式 chunk plan 替代 FIS3 `deps-pack` DSL，初期按现有 `sdk.js`、`charts.js`、`tinymce.js` 等文件名一一对应。
+   - 当前已先新增 `scripts/sdk-build/rollup-sdk-chunk-manifest.js`，通过 Rollup `generateBundle` 输出 `sdk-chunk-manifest.json`，把实际 chunk 列表与 `chunk-plan` 的必需/可选 chunk 做对照。后续可在此基础上增加 manualChunks 映射与 strict 校验。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
 4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。
 5. `thirdsCopyPlugin`：复制 Monaco、PDF worker 和需要保留路径的第三方资源。
