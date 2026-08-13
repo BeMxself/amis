@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 
+const path = require('path');
 const {
   rewriteSdkFilterUrl,
+  rewriteSdkInlineDirectives,
   rewriteSdkUriDirectives,
   toSdkAssetUrl
 } = require('./rollup-fis-directives');
 
+const repoRoot = path.resolve(__dirname, '../..');
 const basePathExpression = "amis['sdk@6.13.0BasePath']";
 const source = [
   "const pdfWorker = __uri('pdfjs-dist/build/pdf.worker.min.mjs');",
@@ -22,6 +25,10 @@ const transformed = rewriteSdkFilterUrl(
 const transformedJsFilterUrl = rewriteSdkFilterUrl(
   'function filterUrl(url) { return url; }',
   basePathExpression
+);
+const transformedInlineJson = rewriteSdkInlineDirectives(
+  "const xAxisOptions = __inline('./option-parts/option.xAxis.json');",
+  path.join(repoRoot, 'examples/components/EChartsEditor/Axis.tsx')
 );
 
 assertEqual(
@@ -66,8 +73,18 @@ assertContains(
   'compiled JS filterUrl should also be rewritten'
 );
 assertNotContains(transformed, '__uri(', '__uri calls should be eliminated');
+assertContains(
+  transformedInlineJson,
+  '"show":{"desc"',
+  '__inline JSON should be embedded as an object literal'
+);
+assertNotContains(
+  transformedInlineJson,
+  '__inline(',
+  '__inline calls should be eliminated'
+);
 
-console.log('Rollup SDK FIS directives OK.');
+console.log('Rollup SDK FIS directives OK: __uri, filterUrl, and JSON __inline checked.');
 
 function assertEqual(actual, expected, message) {
   if (actual !== expected) {

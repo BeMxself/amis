@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 function sdkFisDirectivePlugin(options) {
   options = options || {};
 
@@ -11,6 +14,10 @@ function sdkFisDirectivePlugin(options) {
 
       if (isSdkUriModule(normalizedId)) {
         transformed = rewriteSdkUriDirectives(transformed);
+      }
+
+      if (transformed.includes('__inline(')) {
+        transformed = rewriteSdkInlineDirectives(transformed, id);
       }
 
       if (isSdkFilterUrlModule(normalizedId)) {
@@ -34,6 +41,24 @@ function rewriteSdkFilterUrl(code, basePathExpression) {
     /function\s+filterUrl\s*\(\s*url(?:\s*:\s*string)?\s*\)\s*\{\s*return\s+url\s*;\s*\}/g,
     `function filterUrl(url) {\n  return ${basePathExpression} + url.substring(1);\n}`
   );
+}
+
+function rewriteSdkInlineDirectives(code, importer) {
+  return code.replace(
+    /\b(?:[A-Za-z_$][\w$]*\.)?__inline\s*\(\s*(['"])([^'"]+)\1\s*\)/g,
+    (_, quote, value) => readInlineJson(value, importer)
+  );
+}
+
+function readInlineJson(value, importer) {
+  if (path.extname(value) !== '.json') {
+    throw new Error(`Unsupported SDK __inline asset: ${value}`);
+  }
+
+  const file = path.resolve(path.dirname(importer), value);
+  const contents = fs.readFileSync(file, 'utf8');
+
+  return JSON.stringify(JSON.parse(contents));
 }
 
 function toSdkAssetUrl(value) {
@@ -73,6 +98,7 @@ function normalizePath(value) {
 
 module.exports = {
   rewriteSdkFilterUrl,
+  rewriteSdkInlineDirectives,
   rewriteSdkUriDirectives,
   sdkFisDirectivePlugin,
   toSdkAssetUrl
