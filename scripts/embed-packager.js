@@ -6,19 +6,51 @@ var rScriptType = /type=('|")(.*?)\1/i;
 var rSrcHref = /\s*(?:src|href)=('|")(.+?)\1/i;
 var rRefStyle = /rel=('|")stylesheet\1/i;
 var path = require('path');
-var css = require('css');
+var postcss = require('postcss');
 var rSourceMap =
   /(?:\/\/\#\s*sourceMappingURL[^\r\n\'\"]*|\/\*\#\s*sourceMappingURL[^\r\n\'\"]*\*\/)(?:\r?\n|$)/gi;
 var caches = {};
 var createResource = fis.require('postpackager-loader/lib/resource.js');
 const package = require('../packages/amis/package.json');
 
-function prefixCss(code, prefix) {
-  var cssAst = css.parse(code);
-  prefixNode(cssAst);
-  return css.stringify(cssAst, {
-    compress: true
+function prefixCss(code, prefix, label) {
+  var cssAst;
+
+  try {
+    cssAst = postcss.parse(code, {from: label || undefined});
+  } catch (error) {
+    var excerpt = '';
+
+    if (error.line) {
+      var lines = code.split(/\r?\n/);
+      var start = Math.max(0, error.line - 4);
+      var end = Math.min(lines.length, error.line + 3);
+
+      excerpt = lines
+        .slice(start, end)
+        .map(function (line, index) {
+          return start + index + 1 + ': ' + line;
+        })
+        .join('\n');
+    }
+
+    error.message =
+      'Failed to prefix SDK CSS' +
+      (label ? ' for ' + label : '') +
+      ': ' +
+      error.message +
+      (excerpt ? '\n' + excerpt : '');
+    throw error;
+  }
+  cssAst.walkRules(function (rule) {
+    if (isInKeyframes(rule)) {
+      return;
+    }
+
+    rule.selectors = rule.selectors.map(prefixSelector);
   });
+
+  return cssAst.toString();
 
   function prefixSelector(sel) {
     if (sel.match(/^@/)) return sel;
@@ -39,14 +71,18 @@ function prefixCss(code, prefix) {
     else return prefix + ' ' + sel;
   }
 
-  function prefixNode(node) {
-    if (node.selectors) {
-      node.selectors = node.selectors.map(prefixSelector);
-    } else if (node.stylesheet) {
-      node.stylesheet.rules.forEach(prefixNode);
-    } else if (node.rules) {
-      node.rules.forEach(prefixNode);
+  function isInKeyframes(rule) {
+    var parent = rule.parent;
+
+    while (parent) {
+      if (parent.type === 'atrule' && /keyframes$/i.test(parent.name)) {
+        return true;
+      }
+
+      parent = parent.parent;
     }
+
+    return false;
   }
 }
 
@@ -203,7 +239,7 @@ module.exports = function (ret, pack, settings, opt) {
       .map(item => item.content)
       .join('\n');
 
-    contents = prefixCss(contents, '.amis-scope');
+    contents = prefixCss(contents, '.amis-scope', theme);
     let cssFile = fis.file(root, (theme === 'cxd' ? 'sdk' : theme) + '.css');
     cssFile.setContent(contents);
     ret.pkg[cssFile.subpath] = cssFile;

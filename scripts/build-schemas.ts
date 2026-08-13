@@ -29,13 +29,15 @@ import {
   Schema,
   uniqueArray,
   ReferenceType,
+  TypeReferenceNodeParser,
   IndexedAccessTypeNodeParser,
   ChainNodeParser,
   ExpressionWithTypeArgumentsNodeParser,
   IntersectionNodeParser,
   DefinitionTypeFormatter,
   FunctionType,
-  DefinitionType
+  DefinitionType,
+  AnyType
 } from 'ts-json-schema-generator';
 import ts, {TypeOperatorNode, TypeReferenceNode} from 'typescript';
 import mkdirp from 'mkdirp';
@@ -104,6 +106,13 @@ async function main() {
 
     const program = createProgram(c as any);
     const parser = createParser(program, c as any, prs => {
+      prependNodeParser(
+        prs as ChainNodeParser,
+        new MyTypeReferenceNodeParser(
+          program.getTypeChecker(),
+          prs as ChainNodeParser
+        )
+      );
       prs.addNodeParser(
         new MyIndexedAccessTypeNodeParser(
           program.getTypeChecker(),
@@ -130,6 +139,29 @@ async function main() {
     mkdirp(path.dirname(outputFile));
     fs.writeFileSync(outputFile, JSON.stringify(schema, null, 2));
   }
+}
+
+function prependNodeParser(
+  parser: ChainNodeParser,
+  nodeParser: TypeReferenceNodeParser
+) {
+  (parser as any).nodeParsers.unshift(nodeParser);
+}
+
+class MyTypeReferenceNodeParser extends TypeReferenceNodeParser {
+  public createType(node: ts.TypeReferenceNode, context: Context) {
+    if (isSchemaIrrelevantReactType(node)) {
+      return new AnyType();
+    }
+
+    return super.createType(node, context);
+  }
+}
+
+function isSchemaIrrelevantReactType(node: ts.TypeReferenceNode) {
+  const name = node.typeName.getText();
+
+  return name === 'JSX.Element' || name.startsWith('React.');
 }
 
 class MyIndexedAccessTypeNodeParser extends IndexedAccessTypeNodeParser {
@@ -707,4 +739,5 @@ export function JSONValueMap(
 
 main().catch(e => {
   console.error(e);
+  process.exitCode = 1;
 });

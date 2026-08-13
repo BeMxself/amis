@@ -18,6 +18,7 @@
     "deploy-gh-page": "sh ./deploy-gh-pages.sh",
     "build": "npm run build --workspaces",
     "build-esm": "npm run build-esm --workspaces",
+    "check-sdk-contract": "node scripts/sdk-build/check-sdk-contract.js",
     "test": "npm test --workspaces",
     "update-snapshot": "npm run update-snapshot --workspaces",
     "prepare": "husky install",
