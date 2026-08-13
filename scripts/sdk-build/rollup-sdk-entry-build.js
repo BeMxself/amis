@@ -14,6 +14,7 @@ const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
 const sdkEntryModuleId = 'examples/embed.tsx';
+const sdkEntryAliases = ['amis/embed', `amis@${version}/embed`];
 const sdkBasePathExpression = `amis['sdk@${version}BasePath']`;
 const expectedUnresolvedImports = new Set([
   'rc-resize-observer',
@@ -75,6 +76,7 @@ function createSdkEntryWithEmbeddedResourceMap(output) {
   const parts = [
     createSdkLoaderSource(),
     createRollupAmdBridgeSource(),
+    createSdkEntryAliasSource(),
     entryChunk.code,
     resourceMapAsset.source
   ];
@@ -130,6 +132,31 @@ function createRollupAmdBridgeSource() {
       return module.exports;
     });
   };
+})();`;
+}
+
+function createSdkEntryAliasSource() {
+  const assignments = sdkEntryAliases
+    .map(
+      alias =>
+        `  aliasMapping[${JSON.stringify(alias)}] = ${JSON.stringify(
+          sdkEntryModuleId
+        )};`
+    )
+    .join('\n');
+
+  return `
+(function () {
+  var require = window.amis && window.amis.require;
+
+  if (!require) {
+    throw new Error('amis SDK loader is not initialized.');
+  }
+
+  var aliasMapping = require.aliasMapping || (require.aliasMapping = {});
+  // Rollup currently emits one AMD entry module, so only expose aliases backed by that module.
+${assignments}
+  window.amisRequire = require;
 })();`;
 }
 
@@ -281,5 +308,6 @@ module.exports = {
   findAsset,
   findChunk,
   generateRollupSdkEntryOutput,
+  sdkEntryAliases,
   sdkEntryModuleId
 };

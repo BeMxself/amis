@@ -11,7 +11,8 @@ const {
 const {
   createSdkEntryWithEmbeddedResourceMap,
   defaultEntry,
-  generateRollupSdkEntryOutput
+  generateRollupSdkEntryOutput,
+  sdkEntryAliases
 } = require('./rollup-sdk-entry-build');
 
 const repoRoot = path.resolve(__dirname, '../..');
@@ -114,6 +115,7 @@ async function writeRollupEntryOutput() {
     outDir: relative(rollupEntryOutDir),
     entry: relative(defaultEntry),
     embeddedResourceMap: true,
+    entryAliases: sdkEntryAliases,
     loaderBridge: true,
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,

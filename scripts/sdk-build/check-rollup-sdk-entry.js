@@ -7,6 +7,7 @@ const {
   findAsset,
   findChunk,
   generateRollupSdkEntryOutput,
+  sdkEntryAliases,
   sdkEntryModuleId
 } = require('./rollup-sdk-entry-build');
 
@@ -40,6 +41,20 @@ async function main() {
     embeddedSdkJs.includes(`amis.define('${sdkEntryModuleId}'`),
     'embedded sdk.js should register the Rollup entry with amis.define'
   );
+  assert(
+    embeddedSdkJs.includes('window.amisRequire = require'),
+    'embedded sdk.js should expose amisRequire'
+  );
+  sdkEntryAliases.forEach(alias => {
+    assert(
+      embeddedSdkJs.includes(
+        `aliasMapping[${JSON.stringify(alias)}] = ${JSON.stringify(
+          sdkEntryModuleId
+        )}`
+      ),
+      `embedded sdk.js should alias ${alias} to the Rollup entry`
+    );
+  });
   assert(
     embeddedSdkJs.includes("amis['sdk@"),
     'embedded sdk.js should include SDK base path expression'
