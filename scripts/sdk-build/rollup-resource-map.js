@@ -15,13 +15,19 @@ function createRollupResourceMap(bundle, options) {
   const pkgByFileName = new Map(
     pkgEntries.map(([pkgId, pkg], index) => [chunks[index].fileName, pkgId])
   );
+  const moduleIdByFileName = new Map(
+    chunks.map(chunk => [
+      chunk.fileName,
+      normalizeChunkModuleId(chunk.fileName, moduleIdPrefix)
+    ])
+  );
   const res = {};
 
   chunks.forEach(chunk => {
     const pkgId = pkgByFileName.get(chunk.fileName);
 
     getChunkModuleIds(chunk, moduleIdPrefix).forEach(moduleId => {
-      res[moduleId] = createResourceEntry(chunk, pkgId, pkgByFileName);
+      res[moduleId] = createResourceEntry(chunk, pkgId, moduleIdByFileName);
     });
   });
 
@@ -71,6 +77,7 @@ function getChunkModuleIds(chunk, prefix) {
   if (chunk.facadeModuleId) {
     ids.add(normalizeModuleId(chunk.facadeModuleId, prefix));
   }
+  ids.add(normalizeChunkModuleId(chunk.fileName, prefix));
 
   Object.keys(chunk.modules || {}).forEach(moduleId => {
     ids.add(normalizeModuleId(moduleId, prefix));
@@ -83,9 +90,9 @@ function getChunkModuleIds(chunk, prefix) {
   return Array.from(ids).sort();
 }
 
-function createResourceEntry(chunk, pkgId, pkgByFileName) {
+function createResourceEntry(chunk, pkgId, moduleIdByFileName) {
   const deps = chunk.imports
-    .map(fileName => pkgByFileName.get(fileName))
+    .map(fileName => moduleIdByFileName.get(fileName))
     .filter(Boolean)
     .sort();
   const entry = {
@@ -111,6 +118,10 @@ function normalizeModuleId(moduleId, prefix = '') {
   return prefix + normalized;
 }
 
+function normalizeChunkModuleId(fileName, prefix = '') {
+  return prefix + fileName.replace(/\.js$/i, '');
+}
+
 function createPackageId(index, prefix) {
   return `${prefix}p${index}`;
 }
@@ -118,6 +129,7 @@ function createPackageId(index, prefix) {
 module.exports = {
   createRollupResourceMap,
   createResourceMapScript,
+  normalizeChunkModuleId,
   normalizeModuleId,
   unwrapBasePathExpressions
 };

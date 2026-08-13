@@ -13,7 +13,7 @@ const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
-const sdkEntryModuleId = 'examples/embed.tsx';
+const sdkEntryModuleId = 'sdk';
 const sdkEntryAliases = ['amis/embed', `amis@${version}/embed`];
 const sdkBasePathExpression = `amis['sdk@${version}BasePath']`;
 const expectedUnresolvedImports = new Set([
@@ -36,6 +36,7 @@ async function generateRollupSdkEntryOutput(options) {
         browser: true,
         extensions: ['.mjs', '.js', '.jsx', '.json', '.ts', '.tsx']
       }),
+      transformFisAsyncCommonjsRequire(),
       commonjs({
         sourceMap: false,
         transformMixedEsModules: true
@@ -62,7 +63,7 @@ async function generateRollupSdkEntryOutput(options) {
       chunkFileNames: '[name].js',
       amd: {
         define: 'amis.define',
-        id: sdkEntryModuleId
+        autoId: true
       },
       manualChunks: createSdkManualChunks()
     });
@@ -74,15 +75,41 @@ async function generateRollupSdkEntryOutput(options) {
 function createSdkEntryWithEmbeddedResourceMap(output) {
   const entryChunk = findChunk(output, 'sdk.js');
   const resourceMapAsset = findAsset(output, 'resource-map.js');
+  const embeddedChunks = collectStaticChunkDependencies(output, entryChunk);
   const parts = [
     createSdkLoaderSource(),
     createRollupAmdBridgeSource(),
     createSdkEntryAliasSource(),
-    entryChunk.code,
+    ...embeddedChunks.map(chunk => chunk.code),
     resourceMapAsset.source
   ];
 
   return prepareSdkJs(parts.join('\n;\n') + '\n');
+}
+
+function collectStaticChunkDependencies(output, entryChunk) {
+  const chunksByFileName = new Map(
+    output
+      .filter(item => item.type === 'chunk')
+      .map(chunk => [chunk.fileName, chunk])
+  );
+  const visited = new Set();
+  const chunks = [];
+
+  visit(entryChunk.fileName);
+  return chunks;
+
+  function visit(fileName) {
+    if (visited.has(fileName)) {
+      return;
+    }
+    visited.add(fileName);
+
+    const chunk = chunksByFileName.get(fileName);
+    assert(chunk, `missing emitted chunk: ${fileName}`);
+    chunk.imports.forEach(visit);
+    chunks.push(chunk);
+  }
 }
 
 function createSdkLoaderSource() {
@@ -93,6 +120,10 @@ function createSdkLoaderSource() {
 
 function assertFreshWorkspaceLibs() {
   const coreFactory = path.join(repoRoot, 'packages/amis-core/lib/factory.js');
+  const uiMenu = path.join(
+    repoRoot,
+    'packages/amis-ui/lib/components/menu/index.js'
+  );
 
   assert(
     fs.existsSync(coreFactory),
@@ -103,6 +134,17 @@ function assertFreshWorkspaceLibs() {
   assert(
     source.includes('config.getComponent'),
     'Rollup SDK entry requires fresh packages/amis-core/lib with async renderer support. Run `npm run build --workspace packages/amis-core` first.'
+  );
+
+  assert(
+    fs.existsSync(uiMenu),
+    'Rollup SDK entry requires packages/amis-ui/lib. Run `npm run build --workspace packages/amis-ui` first.'
+  );
+
+  const uiMenuSource = fs.readFileSync(uiMenu, 'utf8');
+  assert(
+    uiMenuSource.includes("require('@rc-component/menu')"),
+    'Rollup SDK entry requires fresh packages/amis-ui/lib after the @rc-component/menu migration. Run `npm run build --workspace packages/amis-ui` first.'
   );
 }
 
@@ -122,6 +164,7 @@ function createRollupAmdBridgeSource() {
     }
 
     return originalDefine(id, function (require, exports, module) {
+      var scopedRequire = createScopedRequire(id, require);
       var args = deps.map(function (dep) {
         if (dep === 'exports') {
           return exports;
@@ -132,10 +175,10 @@ function createRollupAmdBridgeSource() {
         }
 
         if (dep === 'require') {
-          return require;
+          return scopedRequire;
         }
 
-        return require(dep);
+        return scopedRequire(dep);
       });
       var result = typeof factory === 'function'
         ? factory.apply(window, args)
@@ -148,6 +191,65 @@ function createRollupAmdBridgeSource() {
       return module.exports;
     });
   };
+
+  function createScopedRequire(moduleId, require) {
+    function scopedRequire(dep) {
+      if (dep && dep.splice) {
+        var args = Array.prototype.slice.call(arguments);
+        args[0] = dep.map(function (item) {
+          return resolveAmdDependency(moduleId, item);
+        });
+        return require.apply(this, args);
+      }
+
+      return require(resolveAmdDependency(moduleId, dep));
+    }
+
+    scopedRequire.async = function (names, onload, onerror) {
+      if (typeof names === 'string') {
+        names = resolveAmdDependency(moduleId, names);
+      } else if (names && names.splice) {
+        names = names.map(function (item) {
+          return resolveAmdDependency(moduleId, item);
+        });
+      }
+
+      return require.async(names, onload, onerror);
+    };
+    scopedRequire.ensure = function (names, callback) {
+      return scopedRequire.async(names, function () {
+        callback && callback.call(this, scopedRequire);
+      });
+    };
+
+    return scopedRequire;
+  }
+
+  function resolveAmdDependency(moduleId, dep) {
+    if (typeof dep !== 'string') {
+      return dep;
+    }
+
+    if (dep.charAt(0) !== '.') {
+      return dep;
+    }
+
+    var parts = moduleId.split('/');
+    parts.pop();
+    dep.split('/').forEach(function (part) {
+      if (!part || part === '.') {
+        return;
+      }
+
+      if (part === '..') {
+        parts.pop();
+      } else {
+        parts.push(part);
+      }
+    });
+
+    return parts.join('/');
+  }
 })();`;
 }
 
@@ -213,6 +315,41 @@ function transformSdkEntryTypescript() {
       };
     }
   };
+}
+
+function transformFisAsyncCommonjsRequire() {
+  return {
+    name: 'sdk-fis-async-commonjs-require',
+    load(id) {
+      if (!isFisAsyncCommonjsModule(id)) {
+        return null;
+      }
+
+      return rewriteFisAsyncCommonjsRequire(fs.readFileSync(id, 'utf8'));
+    },
+    transform(code, id) {
+      if (!code.includes('fullfill(tslib.__importStar(mod))')) {
+        return null;
+      }
+
+      const transformed = rewriteFisAsyncCommonjsRequire(code);
+
+      return transformed === code ? null : {code: transformed, map: null};
+    }
+  };
+}
+
+function isFisAsyncCommonjsModule(id) {
+  return id.split(path.sep).join('/').endsWith('/packages/amis/lib/minimal.js');
+}
+
+function rewriteFisAsyncCommonjsRequire(code) {
+  const asyncRequirePattern = /return Promise\.resolve\(\)\.then\(function\(\) \{return new Promise\(function\(fullfill\) \{require\(\[['"]([^'"]+)['"],\s*['"]tslib['"]\], function\(mod, tslib\) \{fullfill\(tslib\.__importStar\(mod\)\)\}\)\}\)\}\)/g;
+
+  return code.replace(
+    asyncRequirePattern,
+    (_, moduleId) => `return import(${JSON.stringify(moduleId)})`
+  );
 }
 
 function resolveWorkspaceLibImports() {

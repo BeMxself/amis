@@ -68,14 +68,14 @@ async function main() {
     manifest.chunks.some(chunk => chunk.fileName === 'sdk.js'),
     'chunk manifest should include sdk.js'
   );
-  assertRuntimeEntry(embeddedSdkJs);
+  await assertRuntimeEntry(embeddedSdkJs, output);
 
   console.log(
     `Rollup SDK entry OK: ${countChunks(output)} chunks, ${Object.keys(resourceMap.res).length} resources.`
   );
 }
 
-function assertRuntimeEntry(embeddedSdkJs) {
+async function assertRuntimeEntry(embeddedSdkJs, output) {
   const dom = new JSDOM(
     '<!doctype html><html><head></head><body><div id="root"></div></body></html>',
     {
@@ -91,6 +91,7 @@ function assertRuntimeEntry(embeddedSdkJs) {
     value: {src: 'https://cdn.example.test/sdk/sdk.js'}
   });
   installBrowserTestShims(window);
+  installChunkLoader(window, output);
 
   window.eval(embeddedSdkJs);
 
@@ -106,6 +107,70 @@ function assertRuntimeEntry(embeddedSdkJs) {
       `amisRequire(${JSON.stringify(alias)}) should expose embed()`
     );
   });
+
+  const entryModule = window.amisRequire(sdkEntryAliases[0]);
+  entryModule.embed(
+    '#root',
+    {type: 'page', title: 'Smoke', body: 'Hello Rollup SDK'},
+    {},
+    {fetcher: () => Promise.resolve({status: 0, data: {}})}
+  );
+  await waitFor(
+    window,
+    () => window.document.querySelector('#root').textContent.includes('Hello Rollup SDK'),
+    'embedded sdk.js should render a lazy page renderer at runtime'
+  );
+}
+
+function installChunkLoader(window, output) {
+  const chunksByFileName = new Map(
+    output
+      .filter(item => item.type === 'chunk')
+      .map(chunk => [chunk.fileName, chunk.code])
+  );
+  const originalAppendChild = window.document.head.appendChild.bind(
+    window.document.head
+  );
+
+  window.document.head.appendChild = node => {
+    if (!node || node.tagName !== 'SCRIPT') {
+      return originalAppendChild(node);
+    }
+
+    const fileName = new URL(node.src).pathname.split('/').pop();
+    const code = chunksByFileName.get(fileName);
+
+    if (!code) {
+      window.setTimeout(
+        () => node.onerror && node.onerror(new Error(`missing chunk ${fileName}`)),
+        0
+      );
+      return node;
+    }
+
+    window.setTimeout(() => {
+      try {
+        window.eval(code);
+        node.onload && node.onload();
+      } catch (error) {
+        node.onerror && node.onerror(error);
+      }
+    }, 0);
+    return node;
+  };
+}
+
+async function waitFor(window, predicate, message) {
+  const startedAt = Date.now();
+
+  while (Date.now() - startedAt < 1500) {
+    if (predicate()) {
+      return;
+    }
+    await new Promise(resolve => window.setTimeout(resolve, 25));
+  }
+
+  throw new Error(message);
 }
 
 function installBrowserTestShims(window) {
