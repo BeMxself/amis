@@ -201,6 +201,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 当前还新增 `npm run check-sdk-rollup-plugins`，使用 Rollup JS API 和虚拟入口真实跑一遍 `generateBundle`，确认 resource map 插件、chunk manifest 插件和 manualChunks 映射能在 Rollup 生命周期里 emit 可解析 asset。
 
 当前还新增 `npm run check-sdk-rollup-entry`，使用真实 `examples/embed.tsx` 入口跑一次内存 Rollup 构建，并把 workspace 包显式锚到当前 SDK/FIS3 依赖的 `lib` 入口，避免 package `exports.import` 把 `amis-ui/lib/*` 重定向到 `esm/*` 后产生与现有 SDK 路径不同的导出校验结果。这一步只证明真实入口、SWC TS/TSX transform、asset 空模块、resource map 和 chunk manifest 的最小链路能跑通；它尚不声明 `sdk-next` 已具备完整 SDK 分包能力。
+
+补充做过一次未纳入默认命令的 runtime smoke 验证：用 jsdom 加载生成的 `rollup-entry/sdk.js` 后调用 `amisRequire('amis/embed')`。这能发现纯文本契约看不到的问题，但当前还不适合作为 CI gate：正式 FIS SDK 在同一环境下会先遇到 `Cannot find module "util"` 的基线问题，而 Rollup entry 会在当前 checked-in `lib` 路径下触发 `registerRenderer({getComponent})` 与 `packages/amis-core/lib/factory.js` 旧实现不兼容的问题。这个问题不应该通过 Rollup bridge 给 `registerRenderer` 打补丁解决；下一步应在 SDK builder 层明确选择“先运行 workspace build 生成 fresh lib”或“让 Rollup 输入图直接吃 `src` 并补齐 decorators/type-only import 等 TS 语义”，再把 runtime smoke 固化为正式检查。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
 4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。
 5. `thirdsCopyPlugin`：复制 Monaco、PDF worker 和需要保留路径的第三方资源。
