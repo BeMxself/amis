@@ -188,7 +188,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前已新增第一版 `npm run build-sdk-next`，先以 `contract-mirror` 模式从当前已验证的 `packages/amis/sdk` 物化 `packages/amis/sdk-next` 并生成 `sdk-next-manifest.json`，再通过 `npm run check-sdk-next-contract` 复用同一套 SDK 契约检查。这一步还不是 Rollup 打包本体，而是先把并行输出目录、忽略规则、文件清单和契约校验链路固定下来，后续再把输入侧从 FIS3 产物替换为 Rollup 产物。
 
-当前还新增 `npm run build-sdk-next-rollup-entry`，在默认镜像契约文件的基础上，把真实 `examples/embed.tsx` 的 Rollup 内存构建产物写入 `packages/amis/sdk-next/rollup-entry/`，并在 `sdk-next-manifest.json` 里记录 Rollup 入口、chunk、resource/package 数和输出文件。这一步故意不覆盖顶层 `sdk.js`、CSS、thirds 或 locale 文件，因此 `npm run check-sdk-next-contract` 仍然验证当前 FIS3 public contract；`rollup-entry/` 只是并行迁移产物，用来逐步收敛真实 Rollup SDK builder。
+当前还新增 `npm run build-sdk-next-rollup-entry`，在默认镜像契约文件的基础上，把真实 `examples/embed.tsx` 的 Rollup 内存构建产物写入 `packages/amis/sdk-next/rollup-entry/`，并在 `sdk-next-manifest.json` 里记录 Rollup 入口、chunk、resource/package 数和输出文件。`rollup-entry/sdk.js` 当前已内嵌 `amis.require.resourceMap(...)`，并使用现有 SDK 的 `amis['sdk@<version>BasePath']` URL 表达式；同时保留独立 `resource-map.js` 作为诊断产物。这一步故意不覆盖顶层 `sdk.js`、CSS、thirds 或 locale 文件，因此 `npm run check-sdk-next-contract` 仍然验证当前 FIS3 public contract；`rollup-entry/` 只是并行迁移产物，用来逐步收敛真实 Rollup SDK builder。
 
 核心插件建议：
 

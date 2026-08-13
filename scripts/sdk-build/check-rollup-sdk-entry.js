@@ -3,6 +3,7 @@
 const {parseResourceMap} = require('./sdk-contract');
 const {
   countChunks,
+  createSdkEntryWithEmbeddedResourceMap,
   findAsset,
   findChunk,
   generateRollupSdkEntryOutput
@@ -16,11 +17,20 @@ main().catch(error => {
 async function main() {
   const {output} = await generateRollupSdkEntryOutput();
 
-  const resourceMap = parseResourceMap(findAsset(output, 'resource-map.js').source);
+  const embeddedSdkJs = createSdkEntryWithEmbeddedResourceMap(output);
+  const resourceMap = parseResourceMap(embeddedSdkJs);
   const manifest = JSON.parse(findAsset(output, 'sdk-chunk-manifest.json').source);
   const entryChunk = findChunk(output, 'sdk.js');
 
   assert(entryChunk.isEntry, 'sdk.js should be the Rollup entry chunk');
+  assert(
+    embeddedSdkJs.includes('amis.require.resourceMap('),
+    'embedded sdk.js should include resource map'
+  );
+  assert(
+    embeddedSdkJs.includes("amis['sdk@"),
+    'embedded sdk.js should include SDK base path expression'
+  );
   assert(
     Object.keys(resourceMap.res).some(moduleId => moduleId === 'examples/embed.tsx'),
     'resource map should include examples/embed.tsx'

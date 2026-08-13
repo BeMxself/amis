@@ -9,6 +9,7 @@ const {
   sdkChunkPlan
 } = require('./sdk-contract');
 const {
+  createSdkEntryWithEmbeddedResourceMap,
   defaultEntry,
   generateRollupSdkEntryOutput
 } = require('./rollup-sdk-entry-build');
@@ -95,13 +96,13 @@ function assertExpectedArtifacts(sdkDir) {
 
 async function writeRollupEntryOutput() {
   const {output} = await generateRollupSdkEntryOutput();
+  const embeddedSdkJs = createSdkEntryWithEmbeddedResourceMap(output);
 
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
+  fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
 
-  const resourceMap = parseResourceMap(
-    fs.readFileSync(path.join(rollupEntryOutDir, 'resource-map.js'), 'utf8')
-  );
+  const resourceMap = parseResourceMap(embeddedSdkJs);
   const chunkManifest = JSON.parse(
     fs.readFileSync(
       path.join(rollupEntryOutDir, 'sdk-chunk-manifest.json'),
@@ -112,6 +113,7 @@ async function writeRollupEntryOutput() {
   return {
     outDir: relative(rollupEntryOutDir),
     entry: relative(defaultEntry),
+    embeddedResourceMap: true,
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),

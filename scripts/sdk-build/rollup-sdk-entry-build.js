@@ -4,12 +4,15 @@ const commonjs = require('@rollup/plugin-commonjs');
 const json = require('@rollup/plugin-json');
 const resolve = require('@rollup/plugin-node-resolve').default;
 const swc = require('@swc/core');
+const {version} = require('../../packages/amis/package.json');
+const {prepareSdkJs} = require('./prepare-sdk-js');
 const {createSdkManualChunks} = require('./rollup-sdk-manual-chunks');
 const {sdkChunkManifestPlugin} = require('./rollup-sdk-chunk-manifest');
 const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
+const sdkBasePathExpression = `amis['sdk@${version}BasePath']`;
 const expectedUnresolvedImports = new Set([
   'rc-resize-observer',
   'tinymce/plugins/template'
@@ -34,7 +37,10 @@ async function generateRollupSdkEntryOutput(options) {
         transformMixedEsModules: true
       }),
       sdkChunkManifestPlugin({fileName: 'sdk-chunk-manifest.json'}),
-      sdkResourceMapPlugin({fileName: 'resource-map.js'})
+      sdkResourceMapPlugin({
+        basePathExpression: sdkBasePathExpression,
+        fileName: 'resource-map.js'
+      })
     ],
     onwarn(warning, warn) {
       if (isExpectedSdkEntryWarning(warning)) {
@@ -55,6 +61,13 @@ async function generateRollupSdkEntryOutput(options) {
   } finally {
     await bundle.close();
   }
+}
+
+function createSdkEntryWithEmbeddedResourceMap(output) {
+  const entryChunk = findChunk(output, 'sdk.js');
+  const resourceMapAsset = findAsset(output, 'resource-map.js');
+
+  return prepareSdkJs(`${entryChunk.code}\n;\n${resourceMapAsset.source}\n`);
 }
 
 function transformSdkEntryTypescript() {
@@ -200,6 +213,7 @@ function assert(condition, message) {
 
 module.exports = {
   countChunks,
+  createSdkEntryWithEmbeddedResourceMap,
   defaultEntry,
   findAsset,
   findChunk,
