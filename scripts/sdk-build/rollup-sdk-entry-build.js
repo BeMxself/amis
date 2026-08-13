@@ -23,6 +23,7 @@ const expectedUnresolvedImports = new Set([
 
 async function generateRollupSdkEntryOutput(options) {
   options = options || {};
+  assertFreshWorkspaceLibs();
 
   const bundle = await rollup({
     input: options.entry || defaultEntry,
@@ -88,6 +89,21 @@ function createSdkLoaderSource() {
   const source = fs.readFileSync(path.join(repoRoot, 'examples/mod.js'), 'utf8');
 
   return source.replace(/@@version/g, `@${version}`).replace(/@version/g, version);
+}
+
+function assertFreshWorkspaceLibs() {
+  const coreFactory = path.join(repoRoot, 'packages/amis-core/lib/factory.js');
+
+  assert(
+    fs.existsSync(coreFactory),
+    'Rollup SDK entry requires packages/amis-core/lib. Run `npm run build --workspace packages/amis-core` first.'
+  );
+
+  const source = fs.readFileSync(coreFactory, 'utf8');
+  assert(
+    source.includes('config.getComponent'),
+    'Rollup SDK entry requires fresh packages/amis-core/lib with async renderer support. Run `npm run build --workspace packages/amis-core` first.'
+  );
 }
 
 function createRollupAmdBridgeSource() {
