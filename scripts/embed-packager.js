@@ -6,85 +6,12 @@ var rScriptType = /type=('|")(.*?)\1/i;
 var rSrcHref = /\s*(?:src|href)=('|")(.+?)\1/i;
 var rRefStyle = /rel=('|")stylesheet\1/i;
 var path = require('path');
-var postcss = require('postcss');
+var prefixSdkCss = require('./sdk-build/prefix-sdk-css').prefixSdkCss;
 var rSourceMap =
   /(?:\/\/\#\s*sourceMappingURL[^\r\n\'\"]*|\/\*\#\s*sourceMappingURL[^\r\n\'\"]*\*\/)(?:\r?\n|$)/gi;
 var caches = {};
 var createResource = fis.require('postpackager-loader/lib/resource.js');
 const package = require('../packages/amis/package.json');
-
-function prefixCss(code, prefix, label) {
-  var cssAst;
-
-  try {
-    cssAst = postcss.parse(code, {from: label || undefined});
-  } catch (error) {
-    var excerpt = '';
-
-    if (error.line) {
-      var lines = code.split(/\r?\n/);
-      var start = Math.max(0, error.line - 4);
-      var end = Math.min(lines.length, error.line + 3);
-
-      excerpt = lines
-        .slice(start, end)
-        .map(function (line, index) {
-          return start + index + 1 + ': ' + line;
-        })
-        .join('\n');
-    }
-
-    error.message =
-      'Failed to prefix SDK CSS' +
-      (label ? ' for ' + label : '') +
-      ': ' +
-      error.message +
-      (excerpt ? '\n' + excerpt : '');
-    throw error;
-  }
-  cssAst.walkRules(function (rule) {
-    if (isInKeyframes(rule)) {
-      return;
-    }
-
-    rule.selectors = rule.selectors.map(prefixSelector);
-  });
-
-  return cssAst.toString();
-
-  function prefixSelector(sel) {
-    if (sel.match(/^@/)) return sel;
-    if (sel.match(/^:root/)) return sel;
-    var m = sel.match(/(^| )(body|html)($|\W.*)/i);
-    if (m) return m[1] + prefix + m[3];
-    else if (sel.match(/^\.is\-modalOpened/))
-      return sel.replace(
-        /^\.is\-modalOpened\s/,
-        '.is-modalOpened ' + prefix + ' '
-      );
-    else if (
-      sel.match(
-        /^(?:\.fr-|\.fa|\.tox|\.AMISDebug|\.monaco-|\.vs-dark|\.hc-black|\.vs\b|\.cursor-|::|\.context-view|\.menubar|\.fullscreen|\.colorpicker-)/
-      )
-    )
-      return sel;
-    else return prefix + ' ' + sel;
-  }
-
-  function isInKeyframes(rule) {
-    var parent = rule.parent;
-
-    while (parent) {
-      if (parent.type === 'atrule' && /keyframes$/i.test(parent.name)) {
-        return true;
-      }
-
-      parent = parent.parent;
-    }
-
-    return false;
-  }
-}
 
 function unicodeJs(str) {
   return str.replace(
@@ -225,7 +152,7 @@ module.exports = function (ret, pack, settings, opt) {
   jsFile.setContent(jsContents);
   ret.pkg[jsFile.subpath] = jsFile;
 
-  // cssContents = prefixCss(cssContents, '.amis-scope');
+  // cssContents = prefixSdkCss(cssContents, '.amis-scope');
   // let cssFile = fis.file(root, 'sdk.css');
   // cssFile.setContent(cssContents);
   // ret.pkg[cssFile.subpath] = cssFile;
@@ -239,7 +166,7 @@ module.exports = function (ret, pack, settings, opt) {
       .map(item => item.content)
       .join('\n');
 
-    contents = prefixCss(contents, '.amis-scope', theme);
+    contents = prefixSdkCss(contents, '.amis-scope', theme);
     let cssFile = fis.file(root, (theme === 'cxd' ? 'sdk' : theme) + '.css');
     cssFile.setContent(contents);
     ret.pkg[cssFile.subpath] = cssFile;
