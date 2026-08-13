@@ -405,9 +405,10 @@ export class CalendarMobile extends React.Component<
   renderMobileDay(props: any, currentDate: moment.Moment) {
     const cx = this.props.classnames;
     const renderProps = this.getRenderProps(props, currentDate);
+    const {key, ...tdProps} = renderProps.props;
 
     return (
-      <td {...renderProps.props}>
+      <td key={key} {...tdProps}>
         <div
           className="calendar-wrap"
           onClick={() => this.handleCalendarClick(renderProps.rdtDisabled)}
@@ -431,9 +432,10 @@ export class CalendarMobile extends React.Component<
     const strLength = 3;
     const monthStrFixedLength = monthStr.substring(0, strLength);
     const renderProps = this.getRenderProps(props, currentDate);
+    const {key, ...tdProps} = renderProps.props;
 
     return (
-      <td {...renderProps.props}>
+      <td key={key} {...tdProps}>
         <div
           className="calendar-wrap"
           onClick={() => this.handleCalendarClick(renderProps.rdtDisabled)}
@@ -452,9 +454,10 @@ export class CalendarMobile extends React.Component<
     const cx = this.props.classnames;
     const currentDate = moment().year(year).quarter(quarter);
     const renderProps = this.getRenderProps(props, currentDate);
+    const {key, ...tdProps} = props;
 
     return (
-      <td {...props}>
+      <td key={key} {...tdProps}>
         <div
           className="calendar-wrap"
           onClick={() => this.handleCalendarClick(renderProps.rdtDisabled)}

@@ -323,17 +323,20 @@ export default class SelectMobile extends React.Component<Props, SelectState> {
       if (hideSelected && checked) {
         return null;
       }
+      const itemProps = getItemProps({
+        key:
+          typeof item.value === 'string'
+            ? `${item.label}-${item.value}`
+            : index,
+        index,
+        item,
+        disabled: item.disabled
+      });
+      const {key, ...optionProps} = itemProps;
       return (
         <div
-          {...getItemProps({
-            key:
-              typeof item.value === 'string'
-                ? `${item.label}-${item.value}`
-                : index,
-            index,
-            item,
-            disabled: item.disabled
-          })}
+          key={key}
+          {...optionProps}
           style={merge(style, enableVirtualRender ? {width: '100%'} : {})}
           className={cx(`Select-option`, {
             'is-disabled': item.disabled,

@@ -47,11 +47,12 @@ export class ListGroup extends React.Component<ListGroupProps> {
         {Array.isArray(items) && items.length ? (
           items.map((item: any, index) => {
             const itemProps = getItemProps?.({item, index}) || {};
+            const {key, ...restItemProps} = itemProps;
 
             return (
               <div
-                key={index}
-                {...itemProps}
+                key={key ?? index}
+                {...restItemProps}
                 className={cx(
                   'ListGroup-item',
                   itemClassName,

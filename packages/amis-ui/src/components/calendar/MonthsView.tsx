@@ -169,9 +169,10 @@ export class CustomMonthsView extends React.Component<CustomMonthsViewProps> {
     // Because some months are up to 5 characters long, we want to
     // use a fixed string length for consistency
     const monthStrFixedLength = monthStr.substring(0, strLength);
+    const {key, ...tdProps} = rest;
 
     return (
-      <td {...rest}>
+      <td key={key} {...tdProps}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>
           {monthStrFixedLength}
         </span>

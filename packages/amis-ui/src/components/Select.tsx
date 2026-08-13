@@ -1006,18 +1006,21 @@ export class Select extends React.Component<SelectProps, SelectState> {
 
       let label = labelToString(item[labelField]);
       let optTestIdBudr = testIdBuilder?.getChild(`option-${label || index}`);
+      const itemProps = getItemProps({
+        key:
+          typeof item.value === 'string'
+            ? `${item.label}-${item.value}`
+            : index,
+        index,
+        item,
+        disabled: item.disabled
+      });
+      const {key, ...optionProps} = itemProps;
 
       return (
         <div
-          {...getItemProps({
-            key:
-              typeof item.value === 'string'
-                ? `${item.label}-${item.value}`
-                : index,
-            index,
-            item,
-            disabled: item.disabled
-          })}
+          key={key}
+          {...optionProps}
           style={merge(style, enableVirtualRender ? {width: '100%'} : {})}
           className={cx(`Select-option`, {
             'is-disabled': item.disabled,

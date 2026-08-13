@@ -6,7 +6,6 @@
 
 import React from 'react';
 import moment, {locale, unitOfTime} from 'moment';
-import omit from 'lodash/omit';
 import kebabCase from 'lodash/kebabCase';
 import {
   PopOver,
@@ -1586,9 +1585,10 @@ export class DateRangePicker extends React.Component<
       'day'
     );
     props.className += className;
+    const {key, todayActiveStyle, ...dayProps} = props;
 
     return (
-      <td {...omit(props, ['todayActiveStyle'])} {...others}>
+      <td key={key} {...dayProps} {...others}>
         <span {...testIdBuilder?.getChild(props.key)?.getTestId()}>
           {currentDate.date()}
         </span>
@@ -1633,9 +1633,10 @@ export class DateRangePicker extends React.Component<
       'month'
     );
     props.className += className;
+    const {key, viewDate, ...monthProps} = props;
 
     return (
-      <td {...omit(props, 'viewDate')} {...others}>
+      <td key={key} {...monthProps} {...others}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>
           {monthStrFixedLength}
         </span>
@@ -1674,9 +1675,10 @@ export class DateRangePicker extends React.Component<
       'quarter'
     );
     props.className += className;
+    const {key, ...quarterProps} = props;
 
     return (
-      <td {...props} {...others}>
+      <td key={key} {...quarterProps} {...others}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>
           Q{quarter}
         </span>
@@ -1714,9 +1716,10 @@ export class DateRangePicker extends React.Component<
       'year'
     );
     props.className += className;
+    const {key, ...yearProps} = props;
 
     return (
-      <td {...props} {...others}>
+      <td key={key} {...yearProps} {...others}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>{year}</span>
       </td>
     );

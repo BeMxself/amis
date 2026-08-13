@@ -147,8 +147,9 @@ export class QuarterView extends React.Component<QuarterViewProps> {
     date: moment.Moment
   ) => {
     const {testIdBuilder} = this.props;
+    const {key, ...tdProps} = props;
     return (
-      <td {...props}>
+      <td key={key} {...tdProps}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>
           Q{quartar}
         </span>

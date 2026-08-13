@@ -127,8 +127,9 @@ export class CustomYearsView extends React.Component<CustomYearsViewProps> {
 
   renderYear = (props: any, year: number, date?: moment.Moment) => {
     const {testIdBuilder} = this.props;
+    const {key, ...tdProps} = props;
     return (
-      <td {...props}>
+      <td key={key} {...tdProps}>
         <span {...testIdBuilder?.getChild(props.key).getTestId()}>{year}</span>
       </td>
     );

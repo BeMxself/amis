@@ -65,6 +65,11 @@ export class ListMenu extends React.Component<ListMenuProps> {
     }
 
     const index = result.index++;
+    const itemProps = getItemProps({
+      item: option,
+      index: index
+    });
+    const {key, ...optionProps} = itemProps;
 
     result.items.push(
       <div
@@ -75,13 +80,10 @@ export class ListMenu extends React.Component<ListMenuProps> {
           index === highlightIndex ? 'is-highlight' : '',
           ~(selectedOptions || []).indexOf(option) ? 'is-active' : ''
         )}
-        key={index}
+        key={key ?? index}
         onClick={onSelect ? (e: any) => onSelect(e, option) : undefined}
         {...testIdBuilder?.getChild(option.value || index).getTestId()}
-        {...getItemProps({
-          item: option,
-          index: index
-        })}
+        {...optionProps}
       >
         <div className={cx('ListMenu-itemLabel')}>{itemRender(option)}</div>
       </div>

@@ -467,9 +467,10 @@ export class MonthRangePicker extends React.Component<
     ) {
       props.className += ' rdtBetween';
     }
+    const {key, ...monthProps} = props;
 
     return (
-      <td {...props}>
+      <td key={key} {...monthProps}>
         <span>{capitalize(monthStrFixedLength)}</span>
       </td>
     );
