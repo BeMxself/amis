@@ -178,7 +178,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 不先替换工具，先抽出可测试逻辑。
 
-- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js` 和 `scripts/sdk-build/rewrite-sdk-resource-map.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.amis-scope` 前缀规则与 `sdk@<version>BasePath` URL 改写协议。
+- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js`、`scripts/sdk-build/rewrite-sdk-resource-map.js` 和 `scripts/sdk-build/collect-sdk-placeholder-assets.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.amis-scope` 前缀规则、`sdk@<version>BasePath` URL 改写协议和 placeholder 资源分类逻辑。
 - 将 `fis-conf.js` 中 `publish-sdk` 的包规则整理成数据文件，例如 `scripts/sdk-build/chunks.ts`。当前已先用 CommonJS 数据文件 `scripts/sdk-build/chunk-plan.js` 承接现有分包契约，供 contract check 和未来 Rollup/Vite SDK builder 共享。
 - 将 `__uri`/`__inline` 转换规则统一到可复用插件，避免 Vite dev 和 FIS publish 双轨漂移。
 
