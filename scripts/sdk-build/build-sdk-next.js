@@ -114,6 +114,7 @@ async function writeRollupEntryOutput() {
     outDir: relative(rollupEntryOutDir),
     entry: relative(defaultEntry),
     embeddedResourceMap: true,
+    loaderBridge: true,
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),

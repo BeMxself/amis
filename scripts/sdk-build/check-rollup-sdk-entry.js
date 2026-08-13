@@ -6,7 +6,8 @@ const {
   createSdkEntryWithEmbeddedResourceMap,
   findAsset,
   findChunk,
-  generateRollupSdkEntryOutput
+  generateRollupSdkEntryOutput,
+  sdkEntryModuleId
 } = require('./rollup-sdk-entry-build');
 
 main().catch(error => {
@@ -26,6 +27,18 @@ async function main() {
   assert(
     embeddedSdkJs.includes('amis.require.resourceMap('),
     'embedded sdk.js should include resource map'
+  );
+  assert(
+    embeddedSdkJs.includes('amis.require = require'),
+    'embedded sdk.js should include amis loader'
+  );
+  assert(
+    embeddedSdkJs.includes('var originalDefine = amis && amis.define'),
+    'embedded sdk.js should include Rollup AMD bridge'
+  );
+  assert(
+    embeddedSdkJs.includes(`amis.define('${sdkEntryModuleId}'`),
+    'embedded sdk.js should register the Rollup entry with amis.define'
   );
   assert(
     embeddedSdkJs.includes("amis['sdk@"),

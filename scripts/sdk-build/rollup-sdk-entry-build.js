@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 const {rollup} = require('rollup');
 const commonjs = require('@rollup/plugin-commonjs');
 const json = require('@rollup/plugin-json');
@@ -12,6 +13,7 @@ const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
+const sdkEntryModuleId = 'examples/embed.tsx';
 const sdkBasePathExpression = `amis['sdk@${version}BasePath']`;
 const expectedUnresolvedImports = new Set([
   'rc-resize-observer',
@@ -56,6 +58,10 @@ async function generateRollupSdkEntryOutput(options) {
       format: 'amd',
       entryFileNames: 'sdk.js',
       chunkFileNames: '[name].js',
+      amd: {
+        define: 'amis.define',
+        id: sdkEntryModuleId
+      },
       manualChunks: createSdkManualChunks()
     });
   } finally {
@@ -66,8 +72,65 @@ async function generateRollupSdkEntryOutput(options) {
 function createSdkEntryWithEmbeddedResourceMap(output) {
   const entryChunk = findChunk(output, 'sdk.js');
   const resourceMapAsset = findAsset(output, 'resource-map.js');
+  const parts = [
+    createSdkLoaderSource(),
+    createRollupAmdBridgeSource(),
+    entryChunk.code,
+    resourceMapAsset.source
+  ];
 
-  return prepareSdkJs(`${entryChunk.code}\n;\n${resourceMapAsset.source}\n`);
+  return prepareSdkJs(parts.join('\n;\n') + '\n');
+}
+
+function createSdkLoaderSource() {
+  const source = fs.readFileSync(path.join(repoRoot, 'examples/mod.js'), 'utf8');
+
+  return source.replace(/@@version/g, `@${version}`).replace(/@version/g, version);
+}
+
+function createRollupAmdBridgeSource() {
+  return `
+(function () {
+  var amis = window.amis;
+  var originalDefine = amis && amis.define;
+
+  if (!amis || !amis.require || !originalDefine) {
+    throw new Error('amis SDK loader is not initialized.');
+  }
+
+  amis.define = function (id, deps, factory) {
+    if (typeof id !== 'string' || !Array.isArray(deps)) {
+      return originalDefine.apply(this, arguments);
+    }
+
+    return originalDefine(id, function (require, exports, module) {
+      var args = deps.map(function (dep) {
+        if (dep === 'exports') {
+          return exports;
+        }
+
+        if (dep === 'module') {
+          return module;
+        }
+
+        if (dep === 'require') {
+          return require;
+        }
+
+        return require(dep);
+      });
+      var result = typeof factory === 'function'
+        ? factory.apply(window, args)
+        : factory;
+
+      if (result !== undefined) {
+        module.exports = result;
+      }
+
+      return module.exports;
+    });
+  };
+})();`;
 }
 
 function transformSdkEntryTypescript() {
@@ -217,5 +280,6 @@ module.exports = {
   defaultEntry,
   findAsset,
   findChunk,
-  generateRollupSdkEntryOutput
+  generateRollupSdkEntryOutput,
+  sdkEntryModuleId
 };
