@@ -186,6 +186,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 新增 `scripts/sdk-build`，先并行输出到 `sdk-next/`，不替换正式 `sdk/`。
 
+当前已新增第一版 `npm run build-sdk-next`，先以 `contract-mirror` 模式从当前已验证的 `packages/amis/sdk` 物化 `packages/amis/sdk-next` 并生成 `sdk-next-manifest.json`，再通过 `npm run check-sdk-next-contract` 复用同一套 SDK 契约检查。这一步还不是 Rollup 打包本体，而是先把并行输出目录、忽略规则、文件清单和契约校验链路固定下来，后续再把输入侧从 FIS3 产物替换为 Rollup 产物。
+
 核心插件建议：
 
 1. `legacyResourcePlugin`：生成兼容 `amis.require.resourceMap(...)` 的 map，保持 module id 规则。
