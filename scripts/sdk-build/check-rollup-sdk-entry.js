@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const {JSDOM} = require('jsdom');
 const {parseResourceMap} = require('./sdk-contract');
 const {
   countChunks,
@@ -67,10 +68,81 @@ async function main() {
     manifest.chunks.some(chunk => chunk.fileName === 'sdk.js'),
     'chunk manifest should include sdk.js'
   );
+  assertRuntimeEntry(embeddedSdkJs);
 
   console.log(
     `Rollup SDK entry OK: ${countChunks(output)} chunks, ${Object.keys(resourceMap.res).length} resources.`
   );
+}
+
+function assertRuntimeEntry(embeddedSdkJs) {
+  const dom = new JSDOM(
+    '<!doctype html><html><head></head><body><div id="root"></div></body></html>',
+    {
+      url: 'https://example.test/page.html',
+      runScripts: 'outside-only',
+      pretendToBeVisual: true
+    }
+  );
+  const {window} = dom;
+
+  Object.defineProperty(window.document, 'currentScript', {
+    configurable: true,
+    value: {src: 'https://cdn.example.test/sdk/sdk.js'}
+  });
+  installBrowserTestShims(window);
+
+  window.eval(embeddedSdkJs);
+
+  assert(
+    typeof window.amisRequire === 'function',
+    'embedded sdk.js should initialize window.amisRequire at runtime'
+  );
+  sdkEntryAliases.forEach(alias => {
+    const entryModule = window.amisRequire(alias);
+
+    assert(
+      entryModule && typeof entryModule.embed === 'function',
+      `amisRequire(${JSON.stringify(alias)}) should expose embed()`
+    );
+  });
+}
+
+function installBrowserTestShims(window) {
+  window.process = window.process || {env: {NODE_ENV: 'test'}};
+  window.matchMedia =
+    window.matchMedia ||
+    function () {
+      return {
+        matches: false,
+        addListener() {},
+        removeListener() {},
+        addEventListener() {},
+        removeEventListener() {},
+        dispatchEvent() {
+          return false;
+        }
+      };
+    };
+  window.ResizeObserver =
+    window.ResizeObserver ||
+    class {
+      observe() {}
+      unobserve() {}
+      disconnect() {}
+    };
+  window.IntersectionObserver =
+    window.IntersectionObserver ||
+    class {
+      observe() {}
+      unobserve() {}
+      disconnect() {}
+    };
+  window.requestAnimationFrame =
+    window.requestAnimationFrame ||
+    (callback => window.setTimeout(callback, 16));
+  window.cancelAnimationFrame =
+    window.cancelAnimationFrame || (handle => window.clearTimeout(handle));
 }
 
 function assert(condition, message) {
