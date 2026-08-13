@@ -7,6 +7,8 @@ var rSrcHref = /\s*(?:src|href)=('|")(.+?)\1/i;
 var rRefStyle = /rel=('|")stylesheet\1/i;
 var path = require('path');
 var prefixSdkCss = require('./sdk-build/prefix-sdk-css').prefixSdkCss;
+var wrapSdkResourceMapWithBasePath = require('./sdk-build/rewrite-sdk-resource-map')
+  .wrapSdkResourceMapWithBasePath;
 var rSourceMap =
   /(?:\/\/\#\s*sourceMappingURL[^\r\n\'\"]*|\/\*\#\s*sourceMappingURL[^\r\n\'\"]*\*\/)(?:\r?\n|$)/gi;
 var caches = {};
@@ -89,16 +91,10 @@ module.exports = function (ret, pack, settings, opt) {
           let contents = file.getContent();
 
           if (/_map\.js$/.test(file.subpath)) {
-            contents = `(function() {
-    ${contents.replace(
-      /\"url\"\s*\:\s*('|")(\.\/.*?)\1/g,
-      function (_, quote, value) {
-        return `"url": amis['sdk@${
-          package.version
-        }BasePath'] + ${quote}${value.substring(1)}${quote}`;
-      }
-    )}
-        })()`;
+            contents = wrapSdkResourceMapWithBasePath(
+              contents,
+              package.version
+            );
           }
           jsContents += contents + ';\n';
         }
