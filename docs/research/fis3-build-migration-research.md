@@ -197,6 +197,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
    - 当前还新增 `scripts/sdk-build/rollup-sdk-manual-chunks.js`，把 `chunk-plan` 中的正向专用分包规则转换为 Rollup `manualChunks` 函数，并在 smoke check 中验证 `echarts`/`zrender` 进入 `charts.js`、Markdown 组件进入 `markdown.js`。第一版故意不映射 `sdk.js`、`rest.js`、`!` 排除规则和 `:deps`/`:asyncs` 语义，避免把 FIS3 依赖图 DSL 误声明为已完整等价；这些需要等 Rollup 输入图和完整 SDK builder 接上后再做严格对齐。
 
 当前还新增 `npm run check-sdk-rollup-plugins`，使用 Rollup JS API 和虚拟入口真实跑一遍 `generateBundle`，确认 resource map 插件、chunk manifest 插件和 manualChunks 映射能在 Rollup 生命周期里 emit 可解析 asset。
+
+当前还新增 `npm run check-sdk-rollup-entry`，使用真实 `examples/embed.tsx` 入口跑一次内存 Rollup 构建，并把 workspace 包显式锚到当前 SDK/FIS3 依赖的 `lib` 入口，避免 package `exports.import` 把 `amis-ui/lib/*` 重定向到 `esm/*` 后产生与现有 SDK 路径不同的导出校验结果。这一步只证明真实入口、SWC TS/TSX transform、asset 空模块、resource map 和 chunk manifest 的最小链路能跑通；它尚不声明 `sdk-next` 已具备完整 SDK 分包能力。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
 4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。
 5. `thirdsCopyPlugin`：复制 Monaco、PDF worker 和需要保留路径的第三方资源。
