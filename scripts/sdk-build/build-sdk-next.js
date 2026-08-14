@@ -7,7 +7,8 @@ const {
   getExpectedSdkFiles,
   parseResourceMap,
   sdkChunkPlan,
-  sdkCssFiles
+  sdkCssFiles,
+  sdkStaticFiles
 } = require('./sdk-contract');
 const {
   createSdkEntryWithEmbeddedResourceMap,
@@ -139,6 +140,11 @@ function copyRollupEntryCssAssets() {
 
 function copyRollupEntryStaticAssets() {
   const staticDirs = ['thirds'];
+  const staticFiles = new Set(
+    copyRollupEntryFiles(
+      sdkStaticFiles.filter(file => !isInStaticDir(file, staticDirs))
+    )
+  );
 
   staticDirs.forEach(dir => {
     const sourceDir = path.join(sourceSdkDir, dir);
@@ -149,13 +155,19 @@ function copyRollupEntryStaticAssets() {
     }
   });
 
-  return staticDirs.flatMap(dir => {
+  staticDirs.flatMap(dir => {
     const targetDir = path.join(rollupEntryOutDir, dir);
 
     return fs.existsSync(targetDir)
       ? listFiles(rollupEntryOutDir, dir)
       : [];
-  }).sort();
+  }).forEach(file => staticFiles.add(file));
+
+  return [...staticFiles].sort();
+}
+
+function isInStaticDir(file, staticDirs) {
+  return staticDirs.some(dir => file === dir || file.startsWith(dir + '/'));
 }
 
 function copyRollupEntryFiles(files) {

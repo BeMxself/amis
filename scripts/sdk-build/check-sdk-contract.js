@@ -6,7 +6,8 @@ const {
   getExpectedChunkFiles,
   getExpectedSdkFiles,
   parseResourceMap,
-  sdkCssFiles
+  sdkCssFiles,
+  sdkStaticFiles
 } = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
@@ -21,11 +22,6 @@ const warnings = [];
 
 const expectedChunkFiles = getExpectedChunkFiles(sdkDir);
 const expectedFiles = getExpectedSdkFiles(sdkDir);
-const expectedRollupEntryStaticFiles = [
-  'thirds/pdfjs-dist/build/pdf.worker.min.mjs',
-  'thirds/monaco-editor/min/vs/loader.js',
-  'thirds/monaco-editor/min/vs/base/worker/workerMain.js'
-];
 const sdkScopedCssFiles = ['sdk.css', 'ang.css', 'dark.css', 'antd.css'];
 
 if (!fs.existsSync(sdkDir)) {
@@ -193,7 +189,7 @@ function assertRollupEntryStaticAssets() {
     }
   });
 
-  expectedRollupEntryStaticFiles.forEach(file => {
+  sdkStaticFiles.forEach(file => {
     if (!staticFiles.has(file)) {
       fail(`Rollup entry manifest does not list static asset: ${file}`);
     }
