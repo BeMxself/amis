@@ -16,6 +16,7 @@ const sdkDir = path.resolve(
   repoRoot,
   readOption('--sdk-dir') || 'packages/amis/sdk'
 );
+const baselineSdkDir = path.join(repoRoot, 'packages/amis/sdk');
 
 const errors = [];
 const warnings = [];
@@ -23,6 +24,19 @@ const warnings = [];
 const expectedChunkFiles = getExpectedChunkFiles(sdkDir);
 const expectedFiles = getExpectedSdkFiles(sdkDir);
 const sdkScopedCssFiles = ['sdk.css', 'ang.css', 'dark.css', 'antd.css'];
+const rollupEntryExactBaselineFiles = [
+  'iconfont.css',
+  'iconfont.eot',
+  'iconfont.svg',
+  'iconfont.ttf',
+  'iconfont.woff',
+  'locale/de-DE.js',
+  'thirds/moment-timezone/data/packed/latest.json',
+  'thirds/pdfjs-dist/build/pdf.worker.min.mjs',
+  'thirds/hls.js/hls.js',
+  'thirds/mpegts.js/mpegts.js',
+  'thirds/pdfjs-dist/build/pdf.js'
+];
 
 if (!fs.existsSync(sdkDir)) {
   fail(
@@ -223,6 +237,74 @@ function assertRollupEntryStaticAssets() {
   staticFiles.forEach(file => {
     assertNonEmptyFile(`rollup-entry/${file}`);
   });
+
+  assertSameDirectoryFileList(
+    path.join(baselineSdkDir, 'thirds'),
+    sdkPath('rollup-entry/thirds'),
+    'rollup-entry/thirds'
+  );
+
+  rollupEntryExactBaselineFiles.forEach(assertSameRollupEntryBaselineFile);
+}
+
+function assertSameDirectoryFileList(leftDir, rightDir, label) {
+  if (!fs.existsSync(leftDir)) {
+    fail(`Missing SDK baseline directory for ${label}: ${leftDir}`);
+    return;
+  }
+
+  if (!fs.existsSync(rightDir)) {
+    fail(`Missing SDK artifact directory: ${label}`);
+    return;
+  }
+
+  const leftFiles = listFiles(leftDir).sort();
+  const rightFiles = listFiles(rightDir).sort();
+  const missing = leftFiles.filter(file => !rightFiles.includes(file));
+  const extra = rightFiles.filter(file => !leftFiles.includes(file));
+
+  if (missing.length) {
+    fail(`${label} is missing baseline files: ${formatFileList(missing)}`);
+  }
+
+  if (extra.length) {
+    fail(`${label} has extra files: ${formatFileList(extra)}`);
+  }
+}
+
+function assertSameRollupEntryBaselineFile(file) {
+  const baselineFile = path.join(baselineSdkDir, file);
+  const rollupEntryFile = sdkPath(`rollup-entry/${file}`);
+
+  if (!fs.existsSync(baselineFile) || !fs.existsSync(rollupEntryFile)) {
+    return;
+  }
+
+  if (!fs.readFileSync(baselineFile).equals(fs.readFileSync(rollupEntryFile))) {
+    fail(`rollup-entry/${file} does not match SDK baseline.`);
+  }
+}
+
+function listFiles(dir, prefix = '') {
+  return fs.readdirSync(path.join(dir, prefix), {withFileTypes: true}).flatMap(
+    entry => {
+      const file = path.join(prefix, entry.name);
+
+      if (entry.isDirectory()) {
+        return listFiles(dir, file);
+      }
+
+      if (entry.isFile()) {
+        return file.split(path.sep).join('/');
+      }
+
+      return [];
+    }
+  );
+}
+
+function formatFileList(files) {
+  return files.slice(0, 10).join(', ') + (files.length > 10 ? ', ...' : '');
 }
 
 function fail(message) {
