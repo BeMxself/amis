@@ -178,7 +178,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 不先替换工具，先抽出可测试逻辑。
 
-- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js`、`scripts/sdk-build/build-sdk-theme-css.js`、`scripts/sdk-build/rewrite-sdk-resource-map.js`、`scripts/sdk-build/collect-sdk-placeholder-assets.js` 和 `scripts/sdk-build/prepare-sdk-js.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.amis-scope` 前缀规则、主题 CSS 输出规则、`sdk@<version>BasePath` URL 改写协议、placeholder 资源分类逻辑和 SDK JS 后处理规则。
+- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js`、`scripts/sdk-build/build-sdk-theme-css.js`、`scripts/sdk-build/rewrite-sdk-css-urls.js`、`scripts/sdk-build/rewrite-sdk-resource-map.js`、`scripts/sdk-build/collect-sdk-placeholder-assets.js` 和 `scripts/sdk-build/prepare-sdk-js.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.amis-scope` 前缀规则、主题 CSS 输出规则、package CSS URL 到 SDK `thirds/` 的改写规则、`sdk@<version>BasePath` URL 改写协议、placeholder 资源分类逻辑和 SDK JS 后处理规则。
 - 将 `fis-conf.js` 中 `publish-sdk` 的包规则整理成数据文件，例如 `scripts/sdk-build/chunks.ts`。当前已先用 CommonJS 数据文件 `scripts/sdk-build/chunk-plan.js` 承接现有分包契约，供 contract check 和未来 Rollup/Vite SDK builder 共享。
 - 将 `__uri`/`__inline` 转换规则统一到可复用插件，避免 Vite dev 和 FIS publish 双轨漂移。
 
@@ -202,7 +202,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前还新增 `npm run check-sdk-rollup-entry`，使用真实 `examples/embed.tsx` 入口跑一次内存 Rollup 构建，并把 workspace 包显式锚到当前 SDK/FIS3 依赖的 `lib` 入口，避免 package `exports.import` 把 `amis-ui/lib/*` 重定向到 `esm/*` 后产生与现有 SDK 路径不同的导出校验结果。现在该检查还会用 jsdom 执行 embedded `sdk.js`，验证 `window.amisRequire`、`amis/embed` 和 `amis@<version>/embed` 在 runtime 下能拿到 `embed()`，并拦截动态 script 加载来渲染一个最小 `page` schema，覆盖 lazy renderer chunk 加载链路。Rollup entry helper 也已把 FIS CJS 产物里的 `require(['./renderers/X.js', 'tslib'], cb)` 转成 Rollup 可见的 dynamic import，并让 resource map 使用 chunk module id 而不是 package id 表达依赖。这一步依赖先按正式发布顺序生成 fresh workspace `lib`；它只证明真实入口、SWC TS/TSX transform、asset 空模块、loader bridge、entry alias、resource map、chunk manifest 和基础 lazy renderer 的最小链路能跑通，尚不声明 `sdk-next` 已具备完整 SDK 分包能力。
 
-当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
+当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀，并覆盖 Font Awesome 这类 package CSS 相对字体 URL 改写到 SDK `thirds/` 的规则。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
 
 当前还新增 `npm run check-sdk-rollup-directives` 和 Rollup entry 内的 `sdk-fis-directives` 插件，先覆盖 SDK 真实入口里已经出现的 FIS 专有资源语义：`examples/loadPdfjsWorker.ts` 的 `__uri('pdfjs-dist/...')` 会被改写成 SDK 内 `/thirds/...` URL，`filterUrl(url)` 会按正式 SDK 行为拼上 `amis['sdk@<version>BasePath'] + url.substring(1)`；`packages/amis-ui/lib/components/Editor.js` 的 Monaco worker `/pkg/*.js` 也复用同一 `filterUrl` 改写。插件同时覆盖 `examples/loadMonacoEditor.ts` 这条后续可能进入 Rollup 图的 Monaco loader 路径，并支持当前 examples 中实际出现的相对 JSON `__inline('./*.json')` 形态。这个插件目前只覆盖 worker/thirds URL 和 JSON inline，不处理 examples 普通图片音视频，也不做通用文件内联器。
 

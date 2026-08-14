@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const {buildSdkThemeCss} = require('./build-sdk-theme-css');
+const {rewriteSdkCssUrls} = require('./rewrite-sdk-css-urls');
 
 const themeCss = buildSdkThemeCss([
   {name: 'ang.scss', content: '.AngOnly { color: red; }'},
@@ -77,6 +78,39 @@ assertContains(
   byTheme.cxd.content,
   '.monaco-editor { color: black; }',
   'Monaco selectors should not be scoped'
+);
+
+const rewrittenUrls = rewriteSdkCssUrls(
+  [
+    '@font-face {',
+    '  src: url("../webfonts/fa-solid-900.woff2") format("woff2"),',
+    '    url(../webfonts/fa-solid-900.ttf) format("truetype"),',
+    '    url(data:font/woff2;base64,abc) format("woff2"),',
+    '    url("https://example.com/font.woff2") format("woff2");',
+    '}'
+  ].join('\n'),
+  {from: '@fortawesome/fontawesome-free/css/all.css'}
+);
+
+assertContains(
+  rewrittenUrls,
+  'url("./thirds/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2")',
+  'relative package CSS URLs should be rewritten into SDK thirds'
+);
+assertContains(
+  rewrittenUrls,
+  'url(./thirds/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf)',
+  'unquoted relative package CSS URLs should preserve quote style'
+);
+assertContains(
+  rewrittenUrls,
+  'url(data:font/woff2;base64,abc)',
+  'data URLs should stay inline'
+);
+assertContains(
+  rewrittenUrls,
+  'url("https://example.com/font.woff2")',
+  'absolute URLs should stay absolute'
 );
 
 console.log(`SDK theme CSS OK: ${themeCss.length} themes checked.`);
