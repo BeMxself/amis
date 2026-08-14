@@ -111,6 +111,9 @@ async function writeRollupEntryOutput() {
       'utf8'
     )
   );
+  const emptyAssetManifest = JSON.parse(
+    fs.readFileSync(path.join(rollupEntryOutDir, 'sdk-empty-assets.json'), 'utf8')
+  );
 
   return {
     outDir: relative(rollupEntryOutDir),
@@ -121,6 +124,7 @@ async function writeRollupEntryOutput() {
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),
+    emptyAssetImports: emptyAssetManifest.imports || [],
     staticFiles,
     files: listFiles(rollupEntryOutDir).map(file => `rollup-entry/${file}`)
   };

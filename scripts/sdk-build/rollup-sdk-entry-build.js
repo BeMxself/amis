@@ -30,7 +30,7 @@ async function generateRollupSdkEntryOutput(options) {
     input: options.entry || defaultEntry,
     plugins: [
       resolveWorkspaceLibImports(),
-      emptyAssetImports(),
+      emptyAssetImports({fileName: 'sdk-empty-assets.json'}),
       transformSdkEntryTypescript(),
       sdkFisDirectivePlugin({basePathExpression: sdkBasePathExpression}),
       json(),
@@ -395,16 +395,37 @@ function resolveWorkspaceLibImport(id, packageName, libDir) {
   return path.extname(file) ? file : `${file}.js`;
 }
 
-function emptyAssetImports() {
+function emptyAssetImports(options) {
+  options = options || {};
+
   const assetNamespace = '\0sdk-empty-asset:';
+  const imports = new Set();
 
   return {
     name: 'sdk-empty-asset-imports',
     resolveId(id) {
-      return isAssetImport(id) ? assetNamespace + id : null;
+      if (!isAssetImport(id)) {
+        return null;
+      }
+
+      imports.add(id);
+      return assetNamespace + id;
     },
     load(id) {
       return id.startsWith(assetNamespace) ? 'export default "";' : null;
+    },
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: options.fileName || 'sdk-empty-assets.json',
+        source: JSON.stringify(
+          {
+            imports: Array.from(imports).sort()
+          },
+          null,
+          2
+        )
+      });
     }
   };
 }

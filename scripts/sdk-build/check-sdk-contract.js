@@ -158,6 +158,16 @@ function assertRollupEntryStaticAssets() {
     return;
   }
 
+  if (!Array.isArray(manifest.rollupEntry.emptyAssetImports)) {
+    fail('Rollup entry manifest does not list empty asset imports.');
+  } else if (manifest.rollupEntry.emptyAssetImports.length) {
+    fail(
+      `Rollup entry has stubbed asset imports: ${manifest.rollupEntry.emptyAssetImports.join(
+        ', '
+      )}`
+    );
+  }
+
   const staticFiles = new Set(manifest.rollupEntry.staticFiles || []);
 
   expectedRollupEntryStaticFiles.forEach(file => {

@@ -22,6 +22,7 @@ async function main() {
 
   const embeddedSdkJs = createSdkEntryWithEmbeddedResourceMap(output);
   const resourceMap = parseResourceMap(embeddedSdkJs);
+  const emptyAssets = JSON.parse(findAsset(output, 'sdk-empty-assets.json').source);
   const manifest = JSON.parse(findAsset(output, 'sdk-chunk-manifest.json').source);
   const entryChunk = findChunk(output, 'sdk.js');
 
@@ -76,6 +77,14 @@ async function main() {
   assert(
     manifest.chunks.some(chunk => chunk.fileName === 'sdk.js'),
     'chunk manifest should include sdk.js'
+  );
+  assert(
+    Array.isArray(emptyAssets.imports),
+    'empty asset manifest should list stubbed asset imports'
+  );
+  assert(
+    emptyAssets.imports.length === 0,
+    `Rollup SDK entry should not silently stub asset imports: ${emptyAssets.imports.join(', ')}`
   );
   await assertRuntimeEntry(embeddedSdkJs, output);
 
