@@ -92,6 +92,10 @@ async function main() {
     'chunk manifest should include sdk.js'
   );
   assert(
+    manifest.chunks.some(chunk => chunk.fileName === 'json-view.js'),
+    'chunk manifest should include json-view.js'
+  );
+  assert(
     Array.isArray(emptyAssets.imports),
     'empty asset manifest should list stubbed asset imports'
   );

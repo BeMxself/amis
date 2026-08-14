@@ -38,7 +38,7 @@ const sdkChunkPlan = {
       '!reactcss/**',
       '!tinycolor2/**',
       '!cropperjs/**',
-      '!react-json-view/**',
+      '!@uiw/react-json-view/**',
       '!react-cropper/**',
       '!jsbarcode/**',
       '!amis-ui/lib/components/BarCode.js',
@@ -91,7 +91,7 @@ const sdkChunkPlan = {
       'echarts-wordcloud/**'
     ],
     'office-viewer.js': ['office-viewer/**', 'numfmt/**'],
-    'json-view.js': ['react-json-view/**'],
+    'json-view.js': ['@uiw/react-json-view/**'],
     // Preserve the historical output typo. Renaming it would be an SDK break.
     'fomula-doc.js': ['amis-formula/lib/doc.js'],
     'rest.js': [

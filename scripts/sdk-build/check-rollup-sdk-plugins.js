@@ -40,6 +40,11 @@ async function main() {
     'packages/amis/src/components/BarCode.tsx',
     'barcode'
   );
+  assertManualChunk(
+    manualChunks,
+    'node_modules/@uiw/react-json-view/esm/index.js',
+    'json-view'
+  );
   assertManualChunk(manualChunks, 'node_modules/react/index.js', undefined);
 
   const bundle = await rollup({
@@ -50,8 +55,9 @@ async function main() {
           import {message} from 'virtual:shared';
           import {chart} from 'echarts/core';
           import {Markdown} from 'amis-ui/lib/components/Markdown.js';
+          import {JsonView} from '@uiw/react-json-view';
           console.log(message);
-          console.log(chart, Markdown);
+          console.log(chart, Markdown, JsonView);
           import('virtual:lazy').then(mod => console.log(mod.lazy));
         `,
         'virtual:shared': `export const message = 'hello';`,
@@ -66,6 +72,13 @@ async function main() {
             'packages/amis-ui/lib/components/Markdown.js'
           ),
           code: `export const Markdown = 'markdown';`
+        },
+        '@uiw/react-json-view': {
+          id: path.join(
+            repoRoot,
+            'node_modules/@uiw/react-json-view/esm/index.js'
+          ),
+          code: `export const JsonView = 'json-view';`
         }
       }),
       sdkChunkManifestPlugin({fileName: 'sdk-chunk-manifest.json'}),
@@ -102,6 +115,10 @@ async function main() {
   assert(
     chunkManifest.chunks.some(chunk => chunk.fileName === 'markdown.js'),
     'manualChunks should emit markdown.js'
+  );
+  assert(
+    chunkManifest.chunks.some(chunk => chunk.fileName === 'json-view.js'),
+    'manualChunks should emit json-view.js'
   );
 
   console.log(
