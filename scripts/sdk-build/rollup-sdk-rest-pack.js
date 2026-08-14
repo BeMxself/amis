@@ -36,14 +36,42 @@ function packRollupSdkRestChunk(output, options) {
 
 function getRestChunkCandidates(output, restFileName) {
   const expectedChunks = new Set(Object.keys(sdkChunkPlan.chunks));
+  const staticEntryChunks = getStaticEntryChunks(output);
 
   return output.filter(
     item =>
       item.type === 'chunk' &&
-      item.isDynamicEntry &&
       item.fileName !== restFileName &&
-      !expectedChunks.has(item.fileName)
+      !expectedChunks.has(item.fileName) &&
+      !staticEntryChunks.has(item.fileName)
   );
+}
+
+function getStaticEntryChunks(output) {
+  const chunksByFileName = new Map(
+    output
+      .filter(item => item.type === 'chunk')
+      .map(chunk => [chunk.fileName, chunk])
+  );
+  const visited = new Set();
+
+  visit(sdkChunkPlan.entry);
+  return visited;
+
+  function visit(fileName) {
+    if (visited.has(fileName)) {
+      return;
+    }
+
+    const chunk = chunksByFileName.get(fileName);
+
+    if (!chunk) {
+      return;
+    }
+
+    visited.add(fileName);
+    (chunk.imports || []).forEach(visit);
+  }
 }
 
 function createRestChunk(chunks, packedFileNames, restFileName) {
