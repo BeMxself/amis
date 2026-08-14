@@ -7,14 +7,14 @@ const {
   getExpectedSdkFiles,
   parseResourceMap,
   sdkChunkPlan,
-  sdkCssFiles,
-  sdkStaticFiles
+  sdkCssFiles
 } = require('./sdk-contract');
 const {
   buildSdkHelperCssFromSource,
   buildSdkIe11Css,
   sdkIe11PatchCss
 } = require('./build-sdk-support-css-source');
+const {copySdkStaticAssetsFromSource} = require('./build-sdk-static-assets-source');
 const {buildSdkThemeCssFromSource} = require('./build-sdk-theme-css-source');
 const {
   createSdkEntryWithEmbeddedResourceMap,
@@ -195,35 +195,11 @@ async function writeRollupEntryIe11Css(file, css, cssFiles) {
 }
 
 function copyRollupEntryStaticAssets() {
-  const staticDirs = ['thirds'];
-  const staticFiles = new Set(
-    copyRollupEntryFiles(
-      sdkStaticFiles.filter(file => !isInStaticDir(file, staticDirs))
-    )
-  );
-
-  staticDirs.forEach(dir => {
-    const sourceDir = path.join(sourceSdkDir, dir);
-    const targetDir = path.join(rollupEntryOutDir, dir);
-
-    if (fs.existsSync(sourceDir)) {
-      fs.cpSync(sourceDir, targetDir, {recursive: true});
-    }
+  return copySdkStaticAssetsFromSource({
+    repoRoot,
+    outDir: rollupEntryOutDir,
+    sourceSdkDir
   });
-
-  staticDirs.flatMap(dir => {
-    const targetDir = path.join(rollupEntryOutDir, dir);
-
-    return fs.existsSync(targetDir)
-      ? listFiles(rollupEntryOutDir, dir)
-      : [];
-  }).forEach(file => staticFiles.add(file));
-
-  return [...staticFiles].sort();
-}
-
-function isInStaticDir(file, staticDirs) {
-  return staticDirs.some(dir => file === dir || file.startsWith(dir + '/'));
 }
 
 function copyRollupEntryFiles(files) {

@@ -4,13 +4,22 @@
 
 const fs = require('fs');
 
-try {
-  const localeFile = fs.readFileSync(process.argv[2], 'utf8');
-  console.log(
-    localeFile
-      .replace(`import {register} from '../locale';`, '')
-      .replace('register(', `amisRequire('amis').registerLocale(`)
-  );
-} catch (err) {
-  console.error(err);
+function generateSdkLocale(localeFile) {
+  return localeFile
+    .replace(`import {register} from '../locale';`, '')
+    .replace('register(', `amisRequire('amis').registerLocale(`);
 }
+
+if (require.main === module) {
+  try {
+    const localeFile = fs.readFileSync(process.argv[2], 'utf8');
+    console.log(generateSdkLocale(localeFile));
+  } catch (err) {
+    console.error(err);
+    process.exitCode = 1;
+  }
+}
+
+module.exports = {
+  generateSdkLocale
+};

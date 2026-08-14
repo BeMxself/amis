@@ -219,6 +219,10 @@ function assertRollupEntryStaticAssets() {
 
     assertNonEmptyFile(`rollup-entry/${file}`);
   });
+
+  staticFiles.forEach(file => {
+    assertNonEmptyFile(`rollup-entry/${file}`);
+  });
 }
 
 function fail(message) {
