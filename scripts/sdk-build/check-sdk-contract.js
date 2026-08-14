@@ -2,6 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
+const {JSDOM} = require('jsdom');
+const {version} = require('../../packages/amis/package.json');
 const {
   getExpectedChunkFiles,
   getExpectedSdkFiles,
@@ -9,6 +11,7 @@ const {
   sdkCssFiles,
   sdkStaticFiles
 } = require('./sdk-contract');
+const {sdkRuntimeAssets} = require('./sdk-runtime-assets');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
@@ -32,10 +35,7 @@ const rollupEntryExactBaselineFiles = [
   'iconfont.woff',
   'locale/de-DE.js',
   'thirds/moment-timezone/data/packed/latest.json',
-  'thirds/pdfjs-dist/build/pdf.worker.min.mjs',
-  'thirds/hls.js/hls.js',
-  'thirds/mpegts.js/mpegts.js',
-  'thirds/pdfjs-dist/build/pdf.js'
+  'thirds/pdfjs-dist/build/pdf.worker.min.mjs'
 ];
 
 if (!fs.existsSync(sdkDir)) {
@@ -245,6 +245,101 @@ function assertRollupEntryStaticAssets() {
   );
 
   rollupEntryExactBaselineFiles.forEach(assertSameRollupEntryBaselineFile);
+  assertRollupEntryRuntimeAssets();
+  assertRollupEntryRuntimeSmoke();
+}
+
+function assertRollupEntryRuntimeAssets() {
+  let resourceMap;
+
+  try {
+    resourceMap = parseResourceMap(readSdkText('rollup-entry/sdk.js'));
+  } catch (error) {
+    fail(`Cannot parse rollup-entry/sdk.js resource map: ${error.message}`);
+    return;
+  }
+
+  sdkRuntimeAssets.forEach(asset => {
+    const resource = (resourceMap.res || {})[asset.moduleId];
+
+    if (!resource || resource.type !== 'js') {
+      fail(`Rollup entry resource map does not list runtime asset: ${asset.moduleId}`);
+      return;
+    }
+
+    if (typeof resource.url !== 'string' || !resource.url.endsWith('/' + asset.file)) {
+      fail(`Rollup entry runtime asset has unexpected URL: ${asset.moduleId}`);
+    }
+
+    assertRollupEntryRuntimeModule(asset);
+  });
+}
+
+function assertRollupEntryRuntimeModule(asset) {
+  const file = `rollup-entry/${asset.file}`;
+  const contents = readSdkText(file);
+
+  assertContains(
+    contents,
+    `amis.define(${JSON.stringify(asset.moduleId)}`,
+    `${file} module id`
+  );
+
+  if (asset.moduleId === 'hls.js') {
+    assertContains(contents, 'isSupported', `${file} HLS API marker`);
+  } else if (asset.moduleId === 'mpegts.js') {
+    assertContains(contents, 'createPlayer', `${file} mpegts API marker`);
+  } else if (asset.moduleId === 'node_modules/pdfjs-dist/build/pdf.mjs') {
+    assertContains(contents, 'exports.getDocument', `${file} pdfjs API marker`);
+  }
+}
+
+function assertRollupEntryRuntimeSmoke() {
+  const dom = new JSDOM(
+    '<!doctype html><html><head></head><body></body></html>',
+    {
+      url: 'https://example.test/page.html',
+      runScripts: 'outside-only'
+    }
+  );
+  const {window} = dom;
+
+  Object.defineProperty(window.document, 'currentScript', {
+    configurable: true,
+    value: {src: 'https://cdn.example.test/sdk/sdk.js'}
+  });
+
+  try {
+    window.eval(createSdkLoaderSource());
+    sdkRuntimeAssets.forEach(asset => {
+      window.eval(readSdkText(`rollup-entry/${asset.file}`));
+    });
+
+    const hls = window.amis.require('hls.js');
+    const mpegts = window.amis.require('mpegts.js');
+    const pdfjs = window.amis.require('node_modules/pdfjs-dist/build/pdf.mjs');
+
+    if (typeof hls !== 'function' || typeof hls.isSupported !== 'function') {
+      fail('rollup-entry hls.js runtime API is not loadable.');
+    }
+
+    if (!mpegts || typeof mpegts.createPlayer !== 'function') {
+      fail('rollup-entry mpegts.js runtime API is not loadable.');
+    }
+
+    if (!pdfjs || typeof pdfjs.getDocument !== 'function' || !pdfjs.version) {
+      fail('rollup-entry pdfjs runtime API is not loadable.');
+    }
+  } catch (error) {
+    fail(`Rollup entry runtime smoke failed: ${error.message}`);
+  }
+}
+
+function createSdkLoaderSource() {
+  return fs
+    .readFileSync(path.join(repoRoot, 'examples/mod.js'), 'utf8')
+    .replace(/@@version/g, `@${version}`)
+    .replace(/@version/g, version);
 }
 
 function assertSameDirectoryFileList(leftDir, rightDir, label) {

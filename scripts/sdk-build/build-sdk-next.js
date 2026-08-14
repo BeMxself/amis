@@ -125,7 +125,7 @@ async function writeRollupEntryOutput() {
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
   const cssFiles = await writeRollupEntryCssAssets();
-  const staticFiles = copyRollupEntryStaticAssets();
+  const staticFiles = await copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
   const chunkManifest = JSON.parse(
@@ -194,11 +194,10 @@ async function writeRollupEntryIe11Css(file, css, cssFiles) {
   cssFiles.add(ie11File);
 }
 
-function copyRollupEntryStaticAssets() {
+async function copyRollupEntryStaticAssets() {
   return copySdkStaticAssetsFromSource({
     repoRoot,
-    outDir: rollupEntryOutDir,
-    sourceSdkDir
+    outDir: rollupEntryOutDir
   });
 }
 

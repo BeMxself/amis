@@ -31,10 +31,25 @@ function createRollupResourceMap(bundle, options) {
     });
   });
 
+  addExternalResources(res, options.externalResources || []);
+
   return {
     res,
     pkg: Object.fromEntries(pkgEntries)
   };
+}
+
+function addExternalResources(res, externalResources) {
+  externalResources.forEach(resource => {
+    if (!resource.moduleId || res[resource.moduleId]) {
+      return;
+    }
+
+    res[resource.moduleId] = {
+      url: resource.url,
+      type: resource.type || 'js'
+    };
+  });
 }
 
 function createResourceMapScript(resourceMap, options) {

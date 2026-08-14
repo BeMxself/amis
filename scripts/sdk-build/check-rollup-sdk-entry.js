@@ -11,6 +11,7 @@ const {
   sdkEntryAliases,
   sdkEntryModuleId
 } = require('./rollup-sdk-entry-build');
+const {sdkRuntimeAssets} = require('./sdk-runtime-assets');
 
 main().catch(error => {
   console.error(error);
@@ -74,6 +75,18 @@ async function main() {
     Object.keys(resourceMap.res).some(moduleId => moduleId === 'examples/embed.tsx'),
     'resource map should include examples/embed.tsx'
   );
+  sdkRuntimeAssets.forEach(asset => {
+    const resource = resourceMap.res[asset.moduleId];
+
+    assert(
+      resource && resource.type === 'js',
+      `resource map should include runtime asset ${asset.moduleId}`
+    );
+    assert(
+      resource.url && resource.url.endsWith('/' + asset.file),
+      `resource map should point ${asset.moduleId} to ${asset.file}`
+    );
+  });
   assert(
     manifest.chunks.some(chunk => chunk.fileName === 'sdk.js'),
     'chunk manifest should include sdk.js'

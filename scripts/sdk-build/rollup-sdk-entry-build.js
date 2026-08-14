@@ -11,6 +11,7 @@ const {createSdkManualChunks} = require('./rollup-sdk-manual-chunks');
 const {sdkFisDirectivePlugin} = require('./rollup-fis-directives');
 const {sdkChunkManifestPlugin} = require('./rollup-sdk-chunk-manifest');
 const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
+const {getSdkRuntimeResourceEntries} = require('./sdk-runtime-assets');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
@@ -46,6 +47,7 @@ async function generateRollupSdkEntryOutput(options) {
       sdkChunkManifestPlugin({fileName: 'sdk-chunk-manifest.json'}),
       sdkResourceMapPlugin({
         basePathExpression: sdkBasePathExpression,
+        externalResources: getSdkRuntimeResourceEntries(sdkBasePathExpression),
         fileName: 'resource-map.js'
       })
     ],
