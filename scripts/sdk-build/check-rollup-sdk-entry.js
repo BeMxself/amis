@@ -104,8 +104,8 @@ async function main() {
     `chunk manifest should not miss required chunks: ${manifest.missingRequiredChunks.join(', ')}`
   );
   assert(
-    isOnlyUnexpectedChunk(manifest, 'embed.js'),
-    `chunk manifest should only leave embed.js outside the planned SDK chunks: ${manifest.unexpectedChunks.join(', ')}`
+    manifest.unexpectedChunks.length === 0,
+    `chunk manifest should not leave chunks outside the planned SDK chunks: ${manifest.unexpectedChunks.join(', ')}`
   );
   assert(
     !manifest.chunks.some(chunk => chunk.fileName === 'Alert.js'),
@@ -223,13 +223,6 @@ function assertResourceMapModuleUsesFile(resourceMap, moduleId, fileName) {
   assert(
     pkg.url && pkg.url.endsWith('/' + fileName),
     `resource map entry ${moduleId} should point to ${fileName}`
-  );
-}
-
-function isOnlyUnexpectedChunk(manifest, fileName) {
-  return (
-    manifest.unexpectedChunks.length === 1 &&
-    manifest.unexpectedChunks[0] === fileName
   );
 }
 

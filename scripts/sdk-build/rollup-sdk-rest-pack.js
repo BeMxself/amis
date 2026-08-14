@@ -24,14 +24,81 @@ function packRollupSdkRestChunk(output, options) {
     restCandidates.map(chunk => chunk.fileName)
   );
   const restChunk = createRestChunk(restCandidates, packedFileNames, restFileName);
-  const packedOutput = output
+  let packedOutput = output
     .filter(item => !isPackedChunk(item, packedFileNames))
     .map(item => remapPackedChunkImports(item, packedFileNames, restFileName));
 
   packedOutput.push(restChunk);
+  packedOutput = packEmbeddedEntryChunks(packedOutput);
   replaceGeneratedAssets(packedOutput, options, packedFileNames, restFileName);
 
   return packedOutput;
+}
+
+function packEmbeddedEntryChunks(output) {
+  const expectedChunks = new Set(Object.keys(sdkChunkPlan.chunks));
+  const staticEntryChunks = getStaticEntryChunks(output);
+  const embeddedFileNames = new Set(
+    Array.from(staticEntryChunks).filter(
+      fileName => fileName !== sdkChunkPlan.entry && !expectedChunks.has(fileName)
+    )
+  );
+
+  if (!embeddedFileNames.size) {
+    return output;
+  }
+
+  const chunksByFileName = new Map(
+    output
+      .filter(item => item.type === 'chunk')
+      .map(chunk => [chunk.fileName, chunk])
+  );
+  const embeddedChunks = Array.from(embeddedFileNames).map(fileName => {
+    const chunk = chunksByFileName.get(fileName);
+
+    assert(chunk, `missing embedded entry chunk: ${fileName}`);
+    return chunk;
+  });
+
+  return output
+    .filter(item => !isPackedChunk(item, embeddedFileNames))
+    .map(item =>
+      item.type === 'chunk' && item.fileName === sdkChunkPlan.entry
+        ? createEntryChunkWithEmbeddedChunks(item, embeddedChunks, embeddedFileNames)
+        : remapPackedChunkImports(item, embeddedFileNames, sdkChunkPlan.entry)
+    );
+}
+
+function createEntryChunkWithEmbeddedChunks(
+  entryChunk,
+  embeddedChunks,
+  embeddedFileNames
+) {
+  const imports = new Set(entryChunk.imports || []);
+  const dynamicImports = new Set(entryChunk.dynamicImports || []);
+
+  embeddedFileNames.forEach(fileName => imports.delete(fileName));
+  embeddedChunks.forEach(chunk => {
+    (chunk.imports || []).forEach(fileName => imports.add(fileName));
+    (chunk.dynamicImports || []).forEach(fileName =>
+      dynamicImports.add(fileName)
+    );
+  });
+
+  return {
+    ...entryChunk,
+    imports: Array.from(imports).sort(),
+    dynamicImports: Array.from(dynamicImports).sort(),
+    modules: Object.assign(
+      {},
+      ...embeddedChunks.map(chunk => chunk.modules || {}),
+      entryChunk.modules || {}
+    ),
+    code:
+      embeddedChunks.map(chunk => chunk.code.trim()).join('\n;\n') +
+      '\n;\n' +
+      entryChunk.code
+  };
 }
 
 function getRestChunkCandidates(output, restFileName) {
