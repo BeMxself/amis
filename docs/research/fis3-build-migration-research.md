@@ -204,6 +204,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀，并覆盖 Font Awesome 这类 package CSS 相对字体 URL 改写到 SDK `thirds/` 的规则。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
 
+当前还新增 `npm run check-sdk-theme-css-source-parity`，用真实 `examples/sdk-placeholder.html` 入口重新收集 SDK CSS 源、编译 `amis-ui` SCSS、执行 package CSS URL 改写和 `.amis-scope` 前缀后，与正式 `packages/amis/sdk` 中四套主题 CSS 做声明级对比。该检查现在能确认源码生成的主题 CSS 声明集合与正式 SDK CSS 对齐，并把剩余差异分类为 Sass/compiler 输出形态：颜色表示/舍入差异，以及 Froala/TinyMCE 等第三方 CSS 的 `calc()` 算术表达式是否被提前规约。后者仍是切换 CSS 来源前必须处理或明确接受的兼容差异，不能把该检查通过等同于已经可以直接替换正式 CSS 产物。
+
 当前还新增 `npm run check-sdk-rollup-directives` 和 Rollup entry 内的 `sdk-fis-directives` 插件，先覆盖 SDK 真实入口里已经出现的 FIS 专有资源语义：`examples/loadPdfjsWorker.ts` 的 `__uri('pdfjs-dist/...')` 会被改写成 SDK 内 `/thirds/...` URL，`filterUrl(url)` 会按正式 SDK 行为拼上 `amis['sdk@<version>BasePath'] + url.substring(1)`；`packages/amis-ui/lib/components/Editor.js` 的 Monaco worker `/pkg/*.js` 也复用同一 `filterUrl` 改写。插件同时覆盖 `examples/loadMonacoEditor.ts` 这条后续可能进入 Rollup 图的 Monaco loader 路径，并支持当前 examples 中实际出现的相对 JSON `__inline('./*.json')` 形态。这个插件目前只覆盖 worker/thirds URL 和 JSON inline，不处理 examples 普通图片音视频，也不做通用文件内联器。
 
 `build-sdk-next-rollup-entry` 现在还会把正式 SDK 已生成的 `thirds/` 静态目录、`iconfont.*` 和 `locale/de-DE.js` 等 public static 文件复制到 `sdk-next/rollup-entry/`，让 embedded `sdk.js` 按自身 `currentScript` 推导出的 basePath 加载 pdf/Monaco worker、Font Awesome 字体、iconfont 与 locale 资源时有同目录静态资源可用；`check-sdk-next-contract` 在检测到 manifest 里存在 `rollupEntry` 时，会校验 `sdkStaticFiles` 清单中的静态文件被列入 manifest 且非空。这仍然是复用当前正式 SDK 静态产物，不代表 Rollup 已重新构建这些 third-party assets。
