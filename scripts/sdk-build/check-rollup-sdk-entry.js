@@ -99,10 +99,72 @@ async function main() {
     emptyAssets.imports.length === 0,
     `Rollup SDK entry should not silently stub asset imports: ${emptyAssets.imports.join(', ')}`
   );
+  assertNoDanglingFisAsyncCommonjsRequire(output);
+  assertRuntimeImportShape(output);
   await assertRuntimeEntry(embeddedSdkJs, output);
 
   console.log(
     `Rollup SDK entry OK: ${countChunks(output)} chunks, ${Object.keys(resourceMap.res).length} resources.`
+  );
+}
+
+function assertNoDanglingFisAsyncCommonjsRequire(output) {
+  const danglingChunks = output
+    .filter(item => item.type === 'chunk')
+    .filter(chunk =>
+      /new Promise\(function\(fullfill\)\s*\{\s*[\w$]+\.commonjsRequire\(\[/m.test(
+        chunk.code
+      )
+    )
+    .map(chunk => chunk.fileName);
+
+  assert(
+    danglingChunks.length === 0,
+    `Rollup SDK entry has hanging FIS async require wrappers: ${danglingChunks.join(
+      ', '
+    )}`
+  );
+}
+
+function assertRuntimeImportShape(output) {
+  const chunkNames = new Set(
+    output.filter(item => item.type === 'chunk').map(chunk => chunk.fileName)
+  );
+  const videoChunk = findChunk(output, 'Video.js');
+  const monacoLoaderChunk = output.find(
+    item =>
+      item.type === 'chunk' &&
+      Object.keys(item.modules || {}).some(moduleId =>
+        moduleId.endsWith('/examples/loadMonacoEditor.ts')
+      )
+  );
+
+  ['hls.js', 'mpegts.js'].forEach(moduleId => {
+    assert(
+      videoChunk.dynamicImports.includes(moduleId),
+      `Video.js should lazy-load ${moduleId} through the SDK runtime resource map`
+    );
+    assert(
+      !chunkNames.has(moduleId),
+      `Rollup SDK entry should not bundle ${moduleId}; it should use thirds runtime assets`
+    );
+  });
+
+  assert(
+    monacoLoaderChunk,
+    'Rollup SDK entry should resolve monaco-editor to examples/loadMonacoEditor.ts'
+  );
+  assert(
+    !hasModule(output, '/node_modules/monaco-editor/'),
+    'Rollup SDK entry should not bundle monaco-editor directly'
+  );
+}
+
+function hasModule(output, needle) {
+  return output.some(
+    item =>
+      item.type === 'chunk' &&
+      Object.keys(item.modules || {}).some(moduleId => moduleId.includes(needle))
   );
 }
 

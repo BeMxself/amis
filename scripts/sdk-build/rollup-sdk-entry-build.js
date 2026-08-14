@@ -30,6 +30,7 @@ async function generateRollupSdkEntryOutput(options) {
   const bundle = await rollup({
     input: options.entry || defaultEntry,
     plugins: [
+      resolveSdkRuntimeImports(),
       resolveWorkspaceLibImports(),
       emptyAssetImports({fileName: 'sdk-empty-assets.json'}),
       transformSdkEntryTypescript(),
@@ -332,7 +333,7 @@ function transformFisAsyncCommonjsRequire() {
       return rewriteFisAsyncCommonjsRequire(fs.readFileSync(id, 'utf8'));
     },
     transform(code, id) {
-      if (!code.includes('fullfill(tslib.__importStar(mod))')) {
+      if (!code.includes('fullfill(') || !code.includes('__importStar(')) {
         return null;
       }
 
@@ -348,12 +349,44 @@ function isFisAsyncCommonjsModule(id) {
 }
 
 function rewriteFisAsyncCommonjsRequire(code) {
-  const asyncRequirePattern = /return Promise\.resolve\(\)\.then\(function\(\) \{return new Promise\(function\(fullfill\) \{require\(\[['"]([^'"]+)['"],\s*['"]tslib['"]\], function\(mod, tslib\) \{fullfill\(tslib\.__importStar\(mod\)\)\}\)\}\)\}\)/g;
+  const ws = String.raw`\s*`;
+  const asyncRequirePattern = new RegExp(
+    [
+      String.raw`(return${ws})?Promise\.resolve\(\)\.then\(function\(\)${ws}\{`,
+      String.raw`return${ws}new${ws}Promise\(function\(fullfill\)${ws}\{`,
+      String.raw`require\(\[${ws}['"]([^'"]+)['"]${ws},${ws}['"]tslib['"]${ws}\]`,
+      String.raw`,${ws}function\(([\w$]+),${ws}([\w$]+)\)${ws}\{`,
+      String.raw`fullfill\(\4\.__importStar\(\3\)\)${ws};?`,
+      String.raw`${ws}\}${ws}\)${ws};?${ws}\}${ws}\)${ws};?${ws}\}${ws}\)${ws};?`
+    ].join(ws),
+    'g'
+  );
 
   return code.replace(
     asyncRequirePattern,
-    (_, moduleId) => `return import(${JSON.stringify(moduleId)})`
+    (_, returnPrefix, moduleId) =>
+      `${returnPrefix || ''}import(${JSON.stringify(moduleId)})`
   );
+}
+
+function resolveSdkRuntimeImports() {
+  const monacoLoader = path.join(repoRoot, 'examples/loadMonacoEditor.ts');
+  const externalRuntimeIds = new Map([
+    ['hls.js', 'hls.js'],
+    ['mpegts.js', 'mpegts.js']
+  ]);
+
+  return {
+    name: 'sdk-runtime-imports',
+    resolveId(id) {
+      if (id === 'monaco-editor') {
+        return monacoLoader;
+      }
+
+      const externalId = externalRuntimeIds.get(id);
+      return externalId ? {id: externalId, external: true} : null;
+    }
+  };
 }
 
 function resolveWorkspaceLibImports() {

@@ -247,6 +247,7 @@ function assertRollupEntryStaticAssets() {
   rollupEntryExactBaselineFiles.forEach(assertSameRollupEntryBaselineFile);
   assertRollupEntryRuntimeAssets();
   assertRollupEntryRuntimeSmoke();
+  assertRollupEntryLazyRuntimeImports();
 }
 
 function assertRollupEntryRuntimeAssets() {
@@ -333,6 +334,51 @@ function assertRollupEntryRuntimeSmoke() {
   } catch (error) {
     fail(`Rollup entry runtime smoke failed: ${error.message}`);
   }
+}
+
+function assertRollupEntryLazyRuntimeImports() {
+  const danglingFiles = listFiles(sdkPath('rollup-entry'))
+    .filter(file => file.endsWith('.js') && !file.startsWith('thirds/'))
+    .filter(file =>
+      /new Promise\(function\(fullfill\)\s*\{\s*[\w$]+\.commonjsRequire\(\[/m.test(
+        readSdkText(`rollup-entry/${file}`)
+      )
+    );
+
+  if (danglingFiles.length) {
+    fail(
+      `Rollup entry has hanging FIS async require wrappers: ${formatFileList(
+        danglingFiles
+      )}`
+    );
+  }
+
+  if (fs.existsSync(sdkPath('rollup-entry/hls.js'))) {
+    fail('Rollup entry should not bundle hls.js; use thirds/hls.js/hls.js.');
+  }
+
+  if (fs.existsSync(sdkPath('rollup-entry/mpegts.js'))) {
+    fail(
+      'Rollup entry should not bundle mpegts.js; use thirds/mpegts.js/mpegts.js.'
+    );
+  }
+
+  assertContains(
+    readSdkText('rollup-entry/Video.js'),
+    "require(['mpegts.js']",
+    'rollup-entry/Video.js mpegts runtime import'
+  );
+  assertContains(
+    readSdkText('rollup-entry/Video.js'),
+    "require(['hls.js']",
+    'rollup-entry/Video.js hls runtime import'
+  );
+  assertContains(
+    readSdkText('rollup-entry/Code.js'),
+    "require(['./loadMonacoEditor']",
+    'rollup-entry/Code.js Monaco SDK loader import'
+  );
+  assertNonEmptyFile('rollup-entry/loadMonacoEditor.js');
 }
 
 function createSdkLoaderSource() {
