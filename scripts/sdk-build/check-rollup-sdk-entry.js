@@ -96,6 +96,10 @@ async function main() {
     'chunk manifest should include json-view.js'
   );
   assert(
+    isOnlyMissingRequiredChunk(manifest, 'rest.js'),
+    `chunk manifest should only miss rest.js until the Rollup rest chunk is designed: ${manifest.missingRequiredChunks.join(', ')}`
+  );
+  assert(
     Array.isArray(emptyAssets.imports),
     'empty asset manifest should list stubbed asset imports'
   );
@@ -169,6 +173,13 @@ function hasModule(output, needle) {
     item =>
       item.type === 'chunk' &&
       Object.keys(item.modules || {}).some(moduleId => moduleId.includes(needle))
+  );
+}
+
+function isOnlyMissingRequiredChunk(manifest, fileName) {
+  return (
+    manifest.missingRequiredChunks.length === 1 &&
+    manifest.missingRequiredChunks[0] === fileName
   );
 }
 

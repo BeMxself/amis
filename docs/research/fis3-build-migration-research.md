@@ -197,6 +197,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 2. `sdkChunkPlanPlugin`：用显式 chunk plan 替代 FIS3 `deps-pack` DSL，初期按现有 `sdk.js`、`charts.js`、`tinymce.js` 等文件名一一对应。
    - 当前已先新增 `scripts/sdk-build/rollup-sdk-chunk-manifest.js`，通过 Rollup `generateBundle` 输出 `sdk-chunk-manifest.json`，把实际 chunk 列表与 `chunk-plan` 的必需/可选 chunk 做对照。
    - 当前还新增 `scripts/sdk-build/rollup-sdk-manual-chunks.js`，把 `chunk-plan` 中的正向专用分包规则转换为 Rollup `manualChunks` 函数，并在 smoke check 中验证 `echarts`/`zrender` 进入 `charts.js`、Markdown 组件进入 `markdown.js`、当前 `@uiw/react-json-view` 依赖进入 `json-view.js`；`amis-core` 的 JsonView wrapper 保持在正常依赖图中，避免人为挪入专用 chunk 后改变执行顺序。第一版故意不映射 `sdk.js`、`rest.js`、`!` 排除规则和 `:deps`/`:asyncs` 语义，避免把 FIS3 依赖图 DSL 误声明为已完整等价；这些需要等 Rollup 输入图和完整 SDK builder 接上后再做严格对齐。
+   - `rest.js` 仍需单独设计，不能简单把未命名模块作为 manualChunks 兜底包：试探性兜底会把依赖一并吸入 `rest`，形成类似 `color-picker -> rest -> json-view -> color-picker` 的 chunk 循环，并触发 CommonJS exports 半初始化问题。
 
 当前还新增 `npm run check-sdk-rollup-plugins`，使用 Rollup JS API 和虚拟入口真实跑一遍 `generateBundle`，确认 resource map 插件、chunk manifest 插件和 manualChunks 映射能在 Rollup 生命周期里 emit 可解析 asset。
 
