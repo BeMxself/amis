@@ -96,5 +96,7 @@ module.exports = {
   getExpectedChunkFiles,
   getExpectedSdkFiles,
   parseResourceMap,
-  sdkChunkPlan
+  sdkChunkPlan,
+  sdkCssFiles,
+  sdkStaticFiles
 };

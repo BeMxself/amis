@@ -5,7 +5,8 @@ const path = require('path');
 const {
   getExpectedChunkFiles,
   getExpectedSdkFiles,
-  parseResourceMap
+  parseResourceMap,
+  sdkCssFiles
 } = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
@@ -25,6 +26,7 @@ const expectedRollupEntryStaticFiles = [
   'thirds/monaco-editor/min/vs/loader.js',
   'thirds/monaco-editor/min/vs/base/worker/workerMain.js'
 ];
+const sdkScopedCssFiles = ['sdk.css', 'ang.css', 'dark.css', 'antd.css'];
 
 if (!fs.existsSync(sdkDir)) {
   fail(
@@ -169,6 +171,27 @@ function assertRollupEntryStaticAssets() {
   }
 
   const staticFiles = new Set(manifest.rollupEntry.staticFiles || []);
+  const cssFiles = new Set(manifest.rollupEntry.cssFiles || []);
+
+  sdkCssFiles.forEach(file => {
+    if (!cssFiles.has(file)) {
+      fail(`Rollup entry manifest does not list CSS asset: ${file}`);
+    }
+
+    assertNonEmptyFile(`rollup-entry/${file}`);
+  });
+
+  sdkScopedCssFiles.forEach(file => {
+    const css = readSdkText(`rollup-entry/${file}`);
+
+    if (css) {
+      assertContains(
+        css,
+        '.amis-scope',
+        `rollup-entry/${file} scoped selector prefix`
+      );
+    }
+  });
 
   expectedRollupEntryStaticFiles.forEach(file => {
     if (!staticFiles.has(file)) {

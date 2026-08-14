@@ -208,6 +208,8 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 `build-sdk-next-rollup-entry` 现在还会把正式 SDK 已生成的 `thirds/` 静态目录复制到 `sdk-next/rollup-entry/thirds/`，让 embedded `sdk.js` 按自身 `currentScript` 推导出的 basePath 加载 pdf/Monaco worker 时有同目录静态资源可用；`check-sdk-next-contract` 在检测到 manifest 里存在 `rollupEntry` 时，会校验关键 worker 静态文件被列入 manifest 且非空。这仍然是复用当前正式 SDK 静态产物，不代表 Rollup 已重新构建这些 third-party assets。
 
+`build-sdk-next-rollup-entry` 同时会把正式 SDK 已生成的 `sdk.css`、主题 CSS、IE11 CSS、`helper.css` 与 `ie11-patch.css` 复制到 `sdk-next/rollup-entry/`，并在 manifest 的 `rollupEntry.cssFiles` 中列出；contract 会验证这些 CSS 文件存在、非空，并确认主要主题文件仍包含 `.amis-scope`。这一步先让 Rollup entry overlay 自带当前正式 CSS，后续再把来源从 FIS3 产物替换为 `buildSdkThemeCss` 直接生成。
+
 Rollup entry 还会输出 `sdk-empty-assets.json`，记录被 `emptyAssetImports` 占位掉的裸 CSS/图片/font import；当前 contract 要求该列表为空，避免迁移过程中新增资源依赖被静默替换成空字符串。
 
 runtime smoke 曾暴露过两个边界：正式 FIS SDK 在同一 jsdom 环境下会先遇到 `Cannot find module "util"` 的基线问题；Rollup entry 如果使用未重新构建的 checked-in `lib`，会触发 `registerRenderer({getComponent})` 与 `packages/amis-core/lib/factory.js` 旧实现不兼容的问题。当前采用“先运行 workspace build 生成 fresh lib”的路线通过检查，并在 Rollup entry helper 中显式校验 `packages/amis-core/lib/factory.js` 已包含 async renderer 支持；另一条“让 Rollup 输入图直接吃 `src`”会继续牵涉 decorators、type-only import 等 TS 语义，暂不在 entry overlay 里临时补丁化。

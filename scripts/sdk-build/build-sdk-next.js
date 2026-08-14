@@ -6,7 +6,8 @@ const path = require('path');
 const {
   getExpectedSdkFiles,
   parseResourceMap,
-  sdkChunkPlan
+  sdkChunkPlan,
+  sdkCssFiles
 } = require('./sdk-contract');
 const {
   createSdkEntryWithEmbeddedResourceMap,
@@ -102,6 +103,7 @@ async function writeRollupEntryOutput() {
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
+  const cssFiles = copyRollupEntryCssAssets();
   const staticFiles = copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
@@ -124,10 +126,15 @@ async function writeRollupEntryOutput() {
     resourceCount: Object.keys(resourceMap.res || {}).length,
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),
+    cssFiles,
     emptyAssetImports: emptyAssetManifest.imports || [],
     staticFiles,
     files: listFiles(rollupEntryOutDir).map(file => `rollup-entry/${file}`)
   };
+}
+
+function copyRollupEntryCssAssets() {
+  return copyRollupEntryFiles(sdkCssFiles);
 }
 
 function copyRollupEntryStaticAssets() {
@@ -148,6 +155,21 @@ function copyRollupEntryStaticAssets() {
     return fs.existsSync(targetDir)
       ? listFiles(rollupEntryOutDir, dir)
       : [];
+  }).sort();
+}
+
+function copyRollupEntryFiles(files) {
+  return files.filter(file => {
+    const sourceFile = path.join(sourceSdkDir, file);
+    const targetFile = path.join(rollupEntryOutDir, file);
+
+    if (!fs.existsSync(sourceFile)) {
+      return false;
+    }
+
+    fs.mkdirSync(path.dirname(targetFile), {recursive: true});
+    fs.copyFileSync(sourceFile, targetFile);
+    return true;
   }).sort();
 }
 
