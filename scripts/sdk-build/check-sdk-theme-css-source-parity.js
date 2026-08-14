@@ -172,6 +172,10 @@ function classifyValueDifference(generatedValue, formalValue) {
   const generated = normalizeCssValue(generatedValue);
   const formal = normalizeCssValue(formalValue);
 
+  if (hasPreprocessorExpression(generatedValue)) {
+    return '';
+  }
+
   if (generated === formal) {
     return 'exactValues';
   }
@@ -223,9 +227,13 @@ function normalizeCssMathValue(value) {
 
 function hasFormalPreprocessorExpression(generatedValue, formalValue) {
   return (
-    !/(?:\$[a-z0-9_-]+|px2rem\()/i.test(generatedValue) &&
-    /(?:\$[a-z0-9_-]+|px2rem\()/i.test(formalValue)
+    !hasPreprocessorExpression(generatedValue) &&
+    hasPreprocessorExpression(formalValue)
   );
+}
+
+function hasPreprocessorExpression(value) {
+  return /(?:\$[a-z0-9_-]+|px2rem\()/i.test(value);
 }
 
 function normalizeCssValue(value) {

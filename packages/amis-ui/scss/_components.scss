@@ -3876,7 +3876,7 @@
   --Timeline-horizontal-content-margin-top: var(--Timeline-horizontal-top-size);
   --TimelineItem--icon-radius: 50%;
   --TimelineItem--round-radius: 50%;
-  --TimelineItem--content-radius: px2rem(2px);
+  --TimelineItem--content-radius: #{px2rem(2px)};
   --TimelineItem-detail-visible-shadow: var(--Timeline-shadow);
   --TimelineItem--font-size: var(--fontSizeSm);
   --TimelineItem--text-primary-color: var(--Timeline-title-color);
