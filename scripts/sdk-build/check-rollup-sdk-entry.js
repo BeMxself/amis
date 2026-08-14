@@ -96,8 +96,25 @@ async function main() {
     'chunk manifest should include json-view.js'
   );
   assert(
-    isOnlyMissingRequiredChunk(manifest, 'rest.js'),
-    `chunk manifest should only miss rest.js until the Rollup rest chunk is designed: ${manifest.missingRequiredChunks.join(', ')}`
+    manifest.chunks.some(chunk => chunk.fileName === 'rest.js'),
+    'chunk manifest should include rest.js'
+  );
+  assert(
+    manifest.missingRequiredChunks.length === 0,
+    `chunk manifest should not miss required chunks: ${manifest.missingRequiredChunks.join(', ')}`
+  );
+  assert(
+    !manifest.chunks.some(chunk => chunk.fileName === 'Alert.js'),
+    'dynamic renderer chunks should be packed into rest.js'
+  );
+  assert(
+    findChunk(output, 'rest.js').code.includes("amis.define('Alert'"),
+    'rest.js should contain packed dynamic renderer AMD definitions'
+  );
+  assertResourceMapModuleUsesFile(
+    resourceMap,
+    'amis/lib/renderers/Alert.js',
+    'rest.js'
   );
   assert(
     Array.isArray(emptyAssets.imports),
@@ -138,7 +155,10 @@ function assertRuntimeImportShape(output) {
   const chunkNames = new Set(
     output.filter(item => item.type === 'chunk').map(chunk => chunk.fileName)
   );
-  const videoChunk = findChunk(output, 'Video.js');
+  const videoChunk = findChunkWithModule(
+    output,
+    '/packages/amis/lib/renderers/Video.js'
+  );
   const monacoLoaderChunk = output.find(
     item =>
       item.type === 'chunk' &&
@@ -176,10 +196,29 @@ function hasModule(output, needle) {
   );
 }
 
-function isOnlyMissingRequiredChunk(manifest, fileName) {
-  return (
-    manifest.missingRequiredChunks.length === 1 &&
-    manifest.missingRequiredChunks[0] === fileName
+function findChunkWithModule(output, needle) {
+  const chunk = output.find(
+    item =>
+      item.type === 'chunk' &&
+      Object.keys(item.modules || {}).some(moduleId => moduleId.includes(needle))
+  );
+
+  assert(chunk, `Rollup SDK entry should include module ${needle}`);
+  return chunk;
+}
+
+function assertResourceMapModuleUsesFile(resourceMap, moduleId, fileName) {
+  const resource = resourceMap.res[moduleId];
+
+  assert(resource, `resource map should include ${moduleId}`);
+  assert(resource.pkg, `resource map entry ${moduleId} should use a package`);
+
+  const pkg = resourceMap.pkg[resource.pkg];
+
+  assert(pkg, `resource map package ${resource.pkg} should exist`);
+  assert(
+    pkg.url && pkg.url.endsWith('/' + fileName),
+    `resource map entry ${moduleId} should point to ${fileName}`
   );
 }
 

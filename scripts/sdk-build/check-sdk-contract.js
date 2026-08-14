@@ -364,21 +364,68 @@ function assertRollupEntryLazyRuntimeImports() {
   }
 
   assertContains(
-    readSdkText('rollup-entry/Video.js'),
+    readSdkText(
+      findRollupEntryFileContaining(
+        "require(['mpegts.js']",
+        'mpegts runtime import'
+      )
+    ),
     "require(['mpegts.js']",
-    'rollup-entry/Video.js mpegts runtime import'
+    'Rollup entry mpegts runtime import'
   );
   assertContains(
-    readSdkText('rollup-entry/Video.js'),
+    readSdkText(
+      findRollupEntryFileContaining("require(['hls.js']", 'hls runtime import')
+    ),
     "require(['hls.js']",
-    'rollup-entry/Video.js hls runtime import'
+    'Rollup entry hls runtime import'
   );
   assertContains(
-    readSdkText('rollup-entry/Code.js'),
+    readSdkText(
+      findRollupEntryFileContaining(
+        "require(['./loadMonacoEditor']",
+        'Monaco SDK loader import'
+      )
+    ),
     "require(['./loadMonacoEditor']",
-    'rollup-entry/Code.js Monaco SDK loader import'
+    'Rollup entry Monaco SDK loader import'
   );
-  assertNonEmptyFile('rollup-entry/loadMonacoEditor.js');
+  assertRollupEntryResourcePackage(
+    'loadMonacoEditor',
+    'rest.js',
+    'Monaco SDK loader chunk'
+  );
+}
+
+function findRollupEntryFileContaining(needle, label) {
+  const file = listFiles(sdkPath('rollup-entry'))
+    .filter(item => item.endsWith('.js') && !item.startsWith('thirds/'))
+    .find(item => readSdkText(`rollup-entry/${item}`).includes(needle));
+
+  if (!file) {
+    fail(`Missing Rollup entry ${label}: ${needle}`);
+    return 'rollup-entry/sdk.js';
+  }
+
+  return `rollup-entry/${file}`;
+}
+
+function assertRollupEntryResourcePackage(moduleId, fileName, label) {
+  let resourceMap;
+
+  try {
+    resourceMap = parseResourceMap(readSdkText('rollup-entry/sdk.js'));
+  } catch (error) {
+    fail(`Cannot parse rollup-entry/sdk.js resource map: ${error.message}`);
+    return;
+  }
+
+  const resource = (resourceMap.res || {})[moduleId];
+  const pkg = resource && resource.pkg && (resourceMap.pkg || {})[resource.pkg];
+
+  if (!pkg || typeof pkg.url !== 'string' || !pkg.url.endsWith('/' + fileName)) {
+    fail(`${label} should be packaged in ${fileName}.`);
+  }
 }
 
 function createSdkLoaderSource() {

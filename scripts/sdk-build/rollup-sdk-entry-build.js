@@ -11,6 +11,7 @@ const {createSdkManualChunks} = require('./rollup-sdk-manual-chunks');
 const {sdkFisDirectivePlugin} = require('./rollup-fis-directives');
 const {sdkChunkManifestPlugin} = require('./rollup-sdk-chunk-manifest');
 const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
+const {packRollupSdkRestChunk} = require('./rollup-sdk-rest-pack');
 const {getSdkRuntimeResourceEntries} = require('./sdk-runtime-assets');
 
 const repoRoot = path.resolve(__dirname, '../..');
@@ -62,7 +63,7 @@ async function generateRollupSdkEntryOutput(options) {
   });
 
   try {
-    return await bundle.generate({
+    const generated = await bundle.generate({
       format: 'amd',
       entryFileNames: 'sdk.js',
       chunkFileNames: '[name].js',
@@ -72,6 +73,14 @@ async function generateRollupSdkEntryOutput(options) {
       },
       manualChunks: createSdkManualChunks()
     });
+
+    return {
+      ...generated,
+      output: packRollupSdkRestChunk(generated.output, {
+        basePathExpression: sdkBasePathExpression,
+        externalResources: getSdkRuntimeResourceEntries(sdkBasePathExpression)
+      })
+    };
   } finally {
     await bundle.close();
   }
