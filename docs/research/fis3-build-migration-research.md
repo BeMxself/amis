@@ -210,7 +210,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 `build-sdk-next-rollup-entry` 现在还会把正式 SDK 已生成的 `thirds/` 静态目录、`iconfont.*` 和 `locale/de-DE.js` 等 public static 文件复制到 `sdk-next/rollup-entry/`，让 embedded `sdk.js` 按自身 `currentScript` 推导出的 basePath 加载 pdf/Monaco worker、Font Awesome 字体、iconfont 与 locale 资源时有同目录静态资源可用；`check-sdk-next-contract` 在检测到 manifest 里存在 `rollupEntry` 时，会校验 `sdkStaticFiles` 清单中的静态文件被列入 manifest 且非空。这仍然是复用当前正式 SDK 静态产物，不代表 Rollup 已重新构建这些 third-party assets。
 
-`build-sdk-next-rollup-entry` 同时会把正式 SDK 已生成的 `sdk.css`、主题 CSS、IE11 CSS、`helper.css` 与 `ie11-patch.css` 复制到 `sdk-next/rollup-entry/`，并在 manifest 的 `rollupEntry.cssFiles` 中列出；contract 会验证这些 CSS 文件存在、非空，并确认主要主题文件仍包含 `.amis-scope`。这一步先让 Rollup entry overlay 自带当前正式 CSS，后续再把来源从 FIS3 产物替换为 `buildSdkThemeCss` 直接生成。
+`build-sdk-next-rollup-entry` 同时会把 `sdk.css`、`ang.css`、`dark.css`、`antd.css` 四套主主题 CSS 由 `buildSdkThemeCssFromSource` 直接生成到 `sdk-next/rollup-entry/`，并把 `cxd.css` 作为 `sdk.css` 的兼容别名同步写出；IE11 CSS、`helper.css` 与 `ie11-patch.css` 仍复用当前正式 SDK 静态产物。manifest 的 `rollupEntry.cssFiles` 会列出这些 CSS 文件，contract 会验证它们存在、非空，并确认主要主题文件仍包含 `.amis-scope`。这一步代表 Rollup entry overlay 的主主题 CSS 已脱离直接复制 FIS3 产物，但顶层正式 `sdk/` 和 IE/helper CSS 仍未切换。
 
 Rollup entry 还会输出 `sdk-empty-assets.json`，记录被 `emptyAssetImports` 占位掉的裸 CSS/图片/font import；当前 contract 要求该列表为空，避免迁移过程中新增资源依赖被静默替换成空字符串。
 

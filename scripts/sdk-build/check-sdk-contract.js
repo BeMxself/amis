@@ -96,6 +96,21 @@ function assertContains(contents, needle, label) {
   }
 }
 
+function assertNoPreprocessorExpressions(contents, label) {
+  if (/(?:\$[a-z0-9_-]+|px2rem\()/i.test(contents)) {
+    fail(`${label} contains unresolved Sass expression.`);
+  }
+}
+
+function assertSameTextFile(left, right) {
+  const leftText = readSdkText(left);
+  const rightText = readSdkText(right);
+
+  if (leftText && rightText && leftText !== rightText) {
+    fail(`${right} does not match ${left}.`);
+  }
+}
+
 function assertResourceMap(sdkJs) {
   let resourceMap;
 
@@ -186,8 +201,11 @@ function assertRollupEntryStaticAssets() {
         '.amis-scope',
         `rollup-entry/${file} scoped selector prefix`
       );
+      assertNoPreprocessorExpressions(css, `rollup-entry/${file}`);
     }
   });
+
+  assertSameTextFile('rollup-entry/sdk.css', 'rollup-entry/cxd.css');
 
   sdkStaticFiles.forEach(file => {
     if (!staticFiles.has(file)) {

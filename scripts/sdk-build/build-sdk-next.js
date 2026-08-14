@@ -10,6 +10,7 @@ const {
   sdkCssFiles,
   sdkStaticFiles
 } = require('./sdk-contract');
+const {buildSdkThemeCssFromSource} = require('./build-sdk-theme-css-source');
 const {
   createSdkEntryWithEmbeddedResourceMap,
   defaultEntry,
@@ -30,6 +31,13 @@ const outDir = path.resolve(
 );
 const manifestFile = path.join(outDir, 'sdk-next-manifest.json');
 const rollupEntryOutDir = path.join(outDir, 'rollup-entry');
+const generatedThemeCssFiles = new Set([
+  'sdk.css',
+  'cxd.css',
+  'ang.css',
+  'dark.css',
+  'antd.css'
+]);
 
 main().catch(error => {
   console.error(error);
@@ -104,7 +112,7 @@ async function writeRollupEntryOutput() {
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
-  const cssFiles = copyRollupEntryCssAssets();
+  const cssFiles = writeRollupEntryCssAssets();
   const staticFiles = copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
@@ -135,7 +143,25 @@ async function writeRollupEntryOutput() {
 }
 
 function copyRollupEntryCssAssets() {
-  return copyRollupEntryFiles(sdkCssFiles);
+  return copyRollupEntryFiles(
+    sdkCssFiles.filter(file => !generatedThemeCssFiles.has(file))
+  );
+}
+
+function writeRollupEntryCssAssets() {
+  const cssFiles = new Set(copyRollupEntryCssAssets());
+
+  buildSdkThemeCssFromSource({repoRoot}).forEach(themeCss => {
+    writeRollupEntryTextFile(themeCss.filename, themeCss.content);
+    cssFiles.add(themeCss.filename);
+
+    if (themeCss.filename === 'sdk.css') {
+      writeRollupEntryTextFile('cxd.css', themeCss.content);
+      cssFiles.add('cxd.css');
+    }
+  });
+
+  return [...cssFiles].sort();
 }
 
 function copyRollupEntryStaticAssets() {
@@ -189,6 +215,13 @@ function writeRollupOutputItem(dir, item) {
   const fileName = item.fileName;
   const outputFile = path.join(dir, fileName);
   const contents = item.type === 'chunk' ? item.code : item.source;
+
+  fs.mkdirSync(path.dirname(outputFile), {recursive: true});
+  fs.writeFileSync(outputFile, contents);
+}
+
+function writeRollupEntryTextFile(file, contents) {
+  const outputFile = path.join(rollupEntryOutDir, file);
 
   fs.mkdirSync(path.dirname(outputFile), {recursive: true});
   fs.writeFileSync(outputFile, contents);
