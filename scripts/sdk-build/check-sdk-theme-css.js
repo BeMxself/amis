@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const {buildSdkThemeCss} = require('./build-sdk-theme-css');
+const {reduceSdkCssCalc} = require('./reduce-sdk-css-calc');
 const {rewriteSdkCssUrls} = require('./rewrite-sdk-css-urls');
 
 const themeCss = buildSdkThemeCss([
@@ -112,6 +113,26 @@ assertContains(
   'url("https://example.com/font.woff2")',
   'absolute URLs should stay absolute'
 );
+
+[
+  ['calc(10px)', '10px'],
+  ['calc(-1px)', '-1px'],
+  ['calc(4px - 1px)', '3px'],
+  ['calc(100% - (2 * 5px))', 'calc(100% - 10px)'],
+  ['calc(50% - (40px / 2))', 'calc(50% - 20px)'],
+  [
+    'pop calc(0.55s + 0.20s * (4)) linear infinite',
+    'pop 1.35s linear infinite'
+  ],
+  ['calc(100% / 3)', '33.3333333333%'],
+  ['calc(100% - px2rem(20px))', 'calc(100% - px2rem(20px))'],
+  [
+    '.x{content:"calc(10px)";width:calc(4px - 1px);/* calc(1px) */}',
+    '.x{content:"calc(10px)";width:3px;/* calc(1px) */}'
+  ]
+].forEach(([source, expected]) => {
+  assertEqual(reduceSdkCssCalc(source), expected, 'calc arithmetic reduction');
+});
 
 console.log(`SDK theme CSS OK: ${themeCss.length} themes checked.`);
 

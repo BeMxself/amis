@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const postcss = require('postcss');
 const {buildSdkThemeCssFromSource} = require('./build-sdk-theme-css-source');
+const {reduceSdkCssCalc} = require('./reduce-sdk-css-calc');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const sdkDir = path.join(repoRoot, 'packages/amis/sdk');
@@ -20,7 +21,9 @@ const totals = {
   declarations: 0,
   exactValues: 0,
   colorRepresentations: 0,
-  calcRepresentations: 0
+  calcArithmeticRepresentations: 0,
+  cssMathCalcWrappers: 0,
+  formalPreprocessorExpressions: 0
 };
 const diffs = [];
 
@@ -58,7 +61,9 @@ console.log(
     `SDK theme CSS source parity OK: ${generatedThemeCss.length} themes checked.`,
     `${totals.declarations} declarations compared.`,
     `${totals.colorRepresentations} color representation differences classified.`,
-    `${totals.calcRepresentations} calc arithmetic representation differences classified.`
+    `${totals.calcArithmeticRepresentations} calc arithmetic representation differences classified.`,
+    `${totals.cssMathCalcWrappers} CSS math calc wrapper differences classified.`,
+    `${totals.formalPreprocessorExpressions} formal CSS preprocessor expression differences classified.`
   ].join(' ')
 );
 
@@ -73,7 +78,9 @@ function compareCssDeclarations(generatedCss, formalCss) {
     declarations: 0,
     exactValues: 0,
     colorRepresentations: 0,
-    calcRepresentations: 0
+    calcArithmeticRepresentations: 0,
+    cssMathCalcWrappers: 0,
+    formalPreprocessorExpressions: 0
   };
   const cssDiffs = [];
 
@@ -173,11 +180,52 @@ function classifyValueDifference(generatedValue, formalValue) {
     return 'colorRepresentations';
   }
 
-  if (/calc\(/i.test(generatedValue) || /calc\(/i.test(formalValue)) {
-    return 'calcRepresentations';
+  if (hasEquivalentCalcArithmetic(generatedValue, formalValue)) {
+    return 'calcArithmeticRepresentations';
+  }
+
+  if (hasEquivalentCssMathCalcWrapper(generatedValue, formalValue)) {
+    return 'cssMathCalcWrappers';
+  }
+
+  if (hasFormalPreprocessorExpression(generatedValue, formalValue)) {
+    return 'formalPreprocessorExpressions';
   }
 
   return '';
+}
+
+function hasEquivalentCalcArithmetic(generatedValue, formalValue) {
+  return (
+    hasCalc(generatedValue, formalValue) &&
+    normalizeCssValue(reduceSdkCssCalc(generatedValue)) ===
+      normalizeCssValue(reduceSdkCssCalc(formalValue))
+  );
+}
+
+function hasEquivalentCssMathCalcWrapper(generatedValue, formalValue) {
+  return (
+    hasCalc(generatedValue, formalValue) &&
+    normalizeCssMathValue(generatedValue) === normalizeCssMathValue(formalValue)
+  );
+}
+
+function hasCalc(...values) {
+  return values.some(value => /calc\(/i.test(value));
+}
+
+function normalizeCssMathValue(value) {
+  return normalizeCssValue(reduceSdkCssCalc(value)).replace(
+    /\b(min|max|clamp)\(([^()]*)calc\(([^()]+)\)([^()]*)\)/gi,
+    (_, name, before, expression, after) => `${name}(${before}${expression}${after})`
+  );
+}
+
+function hasFormalPreprocessorExpression(generatedValue, formalValue) {
+  return (
+    !/(?:\$[a-z0-9_-]+|px2rem\()/i.test(generatedValue) &&
+    /(?:\$[a-z0-9_-]+|px2rem\()/i.test(formalValue)
+  );
 }
 
 function normalizeCssValue(value) {

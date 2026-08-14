@@ -3,6 +3,7 @@ const path = require('path');
 const sass = require('sass');
 const {buildSdkThemeCss} = require('./build-sdk-theme-css');
 const {collectSdkPlaceholderAssets} = require('./collect-sdk-placeholder-assets');
+const {reduceSdkCssCalc} = require('./reduce-sdk-css-calc');
 const {rewriteSdkCssUrls} = require('./rewrite-sdk-css-urls');
 
 const repoRoot = path.resolve(__dirname, '../..');
@@ -22,7 +23,12 @@ function buildSdkThemeCssFromSource(options) {
     markFileSkipped: () => {}
   });
 
-  return buildSdkThemeCss(sdkAssets.cssContents, options.themeOptions);
+  return buildSdkThemeCss(sdkAssets.cssContents, options.themeOptions).map(
+    item => ({
+      ...item,
+      content: reduceSdkCssCalc(item.content)
+    })
+  );
 }
 
 function resolveSdkPlaceholderFile(root, placeholderFile, url) {
