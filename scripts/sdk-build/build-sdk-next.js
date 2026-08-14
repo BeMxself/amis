@@ -10,6 +10,11 @@ const {
   sdkCssFiles,
   sdkStaticFiles
 } = require('./sdk-contract');
+const {
+  buildSdkHelperCssFromSource,
+  buildSdkIe11Css,
+  sdkIe11PatchCss
+} = require('./build-sdk-support-css-source');
 const {buildSdkThemeCssFromSource} = require('./build-sdk-theme-css-source');
 const {
   createSdkEntryWithEmbeddedResourceMap,
@@ -31,12 +36,19 @@ const outDir = path.resolve(
 );
 const manifestFile = path.join(outDir, 'sdk-next-manifest.json');
 const rollupEntryOutDir = path.join(outDir, 'rollup-entry');
-const generatedThemeCssFiles = new Set([
+const sourceGeneratedCssFiles = new Set([
   'sdk.css',
   'cxd.css',
   'ang.css',
   'dark.css',
-  'antd.css'
+  'antd.css',
+  'sdk-ie11.css',
+  'cxd-ie11.css',
+  'ang-ie11.css',
+  'dark-ie11.css',
+  'antd-ie11.css',
+  'helper.css',
+  'ie11-patch.css'
 ]);
 
 main().catch(error => {
@@ -112,7 +124,7 @@ async function writeRollupEntryOutput() {
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
   output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
-  const cssFiles = writeRollupEntryCssAssets();
+  const cssFiles = await writeRollupEntryCssAssets();
   const staticFiles = copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
@@ -144,24 +156,42 @@ async function writeRollupEntryOutput() {
 
 function copyRollupEntryCssAssets() {
   return copyRollupEntryFiles(
-    sdkCssFiles.filter(file => !generatedThemeCssFiles.has(file))
+    sdkCssFiles.filter(file => !sourceGeneratedCssFiles.has(file))
   );
 }
 
-function writeRollupEntryCssAssets() {
+async function writeRollupEntryCssAssets() {
   const cssFiles = new Set(copyRollupEntryCssAssets());
+  const themeCssItems = buildSdkThemeCssFromSource({repoRoot});
 
-  buildSdkThemeCssFromSource({repoRoot}).forEach(themeCss => {
+  for (const themeCss of themeCssItems) {
     writeRollupEntryTextFile(themeCss.filename, themeCss.content);
     cssFiles.add(themeCss.filename);
+    await writeRollupEntryIe11Css(themeCss.filename, themeCss.content, cssFiles);
 
     if (themeCss.filename === 'sdk.css') {
       writeRollupEntryTextFile('cxd.css', themeCss.content);
       cssFiles.add('cxd.css');
+      await writeRollupEntryIe11Css('cxd.css', themeCss.content, cssFiles);
     }
-  });
+  }
+
+  writeRollupEntryTextFile(
+    'helper.css',
+    await buildSdkHelperCssFromSource({repoRoot})
+  );
+  cssFiles.add('helper.css');
+  writeRollupEntryTextFile('ie11-patch.css', sdkIe11PatchCss);
+  cssFiles.add('ie11-patch.css');
 
   return [...cssFiles].sort();
+}
+
+async function writeRollupEntryIe11Css(file, css, cssFiles) {
+  const ie11File = file.replace(/\.css$/, '-ie11.css');
+
+  writeRollupEntryTextFile(ie11File, await buildSdkIe11Css(css));
+  cssFiles.add(ie11File);
 }
 
 function copyRollupEntryStaticAssets() {

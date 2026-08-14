@@ -190,6 +190,10 @@ function assertRollupEntryStaticAssets() {
     }
 
     assertNonEmptyFile(`rollup-entry/${file}`);
+    assertNoPreprocessorExpressions(
+      readSdkText(`rollup-entry/${file}`),
+      `rollup-entry/${file}`
+    );
   });
 
   sdkScopedCssFiles.forEach(file => {
@@ -206,6 +210,7 @@ function assertRollupEntryStaticAssets() {
   });
 
   assertSameTextFile('rollup-entry/sdk.css', 'rollup-entry/cxd.css');
+  assertSameTextFile('rollup-entry/sdk-ie11.css', 'rollup-entry/cxd-ie11.css');
 
   sdkStaticFiles.forEach(file => {
     if (!staticFiles.has(file)) {
