@@ -33,6 +33,10 @@ function eachDom(dom, iterator) {
   }
 }
 
+function getComponentClassPrefix(theme) {
+  return getTheme(theme)?.componentClassPrefix || 'amis-';
+}
+
 class Preview extends React.Component {
   static displayName = 'MarkdownRenderer';
   rootRef = React.createRef();
@@ -130,7 +134,7 @@ class Preview extends React.Component {
     if (!htmlPreviews && !htmlPreviews.length) {
       return;
     }
-    const ns = getTheme(this.props.theme)?.componentClassPrefix || 'amis-';
+    const ns = getComponentClassPrefix(this.props.theme);
     [].slice.call(htmlPreviews).forEach(dom => {
       eachDom(dom, dom => {
         if (typeof dom.className !== 'string') {
@@ -195,6 +199,8 @@ export default function (doc) {
     };
 
     renderHeadingPopover() {
+      const ns = getComponentClassPrefix(this.props.theme);
+
       return this.state.headingPopover ? (
         <Overlay
           target={this.popoverDom}
@@ -204,7 +210,7 @@ export default function (doc) {
           show
         >
           <PopOver
-            classPrefix="cxd-"
+            classPrefix={ns}
             className=":Doc-headingPopover"
             onHide={() => this.setState({headingPopover: false})}
             overlay

@@ -3,12 +3,17 @@
  */
 import React from 'react';
 import axios from 'axios';
-import {Icon, Drawer, SearchBox} from 'amis';
+import {getTheme, Icon, Drawer, SearchBox} from 'amis';
 
 let ContextPath = '';
 
 if (process.env.NODE_ENV === 'production') {
   ContextPath = '/amis';
+}
+
+function getComponentClassPrefix(theme) {
+  const themeName = typeof theme === 'string' ? theme : theme?.value;
+  return getTheme(themeName || 'cxd')?.componentClassPrefix || 'amis-';
 }
 
 export default class DocSearch extends React.Component {
@@ -144,7 +149,7 @@ export default class DocSearch extends React.Component {
 
   render() {
     const searchResults = this.state.searchResults;
-    const ns = this.props.theme.ns;
+    const ns = getComponentClassPrefix(this.props.theme);
     return (
       <>
         {/* <div className={`${ns}TextControl-input Doc-search`}>

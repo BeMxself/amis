@@ -6,68 +6,68 @@ export default class TestComponent extends React.Component {
     return (
       <div className="wrapper">
         <div className="m-b">
-          <Button className="m-r-xs" classPrefix="cxd-">
+          <Button className="m-r-xs">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="primary" classPrefix="cxd-">
+          <Button className="m-r-xs" level="primary">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="secondary" classPrefix="cxd-">
+          <Button className="m-r-xs" level="secondary">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="success" classPrefix="cxd-">
+          <Button className="m-r-xs" level="success">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="info" classPrefix="cxd-">
+          <Button className="m-r-xs" level="info">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="warning" classPrefix="cxd-">
+          <Button className="m-r-xs" level="warning">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="danger" classPrefix="cxd-">
+          <Button className="m-r-xs" level="danger">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="light" classPrefix="cxd-">
+          <Button className="m-r-xs" level="light">
             按钮
           </Button>
 
-          <Button className="m-r-xs" level="dark" classPrefix="cxd-">
+          <Button className="m-r-xs" level="dark">
             按钮
           </Button>
         </div>
 
         <div className="m-b">
-          <Button className="m-r-xs" size="xs" classPrefix="cxd-">
+          <Button className="m-r-xs" size="xs">
             按钮
           </Button>
-          <Button className="m-r-xs" size="sm" classPrefix="cxd-">
+          <Button className="m-r-xs" size="sm">
             按钮
           </Button>
-          <Button className="m-r-xs" size="md" classPrefix="cxd-">
+          <Button className="m-r-xs" size="md">
             按钮
           </Button>
-          <Button className="m-r-xs" size="lg" classPrefix="cxd-">
+          <Button className="m-r-xs" size="lg">
             按钮
           </Button>
         </div>
 
         <div className="m-b">
-          <Button className="m-r-xs" classPrefix="cxd-">
+          <Button className="m-r-xs">
             <i className="fa fa-cloud" />
             <span>按钮</span>
           </Button>
-          <Button className="m-r-xs" classPrefix="cxd-">
+          <Button className="m-r-xs">
             <span>按钮</span>
             <i className="fa fa-cloud" />
           </Button>
-          <Button className="m-r-xs" classPrefix="cxd-" iconOnly>
+          <Button className="m-r-xs" iconOnly>
             <i className="fa fa-cloud" />
           </Button>
         </div>

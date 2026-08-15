@@ -12,7 +12,7 @@ import {
   SearchBox,
   InputBox
 } from 'amis';
-import {eachTree} from 'amis-core';
+import {eachTree, getTheme} from 'amis-core';
 import 'amis-ui/lib/locale/en-US';
 import {withRouter} from 'react-router-dom';
 // @ts-ignore
@@ -46,25 +46,25 @@ export function getContextPath() {
 const themes = [
   {
     label: '云舍',
-    ns: 'cxd-',
     value: 'cxd'
   },
   {
     label: '仿 AntD',
-    ns: 'antd-',
     value: 'antd'
   },
   {
     label: 'ang',
-    ns: 'a-',
     value: 'ang'
   },
   {
     label: '暗黑',
-    ns: 'dark-',
     value: 'dark'
   }
 ];
+
+function getComponentClassPrefix(theme: string) {
+  return getTheme(theme)?.componentClassPrefix || 'amis-';
+}
 
 const locales = [
   {
@@ -167,7 +167,14 @@ export class App extends React.PureComponent<{
     super(props);
     this.setNavigations = this.setNavigations.bind(this);
     this.setNavigationFilter = this.setNavigationFilter.bind(this);
-    document.querySelector('body')?.classList.add(this.state.theme.value);
+    this.syncDocumentTheme(this.state.theme.value);
+  }
+
+  syncDocumentTheme(theme: string, previousTheme?: string) {
+    const body = document.body;
+    previousTheme && body.classList.remove(previousTheme);
+    body.classList.add(theme);
+    body.setAttribute('data-amis-theme', theme);
   }
 
   componentDidUpdate(preProps: any, preState: any) {
@@ -180,9 +187,7 @@ export class App extends React.PureComponent<{
           const theme = item.getAttribute('title');
           item.disabled = theme !== this.state.theme.value;
         });
-      const body = document.body;
-      body.classList.remove(preState.theme.value);
-      body.classList.add(this.state.theme.value);
+      this.syncDocumentTheme(this.state.theme.value, preState.theme.value);
     }
 
     if (props.location.pathname !== preProps.location.pathname) {
@@ -207,7 +212,7 @@ export class App extends React.PureComponent<{
   renderHeader(docPage = true) {
     const location = this.props.location;
     const theme = this.state.theme;
-    const componentClassPrefix = 'amis-';
+    const componentClassPrefix = getComponentClassPrefix(theme.value);
 
     if (location.pathname === '/edit') {
       return (
@@ -346,11 +351,6 @@ export class App extends React.PureComponent<{
               onChange={theme => {
                 this.setState({theme});
                 localStorage.setItem('amis-theme', `${(theme as any).value}`);
-                document
-                  .querySelector('body')
-                  ?.classList[
-                    (theme as any).value === 'dark' ? 'add' : 'remove'
-                  ]('dark');
               }}
             />
           </div>
@@ -560,7 +560,7 @@ export class App extends React.PureComponent<{
           ...(this.props.children as any).props,
           setNavigations: this.setNavigations,
           theme: theme.value,
-          classPrefix: theme.ns,
+          classPrefix: getComponentClassPrefix(theme.value),
           viewMode: this.state.viewMode,
           locale: this.state.locale,
           offScreen: this.state.offScreen,
@@ -647,7 +647,7 @@ export class App extends React.PureComponent<{
                 {...{
                   setNavigations: this.setNavigations,
                   theme: theme.value,
-                  classPrefix: theme.ns,
+                  classPrefix: getComponentClassPrefix(theme.value),
                   viewMode: this.state.viewMode,
                   locale: this.state.locale,
                   offScreen: this.state.offScreen,
@@ -665,7 +665,7 @@ export class App extends React.PureComponent<{
                 {...{
                   setNavigations: this.setNavigations,
                   theme: theme.value,
-                  classPrefix: theme.ns,
+                  classPrefix: getComponentClassPrefix(theme.value),
                   viewMode: this.state.viewMode,
                   locale: this.state.locale,
                   offScreen: this.state.offScreen,
@@ -683,7 +683,7 @@ export class App extends React.PureComponent<{
                 {...{
                   setNavigations: this.setNavigations,
                   theme: theme.value,
-                  classPrefix: theme.ns,
+                  classPrefix: getComponentClassPrefix(theme.value),
                   viewMode: this.state.viewMode,
                   locale: this.state.locale,
                   offScreen: this.state.offScreen,
@@ -701,7 +701,7 @@ export class App extends React.PureComponent<{
                 {...{
                   setNavigations: this.setNavigations,
                   theme: theme.value,
-                  classPrefix: theme.ns,
+                  classPrefix: getComponentClassPrefix(theme.value),
                   viewMode: this.state.viewMode,
                   locale: this.state.locale,
                   offScreen: this.state.offScreen,
@@ -738,7 +738,7 @@ export class App extends React.PureComponent<{
             ...(this.props.children as any).props,
             setNavigations: this.setNavigations,
             theme: theme.value,
-            classPrefix: theme.ns,
+            classPrefix: getComponentClassPrefix(theme.value),
             viewMode: this.state.viewMode,
             locale: this.state.locale,
             offScreen: this.state.offScreen,
@@ -809,7 +809,7 @@ export class App extends React.PureComponent<{
             ...(this.props.children as any).props,
             setNavigations: this.setNavigations,
             theme: theme.value,
-            classPrefix: theme.ns,
+            classPrefix: getComponentClassPrefix(theme.value),
             viewMode: this.state.viewMode,
             locale: this.state.locale,
             offScreen: this.state.offScreen,

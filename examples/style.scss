@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff !important;
-  &.dark {
+  &[data-amis-theme='dark'] {
     background-color: var(--colors-neutral-fill-11) !important;
     pre {
       color: #fff;
@@ -94,7 +94,7 @@ body {
 //   }
 // }
 
-// body.dark .MDPreview-schema-preview {
+// body[data-amis-theme='dark'] .MDPreview-schema-preview {
 //   background: #191c22;
 //   color: #fff;
 // }
@@ -183,14 +183,14 @@ body {
         }
       }
 
-      .amis-Layout-brand > a,
-      .a-Layout-brand > a,
-      .cxd-Layout-brand > a,
-      .antd-Layout-brand > a {
+      .amis-Layout-brand > a {
         color: #333;
       }
-      .dark-Layout-brand > a {
-        color: #fff;
+
+      body[data-amis-theme='dark'] & {
+        .amis-Layout-brand > a {
+          color: #fff;
+        }
       }
     }
 
@@ -249,23 +249,23 @@ body {
     }
   }
 
-  .dark-Layout {
-    &-header::before {
-      background-color: #191c22;
-    }
-    .Doc-search .dark-TextControl-input {
-      background-color: #191c22;
-    }
+  body[data-amis-theme='dark'] & {
+    .amis-Layout {
+      &-header::before {
+        background-color: #191c22;
+      }
 
-    &-headerBar-links > a {
-      color: #eee;
+      .Doc-search .amis-TextControl-input {
+        background-color: #191c22;
+      }
+
+      &-headerBar-links > a {
+        color: #eee;
+      }
     }
   }
 
-  .amis-Layout,
-  .a-Layout,
-  .cxd-Layout,
-  .antd-Layout {
+  .amis-Layout {
     &::before {
       background-color: #fff;
     }
@@ -316,11 +316,7 @@ body {
   white-space: nowrap;
 }
 
-.amis-Layout-offScreen-btn,
-.a-Layout-offScreen-btn,
-.cxd-Layout-offScreen-btn,
-.antd-Layout-offScreen-btn,
-.dark-Layout-offScreen-btn {
+.amis-Layout-offScreen-btn {
   line-height: 50px;
   padding: 0 10px;
 }
@@ -390,11 +386,7 @@ body {
   }
 
   &-navigation {
-    .amis-AsideNav,
-    .a-AsideNav,
-    .cxd-AsideNav,
-    .antd-AsideNav,
-    .dark-AsideNav {
+    .amis-AsideNav {
       &-subList {
         background: transparent;
       }
@@ -464,10 +456,7 @@ body {
       }
     }
 
-    .amis-AsideNav,
-    .a-AsideNav,
-    .cxd-AsideNav,
-    .antd-AsideNav {
+    .amis-AsideNav {
       &-itemArrow:empty:before {
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgOTkgMTc2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgoJPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMTMyODEyLCAwLjMwNDY4OCkiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJub256ZXJvIj4KCQk8cGF0aCBkPSJNOTUuNjM1MzY5Nyw3OS40MDMxMzQ2IEM5NS4zNDMzNjc4LDc5LjExMTEzMjYgOTUuMDM3NTc1LDc4Ljg0MTcxNTIgOTQuNzIxOTg5MSw3OC41OTA2ODU0IEwxOS44MTkzNzMsMy4yOTk5MzI2MiBDMTUuNjQ5MjAwNCwtMC44NzAwNDAyMzQgOC44ODgxODQzNywtMC44NzAwNDAyMzQgNC43MTgyMTE3MiwzLjI5OTkzMjYyIEMwLjU0ODIzODg2Nyw3LjQ3MDEwNTI3IDAuNTQ4MjM4ODY3LDE0LjIzMDkyMTUgNC43MTgyMTE3MiwxOC40MDEwOTM5IEw3Mi45MzI5NjIxLDg3LjAwNDE4MTEgTDMuMjUzMjA0ODgsMTU2LjYxNzc4MyBDLTAuOTE2NzY3OTY5LDE2MC43ODc5NTYgLTAuOTE2NzY3OTY5LDE2Ny41NDg3NzIgMy4yNTMyMDQ4OCwxNzEuNzE5MTQ0IEM3LjQyMzE3NzczLDE3NS44ODkxMTcgMTQuMTg0MTkzNywxNzUuODg5MTE3IDE4LjM1NDM2NjIsMTcxLjcxOTE0NCBMOTQuNzIxMTg5NSw5NS40MTgwNzY0IEM5NS4wMzY5NzU0LDk1LjE2Njg0NjcgOTUuMzQyOTY4LDk0Ljg5NzYyOTMgOTUuNjM1MTY5Nyw5NC42MDU0MjczIEM5Ny43MzI5NDc1LDkyLjUwNzY0OTYgOTguNzc0NDQxMiw4OS43NTM5MTY2IDk4Ljc2MTU3MzksODcuMDA0MzgwOSBDOTguNzc0NjQxNCw4NC4yNTQ0NDUzIDk3LjczMzE0NzUsODEuNTAwOTEyMyA5NS42MzUzNjk3LDc5LjQwMzEzNDYgWiIgaWQ9Iui3r+W+hCI+CgkJPC9wYXRoPgoJPC9nPgo8L3N2Zz4K);
         background-position: center center;
@@ -660,36 +649,20 @@ body {
   > .schema-wrapper {
     padding: 0 35px;
 
-    > .amis-Page,
-    > .a-Page,
-    > .cxd-Page,
-    > .antd-Page,
-    > .dark-Page {
+    > .amis-Page {
       position: relative;
       height: 100%;
     }
   }
 
   .amis-AsideNav-item .amis-AsideNav-item a,
-  .a-AsideNav-item .a-AsideNav-item a,
-  .cxd-AsideNav-item .cxd-AsideNav-item a,
-  .antd-AsideNav-item .antd-AsideNav-item a,
-  .dark-AsideNav-item .dark-AsideNav-item a,
-  .amis-AsideNav-item .amis-AsideNav-item .amis-AsideNav-item a,
-  .a-AsideNav-item .a-AsideNav-item .a-AsideNav-item a,
-  .cxd-AsideNav-item .cxd-AsideNav-item .cxd-AsideNav-item a,
-  .antd-AsideNav-item .antd-AsideNav-item .antd-AsideNav-item a,
-  .dark-AsideNav-item .dark-AsideNav-item .dark-AsideNav-item a {
+  .amis-AsideNav-item .amis-AsideNav-item .amis-AsideNav-item a {
     padding-left: 0 !important;
   }
 }
 
 .Doc-navDrawer {
-  .amis-Drawer,
-  .a-Drawer,
-  .cxd-Drawer,
-  .antd-Drawer,
-  .dark-Drawer {
+  .amis-Drawer {
     &-overlay {
       background-color: rgba(25, 35, 60, 0.3);
     }
@@ -716,9 +689,9 @@ body {
   }
 }
 
-.Doc-navDrawer,
-.dark-Layout .Doc {
-  .dark-AsideNav-item {
+[data-amis-theme='dark'] .Doc-navDrawer,
+[data-amis-theme='dark'] .Doc {
+  .amis-AsideNav-item {
     > a {
       color: #ccc;
       &:hover {
@@ -740,7 +713,7 @@ body {
   }
 }
 
-.dark-Layout .Doc {
+[data-amis-theme='dark'] .Doc {
   .Doc-headingList-item a {
     color: #fff;
     &:hover {
@@ -776,7 +749,7 @@ body {
     background-color: #282c34;
   }
 
-  .dark-AsideNav-label {
+  .amis-AsideNav-label {
     color: #ccc;
   }
 }
@@ -940,27 +913,15 @@ body {
 .Doc-searchDrawer {
   border: 0;
 
-  .amis-Drawer-content,
-  .a-Drawer-content,
-  .cxd-Drawer-content,
-  .antd-Drawer-content,
-  .dark-Drawer-content {
+  .amis-Drawer-content {
     border: 0;
   }
 
-  .amis-Drawer-close,
-  .a-Drawer-close,
-  .cxd-Drawer-close,
-  .antd-Drawer-close,
-  .dark-Drawer-close {
+  .amis-Drawer-close {
     display: none;
   }
 
-  .amis-Drawer-overlay,
-  .a-Drawer-overlay,
-  .cxd-Drawer-overlay,
-  .antd-Drawer-overlay,
-  .dark-Drawer-overlay {
+  .amis-Drawer-overlay {
     background-color: rgba(25, 35, 60, 0.3);
   }
 
@@ -1031,17 +992,17 @@ body {
   }
 }
 
-body.dark {
+body[data-amis-theme='dark'] {
   .search-result {
     background-color: #333538;
   }
 }
 
 // 让 echarts 编辑器的 tabs 更紧凑
-.echarts-editor > .a-Tabs-links {
+.echarts-editor > .amis-Tabs-links {
   width: 4rem;
   flex-shrink: 0;
-  > .a-Tabs-link > a {
+  > .amis-Tabs-link > a {
     padding: 0.5rem 0.5rem;
   }
 }
@@ -1066,7 +1027,7 @@ body.dark {
   background: var(--body-bg);
   display: flex;
 
-  body.dark & {
+  body[data-amis-theme='dark'] & {
     background: #191c22;
     color: #fff;
   }
