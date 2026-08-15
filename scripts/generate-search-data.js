@@ -9,6 +9,8 @@ let yaml = require('js-yaml');
 var rYml = /^\s*---([\s\S]*?)---\s/;
 
 const resultData = {docs: []};
+const searchDocGlob = './docs/**/*.md';
+const searchDocIgnore = ['./docs/research/**'];
 
 function protectFisPlaceholders(serialized) {
   // FIS replaces this marker after generation. Keep it searchable after JSON
@@ -16,7 +18,11 @@ function protectFisPlaceholders(serialized) {
   return serialized.replace(/__RESOURCE_MAP__/g, '__RESOURCE\\u005fMAP__');
 }
 
-glob('./docs/**/*.md', {}, function (er, docs) {
+glob(searchDocGlob, {ignore: searchDocIgnore}, function (er, docs) {
+  if (er) {
+    throw er;
+  }
+
   for (const doc of docs) {
     let content = fs.readFileSync(doc, {encoding: 'utf8'});
     let m = rYml.exec(content);

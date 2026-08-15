@@ -913,15 +913,27 @@ body {
 .Doc-searchDrawer {
   border: 0;
 
-  .amis-Drawer-content {
+  .amis-Drawer-content,
+  .a-Drawer-content,
+  .cxd-Drawer-content,
+  .antd-Drawer-content,
+  .dark-Drawer-content {
     border: 0;
   }
 
-  .amis-Drawer-close {
+  .amis-Drawer-close,
+  .a-Drawer-close,
+  .cxd-Drawer-close,
+  .antd-Drawer-close,
+  .dark-Drawer-close {
     display: none;
   }
 
-  .amis-Drawer-overlay {
+  .amis-Drawer-overlay,
+  .a-Drawer-overlay,
+  .cxd-Drawer-overlay,
+  .antd-Drawer-overlay,
+  .dark-Drawer-overlay {
     background-color: rgba(25, 35, 60, 0.3);
   }
 
@@ -932,17 +944,27 @@ body {
     font-size: 16px;
     font-weight: 500;
     display: flex;
+    align-items: center;
 
-    > .icon-search {
+    > .icon,
+    > svg {
+      flex: 0 0 auto;
       margin-right: 10px;
       top: 1px;
+      width: 16px;
+      height: 16px;
+      color: #666;
     }
+
     > input {
       flex-basis: 1.875rem;
       flex-grow: 1;
       border: none;
       outline: none;
       width: 100%;
+      min-width: 0;
+      background: transparent;
+      color: inherit;
     }
   }
 
@@ -992,6 +1014,7 @@ body {
   }
 }
 
+body.dark,
 body[data-amis-theme='dark'] {
   .search-result {
     background-color: #333538;
