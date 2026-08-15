@@ -8,6 +8,10 @@ const parserMarkdown = require('./scripts/md-parser');
 const convertSCSSIE11 = require('./scripts/scss-ie11');
 const parserCodeMarkdown = require('./scripts/code-md-parser');
 const transformNodeEnvInline = require('./scripts/transform-node-env-inline');
+const ghPagesOutputDir = path.resolve(
+  __dirname,
+  process.env.GH_PAGES_DIR || 'gh-pages'
+);
 fis.set('project.ignore', [
   'public/**',
   'scripts/**',
@@ -170,6 +174,20 @@ fis.match('tinymce/plugins/*/index.js', {
 });
 
 fis.match(/(?:mpegts\.js|object\-inspect\/util\.inspect\.js)/, {
+  ignoreDependencies: true
+});
+
+fis.match('object-inspect/util.inspect.js', {
+  parser: [
+    function () {
+      return `module.exports = function inspect(value) {
+  return String(value);
+};
+module.exports.custom = typeof Symbol === 'function' && Symbol.for
+  ? Symbol.for('nodejs.util.inspect.custom')
+  : undefined;`;
+    }
+  ],
   ignoreDependencies: true
 });
 
@@ -733,7 +751,7 @@ if (fis.project.currentMedia() === 'publish-sdk') {
               parts[0] = parts[0].replace('.md', '');
 
               return (
-                'href=\\' + quota + '/amis' + parts.join('#') + '\\' + quota
+                'href=\\' + quota + '/docs' + parts.join('#') + '\\' + quota
               );
             }
 
@@ -758,7 +776,7 @@ if (fis.project.currentMedia() === 'publish-sdk') {
               if (parts[0][0] !== '/') {
                 parts[0] = path
                   .resolve(path.dirname(file.subpath), parts[0])
-                  .replace(/^\/docs/, '/amis');
+                  .replace(/^\/docs/, '/docs');
               }
 
               return 'href=\\' + quota + parts.join('#') + '\\' + quota;
@@ -782,11 +800,11 @@ if (fis.project.currentMedia() === 'publish-sdk') {
     release: '/$1'
   });
 
-  // 在爱速搭中不用 cfc，而是放 amis 目录下的路由接管
+  // 在爱速搭中不用 cfc，而是放文档目录下的路由接管
   let cfcAddress =
     'https://3xsw4ap8wah59.cfc-execute.bj.baidubce.com/api/amis-mock';
   if (process.env.IS_AISUDA) {
-    cfcAddress = '/amis/api';
+    cfcAddress = '/docs/api';
   }
 
   ghPages.match('/{examples,docs}/**', {
@@ -1088,11 +1106,11 @@ if (fis.project.currentMedia() === 'publish-sdk') {
     ]
   });
   ghPages.match('*', {
-    domain: '/amis',
+    domain: '/docs',
     deploy: [
       fis.plugin('skip-packed'),
       fis.plugin('local-deliver', {
-        to: './gh-pages'
+        to: path.join(ghPagesOutputDir, 'docs')
       })
     ]
   });
