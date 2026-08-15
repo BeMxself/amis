@@ -1,12 +1,5 @@
 # Security Policy
 
-## Supported Versions
+Security reports for this package are handled at the repository level.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.1.x   | :white_check_mark: |
-| < 1.0   | :x:                |
-
-## Reporting a Vulnerability
-
-https://github.com/baidu/amis/issues
+Please read the root [SECURITY.md](../../SECURITY.md) before reporting a vulnerability. Do not disclose exploitable details in public issues or pull requests.
