@@ -161,7 +161,7 @@ export default class DocSearch extends React.Component {
         </a>
 
         <Drawer
-          className="Doc-searchDrawer"
+          className=":Doc-searchDrawer"
           overlay
           closeOnOutside
           onHide={this.onClose}
