@@ -10,6 +10,12 @@ var rYml = /^\s*---([\s\S]*?)---\s/;
 
 const resultData = {docs: []};
 
+function protectFisPlaceholders(serialized) {
+  // FIS replaces this marker after generation. Keep it searchable after JSON
+  // parsing, while preventing the raw token from being expanded inside JSON.
+  return serialized.replace(/__RESOURCE_MAP__/g, '__RESOURCE\\u005fMAP__');
+}
+
 glob('./docs/**/*.md', {}, function (er, docs) {
   for (const doc of docs) {
     let content = fs.readFileSync(doc, {encoding: 'utf8'});
@@ -37,5 +43,7 @@ glob('./docs/**/*.md', {}, function (er, docs) {
         .replace('/docs/zh-CN/', '/zh-CN/docs/')
     });
   }
-  fs.writeFileSync('./examples/docs.json', JSON.stringify(resultData));
+  const serialized = protectFisPlaceholders(JSON.stringify(resultData));
+  JSON.parse(serialized);
+  fs.writeFileSync('./examples/docs.json', serialized);
 });

@@ -42,6 +42,25 @@ node "$ROOT_DIR/scripts/generate-search-data.js"
 GH_PAGES_DOCS_DIR="$GH_PAGES_DIR/docs"
 GH_PAGES_SDK_DIR="$GH_PAGES_DIR/sdk"
 
+node - "$GH_PAGES_DOCS_DIR/docs.json" <<'NODE'
+const fs = require('fs');
+
+const file = process.argv[2];
+const contents = fs.readFileSync(file, 'utf8');
+
+if (contents.includes('__RESOURCE_MAP__')) {
+  throw new Error(`${file} still contains an unescaped FIS resource marker.`);
+}
+
+const searchData = JSON.parse(contents);
+
+if (!Array.isArray(searchData.docs)) {
+  throw new Error(`${file} does not contain a docs array.`);
+}
+
+console.log(`validated docs search data: ${searchData.docs.length} docs`);
+NODE
+
 # 拷贝一份兼容之前的访问路径
 mkdir -p "$GH_PAGES_DOCS_DIR/docs"
 cp -R "$GH_PAGES_DOCS_DIR/zh-CN/docs/." "$GH_PAGES_DOCS_DIR/docs/"
