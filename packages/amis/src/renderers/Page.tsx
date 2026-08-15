@@ -803,7 +803,8 @@ export default class Page extends React.Component<PageProps> {
     value?.ok && // 接口正常返回才继续轮训
       interval &&
       this.mounted &&
-      (!stopAutoRefreshWhen || !evalExpression(stopAutoRefreshWhen, data)) &&
+      (!stopAutoRefreshWhen ||
+        !evalExpression(stopAutoRefreshWhen, createObject(data, store.data))) &&
       (this.timer = setTimeout(
         silentPolling ? this.silentReload : this.reload,
         Math.max(interval, 1000)
