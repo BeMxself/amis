@@ -3,17 +3,17 @@
 exports[`Renderer:repeat 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:repeat 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:repeat 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   repeat
@@ -51,7 +51,7 @@ exports[`Renderer:repeat 1`] = `
             </span>
           </label>
           <div
-            class="cxd-RepeatControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RepeatControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
               class="repeat-control hbox"
@@ -68,29 +68,29 @@ exports[`Renderer:repeat 1`] = `
                 class="col v-middle"
               >
                 <div
-                  class="cxd-InputRange-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
                 >
                   <div
-                    class="cxd-InputRange-track cxd-InputRange-track--background"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
                   >
                     <div
-                      class="cxd-InputRange-track-active"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                       style="width: 0%; left: 0%;"
                     />
                     <div
-                      class="cxd-InputRange-handle"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                       style="left: 0%; z-index: 1;"
                     >
                       <div
-                        class="cxd-InputRange-handle-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                       >
                         <icon-mock
-                          classname="icon icon-slider-handle"
+                          class="icon icon-slider-handle"
                           icon="slider-handle"
                         />
                       </div>
                       <div
-                        class="cxd-InputRange-label pos-top"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                       >
                         <span>
                           1
@@ -107,47 +107,48 @@ exports[`Renderer:repeat 1`] = `
                   aria-expanded="true"
                   aria-haspopup="listbox"
                   aria-owns="downshift-0-menu"
-                  class="cxd-Select is-opened pull-right has-popover"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened pull-right has-popover"
                   role="combobox"
                   tabindex="0"
                 >
                   <div
-                    class="cxd-Select-valueWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                   >
                     <div
-                      class="cxd-Select-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                     >
                       年
                     </div>
                   </div>
                   <span
-                    class="cxd-Select-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                   <div
-                    class="cxd-PopOver cxd-Select-popover"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
+                    data-amis-theme="cxd"
                     role="popover"
                     style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                     theme="cxd"
                   >
                     <div
-                      class="cxd-PopOver-overlay"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
                     />
                     <div
-                      class="cxd-Select-menu"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu"
                     >
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-0"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="不重复"
                         >
                           不重复
@@ -155,12 +156,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-1"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="秒"
                         >
                           秒
@@ -168,12 +169,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-2"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="分"
                         >
                           分
@@ -181,12 +182,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-3"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="时"
                         >
                           时
@@ -194,12 +195,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-4"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="天"
                         >
                           天
@@ -207,12 +208,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-5"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="周中"
                         >
                           周中
@@ -220,12 +221,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-6"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="周"
                         >
                           周
@@ -233,12 +234,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-7"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="月"
                         >
                           月
@@ -246,12 +247,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="cxd-Select-option is-active"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option is-active"
                         id="downshift-0-item-8"
                         role="option"
                       >
                         <span
-                          class="cxd-Select-option-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="年"
                         >
                           年

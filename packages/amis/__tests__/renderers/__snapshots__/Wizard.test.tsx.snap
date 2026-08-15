@@ -3,57 +3,57 @@
 exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel className actionClassName 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal wizard-class-name"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-finish is-clickable"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon is-success"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
-                    classname="icon icon-check"
+                    class="icon icon-check"
                     icon="check"
                   />
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -64,41 +64,41 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -111,11 +111,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -123,7 +123,7 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             type="submit"
           />
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               这是最后一步了
@@ -132,11 +132,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default btn-lg btn-primary"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -144,7 +144,7 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default btn-lg btn-primary"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -160,54 +160,54 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
 exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel className actionClassName 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal wizard-class-name"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -218,41 +218,41 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -265,11 +265,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -277,16 +277,16 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
@@ -295,10 +295,10 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -313,16 +313,16 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
@@ -331,10 +331,10 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -351,11 +351,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default btn-lg btn-primary"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -371,21 +371,21 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
 exports[`Renderer:Wizard default 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -393,33 +393,33 @@ exports[`Renderer:Wizard default 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -434,33 +434,33 @@ exports[`Renderer:Wizard default 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -484,67 +484,68 @@ exports[`Renderer:Wizard default 1`] = `
 exports[`Renderer:Wizard dialog 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -555,41 +556,41 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-wait"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -602,11 +603,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -614,16 +615,16 @@ exports[`Renderer:Wizard dialog 1`] = `
                     type="submit"
                   />
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -632,10 +633,10 @@ exports[`Renderer:Wizard dialog 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -650,16 +651,16 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -668,10 +669,10 @@ exports[`Renderer:Wizard dialog 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -686,11 +687,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-role="form-item"
                   >
                     <button
-                      class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                       type="button"
                     >
                       <span>
@@ -701,11 +702,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -720,40 +721,41 @@ exports[`Renderer:Wizard dialog 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           添加
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <div
-          class="cxd-Form cxd-Form--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -761,16 +763,16 @@ exports[`Renderer:Wizard dialog 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     Name
@@ -779,13 +781,13 @@ exports[`Renderer:Wizard dialog 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -803,10 +805,10 @@ exports[`Renderer:Wizard dialog 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -814,7 +816,7 @@ exports[`Renderer:Wizard dialog 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -830,67 +832,68 @@ exports[`Renderer:Wizard dialog 1`] = `
 exports[`Renderer:Wizard dialog 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -901,41 +904,41 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-wait"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -948,11 +951,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -960,16 +963,16 @@ exports[`Renderer:Wizard dialog 2`] = `
                     type="submit"
                   />
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -978,10 +981,10 @@ exports[`Renderer:Wizard dialog 2`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -996,16 +999,16 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -1014,10 +1017,10 @@ exports[`Renderer:Wizard dialog 2`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1032,11 +1035,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-role="form-item"
                   >
                     <button
-                      class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                       type="button"
                     >
                       <span>
@@ -1047,11 +1050,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1071,54 +1074,54 @@ exports[`Renderer:Wizard dialog 2`] = `
 exports[`Renderer:Wizard initApi default 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1129,41 +1132,41 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1174,41 +1177,41 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1221,11 +1224,11 @@ exports[`Renderer:Wizard initApi default 1`] = `
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -1233,33 +1236,33 @@ exports[`Renderer:Wizard initApi default 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1274,33 +1277,33 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1317,11 +1320,11 @@ exports[`Renderer:Wizard initApi default 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1330,17 +1333,6 @@ exports[`Renderer:Wizard initApi default 1`] = `
         </button>
       </div>
     </div>
-    <div
-      class="cxd-Spinner-overlay"
-    />
-    <div
-      class="cxd-Spinner cxd-Spinner--overlay"
-      data-testid="spinner"
-    >
-      <div
-        class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
-      />
-    </div>
   </div>
 </div>
 `;
@@ -1348,67 +1340,68 @@ exports[`Renderer:Wizard initApi default 1`] = `
 exports[`Renderer:Wizard initApi reload 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1419,41 +1412,41 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-wait"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1466,11 +1459,11 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1478,16 +1471,16 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     type="submit"
                   />
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -1496,10 +1489,10 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1514,16 +1507,16 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -1532,10 +1525,10 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1552,11 +1545,11 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1576,70 +1569,71 @@ exports[`Renderer:Wizard initApi reload 1`] = `
 exports[`Renderer:Wizard initApi reload 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-finish is-clickable"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon is-success"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
-                            classname="icon icon-check"
+                            class="icon icon-check"
                             icon="check"
                           />
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1650,41 +1644,41 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1697,11 +1691,11 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1709,7 +1703,7 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                     type="submit"
                   />
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -1718,11 +1712,11 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1730,7 +1724,7 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                   </span>
                 </button>
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1750,70 +1744,71 @@ exports[`Renderer:Wizard initApi reload 2`] = `
 exports[`Renderer:Wizard initApi reload 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-finish is-clickable"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon is-success"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
-                            classname="icon icon-check"
+                            class="icon icon-check"
                             icon="check"
                           />
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1824,41 +1819,41 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1871,11 +1866,11 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1883,7 +1878,7 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                     type="submit"
                   />
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -1892,11 +1887,11 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1904,7 +1899,7 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                   </span>
                 </button>
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1924,88 +1919,54 @@ exports[`Renderer:Wizard initApi reload 3`] = `
 exports[`Renderer:Wizard initApi show loading 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
-        id="form-wizard"
-      />
-      <div
-        class="cxd-Wizard-stepContent clearfix"
-        role="wizard-body"
-      >
-        加载中
-      </div>
-    </div>
-    <div
-      class="cxd-Spinner-overlay in"
-    />
-    <div
-      class="cxd-Spinner cxd-Spinner--overlay in"
-      data-testid="spinner"
-    >
-      <div
-        class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Renderer:Wizard initApi show loading 2`] = `
-<div>
-  <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
-  >
-    <div
-      class="cxd-Wizard-step"
-    >
-      <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2016,41 +1977,41 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2061,41 +2022,41 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2108,11 +2069,185 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        role="wizard-body"
+      >
+        加载中
+      </div>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
+    />
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
+      data-testid="spinner"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renderer:Wizard initApi show loading 2`] = `
+<div>
+  <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+  >
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+    >
+      <div
+        class="amis--Wizard-steps"
+        id="form-wizard"
+      >
+        <ul
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+        >
+          <li
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+          >
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+              />
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+              >
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                >
+                  1
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+              >
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                >
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                  >
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      title="Step 1"
+                    >
+                      Step 1
+                    </span>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                  >
+                    <span
+                      class=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+          >
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+              />
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+              >
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                >
+                  2
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+              >
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                >
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                  >
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      title="Step 2"
+                    >
+                      Step 2
+                    </span>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                  >
+                    <span
+                      class=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+          >
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+              />
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+              >
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                >
+                  3
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+              >
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                >
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                  >
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      title="Step 3"
+                    >
+                      Step 3
+                    </span>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                  >
+                    <span
+                      class=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2120,33 +2255,33 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2161,33 +2296,33 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2204,11 +2339,11 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2224,21 +2359,21 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
 exports[`Renderer:Wizard readOnly 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2246,16 +2381,16 @@ exports[`Renderer:Wizard readOnly 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
@@ -2264,10 +2399,10 @@ exports[`Renderer:Wizard readOnly 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl is-disabled"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2283,16 +2418,16 @@ exports[`Renderer:Wizard readOnly 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
@@ -2301,10 +2436,10 @@ exports[`Renderer:Wizard readOnly 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2328,57 +2463,57 @@ exports[`Renderer:Wizard readOnly 1`] = `
 exports[`Renderer:Wizard send data 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-finish is-clickable"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon is-success"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
-                    classname="icon icon-check"
+                    class="icon icon-check"
                     icon="check"
                   />
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2389,41 +2524,41 @@ exports[`Renderer:Wizard send data 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2436,11 +2571,11 @@ exports[`Renderer:Wizard send data 1`] = `
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2448,7 +2583,7 @@ exports[`Renderer:Wizard send data 1`] = `
             type="submit"
           />
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               这是最后一步了
@@ -2457,11 +2592,11 @@ exports[`Renderer:Wizard send data 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2469,7 +2604,7 @@ exports[`Renderer:Wizard send data 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2485,57 +2620,57 @@ exports[`Renderer:Wizard send data 1`] = `
 exports[`Renderer:Wizard step initApi 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-finish is-clickable"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon is-success"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
-                    classname="icon icon-check"
+                    class="icon icon-check"
                     icon="check"
                   />
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2546,41 +2681,41 @@ exports[`Renderer:Wizard step initApi 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2591,41 +2726,41 @@ exports[`Renderer:Wizard step initApi 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2638,11 +2773,11 @@ exports[`Renderer:Wizard step initApi 1`] = `
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2650,33 +2785,33 @@ exports[`Renderer:Wizard step initApi 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="email"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     邮箱
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2693,11 +2828,11 @@ exports[`Renderer:Wizard step initApi 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2705,7 +2840,7 @@ exports[`Renderer:Wizard step initApi 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2721,17 +2856,17 @@ exports[`Renderer:Wizard step initApi 1`] = `
 exports[`Renderer:Wizard steps not array 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <p
@@ -2748,70 +2883,71 @@ exports[`Renderer:Wizard steps not array 1`] = `
 exports[`Renderer:Wizard target 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="cxd-Wizard-step"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="cxd--Wizard-steps"
+                class="amis--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="cxd-StepsItem is-finish is-clickable"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon is-success"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
-                            classname="icon icon-check"
+                            class="icon icon-check"
                             icon="check"
                           />
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem- is-success"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -2822,41 +2958,41 @@ exports[`Renderer:Wizard target 1`] = `
                     </div>
                   </li>
                   <li
-                    class="cxd-StepsItem is-process"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="cxd-StepsItem-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="cxd-StepsItem-containerTail"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="cxd-StepsItem-containerIcon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="cxd-StepsItem-icon"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="cxd-StepsItem-containerWrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="cxd-StepsItem-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="cxd-StepsItem-title cxd-StepsItem-"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="cxd-StepsItem-ellText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -2869,11 +3005,11 @@ exports[`Renderer:Wizard target 1`] = `
                 </ul>
               </div>
               <div
-                class="cxd-Wizard-stepContent clearfix"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -2881,7 +3017,7 @@ exports[`Renderer:Wizard target 1`] = `
                     type="submit"
                   />
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -2890,11 +3026,11 @@ exports[`Renderer:Wizard target 1`] = `
                 </form>
               </div>
               <div
-                class="cxd-Wizard-footer cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -2902,7 +3038,7 @@ exports[`Renderer:Wizard target 1`] = `
                   </span>
                 </button>
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -2913,17 +3049,17 @@ exports[`Renderer:Wizard target 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2932,10 +3068,10 @@ exports[`Renderer:Wizard target 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -2943,16 +3079,16 @@ exports[`Renderer:Wizard target 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="website"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Website
@@ -2961,10 +3097,10 @@ exports[`Renderer:Wizard target 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2979,16 +3115,16 @@ exports[`Renderer:Wizard target 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Name
@@ -2997,10 +3133,10 @@ exports[`Renderer:Wizard target 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -3017,13 +3153,13 @@ exports[`Renderer:Wizard target 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -3043,54 +3179,54 @@ exports[`Renderer:Wizard target 1`] = `
 exports[`Renderer:Wizard validate 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Wizard cxd-Wizard--horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="cxd-Wizard-step"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="cxd--Wizard-steps"
+        class="amis--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="cxd-StepsItem is-process"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3101,41 +3237,41 @@ exports[`Renderer:Wizard validate 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3146,41 +3282,41 @@ exports[`Renderer:Wizard validate 1`] = `
             </div>
           </li>
           <li
-            class="cxd-StepsItem is-wait"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="cxd-StepsItem-container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="cxd-StepsItem-containerTail"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="cxd-StepsItem-containerIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="cxd-StepsItem-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="cxd-StepsItem-containerWrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="cxd-StepsItem-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="cxd-StepsItem-title cxd-StepsItem-"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="cxd-StepsItem-ellText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="cxd-StepsItem-description cxd-StepsItem-ellText"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3193,11 +3329,11 @@ exports[`Renderer:Wizard validate 1`] = `
         </ul>
       </div>
       <div
-        class="cxd-Wizard-stepContent clearfix"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="cxd-Form cxd-Form--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -3205,33 +3341,33 @@ exports[`Renderer:Wizard validate 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isUrl"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isUrl"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control is-error has-error--isUrl cxd-TextControl is-focused"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isUrl __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -3245,7 +3381,7 @@ exports[`Renderer:Wizard validate 1`] = `
               </div>
             </div>
             <ul
-              class="cxd-Form-feedback"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
             >
               <li>
                 URL 格式不正确
@@ -3253,33 +3389,33 @@ exports[`Renderer:Wizard validate 1`] = `
             </ul>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control is-error has-error--isRequired cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -3293,7 +3429,7 @@ exports[`Renderer:Wizard validate 1`] = `
               </div>
             </div>
             <ul
-              class="cxd-Form-feedback"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
             >
               <li>
                 这是必填项
@@ -3303,11 +3439,11 @@ exports[`Renderer:Wizard validate 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Wizard-footer cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>

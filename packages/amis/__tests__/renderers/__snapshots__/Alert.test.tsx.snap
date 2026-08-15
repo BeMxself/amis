@@ -3,29 +3,30 @@
 exports[`Renderer:alert 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--success"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示内容
@@ -44,37 +45,38 @@ exports[`Renderer:alert 1`] = `
 exports[`Renderer:alert var 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--success"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="cxd-Alert-icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-icon"
             >
               <icon-mock
-                classname="icon icon-copy"
+                class="icon icon-copy"
                 icon="copy"
               />
             </div>
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     百度一下，你就知道
@@ -93,29 +95,30 @@ exports[`Renderer:alert var 1`] = `
 exports[`Renderer:alert with level 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--info"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示类文案
@@ -125,16 +128,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Alert cxd-Alert--success"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     成功类文案
@@ -144,16 +147,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Alert cxd-Alert--warning"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--warning"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     警告类文案
@@ -163,16 +166,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Alert cxd-Alert--danger"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--danger"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     危险类文案
@@ -191,29 +194,30 @@ exports[`Renderer:alert with level 1`] = `
 exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--info"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示信息
@@ -222,11 +226,11 @@ exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
               </div>
             </div>
             <button
-              class="cxd-Alert-close classNameForClose"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-close classNameForClose"
               type="button"
             >
               <icon-mock
-                classname="icon icon-close"
+                class="icon icon-close"
                 icon="close"
               />
             </button>
@@ -241,42 +245,43 @@ exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
 exports[`Renderer:alert with title & showIcon & icon & iconClassName 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--info cxd-Alert-has-title"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info __AMIS_COMPONENT_CLASS_PREFIX__Alert-has-title"
           >
             <div
-              class="cxd-Alert-icon starClass"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-icon starClass"
             >
               <icon-mock
-                classname="icon icon-star"
+                class="icon icon-star"
                 icon="star"
               />
             </div>
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-title"
               >
                 提示类文案
               </div>
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示类文案

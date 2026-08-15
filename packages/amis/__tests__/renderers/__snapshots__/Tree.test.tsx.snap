@@ -3,340 +3,337 @@
 exports[`Tree: basic & disabled children & default check children 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="tree"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="tree"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            Tree
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          Tree
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TreeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="cxd-TreeControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree"
                     >
-                      <div
-                        class="amis-Tree"
+                      <ul
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
                       >
-                        <ul
-                          class="amis-Tree-list"
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                          style="--Tree-depth: 0;"
                         >
-                          <li
-                            class="amis-Tree-item"
-                            style="--Tree-depth: 0;"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
-                              <div
-                                class="amis-Tree-itemArrow"
+                              <icon-mock
+                                class="icon icon-down-arrow-bold"
+                                icon="down-arrow-bold"
+                              />
+                            </div>
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
-                                  classname="icon icon-down-arrow-bold"
-                                  icon="down-arrow-bold"
+                                  class="icon icon-folder"
+                                  icon="folder"
                                 />
-                              </div>
-                              <div
-                                class="amis-Tree-itemLabel-item"
-                              >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-folderIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-folder"
-                                    icon="folder"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="Folder A"
-                                >
-                                  Folder A
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
-                            </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 1;"
-                          >
-                            <div
-                              class="amis-Tree-itemLabel"
-                            >
+                              </i>
                               <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="Folder A"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file A"
-                                >
-                                  file A
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
-                            </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item is-child"
-                            style="--Tree-depth: 1;"
-                          >
-                            <div
-                              class="amis-Tree-itemLabel"
-                            >
+                                Folder A
+                              </span>
                               <div
-                                class="amis-Tree-itemArrow"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 1;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
-                                  classname="icon icon-down-arrow-bold"
-                                  icon="down-arrow-bold"
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file A"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-folderIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-folder"
-                                    icon="folder"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="Folder B"
-                                >
-                                  Folder B
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
+                                file A
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 2;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item is-child"
+                          style="--Tree-depth: 1;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
+                              <icon-mock
+                                class="icon icon-down-arrow-bold"
+                                icon="down-arrow-bold"
                               />
-                              <div
-                                class="amis-Tree-itemLabel-item"
-                              >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file b1"
-                                >
-                                  file b1
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 2;"
-                          >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file b2"
-                                >
-                                  file b2
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-folder"
+                                  icon="folder"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="Folder B"
+                              >
+                                Folder B
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf"
-                            style="--Tree-depth: 0;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 2;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file C"
-                                >
-                                  file C
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file b1"
+                              >
+                                file b1
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf"
-                            style="--Tree-depth: 0;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 2;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file D"
-                                >
-                                  file D
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file b2"
+                              >
+                                file b2
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                        </ul>
-                      </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          style="--Tree-depth: 0;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                              >
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
+                                />
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file C"
+                              >
+                                file C
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          style="--Tree-depth: 0;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                              >
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
+                                />
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file D"
+                              >
+                                file D
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -350,340 +347,337 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
 exports[`Tree: showOutline 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="tree"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="tree"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            Tree
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          Tree
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TreeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="cxd-TreeControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree __AMIS_COMPONENT_CLASS_PREFIX__Tree--outline"
                     >
-                      <div
-                        class="amis-Tree amis-Tree--outline"
+                      <ul
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
                       >
-                        <ul
-                          class="amis-Tree-list"
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                          style="--Tree-depth: 0;"
                         >
-                          <li
-                            class="amis-Tree-item"
-                            style="--Tree-depth: 0;"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
-                              <div
-                                class="amis-Tree-itemArrow"
+                              <icon-mock
+                                class="icon icon-down-arrow-bold"
+                                icon="down-arrow-bold"
+                              />
+                            </div>
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
-                                  classname="icon icon-down-arrow-bold"
-                                  icon="down-arrow-bold"
+                                  class="icon icon-folder"
+                                  icon="folder"
                                 />
-                              </div>
-                              <div
-                                class="amis-Tree-itemLabel-item"
-                              >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-folderIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-folder"
-                                    icon="folder"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="Folder A"
-                                >
-                                  Folder A
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
-                            </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 1;"
-                          >
-                            <div
-                              class="amis-Tree-itemLabel"
-                            >
+                              </i>
                               <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="Folder A"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file A"
-                                >
-                                  file A
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
-                            </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item is-child"
-                            style="--Tree-depth: 1;"
-                          >
-                            <div
-                              class="amis-Tree-itemLabel"
-                            >
+                                Folder A
+                              </span>
                               <div
-                                class="amis-Tree-itemArrow"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 1;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
-                                  classname="icon icon-down-arrow-bold"
-                                  icon="down-arrow-bold"
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file A"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-folderIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-folder"
-                                    icon="folder"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="Folder B"
-                                >
-                                  Folder B
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
+                                file A
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 2;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item is-child"
+                          style="--Tree-depth: 1;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
+                              <icon-mock
+                                class="icon icon-down-arrow-bold"
+                                icon="down-arrow-bold"
                               />
-                              <div
-                                class="amis-Tree-itemLabel-item"
-                              >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file b1"
-                                >
-                                  file b1
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
-                                />
-                              </div>
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf is-child"
-                            style="--Tree-depth: 2;"
-                          >
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file b2"
-                                >
-                                  file b2
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-folder"
+                                  icon="folder"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="Folder B"
+                              >
+                                Folder B
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf"
-                            style="--Tree-depth: 0;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 2;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file C"
-                                >
-                                  file C
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file b1"
+                              >
+                                file b1
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                          <li
-                            class="amis-Tree-item amis-Tree-item--isLeaf"
-                            style="--Tree-depth: 0;"
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          style="--Tree-depth: 2;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
                             <div
-                              class="amis-Tree-itemLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
-                              <span
-                                class="amis-Tree-itemArrowPlaceholder"
-                              />
-                              <div
-                                class="amis-Tree-itemLabel-item"
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
-                                <i
-                                  class="amis-Tree-itemIcon amis-Tree-leafIcon"
-                                >
-                                  <icon-mock
-                                    classname="icon icon-file"
-                                    icon="file"
-                                  />
-                                </i>
-                                <span
-                                  class="amis-Tree-itemText"
-                                  title="file D"
-                                >
-                                  file D
-                                </span>
-                                <div
-                                  class="amis-Tree-item-icons"
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
                                 />
-                              </div>
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file b2"
+                              >
+                                file b2
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
                             </div>
-                          </li>
-                        </ul>
-                      </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          style="--Tree-depth: 0;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                              >
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
+                                />
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file C"
+                              >
+                                file C
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          style="--Tree-depth: 0;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                            />
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                            >
+                              <i
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                              >
+                                <icon-mock
+                                  class="icon icon-file"
+                                  icon="file"
+                                />
+                              </i>
+                              <span
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                title="file D"
+                              >
+                                file D
+                              </span>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                              />
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>

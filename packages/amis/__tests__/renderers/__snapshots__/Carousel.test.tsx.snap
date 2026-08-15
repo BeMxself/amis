@@ -3,21 +3,21 @@
 exports[`Renderer:Carousel 1`] = `
 <div>
   <div
-    class="cxd-Carousel cxd-Carousel--light show"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--light show"
     style="width: 500px; height: 300px;"
   >
     <div
-      class="cxd-Carousel-container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="cxd-Carousel-item fade out"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade out"
       >
         <div
-          class="cxd-Image cxd-Image--original cxd-Carousel-image"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--original __AMIS_COMPONENT_CLASS_PREFIX__Carousel-image"
         >
           <div
             class="
-            cxd-Image-origin cxd-Image-origin--contain undefined Img-container"
+            __AMIS_COMPONENT_CLASS_PREFIX__Image-origin __AMIS_COMPONENT_CLASS_PREFIX__Image-origin--contain undefined Img-container"
           >
             <div
               class="mask"
@@ -27,21 +27,21 @@ exports[`Renderer:Carousel 1`] = `
               </span>
             </div>
             <img
-              class="cxd-Image-image"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
               src="https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png"
             />
           </div>
           <div
-            class="cxd-Image-info"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
           >
             <div
-              class="cxd-Image-title"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
               title="标题"
             >
               标题
             </div>
             <div
-              class="cxd-Image-caption"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-caption"
               title="描述"
             >
               描述
@@ -50,10 +50,10 @@ exports[`Renderer:Carousel 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Carousel-item fade in"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <span
-          class="cxd-Html"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
         >
           <div
             style="width: 100%; height: 300px; background: #e3e3e3; text-align: center; line-height: 300px;"
@@ -64,31 +64,31 @@ exports[`Renderer:Carousel 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Carousel-dotsControl"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
     >
       <span
-        class="cxd-Carousel-dot"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot"
       />
       <span
-        class="cxd-Carousel-dot is-active"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
       />
       <span
-        class="cxd-Carousel-dot"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot"
       />
     </div>
     <div
-      class="cxd-Carousel-leftArrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
     >
       <icon-mock
-        classname="icon icon-left-arrow"
+        class="icon icon-left-arrow"
         icon="left-arrow"
       />
     </div>
     <div
-      class="cxd-Carousel-rightArrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
     >
       <icon-mock
-        classname="icon icon-right-arrow"
+        class="icon icon-right-arrow"
         icon="right-arrow"
       />
     </div>
@@ -99,20 +99,20 @@ exports[`Renderer:Carousel 1`] = `
 exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
 <div>
   <div
-    class="cxd-Carousel cxd-Carousel--dark"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--dark"
   >
     <div
-      class="cxd-Carousel-container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="cxd-Carousel-item fade in"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <div
-          class="cxd-Image cxd-Image--original cxd-Carousel-image"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--original __AMIS_COMPONENT_CLASS_PREFIX__Carousel-image"
         >
           <div
             class="
-            cxd-Image-origin cxd-Image-origin--cover undefined Img-container"
+            __AMIS_COMPONENT_CLASS_PREFIX__Image-origin __AMIS_COMPONENT_CLASS_PREFIX__Image-origin--cover undefined Img-container"
           >
             <div
               class="mask"
@@ -120,7 +120,7 @@ exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
               <span />
             </div>
             <img
-              class="cxd-Image-image"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
               src="https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png"
             />
           </div>
@@ -134,17 +134,17 @@ exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
 exports[`Renderer:Carousel with itemSchema & width & height 1`] = `
 <div>
   <div
-    class="cxd-Carousel cxd-Carousel--light"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--light"
     style="width: 101px; height: 99px;"
   >
     <div
-      class="cxd-Carousel-container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="cxd-Carousel-item fade in"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <div
@@ -156,25 +156,25 @@ exports[`Renderer:Carousel with itemSchema & width & height 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Carousel-dotsControl"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
     >
       <span
-        class="cxd-Carousel-dot is-active"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
       />
     </div>
     <div
-      class="cxd-Carousel-leftArrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
     >
       <icon-mock
-        classname="icon icon-left-arrow"
+        class="icon icon-left-arrow"
         icon="left-arrow"
       />
     </div>
     <div
-      class="cxd-Carousel-rightArrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
     >
       <icon-mock
-        classname="icon icon-right-arrow"
+        class="icon icon-right-arrow"
         icon="right-arrow"
       />
     </div>

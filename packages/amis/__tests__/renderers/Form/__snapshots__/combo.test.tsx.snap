@@ -3,30 +3,31 @@
 exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addButtonClassName 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -35,10 +36,10 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -46,16 +47,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           自定义1
@@ -64,25 +65,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -90,25 +91,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -128,26 +129,26 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn classOfAdd"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn classOfAdd"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -160,16 +161,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal addAtTopClass"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal addAtTopClass"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           更复杂的
@@ -178,25 +179,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -204,25 +205,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -242,24 +243,24 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -267,25 +268,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -305,22 +306,22 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Button--block"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Button--block"
                             type="button"
                           >
                             <span>
@@ -333,16 +334,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal addableClass"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal addableClass"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           不存在的
@@ -351,25 +352,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -377,25 +378,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -415,24 +416,24 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -440,25 +441,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -478,19 +479,19 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         />
                       </div>
                     </div>
@@ -499,13 +500,13 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -525,30 +526,31 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
 exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -557,10 +559,10 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -568,16 +570,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal parentInput"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal parentInput"
                   data-amis-name="super_text"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           父级文本框
@@ -586,13 +588,13 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -608,16 +610,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           不可获取父级数据
@@ -626,32 +628,32 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -664,16 +666,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo2"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           可获取父级数据不可更新
@@ -682,32 +684,32 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -720,16 +722,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo3"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           可获取父级数据亦可更新
@@ -738,32 +740,32 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -778,13 +780,13 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -804,30 +806,31 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
 exports[`Renderer:combo with conditions: add button open 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -836,10 +839,10 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -847,16 +850,16 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo-conditions"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           多选
@@ -865,22 +868,22 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--ver"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--ver"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemTag"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemTag"
                             >
                               <label>
                                 类型
@@ -888,34 +891,34 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               <div
                                 aria-expanded="false"
                                 aria-haspopup="listbox"
-                                class="cxd-Select"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                                 role="combobox"
                                 tabindex="0"
                               >
                                 <div
-                                  class="cxd-Select-valueWrap"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                 >
                                   <div
-                                    class="cxd-Select-value"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                                   >
                                     数字
                                   </div>
                                 </div>
                                 <span
-                                  class="cxd-Select-arrow"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                                 >
                                   <icon-mock
-                                    classname="icon icon-right-arrow-bold"
+                                    class="icon icon-right-arrow-bold"
                                     icon="right-arrow-bold"
                                   />
                                 </span>
                               </div>
                             </div>
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--normal cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -923,16 +926,16 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-item cxd-Form-item--normal"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                                   data-amis-name="number"
                                   data-role="form-item"
                                 >
                                   <label
-                                    class="cxd-Form-label"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                                   >
                                     <span>
                                       <span
-                                        class="cxd-TplField fr-view"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                                       >
                                         <span>
                                           最小值
@@ -941,46 +944,46 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                     </span>
                                   </label>
                                   <div
-                                    class="cxd-NumberControl cxd-Form-control"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                                   >
                                     <div
-                                      class="cxd-Number cxd-Number--borderFull"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                                     >
                                       <div
-                                        class="cxd-Number-handler-wrap"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                       >
                                         <span
                                           aria-disabled="false"
                                           aria-label="Increase Value"
-                                          class="cxd-Number-handler cxd-Number-handler-up"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                                           role="button"
                                           unselectable="on"
                                         >
                                           <span
-                                            class="cxd-Number-handler-up-inner"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                             unselectable="on"
                                           />
                                         </span>
                                         <span
                                           aria-disabled="false"
                                           aria-label="Decrease Value"
-                                          class="cxd-Number-handler cxd-Number-handler-down"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                                           role="button"
                                           unselectable="on"
                                         >
                                           <span
-                                            class="cxd-Number-handler-down-inner"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                                             unselectable="on"
                                           />
                                         </span>
                                       </div>
                                       <div
-                                        class="cxd-Number-input-wrap"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                                       >
                                         <input
                                           aria-valuenow="0"
                                           autocomplete="off"
-                                          class="cxd-Number-input"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                                           name="number"
                                           role="spinbutton"
                                           step="1"
@@ -993,46 +996,46 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <div
-                            class="cxd-DropDown  is-opened"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
                           >
                             <button
-                              class="cxd-Button cxd-Button--info cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--info __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                             >
                               <icon-mock
-                                classname="icon m-r-xs icon icon-plus-fine"
+                                class="icon m-r-xs icon icon-plus-fine"
                                 icon="plus-fine"
                               />
                               新增
                               <span
-                                class="cxd-DropDown-caret"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
                               >
                                 <icon-mock
-                                  classname="icon icon-right-arrow-bold"
+                                  class="icon icon-right-arrow-bold"
                                   icon="right-arrow-bold"
                                 />
                               </span>
                             </button>
                             <ul
-                              class="cxd-DropDown-menu-root cxd-DropDown-menu"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
                               style="width: 0px;"
                             >
                               <li
-                                class="cxd-DropDown-button"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
                               >
                                 <a
                                   class=""
@@ -1043,7 +1046,7 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-DropDown-button"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
                               >
                                 <a
                                   class=""
@@ -1063,13 +1066,13 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1089,30 +1092,31 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
 exports[`Renderer:combo with draggable 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1121,10 +1125,10 @@ exports[`Renderer:combo with draggable 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1132,16 +1136,16 @@ exports[`Renderer:combo with draggable 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           拖拽排序
@@ -1150,38 +1154,38 @@ exports[`Renderer:combo with draggable 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor is-draggable"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor is-draggable"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemDrager"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
                             >
                               <a
                                 data-position="bottom"
                                 data-tooltip="拖拽排序"
                               >
                                 <icon-mock
-                                  classname="icon icon-drag-bar"
+                                  class="icon icon-drag-bar"
                                   icon="drag-bar"
                                 />
                               </a>
                             </div>
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1189,25 +1193,25 @@ exports[`Renderer:combo with draggable 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1224,41 +1228,41 @@ exports[`Renderer:combo with draggable 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="select"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-SelectControl cxd-Form-control"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                                         >
                                           <div
                                             aria-expanded="false"
                                             aria-haspopup="listbox"
-                                            class="cxd-Select"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                                             role="combobox"
                                             tabindex="0"
                                           >
                                             <div
-                                              class="cxd-Select-valueWrap"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                             >
                                               <div
-                                                class="cxd-Select-value"
+                                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                                               >
                                                 a
                                               </div>
                                             </div>
                                             <span
-                                              class="cxd-Select-arrow"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                                             >
                                               <icon-mock
-                                                classname="icon icon-right-arrow-bold"
+                                                class="icon icon-right-arrow-bold"
                                                 icon="right-arrow-bold"
                                               />
                                             </span>
@@ -1271,37 +1275,37 @@ exports[`Renderer:combo with draggable 1`] = `
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemDrager"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
                             >
                               <a
                                 data-position="bottom"
                                 data-tooltip="拖拽排序"
                               >
                                 <icon-mock
-                                  classname="icon icon-drag-bar"
+                                  class="icon icon-drag-bar"
                                   icon="drag-bar"
                                 />
                               </a>
                             </div>
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1309,25 +1313,25 @@ exports[`Renderer:combo with draggable 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1344,41 +1348,41 @@ exports[`Renderer:combo with draggable 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="select"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-SelectControl cxd-Form-control"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                                         >
                                           <div
                                             aria-expanded="false"
                                             aria-haspopup="listbox"
-                                            class="cxd-Select"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                                             role="combobox"
                                             tabindex="0"
                                           >
                                             <div
-                                              class="cxd-Select-valueWrap"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                             >
                                               <div
-                                                class="cxd-Select-value"
+                                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                                               >
                                                 b
                                               </div>
                                             </div>
                                             <span
-                                              class="cxd-Select-arrow"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                                             >
                                               <icon-mock
-                                                classname="icon icon-right-arrow-bold"
+                                                class="icon icon-right-arrow-bold"
                                                 icon="right-arrow-bold"
                                               />
                                             </span>
@@ -1391,26 +1395,26 @@ exports[`Renderer:combo with draggable 1`] = `
                               </div>
                             </div>
                             <a
-                              class="cxd-Combo-delBtn "
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
                               <icon-mock
-                                classname="icon icon-status-close"
+                                class="icon icon-status-close"
                                 icon="status-close"
                               />
                             </a>
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -1418,7 +1422,7 @@ exports[`Renderer:combo with draggable 1`] = `
                             </span>
                           </button>
                           <span
-                            class="cxd-Combo-dragableTip"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-dragableTip"
                           />
                         </div>
                       </div>
@@ -1428,13 +1432,13 @@ exports[`Renderer:combo with draggable 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1454,17 +1458,17 @@ exports[`Renderer:combo with draggable 1`] = `
 exports[`Renderer:combo with items & multiLine 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1473,10 +1477,10 @@ exports[`Renderer:combo with items & multiLine 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--horizontal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
         novalidate=""
       >
         <input
@@ -1484,16 +1488,16 @@ exports[`Renderer:combo with items & multiLine 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
           data-amis-name="combo1"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label cxd-Form-itemColumn--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Combo 单行展示
@@ -1502,23 +1506,23 @@ exports[`Renderer:combo with items & multiLine 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-value"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
           />
         </div>
         <div
-          class="cxd-Divider cxd-Divider--solid cxd-Divider--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
           data-amis-name="combo2"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label cxd-Form-itemColumn--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Combo 多行展示
@@ -1527,19 +1531,19 @@ exports[`Renderer:combo with items & multiLine 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-value"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
           />
         </div>
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1555,30 +1559,31 @@ exports[`Renderer:combo with items & multiLine 1`] = `
 exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1587,10 +1592,10 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1598,16 +1603,16 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal is-error"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal is-error"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           最少添加1条且最多3条
@@ -1616,32 +1621,32 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control is-error"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -1652,7 +1657,7 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                       </div>
                     </div>
                     <ul
-                      class="cxd-Form-feedback"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                     >
                       <li>
                         组合表单数量不足1个，请添加更多
@@ -1663,13 +1668,13 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1689,30 +1694,31 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
 exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmText 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1721,10 +1727,10 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1732,16 +1738,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal removableFalse"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal removableFalse"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1750,25 +1756,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1776,25 +1782,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1816,14 +1822,14 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -1836,16 +1842,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal deleteBtn"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal deleteBtn"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1854,25 +1860,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1880,25 +1886,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1918,7 +1924,7 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                               </div>
                             </div>
                             <button
-                              class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-delController"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-delController"
                               type="button"
                             >
                               <span>
@@ -1928,14 +1934,14 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -1948,16 +1954,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal superDeleteBtn"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal superDeleteBtn"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1966,25 +1972,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Combo cxd-Combo--multi cxd-Combo--hor"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="cxd-Combo-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="cxd-Combo-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--row cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1992,25 +1998,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-row"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="cxd-Form-col"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="cxd-Form-item cxd-Form-item--row"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="cxd-Form-rowInner"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="cxd-Form-control cxd-TextControl"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="cxd-TextControl-input"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -2030,7 +2036,7 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                               </div>
                             </div>
                             <button
-                              class="cxd-Button cxd-Button--danger cxd-Button--size-default cxd-Combo-delController"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--danger __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-delController"
                               type="button"
                             >
                               <span>
@@ -2040,14 +2046,14 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="cxd-Combo-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="cxd-Button cxd-Button--default cxd-Button--size-default cxd-Combo-addBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
-                              classname="icon icon-plus-fine"
+                              class="icon icon-plus-fine"
                               icon="plus-fine"
                             />
                             <span>
@@ -2062,13 +2068,13 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -2088,30 +2094,31 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
 exports[`Renderer:combo with tabsMode 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2120,10 +2127,10 @@ exports[`Renderer:combo with tabsMode 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -2131,16 +2138,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           组合多条多行
@@ -2149,80 +2156,80 @@ exports[`Renderer:combo with tabsMode 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-ComboControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-Tabs cxd-ComboTabs"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__ComboTabs"
                         data-role="container"
                       >
                         <div
-                          class="cxd-Tabs-linksContainer-wrapper"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
                         >
                           <div
-                            class="cxd-Tabs-linksContainer"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
                           >
                             <div
-                              class="cxd-Tabs-linksContainer-main"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
                             >
                               <ul
-                                class="cxd-Tabs-links"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
                                 role="tablist"
                               >
                                 <li
-                                  class="cxd-Tabs-link is-active"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
                                 >
                                   <a
                                     title="这是第3个"
                                   >
                                     <span
-                                      class="cxd-Tabs-link-text"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                     >
                                       这是第3个
                                     </span>
                                     <div
-                                      class="cxd-Combo-tab-delBtn "
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
                                       data-position="bottom"
                                       data-tooltip="删除"
                                     >
                                       <icon-mock
-                                        classname="icon icon-status-close"
+                                        class="icon icon-status-close"
                                         icon="status-close"
                                       />
                                     </div>
                                   </a>
                                 </li>
                                 <li
-                                  class="cxd-Tabs-link"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
                                 >
                                   <a
                                     title="这是第4个"
                                   >
                                     <span
-                                      class="cxd-Tabs-link-text"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                     >
                                       这是第4个
                                     </span>
                                     <div
-                                      class="cxd-Combo-tab-delBtn "
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
                                       data-position="bottom"
                                       data-tooltip="删除"
                                     >
                                       <icon-mock
-                                        classname="icon icon-status-close"
+                                        class="icon icon-status-close"
                                         icon="status-close"
                                       />
                                     </div>
                                   </a>
                                 </li>
                                 <li
-                                  class="cxd-Tabs-link cxd-ComboTabs-addLink"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__ComboTabs-addLink"
                                 >
                                   <a>
                                     <icon-mock
-                                      classname="icon icon-plus-fine"
+                                      class="icon icon-plus-fine"
                                       icon="plus-fine"
                                     />
                                     <span>
@@ -2235,16 +2242,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                           </div>
                         </div>
                         <div
-                          class="cxd-Tabs-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
                         >
                           <div
-                            class="in is-active cxd-Tabs-pane"
+                            class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
                           >
                             <div
-                              class="cxd-Combo-itemInner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="cxd-Form cxd-Form--normal cxd-Combo-form"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -2252,16 +2259,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="cxd-Form-item cxd-Form-item--normal"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                                   data-amis-name="a"
                                   data-role="form-item"
                                 >
                                   <label
-                                    class="cxd-Form-label"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                                   >
                                     <span>
                                       <span
-                                        class="cxd-TplField fr-view"
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                                       >
                                         <span>
                                           文本
@@ -2270,10 +2277,10 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                     </span>
                                   </label>
                                   <div
-                                    class="cxd-Form-control cxd-TextControl"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                   >
                                     <div
-                                      class="cxd-TextControl-input"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                     >
                                       <input
                                         autocomplete="off"
@@ -2298,13 +2305,13 @@ exports[`Renderer:combo with tabsMode 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

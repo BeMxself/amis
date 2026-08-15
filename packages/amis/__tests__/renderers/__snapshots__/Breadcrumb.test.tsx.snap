@@ -3,56 +3,56 @@
 exports[`Renderer:breadcrumb 1`] = `
 <div>
   <div
-    class="cxd-Breadcrumb"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
   >
     <span
-      class="cxd-Breadcrumb-item"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
     >
       <a
-        class="cxd-Breadcrumb-item-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
         href="https://baidu.gitee.com/"
       >
         <i
-          class="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+          class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
         />
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           首页
         </span>
       </a>
     </span>
     <span
-      class="cxd-Breadcrumb-separator"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
     >
       &gt;
     </span>
     <span
-      class="cxd-Breadcrumb-item"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
     >
       <span
-        class="cxd-Breadcrumb-item-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           上级页面
         </span>
       </span>
     </span>
     <span
-      class="cxd-Breadcrumb-separator"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
     >
       &gt;
     </span>
     <span
-      class="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
     >
       <span
-        class="cxd-Breadcrumb-item-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           当前页面
         </span>
@@ -65,60 +65,60 @@ exports[`Renderer:breadcrumb 1`] = `
 exports[`Renderer:breadcrumb className 1`] = `
 <div>
   <div
-    class="cxd-Breadcrumb className"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb className"
   >
     <span
-      class="cxd-Breadcrumb-item"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
     >
       <a
-        class="cxd-Breadcrumb-item-default itemClassName"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default itemClassName"
         href="https://baidu.gitee.com/"
       >
         <i
-          class="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+          class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
         />
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           首页
         </span>
       </a>
     </span>
     <span
-      class="cxd-Breadcrumb-separator"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
     >
       &gt;
     </span>
     <span
-      class="cxd-Breadcrumb-item is-opened"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item is-opened"
     >
       <span
-        class="cxd-Breadcrumb-item-default itemClassName"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default itemClassName"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           上级页面
         </span>
       </span>
       <span
-        class="cxd-Breadcrumb-item-caret"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-caret"
       >
         <icon-mock
-          classname="icon icon-down"
+          class="icon icon-down"
           icon="down"
         />
       </span>
       <ul
-        class="cxd-Breadcrumb-dropdown dropdownClassName"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-dropdown dropdownClassName"
       >
         <li>
           <a
-            class="cxd-Breadcrumb-item-dropdown dropdownItemClassName"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-dropdown dropdownItemClassName"
             href="https://baidu.gitee.com/"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               选项一
             </span>
@@ -126,10 +126,10 @@ exports[`Renderer:breadcrumb className 1`] = `
         </li>
         <li>
           <span
-            class="cxd-Breadcrumb-item-dropdown dropdownItemClassName"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-dropdown dropdownItemClassName"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               选项二
             </span>
@@ -138,18 +138,18 @@ exports[`Renderer:breadcrumb className 1`] = `
       </ul>
     </span>
     <span
-      class="cxd-Breadcrumb-separator"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
     >
       &gt;
     </span>
     <span
-      class="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
     >
       <span
-        class="cxd-Breadcrumb-item-default itemClassName"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default itemClassName"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           当前页面
         </span>
@@ -162,77 +162,78 @@ exports[`Renderer:breadcrumb className 1`] = `
 exports[`Renderer:breadcrumb dropdown 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   首页
                 </span>
               </a>
             </span>
             <span
-              class="cxd-Breadcrumb-separator"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面
                 </span>
               </span>
               <span
-                class="cxd-Breadcrumb-item-caret"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-caret"
               >
                 <icon-mock
-                  classname="icon icon-down"
+                  class="icon icon-down"
                   icon="down"
                 />
               </span>
             </span>
             <span
-              class="cxd-Breadcrumb-separator"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -249,69 +250,70 @@ exports[`Renderer:breadcrumb dropdown 1`] = `
 exports[`Renderer:breadcrumb separator 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home cxd-Icon cxd-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   首页
                 </span>
               </a>
             </span>
             <span
-              class="cxd-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面
                 </span>
               </span>
             </span>
             <span
-              class="cxd-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -328,68 +330,68 @@ exports[`Renderer:breadcrumb separator 1`] = `
 exports[`Renderer:breadcrumb tooltip labelMaxLength 1`] = `
 <div>
   <div
-    class="amis-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="amis-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 />
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -406,68 +408,68 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 1`] = `
 exports[`Renderer:breadcrumb tooltip labelMaxLength 2`] = `
 <div>
   <div
-    class="amis-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="amis-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 />
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -484,68 +486,68 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 2`] = `
 exports[`Renderer:breadcrumb tooltip labelMaxLength 3`] = `
 <div>
   <div
-    class="amis-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="amis-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 />
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -562,68 +564,68 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 3`] = `
 exports[`Renderer:breadcrumb tooltip labelMaxLength 4`] = `
 <div>
   <div
-    class="amis-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="amis-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <i
-                  class="fa fa-home amis-Icon amis-Breadcrumb-icon fa fa-home"
+                  class="fa fa-home __AMIS_COMPONENT_CLASS_PREFIX__Icon __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-icon fa fa-home"
                 />
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 />
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面上级页面上级页面上级页面...
                 </span>
               </a>
             </span>
             <span
-              class="amis-Breadcrumb-separator text-black"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator text-black"
             >
               &gt;
             </span>
             <span
-              class="amis-Breadcrumb-item amis-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="amis-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="amis-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>
@@ -640,66 +642,67 @@ exports[`Renderer:breadcrumb tooltip labelMaxLength 4`] = `
 exports[`Renderer:breadcrumb var 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Breadcrumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb"
           >
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <a
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
                 href="https://baidu.gitee.com/"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   首页
                 </span>
               </a>
             </span>
             <span
-              class="cxd-Breadcrumb-separator"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   上级页面
                 </span>
               </span>
             </span>
             <span
-              class="cxd-Breadcrumb-separator"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-separator"
             >
               &gt;
             </span>
             <span
-              class="cxd-Breadcrumb-item cxd-Breadcrumb-item-last"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item __AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-last"
             >
               <span
-                class="cxd-Breadcrumb-item-default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Breadcrumb-item-default"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   当前页面
                 </span>

@@ -3,70 +3,67 @@
 exports[`1. EventAction:dialog args 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="amis-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="amis-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="amis-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="amis-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           模态弹窗
         </div>
       </div>
       <div
-        class="amis-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -74,7 +71,7 @@ exports[`1. EventAction:dialog args 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -82,7 +79,7 @@ exports[`1. EventAction:dialog args 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -90,7 +87,7 @@ exports[`1. EventAction:dialog args 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -99,10 +96,10 @@ exports[`1. EventAction:dialog args 1`] = `
         </button>
       </div>
       <div
-        class="amis-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -110,7 +107,7 @@ exports[`1. EventAction:dialog args 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -126,30 +123,27 @@ exports[`1. EventAction:dialog args 1`] = `
 exports[`1. EventAction:dialog args 2`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -160,30 +154,27 @@ exports[`1. EventAction:dialog args 2`] = `
 exports[`1. EventAction:dialog args 3`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -194,30 +185,27 @@ exports[`1. EventAction:dialog args 3`] = `
 exports[`1. EventAction:dialog args 4`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -228,30 +216,27 @@ exports[`1. EventAction:dialog args 4`] = `
 exports[`1. EventAction:dialog args 5`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -262,30 +247,27 @@ exports[`1. EventAction:dialog args 5`] = `
 exports[`1. EventAction:dialog args 6`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -296,30 +278,27 @@ exports[`1. EventAction:dialog args 6`] = `
 exports[`1. EventAction:dialog args 7`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -330,70 +309,67 @@ exports[`1. EventAction:dialog args 7`] = `
 exports[`2. EventAction:dialog 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="amis-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="amis-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="amis-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="amis-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           模态弹窗
         </div>
       </div>
       <div
-        class="amis-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -401,7 +377,7 @@ exports[`2. EventAction:dialog 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -409,7 +385,7 @@ exports[`2. EventAction:dialog 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -417,7 +393,7 @@ exports[`2. EventAction:dialog 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default ml-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default ml-2"
           type="button"
         >
           <span>
@@ -426,10 +402,10 @@ exports[`2. EventAction:dialog 1`] = `
         </button>
       </div>
       <div
-        class="amis-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -437,7 +413,7 @@ exports[`2. EventAction:dialog 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -453,30 +429,27 @@ exports[`2. EventAction:dialog 1`] = `
 exports[`2. EventAction:dialog 2`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -487,30 +460,27 @@ exports[`2. EventAction:dialog 2`] = `
 exports[`2. EventAction:dialog 3`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -521,30 +491,27 @@ exports[`2. EventAction:dialog 3`] = `
 exports[`2. EventAction:dialog 4`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -555,30 +522,27 @@ exports[`2. EventAction:dialog 4`] = `
 exports[`2. EventAction:dialog 5`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -589,30 +553,27 @@ exports[`2. EventAction:dialog 5`] = `
 exports[`2. EventAction:dialog 6`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -623,30 +584,27 @@ exports[`2. EventAction:dialog 6`] = `
 exports[`2. EventAction:dialog 7`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开弹窗
-              </span>
-            </button>
-          </div>
+            <span>
+              打开弹窗
+            </span>
+          </button>
         </div>
       </div>
     </div>

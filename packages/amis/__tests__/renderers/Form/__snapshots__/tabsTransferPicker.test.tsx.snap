@@ -7,30 +7,31 @@ exports[`Renderer:TabsTransferPicker 1`] = `
 >
   <div>
     <div
-      class="cxd-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+      data-amis-theme="cxd"
     >
       <div
-        class="cxd-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="cxd-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="cxd-Page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <div
-              class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
               data-role="container"
             >
               <div
-                class="cxd-Panel-heading"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
               >
                 <h3
-                  class="cxd-Panel-title"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       表单
@@ -39,10 +40,10 @@ exports[`Renderer:TabsTransferPicker 1`] = `
                 </h3>
               </div>
               <div
-                class="cxd-Panel-body"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -50,16 +51,16 @@ exports[`Renderer:TabsTransferPicker 1`] = `
                     type="submit"
                   />
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="a"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             选人
@@ -68,20 +69,20 @@ exports[`Renderer:TabsTransferPicker 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-TabsTransferControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransferControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-ResultBox cxd-TransferPicker is-clickable is-group"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferPicker is-clickable is-group"
                         tabindex="-1"
                       >
                         <div
-                          class="cxd-ResultBox-value-wrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                         >
                           <div
-                            class="cxd-ResultBox-value"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value"
                           >
                             <span
-                              class="cxd-ResultBox-valueLabel"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
                               data-index="0"
                             >
                               <span>
@@ -92,22 +93,22 @@ exports[`Renderer:TabsTransferPicker 1`] = `
                               data-index="0"
                             >
                               <icon-mock
-                                classname="icon icon-close"
+                                class="icon icon-close"
                                 icon="close"
                               />
                             </a>
                           </div>
                           <span
-                            class="cxd-TransferPicker-icon"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TransferPicker-icon"
                           >
                             <icon-mock
-                              classname="icon icon-pencil"
+                              class="icon icon-pencil"
                               icon="pencil"
                             />
                           </span>
                         </div>
                         <div
-                          class="cxd-ResultBox-actions"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                         />
                       </div>
                     </div>
@@ -115,13 +116,13 @@ exports[`Renderer:TabsTransferPicker 1`] = `
                 </form>
               </div>
               <div
-                class="cxd-Panel-footerWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
               >
                 <div
-                  class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 >
                   <button
-                    class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                     type="submit"
                   >
                     <span>
@@ -146,30 +147,31 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
 >
   <div>
     <div
-      class="cxd-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+      data-amis-theme="cxd"
     >
       <div
-        class="cxd-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="cxd-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="cxd-Page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <div
-              class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
               data-role="container"
             >
               <div
-                class="cxd-Panel-heading"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
               >
                 <h3
-                  class="cxd-Panel-title"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       表单
@@ -178,10 +180,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                 </h3>
               </div>
               <div
-                class="cxd-Panel-body"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
               >
                 <form
-                  class="cxd-Form cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -189,16 +191,16 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                     type="submit"
                   />
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="a"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             选人
@@ -207,31 +209,31 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-TabsTransferControl cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransferControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-ResultBox cxd-TransferPicker is-active is-clickable is-group"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferPicker is-active is-clickable is-group"
                         tabindex="-1"
                       >
                         <div
-                          class="cxd-ResultBox-value-wrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                         >
                           <span
-                            class="cxd-ResultBox-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                           >
                             请选择
                           </span>
                           <span
-                            class="cxd-TransferPicker-icon"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TransferPicker-icon"
                           >
                             <icon-mock
-                              classname="icon icon-pencil"
+                              class="icon icon-pencil"
                               icon="pencil"
                             />
                           </span>
                         </div>
                         <div
-                          class="cxd-ResultBox-actions"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                         />
                       </div>
                     </div>
@@ -239,13 +241,13 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                 </form>
               </div>
               <div
-                class="cxd-Panel-footerWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
               >
                 <div
-                  class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                 >
                   <button
-                    class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                     type="submit"
                   >
                     <span>
@@ -261,93 +263,94 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--md cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
         locale="zh-CN"
         theme="cxd"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         请选择
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         theme="cxd"
       >
         <div
-          class="cxd-Transfer cxd-TabsTransfer"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer"
         >
           <div
-            class="cxd-Transfer-select"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-select"
           >
             <div
-              class="cxd-Tabs cxd-Tabs--line cxd-TabsTransfer-tabs"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tabs"
               data-role="container"
             >
               <div
-                class="cxd-Tabs-linksContainer-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
               >
                 <div
-                  class="cxd-Tabs-linksContainer"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
                 >
                   <div
-                    class="cxd-Tabs-linksContainer-main"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
                   >
                     <ul
-                      class="cxd-Tabs-links"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
                       role="tablist"
                     >
                       <li
-                        class="cxd-Tabs-link is-active cxd-TabsTransfer-tab"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                       >
                         <a
                           title="成员"
                         >
                           <span
-                            class="cxd-Tabs-link-text"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                           >
                             成员
                           </span>
                         </a>
                       </li>
                       <li
-                        class="cxd-Tabs-link cxd-TabsTransfer-tab"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                       >
                         <a
                           title="角色"
                         >
                           <span
-                            class="cxd-Tabs-link-text"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                           >
                             角色
                           </span>
                         </a>
                       </li>
                       <li
-                        class="cxd-Tabs-link cxd-TabsTransfer-tab"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                       >
                         <a
                           title="部门"
                         >
                           <span
-                            class="cxd-Tabs-link-text"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                           >
                             部门
                           </span>
@@ -358,34 +361,34 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Tabs-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
               >
                 <div
-                  class="in is-active cxd-Tabs-pane cxd-TabsTransfer-tab"
+                  class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                 >
                   <div
-                    class="cxd-Tree cxd-Transfer-checkboxes"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                   >
                     <ul
-                      class="cxd-Tree-list"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
                     >
                       <li
-                        class="cxd-Tree-item "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
                         style="--Tree-depth: 0;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <div
-                            class="cxd-Tree-itemArrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                           >
                             <icon-mock
-                              classname="icon icon-down-arrow-bold"
+                              class="icon icon-down-arrow-bold"
                               icon="down-arrow-bold"
                             />
                           </div>
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -401,14 +404,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="法师"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -422,23 +425,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel is-checked"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel is-checked"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -454,14 +457,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="诸葛亮"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -482,28 +485,28 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
                         style="--Tree-depth: 0;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <div
-                            class="cxd-Tree-itemArrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                           >
                             <icon-mock
-                              classname="icon icon-down-arrow-bold"
+                              class="icon icon-down-arrow-bold"
                               icon="down-arrow-bold"
                             />
                           </div>
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -519,14 +522,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="战士"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -540,23 +543,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -572,14 +575,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="曹操"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -600,23 +603,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -632,14 +635,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="钟无艳"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -660,28 +663,28 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
                         style="--Tree-depth: 0;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <div
-                            class="cxd-Tree-itemArrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                           >
                             <icon-mock
-                              classname="icon icon-down-arrow-bold"
+                              class="icon icon-down-arrow-bold"
                               icon="down-arrow-bold"
                             />
                           </div>
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -697,14 +700,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="打野"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -718,23 +721,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -750,14 +753,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="李白"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -778,23 +781,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -810,14 +813,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="韩信"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -838,23 +841,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -870,14 +873,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="云中君"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -898,7 +901,7 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
@@ -907,16 +910,16 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Tabs-pane cxd-TabsTransfer-tab"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                 >
                   <div
-                    class="cxd-GroupedSelection cxd-Transfer-checkboxes"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                   >
                     <div
-                      class="cxd-GroupedSelection-item"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-item"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                         data-role="checkbox"
                       >
                         <input
@@ -932,10 +935,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                         />
                       </label>
                       <div
-                        class="cxd-GroupedSelection-itemLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-itemLabel"
                       >
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             <div
@@ -950,10 +953,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-GroupedSelection-item"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-item"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                         data-role="checkbox"
                       >
                         <input
@@ -969,10 +972,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                         />
                       </label>
                       <div
-                        class="cxd-GroupedSelection-itemLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-itemLabel"
                       >
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             <div
@@ -987,10 +990,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-GroupedSelection-item"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-item"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                         data-role="checkbox"
                       >
                         <input
@@ -1006,10 +1009,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                         />
                       </label>
                       <div
-                        class="cxd-GroupedSelection-itemLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-itemLabel"
                       >
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             <div
@@ -1024,10 +1027,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-GroupedSelection-item"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-item"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                         data-role="checkbox"
                       >
                         <input
@@ -1043,10 +1046,10 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                         />
                       </label>
                       <div
-                        class="cxd-GroupedSelection-itemLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__GroupedSelection-itemLabel"
                       >
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             <div
@@ -1063,31 +1066,31 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Tabs-pane cxd-TabsTransfer-tab"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                 >
                   <div
-                    class="cxd-Tree cxd-Transfer-checkboxes"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                   >
                     <ul
-                      class="cxd-Tree-list"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
                     >
                       <li
-                        class="cxd-Tree-item "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
                         style="--Tree-depth: 0;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <div
-                            class="cxd-Tree-itemArrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                           >
                             <icon-mock
-                              classname="icon icon-down-arrow-bold"
+                              class="icon icon-down-arrow-bold"
                               icon="down-arrow-bold"
                             />
                           </div>
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1103,14 +1106,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="总部"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1124,28 +1127,28 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <div
-                            class="cxd-Tree-itemArrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                           >
                             <icon-mock
-                              classname="icon icon-down-arrow-bold"
+                              class="icon icon-down-arrow-bold"
                               icon="down-arrow-bold"
                             />
                           </div>
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1161,14 +1164,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="部门 1"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1182,23 +1185,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 2;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1214,14 +1217,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="部门 4"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1235,23 +1238,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 2;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1267,14 +1270,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="部门 5"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1288,23 +1291,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1320,14 +1323,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="部门 2"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1341,23 +1344,23 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
                       </li>
                       <li
-                        class="cxd-Tree-item  cxd-Tree-item--isLeaf is-child"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                         style="--Tree-depth: 1;"
                       >
                         <div
-                          class="cxd-Tree-itemLabel"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                         >
                           <span
-                            class="cxd-Tree-itemArrowPlaceholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                           />
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default cxd-Checkbox--sm"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                             data-role="checkbox"
                           >
                             <input
@@ -1373,14 +1376,14 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                             />
                           </label>
                           <div
-                            class="cxd-Tree-itemLabel-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                           >
                             <span
-                              class="cxd-Tree-itemText"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
                               title="部门 3"
                             >
                               <span
-                                class="cxd-TplField fr-view"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                               >
                                 <span>
                                   <div
@@ -1394,7 +1397,7 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                               </span>
                             </span>
                             <div
-                              class="cxd-Tree-item-icons"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                             />
                           </div>
                         </div>
@@ -1406,37 +1409,37 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Transfer-mid"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-mid"
           />
           <div
-            class="cxd-Transfer-result"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-result"
           >
             <div
-              class="cxd-Transfer-title"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-title"
             >
               <span>
                 已选项
               </span>
               <a
-                class="cxd-Transfer-clearAll"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-clearAll"
               >
                 清空
               </a>
             </div>
             <div
-              class="cxd-Selections cxd-Transfer-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Selections __AMIS_COMPONENT_CLASS_PREFIX__Transfer-value"
             >
               <div
-                class="cxd-Selections-items"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-items"
               >
                 <div
-                  class="cxd-Selections-item"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-item"
                 >
                   <label
-                    class="cxd-Selections-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-label"
                   >
                     <span
-                      class="cxd-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         诸葛亮(zhugeliang)
@@ -1444,11 +1447,11 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
                     </span>
                   </label>
                   <a
-                    class="cxd-Selections-delBtn"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-delBtn"
                     data-index="0"
                   >
                     <icon-mock
-                      classname="icon icon-close"
+                      class="icon icon-close"
                       icon="close"
                     />
                   </a>
@@ -1459,17 +1462,17 @@ exports[`Renderer:TabsTransferPicker: dialog open 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
         theme="cxd"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           取消
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           确认

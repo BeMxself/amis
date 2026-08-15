@@ -3,20 +3,21 @@
 exports[`doAction:form clear 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -24,17 +25,17 @@ exports[`doAction:form clear 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -43,10 +44,10 @@ exports[`doAction:form clear 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -54,239 +55,156 @@ exports[`doAction:form clear 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-JsonField cxd-Form--debug"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
                 >
                   <div
-                    class="react-json-view"
-                    style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
+                    class="w-json-view-container w-rjv  w-rjv-inner"
+                    style="line-height: 1.4; font-family: var(--w-rjv-font-family, Menlo, monospace); font-size: 13px; --w-rjv-font-family: monospace; --w-rjv-color: #002b36; --w-rjv-background-color: #ffffff; --w-rjv-line-color: #ebebeb; --w-rjv-arrow-color: var(--w-rjv-color); --w-rjv-edit-color: var(--w-rjv-color); --w-rjv-info-color: #0000004d; --w-rjv-update-color: #ebcb8b; --w-rjv-copied-color: #002b36; --w-rjv-copied-success-color: #28a745; --w-rjv-curlybraces-color: #236a7c; --w-rjv-colon-color: #002b36; --w-rjv-brackets-color: #236a7c; --w-rjv-type-string-color: #cb4b16; --w-rjv-type-int-color: #268bd2; --w-rjv-type-float-color: #859900; --w-rjv-type-bigint-color: #268bd2; --w-rjv-type-boolean-color: #2aa198; --w-rjv-type-date-color: #586e75; --w-rjv-type-url-color: #0969da; --w-rjv-type-null-color: #d33682; --w-rjv-type-nan-color: #859900; --w-rjv-type-undefined-color: #586e75;"
                   >
                     <div
-                      class="pretty-json-container object-container"
+                      style="display: inline-flex; align-items: center;"
+                    >
+                      <svg
+                        class="w-rjv-arrow"
+                        data-expand="true"
+                        data-icon-style="square"
+                        fill="none"
+                        style="cursor: pointer; height: 1em; width: 1em; transform: rotate(0deg); transition: all 0.3s;"
+                        viewBox="0 0 24 24"
+                      >
+                        <rect
+                          fill="none"
+                          height="14"
+                          rx="1.5"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          width="14"
+                          x="5"
+                          y="5"
+                        />
+                        <path
+                          d="M8 12h8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                      <span
+                        class="w-rjv-curlybraces-start "
+                      >
+                        {
+                      </span>
+                      <span
+                        class="w-rjv-object-size"
+                        style="padding-left: 4px; font-style: italic;"
+                      >
+                        3
+
+                        items
+                      </span>
+                    </div>
+                    <div
+                      class="w-rjv-content"
+                      style="margin-left: 6px;"
                     >
                       <div
-                        class="object-content"
+                        class="w-rjv-line"
+                        style="padding-left: 15px;"
                       >
-                        <div
-                          class="object-key-val"
-                        >
-                          <span>
-                            <span
-                              style="display: inline-block; cursor: pointer;"
-                            >
-                              <div
-                                class="icon-container"
-                                style="display: inline-block; width: 17px;"
-                              >
-                                <span
-                                  class="expanded-icon"
-                                >
-                                  <svg
-                                    fill="#586e75"
-                                    height="1em"
-                                    style="vertical-align: middle; color: rgb(88, 110, 117); height: 1em; width: 1em;"
-                                    viewBox="0 0 1792 1792"
-                                    width="1em"
-                                  >
-                                    <path
-                                      d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
-                                    />
-                                  </svg>
-                                </span>
-                              </div>
-                              <span />
-                              <span
-                                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
-                              >
-                                {
-                              </span>
-                            </span>
-                            <div
-                              class="object-meta-data"
-                              style="display: inline-block; padding: 0px 0px 0px 10px;"
-                            >
-                              <span
-                                class="object-size"
-                                style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                              >
-                                3
-                                 item
-                                s
-                              </span>
-                            </div>
-                          </span>
-                          <div
-                            class="pushed-content object-container"
-                          >
-                            <div
-                              class="object-content"
-                              style="margin-left: 6px;"
-                            >
-                              <div
-                                class="variable-row"
-                                style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
-                              >
-                                <span>
-                                  <span
-                                    class="object-key"
-                                    style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                                  >
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                    <span
-                                      style="display: inline-block;"
-                                    >
-                                      name
-                                    </span>
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                  </span>
-                                  <span
-                                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                                  >
-                                    :
-                                  </span>
-                                </span>
-                                <div
-                                  class="variable-value"
-                                  style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
-                                >
-                                  <div
-                                    style="display: inline-block; color: rgb(203, 75, 22);"
-                                  >
-                                    <span
-                                      class="string-value"
-                                      style="cursor: default;"
-                                    >
-                                      "
-                                      "
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="variable-row"
-                                style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
-                              >
-                                <span>
-                                  <span
-                                    class="object-key"
-                                    style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                                  >
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                    <span
-                                      style="display: inline-block;"
-                                    >
-                                      author
-                                    </span>
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                  </span>
-                                  <span
-                                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                                  >
-                                    :
-                                  </span>
-                                </span>
-                                <div
-                                  class="variable-value"
-                                  style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
-                                >
-                                  <div
-                                    style="display: inline-block; color: rgb(203, 75, 22);"
-                                  >
-                                    <span
-                                      class="string-value"
-                                      style="cursor: default;"
-                                    >
-                                      "
-                                      fex
-                                      "
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="variable-row"
-                                style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
-                              >
-                                <span>
-                                  <span
-                                    class="object-key"
-                                    style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                                  >
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                    <span
-                                      style="display: inline-block;"
-                                    >
-                                      date
-                                    </span>
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                  </span>
-                                  <span
-                                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                                  >
-                                    :
-                                  </span>
-                                </span>
-                                <div
-                                  class="variable-value"
-                                  style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
-                                >
-                                  <div
-                                    style="display: inline-block; color: rgb(38, 139, 210);"
-                                  >
-                                    1688714086
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                        <span>
                           <span
-                            class="brace-row"
+                            class="w-rjv-object-key"
+                            data-keys="_r_4_"
                           >
-                            <span
-                              style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
-                            >
-                              }
-                            </span>
+                            "name"
                           </span>
-                        </div>
+                          <span
+                            class="w-rjv-colon"
+                            style="padding-right: 3px;"
+                          >
+                            :
+                          </span>
+                          <span
+                            class="w-rjv-value"
+                            style="cursor: pointer;"
+                          >
+                            ""
+                          </span>
+                        </span>
                       </div>
+                      <div
+                        class="w-rjv-line"
+                        style="padding-left: 15px;"
+                      >
+                        <span>
+                          <span
+                            class="w-rjv-object-key"
+                            data-keys="_r_4_"
+                          >
+                            "author"
+                          </span>
+                          <span
+                            class="w-rjv-colon"
+                            style="padding-right: 3px;"
+                          >
+                            :
+                          </span>
+                          <span
+                            class="w-rjv-value"
+                            style="cursor: pointer;"
+                          >
+                            "fex"
+                          </span>
+                        </span>
+                      </div>
+                      <div
+                        class="w-rjv-line"
+                        style="padding-left: 15px;"
+                      >
+                        <span>
+                          <span
+                            class="w-rjv-object-key"
+                            data-keys="_r_4_"
+                          >
+                            "date"
+                          </span>
+                          <span
+                            class="w-rjv-colon"
+                            style="padding-right: 3px;"
+                          >
+                            :
+                          </span>
+                          <span
+                            class="w-rjv-value"
+                          >
+                            1688714086
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      style="padding-left: 2px;"
+                    >
+                      <span
+                        class="w-rjv-curlybraces-end "
+                        style="padding-left: 2px; display: inline-block;"
+                      >
+                        }
+                      </span>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
@@ -295,10 +213,10 @@ exports[`doAction:form clear 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -315,13 +233,13 @@ exports[`doAction:form clear 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -341,30 +259,31 @@ exports[`doAction:form clear 1`] = `
 exports[`doAction:form force validate before submit 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -373,10 +292,10 @@ exports[`doAction:form force validate before submit 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -384,15 +303,15 @@ exports[`doAction:form force validate before submit 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error has-error--equalsField"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--equalsField"
                   data-amis-name="value1"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control is-error has-error--equalsField cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--equalsField __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -406,7 +325,7 @@ exports[`doAction:form force validate before submit 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       输入的数据与 value2 值不一致
@@ -414,15 +333,15 @@ exports[`doAction:form force validate before submit 1`] = `
                   </ul>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error has-error--equalsField"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--equalsField"
                   data-amis-name="value2"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control is-error has-error--equalsField cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--equalsField __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -436,7 +355,7 @@ exports[`doAction:form force validate before submit 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       输入的数据与 value1 值不一致
@@ -446,13 +365,13 @@ exports[`doAction:form force validate before submit 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -472,30 +391,31 @@ exports[`doAction:form force validate before submit 1`] = `
 exports[`doAction:form force validate before submit 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -504,10 +424,10 @@ exports[`doAction:form force validate before submit 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -515,15 +435,15 @@ exports[`doAction:form force validate before submit 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="value1"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -538,15 +458,15 @@ exports[`doAction:form force validate before submit 2`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="value2"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -563,13 +483,13 @@ exports[`doAction:form force validate before submit 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -589,20 +509,21 @@ exports[`doAction:form force validate before submit 2`] = `
 exports[`doAction:form reset 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -610,17 +531,17 @@ exports[`doAction:form reset 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -629,10 +550,10 @@ exports[`doAction:form reset 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -640,27 +561,27 @@ exports[`doAction:form reset 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Spinner-overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
                 />
                 <div
-                  class="cxd-Spinner cxd-Spinner--overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
                   data-testid="spinner"
                 >
                   <div
-                    class="cxd-Spinner-icon cxd-Spinner-icon--default"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
                   />
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
@@ -669,174 +590,10 @@ exports[`doAction:form reset 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl is-disabled"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
-                    >
-                      <input
-                        autocomplete="off"
-                        class=""
-                        disabled=""
-                        name="name"
-                        placeholder=""
-                        size="10"
-                        type="text"
-                        value=""
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="cxd-Form-item cxd-Form-item--normal"
-                  data-amis-name="author"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label"
-                  >
-                    <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          作者：
-                        </span>
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-control cxd-TextControl is-disabled"
-                  >
-                    <div
-                      class="cxd-TextControl-input"
-                    >
-                      <input
-                        autocomplete="off"
-                        class=""
-                        disabled=""
-                        name="author"
-                        placeholder=""
-                        size="10"
-                        type="text"
-                        value="amis"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div
-              class="cxd-Panel-footerWrap"
-            >
-              <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
-              >
-                <div
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default is-disabled"
-                  disabled=""
-                >
-                  <span>
-                    提交
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`doAction:form reset 2`] = `
-<div>
-  <div
-    class="cxd-Page"
-  >
-    <div
-      class="cxd-Page-content"
-    >
-      <div
-        class="cxd-Page-main"
-      >
-        <div
-          class="cxd-Page-body"
-          role="page-body"
-        >
-          <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
-            type="button"
-          >
-            <span>
-              重置表单
-            </span>
-          </button>
-          <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
-            data-role="container"
-          >
-            <div
-              class="cxd-Panel-heading"
-            >
-              <h3
-                class="cxd-Panel-title"
-              >
-                <span
-                  class="cxd-TplField fr-view"
-                >
-                  <span>
-                    表单
-                  </span>
-                </span>
-              </h3>
-            </div>
-            <div
-              class="cxd-Panel-body"
-            >
-              <form
-                class="cxd-Form cxd-Form--normal"
-                novalidate=""
-              >
-                <input
-                  style="display: none;"
-                  type="submit"
-                />
-                <div
-                  class="cxd-Spinner-overlay"
-                />
-                <div
-                  class="cxd-Spinner cxd-Spinner--overlay"
-                  data-testid="spinner"
-                >
-                  <div
-                    class="cxd-Spinner-icon cxd-Spinner-icon--default"
-                  />
-                </div>
-                <div
-                  class="cxd-Form-item cxd-Form-item--normal"
-                  data-amis-name="name"
-                  data-role="form-item"
-                >
-                  <label
-                    class="cxd-Form-label"
-                  >
-                    <span>
-                      <span
-                        class="cxd-TplField fr-view"
-                      >
-                        <span>
-                          姓名：
-                        </span>
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    class="cxd-Form-control cxd-TextControl"
-                  >
-                    <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -851,16 +608,16 @@ exports[`doAction:form reset 2`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="author"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           作者：
@@ -869,10 +626,162 @@ exports[`doAction:form reset 2`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                    >
+                      <input
+                        autocomplete="off"
+                        class=""
+                        name="author"
+                        placeholder=""
+                        size="10"
+                        type="text"
+                        value="amis"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`doAction:form reset 2`] = `
+<div>
+  <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
+  >
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      >
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
+        >
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            type="button"
+          >
+            <span>
+              重置表单
+            </span>
+          </button>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
+          >
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+            >
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+              >
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                >
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="name"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                  >
+                    <span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          姓名：
+                        </span>
+                      </span>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                  >
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                    >
+                      <input
+                        autocomplete="off"
+                        class=""
+                        name="name"
+                        placeholder=""
+                        size="10"
+                        type="text"
+                        value="Amis Renderer"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="author"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                  >
+                    <span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          作者：
+                        </span>
+                      </span>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                  >
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -889,13 +798,13 @@ exports[`doAction:form reset 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -915,20 +824,21 @@ exports[`doAction:form reset 2`] = `
 exports[`doAction:form setValue 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -936,17 +846,17 @@ exports[`doAction:form setValue 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -955,10 +865,10 @@ exports[`doAction:form setValue 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -966,16 +876,16 @@ exports[`doAction:form setValue 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
@@ -984,10 +894,10 @@ exports[`doAction:form setValue 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1002,16 +912,16 @@ exports[`doAction:form setValue 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
@@ -1020,10 +930,10 @@ exports[`doAction:form setValue 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1040,13 +950,13 @@ exports[`doAction:form setValue 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1066,20 +976,21 @@ exports[`doAction:form setValue 1`] = `
 exports[`doAction:form static&nonstatic 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mr-2 mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mr-2 mb-2"
             type="button"
           >
             <span>
@@ -1087,7 +998,7 @@ exports[`doAction:form static&nonstatic 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mr-2 mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mr-2 mb-2"
             type="button"
           >
             <span>
@@ -1095,17 +1006,17 @@ exports[`doAction:form static&nonstatic 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1114,10 +1025,10 @@ exports[`doAction:form static&nonstatic 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal cxd-Form--isStatic"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Form--isStatic"
                 novalidate=""
               >
                 <input
@@ -1125,16 +1036,16 @@ exports[`doAction:form static&nonstatic 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="text"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           输入框
@@ -1143,10 +1054,10 @@ exports[`doAction:form static&nonstatic 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-static cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       text
                     </div>
@@ -1155,13 +1066,13 @@ exports[`doAction:form static&nonstatic 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1181,20 +1092,21 @@ exports[`doAction:form static&nonstatic 1`] = `
 exports[`doAction:form static&nonstatic 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mr-2 mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mr-2 mb-2"
             type="button"
           >
             <span>
@@ -1202,7 +1114,7 @@ exports[`doAction:form static&nonstatic 2`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mr-2 mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mr-2 mb-2"
             type="button"
           >
             <span>
@@ -1210,17 +1122,17 @@ exports[`doAction:form static&nonstatic 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1229,10 +1141,10 @@ exports[`doAction:form static&nonstatic 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1240,16 +1152,16 @@ exports[`doAction:form static&nonstatic 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="text"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           输入框
@@ -1258,13 +1170,13 @@ exports[`doAction:form static&nonstatic 2`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1282,13 +1194,13 @@ exports[`doAction:form static&nonstatic 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1308,20 +1220,21 @@ exports[`doAction:form static&nonstatic 2`] = `
 exports[`doAction:form submit 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1329,16 +1242,16 @@ exports[`doAction:form submit 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="submit_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提交信息：
@@ -1347,10 +1260,10 @@ exports[`doAction:form submit 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1376,17 +1289,17 @@ exports[`doAction:form submit 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1395,10 +1308,10 @@ exports[`doAction:form submit 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1406,33 +1319,33 @@ exports[`doAction:form submit 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1446,7 +1359,7 @@ exports[`doAction:form submit 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -1454,33 +1367,33 @@ exports[`doAction:form submit 1`] = `
                   </ul>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1494,7 +1407,7 @@ exports[`doAction:form submit 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -1504,13 +1417,13 @@ exports[`doAction:form submit 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1530,20 +1443,21 @@ exports[`doAction:form submit 1`] = `
 exports[`doAction:form submit 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1551,16 +1465,16 @@ exports[`doAction:form submit 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="submit_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提交信息：
@@ -1569,10 +1483,10 @@ exports[`doAction:form submit 2`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1587,17 +1501,17 @@ exports[`doAction:form submit 2`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1606,10 +1520,10 @@ exports[`doAction:form submit 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1617,33 +1531,33 @@ exports[`doAction:form submit 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1657,7 +1571,7 @@ exports[`doAction:form submit 2`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -1665,33 +1579,33 @@ exports[`doAction:form submit 2`] = `
                   </ul>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1705,7 +1619,7 @@ exports[`doAction:form submit 2`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -1715,13 +1629,13 @@ exports[`doAction:form submit 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1741,20 +1655,21 @@ exports[`doAction:form submit 2`] = `
 exports[`doAction:form submit 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1762,16 +1677,16 @@ exports[`doAction:form submit 3`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="submit_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提交信息：
@@ -1780,10 +1695,10 @@ exports[`doAction:form submit 3`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1807,17 +1722,17 @@ exports[`doAction:form submit 3`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1826,10 +1741,10 @@ exports[`doAction:form submit 3`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1837,33 +1752,33 @@ exports[`doAction:form submit 3`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-required"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1878,33 +1793,33 @@ exports[`doAction:form submit 3`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-required"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1921,13 +1836,13 @@ exports[`doAction:form submit 3`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1947,20 +1862,21 @@ exports[`doAction:form submit 3`] = `
 exports[`doAction:form validate 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1968,16 +1884,16 @@ exports[`doAction:form validate 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="validate_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     验证信息：
@@ -1986,10 +1902,10 @@ exports[`doAction:form validate 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2015,17 +1931,17 @@ exports[`doAction:form validate 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2034,10 +1950,10 @@ exports[`doAction:form validate 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -2045,33 +1961,33 @@ exports[`doAction:form validate 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2085,7 +2001,7 @@ exports[`doAction:form validate 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -2093,33 +2009,33 @@ exports[`doAction:form validate 1`] = `
                   </ul>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2133,7 +2049,7 @@ exports[`doAction:form validate 1`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -2143,13 +2059,13 @@ exports[`doAction:form validate 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -2169,20 +2085,21 @@ exports[`doAction:form validate 1`] = `
 exports[`doAction:form validate 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -2190,16 +2107,16 @@ exports[`doAction:form validate 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="validate_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     验证信息：
@@ -2208,10 +2125,10 @@ exports[`doAction:form validate 2`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2237,17 +2154,17 @@ exports[`doAction:form validate 2`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2256,10 +2173,10 @@ exports[`doAction:form validate 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -2267,33 +2184,33 @@ exports[`doAction:form validate 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2307,7 +2224,7 @@ exports[`doAction:form validate 2`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -2315,33 +2232,33 @@ exports[`doAction:form validate 2`] = `
                   </ul>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-error is-required has-error--isRequired"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control is-error has-error--isRequired cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2355,7 +2272,7 @@ exports[`doAction:form validate 2`] = `
                     </div>
                   </div>
                   <ul
-                    class="cxd-Form-feedback"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
                   >
                     <li>
                       这是必填项
@@ -2365,13 +2282,13 @@ exports[`doAction:form validate 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -2391,20 +2308,21 @@ exports[`doAction:form validate 2`] = `
 exports[`doAction:form validate 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -2412,16 +2330,16 @@ exports[`doAction:form validate 3`] = `
             </span>
           </button>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="validate_info"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     验证信息：
@@ -2430,10 +2348,10 @@ exports[`doAction:form validate 3`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2454,17 +2372,17 @@ exports[`doAction:form validate 3`] = `
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2473,10 +2391,10 @@ exports[`doAction:form validate 3`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -2484,33 +2402,33 @@ exports[`doAction:form validate 3`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-required"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           姓名：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl is-focused"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2525,33 +2443,33 @@ exports[`doAction:form validate 3`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal is-required"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
                   data-amis-name="email"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           邮箱：
                         </span>
                       </span>
                       <span
-                        class="cxd-Form-star"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                       >
                         *
                       </span>
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -2568,13 +2486,13 @@ exports[`doAction:form validate 3`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

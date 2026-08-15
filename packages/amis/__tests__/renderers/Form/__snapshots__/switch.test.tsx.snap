@@ -3,17 +3,17 @@
 exports[`Renderer:Switch Switch basic props 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:Switch Switch basic props 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:Switch Switch basic props 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal block"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal block"
           data-amis-name="switch"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   开关
@@ -51,10 +51,10 @@ exports[`Renderer:Switch Switch basic props 1`] = `
             </span>
           </label>
           <div
-            class="cxd-SwitchControl cxd-Form-control is-thin"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SwitchControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-thin"
           >
             <label
-              class="cxd-Switch is-checked"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Switch is-checked"
               data-role="switch"
             >
               <input
@@ -72,7 +72,7 @@ exports[`Renderer:Switch Switch basic props 1`] = `
               />
             </label>
             <span
-              class="cxd-Switch-option"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Switch-option"
             >
               switch
             </span>
@@ -87,17 +87,17 @@ exports[`Renderer:Switch Switch basic props 1`] = `
 exports[`Renderer:Switch Switch size 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -106,10 +106,10 @@ exports[`Renderer:Switch Switch size 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -117,16 +117,16 @@ exports[`Renderer:Switch Switch size 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="switch"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   开关
@@ -135,10 +135,10 @@ exports[`Renderer:Switch Switch size 1`] = `
             </span>
           </label>
           <div
-            class="cxd-SwitchControl cxd-Form-control is-thin"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SwitchControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-thin"
           >
             <label
-              class="cxd-Switch  cxd-Switch--sm"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Switch __AMIS_COMPONENT_CLASS_PREFIX__Switch--sm"
               data-role="switch"
             >
               <input
@@ -153,20 +153,20 @@ exports[`Renderer:Switch Switch size 1`] = `
               />
             </label>
             <span
-              class="cxd-Switch-option"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Switch-option"
             />
           </div>
         </div>
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

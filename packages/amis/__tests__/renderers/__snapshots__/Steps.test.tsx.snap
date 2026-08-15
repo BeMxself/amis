@@ -3,53 +3,53 @@
 exports[`Renderer:steps 1`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal cxd-StepsControl"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl"
   >
     <li
-      class="cxd-StepsItem is-process className"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             <icon-mock
-              classname="icon icon-close"
+              class="icon icon-close"
               icon="close"
             />
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -63,41 +63,41 @@ exports[`Renderer:steps 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -108,41 +108,41 @@ exports[`Renderer:steps 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Last"
               >
                 Last
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -159,53 +159,53 @@ exports[`Renderer:steps 1`] = `
 exports[`Renderer:steps 2`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal cxd-StepsControl"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl"
   >
     <li
-      class="cxd-StepsItem is-process className"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             <icon-mock
-              classname="icon icon-close"
+              class="icon icon-close"
               icon="close"
             />
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -219,41 +219,41 @@ exports[`Renderer:steps 2`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -264,41 +264,41 @@ exports[`Renderer:steps 2`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Last"
               >
                 Last
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -315,44 +315,44 @@ exports[`Renderer:steps 2`] = `
 exports[`Renderer:steps labelPlacement 1`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement-vertical cxd-Steps-- cxd-Steps--horizontal cxd-StepsControl className"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="cxd-StepsItem is-process"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             1
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -363,47 +363,47 @@ exports[`Renderer:steps labelPlacement 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -417,41 +417,41 @@ exports[`Renderer:steps labelPlacement 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -468,38 +468,38 @@ exports[`Renderer:steps labelPlacement 1`] = `
 exports[`Renderer:steps progressDot 1`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement-vertical cxd-Steps--ProgressDot cxd-Steps--horizontal cxd-StepsControl className"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="cxd-StepsItem is-process cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -510,41 +510,41 @@ exports[`Renderer:steps progressDot 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -558,35 +558,35 @@ exports[`Renderer:steps progressDot 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -603,44 +603,44 @@ exports[`Renderer:steps progressDot 1`] = `
 exports[`Renderer:steps status 1`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement- cxd-Steps-- cxd-Steps--horizontal cxd-StepsControl className"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="cxd-StepsItem is-finish"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             1
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -651,47 +651,47 @@ exports[`Renderer:steps status 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-error"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-error"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -705,41 +705,41 @@ exports[`Renderer:steps status 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerIcon"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="cxd-StepsItem-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -756,38 +756,38 @@ exports[`Renderer:steps status 1`] = `
 exports[`Renderer:steps with vertical mode 1`] = `
 <div>
   <ul
-    class="cxd-Steps cxd-Steps--Placement-vertical cxd-Steps--ProgressDot cxd-Steps--vertical cxd-StepsControl className"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __AMIS_COMPONENT_CLASS_PREFIX__Steps--vertical __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="cxd-StepsItem is-process cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -798,41 +798,41 @@ exports[`Renderer:steps with vertical mode 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="cxd-StepsItem-subTitle cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -846,35 +846,35 @@ exports[`Renderer:steps with vertical mode 1`] = `
       </div>
     </li>
     <li
-      class="cxd-StepsItem is-wait cxd-StepsItem-ProgressDot"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="cxd-StepsItem-container"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="cxd-StepsItem-containerTail"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="cxd-StepsItem-containerProgressDot"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="cxd-StepsItem-containerWrapper"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="cxd-StepsItem-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="cxd-StepsItem-title cxd-StepsItem-vertical-ProgressDot"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="cxd-StepsItem-ellText"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="cxd-StepsItem-description cxd-StepsItem-ellText"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""

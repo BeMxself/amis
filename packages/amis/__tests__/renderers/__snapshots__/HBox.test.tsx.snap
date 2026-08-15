@@ -3,13 +3,13 @@
 exports[`Renderer:hbox 1`] = `
 <div>
   <div
-    class="cxd-Hbox cxd-Hbox--xs"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
   >
     <div
-      class="cxd-Hbox-col w-xs"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w-xs"
     >
       <div
-        class="cxd-TplField fr-view bg-info"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info"
       >
         <span>
           w-xs
@@ -17,10 +17,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Hbox-col w-sm"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w-sm"
     >
       <div
-        class="cxd-TplField fr-view bg-info lter"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info lter"
       >
         <span>
           w-sm
@@ -28,10 +28,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Hbox-col w"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w"
     >
       <div
-        class="cxd-TplField fr-view bg-info dk"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info dk"
       >
         <span>
           w
@@ -39,10 +39,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Hbox-col"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
     >
       <div
-        class="cxd-TplField fr-view bg-success"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-success"
       >
         <span>
           平均分配
@@ -50,10 +50,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Hbox-col"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
     >
       <div
-        class="cxd-TplField fr-view bg-primary"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-primary"
       >
         <span>
           平均分配

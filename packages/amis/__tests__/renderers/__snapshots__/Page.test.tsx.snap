@@ -2,49 +2,49 @@
 
 exports[`Renderer:Page 1`] = `
 <div
-  class="amis-Page"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
   data-amis-theme="cxd"
 >
   <div
-    class="amis-Page-content"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="amis-Page-main"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="amis-Page-headerRow"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-headerRow"
       >
         <div
-          class="amis-Page-header"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-header"
         >
           <h2
-            class="amis-Page-title"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-title"
           >
             <span
-              class="amis-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is Title
               </span>
             </span>
             <div
-              class="amis-Remark amis-Remark--warning"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Remark __AMIS_COMPONENT_CLASS_PREFIX__Remark--warning"
             >
               <span
-                class="amis-Remark-icon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Remark-icon"
               >
                 <icon-mock
-                  classname="icon-question-mark"
+                  class="icon-question-mark"
                   icon="question-mark"
                 />
               </span>
             </div>
           </h2>
           <small
-            class="amis-Page-subTitle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-subTitle"
           >
             <span
-              class="amis-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is SubTitle
@@ -53,10 +53,10 @@ exports[`Renderer:Page 1`] = `
           </small>
         </div>
         <div
-          class="amis-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <span
-            class="amis-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               This is toolbar
@@ -65,11 +65,11 @@ exports[`Renderer:Page 1`] = `
         </div>
       </div>
       <div
-        class="amis-Page-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             This is body
@@ -84,13 +84,14 @@ exports[`Renderer:Page 1`] = `
 exports[`Renderer:Page classNames 1`] = `
 <div>
   <div
-    class="cxd-Page cxd-Page--withSidebar cxd-Page--asideSticky cxd-Page--leftAside"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page __AMIS_COMPONENT_CLASS_PREFIX__Page--withSidebar __AMIS_COMPONENT_CLASS_PREFIX__Page--asideSticky __AMIS_COMPONENT_CLASS_PREFIX__Page--leftAside"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-aside cxd-Page-aside--withWidth aside-class-name"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-aside __AMIS_COMPONENT_CLASS_PREFIX__Page-aside--withWidth aside-class-name"
     >
       <div
-        class="cxd-TplField fr-view cxd-Page-asideTplWrapper"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view __AMIS_COMPONENT_CLASS_PREFIX__Page-asideTplWrapper"
       >
         <span>
           This is aside
@@ -98,45 +99,45 @@ exports[`Renderer:Page classNames 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-headerRow"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-headerRow"
         >
           <div
-            class="cxd-Page-header header-class-name"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-header header-class-name"
           >
             <h2
-              class="cxd-Page-title"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Page-title"
             >
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   This is Title
                 </span>
               </span>
               <div
-                class="cxd-Remark cxd-Remark--warning"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Remark __AMIS_COMPONENT_CLASS_PREFIX__Remark--warning"
               >
                 <span
-                  class="cxd-Remark-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Remark-icon"
                 >
                   <icon-mock
-                    classname="icon-question-mark"
+                    class="icon-question-mark"
                     icon="question-mark"
                   />
                 </span>
               </div>
             </h2>
             <small
-              class="cxd-Page-subTitle"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Page-subTitle"
             >
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   This is SubTitle
@@ -145,10 +146,10 @@ exports[`Renderer:Page classNames 1`] = `
             </small>
           </div>
           <div
-            class="cxd-Page-toolbar toolbar-class-name"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar toolbar-class-name"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is toolbar
@@ -157,11 +158,11 @@ exports[`Renderer:Page classNames 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Page-body body-class-name"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body body-class-name"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               This is body
@@ -177,19 +178,20 @@ exports[`Renderer:Page classNames 1`] = `
 exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -198,11 +200,11 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -213,40 +215,41 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             this is feedback
@@ -254,10 +257,10 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
         </span>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -265,7 +268,7 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -281,19 +284,20 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
 exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -302,11 +306,11 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -322,19 +326,20 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
 exports[`Renderer:Page handleAction actionType=ajax 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -343,11 +348,11 @@ exports[`Renderer:Page handleAction actionType=ajax 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -363,19 +368,20 @@ exports[`Renderer:Page handleAction actionType=ajax 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -384,7 +390,7 @@ exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -396,19 +402,20 @@ exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -417,7 +424,7 @@ exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -429,19 +436,20 @@ exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
 exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -450,14 +458,14 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
-              The variable a is 
+              The variable a is
             </span>
           </span>
         </div>
@@ -465,40 +473,41 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <form
-          class="cxd-Form cxd-Form--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -506,16 +515,16 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     A
@@ -524,13 +533,13 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -548,10 +557,10 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -567,19 +576,20 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -588,11 +598,11 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 3
@@ -608,19 +618,20 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
 exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -629,50 +640,51 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Drawer cxd-Drawer--right cxd-Drawer--md cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Drawer-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="cxd-Drawer-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="cxd-Drawer-close"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
-          classname="icon icon-close"
+          class="icon icon-close"
           icon="close"
         />
       </a>
       <div
-        class="cxd-Drawer-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
       >
         <div
-          class="cxd-Spinner-overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
         />
         <div
-          class="cxd-Spinner cxd-Spinner--overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="cxd-Drawer-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -680,7 +692,7 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -696,19 +708,20 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
 exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -717,7 +730,7 @@ exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -729,19 +742,20 @@ exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
 exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -750,14 +764,14 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
-              The variable a is 
+              The variable a is
             </span>
           </span>
         </div>
@@ -765,29 +779,30 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Drawer cxd-Drawer--right cxd-Drawer--md cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Drawer-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="cxd-Drawer-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="cxd-Drawer-close"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
-          classname="icon icon-close"
+          class="icon icon-close"
           icon="close"
         />
       </a>
       <div
-        class="cxd-Drawer-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
         role="dialog-body"
       >
         <form
-          class="cxd-Form cxd-Form--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -795,16 +810,16 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     A
@@ -813,13 +828,13 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -837,10 +852,10 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
         </form>
       </div>
       <div
-        class="cxd-Drawer-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -856,19 +871,20 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
 exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -877,11 +893,11 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 3
@@ -897,20 +913,21 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
 exports[`Renderer:Page initApi 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -926,36 +943,37 @@ exports[`Renderer:Page initApi 1`] = `
 exports[`Renderer:Page initApi error show Message 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Alert cxd-Alert--danger"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--danger"
           >
             <div
-              class="cxd-Alert-content"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="cxd-Alert-desc"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 Internal Error
               </div>
             </div>
             <button
-              class="cxd-Alert-close"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-close"
               type="button"
             >
               <icon-mock
-                classname="icon icon-close"
+                class="icon icon-close"
                 icon="close"
               />
             </button>
@@ -968,107 +986,78 @@ exports[`Renderer:Page initApi error show Message 1`] = `
 `;
 
 exports[`Renderer:Page initApi reFetch when condition changes 1`] = `
-[
+<div
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 1",
-                }
-              }
-            />
+          <span>
+            The variable value is 1
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page initApi reFetch when condition changes 2`] = `
-[
+<div
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+  data-amis-theme="cxd"
+>
   <div
-    className="cxd-Page"
-    onClick={[Function]}
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      className="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        className="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        role="page-body"
       >
-        <div
-          className="cxd-Page-body"
-          role="page-body"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            className="cxd-Spinner-mark"
-          />
-          <span
-            className="cxd-TplField fr-view"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <span
-              dangerouslySetInnerHTML={
-                {
-                  "__html": "The variable value is 2",
-                }
-              }
-            />
+          <span>
+            The variable value is 2
           </span>
-        </div>
+        </span>
       </div>
     </div>
-  </div>,
-  <span
-    className="cxd-Spinner-mark"
-  />,
-]
+  </div>
+</div>
 `;
 
 exports[`Renderer:Page initApi reload by Dialog action 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1077,11 +1066,11 @@ exports[`Renderer:Page initApi reload by Dialog action 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1097,19 +1086,20 @@ exports[`Renderer:Page initApi reload by Dialog action 1`] = `
 exports[`Renderer:Page initApi reload by Dialog action 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1118,11 +1108,11 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1133,40 +1123,41 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <form
-          class="cxd-Form cxd-Form--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -1174,23 +1165,23 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span />
             </label>
             <div
-              class="cxd-Form-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1208,10 +1199,10 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
         </form>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1219,7 +1210,7 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1235,19 +1226,20 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
 exports[`Renderer:Page initApi reload by Dialog action 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1256,11 +1248,11 @@ exports[`Renderer:Page initApi reload by Dialog action 3`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1276,19 +1268,20 @@ exports[`Renderer:Page initApi reload by Dialog action 3`] = `
 exports[`Renderer:Page initApi reload by Drawer action 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1297,11 +1290,11 @@ exports[`Renderer:Page initApi reload by Drawer action 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1317,19 +1310,20 @@ exports[`Renderer:Page initApi reload by Drawer action 1`] = `
 exports[`Renderer:Page initApi reload by Drawer action 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1338,11 +1332,11 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1353,29 +1347,30 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Drawer cxd-Drawer--right cxd-Drawer--md cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Drawer-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="cxd-Drawer-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="cxd-Drawer-close"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
-          classname="icon icon-close"
+          class="icon icon-close"
           icon="close"
         />
       </a>
       <div
-        class="cxd-Drawer-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
         role="dialog-body"
       >
         <form
-          class="cxd-Form cxd-Form--horizontal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -1383,23 +1378,23 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
             type="submit"
           />
           <div
-            class="cxd-Form-item cxd-Form-item--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label cxd-Form-itemColumn--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span />
             </label>
             <div
-              class="cxd-Form-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1417,10 +1412,10 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
         </form>
       </div>
       <div
-        class="cxd-Drawer-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1428,7 +1423,7 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1444,19 +1439,20 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
 exports[`Renderer:Page initApi reload by Drawer action 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1465,11 +1461,11 @@ exports[`Renderer:Page initApi reload by Drawer action 3`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1485,29 +1481,30 @@ exports[`Renderer:Page initApi reload by Drawer action 3`] = `
 exports[`Renderer:Page initApi reload by Form submit 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1516,10 +1513,10 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1527,15 +1524,15 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1552,13 +1549,13 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1570,11 +1567,11 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1590,29 +1587,30 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
 exports[`Renderer:Page initApi reload by Form submit 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1621,10 +1619,10 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1632,15 +1630,15 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1657,13 +1655,13 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1675,11 +1673,11 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
           </div>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1695,19 +1693,20 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
 exports[`Renderer:Page initApi reload by action 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1716,11 +1715,11 @@ exports[`Renderer:Page initApi reload by action 1`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1736,19 +1735,20 @@ exports[`Renderer:Page initApi reload by action 1`] = `
 exports[`Renderer:Page initApi reload by action 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-toolbar"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1757,11 +1757,11 @@ exports[`Renderer:Page initApi reload by action 2`] = `
           </button>
         </div>
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1777,34 +1777,35 @@ exports[`Renderer:Page initApi reload by action 2`] = `
 exports[`Renderer:Page initApi show loading 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Spinner-overlay in"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
           />
           <div
-            class="cxd-Spinner cxd-Spinner--overlay in"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
             data-testid="spinner"
           >
             <div
-              class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
             />
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
-              The variable value is 
+              The variable value is
             </span>
           </span>
         </div>
@@ -1817,20 +1818,21 @@ exports[`Renderer:Page initApi show loading 1`] = `
 exports[`Renderer:Page initApi show loading 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 3
@@ -1846,20 +1848,21 @@ exports[`Renderer:Page initApi show loading 2`] = `
 exports[`Renderer:Page initApi silentPolling 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 3
@@ -1875,20 +1878,21 @@ exports[`Renderer:Page initApi silentPolling 1`] = `
 exports[`Renderer:Page initApi silentPolling 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 4
@@ -1903,21 +1907,21 @@ exports[`Renderer:Page initApi silentPolling 2`] = `
 
 exports[`Renderer:Page initData 1`] = `
 <div
-  class="amis-Page"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
   data-amis-theme="cxd"
 >
   <div
-    class="amis-Page-content"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="amis-Page-main"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="amis-Page-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 1
@@ -1931,21 +1935,21 @@ exports[`Renderer:Page initData 1`] = `
 
 exports[`Renderer:Page initFetchOn trigger initApi fetch when condition becomes ture 1`] = `
 <div
-  class="amis-Page"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
   data-amis-theme="cxd"
 >
   <div
-    class="amis-Page-content"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="amis-Page-main"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="amis-Page-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 6
@@ -1959,21 +1963,21 @@ exports[`Renderer:Page initFetchOn trigger initApi fetch when condition becomes 
 
 exports[`Renderer:Page location query 1`] = `
 <div
-  class="amis-Page"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
   data-amis-theme="cxd"
 >
   <div
-    class="amis-Page-content"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="amis-Page-main"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="amis-Page-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 5
@@ -1987,21 +1991,21 @@ exports[`Renderer:Page location query 1`] = `
 
 exports[`Renderer:Page location query 2`] = `
 <div
-  class="amis-Page"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
   data-amis-theme="cxd"
 >
   <div
-    class="amis-Page-content"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="amis-Page-main"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="amis-Page-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 6

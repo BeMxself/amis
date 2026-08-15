@@ -3,20 +3,21 @@
 exports[`EventAction:custom 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -24,7 +25,7 @@ exports[`EventAction:custom 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -32,7 +33,7 @@ exports[`EventAction:custom 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -40,7 +41,7 @@ exports[`EventAction:custom 1`] = `
             </span>
           </button>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               18岁的天空
@@ -56,20 +57,21 @@ exports[`EventAction:custom 1`] = `
 exports[`EventAction:custom 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -77,7 +79,7 @@ exports[`EventAction:custom 2`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -85,7 +87,7 @@ exports[`EventAction:custom 2`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -93,7 +95,7 @@ exports[`EventAction:custom 2`] = `
             </span>
           </button>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               18岁的天空
@@ -109,20 +111,21 @@ exports[`EventAction:custom 2`] = `
 exports[`EventAction:custom 3`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -130,7 +133,7 @@ exports[`EventAction:custom 3`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -138,7 +141,7 @@ exports[`EventAction:custom 3`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -146,7 +149,7 @@ exports[`EventAction:custom 3`] = `
             </span>
           </button>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               17岁的天空

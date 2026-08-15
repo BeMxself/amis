@@ -3,30 +3,31 @@
 exports[`Renderer:inputCity 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -35,10 +36,10 @@ exports[`Renderer:inputCity 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -46,16 +47,16 @@ exports[`Renderer:inputCity 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="city"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           城市
@@ -64,40 +65,40 @@ exports[`Renderer:inputCity 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-CityPicker"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__CityPicker"
                     >
                       <div
                         aria-expanded="false"
                         aria-haspopup="listbox"
-                        class="cxd-Select"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                         role="combobox"
                         tabindex="0"
                       >
                         <div
-                          class="cxd-Select-valueWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                         >
                           <div
-                            class="cxd-Select-value"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                           >
                             北京市
                           </div>
                         </div>
                         <a
-                          class="cxd-Select-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <span
-                          class="cxd-Select-arrow"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -105,32 +106,32 @@ exports[`Renderer:inputCity 1`] = `
                       <div
                         aria-expanded="false"
                         aria-haspopup="listbox"
-                        class="cxd-Select"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                         role="combobox"
                         tabindex="0"
                       >
                         <div
-                          class="cxd-Select-valueWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                         >
                           <div
-                            class="cxd-Select-value"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                           >
                             北京市市辖区
                           </div>
                         </div>
                         <a
-                          class="cxd-Select-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <span
-                          class="cxd-Select-arrow"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -138,32 +139,32 @@ exports[`Renderer:inputCity 1`] = `
                       <div
                         aria-expanded="false"
                         aria-haspopup="listbox"
-                        class="cxd-Select is-focused"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-focused"
                         role="combobox"
                         tabindex="0"
                       >
                         <div
-                          class="cxd-Select-valueWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                         >
                           <div
-                            class="cxd-Select-value"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                           >
                             海淀区
                           </div>
                         </div>
                         <a
-                          class="cxd-Select-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <span
-                          class="cxd-Select-arrow"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -174,13 +175,13 @@ exports[`Renderer:inputCity 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -200,30 +201,31 @@ exports[`Renderer:inputCity 1`] = `
 exports[`Renderer:inputCity with searchable: open select 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -232,10 +234,10 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -243,16 +245,16 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="city"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           城市
@@ -261,53 +263,54 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-CityPicker"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__CityPicker"
                     >
                       <div
                         aria-expanded="true"
                         aria-haspopup="listbox"
                         aria-owns="downshift-3-menu"
-                        class="cxd-Select cxd-Select--searchable is-opened has-popover"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--searchable is-opened has-popover"
                         role="combobox"
                         tabindex="0"
                       >
                         <div
-                          class="cxd-Select-valueWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                         >
                           <div
-                            class="cxd-Select-placeholder"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
                           >
                             请选择
                           </div>
                         </div>
                         <span
-                          class="cxd-Select-arrow"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
                         <div
-                          class="cxd-PopOver cxd-Select-popover"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
+                          data-amis-theme="cxd"
                           role="popover"
-                          style="display: block; width: auto; left: 0px; top: 0px; visibility: hidden;"
+                          style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                           theme="cxd"
                         >
                           <div
-                            class="cxd-PopOver-overlay"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
                           />
                           <div
-                            class="cxd-Select-menu"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu"
                           >
                             <div
-                              class="cxd-Select-input"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-input"
                             >
                               <icon-mock
-                                classname="icon icon-search"
+                                class="icon icon-search"
                                 icon="search"
                               />
                               <input
@@ -322,12 +325,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-0"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="北京市"
                               >
                                 北京市
@@ -335,12 +338,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-1"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="天津市"
                               >
                                 天津市
@@ -348,12 +351,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-2"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="河北省"
                               >
                                 河北省
@@ -361,12 +364,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-3"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="山西省"
                               >
                                 山西省
@@ -374,12 +377,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-4"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="内蒙古自治区"
                               >
                                 内蒙古自治区
@@ -387,12 +390,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-5"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="辽宁省"
                               >
                                 辽宁省
@@ -400,12 +403,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-6"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="吉林省"
                               >
                                 吉林省
@@ -413,12 +416,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-7"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="黑龙江省"
                               >
                                 黑龙江省
@@ -426,12 +429,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-8"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="上海市"
                               >
                                 上海市
@@ -439,12 +442,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-9"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="江苏省"
                               >
                                 江苏省
@@ -452,12 +455,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-10"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="浙江省"
                               >
                                 浙江省
@@ -465,12 +468,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-11"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="安徽省"
                               >
                                 安徽省
@@ -478,12 +481,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-12"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="福建省"
                               >
                                 福建省
@@ -491,12 +494,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-13"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="江西省"
                               >
                                 江西省
@@ -504,12 +507,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-14"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="山东省"
                               >
                                 山东省
@@ -517,12 +520,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-15"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="河南省"
                               >
                                 河南省
@@ -530,12 +533,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-16"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="湖北省"
                               >
                                 湖北省
@@ -543,12 +546,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-17"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="湖南省"
                               >
                                 湖南省
@@ -556,12 +559,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-18"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="广东省"
                               >
                                 广东省
@@ -569,12 +572,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-19"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="广西壮族自治区"
                               >
                                 广西壮族自治区
@@ -582,12 +585,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-20"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="海南省"
                               >
                                 海南省
@@ -595,12 +598,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-21"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="重庆市"
                               >
                                 重庆市
@@ -608,12 +611,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-22"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="四川省"
                               >
                                 四川省
@@ -621,12 +624,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-23"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="贵州省"
                               >
                                 贵州省
@@ -634,12 +637,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-24"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="云南省"
                               >
                                 云南省
@@ -647,12 +650,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-25"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="西藏自治区"
                               >
                                 西藏自治区
@@ -660,12 +663,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-26"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="陕西省"
                               >
                                 陕西省
@@ -673,12 +676,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-27"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="甘肃省"
                               >
                                 甘肃省
@@ -686,12 +689,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-28"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="青海省"
                               >
                                 青海省
@@ -699,12 +702,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-29"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="宁夏回族自治区"
                               >
                                 宁夏回族自治区
@@ -712,12 +715,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-30"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="新疆维吾尔自治区"
                               >
                                 新疆维吾尔自治区
@@ -725,12 +728,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-31"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="台湾省"
                               >
                                 台湾省
@@ -738,12 +741,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-32"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="香港特别行政区"
                               >
                                 香港特别行政区
@@ -751,12 +754,12 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
                             </div>
                             <div
                               aria-selected="false"
-                              class="cxd-Select-option"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
                               id="downshift-3-item-33"
                               role="option"
                             >
                               <span
-                                class="cxd-Select-option-content"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
                                 title="澳门特别行政区"
                               >
                                 澳门特别行政区
@@ -771,13 +774,13 @@ exports[`Renderer:inputCity with searchable: open select 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

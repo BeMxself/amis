@@ -3,30 +3,31 @@
 exports[`Renderer:condition-builder 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -35,10 +36,10 @@ exports[`Renderer:condition-builder 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -46,16 +47,16 @@ exports[`Renderer:condition-builder 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="conditions"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           条件组件
@@ -64,71 +65,71 @@ exports[`Renderer:condition-builder 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-ConditionBuilderControl cxd-Form-control"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ConditionBuilderControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="cxd-CBGroup"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup"
                     >
                       <div
-                        class="cxd-CBGroup-toolbarCondition"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-toolbarCondition"
                         draggable="true"
                       >
                         <div
                           aria-expanded="false"
                           aria-haspopup="listbox"
-                          class="cxd-Select"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
                           role="combobox"
                           tabindex="0"
                         >
                           <div
-                            class="cxd-Select-valueWrap"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                           >
                             <div
-                              class="cxd-Select-value"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                             >
                               且
                             </div>
                           </div>
                           <span
-                            class="cxd-Select-arrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                           >
                             <icon-mock
-                              classname="icon icon-right-arrow-bold"
+                              class="icon icon-right-arrow-bold"
                               icon="right-arrow-bold"
                             />
                           </span>
                         </div>
                       </div>
                       <div
-                        class="cxd-CBGroup-body-wrapper"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-body-wrapper"
                       >
                         <div
-                          class="cxd-CBGroup-body"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-body"
                         >
                           <div
-                            class="cxd-CBGroup-placeholder "
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-placeholder"
                           >
                             空
                           </div>
                         </div>
                         <div
-                          class="cxd-CBGroup-toolbar"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-toolbar"
                           draggable="true"
                         >
                           <div
-                            class="cxd-CBGroup-toolbarConditionAdd"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__CBGroup-toolbarConditionAdd"
                           >
                             <div
-                              class="cxd-ButtonGroup"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup"
                             >
                               <button
-                                class="cxd-Button cxd-Button--link cxd-Button--size-xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-xs"
                                 type="button"
                               >
                                 添加条件
                               </button>
                               <button
-                                class="cxd-Button cxd-Button--link cxd-Button--size-xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-xs"
                                 type="button"
                               >
                                 添加条件组
@@ -140,7 +141,7 @@ exports[`Renderer:condition-builder 1`] = `
                     </div>
                   </div>
                   <span
-                    class="cxd-TplField fr-view cxd-Form-description"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view __AMIS_COMPONENT_CLASS_PREFIX__Form-description"
                   >
                     <span>
                       适合让用户自己拼查询条件，然后后端根据数据生成 query where
@@ -150,13 +151,13 @@ exports[`Renderer:condition-builder 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

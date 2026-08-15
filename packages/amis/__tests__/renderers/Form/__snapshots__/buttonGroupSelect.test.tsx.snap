@@ -3,87 +3,83 @@
 exports[`Renderer:button-group with btnActiveLevel 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="type"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="type"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    选项
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  选项
                 </span>
               </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-Form-control"
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--warning __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              type="button"
             >
-              <button
-                class="amis-Button amis-Button--warning amis-Button--size-default amis-ButtonGroup-button--active"
-                type="button"
-              >
-                <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--primary amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--light amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option C
-                </span>
-              </button>
-            </div>
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--light __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option C
+              </span>
+            </button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -92,79 +88,75 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
 exports[`Renderer:button-group with tiled 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    多选
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  多选
                 </span>
               </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-ButtonGroup--tiled amis-Form-control"
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup--tiled __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
             >
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -173,79 +165,75 @@ exports[`Renderer:button-group with tiled 1`] = `
 exports[`Renderer:button-group with vertical 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    多选
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  多选
                 </span>
               </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-ButtonGroup--vertical amis-Form-control"
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup--vertical __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
             >
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -254,111 +242,107 @@ exports[`Renderer:button-group with vertical 1`] = `
 exports[`Renderer:button-group:multiple clearable 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  多选
+                </span>
+              </span>
             </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              type="button"
+            >
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    多选
-                  </span>
-                </span>
-              </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-Form-control"
-            >
-              <button
-                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
-                type="button"
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
-          </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    当前值
-                  </span>
+                  当前值
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+          >
             <div
-              class="amis-Form-static"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-Form-control"
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
-                <span
-                  class="amis-PlainField"
-                >
-                  a
-                </span>
-              </div>
+                a
+              </span>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -367,111 +351,107 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
 exports[`Renderer:button-group:multiple clearable 2`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  多选
+                </span>
+              </span>
             </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              type="button"
+            >
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    多选
-                  </span>
-                </span>
-              </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-Form-control"
-            >
-              <button
-                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
-                type="button"
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
-          </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    当前值
-                  </span>
+                  当前值
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+          >
             <div
-              class="amis-Form-static"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-Form-control"
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
-                <span
-                  class="amis-PlainField"
-                >
-                  a,b
-                </span>
-              </div>
+                a,b
+              </span>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -480,111 +460,107 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
 exports[`Renderer:button-group:multiple clearable 3`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  多选
+                </span>
+              </span>
             </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              type="button"
+            >
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    多选
-                  </span>
-                </span>
-              </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-Form-control"
-            >
-              <button
-                class="amis-Button amis-Button--primary amis-Button--size-default amis-ButtonGroup-button--active"
-                type="button"
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
-          </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    当前值
-                  </span>
+                  当前值
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+          >
             <div
-              class="amis-Form-static"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-Form-control"
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
-                <span
-                  class="amis-PlainField"
-                >
-                  a
-                </span>
-              </div>
+                a
+              </span>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -593,115 +569,111 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
 exports[`Renderer:button-group-select 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  单选
+                </span>
+              </span>
             </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option A
+              </span>
+            </button>
+            <button
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              type="button"
+            >
+              <span>
+                Option B
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    单选
-                  </span>
-                </span>
-              </span>
-            </label>
-            <div
-              class="amis-ButtonGroup amis-Form-control"
-            >
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
-                  Option A
-                </span>
-              </button>
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-                type="button"
-              >
-                <span>
-                  Option B
-                </span>
-              </button>
-            </div>
-          </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    当前值
-                  </span>
+                  当前值
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+          >
             <div
-              class="amis-Form-static"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-Form-control"
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 <span
-                  class="amis-PlainField"
+                  class="text-muted"
                 >
-                  <span
-                    class="text-muted"
-                  >
-                    -
-                  </span>
+                  -
                 </span>
-              </div>
+              </span>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>

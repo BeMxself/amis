@@ -3,7 +3,7 @@
 exports[`Renderer:markdown 1`] = `
 <div>
   <div
-    class="amis-Markdown"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Markdown"
   >
     <div
       class="markdown-body"
@@ -12,15 +12,15 @@ exports[`Renderer:markdown 1`] = `
       <h1>
         title
       </h1>
-      
+
 
       <p>
-        markdown 
+        markdown
         <strong>
           text
         </strong>
       </p>
-      
+
 
     </div>
   </div>

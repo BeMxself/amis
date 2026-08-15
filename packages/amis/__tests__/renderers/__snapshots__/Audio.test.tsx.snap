@@ -3,10 +3,10 @@
 exports[`Renderer:audio 1`] = `
 <div>
   <div
-    class="cxd-Audio cxd-Audio--inline"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Audio __AMIS_COMPONENT_CLASS_PREFIX__Audio--inline"
   >
     <audio
-      class="cxd-Audio-original"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-original"
       controls=""
     >
       <source
@@ -14,25 +14,25 @@ exports[`Renderer:audio 1`] = `
       />
     </audio>
     <div
-      class="cxd-Audio-controls"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-controls"
     >
       <div
-        class="cxd-Audio-play"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-play"
       >
         <icon-mock
-          classname="icon icon-play"
+          class="icon icon-play"
           icon="play"
         />
       </div>
       <div
-        class="cxd-Audio-times"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-times"
       >
         0:00
-         / 
+         /
         0:00
       </div>
       <div
-        class="cxd-Audio-process"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-process"
       >
         <input
           max="1"
@@ -43,10 +43,10 @@ exports[`Renderer:audio 1`] = `
         />
       </div>
       <div
-        class="cxd-Audio-volume"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Audio-volume"
       >
         <icon-mock
-          classname="icon icon-volume"
+          class="icon icon-volume"
           icon="volume"
         />
       </div>

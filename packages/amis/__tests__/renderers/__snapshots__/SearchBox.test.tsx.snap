@@ -3,20 +3,21 @@
 exports[`Renderer:Searchbox 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-SearchBox is-active"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox is-active"
           >
             <input
               autocomplete="off"
@@ -26,10 +27,10 @@ exports[`Renderer:Searchbox 1`] = `
               value="searchkey"
             />
             <a
-              class="cxd-SearchBox-searchBtn"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-searchBtn"
             >
               <icon-mock
-                classname="icon icon-search"
+                class="icon icon-search"
                 icon="search"
               />
             </a>
@@ -44,7 +45,7 @@ exports[`Renderer:Searchbox 1`] = `
 exports[`Renderer:Searchbox with clearable 1`] = `
 <div>
   <div
-    class="cxd-SearchBox is-active"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox is-active"
   >
     <input
       autocomplete="off"
@@ -54,18 +55,18 @@ exports[`Renderer:Searchbox with clearable 1`] = `
       value="tmpvalue"
     />
     <div
-      class="cxd-SearchBox-clearable"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-clearable"
     >
       <icon-mock
-        classname="icon icon-input-clear"
+        class="icon icon-input-clear"
         icon="input-clear"
       />
     </div>
     <a
-      class="cxd-SearchBox-searchBtn"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-searchBtn"
     >
       <icon-mock
-        classname="icon icon-search"
+        class="icon icon-search"
         icon="search"
       />
     </a>
@@ -76,20 +77,21 @@ exports[`Renderer:Searchbox with clearable 1`] = `
 exports[`Renderer:Searchbox with enhance 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-SearchBox cxd-SearchBox--enhance is-active"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox __AMIS_COMPONENT_CLASS_PREFIX__SearchBox--enhance is-active"
           >
             <input
               autocomplete="off"
@@ -99,10 +101,10 @@ exports[`Renderer:Searchbox with enhance 1`] = `
               value=""
             />
             <a
-              class="cxd-SearchBox-searchBtn"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-searchBtn"
             >
               <icon-mock
-                classname="icon icon-search"
+                class="icon icon-search"
                 icon="search"
               />
             </a>
@@ -117,7 +119,7 @@ exports[`Renderer:Searchbox with enhance 1`] = `
 exports[`Renderer:Searchbox with mini 1`] = `
 <div>
   <div
-    class="cxd-SearchBox"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox"
   >
     <input
       autocomplete="off"
@@ -127,10 +129,10 @@ exports[`Renderer:Searchbox with mini 1`] = `
       value=""
     />
     <a
-      class="cxd-SearchBox-activeBtn"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-activeBtn"
     >
       <icon-mock
-        classname="icon icon-search"
+        class="icon icon-search"
         icon="search"
       />
     </a>
@@ -141,7 +143,7 @@ exports[`Renderer:Searchbox with mini 1`] = `
 exports[`Renderer:Searchbox with mini 2`] = `
 <div>
   <div
-    class="cxd-SearchBox is-focused is-active"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox is-focused is-active"
   >
     <input
       autocomplete="off"
@@ -151,10 +153,10 @@ exports[`Renderer:Searchbox with mini 2`] = `
       value="what?"
     />
     <a
-      class="cxd-SearchBox-cancelBtn"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__SearchBox-cancelBtn"
     >
       <icon-mock
-        classname="icon icon-close"
+        class="icon icon-close"
         icon="close"
       />
     </a>

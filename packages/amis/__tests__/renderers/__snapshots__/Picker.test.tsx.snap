@@ -7,16 +7,16 @@ exports[`1. Renderer:Picker base 1`] = `
 >
   <div>
     <div
-      class="cxd-Form-item cxd-Form-item--normal"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="picker"
       data-role="form-item"
     >
       <label
-        class="cxd-Form-label"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
       >
         <span>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               picker
@@ -25,24 +25,24 @@ exports[`1. Renderer:Picker base 1`] = `
         </span>
       </label>
       <div
-        class="cxd-PickerControl cxd-Form-control"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__PickerControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
       >
         <div
-          class="cxd-Picker cxd-Picker--single"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Picker __AMIS_COMPONENT_CLASS_PREFIX__Picker--single"
         >
           <div
-            class="cxd-Picker-input"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-input"
           >
             <div
-              class="cxd-Picker-placeholder"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-placeholder"
             >
               picker-placeholder
             </div>
             <span
-              class="cxd-Picker-btn"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-btn"
             >
               <icon-mock
-                classname="icon icon-window-restore"
+                class="icon icon-window-restore"
                 icon="window-restore"
               />
             </span>
@@ -52,67 +52,68 @@ exports[`1. Renderer:Picker base 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="cxd-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           请选择
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <div
-          class="cxd-Crud"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
           data-role="container"
         >
           <div
-            class="cxd-List cxd-Crud-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__List __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
           >
             <div
-              class="cxd-List-content-wrapper"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="cxd-List-main"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="cxd-List-fixedTop"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 />
                 <div
-                  class="cxd-List-items"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="cxd-ListItem cxd-ListItem--actions-at-right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="0"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="cxd-ListItem-checkBtn"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--radio--default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
                         data-role="checkbox"
                       >
                         <input
@@ -129,25 +130,25 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="cxd-ListItem-content"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="cxd-ListItem-title h5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         A
                       </p>
                     </div>
                   </div>
                   <div
-                    class="cxd-ListItem cxd-ListItem--actions-at-right is-checked"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right is-checked"
                     data-index="1"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="cxd-ListItem-checkBtn"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--radio--default checked cxd-Checkbox--radio--default--checked"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--checked"
                         data-role="checkbox"
                       >
                         <input
@@ -164,25 +165,25 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="cxd-ListItem-content"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="cxd-ListItem-title h5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         B
                       </p>
                     </div>
                   </div>
                   <div
-                    class="cxd-ListItem cxd-ListItem--actions-at-right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="2"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="cxd-ListItem-checkBtn"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="cxd-Checkbox cxd-Checkbox--radio--default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
                         data-role="checkbox"
                       >
                         <input
@@ -199,10 +200,10 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="cxd-ListItem-content"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="cxd-ListItem-title h5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         C
                       </p>
@@ -215,10 +216,10 @@ exports[`1. Renderer:Picker base 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -226,7 +227,7 @@ exports[`1. Renderer:Picker base 1`] = `
           </span>
         </button>
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -242,16 +243,16 @@ exports[`1. Renderer:Picker base 1`] = `
 exports[`1. Renderer:Picker base 2`] = `
 <div>
   <div
-    class="cxd-Form-item cxd-Form-item--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="picker"
     data-role="form-item"
   >
     <label
-      class="cxd-Form-label"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             picker
@@ -260,43 +261,43 @@ exports[`1. Renderer:Picker base 2`] = `
       </span>
     </label>
     <div
-      class="cxd-PickerControl cxd-Form-control"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__PickerControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
     >
       <div
-        class="cxd-Picker cxd-Picker--single"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Picker __AMIS_COMPONENT_CLASS_PREFIX__Picker--single"
       >
         <div
-          class="cxd-Picker-input"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-input"
         >
           <div
-            class="cxd-Picker-valueWrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueWrap"
           >
             <div
-              class="cxd-Picker-value"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-value"
             >
               <span
-                class="cxd-Picker-valueIcon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueIcon"
               >
                 ×
               </span>
               <span
-                class="cxd-Picker-valueLabel"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueLabel"
               >
                 B
               </span>
             </div>
             <div
-              class="cxd-AutoFoldedList-more"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AutoFoldedList-more"
             />
             <input
               value=""
             />
           </div>
           <span
-            class="cxd-Picker-btn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-btn"
           >
             <icon-mock
-              classname="icon icon-window-restore"
+              class="icon icon-window-restore"
               icon="window-restore"
             />
           </span>

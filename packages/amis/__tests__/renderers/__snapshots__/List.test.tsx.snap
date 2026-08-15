@@ -3,756 +3,753 @@
 exports[`Renderer:list 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Service"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default"
+              data-role="container"
             >
               <div
-                class="amis-Panel amis-Panel--default"
-                data-role="container"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              >
+                <h3
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  >
+                    <span>
+                      简单 List 示例
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
               >
                 <div
-                  class="amis-Panel-heading"
-                >
-                  <h3
-                    class="amis-Panel-title"
-                  >
-                    <span
-                      class="amis-TplField fr-view"
-                    >
-                      <span>
-                        简单 List 示例
-                      </span>
-                    </span>
-                  </h3>
-                </div>
-                <div
-                  class="amis-Panel-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List"
                 >
                   <div
-                    class="amis-List"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
                   >
                     <div
-                      class="amis-List-content-wrapper"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
                     >
                       <div
-                        class="amis-List-main"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                      />
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                       >
                         <div
-                          class="amis-List-fixedTop"
-                        />
-                        <div
-                          class="amis-List-items"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="0"
+                          style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="0"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Trident
-                                      </span>
-                                    </div>
+                                      Trident
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        4
-                                      </span>
-                                    </div>
+                                      4
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="1"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="1"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Trident
-                                      </span>
-                                    </div>
+                                      Trident
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        4
-                                      </span>
-                                    </div>
+                                      4
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="2"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="2"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Trident
-                                      </span>
-                                    </div>
+                                      Trident
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        4
-                                      </span>
-                                    </div>
+                                      4
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="3"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="3"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Trident
-                                      </span>
-                                    </div>
+                                      Trident
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        3
-                                      </span>
-                                    </div>
+                                      3
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="4"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="4"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Trident
-                                      </span>
-                                    </div>
+                                      Trident
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        4
-                                      </span>
-                                    </div>
+                                      4
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="5"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="5"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Gecko
-                                      </span>
-                                    </div>
+                                      Gecko
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        4
-                                      </span>
-                                    </div>
+                                      4
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="6"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="6"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Gecko
-                                      </span>
-                                    </div>
+                                      Gecko
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        5
-                                      </span>
-                                    </div>
+                                      5
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="7"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="7"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Gecko
-                                      </span>
-                                    </div>
+                                      Gecko
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        5
-                                      </span>
-                                    </div>
+                                      5
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="8"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="8"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Gecko
-                                      </span>
-                                    </div>
+                                      Gecko
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        5
-                                      </span>
-                                    </div>
+                                      5
+                                    </span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          data-index="9"
+                          style="scroll-margin-top: var(--affix-offset-top);"
+                        >
                           <div
-                            class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                            data-index="9"
-                            style="scroll-margin-top: var(--affix-offset-top);"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                          >
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <span>
+                                查看详情
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="amis-ListItem-actions"
-                            >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <span>
-                                  查看详情
-                                </span>
-                              </button>
-                            </div>
-                            <div
-                              class="amis-ListItem-content"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="amis-Hbox amis-Hbox--xs"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Engine
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Engine
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        Gecko
-                                      </span>
-                                    </div>
+                                      Gecko
+                                    </span>
                                   </div>
                                 </div>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                              >
                                 <div
-                                  class="amis-Hbox-col"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
-                                  <div
-                                    class="amis-ListItem-field"
+                                  <label
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
-                                    <label
-                                      class="amis-ListItem-fieldLabel"
+                                    Version
+                                  </label>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
-                                      Version
-                                    </label>
-                                    <div
-                                      class="amis-ListItem-fieldValue"
-                                    >
-                                      <span
-                                        class="amis-PlainField"
-                                      >
-                                        5
-                                      </span>
-                                    </div>
+                                      5
+                                    </span>
                                   </div>
                                 </div>
                               </div>
@@ -780,177 +777,174 @@ exports[`Renderer:list with itemAction 1`] = `
 >
   <div>
     <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
       data-amis-theme="cxd"
     >
       <div
-        class="amis-Page"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="amis-Page-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="amis-Page-main"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+            role="page-body"
           >
             <div
-              class="amis-Page-body"
-              role="page-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List"
             >
               <div
-                class="amis-List"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
               >
                 <div
-                  class="amis-List-content-wrapper"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
                 >
                   <div
-                    class="amis-List-main"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
                   >
                     <div
-                      class="amis-List-fixedTop"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__List-heading"
+                    >
+                      listTitleForTest
+                    </div>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                  >
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      data-index="0"
+                      style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="amis-List-heading"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
-                        listTitleForTest
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        >
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          >
+                            Engine
+                          </label>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            >
+                              Trident
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        >
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          >
+                            Version
+                          </label>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            >
+                              4
+                            </span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div
-                      class="amis-List-items"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      data-index="1"
+                      style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                        data-index="0"
-                        style="scroll-margin-top: var(--affix-offset-top);"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <div
-                          class="amis-ListItem-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
-                          <div
-                            class="amis-ListItem-field"
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
+                            Engine
+                          </label>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                             >
-                              Engine
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                Trident
-                              </span>
-                            </div>
+                              Trident
+                            </span>
                           </div>
-                          <div
-                            class="amis-ListItem-field"
+                        </div>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        >
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
+                            Version
+                          </label>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                             >
-                              Version
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                4
-                              </span>
-                            </div>
+                              4
+                            </span>
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      data-index="2"
+                      style="scroll-margin-top: var(--affix-offset-top);"
+                    >
                       <div
-                        class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                        data-index="1"
-                        style="scroll-margin-top: var(--affix-offset-top);"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <div
-                          class="amis-ListItem-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
-                          <div
-                            class="amis-ListItem-field"
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
-                            >
-                              Engine
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                Trident
-                              </span>
-                            </div>
-                          </div>
+                            Engine
+                          </label>
                           <div
-                            class="amis-ListItem-field"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                             >
-                              Version
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                4
-                              </span>
-                            </div>
+                              Trident
+                            </span>
                           </div>
                         </div>
-                      </div>
-                      <div
-                        class="amis-ListItem amis-ListItem--actions-at-right amis-ListItem--hasItemAction"
-                        data-index="2"
-                        style="scroll-margin-top: var(--affix-offset-top);"
-                      >
                         <div
-                          class="amis-ListItem-content"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
-                          <div
-                            class="amis-ListItem-field"
+                          <label
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
-                            >
-                              Engine
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                Trident
-                              </span>
-                            </div>
-                          </div>
+                            Version
+                          </label>
                           <div
-                            class="amis-ListItem-field"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
-                            <label
-                              class="amis-ListItem-fieldLabel"
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                             >
-                              Version
-                            </label>
-                            <div
-                              class="amis-ListItem-fieldValue"
-                            >
-                              <span
-                                class="amis-PlainField"
-                              >
-                                4
-                              </span>
-                            </div>
+                              4
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -965,41 +959,41 @@ exports[`Renderer:list with itemAction 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="amis-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="amis-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="amis-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="amis-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           详情
         </div>
       </div>
       <div
-        class="amis-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             当前行的数据 browser: Internet Explorer 4.0, version: 4
@@ -1007,10 +1001,10 @@ exports[`Renderer:list with itemAction 1`] = `
         </span>
       </div>
       <div
-        class="amis-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1018,7 +1012,7 @@ exports[`Renderer:list with itemAction 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1034,207 +1028,204 @@ exports[`Renderer:list with itemAction 1`] = `
 exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="amis-List"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="amis-List-content-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="amis-List-main"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="amis-List-fixedTop"
-                  />
-                  <div
-                    class="amis-List-items"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="0"
+                    style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="0"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                    >
+                      <button
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        type="button"
+                      >
+                        <span>
+                          查看详情
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="amis-ListItem-actions"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <button
-                          class="amis-Button amis-Button--link amis-Button--size-sm"
-                          type="button"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <span>
-                            查看详情
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          >
+                            Trident
                           </span>
-                        </button>
+                        </div>
                       </div>
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
-                          >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
-                        </div>
+                          Version
+                        </label>
                         <div
-                          class="amis-ListItem-field"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="1"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="1"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                    >
+                      <button
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        type="button"
+                      >
+                        <span>
+                          查看详情
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="amis-ListItem-actions"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <button
-                          class="amis-Button amis-Button--link amis-Button--size-sm"
-                          type="button"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <span>
-                            查看详情
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          >
+                            Trident
                           </span>
-                        </button>
+                        </div>
                       </div>
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
-                          >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
-                        </div>
+                          Version
+                        </label>
                         <div
-                          class="amis-ListItem-field"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="2"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="2"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                    >
+                      <button
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        type="button"
+                      >
+                        <span>
+                          查看详情
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="amis-ListItem-actions"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <button
-                          class="amis-Button amis-Button--link amis-Button--size-sm"
-                          type="button"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <span>
-                            查看详情
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          >
+                            Trident
                           </span>
-                        </button>
+                        </div>
                       </div>
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
-                          >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
-                        </div>
+                          Version
+                        </label>
                         <div
-                          class="amis-ListItem-field"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1253,195 +1244,192 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
 exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="amis-List"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="amis-List-content-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="amis-List-main"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="amis-List-fixedTop"
-                  />
-                  <div
-                    class="amis-List-items"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="0"
+                    style="scroll-margin-top: var(--affix-offset-top);"
                   >
-                    <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="0"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
-                      <span
-                        class="amis-ListItem-avatar avatarClassNameForTest"
-                      >
-                        <img
-                          alt="..."
-                          src="/path/avatar/0"
-                        />
-                      </span>
+                      <img
+                        alt="..."
+                        src="/path/avatar/0"
+                      />
+                    </span>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                    >
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="1"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="1"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
-                      <span
-                        class="amis-ListItem-avatar avatarClassNameForTest"
-                      >
-                        <img
-                          alt="..."
-                          src="/path/avatar/1"
-                        />
-                      </span>
+                      <img
+                        alt="..."
+                        src="/path/avatar/1"
+                      />
+                    </span>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                    >
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="2"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="2"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
+                    <span
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
-                      <span
-                        class="amis-ListItem-avatar avatarClassNameForTest"
-                      >
-                        <img
-                          alt="..."
-                          src="/path/avatar/2"
-                        />
-                      </span>
+                      <img
+                        alt="..."
+                        src="/path/avatar/2"
+                      />
+                    </span>
+                    <div
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                    >
                       <div
-                        class="amis-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
-                        <div
-                          class="amis-ListItem-field"
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1460,228 +1448,225 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
 exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="amis-List"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="amis-List-content-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="amis-List-main"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="amis-List-fixedTop"
-                  />
-                  <div
-                    class="amis-List-items"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="0"
+                    style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="0"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
-                      <div
-                        class="amis-ListItem-content"
+                      <p
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
-                        <p
-                          class="amis-ListItem-title classForItemTitle"
+                        Win 95+
+                      </p>
+                      <div>
+                        <small
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
-                          Win 95+
-                        </p>
-                        <div>
-                          <small
-                            class="amis-ListItem-subtitle"
-                          >
-                            等级为：A
-                          </small>
-                        </div>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            this is list item desc
-                          </span>
+                          等级为：A
+                        </small>
+                      </div>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          this is list item desc
                         </span>
-                        <div
-                          class="amis-ListItem-field"
+                      </span>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="1"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="1"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
-                      <div
-                        class="amis-ListItem-content"
+                      <p
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
-                        <p
-                          class="amis-ListItem-title classForItemTitle"
+                        Win 95+
+                      </p>
+                      <div>
+                        <small
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
-                          Win 95+
-                        </p>
-                        <div>
-                          <small
-                            class="amis-ListItem-subtitle"
-                          >
-                            等级为：B
-                          </small>
-                        </div>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            this is list item desc
-                          </span>
+                          等级为：B
+                        </small>
+                      </div>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          this is list item desc
                         </span>
-                        <div
-                          class="amis-ListItem-field"
+                      </span>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    data-index="2"
+                    style="scroll-margin-top: var(--affix-offset-top);"
+                  >
                     <div
-                      class="amis-ListItem amis-ListItem--actions-at-right"
-                      data-index="2"
-                      style="scroll-margin-top: var(--affix-offset-top);"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
-                      <div
-                        class="amis-ListItem-content"
+                      <p
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
-                        <p
-                          class="amis-ListItem-title classForItemTitle"
+                        Win 95+
+                      </p>
+                      <div>
+                        <small
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
-                          Win 95+
-                        </p>
-                        <div>
-                          <small
-                            class="amis-ListItem-subtitle"
-                          >
-                            等级为：C
-                          </small>
-                        </div>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            this is list item desc
-                          </span>
+                          等级为：C
+                        </small>
+                      </div>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          this is list item desc
                         </span>
-                        <div
-                          class="amis-ListItem-field"
+                      </span>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Engine
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Engine
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              Trident
-                            </span>
-                          </div>
+                            Trident
+                          </span>
                         </div>
-                        <div
-                          class="amis-ListItem-field"
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                      >
+                        <label
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
-                          <label
-                            class="amis-ListItem-fieldLabel"
+                          Version
+                        </label>
+                        <div
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
-                            Version
-                          </label>
-                          <div
-                            class="amis-ListItem-fieldValue"
-                          >
-                            <span
-                              class="amis-PlainField"
-                            >
-                              4
-                            </span>
-                          </div>
+                            4
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1700,73 +1685,70 @@ exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`
 exports[`Renderer:list with title & header & footer & headerClassName & footerClassName 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="amis-List"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="amis-List-content-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="amis-List-main"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 >
                   <div
-                    class="amis-List-fixedTop"
-                  >
-                    <div
-                      class="amis-List-header headerTplClassName"
-                    >
-                      <span
-                        class="amis-TplField fr-view"
-                      >
-                        <span>
-                          头部标题
-                        </span>
-                      </span>
-                    </div>
-                    <div
-                      class="amis-List-heading"
-                    >
-                      listTitleForTest
-                    </div>
-                  </div>
-                  <div
-                    class="amis-List-placeholder"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-header headerTplClassName"
                   >
                     <span
-                      class="amis-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
-                        暂无数据
+                        头部标题
                       </span>
                     </span>
                   </div>
                   <div
-                    class="amis-List-footer footerButtonClassName"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-heading"
                   >
-                    <button
-                      class="amis-Button amis-Button--default amis-Button--size-default"
-                      type="button"
-                    >
-                      <span>
-                        底部按钮
-                      </span>
-                    </button>
+                    listTitleForTest
                   </div>
+                </div>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-placeholder"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  >
+                    <span>
+                      暂无数据
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-footer footerButtonClassName"
+                >
+                  <button
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                    type="button"
+                  >
+                    <span>
+                      底部按钮
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>

@@ -3,46 +3,42 @@
 exports[`Renderer:button-toolbar 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal show"
+    data-amis-name="button-toolbar"
+    data-role="form-item"
   >
-    <div
-      class="amis-Form-item amis-Form-item--normal show"
-      data-amis-name="button-toolbar"
-      data-role="form-item"
+    <label
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
-      <label
-        class="amis-Form-label"
-      >
-        <span>
-          <span
-            class="amis-TplField fr-view"
-          >
-            <span>
-              button-toolbar
-            </span>
+      <span>
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+        >
+          <span>
+            button-toolbar
           </span>
         </span>
-      </label>
-      <div
-        class="amis-ButtonToolbar amis-Form-control"
+      </span>
+    </label>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonToolbar __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+    >
+      <button
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+        type="button"
       >
-        <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
-          type="button"
-        >
-          <span>
-            按钮1
-          </span>
-        </button>
-        <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
-          type="button"
-        >
-          <span>
-            按钮2
-          </span>
-        </button>
-      </div>
+        <span>
+          按钮1
+        </span>
+      </button>
+      <button
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+        type="button"
+      >
+        <span>
+          按钮2
+        </span>
+      </button>
     </div>
   </div>
 </div>

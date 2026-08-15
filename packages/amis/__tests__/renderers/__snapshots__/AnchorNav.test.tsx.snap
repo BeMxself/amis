@@ -3,27 +3,28 @@
 exports[`Renderer:anchorNav 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-AnchorNav cxd-AnchorNav--vertical"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--vertical"
           >
             <ul
-              class="cxd-AnchorNav-link-wrap linksWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap linksWrap"
               role="anchorlist"
             >
               <li
-                class="cxd-AnchorNav-link is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -32,7 +33,7 @@ exports[`Renderer:anchorNav 1`] = `
                 </a>
               </li>
               <li
-                class="cxd-AnchorNav-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="工作信息"
@@ -41,7 +42,7 @@ exports[`Renderer:anchorNav 1`] = `
                 </a>
               </li>
               <li
-                class="cxd-AnchorNav-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="兴趣爱好"
@@ -51,24 +52,24 @@ exports[`Renderer:anchorNav 1`] = `
               </li>
             </ul>
             <div
-              class="cxd-AnchorNav-section-wrap sectionsWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap sectionsWrap"
             >
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -77,10 +78,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -88,16 +89,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -106,10 +107,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -124,16 +125,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -142,10 +143,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -162,13 +163,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -180,21 +181,21 @@ exports[`Renderer:anchorNav 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="1"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           工作信息
@@ -203,10 +204,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -214,16 +215,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司名称：
@@ -232,10 +233,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -250,16 +251,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司地址：
@@ -268,10 +269,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -288,13 +289,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -306,21 +307,21 @@ exports[`Renderer:anchorNav 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="2"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           兴趣爱好
@@ -329,10 +330,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -340,16 +341,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest1"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好1：
@@ -358,10 +359,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -376,16 +377,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest2"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好2：
@@ -394,10 +395,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -412,16 +413,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest3"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好3：
@@ -430,10 +431,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -448,16 +449,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest4"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好4：
@@ -466,10 +467,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -484,16 +485,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest5"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好5：
@@ -502,10 +503,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -520,16 +521,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest6"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好6：
@@ -538,10 +539,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -558,13 +559,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -587,27 +588,28 @@ exports[`Renderer:anchorNav 1`] = `
 exports[`Renderer:anchorNav with children 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-AnchorNav cxd-AnchorNav--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
           >
             <ul
-              class="cxd-AnchorNav-link-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
               role="anchorlist"
             >
               <li
-                class="cxd-AnchorNav-link is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -616,7 +618,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="cxd-AnchorNav-link cxd-AnchorNav-link-child"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
               >
                 <a
                   title="基本信息1-1"
@@ -625,7 +627,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="cxd-AnchorNav-link cxd-AnchorNav-link-child"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
               >
                 <a
                   title="基本信息1-2"
@@ -634,7 +636,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="cxd-AnchorNav-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="工作信息"
@@ -644,24 +646,24 @@ exports[`Renderer:anchorNav with children 1`] = `
               </li>
             </ul>
             <div
-              class="cxd-AnchorNav-section-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
             >
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -670,10 +672,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -681,16 +683,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -699,10 +701,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -717,16 +719,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -735,10 +737,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -755,13 +757,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -773,21 +775,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0-0"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息1-1
@@ -796,10 +798,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -807,16 +809,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname1"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 cname1
@@ -825,10 +827,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -843,16 +845,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress1"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 caddress1
@@ -861,10 +863,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -881,13 +883,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -899,21 +901,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0-1"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息1-2
@@ -922,10 +924,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -933,16 +935,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname2"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 cname2
@@ -951,10 +953,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -969,16 +971,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress2"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 caddress2
@@ -987,10 +989,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1007,13 +1009,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -1025,21 +1027,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="1"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           工作信息
@@ -1048,10 +1050,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -1059,16 +1061,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司名称：
@@ -1077,10 +1079,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1095,16 +1097,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司地址：
@@ -1113,10 +1115,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1133,13 +1135,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -1162,27 +1164,28 @@ exports[`Renderer:anchorNav with children 1`] = `
 exports[`Renderer:anchorNav with horizontal 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-AnchorNav cxd-AnchorNav--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
           >
             <ul
-              class="cxd-AnchorNav-link-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
               role="anchorlist"
             >
               <li
-                class="cxd-AnchorNav-link is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -1192,24 +1195,24 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
               </li>
             </ul>
             <div
-              class="cxd-AnchorNav-section-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
             >
               <div
-                class="cxd-AnchorNav-section"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="cxd-Panel-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="cxd-Panel-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -1218,10 +1221,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="cxd-Panel-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="cxd-Form cxd-Form--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -1229,16 +1232,16 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                         type="submit"
                       />
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -1247,10 +1250,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1265,16 +1268,16 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                         </div>
                       </div>
                       <div
-                        class="cxd-Form-item cxd-Form-item--normal"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="cxd-Form-label"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -1283,10 +1286,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                           </span>
                         </label>
                         <div
-                          class="cxd-Form-control cxd-TextControl"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="cxd-TextControl-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1303,13 +1306,13 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                     </form>
                   </div>
                   <div
-                    class="cxd-Panel-footerWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>

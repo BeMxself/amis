@@ -3,30 +3,31 @@
 exports[`doAction:service reload 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -35,10 +36,10 @@ exports[`doAction:service reload 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -46,16 +47,16 @@ exports[`doAction:service reload 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           名字：
@@ -64,10 +65,10 @@ exports[`doAction:service reload 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -82,16 +83,16 @@ exports[`doAction:service reload 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="age"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           年龄：
@@ -100,10 +101,10 @@ exports[`doAction:service reload 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -118,7 +119,7 @@ exports[`doAction:service reload 1`] = `
                   </div>
                 </div>
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
                   type="button"
                 >
                   <span>
@@ -129,19 +130,19 @@ exports[`doAction:service reload 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -150,10 +151,10 @@ exports[`doAction:service reload 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -168,16 +169,16 @@ exports[`doAction:service reload 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -186,10 +187,10 @@ exports[`doAction:service reload 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -214,30 +215,31 @@ exports[`doAction:service reload 1`] = `
 exports[`doAction:service reload 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -246,10 +248,10 @@ exports[`doAction:service reload 2`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -257,16 +259,16 @@ exports[`doAction:service reload 2`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           名字：
@@ -275,10 +277,10 @@ exports[`doAction:service reload 2`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -293,16 +295,16 @@ exports[`doAction:service reload 2`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="age"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           年龄：
@@ -311,10 +313,10 @@ exports[`doAction:service reload 2`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -329,7 +331,7 @@ exports[`doAction:service reload 2`] = `
                   </div>
                 </div>
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
                   type="button"
                 >
                   <span>
@@ -340,19 +342,19 @@ exports[`doAction:service reload 2`] = `
             </div>
           </div>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -361,10 +363,10 @@ exports[`doAction:service reload 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -379,16 +381,16 @@ exports[`doAction:service reload 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -397,10 +399,10 @@ exports[`doAction:service reload 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -415,14 +417,14 @@ exports[`doAction:service reload 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -436,20 +438,21 @@ exports[`doAction:service reload 2`] = `
 exports[`doAction:service reload with data 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -457,19 +460,19 @@ exports[`doAction:service reload with data 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -478,10 +481,10 @@ exports[`doAction:service reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -496,16 +499,16 @@ exports[`doAction:service reload with data 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -514,10 +517,10 @@ exports[`doAction:service reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -542,20 +545,21 @@ exports[`doAction:service reload with data 1`] = `
 exports[`doAction:service reload with data 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -563,19 +567,19 @@ exports[`doAction:service reload with data 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -584,10 +588,10 @@ exports[`doAction:service reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -602,16 +606,16 @@ exports[`doAction:service reload with data 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -620,10 +624,10 @@ exports[`doAction:service reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -638,14 +642,14 @@ exports[`doAction:service reload with data 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -659,20 +663,21 @@ exports[`doAction:service reload with data 2`] = `
 exports[`doAction:service(schemaApi) reload 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -680,19 +685,19 @@ exports[`doAction:service(schemaApi) reload 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -701,10 +706,10 @@ exports[`doAction:service(schemaApi) reload 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -719,16 +724,16 @@ exports[`doAction:service(schemaApi) reload 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -737,10 +742,10 @@ exports[`doAction:service(schemaApi) reload 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -765,20 +770,21 @@ exports[`doAction:service(schemaApi) reload 1`] = `
 exports[`doAction:service(schemaApi) reload 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -786,19 +792,19 @@ exports[`doAction:service(schemaApi) reload 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -807,10 +813,10 @@ exports[`doAction:service(schemaApi) reload 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -825,16 +831,16 @@ exports[`doAction:service(schemaApi) reload 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -843,10 +849,10 @@ exports[`doAction:service(schemaApi) reload 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -861,14 +867,14 @@ exports[`doAction:service(schemaApi) reload 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -882,20 +888,21 @@ exports[`doAction:service(schemaApi) reload 2`] = `
 exports[`doAction:service(schemaApi) reload with data 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -903,19 +910,19 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -924,10 +931,10 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -942,16 +949,16 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -960,10 +967,10 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -988,20 +995,21 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
 exports[`doAction:service(schemaApi) reload with data 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1009,19 +1017,19 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1030,10 +1038,10 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1048,16 +1056,16 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1066,10 +1074,10 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1084,14 +1092,14 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -1105,20 +1113,21 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
 exports[`doAction:service(schemaApi+data) reload with data 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1126,19 +1135,19 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1147,10 +1156,10 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1165,16 +1174,16 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1183,10 +1192,10 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1211,20 +1220,21 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
 exports[`doAction:service(schemaApi+data) reload with data 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1232,19 +1242,19 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
             </span>
           </button>
           <div
-            class="cxd-Service"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1253,10 +1263,10 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1271,16 +1281,16 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1289,10 +1299,10 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1301,20 +1311,20 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
                     placeholder=""
                     size="10"
                     type="text"
-                    value="18"
+                    value="20"
                   />
                 </div>
               </div>
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--lg cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>

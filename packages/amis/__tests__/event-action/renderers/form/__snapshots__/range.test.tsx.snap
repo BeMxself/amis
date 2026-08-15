@@ -3,50 +3,51 @@
 exports[`EventAction:inputRange 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="range"
             data-role="form-item"
           >
             <div
-              class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="cxd-InputRange-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
               >
                 <div
-                  class="cxd-InputRange-track cxd-InputRange-track--background"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
                 >
                   <div
-                    class="cxd-InputRange-track-active"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                     style="width: 0%; left: 0%;"
                   />
                   <div
-                    class="cxd-InputRange-handle"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                     style="left: 0%; z-index: 1;"
                   >
                     <div
-                      class="cxd-InputRange-handle-icon"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                     >
                       <icon-mock
-                        classname="icon icon-slider-handle"
+                        class="icon icon-slider-handle"
                         icon="slider-handle"
                       />
                     </div>
                     <div
-                      class="cxd-InputRange-label pos-top"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                     >
                       <span>
                         0
@@ -56,48 +57,48 @@ exports[`EventAction:inputRange 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-InputRange-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
               >
                 <div
-                  class="cxd-Number cxd-Number--borderFull"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                 >
                   <div
-                    class="cxd-Number-handler-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                   >
                     <span
                       aria-disabled="false"
                       aria-label="Increase Value"
-                      class="cxd-Number-handler cxd-Number-handler-up"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                       role="button"
                       unselectable="on"
                     >
                       <span
-                        class="cxd-Number-handler-up-inner"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                         unselectable="on"
                       />
                     </span>
                     <span
                       aria-disabled="true"
                       aria-label="Decrease Value"
-                      class="cxd-Number-handler cxd-Number-handler-down cxd-Number-handler-down-disabled"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-disabled"
                       role="button"
                       unselectable="on"
                     >
                       <span
-                        class="cxd-Number-handler-down-inner"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                         unselectable="on"
                       />
                     </span>
                   </div>
                   <div
-                    class="cxd-Number-input-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                   >
                     <input
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="0"
                       autocomplete="off"
-                      class="cxd-Number-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                       role="spinbutton"
                       step="1"
                       value="0"
@@ -106,27 +107,27 @@ exports[`EventAction:inputRange 1`] = `
                 </div>
               </div>
               <a
-                class="cxd-InputRange-clear"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear"
               >
                 <icon-mock
-                  classname="icon icon-close"
+                  class="icon icon-close"
                   icon="close"
                 />
               </a>
             </div>
           </div>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -135,10 +136,10 @@ exports[`EventAction:inputRange 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -146,198 +147,132 @@ exports[`EventAction:inputRange 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-JsonField cxd-Form--debug"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
                 >
                   <div
-                    class="react-json-view"
-                    style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
+                    class="w-json-view-container w-rjv  w-rjv-inner"
+                    style="line-height: 1.4; font-family: var(--w-rjv-font-family, Menlo, monospace); font-size: 13px; --w-rjv-font-family: monospace; --w-rjv-color: #002b36; --w-rjv-background-color: #ffffff; --w-rjv-line-color: #ebebeb; --w-rjv-arrow-color: var(--w-rjv-color); --w-rjv-edit-color: var(--w-rjv-color); --w-rjv-info-color: #0000004d; --w-rjv-update-color: #ebcb8b; --w-rjv-copied-color: #002b36; --w-rjv-copied-success-color: #28a745; --w-rjv-curlybraces-color: #236a7c; --w-rjv-colon-color: #002b36; --w-rjv-brackets-color: #236a7c; --w-rjv-type-string-color: #cb4b16; --w-rjv-type-int-color: #268bd2; --w-rjv-type-float-color: #859900; --w-rjv-type-bigint-color: #268bd2; --w-rjv-type-boolean-color: #2aa198; --w-rjv-type-date-color: #586e75; --w-rjv-type-url-color: #0969da; --w-rjv-type-null-color: #d33682; --w-rjv-type-nan-color: #859900; --w-rjv-type-undefined-color: #586e75;"
                   >
                     <div
-                      class="pretty-json-container object-container"
+                      style="display: inline-flex; align-items: center;"
+                    >
+                      <svg
+                        class="w-rjv-arrow"
+                        data-expand="true"
+                        data-icon-style="square"
+                        fill="none"
+                        style="cursor: pointer; height: 1em; width: 1em; transform: rotate(0deg); transition: all 0.3s;"
+                        viewBox="0 0 24 24"
+                      >
+                        <rect
+                          fill="none"
+                          height="14"
+                          rx="1.5"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          width="14"
+                          x="5"
+                          y="5"
+                        />
+                        <path
+                          d="M8 12h8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                        />
+                      </svg>
+                      <span
+                        class="w-rjv-curlybraces-start "
+                      >
+                        {
+                      </span>
+                      <span
+                        class="w-rjv-object-size"
+                        style="padding-left: 4px; font-style: italic;"
+                      >
+                        2
+
+                        items
+                      </span>
+                    </div>
+                    <div
+                      class="w-rjv-content"
+                      style="margin-left: 6px;"
                     >
                       <div
-                        class="object-content"
+                        class="w-rjv-line"
+                        style="padding-left: 15px;"
                       >
-                        <div
-                          class="object-key-val"
-                        >
-                          <span>
-                            <span
-                              style="display: inline-block; cursor: pointer;"
-                            >
-                              <div
-                                class="icon-container"
-                                style="display: inline-block; width: 17px;"
-                              >
-                                <span
-                                  class="expanded-icon"
-                                >
-                                  <svg
-                                    fill="#586e75"
-                                    height="1em"
-                                    style="vertical-align: middle; color: rgb(88, 110, 117); height: 1em; width: 1em;"
-                                    viewBox="0 0 1792 1792"
-                                    width="1em"
-                                  >
-                                    <path
-                                      d="M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
-                                    />
-                                  </svg>
-                                </span>
-                              </div>
-                              <span />
-                              <span
-                                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
-                              >
-                                {
-                              </span>
-                            </span>
-                            <div
-                              class="object-meta-data"
-                              style="display: inline-block; padding: 0px 0px 0px 10px;"
-                            >
-                              <span
-                                class="object-size"
-                                style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                              >
-                                2
-                                 item
-                                s
-                              </span>
-                            </div>
-                          </span>
-                          <div
-                            class="pushed-content object-container"
-                          >
-                            <div
-                              class="object-content"
-                              style="margin-left: 6px;"
-                            >
-                              <div
-                                class="variable-row"
-                                style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
-                              >
-                                <span>
-                                  <span
-                                    class="object-key"
-                                    style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                                  >
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                    <span
-                                      style="display: inline-block;"
-                                    >
-                                      rangeValue
-                                    </span>
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                  </span>
-                                  <span
-                                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                                  >
-                                    :
-                                  </span>
-                                </span>
-                                <div
-                                  class="variable-value"
-                                  style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
-                                >
-                                  <div
-                                    style="display: inline-block; color: rgb(203, 75, 22);"
-                                  >
-                                    <span
-                                      class="string-value"
-                                      style="cursor: default;"
-                                    >
-                                      "
-                                      值为0
-                                      "
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="variable-row"
-                                style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
-                              >
-                                <span>
-                                  <span
-                                    class="object-key"
-                                    style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
-                                  >
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                    <span
-                                      style="display: inline-block;"
-                                    >
-                                      rangeEvent
-                                    </span>
-                                    <span
-                                      style="vertical-align: top;"
-                                    >
-                                      "
-                                    </span>
-                                  </span>
-                                  <span
-                                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
-                                  >
-                                    :
-                                  </span>
-                                </span>
-                                <div
-                                  class="variable-value"
-                                  style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
-                                >
-                                  <div
-                                    style="display: inline-block; color: rgb(203, 75, 22);"
-                                  >
-                                    <span
-                                      class="string-value"
-                                      style="cursor: default;"
-                                    >
-                                      "
-                                      触发了blur
-                                      "
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                        <span>
                           <span
-                            class="brace-row"
+                            class="w-rjv-object-key"
+                            data-keys="_r_0_"
                           >
-                            <span
-                              style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
-                            >
-                              }
-                            </span>
+                            "rangeValue"
                           </span>
-                        </div>
+                          <span
+                            class="w-rjv-colon"
+                            style="padding-right: 3px;"
+                          >
+                            :
+                          </span>
+                          <span
+                            class="w-rjv-value"
+                            style="cursor: pointer;"
+                          >
+                            "值为0"
+                          </span>
+                        </span>
                       </div>
+                      <div
+                        class="w-rjv-line"
+                        style="padding-left: 15px;"
+                      >
+                        <span>
+                          <span
+                            class="w-rjv-object-key"
+                            data-keys="_r_0_"
+                          >
+                            "rangeEvent"
+                          </span>
+                          <span
+                            class="w-rjv-colon"
+                            style="padding-right: 3px;"
+                          >
+                            :
+                          </span>
+                          <span
+                            class="w-rjv-value"
+                            style="cursor: pointer;"
+                          >
+                            "触发了blur"
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      style="padding-left: 2px;"
+                    >
+                      <span
+                        class="w-rjv-curlybraces-end "
+                        style="padding-left: 2px; display: inline-block;"
+                      >
+                        }
+                      </span>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal input-text-range-value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-value"
                   data-amis-name="rangeValue"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           滑块值
@@ -346,10 +281,10 @@ exports[`EventAction:inputRange 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl is-disabled"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -365,16 +300,16 @@ exports[`EventAction:inputRange 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal input-text-range-event"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-event"
                   data-amis-name="rangeEvent"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           滑块事件
@@ -383,10 +318,10 @@ exports[`EventAction:inputRange 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-control cxd-TextControl is-disabled"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
                   >
                     <div
-                      class="cxd-TextControl-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -404,13 +339,13 @@ exports[`EventAction:inputRange 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

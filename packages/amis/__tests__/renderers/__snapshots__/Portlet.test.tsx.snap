@@ -3,59 +3,59 @@
 exports[`Renderer:portlet 1`] = `
 <div>
   <div
-    class="cxd-Portlet"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Portlet"
   >
     <div
-      class="cxd-Tabs cxd-Tabs--line cxd-Portlet-tab"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line __AMIS_COMPONENT_CLASS_PREFIX__Portlet-tab"
       data-role="container"
     >
       <div
-        class="cxd-Tabs-linksContainer-wrapper cxd-Tabs-linksContainer-wrapper--toolbar"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper __AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper--toolbar"
       >
         <div
-          class="cxd-Tabs-linksContainer"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
         >
           <div
-            class="cxd-Tabs-linksContainer-main"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
           >
             <ul
-              class="cxd-Tabs-links"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
               role="tablist"
             >
               <li
-                class="cxd-Tabs-link is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
               >
                 <a
                   title="Tab 1"
                 >
                   <span
-                    class="cxd-Tabs-link-text"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                   >
                     Tab 1
                   </span>
                 </a>
               </li>
               <li
-                class="cxd-Tabs-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
               >
                 <a
                   title="Tab 2"
                 >
                   <span
-                    class="cxd-Tabs-link-text"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                   >
                     Tab 2
                   </span>
                 </a>
               </li>
               <div
-                class="cxd-Portlet-toolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Portlet-toolbar"
               >
                 <div
-                  class="cxd-toolbar"
+                  class="amis-toolbar"
                 >
                   <button
-                    class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     type="button"
                   >
                     <span>
@@ -64,10 +64,10 @@ exports[`Renderer:portlet 1`] = `
                   </button>
                 </div>
                 <div
-                  class="cxd-tab-toolbar"
+                  class="amis-tab-toolbar"
                 >
                   <button
-                    class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     type="button"
                   >
                     <span>
@@ -75,10 +75,10 @@ exports[`Renderer:portlet 1`] = `
                     </span>
                   </button>
                   <div
-                    class="cxd-DropDown "
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                   >
                     <button
-                      class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     >
                       <i
                         class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -92,13 +92,13 @@ exports[`Renderer:portlet 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Tabs-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
       >
         <div
-          class="in is-active cxd-Tabs-pane"
+          class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               Content 1
@@ -106,10 +106,10 @@ exports[`Renderer:portlet 1`] = `
           </span>
         </div>
         <div
-          class="cxd-Tabs-pane"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               Content 2

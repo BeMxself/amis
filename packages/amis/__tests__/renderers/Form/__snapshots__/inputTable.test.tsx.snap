@@ -3,223 +3,220 @@
 exports[`Renderer:input table 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
-                  >
-                    <span>
-                      表单
-                    </span>
+                  <span>
+                    表单
                   </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
               >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="table"
+                  data-role="form-item"
                 >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
                   <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="table"
-                    data-role="form-item"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="amis-InputTable amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+                      style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
                     >
                       <div
-                        class="amis-Table"
-                        style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
                       >
                         <div
-                          class="amis-Table-contentWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                         >
-                          <div
-                            class="amis-Table-content"
+                          <table
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                           >
-                            <table
-                              class="amis-Table-table"
-                            >
-                              <colgroup>
-                                <col
+                            <colgroup>
+                              <col
+                                data-index="3"
+                              />
+                              <col
+                                data-index="4"
+                              />
+                            </colgroup>
+                            <thead>
+                              <tr
+                                class=""
+                              >
+                                <th
+                                  class=""
                                   data-index="3"
-                                />
-                                <col
+                                >
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                                    >
+                                      <span>
+                                        A
+                                      </span>
+                                    </span>
+                                  </div>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                                    data-index="3"
+                                  />
+                                </th>
+                                <th
+                                  class=""
                                   data-index="4"
-                                />
-                              </colgroup>
-                              <thead>
-                                <tr
+                                >
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                                    >
+                                      <span>
+                                        B
+                                      </span>
+                                    </span>
+                                  </div>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                                    data-index="4"
+                                  />
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                                data-id="1"
+                                data-index="0"
+                              >
+                                <td
                                   class=""
                                 >
-                                  <th
-                                    class=""
-                                    data-index="3"
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                   >
-                                    <div
-                                      class="amis-TableCell--title"
-                                    >
-                                      <span
-                                        class="amis-TplField fr-view"
-                                      >
-                                        <span>
-                                          A
-                                        </span>
-                                      </span>
-                                    </div>
-                                    <div
-                                      class="amis-Table-content-colDragLine"
-                                      data-index="3"
-                                    />
-                                  </th>
-                                  <th
-                                    class=""
-                                    data-index="4"
-                                  >
-                                    <div
-                                      class="amis-TableCell--title"
-                                    >
-                                      <span
-                                        class="amis-TplField fr-view"
-                                      >
-                                        <span>
-                                          B
-                                        </span>
-                                      </span>
-                                    </div>
-                                    <div
-                                      class="amis-Table-content-colDragLine"
-                                      data-index="4"
-                                    />
-                                  </th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                                  data-id="1"
-                                  data-index="0"
+                                    a1
+                                  </span>
+                                </td>
+                                <td
+                                  class=""
                                 >
-                                  <td
-                                    class=""
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                   >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      a1
-                                    </span>
-                                  </td>
-                                  <td
-                                    class=""
-                                  >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      b1
-                                    </span>
-                                  </td>
-                                </tr>
-                                <tr
-                                  class="amis-Table-table-tr amis-Table-tr--even amis-Table-tr--1th"
-                                  data-id="2"
-                                  data-index="1"
+                                    b1
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                                data-id="2"
+                                data-index="1"
+                              >
+                                <td
+                                  class=""
                                 >
-                                  <td
-                                    class=""
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                   >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      a2
-                                    </span>
-                                  </td>
-                                  <td
-                                    class=""
-                                  >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      b2
-                                    </span>
-                                  </td>
-                                </tr>
-                                <tr
-                                  class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                                  data-id="3"
-                                  data-index="2"
+                                    a2
+                                  </span>
+                                </td>
+                                <td
+                                  class=""
                                 >
-                                  <td
-                                    class=""
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                   >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      a3
-                                    </span>
-                                  </td>
-                                  <td
-                                    class=""
+                                    b2
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                                data-id="3"
+                                data-index="2"
+                              >
+                                <td
+                                  class=""
+                                >
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                                   >
-                                    <span
-                                      class="amis-PlainField"
-                                    >
-                                      b3
-                                    </span>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
+                                    a3
+                                  </span>
+                                </td>
+                                <td
+                                  class=""
+                                >
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                  >
+                                    b3
+                                  </span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -233,342 +230,328 @@ exports[`Renderer:input table 1`] = `
 exports[`Renderer:input table add 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
-          >
-            <span>
-              表单
-            </span>
+          <span>
+            表单
           </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
       >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
           <div
-            class="amis-JsonField amis-Form--debug"
+            class="w-json-view-container w-rjv  w-rjv-inner"
+            style="line-height: 1.4; font-family: var(--w-rjv-font-family, Menlo, monospace); font-size: 13px; --w-rjv-font-family: monospace; --w-rjv-color: #002b36; --w-rjv-background-color: #ffffff; --w-rjv-line-color: #ebebeb; --w-rjv-arrow-color: var(--w-rjv-color); --w-rjv-edit-color: var(--w-rjv-color); --w-rjv-info-color: #0000004d; --w-rjv-update-color: #ebcb8b; --w-rjv-copied-color: #002b36; --w-rjv-copied-success-color: #28a745; --w-rjv-curlybraces-color: #236a7c; --w-rjv-colon-color: #002b36; --w-rjv-brackets-color: #236a7c; --w-rjv-type-string-color: #cb4b16; --w-rjv-type-int-color: #268bd2; --w-rjv-type-float-color: #859900; --w-rjv-type-bigint-color: #268bd2; --w-rjv-type-boolean-color: #2aa198; --w-rjv-type-date-color: #586e75; --w-rjv-type-url-color: #0969da; --w-rjv-type-null-color: #d33682; --w-rjv-type-nan-color: #859900; --w-rjv-type-undefined-color: #586e75;"
           >
             <div
-              class="react-json-view"
-              style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
+              style="display: inline-flex; align-items: center;"
             >
-              <div
-                class="pretty-json-container object-container"
+              <svg
+                class="w-rjv-arrow"
+                data-expand="true"
+                data-icon-style="square"
+                fill="none"
+                style="cursor: pointer; height: 1em; width: 1em; transform: rotate(0deg); transition: all 0.3s;"
+                viewBox="0 0 24 24"
               >
-                <div
-                  class="object-content"
-                >
-                  <div
-                    class="object-key-val"
-                  >
-                    <span>
-                      <span
-                        style="display: inline-block; cursor: pointer;"
-                      >
-                        <div
-                          class="icon-container"
-                          style="display: inline-block; width: 17px;"
-                        >
-                          <span
-                            class="collapsed-icon"
-                          >
-                            <svg
-                              fill="#2aa198"
-                              height="1em"
-                              style="vertical-align: middle; color: rgb(42, 161, 152); height: 1em; width: 1em;"
-                              viewBox="0 0 1792 1792"
-                              width="1em"
-                            >
-                              <path
-                                d="M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                        <span />
-                        <span
-                          style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
-                        >
-                          {
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      class="brace-row"
-                    >
-                      <span
-                        style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 0px;"
-                      >
-                        }
-                      </span>
-                      <div
-                        class="object-meta-data"
-                        style="display: inline-block; padding: 0px 0px 0px 10px;"
-                      >
-                        <span
-                          class="object-size"
-                          style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
-                        >
-                          0
-                           item
-                          s
-                        </span>
-                      </div>
-                    </span>
-                  </div>
-                </div>
-              </div>
+                <rect
+                  fill="none"
+                  height="14"
+                  rx="1.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  width="14"
+                  x="5"
+                  y="5"
+                />
+                <path
+                  d="M8 12h8"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+              </svg>
+              <span
+                class="w-rjv-curlybraces-start "
+              >
+                {
+              </span>
+              <span
+                class="w-rjv-object-size"
+                style="padding-left: 4px; font-style: italic;"
+              >
+                0
+
+                items
+              </span>
+            </div>
+            <div
+              class="w-rjv-content"
+              style="margin-left: 6px;"
+            />
+            <div
+              style="padding-left: 2px;"
+            >
+              <span
+                class="w-rjv-curlybraces-end "
+                style="padding-left: 2px; display: inline-block;"
+              >
+                }
+              </span>
             </div>
           </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="table"
+          data-role="form-item"
+        >
           <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="table"
-            data-role="form-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="amis-InputTable amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+              style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px;"
             >
               <div
-                class="amis-Table"
-                style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px;"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="amis-Table-contentWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
-                  <div
-                    class="amis-Table-content"
+                  <table
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
-                    <table
-                      class="amis-Table-table"
-                    >
-                      <colgroup>
-                        <col
+                    <colgroup>
+                      <col
+                        data-index="3"
+                      />
+                      <col
+                        data-index="4"
+                      />
+                      <col
+                        data-index="5"
+                        style="width: 150px; min-width: 150px;"
+                      />
+                    </colgroup>
+                    <thead>
+                      <tr
+                        class=""
+                      >
+                        <th
+                          class=""
                           data-index="3"
-                        />
-                        <col
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                A
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="3"
+                          />
+                        </th>
+                        <th
+                          class=""
                           data-index="4"
-                        />
-                        <col
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                B
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="4"
+                          />
+                        </th>
+                        <th
+                          class="is-sticky is-sticky-right is-sticky-first-right __AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="5"
                           style="width: 150px; min-width: 150px;"
-                        />
-                      </colgroup>
-                      <thead>
-                        <tr
-                          class=""
                         >
-                          <th
-                            class=""
-                            data-index="3"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title v-middle nowrap"
                           >
-                            <div
-                              class="amis-TableCell--title"
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  A
-                                </span>
+                              <span>
+                                操作
                               </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="3"
-                            />
-                          </th>
-                          <th
-                            class=""
-                            data-index="4"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  B
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="4"
-                            />
-                          </th>
-                          <th
-                            class="is-sticky is-sticky-right is-sticky-first-right amis-Table-operationCell"
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
-                            style="width: 150px; min-width: 150px;"
-                          >
-                            <div
-                              class="amis-TableCell--title v-middle nowrap"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  操作
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="5"
-                            />
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr
-                          class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                          data-id="1"
-                          data-index="0"
+                          />
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        data-id="1"
+                        data-index="0"
+                      >
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
                         >
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="a"
+                            data-role="form-item"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="a"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                             >
                               <div
-                                class="amis-Form-control cxd-TextControl"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                               >
-                                <div
-                                  class="amis-TextControl-input"
-                                >
-                                  <input
-                                    autocomplete="off"
-                                    class=""
-                                    name="a"
-                                    placeholder=""
-                                    size="10"
-                                    type="text"
-                                    value="aa"
-                                  />
-                                </div>
+                                <input
+                                  autocomplete="off"
+                                  class=""
+                                  name="a"
+                                  placeholder=""
+                                  size="10"
+                                  type="text"
+                                  value="aa"
+                                />
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          </div>
+                        </td>
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="b"
+                            data-role="form-item"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="b"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                             >
                               <div
-                                class="amis-Form-control cxd-TextControl"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                               >
-                                <div
-                                  class="amis-TextControl-input"
-                                >
-                                  <input
-                                    autocomplete="off"
-                                    class=""
-                                    name="b"
-                                    placeholder=""
-                                    size="10"
-                                    type="text"
-                                    value="bb"
-                                  />
-                                </div>
+                                <input
+                                  autocomplete="off"
+                                  class=""
+                                  name="b"
+                                  placeholder=""
+                                  size="10"
+                                  type="text"
+                                  value="bb"
+                                />
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class="v-middle nowrap is-sticky is-sticky-right is-sticky-first-right"
-                            style="right: 0px;"
+                          </div>
+                        </td>
+                        <td
+                          class="v-middle nowrap is-sticky is-sticky-right is-sticky-first-right"
+                          style="right: 0px;"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField m-n"
                           >
-                            <div
-                              class="amis-OperationField m-n"
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
                             >
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <icon-mock
-                                  classname="icon icon-check"
-                                  icon="check"
-                                />
-                              </button>
-                              <button
-                                class="amis-Button amis-Button--link amis-Button--size-sm"
-                                type="button"
-                              >
-                                <icon-mock
-                                  classname="icon icon-close"
-                                  icon="close"
-                                />
-                              </button>
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="amis-InputTable-toolbar"
-              >
-                <div
-                  class="amis-Button amis-Button--primary amis-Button--size-sm is-disabled"
-                  disabled=""
-                >
-                  <i
-                    class="fa fa-plus amis-Button-icon fa fa-plus"
-                  />
-                  <span>
-                    新增
-                  </span>
+                              <icon-mock
+                                class="icon icon-check"
+                                icon="check"
+                              />
+                            </button>
+                            <button
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              type="button"
+                            >
+                              <icon-mock
+                                class="icon icon-close"
+                                icon="close"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable-toolbar"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled"
+                disabled=""
+              >
+                <i
+                  class="fa fa-plus __AMIS_COMPONENT_CLASS_PREFIX__Button-icon fa fa-plus"
+                />
+                <span>
+                  新增
+                </span>
+              </div>
+            </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -578,239 +561,235 @@ exports[`Renderer:input table add 1`] = `
 exports[`Renderer:input-table cell selects delete 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="table"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="table"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    Table
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  Table
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-InputTable amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+              style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
             >
               <div
-                class="amis-Table"
-                style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="amis-Table-contentWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
-                  <div
-                    class="amis-Table-content"
+                  <table
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
-                    <table
-                      class="amis-Table-table"
-                    >
-                      <colgroup>
-                        <col
-                          data-index="3"
-                        />
-                        <col
-                          data-index="4"
-                        />
-                      </colgroup>
-                      <thead>
-                        <tr
+                    <colgroup>
+                      <col
+                        data-index="3"
+                      />
+                      <col
+                        data-index="4"
+                      />
+                    </colgroup>
+                    <thead>
+                      <tr
+                        class=""
+                      >
+                        <th
                           class=""
+                          data-index="3"
                         >
-                          <th
-                            class=""
-                            data-index="3"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  选项
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="3"
-                            />
-                          </th>
-                          <th
-                            class=""
-                            data-index="4"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  普通文本
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="4"
-                            />
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr
-                          class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                          data-id="1"
-                          data-index="0"
-                        >
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
-                          >
-                            <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="select"
-                              data-role="form-item"
-                            >
-                              <div
-                                class="amis-SelectControl amis-Form-control"
-                              >
-                                <div
-                                  aria-expanded="false"
-                                  aria-haspopup="listbox"
-                                  class="amis-Select amis-Select--multi"
-                                  role="combobox"
-                                  tabindex="0"
-                                >
-                                  <div
-                                    class="amis-Select-valueWrap"
-                                  >
-                                    <div
-                                      class="amis-Select-value"
-                                    >
-                                      <span
-                                        class="amis-Select-valueLabel"
-                                      >
-                                        s2
-                                      </span>
-                                      <span
-                                        class="amis-Select-valueIcon"
-                                      >
-                                        <icon-mock
-                                          classname="icon icon-close"
-                                          icon="close"
-                                        />
-                                      </span>
-                                    </div>
-                                    <div
-                                      class="amis-Select-value"
-                                    >
-                                      <span
-                                        class="amis-Select-valueLabel"
-                                      >
-                                        s3
-                                      </span>
-                                      <span
-                                        class="amis-Select-valueIcon"
-                                      >
-                                        <icon-mock
-                                          classname="icon icon-close"
-                                          icon="close"
-                                        />
-                                      </span>
-                                    </div>
-                                  </div>
-                                  <span
-                                    class="amis-Select-arrow"
-                                  >
-                                    <icon-mock
-                                      classname="icon icon-right-arrow-bold"
-                                      icon="right-arrow-bold"
-                                    />
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                          </td>
-                          <td
-                            class=""
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="amis-PlainField"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
-                              <span
-                                class="text-muted"
-                              >
-                                -
+                              <span>
+                                选项
                               </span>
                             </span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="3"
+                          />
+                        </th>
+                        <th
+                          class=""
+                          data-index="4"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                普通文本
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="4"
+                          />
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        data-id="1"
+                        data-index="0"
+                      >
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="select"
+                            data-role="form-item"
+                          >
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                            >
+                              <div
+                                aria-expanded="false"
+                                aria-haspopup="listbox"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--multi"
+                                role="combobox"
+                                tabindex="0"
+                              >
+                                <div
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                                >
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueLabel"
+                                    >
+                                      s2
+                                    </span>
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueIcon"
+                                    >
+                                      <icon-mock
+                                        class="icon icon-close"
+                                        icon="close"
+                                      />
+                                    </span>
+                                  </div>
+                                  <div
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueLabel"
+                                    >
+                                      s3
+                                    </span>
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueIcon"
+                                    >
+                                      <icon-mock
+                                        class="icon icon-close"
+                                        icon="close"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                                <span
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                                >
+                                  <icon-mock
+                                    class="icon icon-right-arrow-bold"
+                                    icon="right-arrow-bold"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td
+                          class=""
+                        >
+                          <span
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          >
+                            <span
+                              class="text-muted"
+                            >
+                              -
+                            </span>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              submitBtn
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            submitBtn
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -820,378 +799,321 @@ exports[`Renderer:input-table cell selects delete 1`] = `
 exports[`Renderer:input-table init display 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="aaa"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="aaa"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    数字
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  数字
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="0"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="aaa"
-                    role="spinbutton"
-                    step="1"
-                    value="0"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="0"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="aaa"
+                  role="spinbutton"
+                  step="1"
+                  value="0"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="tableList"
-            data-role="form-item"
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="tableList"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    表格表单
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  表格表单
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-InputTable amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+              style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px;"
             >
               <div
-                class="amis-Table"
-                style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px;"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="amis-Table-contentWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
-                  <div
-                    class="amis-Table-content"
+                  <table
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
-                    <table
-                      class="amis-Table-table"
-                    >
-                      <colgroup>
-                        <col
-                          data-index="3"
-                        />
-                        <col
-                          data-index="4"
-                        />
-                        <col
-                          data-index="5"
-                        />
-                        <col
-                          data-index="6"
-                        />
-                      </colgroup>
-                      <thead>
-                        <tr
+                    <colgroup>
+                      <col
+                        data-index="3"
+                      />
+                      <col
+                        data-index="4"
+                      />
+                      <col
+                        data-index="5"
+                      />
+                      <col
+                        data-index="6"
+                      />
+                    </colgroup>
+                    <thead>
+                      <tr
+                        class=""
+                      >
+                        <th
                           class=""
+                          data-index="3"
                         >
-                          <th
-                            class=""
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                名称
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  名称
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="3"
-                            />
-                          </th>
-                          <th
-                            class=""
-                            data-index="4"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  分数
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="4"
-                            />
-                          </th>
-                          <th
-                            class=""
-                            data-index="5"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  分数(不在quickEdit里面)
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="5"
-                            />
-                          </th>
-                          <th
-                            class=""
-                            data-index="6"
-                          >
-                            <div
-                              class="amis-TableCell--title"
-                            >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  等级
-                                </span>
-                              </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="6"
-                            />
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr
-                          class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                          data-id="1"
-                          data-index="0"
+                          />
+                        </th>
+                        <th
+                          class=""
+                          data-index="4"
                         >
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                分数
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="4"
+                          />
+                        </th>
+                        <th
+                          class=""
+                          data-index="5"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                分数(不在quickEdit里面)
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="5"
+                          />
+                        </th>
+                        <th
+                          class=""
+                          data-index="6"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                          >
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                            >
+                              <span>
+                                等级
+                              </span>
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="6"
+                          />
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        data-id="1"
+                        data-index="0"
+                      >
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="name"
+                            data-role="form-item"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="name"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                             >
                               <div
-                                class="amis-Form-control cxd-TextControl"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                               >
-                                <div
-                                  class="amis-TextControl-input"
-                                >
-                                  <input
-                                    autocomplete="off"
-                                    class=""
-                                    name="name"
-                                    placeholder=""
-                                    size="10"
-                                    type="text"
-                                    value="AAA"
-                                  />
-                                </div>
+                                <input
+                                  autocomplete="off"
+                                  class=""
+                                  name="name"
+                                  placeholder=""
+                                  size="10"
+                                  type="text"
+                                  value="AAA"
+                                />
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          </div>
+                        </td>
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="score"
+                            data-role="form-item"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="score"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                             >
                               <div
-                                class="cxd-NumberControl amis-Form-control"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                               >
                                 <div
-                                  class="cxd-Number no-steps amis-Number--borderFull"
-                                >
-                                  <div
-                                    class="cxd-Number-handler-wrap"
-                                  >
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Increase Value"
-                                      class="cxd-Number-handler cxd-Number-handler-up"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-up-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Decrease Value"
-                                      class="cxd-Number-handler cxd-Number-handler-down"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-down-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                  </div>
-                                  <div
-                                    class="cxd-Number-input-wrap"
-                                  >
-                                    <input
-                                      aria-valuenow="234"
-                                      autocomplete="off"
-                                      class="cxd-Number-input"
-                                      name="score"
-                                      role="spinbutton"
-                                      step="1"
-                                      value="234"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </td>
-                          <td
-                            class=""
-                          >
-                            <div
-                              class="cxd-NumberControl amis-Form-control"
-                            >
-                              <div
-                                class="cxd-Number no-steps amis-Number--borderFull"
-                              >
-                                <div
-                                  class="cxd-Number-handler-wrap"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                 >
                                   <span
                                     aria-disabled="false"
                                     aria-label="Increase Value"
-                                    class="cxd-Number-handler cxd-Number-handler-up"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                                     role="button"
                                     unselectable="on"
                                   >
                                     <span
-                                      class="cxd-Number-handler-up-inner"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                       unselectable="on"
                                     />
                                   </span>
                                   <span
                                     aria-disabled="false"
                                     aria-label="Decrease Value"
-                                    class="cxd-Number-handler cxd-Number-handler-down"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                                     role="button"
                                     unselectable="on"
                                   >
                                     <span
-                                      class="cxd-Number-handler-down-inner"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                                       unselectable="on"
                                     />
                                   </span>
                                 </div>
                                 <div
-                                  class="cxd-Number-input-wrap"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                                 >
                                   <input
                                     aria-valuenow="234"
                                     autocomplete="off"
-                                    class="cxd-Number-input"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                                     name="score"
                                     role="spinbutton"
                                     step="1"
@@ -1200,205 +1122,205 @@ exports[`Renderer:input-table init display 1`] = `
                                 </div>
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
-                          >
-                            <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="level"
-                              data-role="form-item"
-                            >
-                              <div
-                                class="cxd-NumberControl amis-Form-control"
-                              >
-                                <div
-                                  class="cxd-Number no-steps amis-Number--borderFull"
-                                >
-                                  <div
-                                    class="cxd-Number-handler-wrap"
-                                  >
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Increase Value"
-                                      class="cxd-Number-handler cxd-Number-handler-up"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-up-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Decrease Value"
-                                      class="cxd-Number-handler cxd-Number-handler-down"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-down-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                  </div>
-                                  <div
-                                    class="cxd-Number-input-wrap"
-                                  >
-                                    <input
-                                      aria-valuenow="1"
-                                      autocomplete="off"
-                                      class="cxd-Number-input"
-                                      name="level"
-                                      role="spinbutton"
-                                      step="1"
-                                      value="1"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr
-                          class="amis-Table-table-tr amis-Table-tr--even amis-Table-tr--1th"
-                          data-id="2"
-                          data-index="1"
+                          </div>
+                        </td>
+                        <td
+                          class=""
                         >
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="name"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                             >
                               <div
-                                class="amis-Form-control cxd-TextControl"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                               >
-                                <div
-                                  class="amis-TextControl-input"
+                                <span
+                                  aria-disabled="false"
+                                  aria-label="Increase Value"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                  role="button"
+                                  unselectable="on"
                                 >
-                                  <input
-                                    autocomplete="off"
-                                    class=""
-                                    name="name"
-                                    placeholder=""
-                                    size="10"
-                                    type="text"
-                                    value="BBB"
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                                    unselectable="on"
                                   />
-                                </div>
-                              </div>
-                            </div>
-                          </td>
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
-                          >
-                            <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="score"
-                              data-role="form-item"
-                            >
-                              <div
-                                class="cxd-NumberControl amis-Form-control"
-                              >
-                                <div
-                                  class="cxd-Number no-steps amis-Number--borderFull"
+                                </span>
+                                <span
+                                  aria-disabled="false"
+                                  aria-label="Decrease Value"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                  role="button"
+                                  unselectable="on"
                                 >
-                                  <div
-                                    class="cxd-Number-handler-wrap"
-                                  >
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Increase Value"
-                                      class="cxd-Number-handler cxd-Number-handler-up"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-up-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Decrease Value"
-                                      class="cxd-Number-handler cxd-Number-handler-down"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-down-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                  </div>
-                                  <div
-                                    class="cxd-Number-input-wrap"
-                                  >
-                                    <input
-                                      aria-valuenow="0"
-                                      autocomplete="off"
-                                      class="cxd-Number-input"
-                                      name="score"
-                                      role="spinbutton"
-                                      step="1"
-                                      value="0"
-                                    />
-                                  </div>
-                                </div>
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                    unselectable="on"
+                                  />
+                                </span>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                              >
+                                <input
+                                  aria-valuenow="234"
+                                  autocomplete="off"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                  name="score"
+                                  role="spinbutton"
+                                  step="1"
+                                  value="234"
+                                />
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class=""
+                          </div>
+                        </td>
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="level"
+                            data-role="form-item"
                           >
                             <div
-                              class="cxd-NumberControl amis-Form-control"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                             >
                               <div
-                                class="cxd-Number no-steps amis-Number--borderFull"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                               >
                                 <div
-                                  class="cxd-Number-handler-wrap"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                 >
                                   <span
                                     aria-disabled="false"
                                     aria-label="Increase Value"
-                                    class="cxd-Number-handler cxd-Number-handler-up"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                                     role="button"
                                     unselectable="on"
                                   >
                                     <span
-                                      class="cxd-Number-handler-up-inner"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                       unselectable="on"
                                     />
                                   </span>
                                   <span
                                     aria-disabled="false"
                                     aria-label="Decrease Value"
-                                    class="cxd-Number-handler cxd-Number-handler-down"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                                     role="button"
                                     unselectable="on"
                                   >
                                     <span
-                                      class="cxd-Number-handler-down-inner"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                                       unselectable="on"
                                     />
                                   </span>
                                 </div>
                                 <div
-                                  class="cxd-Number-input-wrap"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="1"
+                                    autocomplete="off"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                    name="level"
+                                    role="spinbutton"
+                                    step="1"
+                                    value="1"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        data-id="2"
+                        data-index="1"
+                      >
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="name"
+                            data-role="form-item"
+                          >
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                            >
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                              >
+                                <input
+                                  autocomplete="off"
+                                  class=""
+                                  name="name"
+                                  placeholder=""
+                                  size="10"
+                                  type="text"
+                                  value="BBB"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="score"
+                            data-role="form-item"
+                          >
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                            >
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+                              >
+                                <div
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled="false"
+                                    aria-label="Increase Value"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                  <span
+                                    aria-disabled="false"
+                                    aria-label="Decrease Value"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                </div>
+                                <div
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                                 >
                                   <input
                                     aria-valuenow="0"
                                     autocomplete="off"
-                                    class="cxd-Number-input"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                                     name="score"
                                     role="spinbutton"
                                     step="1"
@@ -1407,92 +1329,145 @@ exports[`Renderer:input-table init display 1`] = `
                                 </div>
                               </div>
                             </div>
-                          </td>
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          </div>
+                        </td>
+                        <td
+                          class=""
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="level"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                             >
                               <div
-                                class="cxd-NumberControl amis-Form-control"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                              >
+                                <span
+                                  aria-disabled="false"
+                                  aria-label="Increase Value"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                  role="button"
+                                  unselectable="on"
+                                >
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                                    unselectable="on"
+                                  />
+                                </span>
+                                <span
+                                  aria-disabled="false"
+                                  aria-label="Decrease Value"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                  role="button"
+                                  unselectable="on"
+                                >
+                                  <span
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                    unselectable="on"
+                                  />
+                                </span>
+                              </div>
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                              >
+                                <input
+                                  aria-valuenow="0"
+                                  autocomplete="off"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                  name="score"
+                                  role="spinbutton"
+                                  step="1"
+                                  value="0"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
+                        >
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="level"
+                            data-role="form-item"
+                          >
+                            <div
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                            >
+                              <div
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Number no-steps __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                               >
                                 <div
-                                  class="cxd-Number no-steps amis-Number--borderFull"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                 >
-                                  <div
-                                    class="cxd-Number-handler-wrap"
+                                  <span
+                                    aria-disabled="false"
+                                    aria-label="Increase Value"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                    role="button"
+                                    unselectable="on"
                                   >
                                     <span
-                                      aria-disabled="false"
-                                      aria-label="Increase Value"
-                                      class="cxd-Number-handler cxd-Number-handler-up"
-                                      role="button"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                       unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-up-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                    <span
-                                      aria-disabled="false"
-                                      aria-label="Decrease Value"
-                                      class="cxd-Number-handler cxd-Number-handler-down"
-                                      role="button"
-                                      unselectable="on"
-                                    >
-                                      <span
-                                        class="cxd-Number-handler-down-inner"
-                                        unselectable="on"
-                                      />
-                                    </span>
-                                  </div>
-                                  <div
-                                    class="cxd-Number-input-wrap"
-                                  >
-                                    <input
-                                      aria-valuenow="0"
-                                      autocomplete="off"
-                                      class="cxd-Number-input"
-                                      name="level"
-                                      role="spinbutton"
-                                      step="1"
-                                      value="0"
                                     />
-                                  </div>
+                                  </span>
+                                  <span
+                                    aria-disabled="false"
+                                    aria-label="Decrease Value"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                </div>
+                                <div
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autocomplete="off"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                    name="level"
+                                    role="spinbutton"
+                                    step="1"
+                                    value="0"
+                                  />
                                 </div>
                               </div>
                             </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -1502,74 +1477,70 @@ exports[`Renderer:input-table init display 1`] = `
 exports[`Renderer:input-table verifty 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="table"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="table"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    Table
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  Table
                 </span>
               </span>
-            </label>
-          </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              submitBtn
             </span>
-          </button>
+          </label>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            submitBtn
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -1579,221 +1550,217 @@ exports[`Renderer:input-table verifty 1`] = `
 exports[`Renderer:input-table with combo column 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
-          >
-            <span>
-              表单
-            </span>
+          <span>
+            表单
           </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
       >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="table"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
           <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="table"
-            data-role="form-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__InputTable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="amis-InputTable amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+              style="--Table-thead-height: 0px; --Table-column-3-width: 0px;"
             >
               <div
-                class="amis-Table"
-                style="--Table-thead-height: 0px; --Table-column-3-width: 0px;"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="amis-Table-contentWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
-                  <div
-                    class="amis-Table-content"
+                  <table
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
-                    <table
-                      class="amis-Table-table"
-                    >
-                      <colgroup>
-                        <col
-                          data-index="3"
-                        />
-                      </colgroup>
-                      <thead>
-                        <tr
+                    <colgroup>
+                      <col
+                        data-index="3"
+                      />
+                    </colgroup>
+                    <thead>
+                      <tr
+                        class=""
+                      >
+                        <th
                           class=""
+                          data-index="3"
                         >
-                          <th
-                            class=""
-                            data-index="3"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
-                            <div
-                              class="amis-TableCell--title"
+                            <span
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
-                              <span
-                                class="amis-TplField fr-view"
-                              >
-                                <span>
-                                  combo column
-                                </span>
+                              <span>
+                                combo column
                               </span>
-                            </div>
-                            <div
-                              class="amis-Table-content-colDragLine"
-                              data-index="3"
-                            />
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr
-                          class="amis-Table-table-tr amis-Table-tr--odd amis-Table-tr--1th"
-                          data-id="1"
-                          data-index="0"
+                            </span>
+                          </div>
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            data-index="3"
+                          />
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        data-id="1"
+                        data-index="0"
+                      >
+                        <td
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
+                          tabindex="0"
                         >
-                          <td
-                            class="amis-Field--quickEditable"
-                            tabindex="0"
+                          <div
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                            data-amis-name="q1"
+                            data-role="form-item"
                           >
                             <div
-                              class="amis-Form-item amis-Form-item--normal"
-                              data-amis-name="q1"
-                              data-role="form-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                             >
                               <div
-                                class="amis-ComboControl amis-Form-control"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--single __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
                               >
                                 <div
-                                  class="amis-Combo amis-Combo--single amis-Combo--hor"
+                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
                                 >
                                   <div
-                                    class="amis-Combo-item"
+                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                                   >
                                     <div
-                                      class="amis-Combo-itemInner"
+                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                      novalidate=""
                                     >
+                                      <input
+                                        style="display: none;"
+                                        type="submit"
+                                      />
                                       <div
-                                        class="amis-Form amis-Form--row amis-Combo-form"
-                                        novalidate=""
+                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
                                       >
-                                        <input
-                                          style="display: none;"
-                                          type="submit"
-                                        />
                                         <div
-                                          class="amis-Form-row"
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                          style="flex: 1;"
                                         >
                                           <div
-                                            class="amis-Form-col"
-                                            style="flex: 1;"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                            data-amis-name="score"
+                                            data-role="form-item"
                                           >
                                             <div
-                                              class="amis-Form-item amis-Form-item--row"
-                                              data-amis-name="score"
-                                              data-role="form-item"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                             >
                                               <div
-                                                class="amis-Form-rowInner"
+                                                class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                                               >
                                                 <div
-                                                  class="cxd-NumberControl amis-Form-control"
+                                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                                                 >
                                                   <div
-                                                    class="cxd-Number amis-Number--borderFull"
+                                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                                   >
-                                                    <div
-                                                      class="cxd-Number-handler-wrap"
+                                                    <span
+                                                      aria-disabled="false"
+                                                      aria-label="Increase Value"
+                                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                                      role="button"
+                                                      unselectable="on"
                                                     >
                                                       <span
-                                                        aria-disabled="false"
-                                                        aria-label="Increase Value"
-                                                        class="cxd-Number-handler cxd-Number-handler-up"
-                                                        role="button"
+                                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                                         unselectable="on"
-                                                      >
-                                                        <span
-                                                          class="cxd-Number-handler-up-inner"
-                                                          unselectable="on"
-                                                        />
-                                                      </span>
-                                                      <span
-                                                        aria-disabled="false"
-                                                        aria-label="Decrease Value"
-                                                        class="cxd-Number-handler cxd-Number-handler-down"
-                                                        role="button"
-                                                        unselectable="on"
-                                                      >
-                                                        <span
-                                                          class="cxd-Number-handler-down-inner"
-                                                          unselectable="on"
-                                                        />
-                                                      </span>
-                                                    </div>
-                                                    <div
-                                                      class="cxd-Number-input-wrap"
-                                                    >
-                                                      <input
-                                                        aria-valuenow="88"
-                                                        autocomplete="off"
-                                                        class="cxd-Number-input"
-                                                        name="score"
-                                                        placeholder="请手动输入分数"
-                                                        role="spinbutton"
-                                                        step="1"
-                                                        value="88"
                                                       />
-                                                    </div>
+                                                    </span>
+                                                    <span
+                                                      aria-disabled="false"
+                                                      aria-label="Decrease Value"
+                                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                                      role="button"
+                                                      unselectable="on"
+                                                    >
+                                                      <span
+                                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                                        unselectable="on"
+                                                      />
+                                                    </span>
+                                                  </div>
+                                                  <div
+                                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                                                  >
+                                                    <input
+                                                      aria-valuenow="88"
+                                                      autocomplete="off"
+                                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                                      name="score"
+                                                      placeholder="请手动输入分数"
+                                                      role="spinbutton"
+                                                      step="1"
+                                                      value="88"
+                                                    />
                                                   </div>
                                                 </div>
                                               </div>
                                             </div>
                                           </div>
+                                        </div>
+                                        <div
+                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                          style="flex: 1;"
+                                        >
                                           <div
-                                            class="amis-Form-col"
-                                            style="flex: 1;"
+                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                            data-amis-name="comment"
+                                            data-role="form-item"
                                           >
                                             <div
-                                              class="amis-Form-item amis-Form-item--row"
-                                              data-amis-name="comment"
-                                              data-role="form-item"
+                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                             >
                                               <div
-                                                class="amis-Form-rowInner"
+                                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                                               >
                                                 <div
-                                                  class="amis-Form-control cxd-TextControl"
+                                                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                                                 >
-                                                  <div
-                                                    class="amis-TextControl-input"
-                                                  >
-                                                    <input
-                                                      autocomplete="off"
-                                                      class=""
-                                                      name="comment"
-                                                      placeholder="请手动输入意见"
-                                                      size="10"
-                                                      type="text"
-                                                      value="this is comment msg!!"
-                                                    />
-                                                  </div>
+                                                  <input
+                                                    autocomplete="off"
+                                                    class=""
+                                                    name="comment"
+                                                    placeholder="请手动输入意见"
+                                                    size="10"
+                                                    type="text"
+                                                    value="this is comment msg!!"
+                                                  />
                                                 </div>
                                               </div>
                                             </div>
@@ -1805,32 +1772,32 @@ exports[`Renderer:input-table with combo column 1`] = `
                                 </div>
                               </div>
                             </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              SubmitBtn
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            SubmitBtn
+          </span>
+        </button>
       </div>
     </div>
   </div>

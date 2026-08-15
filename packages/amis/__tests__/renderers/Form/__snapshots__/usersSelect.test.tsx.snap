@@ -3,84 +3,80 @@
 exports[`Renderer:usersselect 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="usersselect"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="usersselect"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    人员选择
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  人员选择
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="UserSelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="UserSelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__UserSelect"
             >
               <div
-                class="amis-UserSelect"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__UserSelect-input is-clickable is-group"
+                tabindex="-1"
               >
                 <div
-                  class="amis-ResultBox amis-UserSelect-input is-clickable is-group"
-                  tabindex="-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                 >
-                  <div
-                    class="amis-ResultBox-value-wrap"
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                   >
-                    <span
-                      class="amis-ResultBox-placeholder"
-                    >
-                      请选择
-                    </span>
-                  </div>
-                  <div
-                    class="amis-ResultBox-actions"
-                  />
+                    请选择
+                  </span>
                 </div>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                />
               </div>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>

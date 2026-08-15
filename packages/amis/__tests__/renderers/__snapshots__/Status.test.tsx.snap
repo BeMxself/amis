@@ -3,107 +3,108 @@
 exports[`Renderer:status 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-StatusField cxd-StatusField--0"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--0"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-fail icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--1"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--1"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-success icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
               icon="success"
             />
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--success"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--success"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-success icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
               icon="success"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               成功
             </span>
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--pending"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--pending"
           >
             <i
-              class="rolling cxd-Status-icon icon rolling rolling"
+              class="rolling __AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon rolling rolling"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               运行中
             </span>
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--fail"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--fail"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-fail icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               失败
             </span>
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--fail"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--fail"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-fail icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               失败
             </span>
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--queue"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--queue"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-warning icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-warning icon"
               icon="warning"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               排队中
             </span>
           </span>
           <span
-            class="cxd-StatusField cxd-StatusField--schedule"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--schedule"
           >
             <icon-mock
-              classname="cxd-Status-icon icon icon-schedule icon"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-schedule icon"
               icon="schedule"
             />
             <span
-              class="cxd-StatusField-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               调度中
             </span>

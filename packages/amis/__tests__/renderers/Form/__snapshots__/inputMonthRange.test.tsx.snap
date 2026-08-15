@@ -3,370 +3,366 @@
 exports[`Renderer:inputMonthRange with embed 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="a"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="a"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    月份范围
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  月份范围
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-DateRangeControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangeCalendar"
             >
               <div
-                class="amis-DateRangeCalendar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-wrap"
               >
-                <div
-                  class="amis-DateRangePicker-wrap"
+                <ul
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-rangers"
                 >
-                  <ul
-                    class="amis-DateRangePicker-rangers"
+                  <li
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
                   >
-                    <li
-                      class="amis-DateRangePicker-ranger"
-                    >
-                      <a>
-                        这个月
-                      </a>
-                    </li>
-                    <li
-                      class="amis-DateRangePicker-ranger"
-                    >
-                      <a>
-                        上个月
-                      </a>
-                    </li>
-                  </ul>
+                    <a>
+                      这个月
+                    </a>
+                  </li>
+                  <li
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
+                  >
+                    <a>
+                      上个月
+                    </a>
+                  </li>
+                </ul>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-picker-wrap is-vertical"
+                >
                   <div
-                    class="amis-DateRangePicker-picker-wrap is-vertical"
+                    class="rdt rdtStatic rdtOpen __AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-start"
                   >
                     <div
-                      class="rdt rdtStatic rdtOpen amis-DateRangePicker-start"
+                      class="rdtPicker rdtPickerDate"
                     >
                       <div
-                        class="rdtPicker rdtPickerDate"
+                        class="rdtMonths"
                       >
-                        <div
-                          class="rdtMonths"
+                        <table
+                          class="headerTable"
                         >
-                          <table
-                            class="headerTable"
-                          >
-                            <thead>
-                              <tr>
-                                <th
-                                  class="rdtPrev"
-                                >
-                                  «
-                                </th>
-                                <th
-                                  class="rdtSwitch"
-                                >
-                                  2019年
-                                </th>
-                                <th
-                                  class="rdtNext"
-                                >
-                                  »
-                                </th>
-                              </tr>
-                            </thead>
-                          </table>
-                          <table>
-                            <tbody>
-                              <tr>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="0"
-                                >
-                                  <span>
-                                    1月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="1"
-                                >
-                                  <span>
-                                    2月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="2"
-                                >
-                                  <span>
-                                    3月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="3"
-                                >
-                                  <span>
-                                    4月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="4"
-                                >
-                                  <span>
-                                    5月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="5"
-                                >
-                                  <span>
-                                    6月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="6"
-                                >
-                                  <span>
-                                    7月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="7"
-                                >
-                                  <span>
-                                    8月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth"
-                                  data-value="8"
-                                >
-                                  <span>
-                                    9月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth  rdtBetween rdtActive rdtStart"
-                                  data-value="9"
-                                >
-                                  <span>
-                                    10月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="10"
-                                >
-                                  <span>
-                                    11月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="11"
-                                >
-                                  <span>
-                                    12月
-                                  </span>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                          <thead>
+                            <tr>
+                              <th
+                                class="rdtPrev"
+                              >
+                                «
+                              </th>
+                              <th
+                                class="rdtSwitch"
+                              >
+                                2019年
+                              </th>
+                              <th
+                                class="rdtNext"
+                              >
+                                »
+                              </th>
+                            </tr>
+                          </thead>
+                        </table>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td
+                                class="rdtMonth"
+                                data-value="0"
+                              >
+                                <span>
+                                  1月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="1"
+                              >
+                                <span>
+                                  2月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="2"
+                              >
+                                <span>
+                                  3月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth"
+                                data-value="3"
+                              >
+                                <span>
+                                  4月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="4"
+                              >
+                                <span>
+                                  5月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="5"
+                              >
+                                <span>
+                                  6月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth"
+                                data-value="6"
+                              >
+                                <span>
+                                  7月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="7"
+                              >
+                                <span>
+                                  8月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth"
+                                data-value="8"
+                              >
+                                <span>
+                                  9月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth  rdtBetween rdtActive rdtStart"
+                                data-value="9"
+                              >
+                                <span>
+                                  10月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="10"
+                              >
+                                <span>
+                                  11月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="11"
+                              >
+                                <span>
+                                  12月
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    class="rdt rdtStatic rdtOpen __AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-end"
+                  >
                     <div
-                      class="rdt rdtStatic rdtOpen amis-DateRangePicker-end"
+                      class="rdtPicker rdtPickerDate"
                     >
                       <div
-                        class="rdtPicker rdtPickerDate"
+                        class="rdtMonths"
                       >
-                        <div
-                          class="rdtMonths"
+                        <table
+                          class="headerTable"
                         >
-                          <table
-                            class="headerTable"
-                          >
-                            <thead>
-                              <tr>
-                                <th
-                                  class="rdtPrev"
-                                >
-                                  «
-                                </th>
-                                <th
-                                  class="rdtSwitch"
-                                >
-                                  2022年
-                                </th>
-                                <th
-                                  class="rdtNext"
-                                >
-                                  »
-                                </th>
-                              </tr>
-                            </thead>
-                          </table>
-                          <table>
-                            <tbody>
-                              <tr>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="0"
-                                >
-                                  <span>
-                                    1月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="1"
-                                >
-                                  <span>
-                                    2月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="2"
-                                >
-                                  <span>
-                                    3月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="3"
-                                >
-                                  <span>
-                                    4月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="4"
-                                >
-                                  <span>
-                                    5月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="5"
-                                >
-                                  <span>
-                                    6月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="6"
-                                >
-                                  <span>
-                                    7月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="7"
-                                >
-                                  <span>
-                                    8月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="8"
-                                >
-                                  <span>
-                                    9月
-                                  </span>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  class="rdtMonth rdtBetween"
-                                  data-value="9"
-                                >
-                                  <span>
-                                    10月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth  rdtBetween rdtActive rdtEnd"
-                                  data-value="10"
-                                >
-                                  <span>
-                                    11月
-                                  </span>
-                                </td>
-                                <td
-                                  class="rdtMonth is-disabled"
-                                  data-value="11"
-                                >
-                                  <span>
-                                    12月
-                                  </span>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                          <thead>
+                            <tr>
+                              <th
+                                class="rdtPrev"
+                              >
+                                «
+                              </th>
+                              <th
+                                class="rdtSwitch"
+                              >
+                                2022年
+                              </th>
+                              <th
+                                class="rdtNext"
+                              >
+                                »
+                              </th>
+                            </tr>
+                          </thead>
+                        </table>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="0"
+                              >
+                                <span>
+                                  1月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="1"
+                              >
+                                <span>
+                                  2月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="2"
+                              >
+                                <span>
+                                  3月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="3"
+                              >
+                                <span>
+                                  4月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="4"
+                              >
+                                <span>
+                                  5月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="5"
+                              >
+                                <span>
+                                  6月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="6"
+                              >
+                                <span>
+                                  7月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="7"
+                              >
+                                <span>
+                                  8月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="8"
+                              >
+                                <span>
+                                  9月
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="rdtMonth rdtBetween"
+                                data-value="9"
+                              >
+                                <span>
+                                  10月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth  rdtBetween rdtActive rdtEnd"
+                                data-value="10"
+                              >
+                                <span>
+                                  11月
+                                </span>
+                              </td>
+                              <td
+                                class="rdtMonth is-disabled"
+                                data-value="11"
+                              >
+                                <span>
+                                  12月
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
                   </div>
@@ -374,23 +370,23 @@ exports[`Renderer:inputMonthRange with embed 1`] = `
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              Submit
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            Submit
+          </span>
+        </button>
       </div>
     </div>
   </div>

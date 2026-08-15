@@ -3,448 +3,444 @@
 exports[`Renderer:formula 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            The form
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="a"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              The form
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  a
+                </span>
+              </span>
             </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+              >
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    unselectable="on"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="1"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="a"
+                  role="spinbutton"
+                  step="1"
+                  value="1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="b"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="a"
-            data-role="form-item"
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    a
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  b
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="1"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="a"
-                    role="spinbutton"
-                    step="1"
-                    value="1"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="2"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="b"
+                  role="spinbutton"
+                  step="1"
+                  value="2"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="b"
-            data-role="form-item"
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="sum1"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    b
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  sum1
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="2"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="b"
-                    role="spinbutton"
-                    step="1"
-                    value="2"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="3"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="sum1"
+                  role="spinbutton"
+                  step="1"
+                  value="3"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="sum1"
-            data-role="form-item"
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="sum2"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    sum1
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  sum2
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="3"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="sum1"
-                    role="spinbutton"
-                    step="1"
-                    value="3"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="4"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="sum2"
+                  role="spinbutton"
+                  step="1"
+                  value="4"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="sum2"
-            data-role="form-item"
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="sum3"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    sum2
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  sum3
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="4"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="sum2"
-                    role="spinbutton"
-                    step="1"
-                    value="4"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="5"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="sum3"
+                  role="spinbutton"
+                  step="1"
+                  value="5"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="sum3"
-            data-role="form-item"
+        </div>
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="sum4"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    sum3
-                  </span>
+            <span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  sum4
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="cxd-NumberControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="cxd-Number amis-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
-                <div
-                  class="cxd-Number-handler-wrap"
+                <span
+                  aria-disabled="false"
+                  aria-label="Increase Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  role="button"
+                  unselectable="on"
                 >
                   <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="5"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="sum3"
-                    role="spinbutton"
-                    step="1"
-                    value="5"
                   />
-                </div>
+                </span>
+                <span
+                  aria-disabled="false"
+                  aria-label="Decrease Value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  role="button"
+                  unselectable="on"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    unselectable="on"
+                  />
+                </span>
+              </div>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+              >
+                <input
+                  aria-valuenow="5"
+                  autocomplete="off"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  name="sum4"
+                  role="spinbutton"
+                  step="1"
+                  value="5"
+                />
               </div>
             </div>
           </div>
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="sum4"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    sum4
-                  </span>
-                </span>
-              </span>
-            </label>
-            <div
-              class="cxd-NumberControl amis-Form-control"
-            >
-              <div
-                class="cxd-Number amis-Number--borderFull"
-              >
-                <div
-                  class="cxd-Number-handler-wrap"
-                >
-                  <span
-                    aria-disabled="false"
-                    aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-up-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                  <span
-                    aria-disabled="false"
-                    aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
-                    role="button"
-                    unselectable="on"
-                  >
-                    <span
-                      class="cxd-Number-handler-down-inner"
-                      unselectable="on"
-                    />
-                  </span>
-                </div>
-                <div
-                  class="cxd-Number-input-wrap"
-                >
-                  <input
-                    aria-valuenow="5"
-                    autocomplete="off"
-                    class="cxd-Number-input"
-                    name="sum4"
-                    role="spinbutton"
-                    step="1"
-                    value="5"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>

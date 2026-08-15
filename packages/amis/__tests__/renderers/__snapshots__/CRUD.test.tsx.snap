@@ -3,40 +3,41 @@
 exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-role="container"
           >
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="cxd-Table-toolbar cxd-Table-headToolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                   >
                     <div
-                      class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                     >
                       <button
-                        class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="button"
                       >
                         <span>
@@ -45,10 +46,10 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                       </button>
                     </div>
                     <div
-                      class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                     >
                       <div
-                        class="cxd-Crud-statistics"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                       >
                         1/72 共：144 项
                       </div>
@@ -57,13 +58,13 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -85,10 +86,10 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -96,7 +97,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -105,10 +106,10 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -116,7 +117,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -125,10 +126,10 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -136,7 +137,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -144,7 +145,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="1"
                         data-index="0"
                       >
@@ -152,7 +153,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1
                           </span>
@@ -161,7 +162,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -170,14 +171,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="2"
                         data-index="1"
                       >
@@ -185,7 +186,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             2
                           </span>
@@ -194,7 +195,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -203,14 +204,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.2
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="3"
                         data-index="2"
                       >
@@ -218,7 +219,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             3
                           </span>
@@ -227,7 +228,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -236,14 +237,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="4"
                         data-index="3"
                       >
@@ -251,7 +252,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -260,7 +261,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -269,14 +270,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="5"
                         data-index="4"
                       >
@@ -284,7 +285,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -293,7 +294,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -302,14 +303,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="6"
                         data-index="5"
                       >
@@ -317,7 +318,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -326,7 +327,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -335,14 +336,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="7"
                         data-index="6"
                       >
@@ -350,7 +351,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -359,7 +360,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -368,14 +369,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="8"
                         data-index="7"
                       >
@@ -383,7 +384,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             8
                           </span>
@@ -392,7 +393,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -401,14 +402,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="9"
                         data-index="8"
                       >
@@ -416,7 +417,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             9
                           </span>
@@ -425,7 +426,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -434,14 +435,14 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="10"
                         data-index="9"
                       >
@@ -449,7 +450,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             10
                           </span>
@@ -458,7 +459,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -467,7 +468,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
@@ -476,48 +477,37 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                     </tbody>
                   </table>
                 </div>
-                <div
-                  class="cxd-Spinner-overlay"
-                />
-                <div
-                  class="cxd-Spinner cxd-Spinner--overlay"
-                  data-testid="spinner"
-                >
-                  <div
-                    class="cxd-Spinner-icon cxd-Spinner-icon--default"
-                  />
-                </div>
               </div>
               <div
-                class="cxd-Table-toolbar cxd-Table-footToolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-footToolbar"
               >
                 <div
-                  class="cxd-Crud-toolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -526,7 +516,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -535,7 +525,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -544,7 +534,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -553,7 +543,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -562,7 +552,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -571,7 +561,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -580,7 +570,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-ellipsis"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -591,13 +581,13 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                               class="icon"
                             >
                               <icon-mock
-                                classname="icon icon-arrow-double-right"
+                                class="icon icon-arrow-double-right"
                                 icon="arrow-double-right"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -606,31 +596,31 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
                           </li>
                         </ul>
                         <div
-                          class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="cxd-Pagination-inputGroup-left"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="cxd-Pagination-inputGroup-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="cxd-Pagination-inputGroup-right"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>
@@ -639,59 +629,59 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <div
-                          class="cxd-Pagination-total cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-total __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           共 144 条
                         </div>
                         <div
                           aria-expanded="false"
                           aria-haspopup="listbox"
-                          class="cxd-Select cxd-Pagination-perpage cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                           role="combobox"
                           tabindex="0"
                         >
                           <div
-                            class="cxd-Select-valueWrap"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                           >
                             <div
-                              class="cxd-Select-placeholder"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
                             >
                               请选择
                             </div>
                           </div>
                           <span
-                            class="cxd-Select-arrow"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
                           >
                             <icon-mock
-                              classname="icon icon-right-arrow-bold"
+                              class="icon icon-right-arrow-bold"
                               icon="right-arrow-bold"
                             />
                           </span>
                         </div>
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -700,7 +690,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -709,7 +699,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -718,7 +708,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -727,7 +717,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -736,7 +726,7 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-ellipsis"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -747,13 +737,13 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                               class="icon"
                             >
                               <icon-mock
-                                classname="icon icon-arrow-double-right"
+                                class="icon icon-arrow-double-right"
                                 icon="arrow-double-right"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -762,31 +752,31 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
                           </li>
                         </ul>
                         <div
-                          class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="cxd-Pagination-inputGroup-left"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="cxd-Pagination-inputGroup-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="cxd-Pagination-inputGroup-right"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>
@@ -795,10 +785,10 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <button
-                      class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                       type="button"
                     >
                       <span>
@@ -820,59 +810,60 @@ exports[`1. Renderer:crud basic interval headerToolbar footerToolbar 1`] = `
 exports[`4. Renderer:crud list 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-role="container"
           >
             <div
-              class="cxd-List cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__List __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
             >
               <div
-                class="cxd-List-content-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
               >
                 <div
-                  class="cxd-List-main"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
                 >
                   <div
-                    class="cxd-List-fixedTop"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
                   >
                     <div
-                      class="cxd-List-heading"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__List-heading"
                     >
                       list title
                     </div>
                   </div>
                   <div
-                    class="cxd-List-items"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
                   >
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="0"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Trident
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Internet Explorer 4.0
                           </small>
@@ -880,21 +871,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="1"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Trident
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Internet Explorer 4.2
                           </small>
@@ -902,21 +893,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="2"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Trident
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             AOL browser (AOL desktop)
                           </small>
@@ -924,21 +915,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="3"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Trident
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             AOL browser (AOL desktop)
                           </small>
@@ -946,21 +937,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="4"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Trident
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             AOL browser (AOL desktop)
                           </small>
@@ -968,21 +959,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="5"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Gecko
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Firefox 1.0
                           </small>
@@ -990,21 +981,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="6"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Gecko
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Firefox 1.0
                           </small>
@@ -1012,21 +1003,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="7"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Gecko
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Firefox 2.0
                           </small>
@@ -1034,21 +1025,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="8"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Gecko
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Firefox 2.0
                           </small>
@@ -1056,21 +1047,21 @@ exports[`4. Renderer:crud list 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-ListItem cxd-ListItem--actions-at-right"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                       data-index="9"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="cxd-ListItem-content"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <p
-                          class="cxd-ListItem-title h5"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                         >
                           Gecko
                         </p>
                         <div>
                           <small
-                            class="cxd-ListItem-subtitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                           >
                             Firefox 2.0
                           </small>
@@ -1079,44 +1070,44 @@ exports[`4. Renderer:crud list 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-List-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-toolbar"
                   >
                     <div
-                      class="cxd-Crud-toolbar"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                     >
                       <div
-                        class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                       >
                         <div
-                          class="cxd-Crud-statistics"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                         >
                           1/15 共：144 项
                         </div>
                       </div>
                       <div
-                        class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                       >
                         <div
-                          class="cxd-Crud-pager"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                         >
                           <div
-                            class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                           >
                             <ul
-                              class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                             >
                               <li
-                                class="cxd-Pagination-prev is-disabled"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                               >
                                 <span>
                                   <icon-mock
-                                    classname="icon icon-left-arrow"
+                                    class="icon icon-left-arrow"
                                     icon="left-arrow"
                                   />
                                 </span>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item is-active"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                               >
                                 <a
                                   role="button"
@@ -1125,7 +1116,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1134,7 +1125,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1143,7 +1134,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1152,7 +1143,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1161,7 +1152,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1170,7 +1161,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1179,7 +1170,7 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-ellipsis"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                               >
                                 <a
                                   role="button"
@@ -1190,13 +1181,13 @@ exports[`4. Renderer:crud list 1`] = `
                                   class="icon"
                                 >
                                   <icon-mock
-                                    classname="icon icon-arrow-double-right"
+                                    class="icon icon-arrow-double-right"
                                     icon="arrow-double-right"
                                   />
                                 </span>
                               </li>
                               <li
-                                class="cxd-Pagination-pager-item"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                               >
                                 <a
                                   role="button"
@@ -1205,31 +1196,31 @@ exports[`4. Renderer:crud list 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="cxd-Pagination-next"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                               >
                                 <span>
                                   <icon-mock
-                                    classname="icon icon-right-arrow"
+                                    class="icon icon-right-arrow"
                                     icon="right-arrow"
                                   />
                                 </span>
                               </li>
                             </ul>
                             <div
-                              class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                             >
                               <span
-                                class="cxd-Pagination-inputGroup-left"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                               >
                                 跳转至
                               </span>
                               <input
-                                class="cxd-Pagination-inputGroup-input"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                                 type="text"
                                 value=""
                               />
                               <span
-                                class="cxd-Pagination-inputGroup-right"
+                                class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                               >
                                 前往
                               </span>
@@ -1240,17 +1231,6 @@ exports[`4. Renderer:crud list 1`] = `
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="cxd-Spinner-overlay"
-              />
-              <div
-                class="cxd-Spinner cxd-Spinner--overlay"
-                data-testid="spinner"
-              >
-                <div
-                  class="cxd-Spinner-icon cxd-Spinner-icon--default"
-                />
               </div>
             </div>
           </div>
@@ -1264,56 +1244,57 @@ exports[`4. Renderer:crud list 1`] = `
 exports[`5. Renderer:crud cards 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-role="container"
           >
             <div
-              class="cxd-Cards cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Cards __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
             >
               <div
-                class="cxd-Cards-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-fixedTop"
               />
               <div
-                class="cxd-Cards-body cxd-Grid"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-body __AMIS_COMPONENT_CLASS_PREFIX__Grid"
               >
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Trident"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1321,10 +1302,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1332,10 +1313,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1345,10 +1326,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1358,30 +1339,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Trident"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1389,10 +1370,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1400,10 +1381,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1413,10 +1394,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1426,30 +1407,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Trident"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1457,10 +1438,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1468,10 +1449,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1481,10 +1462,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1494,30 +1475,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Trident"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1525,10 +1506,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1536,10 +1517,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1549,10 +1530,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1562,30 +1543,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Trident"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1593,10 +1574,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1604,10 +1585,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Trident
@@ -1617,10 +1598,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1630,30 +1611,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Gecko"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1661,10 +1642,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1672,10 +1653,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1685,10 +1666,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1698,30 +1679,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Gecko"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1729,10 +1710,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1740,10 +1721,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1753,10 +1734,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1766,30 +1747,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Gecko"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1797,10 +1778,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1808,10 +1789,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1821,10 +1802,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1834,30 +1815,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Gecko"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1865,10 +1846,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1876,10 +1857,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1889,10 +1870,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1902,30 +1883,30 @@ exports[`5. Renderer:crud cards 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Grid-col--sm6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6"
                 >
                   <div
-                    class="cxd-Card cxd-Card--link"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                   >
                     <div
-                      class="cxd-Card-heading bg-white"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading bg-white"
                     >
                       <span
-                        class="cxd-Card-avtar pull-left thumb-md avatar b-3x m-r"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtar pull-left thumb-md avatar b-3x m-r"
                       >
                         <img
-                          class="cxd-Card-img"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-img"
                           src="Gecko"
                         />
                       </span>
                       <div
-                        class="cxd-Card-meta"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                       >
                         <div
-                          class="cxd-Card-title"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1933,10 +1914,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-subTitle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-subTitle"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1944,10 +1925,10 @@ exports[`5. Renderer:crud cards 1`] = `
                           </span>
                         </div>
                         <div
-                          class="cxd-Card-desc"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Card-desc"
                         >
                           <span
-                            class="cxd-TplField fr-view"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                           >
                             <span>
                               Gecko
@@ -1957,10 +1938,10 @@ exports[`5. Renderer:crud cards 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-Card-body padder"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body padder"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           hello
@@ -1971,44 +1952,44 @@ exports[`5. Renderer:crud cards 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Cards-toolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-toolbar"
               >
                 <div
-                  class="cxd-Crud-toolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <div
-                      class="cxd-Crud-statistics"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                     >
                       1/24 共：144 项
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -2017,7 +1998,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2026,7 +2007,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2035,7 +2016,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2044,7 +2025,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2053,7 +2034,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2062,7 +2043,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2071,7 +2052,7 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-ellipsis"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -2082,13 +2063,13 @@ exports[`5. Renderer:crud cards 1`] = `
                               class="icon"
                             >
                               <icon-mock
-                                classname="icon icon-arrow-double-right"
+                                class="icon icon-arrow-double-right"
                                 icon="arrow-double-right"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -2097,31 +2078,31 @@ exports[`5. Renderer:crud cards 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
                           </li>
                         </ul>
                         <div
-                          class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="cxd-Pagination-inputGroup-left"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="cxd-Pagination-inputGroup-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="cxd-Pagination-inputGroup-right"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>
@@ -2130,17 +2111,6 @@ exports[`5. Renderer:crud cards 1`] = `
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="cxd-Spinner-overlay"
-              />
-              <div
-                class="cxd-Spinner cxd-Spinner--overlay"
-                data-testid="spinner"
-              >
-                <div
-                  class="cxd-Spinner-icon cxd-Spinner-icon--default"
-                />
               </div>
             </div>
           </div>
@@ -2154,37 +2124,38 @@ exports[`5. Renderer:crud cards 1`] = `
 exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-role="container"
           >
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               />
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -2206,10 +2177,10 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -2217,7 +2188,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -2226,10 +2197,10 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -2237,7 +2208,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -2246,10 +2217,10 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -2257,7 +2228,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -2265,7 +2236,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="1"
                         data-index="0"
                       >
@@ -2273,7 +2244,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1
                           </span>
@@ -2282,7 +2253,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -2291,14 +2262,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="2"
                         data-index="1"
                       >
@@ -2306,7 +2277,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             2
                           </span>
@@ -2315,7 +2286,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -2324,14 +2295,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.2
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="3"
                         data-index="2"
                       >
@@ -2339,7 +2310,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             3
                           </span>
@@ -2348,7 +2319,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -2357,14 +2328,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="4"
                         data-index="3"
                       >
@@ -2372,7 +2343,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -2381,7 +2352,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -2390,14 +2361,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="5"
                         data-index="4"
                       >
@@ -2405,7 +2376,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -2414,7 +2385,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
@@ -2423,14 +2394,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="6"
                         data-index="5"
                       >
@@ -2438,7 +2409,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -2447,7 +2418,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -2456,14 +2427,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="7"
                         data-index="6"
                       >
@@ -2471,7 +2442,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -2480,7 +2451,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -2489,14 +2460,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="8"
                         data-index="7"
                       >
@@ -2504,7 +2475,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             8
                           </span>
@@ -2513,7 +2484,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -2522,14 +2493,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="9"
                         data-index="8"
                       >
@@ -2537,7 +2508,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             9
                           </span>
@@ -2546,7 +2517,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -2555,14 +2526,14 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="10"
                         data-index="9"
                       >
@@ -2570,7 +2541,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             10
                           </span>
@@ -2579,7 +2550,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
@@ -2588,7 +2559,7 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
@@ -2599,44 +2570,44 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-toolbar cxd-Table-footToolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-footToolbar"
               >
                 <div
-                  class="cxd-Crud-toolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <div
-                      class="cxd-Crud-statistics"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                     >
                       1/1 共：10 项
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -2645,11 +2616,11 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
@@ -2672,133 +2643,134 @@ exports[`6. Renderer:crud source & alwaysShowPagination 1`] = `
 exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionLength & labelTpl 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-role="container"
           >
             <div
-              class="cxd-Crud-selection"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-selection"
             >
               <div
-                class="cxd-Crud-selectionLabel"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-selectionLabel"
                 data-folder-ignore="true"
               >
                 已选4条：
               </div>
               <div
-                class="cxd-Crud-value"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-value"
               >
                 <span
-                  class="cxd-Crud-valueIcon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueIcon"
                 >
                   ×
                 </span>
                 <span
-                  class="cxd-Crud-valueLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueLabel"
                 >
                   <span
-                    class="cxd-Html"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
                   >
                     Trident
                   </span>
                 </span>
               </div>
               <div
-                class="cxd-Crud-value"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-value"
               >
                 <span
-                  class="cxd-Crud-valueIcon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueIcon"
                 >
                   ×
                 </span>
                 <span
-                  class="cxd-Crud-valueLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueLabel"
                 >
                   <span
-                    class="cxd-Html"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
                   >
                     Trident
                   </span>
                 </span>
               </div>
               <div
-                class="cxd-Crud-value"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-value"
               >
                 <span
-                  class="cxd-Crud-valueIcon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueIcon"
                 >
                   ×
                 </span>
                 <span
-                  class="cxd-Crud-valueLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueLabel"
                 >
                   <span
-                    class="cxd-Html"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
                   >
                     Trident
                   </span>
                 </span>
               </div>
               <div
-                class="cxd-Crud-value"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-value"
               >
                 <span
-                  class="cxd-Crud-valueIcon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueIcon"
                 >
                   ×
                 </span>
                 <span
-                  class="cxd-Crud-valueLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-valueLabel"
                 >
                   <span
-                    class="cxd-Html"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
                   >
                     Trident
                   </span>
                 </span>
               </div>
               <div
-                class="cxd-AutoFoldedList-more"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__AutoFoldedList-more"
               />
               <a
-                class="cxd-Crud-selectionClear"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-selectionClear"
               >
                 清空
               </a>
             </div>
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-1-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="cxd-Table-toolbar cxd-Table-headToolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                   >
                     <div
-                      class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                     >
                       <div
-                        class="cxd-Crud-actions"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-actions"
                       >
                         <button
-                          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                           type="button"
                         >
                           <span>
@@ -2811,13 +2783,13 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                 </div>
               </div>
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -2835,12 +2807,12 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                         class=""
                       >
                         <th
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           data-index="1"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -2856,19 +2828,19 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             />
                           </label>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="1"
                           />
                         </th>
                         <th
-                          class="cxd-TableCell--sortable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--sortable"
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -2876,36 +2848,36 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </span>
                           </div>
                           <span
-                            class="cxd-TableCell-sortBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell-sortBtn"
                             data-index="3"
                           >
                             <i
-                              class="cxd-TableCell-sortBtn--down"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell-sortBtn--down"
                             >
                               <icon-mock
-                                classname="icon icon-sort-desc"
+                                class="icon icon-sort-desc"
                                 icon="sort-desc"
                               />
                             </i>
                             <i
-                              class="cxd-TableCell-sortBtn--up"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell-sortBtn--up"
                             >
                               <icon-mock
-                                classname="icon icon-sort-asc"
+                                class="icon icon-sort-asc"
                                 icon="sort-asc"
                               />
                             </i>
                             <i
-                              class="cxd-TableCell-sortBtn--default is-active"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell-sortBtn--default is-active"
                             >
                               <icon-mock
-                                classname="icon icon-sort-default"
+                                class="icon icon-sort-default"
                                 icon="sort-default"
                               />
                             </i>
                           </span>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -2914,10 +2886,10 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -2925,7 +2897,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -2933,16 +2905,16 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-table-tr is-checked cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr is-checked __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="1"
                         data-index="0"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -2962,43 +2934,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr is-checked cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr is-checked __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="2"
                         data-index="1"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -3018,43 +2990,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             2
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr is-checked cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr is-checked __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="3"
                         data-index="2"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -3074,43 +3046,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             3
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr is-checked cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr is-checked __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="4"
                         data-index="3"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default checked cxd-Checkbox--checkbox--default--checked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
                             data-role="checkbox"
                           >
                             <input
@@ -3130,43 +3102,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="5"
                         data-index="4"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3187,43 +3159,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="6"
                         data-index="5"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3244,43 +3216,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="7"
                         data-index="6"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3301,43 +3273,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="8"
                         data-index="7"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3358,43 +3330,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             8
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="9"
                         data-index="8"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3415,43 +3387,43 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             9
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-id="10"
                         data-index="9"
                       >
                         <td
-                          class="cxd-Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-checkCell is-sticky is-sticky-left is-sticky-last-left"
                           style="left: 0px;"
                         >
                           <label
-                            class="cxd-Checkbox cxd-Checkbox--checkbox--default disabled cxd-Checkbox--checkbox--default--disabled--unchecked"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--disabled--unchecked"
                             data-role="checkbox"
                           >
                             <input
@@ -3472,27 +3444,27 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             10
                           </span>
                         </td>
                         <td
-                          class="cxd-Field--quickEditable"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable"
                           tabindex="0"
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko
                           </span>
                           <button
-                            class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
                             tabindex="-1"
                             type="button"
                           >
                             <icon-mock
-                              classname="cxd-Button-icon icon-edit"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button-icon icon-edit"
                               icon="edit"
                             />
                           </button>
@@ -3503,44 +3475,44 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                 </div>
               </div>
               <div
-                class="cxd-Table-toolbar cxd-Table-footToolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-footToolbar"
               >
                 <div
-                  class="cxd-Crud-toolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <div
-                      class="cxd-Crud-statistics"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                     >
                       1/15 共：144 项
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -3549,7 +3521,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3558,7 +3530,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3567,7 +3539,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3576,7 +3548,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3585,7 +3557,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3594,7 +3566,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3603,7 +3575,7 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-ellipsis"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -3614,13 +3586,13 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                               class="icon"
                             >
                               <icon-mock
-                                classname="icon icon-arrow-double-right"
+                                class="icon icon-arrow-double-right"
                                 icon="arrow-double-right"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -3629,31 +3601,31 @@ exports[`13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionL
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
                           </li>
                         </ul>
                         <div
-                          class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="cxd-Pagination-inputGroup-left"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="cxd-Pagination-inputGroup-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="cxd-Pagination-inputGroup-right"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>

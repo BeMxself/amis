@@ -4,24 +4,24 @@ exports[`Renderer:TooltipWrapper with context data 1`] = `
 <body>
   <div>
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
       data-amis-theme="cxd"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="amis-Page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <div
-              class="amis-TooltipWrapper"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper"
             >
               <span
-                class="amis-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   body:this-is-text
@@ -34,7 +34,7 @@ exports[`Renderer:TooltipWrapper with context data 1`] = `
     </div>
   </div>
   <div
-    class="amis-Tooltip amis-Tooltip--light"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip __AMIS_COMPONENT_CLASS_PREFIX__Tooltip--light"
     data-amis-theme="cxd"
     offset="0,0"
     role="tooltip"
@@ -42,18 +42,18 @@ exports[`Renderer:TooltipWrapper with context data 1`] = `
     theme="cxd"
   >
     <div
-      class="amis-Tooltip-arrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-arrow"
     />
     <div
-      class="amis-Tooltip-title"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-title"
     >
       title:second-text
     </div>
     <div
-      class="amis-Tooltip-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-body"
     >
       <span
-        class="amis-Html"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
       >
         info:this-is-text
       </span>
@@ -66,24 +66,24 @@ exports[`Renderer:TooltipWrapper with offset 1`] = `
 <body>
   <div>
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
       data-amis-theme="cxd"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="amis-Page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <div
-              class="amis-TooltipWrapper mb-1"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper mb-1"
             >
               <span
-                class="amis-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   激活文字提示
@@ -96,7 +96,7 @@ exports[`Renderer:TooltipWrapper with offset 1`] = `
     </div>
   </div>
   <div
-    class="amis-Tooltip amis-Tooltip--light"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip __AMIS_COMPONENT_CLASS_PREFIX__Tooltip--light"
     data-amis-theme="cxd"
     offset="19,-22"
     role="tooltip"
@@ -104,13 +104,13 @@ exports[`Renderer:TooltipWrapper with offset 1`] = `
     theme="cxd"
   >
     <div
-      class="amis-Tooltip-arrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-arrow"
     />
     <div
-      class="amis-Tooltip-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-body"
     >
       <span
-        class="amis-Html"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
       >
         提示文字
       </span>
@@ -123,10 +123,10 @@ exports[`Renderer:TooltipWrapper with showArrow 1`] = `
 <body>
   <div>
     <div
-      class="amis-TooltipWrapper"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper"
     >
       <span
-        class="amis-TplField fr-view"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           没有箭头
@@ -135,7 +135,7 @@ exports[`Renderer:TooltipWrapper with showArrow 1`] = `
     </div>
   </div>
   <div
-    class="amis-Tooltip amis-Tooltip--light"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip __AMIS_COMPONENT_CLASS_PREFIX__Tooltip--light"
     data-amis-theme="cxd"
     offset="0,0"
     role="tooltip"
@@ -143,15 +143,15 @@ exports[`Renderer:TooltipWrapper with showArrow 1`] = `
     theme="cxd"
   >
     <div
-      class="amis-Tooltip-title"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-title"
     >
       标题
     </div>
     <div
-      class="amis-Tooltip-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-body"
     >
       <span
-        class="amis-Html"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
       >
         提示内容
       </span>
@@ -164,11 +164,11 @@ exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
 <body>
   <div>
     <span
-      class="amis-TooltipWrapper amis-TooltipWrapper--inline"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper __AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper--inline"
       style="font-style: italic;"
     >
       <span
-        class="amis-TplField fr-view"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           一段文案
@@ -177,7 +177,7 @@ exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
     </span>
   </div>
   <div
-    class="amis-Tooltip amis-Tooltip--light"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip __AMIS_COMPONENT_CLASS_PREFIX__Tooltip--light"
     data-amis-theme="cxd"
     offset="0,0"
     role="tooltip"
@@ -185,13 +185,13 @@ exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
     theme="cxd"
   >
     <div
-      class="amis-Tooltip-arrow"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-arrow"
     />
     <div
-      class="amis-Tooltip-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Tooltip-body"
     >
       <span
-        class="amis-Html"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
       >
         文字提示(加粗)
       </span>
@@ -203,24 +203,24 @@ exports[`Renderer:TooltipWrapper with style & tooltipStyle 1`] = `
 exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
 <div>
   <div
-    class="amis-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="amis-TooltipWrapper mb-1"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper mb-1"
           >
             <span
-              class="amis-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 hover激活文字提示
@@ -228,10 +228,10 @@ exports[`Renderer:TooltipWrapper with trigger & title 1`] = `
             </span>
           </div>
           <div
-            class="amis-TooltipWrapper mb-1"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper mb-1"
           >
             <span
-              class="amis-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 click激活文字提示
@@ -249,10 +249,10 @@ exports[`Renderer:TooltipWrapper with wrapperComponent 1`] = `
 <body>
   <div>
     <pre
-      class="amis-TooltipWrapper"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TooltipWrapper"
     >
       <span
-        class="amis-TplField fr-view"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           function HelloWorld() {

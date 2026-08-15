@@ -3,17 +3,17 @@
 exports[`Renderer:service 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:service 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,52 +33,52 @@ exports[`Renderer:service 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal is-required"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
           data-amis-name="tpl"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   模板
                 </span>
               </span>
               <span
-                class="cxd-Form-star"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
               >
                 *
               </span>
             </span>
           </label>
           <div
-            class="cxd-SelectControl cxd-Form-control is-inline"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
           >
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="cxd-Select"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="cxd-Select-valueWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="cxd-Select-value"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   模板1
                 </div>
               </div>
               <span
-                class="cxd-Select-arrow"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
-                  classname="icon icon-right-arrow-bold"
+                  class="icon icon-right-arrow-bold"
                   icon="right-arrow-bold"
                 />
               </span>
@@ -86,36 +86,36 @@ exports[`Renderer:service 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Service m-t"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Service m-t"
         >
           <div
-            class="cxd-Form-item cxd-Form-item--normal is-required"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="dy_1"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     动态字段1
                   </span>
                 </span>
                 <span
-                  class="cxd-Form-star"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -130,16 +130,16 @@ exports[`Renderer:service 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-item cxd-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="dy_2"
             data-role="form-item"
           >
             <label
-              class="cxd-Form-label"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     动态字段2
@@ -148,10 +148,10 @@ exports[`Renderer:service 1`] = `
               </span>
             </label>
             <div
-              class="cxd-Form-control cxd-TextControl"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="cxd-TextControl-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -175,7 +175,7 @@ exports[`Renderer:service 1`] = `
 exports[`form:service:remoteData 1`] = `
 <div>
   <form
-    class="cxd-Form cxd-Form--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -183,18 +183,18 @@ exports[`form:service:remoteData 1`] = `
       type="submit"
     />
     <div
-      class="cxd-Service"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
     >
       <div
-        class="cxd-Form-item cxd-Form-item--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
         data-amis-name="child-a"
         data-role="form-item"
       >
         <div
-          class="cxd-Form-control cxd-TextControl"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
         >
           <div
-            class="cxd-TextControl-input"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
           >
             <input
               autocomplete="off"
@@ -210,11 +210,11 @@ exports[`form:service:remoteData 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Form-item cxd-Form-item--normal"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-role="form-item"
     >
       <button
-        class="cxd-Button cxd-Button--default cxd-Button--size-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
         type="submit"
       >
         <span>
@@ -229,7 +229,7 @@ exports[`form:service:remoteData 1`] = `
 exports[`form:service:remoteSchmea+data 1`] = `
 <div>
   <form
-    class="cxd-Form cxd-Form--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -237,18 +237,18 @@ exports[`form:service:remoteSchmea+data 1`] = `
       type="submit"
     />
     <div
-      class="cxd-Service"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
     >
       <div
-        class="cxd-Form-item cxd-Form-item--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
         data-amis-name="child-a"
         data-role="form-item"
       >
         <div
-          class="cxd-Form-control cxd-TextControl"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
         >
           <div
-            class="cxd-TextControl-input"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
           >
             <input
               autocomplete="off"
@@ -263,15 +263,15 @@ exports[`form:service:remoteSchmea+data 1`] = `
         </div>
       </div>
       <div
-        class="cxd-Form-item cxd-Form-item--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
         data-amis-name="child-b"
         data-role="form-item"
       >
         <div
-          class="cxd-Form-control cxd-TextControl"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
         >
           <div
-            class="cxd-TextControl-input"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
           >
             <input
               autocomplete="off"
@@ -287,11 +287,11 @@ exports[`form:service:remoteSchmea+data 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Form-item cxd-Form-item--normal"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-role="form-item"
     >
       <button
-        class="cxd-Button cxd-Button--default cxd-Button--size-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
         type="submit"
       >
         <span>
@@ -306,7 +306,7 @@ exports[`form:service:remoteSchmea+data 1`] = `
 exports[`form:service:super-remoteData 1`] = `
 <div>
   <form
-    class="cxd-Form cxd-Form--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -314,18 +314,18 @@ exports[`form:service:super-remoteData 1`] = `
       type="submit"
     />
     <div
-      class="cxd-Service"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
     >
       <div
-        class="cxd-Form-item cxd-Form-item--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
         data-amis-name="child-a"
         data-role="form-item"
       >
         <div
-          class="cxd-Form-control cxd-TextControl"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
         >
           <div
-            class="cxd-TextControl-input"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
           >
             <input
               autocomplete="off"
@@ -341,11 +341,11 @@ exports[`form:service:super-remoteData 1`] = `
       </div>
     </div>
     <div
-      class="cxd-Form-item cxd-Form-item--normal"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-role="form-item"
     >
       <button
-        class="cxd-Button cxd-Button--default cxd-Button--size-default"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
         type="submit"
       >
         <span>

@@ -3,20 +3,21 @@
 exports[`Renderer:avatar fit 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/plumeria.jpeg"
@@ -24,7 +25,7 @@ exports[`Renderer:avatar fit 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/plumeria.jpeg"
@@ -32,7 +33,7 @@ exports[`Renderer:avatar fit 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/plumeria.jpeg"
@@ -40,7 +41,7 @@ exports[`Renderer:avatar fit 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/plumeria.jpeg"
@@ -48,7 +49,7 @@ exports[`Renderer:avatar fit 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/plumeria.jpeg"
@@ -65,33 +66,34 @@ exports[`Renderer:avatar fit 1`] = `
 exports[`Renderer:avatar gap 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <span
-              class="cxd-Avatar--text"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
               style="transform: scale(1) translateX(-50%);"
             >
               ejson
             </span>
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <span
-              class="cxd-Avatar--text"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
               style="transform: scale(1) translateX(-50%);"
             >
               ejson
@@ -107,7 +109,7 @@ exports[`Renderer:avatar gap 1`] = `
 exports[`Renderer:avatar icon 1`] = `
 <div>
   <span
-    class="cxd-Avatar cxd-Avatar--circle"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
   >
     <i
       class="fa fa-user fa fa-user"
@@ -119,34 +121,35 @@ exports[`Renderer:avatar icon 1`] = `
 exports[`Renderer:avatar shape 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-Avatar cxd-Avatar--square"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--square"
           >
             <span
-              class="cxd-Avatar--text"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
               style="transform: scale(1) translateX(-50%);"
             >
               AM
             </span>
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--rounded"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--rounded"
             style="margin-left: 10px;"
           >
             <span
-              class="cxd-Avatar--text"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
               style="transform: scale(1) translateX(-50%);"
             >
               AM
@@ -162,41 +165,42 @@ exports[`Renderer:avatar shape 1`] = `
 exports[`Renderer:avatar size 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-Avatar cxd-Avatar--circle cxd-Avatar--lg"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle __AMIS_COMPONENT_CLASS_PREFIX__Avatar--lg"
           >
             <i
               class="fa fa-user fa fa-user"
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <i
               class="fa fa-user fa fa-user"
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle cxd-Avatar--sm"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle __AMIS_COMPONENT_CLASS_PREFIX__Avatar--sm"
           >
             <i
               class="fa fa-user fa fa-user"
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
             style="height: 60px; width: 60px; line-height: 60px;"
           >
             <img
@@ -205,7 +209,7 @@ exports[`Renderer:avatar size 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/ai-fake-face.jpg"
@@ -213,7 +217,7 @@ exports[`Renderer:avatar size 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
             style="height: 20px; width: 20px; line-height: 20px;"
           >
             <img
@@ -231,11 +235,11 @@ exports[`Renderer:avatar size 1`] = `
 exports[`Renderer:avatar style 1`] = `
 <div>
   <span
-    class="cxd-Avatar cxd-Avatar--circle"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
     style="background: rgb(219, 62, 53); color: rgb(255, 255, 255);"
   >
     <span
-      class="cxd-Avatar--text"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
       style="transform: scale(1) translateX(-50%);"
     >
       AM
@@ -247,10 +251,10 @@ exports[`Renderer:avatar style 1`] = `
 exports[`Renderer:avatar test 1`] = `
 <div>
   <span
-    class="cxd-Avatar cxd-Avatar--circle"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
   >
     <span
-      class="cxd-Avatar--text"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
       style="transform: scale(1) translateX(-50%);"
     >
       AM
@@ -262,20 +266,21 @@ exports[`Renderer:avatar test 1`] = `
 exports[`Renderer:avatar var 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <img
               src="https://suda.cdn.bcebos.com/images/amis/ai-fake-face.jpg"
@@ -283,17 +288,17 @@ exports[`Renderer:avatar var 1`] = `
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <i
               class="fa fa-user fa fa-user"
             />
           </span>
           <span
-            class="cxd-Avatar cxd-Avatar--circle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar __AMIS_COMPONENT_CLASS_PREFIX__Avatar--circle"
           >
             <span
-              class="cxd-Avatar--text"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Avatar--text"
               style="transform: scale(1) translateX(-50%);"
             >
               avatar

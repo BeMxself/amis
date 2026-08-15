@@ -3,20 +3,21 @@
 exports[`EventAction:disabled 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Button cxd-Button--default cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -24,7 +25,7 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </div>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -32,7 +33,7 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Button cxd-Button--default cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -40,7 +41,7 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </div>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -48,7 +49,7 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -56,7 +57,7 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -64,17 +65,17 @@ exports[`EventAction:disabled 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -83,10 +84,10 @@ exports[`EventAction:disabled 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -94,7 +95,7 @@ exports[`EventAction:disabled 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Button cxd-Button--default cxd-Button--size-default is-disabled ml-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled ml-2"
                   disabled=""
                 >
                   <span>

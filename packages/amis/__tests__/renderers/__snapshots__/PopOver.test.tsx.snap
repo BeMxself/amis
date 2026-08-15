@@ -3,16 +3,16 @@
 exports[`Renderer:PopOver with offset: default 1`] = `
 <div>
   <div
-    class="amis-Form-item amis-Form-item--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="static"
     data-role="form-item"
   >
     <label
-      class="amis-Form-label"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             静态展示
@@ -21,18 +21,18 @@ exports[`Renderer:PopOver with offset: default 1`] = `
       </span>
     </label>
     <div
-      class="amis-Form-static"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
     >
       <div
-        class="amis-Field--popOverAble amis-Form-control"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Field--popOverAble __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
       >
         <span
-          class="amis-PlainField"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
         >
           static
         </span>
         <span
-          class="amis-Field-popOverBtn"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Field-popOverBtn"
         >
           <icon-mock
             class="icon icon-zoom-in"
@@ -48,16 +48,16 @@ exports[`Renderer:PopOver with offset: default 1`] = `
 exports[`Renderer:PopOver with offset: show popover no offset 1`] = `
 <div>
   <div
-    class="amis-Form-item amis-Form-item--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="static"
     data-role="form-item"
   >
     <label
-      class="amis-Form-label"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             静态展示
@@ -66,18 +66,18 @@ exports[`Renderer:PopOver with offset: show popover no offset 1`] = `
       </span>
     </label>
     <div
-      class="amis-Form-static"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
     >
       <div
-        class="amis-Field--popOverAble amis-Form-control in has-popover"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Field--popOverAble __AMIS_COMPONENT_CLASS_PREFIX__Form-control in has-popover"
       >
         <span
-          class="amis-PlainField"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
         >
           static
         </span>
         <span
-          class="amis-Field-popOverBtn"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Field-popOverBtn"
         >
           <icon-mock
             class="icon icon-zoom-in"
@@ -85,21 +85,21 @@ exports[`Renderer:PopOver with offset: show popover no offset 1`] = `
           />
         </span>
         <div
-          class="amis-PopOver amis-PopOverAble-popover"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__PopOverAble-popover"
           data-amis-theme="cxd"
           role="popover"
           style="display: block; left: 0px; top: 0px; visibility: hidden;"
           theme="cxd"
         >
           <div
-            class="amis-Panel amis-Panel--default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default"
             data-role="container"
           >
             <div
-              class="amis-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <span
-                class="amis-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   我是提示内容
@@ -117,16 +117,16 @@ exports[`Renderer:PopOver with offset: show popover no offset 1`] = `
 exports[`Renderer:PopOver with offset: show popover with offset 1`] = `
 <div>
   <div
-    class="amis-Form-item amis-Form-item--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="static"
     data-role="form-item"
   >
     <label
-      class="amis-Form-label"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             静态展示
@@ -135,18 +135,18 @@ exports[`Renderer:PopOver with offset: show popover with offset 1`] = `
       </span>
     </label>
     <div
-      class="amis-Form-static"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
     >
       <div
-        class="amis-Field--popOverAble amis-Form-control in has-popover"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Field--popOverAble __AMIS_COMPONENT_CLASS_PREFIX__Form-control in has-popover"
       >
         <span
-          class="amis-PlainField"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
         >
           static
         </span>
         <span
-          class="amis-Field-popOverBtn"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Field-popOverBtn"
         >
           <icon-mock
             class="icon icon-zoom-in"
@@ -154,21 +154,21 @@ exports[`Renderer:PopOver with offset: show popover with offset 1`] = `
           />
         </span>
         <div
-          class="amis-PopOver amis-PopOverAble-popover"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__PopOverAble-popover"
           data-amis-theme="cxd"
           role="popover"
           style="display: block; left: 101px; top: 102px; visibility: hidden;"
           theme="cxd"
         >
           <div
-            class="amis-Panel amis-Panel--default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default"
             data-role="container"
           >
             <div
-              class="amis-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <span
-                class="amis-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   我是提示内容

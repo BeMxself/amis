@@ -3,17 +3,17 @@
 exports[`Renderer:fieldSet 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:fieldSet 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,50 +33,50 @@ exports[`Renderer:fieldSet 1`] = `
           type="submit"
         />
         <fieldset
-          class="cxd-Collapse is-active no-border"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active no-border"
         >
           <legend
-            class="cxd-Collapse-header bg-dark noTitle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header bg-dark noTitle"
           >
             <span
-              class="cxd-Collapse-arrow-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
             >
               <icon-mock
-                classname="cxd-Collapse-arrow icon icon-right-arrow-bold cxd-Collapse-arrow"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
                 icon="right-arrow-bold"
               />
             </span>
           </legend>
           <div
-            class="cxd-Collapse-contentWrapper"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
           >
             <div
-              class="cxd-Collapse-body bg-white"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body bg-white"
             >
               <div
-                class="cxd-Collapse-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
               >
                 <div
-                  class="cxd-Form--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 >
                   <div
-                    class="cxd-Form-item cxd-Form-item--horizontal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                     data-amis-name="text"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label cxd-Form-itemColumn--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                     >
                       <span />
                     </label>
                     <div
-                      class="cxd-Form-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                     >
                       <div
-                        class="cxd-Form-control cxd-TextControl"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                       >
                         <div
-                          class="cxd-TextControl-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                         >
                           <input
                             autocomplete="off"
@@ -105,17 +105,17 @@ exports[`Renderer:fieldSet 1`] = `
 exports[`Renderer:fieldSet with mode 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -124,10 +124,10 @@ exports[`Renderer:fieldSet with mode 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -135,34 +135,34 @@ exports[`Renderer:fieldSet with mode 1`] = `
           type="submit"
         />
         <fieldset
-          class="cxd-Collapse is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
         >
           <legend
-            class="cxd-Collapse-header noTitle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header noTitle"
           />
           <div
-            class="cxd-Collapse-contentWrapper"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
           >
             <div
-              class="cxd-Collapse-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
             >
               <div
-                class="cxd-Collapse-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
               >
                 <div
-                  class="cxd-Form--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 >
                   <div
-                    class="cxd-Form-item cxd-Form-item--horizontal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                     data-amis-name="text1"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label cxd-Form-itemColumn--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本1
@@ -171,13 +171,13 @@ exports[`Renderer:fieldSet with mode 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                     >
                       <div
-                        class="cxd-Form-control cxd-TextControl"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                       >
                         <div
-                          class="cxd-TextControl-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                         >
                           <input
                             autocomplete="off"
@@ -193,16 +193,16 @@ exports[`Renderer:fieldSet with mode 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--horizontal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                     data-amis-name="text2"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label cxd-Form-itemColumn--normal"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本2
@@ -211,13 +211,13 @@ exports[`Renderer:fieldSet with mode 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                     >
                       <div
-                        class="cxd-Form-control cxd-TextControl"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                       >
                         <div
-                          class="cxd-TextControl-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                         >
                           <input
                             autocomplete="off"
@@ -246,17 +246,17 @@ exports[`Renderer:fieldSet with mode 1`] = `
 exports[`Renderer:fieldSet with mode 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -265,10 +265,10 @@ exports[`Renderer:fieldSet with mode 2`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -276,34 +276,34 @@ exports[`Renderer:fieldSet with mode 2`] = `
           type="submit"
         />
         <fieldset
-          class="cxd-Collapse is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
         >
           <legend
-            class="cxd-Collapse-header noTitle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header noTitle"
           />
           <div
-            class="cxd-Collapse-contentWrapper"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
           >
             <div
-              class="cxd-Collapse-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
             >
               <div
-                class="cxd-Collapse-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
               >
                 <div
-                  class="cxd-Form--inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form--inline"
                 >
                   <div
-                    class="cxd-Form-item cxd-Form-item--inline"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--inline"
                     data-amis-name="text1"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本1
@@ -312,13 +312,13 @@ exports[`Renderer:fieldSet with mode 2`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                     >
                       <div
-                        class="cxd-Form-control cxd-TextControl"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                       >
                         <div
-                          class="cxd-TextControl-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                         >
                           <input
                             autocomplete="off"
@@ -334,16 +334,16 @@ exports[`Renderer:fieldSet with mode 2`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--inline"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--inline"
                     data-amis-name="text2"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本2
@@ -352,13 +352,13 @@ exports[`Renderer:fieldSet with mode 2`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-value"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                     >
                       <div
-                        class="cxd-Form-control cxd-TextControl"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                       >
                         <div
-                          class="cxd-TextControl-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                         >
                           <input
                             autocomplete="off"
@@ -387,17 +387,17 @@ exports[`Renderer:fieldSet with mode 2`] = `
 exports[`Renderer:fieldSet with mode 3`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -406,10 +406,10 @@ exports[`Renderer:fieldSet with mode 3`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -417,34 +417,34 @@ exports[`Renderer:fieldSet with mode 3`] = `
           type="submit"
         />
         <fieldset
-          class="cxd-Collapse is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
         >
           <legend
-            class="cxd-Collapse-header noTitle"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header noTitle"
           />
           <div
-            class="cxd-Collapse-contentWrapper"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
           >
             <div
-              class="cxd-Collapse-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
             >
               <div
-                class="cxd-Collapse-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
               >
                 <div
-                  class="cxd-Form--justify"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form--justify"
                 >
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="text1"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本1
@@ -453,10 +453,10 @@ exports[`Renderer:fieldSet with mode 3`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -471,16 +471,16 @@ exports[`Renderer:fieldSet with mode 3`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="text2"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本2
@@ -489,10 +489,10 @@ exports[`Renderer:fieldSet with mode 3`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -520,17 +520,17 @@ exports[`Renderer:fieldSet with mode 3`] = `
 exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -539,10 +539,10 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -550,31 +550,31 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
           type="submit"
         />
         <fieldset
-          class="cxd-Collapse is-active cxd-Collapse--title-bottom"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active __AMIS_COMPONENT_CLASS_PREFIX__Collapse--title-bottom"
         >
           <div
-            class="cxd-Collapse-contentWrapper"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
           >
             <div
-              class="cxd-Collapse-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
             >
               <div
-                class="cxd-Collapse-content"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
               >
                 <div
-                  class="cxd-Form--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 >
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="text1"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本1
@@ -583,10 +583,10 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -601,16 +601,16 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Form-item cxd-Form-item--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="text2"
                     data-role="form-item"
                   >
                     <label
-                      class="cxd-Form-label"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="cxd-TplField fr-view"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             文本2
@@ -619,10 +619,10 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
                       </span>
                     </label>
                     <div
-                      class="cxd-Form-control cxd-TextControl"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="cxd-TextControl-input"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -641,18 +641,18 @@ exports[`Renderer:fieldSet with titlePosition & collapseTitle & title 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Collapse-header"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
           >
             <span
-              class="cxd-Collapse-arrow-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
             >
               <icon-mock
-                classname="cxd-Collapse-arrow icon icon-right-arrow-bold cxd-Collapse-arrow"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
                 icon="right-arrow-bold"
               />
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 收起设置

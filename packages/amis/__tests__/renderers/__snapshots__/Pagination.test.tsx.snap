@@ -3,29 +3,29 @@
 exports[`Renderer:Pagination 1`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-PaginationWrapper"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__PaginationWrapper"
     >
       <div
-        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md cxd-PaginationWrapper-pager"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __AMIS_COMPONENT_CLASS_PREFIX__PaginationWrapper-pager"
       >
         <ul
-          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
         >
           <li
-            class="cxd-Pagination-prev is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
           >
             <span>
               <icon-mock
-                classname="icon icon-left-arrow"
+                class="icon icon-left-arrow"
                 icon="left-arrow"
               />
             </span>
           </li>
           <li
-            class="cxd-Pagination-pager-item is-active"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
           >
             <a
               role="button"
@@ -34,7 +34,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="cxd-Pagination-pager-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -43,7 +43,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="cxd-Pagination-pager-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -52,7 +52,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="cxd-Pagination-pager-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -61,7 +61,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="cxd-Pagination-pager-item"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -70,11 +70,11 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="cxd-Pagination-next"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
           >
             <span>
               <icon-mock
-                classname="icon icon-right-arrow"
+                class="icon icon-right-arrow"
                 icon="right-arrow"
               />
             </span>
@@ -82,26 +82,26 @@ exports[`Renderer:Pagination 1`] = `
         </ul>
       </div>
       <div
-        class="cxd-Table"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
         style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
       >
         <div
-          class="cxd-Table-fixedTop"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
         >
           <div
-            class="cxd-Table-heading"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-heading"
           >
             分页表格
           </div>
         </div>
         <div
-          class="cxd-Table-contentWrap"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
         >
           <div
-            class="cxd-Table-content"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
           >
             <table
-              class="cxd-Table-table"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
             >
               <colgroup>
                 <col
@@ -120,10 +120,10 @@ exports[`Renderer:Pagination 1`] = `
                     data-index="3"
                   >
                     <div
-                      class="cxd-TableCell--title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Engine
@@ -131,7 +131,7 @@ exports[`Renderer:Pagination 1`] = `
                       </span>
                     </div>
                     <div
-                      class="cxd-Table-content-colDragLine"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                       data-index="3"
                     />
                   </th>
@@ -140,10 +140,10 @@ exports[`Renderer:Pagination 1`] = `
                     data-index="4"
                   >
                     <div
-                      class="cxd-TableCell--title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Version
@@ -151,7 +151,7 @@ exports[`Renderer:Pagination 1`] = `
                       </span>
                     </div>
                     <div
-                      class="cxd-Table-content-colDragLine"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                       data-index="4"
                     />
                   </th>
@@ -159,7 +159,7 @@ exports[`Renderer:Pagination 1`] = `
               </thead>
               <tbody>
                 <tr
-                  class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                   data-id="1"
                   data-index="0"
                 >
@@ -167,7 +167,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="cxd-PlainField"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       Trident
                     </span>
@@ -176,14 +176,14 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="cxd-PlainField"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       4
                     </span>
                   </td>
                 </tr>
                 <tr
-                  class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                   data-id="2"
                   data-index="1"
                 >
@@ -191,7 +191,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="cxd-PlainField"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       Trident
                     </span>
@@ -200,7 +200,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="cxd-PlainField"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       4
                     </span>
@@ -219,56 +219,56 @@ exports[`Renderer:Pagination 1`] = `
 exports[`Renderer:Pagination 2`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <div
-        class="cxd-Pagination-total cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-total __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         共 999 条
       </div>
       <div
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="cxd-Select cxd-Pagination-perpage cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="cxd-Select-valueWrap"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
         >
           <div
-            class="cxd-Select-value"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
           >
             10条/页
           </div>
         </div>
         <span
-          class="cxd-Select-arrow"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
         >
           <icon-mock
-            classname="icon icon-right-arrow-bold"
+            class="icon icon-right-arrow-bold"
             icon="right-arrow-bold"
           />
         </span>
       </div>
       <ul
-        class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="cxd-Pagination-prev"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
-              classname="icon icon-left-arrow"
+              class="icon icon-left-arrow"
               icon="left-arrow"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -277,7 +277,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -288,13 +288,13 @@ exports[`Renderer:Pagination 2`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-left"
+              class="icon icon-arrow-double-left"
               icon="arrow-double-left"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -303,7 +303,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -312,7 +312,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -323,13 +323,13 @@ exports[`Renderer:Pagination 2`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-right"
+              class="icon icon-arrow-double-right"
               icon="arrow-double-right"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -338,31 +338,31 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-next"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
-              classname="icon icon-right-arrow"
+              class="icon icon-right-arrow"
               icon="right-arrow"
             />
           </span>
         </li>
       </ul>
       <div
-        class="cxd-Pagination-inputGroup cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <span
-          class="cxd-Pagination-inputGroup-left"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
         >
           跳转至
         </span>
         <input
-          class="cxd-Pagination-inputGroup-input"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
           type="text"
           value=""
         />
         <span
-          class="cxd-Pagination-inputGroup-right"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
         >
           前往
         </span>
@@ -375,26 +375,26 @@ exports[`Renderer:Pagination 2`] = `
 exports[`Renderer:Pagination with disabled 1`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md disabled"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md disabled"
     >
       <ul
-        class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="cxd-Pagination-prev is-disabled"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
         >
           <span>
             <icon-mock
-              classname="icon icon-left-arrow"
+              class="icon icon-left-arrow"
               icon="left-arrow"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -403,7 +403,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -412,7 +412,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -421,7 +421,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -430,7 +430,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -439,7 +439,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -448,7 +448,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -457,7 +457,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -468,13 +468,13 @@ exports[`Renderer:Pagination with disabled 1`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-right"
+              class="icon icon-arrow-double-right"
               icon="arrow-double-right"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -483,11 +483,11 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-next"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
-              classname="icon icon-right-arrow"
+              class="icon icon-right-arrow"
               icon="right-arrow"
             />
           </span>
@@ -501,31 +501,31 @@ exports[`Renderer:Pagination with disabled 1`] = `
 exports[`Renderer:Pagination with layout 1`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <div
-        class="cxd-Pagination-total cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-total __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         共 999 条
       </div>
       <div
-        class="cxd-Pagination-inputGroup cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <span
-          class="cxd-Pagination-inputGroup-left"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
         >
           跳转至
         </span>
         <input
-          class="cxd-Pagination-inputGroup-input"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
           type="text"
           value=""
         />
         <span
-          class="cxd-Pagination-inputGroup-right"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
         >
           前往
         </span>
@@ -533,43 +533,43 @@ exports[`Renderer:Pagination with layout 1`] = `
       <div
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="cxd-Select cxd-Pagination-perpage cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="cxd-Select-valueWrap"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
         >
           <div
-            class="cxd-Select-value"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
           >
             10条/页
           </div>
         </div>
         <span
-          class="cxd-Select-arrow"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
         >
           <icon-mock
-            classname="icon icon-right-arrow-bold"
+            class="icon icon-right-arrow-bold"
             icon="right-arrow-bold"
           />
         </span>
       </div>
       <ul
-        class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="cxd-Pagination-prev"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
-              classname="icon icon-left-arrow"
+              class="icon icon-left-arrow"
               icon="left-arrow"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -578,7 +578,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -587,7 +587,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -596,7 +596,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -605,7 +605,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -614,7 +614,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -623,7 +623,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -632,7 +632,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -643,13 +643,13 @@ exports[`Renderer:Pagination with layout 1`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-right"
+              class="icon icon-arrow-double-right"
               icon="arrow-double-right"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -658,11 +658,11 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-next"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
-              classname="icon icon-right-arrow"
+              class="icon icon-right-arrow"
               icon="right-arrow"
             />
           </span>
@@ -676,26 +676,26 @@ exports[`Renderer:Pagination with layout 1`] = `
 exports[`Renderer:Pagination with maxButtons 1`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <ul
-        class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="cxd-Pagination-prev"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
-              classname="icon icon-left-arrow"
+              class="icon icon-left-arrow"
               icon="left-arrow"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -704,7 +704,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -715,13 +715,13 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-left"
+              class="icon icon-arrow-double-left"
               icon="arrow-double-left"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -730,7 +730,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -739,7 +739,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -748,7 +748,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -757,7 +757,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item is-active"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -766,7 +766,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -775,7 +775,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -784,7 +784,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -793,7 +793,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-ellipsis"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -804,13 +804,13 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
             class="icon"
           >
             <icon-mock
-              classname="icon icon-arrow-double-right"
+              class="icon icon-arrow-double-right"
               icon="arrow-double-right"
             />
           </span>
         </li>
         <li
-          class="cxd-Pagination-pager-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -819,11 +819,11 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="cxd-Pagination-next"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
-              classname="icon icon-right-arrow"
+              class="icon icon-right-arrow"
               icon="right-arrow"
             />
           </span>
@@ -839,47 +839,48 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
   aria-expanded="true"
   aria-haspopup="listbox"
   aria-owns="downshift-2-menu"
-  class="cxd-Select is-opened cxd-Pagination-perpage cxd-Pagination-item has-popover"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item has-popover"
   role="combobox"
   tabindex="0"
 >
   <div
-    class="cxd-Select-valueWrap"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
   >
     <div
-      class="cxd-Select-placeholder"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
     >
       请选择
     </div>
   </div>
   <span
-    class="cxd-Select-arrow"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
   >
     <icon-mock
-      classname="icon icon-right-arrow-bold"
+      class="icon icon-right-arrow-bold"
       icon="right-arrow-bold"
     />
   </span>
   <div
-    class="cxd-PopOver cxd-Select-popover"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
+    data-amis-theme="cxd"
     role="popover"
-    style="display: block; width: auto; left: 0px; top: 0px; visibility: hidden;"
+    style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
     theme="cxd"
   >
     <div
-      class="cxd-PopOver-overlay"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
     />
     <div
-      class="cxd-Select-menu"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu"
     >
       <div
         aria-selected="false"
-        class="cxd-Select-option"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-0"
         role="option"
       >
         <span
-          class="cxd-Select-option-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="2条/页"
         >
           2条/页
@@ -887,12 +888,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="cxd-Select-option"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-1"
         role="option"
       >
         <span
-          class="cxd-Select-option-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="11条/页"
         >
           11条/页
@@ -900,12 +901,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="cxd-Select-option"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-2"
         role="option"
       >
         <span
-          class="cxd-Select-option-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="37条/页"
         >
           37条/页
@@ -913,12 +914,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="cxd-Select-option"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-3"
         role="option"
       >
         <span
-          class="cxd-Select-option-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="101条/页"
         >
           101条/页
@@ -926,12 +927,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="cxd-Select-option"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-4"
         role="option"
       >
         <span
-          class="cxd-Select-option-content"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="555条/页"
         >
           555条/页
@@ -945,20 +946,20 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
 exports[`Renderer:Pagination with simple mode 1`] = `
 <div>
   <div
-    class="cxd-Service"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md cxd-Pagination-simple"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __AMIS_COMPONENT_CLASS_PREFIX__Pagination-simple"
     >
       <ul
-        class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-pager-items cxd-Pagination-item"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-items __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="cxd-Pagination-prev is-disabled"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
         >
           <span>
             <icon-mock
-              classname="icon icon-left-arrow"
+              class="icon icon-left-arrow"
               icon="left-arrow"
             />
           </span>
@@ -969,11 +970,11 @@ exports[`Renderer:Pagination with simple mode 1`] = `
           1
         </span>
         <li
-          class="cxd-Pagination-next is-disabled"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next is-disabled"
         >
           <span>
             <icon-mock
-              classname="icon icon-right-arrow"
+              class="icon icon-right-arrow"
               icon="right-arrow"
             />
           </span>

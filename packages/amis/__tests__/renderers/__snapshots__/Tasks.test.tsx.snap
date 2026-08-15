@@ -3,23 +3,24 @@
 exports[`Renderer:tesks 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Table-content"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
           >
             <table
-              class="cxd-Table-table"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
             >
               <thead>
                 <tr>
@@ -48,7 +49,7 @@ exports[`Renderer:tesks 1`] = `
                   </td>
                   <td>
                     <a
-                      class="cxd-Button cxd-Button--default cxd-Button--size-md is-disabled"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-md is-disabled"
                     >
                       上线
                     </a>
@@ -62,7 +63,7 @@ exports[`Renderer:tesks 1`] = `
                   </td>
                   <td>
                     <span
-                      class="cxd-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         查看详情
@@ -87,7 +88,7 @@ exports[`Renderer:tesks 1`] = `
                   </td>
                   <td>
                     <a
-                      class="cxd-Button cxd-Button--default cxd-Button--size-md is-disabled"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-md is-disabled"
                     >
                       上线
                     </a>
@@ -111,7 +112,7 @@ exports[`Renderer:tesks 1`] = `
                   </td>
                   <td>
                     <a
-                      class="cxd-Button cxd-Button--default cxd-Button--size-md is-disabled"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-md is-disabled"
                     >
                       上线
                     </a>

@@ -3,17 +3,17 @@
 exports[`Renderer:textarea 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:textarea 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:textarea 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   textarea
@@ -51,12 +51,12 @@ exports[`Renderer:textarea 1`] = `
             </span>
           </label>
           <div
-            class="cxd-TextareaControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <textarea
               autocomplete="off"
               autocorrect="off"
-              class="cxd-TextareaControl-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input"
               name="a"
               spellcheck="false"
             >
@@ -73,17 +73,17 @@ exports[`Renderer:textarea 1`] = `
 exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -92,10 +92,10 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -103,16 +103,16 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal is-error has-error--maxLength"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--maxLength"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   textarea
@@ -121,12 +121,12 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
             </span>
           </label>
           <div
-            class="cxd-TextareaControl is-focused cxd-Form-control is-error has-error--maxLength"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl is-focused __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--maxLength"
           >
             <textarea
               autocomplete="off"
               autocorrect="off"
-              class="cxd-TextareaControl-input cxd-TextareaControl-input--counter"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input--counter"
               maxlength="9"
               name="text"
               spellcheck="false"
@@ -134,15 +134,15 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
               i am reset value
             </textarea>
             <a
-              class="cxd-TextareaControl-clear"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-clear"
             >
               <icon-mock
-                classname="icon icon-input-clear"
+                class="icon icon-input-clear"
                 icon="input-clear"
               />
             </a>
             <span
-              class="cxd-TextareaControl-counter is-clearable"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-counter is-clearable"
             >
               <span>
                 16
@@ -156,7 +156,7 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
             </span>
           </div>
           <ul
-            class="cxd-Form-feedback"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               请控制内容长度, 不要输入 9 个以上字符
@@ -166,13 +166,13 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -188,17 +188,17 @@ exports[`Renderer:textarea with maxLength & clearable & resetValue 1`] = `
 exports[`Renderer:textarea with readOnly 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -207,10 +207,10 @@ exports[`Renderer:textarea with readOnly 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -218,16 +218,16 @@ exports[`Renderer:textarea with readOnly 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   textarea
@@ -236,12 +236,12 @@ exports[`Renderer:textarea with readOnly 1`] = `
             </span>
           </label>
           <div
-            class="cxd-TextareaControl is-disabled cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl is-disabled __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <textarea
               autocomplete="off"
               autocorrect="off"
-              class="cxd-TextareaControl-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input"
               name="text"
               readonly=""
               spellcheck="false"
@@ -253,13 +253,13 @@ exports[`Renderer:textarea with readOnly 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -275,17 +275,17 @@ exports[`Renderer:textarea with readOnly 1`] = `
 exports[`Renderer:textarea with trimContents & showCounter 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -294,10 +294,10 @@ exports[`Renderer:textarea with trimContents & showCounter 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -305,16 +305,16 @@ exports[`Renderer:textarea with trimContents & showCounter 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   textarea
@@ -323,19 +323,19 @@ exports[`Renderer:textarea with trimContents & showCounter 1`] = `
             </span>
           </label>
           <div
-            class="cxd-TextareaControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <textarea
               autocomplete="off"
               autocorrect="off"
-              class="cxd-TextareaControl-input cxd-TextareaControl-input--counter"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-input--counter"
               name="text"
               spellcheck="false"
             >
               12345
             </textarea>
             <span
-              class="cxd-TextareaControl-counter"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextareaControl-counter"
             >
               <span>
                 5
@@ -346,13 +346,13 @@ exports[`Renderer:textarea with trimContents & showCounter 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

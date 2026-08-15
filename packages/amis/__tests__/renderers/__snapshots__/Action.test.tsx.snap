@@ -2,7 +2,7 @@
 
 exports[`Renderers:Action [actionType = "link"] show active class 1`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-default a"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default a"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`Renderers:Action [actionType = "link"] show active class 1`] = `
 
 exports[`Renderers:Action [actionType = "link"] show active class 2`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-default a is-active"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default a is-active"
   type="button"
 >
   <span>
@@ -68,7 +68,7 @@ exports[`Renderers:Action MenuItem display icon 2`] = `
   class="a"
 >
   <i
-    class="fa fa-cloud amis-Button-icon fa fa-cloud"
+    class="fa fa-cloud __AMIS_COMPONENT_CLASS_PREFIX__Button-icon fa fa-cloud"
   />
   <span>
     123
@@ -79,20 +79,21 @@ exports[`Renderers:Action MenuItem display icon 2`] = `
 exports[`Renderers:Action all levels 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--link cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -100,7 +101,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -108,7 +109,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--secondary cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--secondary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -116,7 +117,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--info cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--info __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -124,7 +125,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--success cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--success __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -132,7 +133,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--warning cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--warning __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -140,7 +141,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--danger cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--danger __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -148,7 +149,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--light cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--light __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -156,7 +157,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--dark cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--dark __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -164,7 +165,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -172,10 +173,10 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Divider cxd-Divider--solid cxd-Divider--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
           />
           <div
-            class="cxd-Button cxd-Button--link cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -183,7 +184,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -191,7 +192,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--secondary cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--secondary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -199,7 +200,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--info cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--info __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -207,7 +208,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--success cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--success __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -215,7 +216,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--warning cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--warning __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -223,7 +224,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--danger cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--danger __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -231,7 +232,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--light cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--light __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -239,7 +240,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--dark cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--dark __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -247,7 +248,7 @@ exports[`Renderers:Action all levels 1`] = `
             </span>
           </div>
           <div
-            class="cxd-Button cxd-Button--default cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>
@@ -264,17 +265,17 @@ exports[`Renderers:Action all levels 1`] = `
 exports[`Renderers:Action as container 1`] = `
 <div>
   <div
-    class="cxd-Action"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Action"
   >
     <div
-      class="cxd-ColorField"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__ColorField"
     >
       <i
-        class="cxd-ColorField-previewIcon"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ColorField-previewIcon"
         style="background-color: rgb(16, 140, 238);"
       />
       <span
-        class="cxd-ColorField-value"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ColorField-value"
       >
         #108cee
       </span>
@@ -285,7 +286,7 @@ exports[`Renderers:Action as container 1`] = `
 
 exports[`Renderers:Action custom activeClass 1`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-default a"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default a"
   type="button"
 >
   <span>
@@ -296,7 +297,7 @@ exports[`Renderers:Action custom activeClass 1`] = `
 
 exports[`Renderers:Action custom activeClass 2`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-default a custom-active"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default a custom-active"
   type="button"
 >
   <span>
@@ -307,35 +308,35 @@ exports[`Renderers:Action custom activeClass 2`] = `
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 1`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-xs"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-xs"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 2`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-sm"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 3`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-md"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-md"
   type="button"
 />
 `;
 
 exports[`Renderers:Action display size[xs, sm, md, lg] 4`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-lg"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-lg"
   type="button"
 />
 `;
 
 exports[`Renderers:Action download shortcut 1`] = `
 <button
-  class="amis-Button amis-Button--default amis-Button--size-default"
+  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
   type="button"
 >
   <span>
@@ -347,20 +348,21 @@ exports[`Renderers:Action download shortcut 1`] = `
 exports[`Renderers:Action tooltip 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -368,7 +370,7 @@ exports[`Renderers:Action tooltip 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -376,7 +378,7 @@ exports[`Renderers:Action tooltip 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -384,7 +386,7 @@ exports[`Renderers:Action tooltip 1`] = `
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -405,20 +407,21 @@ exports[`Renderers:Action with confirmText & actionType ajax 1`] = `
 >
   <div>
     <div
-      class="cxd-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+      data-amis-theme="cxd"
     >
       <div
-        class="cxd-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="cxd-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="cxd-Page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <button
-              class="cxd-Button cxd-Button--default cxd-Button--size-default"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -432,44 +435,45 @@ exports[`Renderers:Action with confirmText & actionType ajax 1`] = `
   </div>
   <div />
   <div
-    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="cxd-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="cxd-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="cxd-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <div
-          class="cxd-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           系统消息
         </div>
       </div>
       <div
-        class="cxd-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
       >
         <span
-          class="cxd-Html"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
         >
           确认要发出这个请求？
         </span>
       </div>
       <div
-        class="cxd-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="cxd-Button cxd-Button--default cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           取消
         </button>
         <button
-          class="cxd-Button cxd-Button--danger cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--danger __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           确认
@@ -483,20 +487,21 @@ exports[`Renderers:Action with confirmText & actionType ajax 1`] = `
 exports[`Renderers:Action with disabledTip 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Button cxd-Button--default cxd-Button--size-default is-disabled"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-disabled"
             disabled=""
           >
             <span>

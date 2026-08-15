@@ -3,32 +3,33 @@
 exports[`Renderer:card 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Card className cxd-Card--link"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Card className __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="cxd-Card-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
             >
               <div
-                class="cxd-Card-meta"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
               >
                 <div
-                  class="cxd-Card-title"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       标题
@@ -38,10 +39,10 @@ exports[`Renderer:card 1`] = `
               </div>
             </div>
             <div
-              class="cxd-Card-body bodyClassName"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body bodyClassName"
             >
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   这里是内容
@@ -49,23 +50,23 @@ exports[`Renderer:card 1`] = `
               </span>
             </div>
             <div
-              class="cxd-Card-footer-wrapper"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
             >
               <div
-                class="cxd-Card-actions-wrapper"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
               >
                 <div
-                  class="cxd-Card-actions"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
                 >
                   <a
-                    class="cxd-Card-action cxd-Card-action--sm"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action __AMIS_COMPONENT_CLASS_PREFIX__Card-action--sm"
                   >
                     <span>
                       编辑
                     </span>
                   </a>
                   <a
-                    class="cxd-Card-action cxd-Card-action--sm"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action __AMIS_COMPONENT_CLASS_PREFIX__Card-action--sm"
                   >
                     <span>
                       删除
@@ -85,42 +86,43 @@ exports[`Renderer:card 1`] = `
 exports[`Renderer:cards color 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Cards"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Cards"
           >
             <div
-              class="cxd-Cards-fixedTop"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-fixedTop"
             />
             <div
-              class="cxd-Cards-body cxd-Grid"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-body __AMIS_COMPONENT_CLASS_PREFIX__Grid"
             >
               <div
-                class="cxd-Grid-col--xs12 cxd-Grid-col--sm6 cxd-Grid-col--md4 cxd-Grid-col--lg3"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="cxd-Card cxd-Card--link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="cxd-Card-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="cxd-Card-avtarText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(180, 0, 158);"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           TR
@@ -128,25 +130,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="cxd-Card-meta"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="cxd-Card-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="cxd-Card-field"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="cxd-Card-fieldLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="cxd-Card-fieldValue"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Internet Explorer 4.0
                         </span>
@@ -156,20 +158,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Grid-col--xs12 cxd-Grid-col--sm6 cxd-Grid-col--md4 cxd-Grid-col--lg3"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="cxd-Card cxd-Card--link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="cxd-Card-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="cxd-Card-avtarText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(0, 180, 255);"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           CH
@@ -177,25 +179,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="cxd-Card-meta"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="cxd-Card-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="cxd-Card-field"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="cxd-Card-fieldLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="cxd-Card-fieldValue"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Chrome 44
                         </span>
@@ -205,20 +207,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Grid-col--xs12 cxd-Grid-col--sm6 cxd-Grid-col--md4 cxd-Grid-col--lg3"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="cxd-Card cxd-Card--link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="cxd-Card-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="cxd-Card-avtarText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(181, 14, 14);"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           GE
@@ -226,25 +228,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="cxd-Card-meta"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="cxd-Card-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="cxd-Card-field"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="cxd-Card-fieldLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="cxd-Card-fieldValue"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Firefox 1.0
                         </span>
@@ -254,20 +256,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Grid-col--xs12 cxd-Grid-col--sm6 cxd-Grid-col--md4 cxd-Grid-col--lg3"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="cxd-Card cxd-Card--link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="cxd-Card-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="cxd-Card-avtarText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(0, 120, 215);"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           PR
@@ -275,25 +277,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="cxd-Card-meta"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="cxd-Card-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="cxd-Card-field"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="cxd-Card-fieldLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="cxd-Card-fieldValue"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Opera 10
                         </span>
@@ -303,20 +305,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Grid-col--xs12 cxd-Grid-col--sm6 cxd-Grid-col--md4 cxd-Grid-col--lg3"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="cxd-Card cxd-Card--link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="cxd-Card-heading"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="cxd-Card-avtarText"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(232, 17, 35);"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           WE
@@ -324,25 +326,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="cxd-Card-meta"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="cxd-Card-body"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="cxd-Card-field"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="cxd-Card-fieldLabel"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="cxd-Card-fieldValue"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Safari 12
                         </span>
@@ -363,42 +365,43 @@ exports[`Renderer:cards color 1`] = `
 exports[`Renderer:cards hightlight 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Card cxd-Card--link"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="cxd-Card-multiMedia--left"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="cxd-Card-multiMedia-img w-36 h-24"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="cxd-Card-multiMedia-flex"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="cxd-Card-heading"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="cxd-Card-meta"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="cxd-Card-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -407,13 +410,13 @@ exports[`Renderer:cards hightlight 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Card-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <i
-                      class="cxd-Card-highlight test-highlight-class"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
                     />
                     <span
-                      class="cxd-TplField fr-view label label-warning"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -422,10 +425,10 @@ exports[`Renderer:cards hightlight 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Card-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -433,13 +436,13 @@ exports[`Renderer:cards hightlight 1`] = `
                   </span>
                 </div>
                 <div
-                  class="cxd-Card-footer-wrapper"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="cxd-Card-secondary"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="cxd-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -447,30 +450,30 @@ exports[`Renderer:cards hightlight 1`] = `
                     </span>
                   </div>
                   <div
-                    class="cxd-Card-actions-wrapper"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="cxd-Card-actions"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="cxd-Card-action mr-4"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="cxd-Card-action mr-2.5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="cxd-DropDown  cxd-Card-action pr-1 flex"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -493,42 +496,43 @@ exports[`Renderer:cards hightlight 1`] = `
 exports[`Renderer:cards hightlight 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Card cxd-Card--link"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="cxd-Card-multiMedia--left"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="cxd-Card-multiMedia-img w-36 h-24"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="cxd-Card-multiMedia-flex"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="cxd-Card-heading"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="cxd-Card-meta"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="cxd-Card-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -537,13 +541,13 @@ exports[`Renderer:cards hightlight 2`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Card-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <i
-                      class="cxd-Card-highlight test-highlight-class"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
                     />
                     <span
-                      class="cxd-TplField fr-view label label-warning"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -552,10 +556,10 @@ exports[`Renderer:cards hightlight 2`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Card-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -563,13 +567,13 @@ exports[`Renderer:cards hightlight 2`] = `
                   </span>
                 </div>
                 <div
-                  class="cxd-Card-footer-wrapper"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="cxd-Card-secondary"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="cxd-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -577,30 +581,30 @@ exports[`Renderer:cards hightlight 2`] = `
                     </span>
                   </div>
                   <div
-                    class="cxd-Card-actions-wrapper"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="cxd-Card-actions"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="cxd-Card-action mr-4"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="cxd-Card-action mr-2.5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="cxd-DropDown  cxd-Card-action pr-1 flex"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -623,42 +627,43 @@ exports[`Renderer:cards hightlight 2`] = `
 exports[`Renderer:cards media 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Card cxd-Card--link"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="cxd-Card-multiMedia--left"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="cxd-Card-multiMedia-img w-36 h-24"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="cxd-Card-multiMedia-flex"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="cxd-Card-heading"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="cxd-Card-meta"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="cxd-Card-title"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -667,10 +672,10 @@ exports[`Renderer:cards media 1`] = `
                     </div>
                   </div>
                   <div
-                    class="cxd-Card-toolbar"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <span
-                      class="cxd-TplField fr-view label label-warning"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -679,10 +684,10 @@ exports[`Renderer:cards media 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Card-body"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -690,13 +695,13 @@ exports[`Renderer:cards media 1`] = `
                   </span>
                 </div>
                 <div
-                  class="cxd-Card-footer-wrapper"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="cxd-Card-secondary"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="cxd-TplField fr-view"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -704,30 +709,30 @@ exports[`Renderer:cards media 1`] = `
                     </span>
                   </div>
                   <div
-                    class="cxd-Card-actions-wrapper"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="cxd-Card-actions"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="cxd-Card-action mr-4"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="cxd-Card-action mr-2.5"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="cxd-DropDown  cxd-Card-action pr-1 flex"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"

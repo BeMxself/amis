@@ -3,51 +3,47 @@
 exports[`Renderer:dropdown-button 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened show"
   >
-    <div
-      class="amis-DropDown is-opened show"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--primary amis-Button--size-default"
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-      <ul
-        class="amis-DropDown-menu-root amis-DropDown-menu"
-        style="width: 0px;"
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
+        />
+      </span>
+    </button>
+    <ul
+      class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      style="width: 0px;"
+    >
+      <li
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
       >
-        <li
-          class="amis-DropDown-button"
+        <a
+          class=""
         >
-          <a
-            class=""
-          >
-            <span>
-              按钮
-            </span>
-          </a>
-        </li>
-        <li
-          class="amis-DropDown-button"
+          <span>
+            按钮
+          </span>
+        </a>
+      </li>
+      <li
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+      >
+        <a
+          class=""
         >
-          <a
-            class=""
-          >
-            <span>
-              按钮
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
+          <span>
+            按钮
+          </span>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 `;
@@ -55,24 +51,20 @@ exports[`Renderer:dropdown-button 1`] = `
 exports[`Renderer:dropdown-button 2`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown show"
   >
-    <div
-      class="amis-DropDown show"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--primary amis-Button--size-default"
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-    </div>
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
+        />
+      </span>
+    </button>
   </div>
 </div>
 `;
@@ -80,25 +72,21 @@ exports[`Renderer:dropdown-button 2`] = `
 exports[`Renderer:dropdown-button with block & size 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__DropDown--block"
   >
-    <div
-      class="amis-DropDown amis-DropDown--block"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--block __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--default amis-Button--block amis-Button--size-default"
+      下拉菜单
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        下拉菜单
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-    </div>
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
+        />
+      </span>
+    </button>
   </div>
 </div>
 `;
@@ -106,25 +94,21 @@ exports[`Renderer:dropdown-button with block & size 1`] = `
 exports[`Renderer:dropdown-button with block & size 2`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
   >
-    <div
-      class="amis-DropDown"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-lg"
     >
-      <button
-        class="amis-Button amis-Button--default amis-Button--size-lg"
+      下拉菜单
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        下拉菜单
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-    </div>
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
+        />
+      </span>
+    </button>
   </div>
 </div>
 `;
@@ -132,131 +116,127 @@ exports[`Renderer:dropdown-button with block & size 2`] = `
 exports[`Renderer:dropdown-button with buttons group 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
   >
-    <div
-      class="amis-DropDown is-opened"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--default amis-Button--size-default"
+      下拉菜单
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        下拉菜单
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-      <ul
-        class="amis-DropDown-menu-root amis-DropDown-menu"
-        style="width: 0px;"
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
+        />
+      </span>
+    </button>
+    <ul
+      class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      style="width: 0px;"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
       >
-        <div
-          class="amis-DropDown-menu"
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
         >
-          <li
-            class="amis-DropDown-groupTitle"
-          >
-            <i
-              class="fa fa-user m-r-xs fa fa-user"
-            />
-            <span>
-              RD
-            </span>
-          </li>
-          <li
-            class="amis-DropDown-button"
-          >
-            <a
-              class=""
-            >
-              <span>
-                前端FE
-              </span>
-            </a>
-          </li>
-          <li
-            class="amis-DropDown-button"
-          >
-            <a
-              class=""
-            >
-              <span>
-                后端RD
-              </span>
-            </a>
-          </li>
-        </div>
-        <div
-          class="amis-DropDown-menu"
-        >
-          <li
-            class="amis-DropDown-groupTitle"
-          >
-            <i
-              class="fa fa-user m-r-xs fa fa-user"
-            />
-            <span>
-              QA
-            </span>
-          </li>
-          <li
-            class="amis-DropDown-button"
-          >
-            <a
-              class=""
-            >
-              <span>
-                测试QA
-              </span>
-            </a>
-          </li>
-          <li
-            class="amis-DropDown-button is-disabled"
-          >
-            <a
-              class=""
-              disabled=""
-            >
-              <span>
-                交付测试DQA
-              </span>
-            </a>
-          </li>
-          <li
-            class="amis-DropDown-divider"
+          <i
+            class="fa fa-user m-r-xs fa fa-user"
           />
-        </div>
-        <div
-          class="amis-DropDown-menu"
+          <span>
+            RD
+          </span>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
         >
-          <li
-            class="amis-DropDown-groupTitle"
+          <a
+            class=""
           >
-            <i
-              class="fa fa-user m-r-xs fa fa-user"
-            />
             <span>
-              Manager
+              前端FE
             </span>
-          </li>
-          <li
-            class="amis-DropDown-button"
+          </a>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+        >
+          <a
+            class=""
           >
-            <a
-              class=""
-            >
-              <span>
-                项目经理PM
-              </span>
-            </a>
-          </li>
-        </div>
-      </ul>
-    </div>
+            <span>
+              后端RD
+            </span>
+          </a>
+        </li>
+      </div>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      >
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
+        >
+          <i
+            class="fa fa-user m-r-xs fa fa-user"
+          />
+          <span>
+            QA
+          </span>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+        >
+          <a
+            class=""
+          >
+            <span>
+              测试QA
+            </span>
+          </a>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button is-disabled"
+        >
+          <a
+            class=""
+            disabled=""
+          >
+            <span>
+              交付测试DQA
+            </span>
+          </a>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-divider"
+        />
+      </div>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      >
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
+        >
+          <i
+            class="fa fa-user m-r-xs fa fa-user"
+          />
+          <span>
+            Manager
+          </span>
+        </li>
+        <li
+          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+        >
+          <a
+            class=""
+          >
+            <span>
+              项目经理PM
+            </span>
+          </a>
+        </li>
+      </div>
+    </ul>
   </div>
 </div>
 `;
@@ -264,74 +244,71 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
 exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
           >
-            <div
-              class="amis-DropDown is-opened"
-            >
-              <button
-                class="amis-Button amis-Button--default amis-Button--size-default"
-              >
-                下拉菜单
-                <span
-                  class="amis-DropDown-caret"
-                >
-                  <icon-mock
-                    classname="icon icon-right-arrow-bold"
-                    icon="right-arrow-bold"
-                  />
-                </span>
-              </button>
-              <ul
-                class="amis-DropDown-menu-root amis-DropDown-menu"
-                style="width: 0px;"
-              >
-                <li
-                  class="amis-DropDown-button"
-                >
-                  <a
-                    class=""
-                  >
-                    <span>
-                      按钮1
-                    </span>
-                  </a>
-                </li>
-                <li
-                  class="amis-DropDown-button"
-                >
-                  <a
-                    class=""
-                  >
-                    <span>
-                      按钮2
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
             <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             >
-              <span>
-                outside
+              下拉菜单
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+              >
+                <icon-mock
+                  class="icon icon-right-arrow-bold"
+                  icon="right-arrow-bold"
+                />
               </span>
             </button>
+            <ul
+              class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+              style="width: 0px;"
+            >
+              <li
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+              >
+                <a
+                  class=""
+                >
+                  <span>
+                    按钮1
+                  </span>
+                </a>
+              </li>
+              <li
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+              >
+                <a
+                  class=""
+                >
+                  <span>
+                    按钮2
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
+          >
+            <span>
+              outside
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -342,20 +319,16 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 exports[`Renderer:dropdown-button with hideCaret 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
   >
-    <div
-      class="amis-DropDown"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--link amis-Button--size-default"
-      >
-        <i
-          class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
-        />
-        下拉菜单
-      </button>
-    </div>
+      <i
+        class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
+      />
+      下拉菜单
+    </button>
   </div>
 </div>
 `;
@@ -363,31 +336,27 @@ exports[`Renderer:dropdown-button with hideCaret 1`] = `
 exports[`Renderer:dropdown-button with icon & rightIcon 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
   >
-    <div
-      class="amis-DropDown"
+    <button
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
-      <button
-        class="amis-Button amis-Button--default amis-Button--size-default"
+      <i
+        class="fa fa-home icon m-r-xs fa fa-home"
+      />
+      下拉菜单
+      <i
+        class="fa fa-ellipsis-v icon m-l-xs fa fa-ellipsis-v"
+      />
+      <span
+        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
-        <i
-          class="fa fa-home icon m-r-xs fa fa-home"
+        <icon-mock
+          class="icon icon-right-arrow-bold"
+          icon="right-arrow-bold"
         />
-        下拉菜单
-        <i
-          class="fa fa-ellipsis-v icon m-l-xs fa fa-ellipsis-v"
-        />
-        <span
-          class="amis-DropDown-caret"
-        >
-          <icon-mock
-            classname="icon icon-right-arrow-bold"
-            icon="right-arrow-bold"
-          />
-        </span>
-      </button>
-    </div>
+      </span>
+    </button>
   </div>
 </div>
 `;

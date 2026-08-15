@@ -3,30 +3,31 @@
 exports[`Renderer: range with min & max & step by variables 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -35,10 +36,10 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -46,16 +47,16 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--normal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="range"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           滑块
@@ -64,32 +65,32 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="cxd-InputRange-wrap"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
                     >
                       <div
-                        class="cxd-InputRange-track cxd-InputRange-track--background"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
                       >
                         <div
-                          class="cxd-InputRange-track-active"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                           style="width: 10%; left: 0%;"
                         />
                         <div
-                          class="cxd-InputRange-handle"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                           style="left: 10%; z-index: 1;"
                         >
                           <div
-                            class="cxd-InputRange-handle-icon"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                           >
                             <icon-mock
-                              classname="icon icon-slider-handle"
+                              class="icon icon-slider-handle"
                               icon="slider-handle"
                             />
                           </div>
                           <div
-                            class="cxd-InputRange-label pos-top"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                           >
                             <span>
                               12
@@ -99,48 +100,48 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
                       </div>
                     </div>
                     <div
-                      class="cxd-InputRange-input"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
                     >
                       <div
-                        class="cxd-Number cxd-Number--borderFull"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
                       >
                         <div
-                          class="cxd-Number-handler-wrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                         >
                           <span
                             aria-disabled="false"
                             aria-label="Increase Value"
-                            class="cxd-Number-handler cxd-Number-handler-up"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                             role="button"
                             unselectable="on"
                           >
                             <span
-                              class="cxd-Number-handler-up-inner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                               unselectable="on"
                             />
                           </span>
                           <span
                             aria-disabled="false"
                             aria-label="Decrease Value"
-                            class="cxd-Number-handler cxd-Number-handler-down"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                             role="button"
                             unselectable="on"
                           >
                             <span
-                              class="cxd-Number-handler-down-inner"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                               unselectable="on"
                             />
                           </span>
                         </div>
                         <div
-                          class="cxd-Number-input-wrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                         >
                           <input
                             aria-valuemax="66"
                             aria-valuemin="6"
                             aria-valuenow="12"
                             autocomplete="off"
-                            class="cxd-Number-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                             role="spinbutton"
                             step="2"
                             value="12"
@@ -149,10 +150,10 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
                       </div>
                     </div>
                     <a
-                      class="cxd-InputRange-clear is-active"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear is-active"
                     >
                       <icon-mock
-                        classname="icon icon-close"
+                        class="icon icon-close"
                         icon="close"
                       />
                     </a>
@@ -161,13 +162,13 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -187,17 +188,17 @@ exports[`Renderer: range with min & max & step by variables 1`] = `
 exports[`Renderer:range with marks 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -206,10 +207,10 @@ exports[`Renderer:range with marks 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -217,55 +218,55 @@ exports[`Renderer:range with marks 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 0%; left: 0%;"
                 />
                 <div>
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 20%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 40%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 60%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 80%;"
                   />
                 </div>
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 0%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       0
@@ -273,7 +274,7 @@ exports[`Renderer:range with marks 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-InputRange-marks"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-marks"
                 >
                   <div
                     style="left: 0%; width: 10%;"
@@ -331,17 +332,17 @@ exports[`Renderer:range with marks 1`] = `
 exports[`Renderer:range with min & max & step & joinValues 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -350,10 +351,10 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -361,56 +362,56 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="1"
                     aria-valuemin="0"
                     aria-valuenow="0.2"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="0.1"
                     value="0.2"
@@ -419,29 +420,29 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 60%; left: 20%;"
                 />
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 20%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       0.2
@@ -449,19 +450,19 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 80%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       0.8
@@ -471,48 +472,48 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="1"
                     aria-valuemin="0"
                     aria-valuenow="0.8"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="0.1"
                     value="0.8"
@@ -521,10 +522,10 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
               </div>
             </div>
             <a
-              class="cxd-InputRange-clear"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear"
             >
               <icon-mock
-                classname="icon icon-close"
+                class="icon icon-close"
                 icon="close"
               />
             </a>
@@ -533,13 +534,13 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -555,17 +556,17 @@ exports[`Renderer:range with min & max & step & joinValues 1`] = `
 exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -574,10 +575,10 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -585,56 +586,56 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="100"
                     aria-valuemin="0"
                     aria-valuenow="7"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="1"
                     value="7"
@@ -643,29 +644,29 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 6%; left: 7%;"
                 />
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 7%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       7
@@ -673,19 +674,19 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 13%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       13
@@ -695,48 +696,48 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="100"
                     aria-valuemin="0"
                     aria-valuenow="13"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="1"
                     value="13"
@@ -747,18 +748,18 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 7--13
               </span>
@@ -774,17 +775,17 @@ exports[`Renderer:range with multiple & clearable & delimiter 1`] = `
 exports[`Renderer:range with showInput & showInputUnit 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -793,10 +794,10 @@ exports[`Renderer:range with showInput & showInputUnit 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -804,37 +805,37 @@ exports[`Renderer:range with showInput & showInputUnit 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 7%; left: 0%;"
                 />
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 7%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       7个
@@ -844,48 +845,48 @@ exports[`Renderer:range with showInput & showInputUnit 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-input cxd-InputRange-input-with-unit"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input __AMIS_COMPONENT_CLASS_PREFIX__InputRange-input-with-unit"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="100"
                     aria-valuemin="0"
                     aria-valuenow="7"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="1"
                     value="7"
@@ -893,16 +894,16 @@ exports[`Renderer:range with showInput & showInputUnit 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-InputRange-unit cxd-Select"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-unit __AMIS_COMPONENT_CLASS_PREFIX__Select"
               >
                 个
               </div>
             </div>
             <a
-              class="cxd-InputRange-clear is-active"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear is-active"
             >
               <icon-mock
-                classname="icon icon-close"
+                class="icon icon-close"
                 icon="close"
               />
             </a>
@@ -917,17 +918,17 @@ exports[`Renderer:range with showInput & showInputUnit 1`] = `
 exports[`Renderer:range with showSteps 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -936,10 +937,10 @@ exports[`Renderer:range with showSteps 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -947,75 +948,75 @@ exports[`Renderer:range with showSteps 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 0%; left: 0%;"
                 />
                 <div>
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 10%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 20%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 30%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 40%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 50%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 60%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 70%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 80%;"
                   />
                   <span
-                    class="cxd-InputRange-track-dot"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-dot"
                     style="left: 90%;"
                   />
                 </div>
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 0%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-top"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                   >
                     <span>
                       0
@@ -1025,48 +1026,48 @@ exports[`Renderer:range with showSteps 1`] = `
               </div>
             </div>
             <div
-              class="cxd-InputRange-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
             >
               <div
-                class="cxd-Number cxd-Number--borderFull"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="cxd-Number-handler-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="cxd-Number-handler cxd-Number-handler-up"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-up-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="true"
                     aria-label="Decrease Value"
-                    class="cxd-Number-handler cxd-Number-handler-down cxd-Number-handler-down-disabled"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-disabled"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="cxd-Number-handler-down-inner"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="cxd-Number-input-wrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuemax="10"
                     aria-valuemin="0"
                     aria-valuenow="0"
                     autocomplete="off"
-                    class="cxd-Number-input"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
                     role="spinbutton"
                     step="1"
                     value="0"
@@ -1075,10 +1076,10 @@ exports[`Renderer:range with showSteps 1`] = `
               </div>
             </div>
             <a
-              class="cxd-InputRange-clear"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear"
             >
               <icon-mock
-                classname="icon icon-close"
+                class="icon icon-close"
                 icon="close"
               />
             </a>
@@ -1093,17 +1094,17 @@ exports[`Renderer:range with showSteps 1`] = `
 exports[`Renderer:range with tooltipVisible & tooltipPlacement 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -1112,10 +1113,10 @@ exports[`Renderer:range with tooltipVisible & tooltipPlacement 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1123,37 +1124,37 @@ exports[`Renderer:range with tooltipVisible & tooltipPlacement 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="range"
           data-role="form-item"
         >
           <div
-            class="cxd-RangeControl cxd-InputRange cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-InputRange-wrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
             >
               <div
-                class="cxd-InputRange-track cxd-InputRange-track--background"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
               >
                 <div
-                  class="cxd-InputRange-track-active"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                   style="width: 41%; left: 0%;"
                 />
                 <div
-                  class="cxd-InputRange-handle"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
                   style="left: 41%; z-index: 1;"
                 >
                   <div
-                    class="cxd-InputRange-handle-icon"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                   >
                     <icon-mock
-                      classname="icon icon-slider-handle"
+                      class="icon icon-slider-handle"
                       icon="slider-handle"
                     />
                   </div>
                   <div
-                    class="cxd-InputRange-label pos-right cxd-InputRange-label-visible"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-right __AMIS_COMPONENT_CLASS_PREFIX__InputRange-label-visible"
                   >
                     <span>
                       41

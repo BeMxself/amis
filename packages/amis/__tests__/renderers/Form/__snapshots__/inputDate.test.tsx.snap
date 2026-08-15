@@ -3,17 +3,17 @@
 exports[`Renderer:inputDate 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:inputDate 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:inputDate 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   date
@@ -51,32 +51,32 @@ exports[`Renderer:inputDate 1`] = `
             </span>
           </label>
           <div
-            class="cxd-DateControl is-date cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-DatePicker"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
               tabindex="0"
             >
               <input
                 autocomplete="off"
-                class="cxd-DatePicker-input"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                 placeholder="请选择日期"
                 type="text"
                 value="2019-06-07"
               />
               <a
-                class="cxd-DatePicker-clear"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
               >
                 <icon-mock
-                  classname="icon icon-input-clear"
+                  class="icon icon-input-clear"
                   icon="input-clear"
                 />
               </a>
               <a
-                class="cxd-DatePicker-toggler"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
               >
                 <icon-mock
-                  classname="icon icon-date"
+                  class="icon icon-date"
                   icon="date"
                 />
               </a>
@@ -92,30 +92,31 @@ exports[`Renderer:inputDate 1`] = `
 exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -124,10 +125,10 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -135,16 +136,16 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date1"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -153,35 +154,35 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-DateControl is-date cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-DatePicker"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="cxd-DatePicker-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="cxd-DatePicker-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <a
-                          class="cxd-DatePicker-toggler"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
-                            classname="icon icon-date"
+                            class="icon icon-date"
                             icon="date"
                           />
                         </a>
@@ -190,26 +191,26 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date1"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-static"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="cxd-Form-control"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -218,16 +219,16 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date2"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -236,35 +237,35 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-DateControl is-date cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-DatePicker"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="cxd-DatePicker-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="cxd-DatePicker-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <a
-                          class="cxd-DatePicker-toggler"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
-                            classname="icon icon-date"
+                            class="icon icon-date"
                             icon="date"
                           />
                         </a>
@@ -273,26 +274,26 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date2"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-static"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="cxd-Form-control"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -303,13 +304,13 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -329,30 +330,31 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
 exports[`Renderer:inputDate with clearable: clearable false 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -361,10 +363,10 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -372,16 +374,16 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -390,27 +392,27 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-DateControl is-date cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-DatePicker"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="cxd-DatePicker-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="2022-08-19"
                         />
                         <a
-                          class="cxd-DatePicker-toggler"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
-                            classname="icon icon-date"
+                            class="icon icon-date"
                             icon="date"
                           />
                         </a>
@@ -421,13 +423,13 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -447,30 +449,31 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
 exports[`Renderer:inputDate with clearable: clearable true 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -479,10 +482,10 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -490,16 +493,16 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -508,27 +511,27 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-DateControl is-date cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-DatePicker"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="cxd-DatePicker-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value=""
                         />
                         <a
-                          class="cxd-DatePicker-toggler"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
-                            classname="icon icon-date"
+                            class="icon icon-date"
                             icon="date"
                           />
                         </a>
@@ -537,26 +540,26 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-static"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="cxd-Form-control"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           <span
                             class="text-muted"
@@ -571,13 +574,13 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -597,30 +600,31 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
 exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="cxd-Panel-heading"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="cxd-Panel-title"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="cxd-TplField fr-view"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -629,10 +633,10 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
               </h3>
             </div>
             <div
-              class="cxd-Panel-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="cxd-Form cxd-Form--horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -640,16 +644,16 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                   type="submit"
                 />
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="cxd-TplField fr-view"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -658,35 +662,35 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-DateControl is-date cxd-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="cxd-DatePicker"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="cxd-DatePicker-input"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="cxd-DatePicker-clear"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
-                            classname="icon icon-input-clear"
+                            class="icon icon-input-clear"
                             icon="input-clear"
                           />
                         </a>
                         <a
-                          class="cxd-DatePicker-toggler"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
-                            classname="icon icon-date"
+                            class="icon icon-date"
                             icon="date"
                           />
                         </a>
@@ -695,26 +699,26 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="cxd-Form-item cxd-Form-item--horizontal"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="cxd-Form-label cxd-Form-itemColumn--normal"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="cxd-Form-value"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="cxd-Form-static"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="cxd-Form-control"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="cxd-PlainField"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -725,13 +729,13 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
               </form>
             </div>
             <div
-              class="cxd-Panel-footerWrap"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="cxd-Panel-btnToolbar cxd-Panel-footer"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

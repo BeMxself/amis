@@ -3,7 +3,7 @@
 exports[`Renderer:link 1`] = `
 <div>
   <a
-    class="cxd-Link show"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Link show"
     href="https://www.baidu.com"
     target="_blank"
   >
@@ -15,12 +15,12 @@ exports[`Renderer:link 1`] = `
 exports[`Renderer:link with disabled 1`] = `
 <div>
   <a
-    class="cxd-Link is-disabled"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Link is-disabled"
     href="https://www.baidu.com"
     target="_blank"
   >
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         百度一下
@@ -33,12 +33,12 @@ exports[`Renderer:link with disabled 1`] = `
 exports[`Renderer:link with href & blank & htmlTarget 1`] = `
 <div>
   <a
-    class="cxd-Link"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Link"
     href="https://www.baidu.com"
     target="_self"
   >
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         百度一下
@@ -51,23 +51,23 @@ exports[`Renderer:link with href & blank & htmlTarget 1`] = `
 exports[`Renderer:link with title & icon & rightIcon 1`] = `
 <div>
   <a
-    class="cxd-Link"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Link"
     href="https://www.baidu.com"
     target="_blank"
     title="linkTitleForTest"
   >
     <i
-      class="fa fa-search cxd-Link-icon fa fa-search"
+      class="fa fa-search __AMIS_COMPONENT_CLASS_PREFIX__Link-icon fa fa-search"
     />
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         百度一下
       </span>
     </span>
     <i
-      class="fa fa-cloud cxd-Link-icon fa fa-cloud"
+      class="fa fa-cloud __AMIS_COMPONENT_CLASS_PREFIX__Link-icon fa fa-cloud"
     />
   </a>
 </div>

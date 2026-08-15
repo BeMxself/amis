@@ -3,30 +3,31 @@
 exports[`Renderer:gridnav 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-GridNav  cxd-GridNav-top u-hairline"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__GridNav __AMIS_COMPONENT_CLASS_PREFIX__GridNav-top u-hairline"
           >
             <div
               class=""
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -34,7 +35,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航1
                 </span>
@@ -45,10 +46,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -56,7 +57,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航2
                 </span>
@@ -67,10 +68,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -78,7 +79,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航3
                 </span>
@@ -89,10 +90,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -100,7 +101,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航4
                 </span>
@@ -108,20 +109,20 @@ exports[`Renderer:gridnav 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Divider cxd-Divider--solid cxd-Divider--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
           />
           <div
-            class="cxd-GridNav  cxd-GridNav-top u-hairline"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__GridNav __AMIS_COMPONENT_CLASS_PREFIX__GridNav-top u-hairline"
           >
             <div
               class=""
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -129,7 +130,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航1
                 </span>
@@ -140,10 +141,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -151,7 +152,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航2
                 </span>
@@ -162,10 +163,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -173,7 +174,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航3
                 </span>
@@ -184,10 +185,10 @@ exports[`Renderer:gridnav 1`] = `
               style="flex-basis: 25%;"
             >
               <div
-                class="cxd-GridNavItem-content  cxd-GridNavItem-content--vertical cxd-GridNavItem-content--center cxd-GridNavItem-content--border u-hairline"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--vertical __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--center __AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-content--border u-hairline"
               >
                 <div
-                  class="cxd-GridNavItem-image"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-image"
                 >
                   <img
                     src="https://internal-amis-res.cdn.bcebos.com/images/icon-1.png"
@@ -195,7 +196,7 @@ exports[`Renderer:gridnav 1`] = `
                   />
                 </div>
                 <span
-                  class="cxd-GridNavItem-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__GridNavItem-text"
                 >
                   导航4
                 </span>

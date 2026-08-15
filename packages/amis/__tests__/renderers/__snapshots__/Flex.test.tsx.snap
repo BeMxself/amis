@@ -3,12 +3,12 @@
 exports[`Renderer:flex 1`] = `
 <div>
   <div
-    class="cxd-Flex"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
     data-role="container"
     style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; align-content: center;"
   >
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       style="background-color: rgb(26, 92, 255); width: 100px; height: 50px; margin: 5px;"
     >
       <span>
@@ -18,7 +18,7 @@ exports[`Renderer:flex 1`] = `
       </span>
     </span>
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       style="background-color: rgb(70, 201, 58); width: 100px; height: 50px; margin: 5px;"
     >
       <span>
@@ -28,7 +28,7 @@ exports[`Renderer:flex 1`] = `
       </span>
     </span>
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
       style="background-color: rgb(255, 71, 87); width: 100px; height: 50px; margin: 5px;"
     >
       <span>
@@ -44,32 +44,33 @@ exports[`Renderer:flex 1`] = `
 exports[`Renderer:flex justify 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               center
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -79,7 +80,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -89,7 +90,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -100,19 +101,19 @@ exports[`Renderer:flex justify 1`] = `
             </span>
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               flex-start
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: flex-start; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -122,7 +123,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -132,7 +133,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -143,19 +144,19 @@ exports[`Renderer:flex justify 1`] = `
             </span>
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               flex-end
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: flex-end; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -165,7 +166,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -175,7 +176,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -186,19 +187,19 @@ exports[`Renderer:flex justify 1`] = `
             </span>
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               space-around
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: space-around; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -208,7 +209,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); margin: 5px;"
             >
               <span>
@@ -218,7 +219,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -229,19 +230,19 @@ exports[`Renderer:flex justify 1`] = `
             </span>
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               space-between
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: space-between; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -251,7 +252,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -261,7 +262,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -272,19 +273,19 @@ exports[`Renderer:flex justify 1`] = `
             </span>
           </div>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               space-evenly
             </span>
           </span>
           <div
-            class="cxd-Flex"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Flex"
             data-role="container"
             style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-content: center;"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(26, 92, 255); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -294,7 +295,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(70, 201, 58); width: 100px; height: 30px; margin: 5px;"
             >
               <span>
@@ -304,7 +305,7 @@ exports[`Renderer:flex justify 1`] = `
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               style="background-color: rgb(255, 71, 87); width: 100px; height: 30px; margin: 5px;"
             >
               <span>

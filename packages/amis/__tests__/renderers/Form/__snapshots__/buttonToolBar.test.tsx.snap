@@ -3,78 +3,74 @@
 exports[`Renderer:button-toolbar 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
-          >
-            <span>
-              The form
-            </span>
+          <span>
+            The form
           </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
       >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
           <div
-            class="amis-Form-item amis-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="amis-Form-item amis-Form-item--normal"
-              data-role="form-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonToolbar __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-ButtonToolbar amis-Form-control"
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="button"
               >
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="button"
-                >
-                  <span>
-                    OpenDialog
-                  </span>
-                </button>
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="submit"
-                >
-                  <span>
-                    Submit
-                  </span>
-                </button>
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="reset"
-                >
-                  <span>
-                    Reset
-                  </span>
-                </button>
-              </div>
+                <span>
+                  OpenDialog
+                </span>
+              </button>
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="submit"
+              >
+                <span>
+                  Submit
+                </span>
+              </button>
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="reset"
+              >
+                <span>
+                  Reset
+                </span>
+              </button>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -83,116 +79,112 @@ exports[`Renderer:button-toolbar 1`] = `
 exports[`Renderer:button-toolbar 2`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
-          >
-            <span>
-              The form
-            </span>
+          <span>
+            The form
           </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
       >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-role="form-item"
         >
-          <input
-            style="display: none;"
-            type="submit"
-          />
           <div
-            class="amis-Form-item amis-Form-item--normal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="amis-Form-item amis-Form-item--normal"
-              data-role="form-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonToolbar __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
-              <div
-                class="amis-ButtonToolbar amis-Form-control"
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="button"
               >
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="button"
-                >
-                  <span>
-                    OpenDialog
-                  </span>
-                </button>
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="submit"
-                >
-                  <span>
-                    Submit
-                  </span>
-                </button>
-                <button
-                  class="amis-Button amis-Button--default amis-Button--size-default"
-                  type="reset"
-                >
-                  <span>
-                    Reset
-                  </span>
-                </button>
-              </div>
+                <span>
+                  OpenDialog
+                </span>
+              </button>
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="submit"
+              >
+                <span>
+                  Submit
+                </span>
+              </button>
+              <button
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                type="reset"
+              >
+                <span>
+                  Reset
+                </span>
+              </button>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Modal amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Modal-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="amis-Modal-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="amis-Modal-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="amis-Modal-close"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
           <icon-mock
-            classname="icon icon-close"
+            class="icon icon-close"
             icon="close"
           />
         </a>
         <div
-          class="amis-Modal-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           提示
         </div>
       </div>
       <div
-        class="amis-Modal-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <span
-          class="amis-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             对，你刚点击了！
@@ -200,10 +192,10 @@ exports[`Renderer:button-toolbar 2`] = `
         </span>
       </div>
       <div
-        class="amis-Modal-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -211,7 +203,7 @@ exports[`Renderer:button-toolbar 2`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>

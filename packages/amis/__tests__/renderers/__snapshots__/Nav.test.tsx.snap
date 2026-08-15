@@ -3,49 +3,49 @@
 exports[`Renderer:Nav 1`] = `
 <div>
   <div
-    class="cxd-Nav w-md"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
   >
     <ul
-      class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item cxd-Nav-Menu-item-selected"
-          data-menu-id="rc-menu-uuid-test-1"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
+          data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="cxd-Badge"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="cxd-Nav-Menu-item-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="1"
                 title="Nav 1"
               >
                 <i
-                  class="cxd-Nav-Menu-item-icon"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                 >
                   <img
-                    class="cxd-Icon mr-2"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Icon mr-2"
                     src="https://suda.cdn.bcebos.com/images%2F2021-01%2Fdiamond.svg"
                   />
                 </i>
                 <span
-                  class="cxd-Nav-Menu-item-label"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 1"
                 >
                   Nav 1
@@ -56,42 +56,42 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item"
-          data-menu-id="rc-menu-uuid-test-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          data-menu-id="rc-menu-uuid-2"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="cxd-Badge"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="cxd-Nav-Menu-item-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="1"
                 title="Nav 2"
               >
                 <span
-                  class="cxd-Nav-Menu-item-label"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 2"
                 >
                   Nav 2
                 </span>
               </a>
               <div
-                class="cxd-Badge-ribbon-out cxd-Badge-ribbon-out--top-left"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
                 style="width: 21.970562748477143px; height: 21.970562748477143px;"
               >
                 <span
-                  class="cxd-Badge-ribbon cxd-Badge-ribbon--top-left cxd-Badge--danger"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __AMIS_COMPONENT_CLASS_PREFIX__Badge--danger"
                   style="height: 12px; line-height: 12px; font-size: 12px;"
                 >
                   HOT
@@ -102,42 +102,42 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item"
-          data-menu-id="rc-menu-uuid-test-3"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          data-menu-id="rc-menu-uuid-3"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="cxd-Badge"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="cxd-Nav-Menu-item-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="2"
                 title="Nav 3"
               >
                 <span
-                  class="cxd-Nav-Menu-item-label"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 3"
                 >
                   Nav 3
                 </span>
               </a>
               <div
-                class="cxd-Badge-ribbon-out cxd-Badge-ribbon-out--top-left"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
                 style="width: 21.970562748477143px; height: 21.970562748477143px;"
               >
                 <span
-                  class="cxd-Badge-ribbon cxd-Badge-ribbon--top-left cxd-Badge--success"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __AMIS_COMPONENT_CLASS_PREFIX__Badge--success"
                   style="height: 12px; line-height: 12px; font-size: 12px;"
                 >
                   SUC
@@ -148,31 +148,31 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 3;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item"
-          data-menu-id="rc-menu-uuid-test-4"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          data-menu-id="rc-menu-uuid-4"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="cxd-Badge"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="cxd-Nav-Menu-item-link"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="3"
                 title="外部地址"
               >
                 <span
-                  class="cxd-Nav-Menu-item-label"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="外部地址"
                 >
                   外部地址
@@ -188,19 +188,19 @@ exports[`Renderer:Nav 1`] = `
       style="display: none;"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 3;"
       />
     </div>
@@ -211,20 +211,21 @@ exports[`Renderer:Nav 1`] = `
 exports[`Renderer:Nav with Dialog 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -241,58 +242,59 @@ exports[`Renderer:Nav with Dialog 1`] = `
 exports[`Renderer:Nav with defer 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="cxd-Nav-Menu-item-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -302,29 +304,29 @@ exports[`Renderer:Nav with defer 1`] = `
                 </li>
               </ul>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-2-popup"
+                  aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
@@ -332,44 +334,44 @@ exports[`Renderer:Nav with defer 1`] = `
                     </a>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                 </div>
                 <ul
-                  class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
-                  id="rc-menu-uuid-test-2-popup"
+                  id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
-                      aria-controls="rc-menu-uuid-test-3-popup"
+                      aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="cxd-Nav-Menu-submenu-title"
-                      data-menu-id="rc-menu-uuid-test-3"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
@@ -377,38 +379,38 @@ exports[`Renderer:Nav with defer 1`] = `
                         </a>
                       </div>
                       <span
-                        class="cxd-Nav-Menu-submenu-arrow"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
-                          classname="icon icon-right-arrow-bold"
+                          class="icon icon-right-arrow-bold"
                           icon="right-arrow-bold"
                         />
                       </span>
                     </div>
                   </li>
                   <ul
-                    class="cxd-Nav-Menu-item-tooltip-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="cxd-Nav-Menu-item"
-                      data-menu-id="rc-menu-uuid-test-5"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
@@ -420,30 +422,30 @@ exports[`Renderer:Nav with defer 1`] = `
                 </ul>
               </li>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-6-popup"
+                  aria-controls="rc-menu-uuid-6-popup"
                   aria-disabled="false"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
@@ -451,43 +453,43 @@ exports[`Renderer:Nav with defer 1`] = `
                     </a>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                 </div>
                 <ul
-                  class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
-                  id="rc-menu-uuid-test-6-popup"
+                  id="rc-menu-uuid-6-popup"
                   role="menu"
                 >
                   <ul
-                    class="cxd-Nav-Menu-item-tooltip-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 0;"
                   >
                     <li
                       aria-disabled="false"
-                      class="cxd-Nav-Menu-item"
-                      data-menu-id="rc-menu-uuid-test-7"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      data-menu-id="rc-menu-uuid-7"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="3.1"
                           title="Nav 3-1"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 3-1"
                           >
                             Nav 3-1
@@ -497,28 +499,28 @@ exports[`Renderer:Nav with defer 1`] = `
                     </li>
                   </ul>
                   <ul
-                    class="cxd-Nav-Menu-item-tooltip-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="cxd-Nav-Menu-item"
-                      data-menu-id="rc-menu-uuid-test-8"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      data-menu-id="rc-menu-uuid-8"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="3.2"
                           title="Nav 3-2"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 3-2"
                           >
                             Nav 3-2
@@ -535,23 +537,23 @@ exports[`Renderer:Nav with defer 1`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
@@ -566,58 +568,59 @@ exports[`Renderer:Nav with defer 1`] = `
 exports[`Renderer:Nav with icons 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="cxd-Nav-Menu-item-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -627,29 +630,29 @@ exports[`Renderer:Nav with icons 1`] = `
                 </li>
               </ul>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-2-popup"
+                  aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
@@ -657,75 +660,75 @@ exports[`Renderer:Nav with icons 1`] = `
                     </a>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                 </div>
                 <ul
-                  class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
-                  id="rc-menu-uuid-test-2-popup"
+                  id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
-                      aria-controls="rc-menu-uuid-test-3-popup"
+                      aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="cxd-Nav-Menu-submenu-title"
-                      data-menu-id="rc-menu-uuid-test-3"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <i
-                            class="cxd-Nav-Menu-item-icon"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                           >
                             <icon-mock
-                              classname="mr-2 icon-star"
+                              class="mr-2 icon-star"
                               icon="star"
                             />
                             <icon-mock
-                              classname="mr-2 icon-search"
+                              class="mr-2 icon-search"
                               icon="search"
                             />
                           </i>
                           <span
-                            class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                           <i
-                            class="cxd-Nav-Menu-item-icon-after"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon-after"
                           >
                             <img
-                              class="cxd-Icon ml-2"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Icon ml-2"
                               src="https://suda.cdn.bcebos.com/images%2F2021-01%2Fdiamond.svg"
                             />
                           </i>
                         </a>
                       </div>
                       <span
-                        class="cxd-Nav-Menu-submenu-arrow"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
-                          classname="icon icon-right-arrow-bold"
+                          class="icon icon-right-arrow-bold"
                           icon="right-arrow-bold"
                         />
                       </span>
@@ -739,11 +742,11 @@ exports[`Renderer:Nav with icons 1`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
             </div>
@@ -758,73 +761,74 @@ exports[`Renderer:Nav with icons 1`] = `
 exports[`Renderer:Nav with itemActions 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav w-md"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
           >
             <ul
-              class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-disabled cxd-Nav-Menu-expand-before"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-disabled __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="true"
-                  class="cxd-Nav-Menu-item cxd-Nav-Menu-item-disabled"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="cxd-Nav-Menu-item-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <i
                         class="cloud fa fa-cloud"
                       />
                       <div
-                        class="cxd-DropDown "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -836,42 +840,42 @@ exports[`Renderer:Nav with itemActions 1`] = `
                 </li>
               </ul>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open cxd-Nav-Menu-submenu-disabled"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-2-popup"
+                  aria-controls="rc-menu-uuid-2-popup"
                   aria-disabled="true"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="cxd-DropDown "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -881,57 +885,57 @@ exports[`Renderer:Nav with itemActions 1`] = `
                     </div>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                 </div>
                 <ul
-                  class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
-                  id="rc-menu-uuid-test-2-popup"
+                  id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-disabled"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                     role="none"
                   >
                     <div
-                      aria-controls="rc-menu-uuid-test-3-popup"
+                      aria-controls="rc-menu-uuid-3-popup"
                       aria-disabled="true"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="cxd-Nav-Menu-submenu-title"
-                      data-menu-id="rc-menu-uuid-test-3"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                         </a>
                         <div
-                          class="cxd-Nav-Menu-item-extra"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="cxd-DropDown "
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -941,50 +945,50 @@ exports[`Renderer:Nav with itemActions 1`] = `
                         </div>
                       </div>
                       <span
-                        class="cxd-Nav-Menu-submenu-arrow"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
-                          classname="icon icon-right-arrow-bold"
+                          class="icon icon-right-arrow-bold"
                           icon="right-arrow-bold"
                         />
                       </span>
                     </div>
                   </li>
                   <ul
-                    class="cxd-Nav-Menu-item-tooltip-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="true"
-                      class="cxd-Nav-Menu-item cxd-Nav-Menu-item-disabled"
-                      data-menu-id="rc-menu-uuid-test-5"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
+                      data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-label"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
                           </span>
                         </a>
                         <div
-                          class="cxd-Nav-Menu-item-extra"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="cxd-DropDown "
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -998,42 +1002,42 @@ exports[`Renderer:Nav with itemActions 1`] = `
                 </ul>
               </li>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-disabled"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-6-popup"
+                  aria-controls="rc-menu-uuid-6-popup"
                   aria-disabled="true"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="cxd-DropDown "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1043,10 +1047,10 @@ exports[`Renderer:Nav with itemActions 1`] = `
                     </div>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
@@ -1058,27 +1062,27 @@ exports[`Renderer:Nav with itemActions 1`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
             <div
-              class="cxd-Spinner-overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
             />
             <div
-              class="cxd-Spinner cxd-Spinner--overlay in"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
               data-testid="spinner"
             >
               <div
-                class="cxd-Spinner-icon cxd-Spinner-icon--default"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -1092,80 +1096,81 @@ exports[`Renderer:Nav with itemActions 1`] = `
 exports[`Renderer:Nav with itemActions 2`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav w-md"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
           >
             <ul
-              class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-dragBar"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <i
-                        class="cxd-Nav-Menu-item-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <i
                         class="cloud fa fa-cloud"
                       />
                       <div
-                        class="cxd-DropDown  is-opened"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1177,48 +1182,48 @@ exports[`Renderer:Nav with itemActions 2`] = `
                 </li>
               </ul>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-2-popup"
+                  aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-dragBar"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="cxd-DropDown "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1228,63 +1233,63 @@ exports[`Renderer:Nav with itemActions 2`] = `
                     </div>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
                 </div>
                 <ul
-                  class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
-                  id="rc-menu-uuid-test-2-popup"
+                  id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
-                      aria-controls="rc-menu-uuid-test-3-popup"
+                      aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="cxd-Nav-Menu-submenu-title"
-                      data-menu-id="rc-menu-uuid-test-3"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-dragBar"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                             draggable="true"
                           >
                             <icon-mock />
                           </span>
                           <span
-                            class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                         </a>
                         <div
-                          class="cxd-Nav-Menu-item-extra"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="cxd-DropDown "
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1294,57 +1299,57 @@ exports[`Renderer:Nav with itemActions 2`] = `
                         </div>
                       </div>
                       <span
-                        class="cxd-Nav-Menu-submenu-arrow"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
-                          classname="icon icon-right-arrow-bold"
+                          class="icon icon-right-arrow-bold"
                           icon="right-arrow-bold"
                         />
                       </span>
                     </div>
                   </li>
                   <ul
-                    class="cxd-Nav-Menu-item-tooltip-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="cxd-Nav-Menu-item"
-                      data-menu-id="rc-menu-uuid-test-5"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="cxd-Nav-Menu-item-wrap"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="cxd-Nav-Menu-item-link"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="cxd-Nav-Menu-item-dragBar"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                             draggable="true"
                           >
                             <icon-mock />
                           </span>
                           <span
-                            class="cxd-Nav-Menu-item-label"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
                           </span>
                         </a>
                         <div
-                          class="cxd-Nav-Menu-item-extra"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="cxd-DropDown "
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1358,48 +1363,48 @@ exports[`Renderer:Nav with itemActions 2`] = `
                 </ul>
               </li>
               <li
-                class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                 role="none"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-6-popup"
+                  aria-controls="rc-menu-uuid-6-popup"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-6"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-dragBar"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <span
-                        class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
                       </span>
                     </a>
                     <div
-                      class="cxd-Nav-Menu-item-extra"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="cxd-DropDown "
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="cxd-Button cxd-Button--link cxd-Button--size-default"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1409,10 +1414,10 @@ exports[`Renderer:Nav with itemActions 2`] = `
                     </div>
                   </div>
                   <span
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
+                      class="icon icon-right-arrow-bold"
                       icon="right-arrow-bold"
                     />
                   </span>
@@ -1424,15 +1429,15 @@ exports[`Renderer:Nav with itemActions 2`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
@@ -1447,45 +1452,45 @@ exports[`Renderer:Nav with itemActions 2`] = `
 exports[`Renderer:Nav with multi-level 1`] = `
 <div>
   <div
-    class="cxd-Nav w-md"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
   >
     <ul
-      class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item cxd-Nav-Menu-item-selected"
-          data-menu-id="rc-menu-uuid-test-1"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
+          data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="1"
               title="Nav 1"
             >
               <i
-                class="cxd-Nav-Menu-item-icon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
               >
                 <i
                   class="fa fa-user mr-2 fa fa-user"
                 />
               </i>
               <span
-                class="cxd-Nav-Menu-item-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 1"
               >
                 Nav 1
@@ -1495,29 +1500,29 @@ exports[`Renderer:Nav with multi-level 1`] = `
         </li>
       </ul>
       <li
-        class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-open"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
         role="none"
       >
         <div
-          aria-controls="rc-menu-uuid-test-2-popup"
+          aria-controls="rc-menu-uuid-2-popup"
           aria-expanded="true"
           aria-haspopup="true"
-          class="cxd-Nav-Menu-submenu-title"
-          data-menu-id="rc-menu-uuid-test-2"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+          data-menu-id="rc-menu-uuid-2"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="2"
             >
               <span
-                class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                 title="Nav 2"
               >
                 Nav 2
@@ -1525,44 +1530,44 @@ exports[`Renderer:Nav with multi-level 1`] = `
             </a>
           </div>
           <span
-            class="cxd-Nav-Menu-submenu-arrow"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
           >
             <icon-mock
-              classname="icon icon-right-arrow-bold"
+              class="icon icon-right-arrow-bold"
               icon="right-arrow-bold"
             />
           </span>
         </div>
         <ul
-          class="cxd-Nav-Menu cxd-Nav-Menu-sub cxd-Nav-Menu-inline"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
           data-menu-list="true"
-          id="rc-menu-uuid-test-2-popup"
+          id="rc-menu-uuid-2-popup"
           role="menu"
         >
           <li
-            class="cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-inline cxd-Nav-Menu-submenu"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
             role="none"
           >
             <div
-              aria-controls="rc-menu-uuid-test-3-popup"
+              aria-controls="rc-menu-uuid-3-popup"
               aria-expanded="false"
               aria-haspopup="true"
-              class="cxd-Nav-Menu-submenu-title"
-              data-menu-id="rc-menu-uuid-test-3"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+              data-menu-id="rc-menu-uuid-3"
               role="menuitem"
               style="padding-left: 32px;"
               tabindex="-1"
             >
               <div
-                class="cxd-Nav-Menu-item-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
               >
                 <a
-                  class="cxd-Nav-Menu-item-link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                   data-depth="2"
                   data-id="2.1"
                 >
                   <span
-                    class="cxd-Nav-Menu-item-label cxd-Nav-Menu-item-label-subTitle"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                     title="Nav 2-1"
                   >
                     Nav 2-1
@@ -1570,38 +1575,38 @@ exports[`Renderer:Nav with multi-level 1`] = `
                 </a>
               </div>
               <span
-                class="cxd-Nav-Menu-submenu-arrow"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
               >
                 <icon-mock
-                  classname="icon icon-right-arrow-bold"
+                  class="icon icon-right-arrow-bold"
                   icon="right-arrow-bold"
                 />
               </span>
             </div>
           </li>
           <ul
-            class="cxd-Nav-Menu-item-tooltip-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
             style="order: 1;"
           >
             <li
               aria-disabled="false"
-              class="cxd-Nav-Menu-item"
-              data-menu-id="rc-menu-uuid-test-5"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+              data-menu-id="rc-menu-uuid-5"
               role="menuitem"
               style="padding-left: 32px;"
               tabindex="-1"
             >
               <div
-                class="cxd-Nav-Menu-item-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
               >
                 <a
-                  class="cxd-Nav-Menu-item-link"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                   data-depth="2"
                   data-id="2.2"
                   title="Nav 2-2"
                 >
                   <span
-                    class="cxd-Nav-Menu-item-label"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                     title="Nav 2-2"
                   >
                     Nav 2-2
@@ -1613,28 +1618,28 @@ exports[`Renderer:Nav with multi-level 1`] = `
         </ul>
       </li>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-item"
-          data-menu-id="rc-menu-uuid-test-6"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          data-menu-id="rc-menu-uuid-6"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="3"
               title="Nav 3"
             >
               <span
-                class="cxd-Nav-Menu-item-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 3"
               >
                 Nav 3
@@ -1649,19 +1654,19 @@ exports[`Renderer:Nav with multi-level 1`] = `
       style="display: none;"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
     </div>
@@ -1672,23 +1677,24 @@ exports[`Renderer:Nav with multi-level 1`] = `
 exports[`Renderer:Nav with overflow 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav cxd-Nav-horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav __AMIS_COMPONENT_CLASS_PREFIX__Nav-horizontal"
           >
             <section
-              class="cxd-Nav-Menu-overflow cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-horizontal cxd-Nav-Menu-ltr cxd-Nav-Menu-light"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
               data-menu-list="true"
               dir="ltr"
               role="menu"
@@ -1696,27 +1702,27 @@ exports[`Renderer:Nav with overflow 1`] = `
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="opacity: 1;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -1726,26 +1732,26 @@ exports[`Renderer:Nav with overflow 1`] = `
                 </li>
               </ul>
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-item"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   role="menuitem"
                   style="opacity: 1;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                       title="Nav 2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 2"
                       >
                         Nav 2
@@ -1755,22 +1761,22 @@ exports[`Renderer:Nav with overflow 1`] = `
                 </li>
               </ul>
               <li
-                class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-overflow-item-rest cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-horizontal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
                 role="none"
                 style="opacity: 1;"
               >
                 <div
-                  aria-controls="rc-menu-uuid-test-rc-menu-more-popup"
+                  aria-controls="rc-menu-uuid-rc-menu-more-popup"
                   aria-disabled="false"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="cxd-Nav-Menu-submenu-title"
-                  data-menu-id="rc-menu-uuid-test-rc-menu-more"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  data-menu-id="rc-menu-uuid-rc-menu-more"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="cxd-Nav-Menu-item-icon cxd-Nav-Menu-overflowedIcon thisisoverflowClassName"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon thisisoverflowClassName"
                   >
                     <i
                       class="fas fa-angle-double-down icon Nav-item-icon fas fa-angle-double-down"
@@ -1778,7 +1784,7 @@ exports[`Renderer:Nav with overflow 1`] = `
                     点击展开
                   </span>
                   <i
-                    class="cxd-Nav-Menu-submenu-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   />
                 </div>
               </li>
@@ -1788,28 +1794,28 @@ exports[`Renderer:Nav with overflow 1`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
             </div>
           </div>
@@ -1823,58 +1829,59 @@ exports[`Renderer:Nav with overflow 1`] = `
 exports[`Renderer:Nav with source 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Nav"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-inline cxd-Nav-Menu-ltr cxd-Nav-Menu-light cxd-Nav-Menu-expand-before"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-1"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="cxd-Nav-Menu-item-icon"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -1884,28 +1891,28 @@ exports[`Renderer:Nav with source 1`] = `
                 </li>
               </ul>
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-2"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                       title="Nav 2"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 2"
                       >
                         Nav 2
@@ -1915,28 +1922,28 @@ exports[`Renderer:Nav with source 1`] = `
                 </li>
               </ul>
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 2;"
               >
                 <li
                   aria-disabled="false"
-                  class="cxd-Nav-Menu-item"
-                  data-menu-id="rc-menu-uuid-test-3"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  data-menu-id="rc-menu-uuid-3"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="cxd-Nav-Menu-item-wrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="cxd-Nav-Menu-item-link"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                       title="Nav 3"
                     >
                       <span
-                        class="cxd-Nav-Menu-item-label"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 3"
                       >
                         Nav 3
@@ -1951,15 +1958,15 @@ exports[`Renderer:Nav with source 1`] = `
               style="display: none;"
             >
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
               <ul
-                class="cxd-Nav-Menu-item-tooltip-wrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 2;"
               />
             </div>
@@ -1974,45 +1981,45 @@ exports[`Renderer:Nav with source 1`] = `
 exports[`Renderer:Nav with stacked 1`] = `
 <div>
   <div
-    class="cxd-Nav cxd-Nav-horizontal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav __AMIS_COMPONENT_CLASS_PREFIX__Nav-horizontal"
   >
     <ul
-      class="cxd-Nav-Menu-overflow cxd-Nav-Menu cxd-Nav-Menu-root cxd-Nav-Menu-horizontal cxd-Nav-Menu-ltr cxd-Nav-Menu-light"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-item"
-          data-menu-id="rc-menu-uuid-test-1"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="opacity: 1; order: 0;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="1"
               title="Nav 1"
             >
               <i
-                class="cxd-Nav-Menu-item-icon"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
               >
                 <i
                   class="fa fa-user mr-2 fa fa-user"
                 />
               </i>
               <span
-                class="cxd-Nav-Menu-item-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 1"
               >
                 Nav 1
@@ -2022,27 +2029,27 @@ exports[`Renderer:Nav with stacked 1`] = `
         </li>
       </ul>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           role="menuitem"
           style="opacity: 1; order: 1;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="2"
               title="Nav 2"
             >
               <span
-                class="cxd-Nav-Menu-item-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 2"
               >
                 Nav 2
@@ -2052,27 +2059,27 @@ exports[`Renderer:Nav with stacked 1`] = `
         </li>
       </ul>
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-item"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           role="menuitem"
           style="opacity: 1; order: 2;"
           tabindex="-1"
         >
           <div
-            class="cxd-Nav-Menu-item-wrap"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="cxd-Nav-Menu-item-link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="3"
               title="Nav 3"
             >
               <span
-                class="cxd-Nav-Menu-item-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 3"
               >
                 Nav 3
@@ -2083,25 +2090,25 @@ exports[`Renderer:Nav with stacked 1`] = `
       </ul>
       <li
         aria-hidden="true"
-        class="cxd-Nav-Menu-overflow-item cxd-Nav-Menu-overflow-item-rest cxd-Nav-Menu-submenu cxd-Nav-Menu-submenu-horizontal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
         role="none"
         style="opacity: 0; height: 0px; overflow-y: hidden; order: 9007199254740991; pointer-events: none; position: absolute;"
       >
         <div
-          aria-controls="rc-menu-uuid-test-rc-menu-more-popup"
+          aria-controls="rc-menu-uuid-rc-menu-more-popup"
           aria-disabled="false"
           aria-expanded="false"
           aria-haspopup="true"
-          class="cxd-Nav-Menu-submenu-title"
-          data-menu-id="rc-menu-uuid-test-rc-menu-more"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+          data-menu-id="rc-menu-uuid-rc-menu-more"
           role="menuitem"
           tabindex="-1"
         >
           <i
-            class="cxd-Nav-Menu-item-icon cxd-Nav-Menu-overflowedIcon fa fa-ellipsis-h"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon fa fa-ellipsis-h"
           />
           <i
-            class="cxd-Nav-Menu-submenu-arrow"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
           />
         </div>
       </li>
@@ -2111,15 +2118,15 @@ exports[`Renderer:Nav with stacked 1`] = `
       style="display: none;"
     >
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="cxd-Nav-Menu-item-tooltip-wrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
     </div>

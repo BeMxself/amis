@@ -3,23 +3,24 @@
 exports[`Renderer:Each basic use 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Each"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
           >
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -27,11 +28,11 @@ exports[`Renderer:Each basic use 1`] = `
                 >
                   A
                 </span>
-                 
+
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -39,11 +40,11 @@ exports[`Renderer:Each basic use 1`] = `
                 >
                   B
                 </span>
-                 
+
               </span>
             </span>
             <span
-              class="cxd-TplField fr-view"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -51,7 +52,7 @@ exports[`Renderer:Each basic use 1`] = `
                 >
                   C
                 </span>
-                 
+
               </span>
             </span>
           </div>
@@ -65,17 +66,17 @@ exports[`Renderer:Each basic use 1`] = `
 exports[`Renderer:Each in form 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -84,10 +85,10 @@ exports[`Renderer:Each in form 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -95,10 +96,10 @@ exports[`Renderer:Each in form 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Each"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
         >
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -109,7 +110,7 @@ exports[`Renderer:Each in form 1`] = `
             </span>
           </span>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -120,7 +121,7 @@ exports[`Renderer:Each in form 1`] = `
             </span>
           </span>
           <span
-            class="cxd-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -134,13 +135,13 @@ exports[`Renderer:Each in form 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -156,10 +157,10 @@ exports[`Renderer:Each in form 1`] = `
 exports[`Renderer:Each with array of objects value 1`] = `
 <div>
   <div
-    class="cxd-Each show"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Each show"
   >
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         <span
@@ -167,11 +168,11 @@ exports[`Renderer:Each with array of objects value 1`] = `
         >
           jack:0
         </span>
-         
+
       </span>
     </span>
     <span
-      class="cxd-TplField fr-view"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         <span
@@ -179,7 +180,7 @@ exports[`Renderer:Each with array of objects value 1`] = `
         >
           martin:1
         </span>
-         
+
       </span>
     </span>
   </div>
@@ -189,26 +190,27 @@ exports[`Renderer:Each with array of objects value 1`] = `
 exports[`Renderer:Each with source 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-Each"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
           >
             <div
-              class="cxd-Wrapper cxd-Wrapper--md"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wrapper __AMIS_COMPONENT_CLASS_PREFIX__Wrapper--md"
             >
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   <span
@@ -216,24 +218,24 @@ exports[`Renderer:Each with source 1`] = `
                   >
                     name: jerry
                   </span>
-                   
+
                 </span>
               </span>
               <span
-                class="cxd-Tag cxd-Tag--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tag __AMIS_COMPONENT_CLASS_PREFIX__Tag--normal"
               >
                 <span
-                  class="cxd-Tag-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tag-text"
                 >
                   age: 21
                 </span>
               </span>
             </div>
             <div
-              class="cxd-Wrapper cxd-Wrapper--md"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Wrapper __AMIS_COMPONENT_CLASS_PREFIX__Wrapper--md"
             >
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   <span
@@ -241,14 +243,14 @@ exports[`Renderer:Each with source 1`] = `
                   >
                     name: tom
                   </span>
-                   
+
                 </span>
               </span>
               <span
-                class="cxd-Tag cxd-Tag--normal"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Tag __AMIS_COMPONENT_CLASS_PREFIX__Tag--normal"
               >
                 <span
-                  class="cxd-Tag-text"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tag-text"
                 >
                   age: 29
                 </span>

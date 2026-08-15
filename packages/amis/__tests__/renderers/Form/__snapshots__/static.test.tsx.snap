@@ -3,17 +3,17 @@
 exports[`Renderer:static 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:static 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:static 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal bg-white"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal bg-white"
           data-amis-name="static"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   label
@@ -51,20 +51,20 @@ exports[`Renderer:static 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control is-inline"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 static
               </span>
             </div>
           </div>
           <span
-            class="cxd-TplField fr-view cxd-Form-description"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view __AMIS_COMPONENT_CLASS_PREFIX__Form-description"
           >
             <span>
               static description
@@ -72,18 +72,18 @@ exports[`Renderer:static 1`] = `
           </span>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="static 1"
           data-role="form-item"
         >
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 <span
                   class="text-muted"
@@ -95,18 +95,18 @@ exports[`Renderer:static 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="static 2"
           data-role="form-item"
         >
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 <span
                   class="text-muted"
@@ -126,16 +126,16 @@ exports[`Renderer:static 1`] = `
 exports[`Renderer:static-quickEdit-icon 1`] = `
 <div>
   <div
-    class="cxd-Form-item cxd-Form-item--normal"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="static"
     data-role="form-item"
   >
     <label
-      class="cxd-Form-label"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             label
@@ -144,24 +144,24 @@ exports[`Renderer:static-quickEdit-icon 1`] = `
       </span>
     </label>
     <div
-      class="cxd-Form-static"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
     >
       <div
-        class="cxd-Field--quickEditable cxd-Form-control"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Field--quickEditable __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
         tabindex="0"
       >
         <span
-          class="cxd-PlainField"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
         >
           static
         </span>
         <button
-          class="cxd-Button cxd-Button--link cxd-Button--size-default cxd-Field-quickEditBtn"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Field-quickEditBtn"
           tabindex="-1"
           type="button"
         >
           <i
-            class="fa fa-search cxd-Button-icon fa fa-search"
+            class="fa fa-search __AMIS_COMPONENT_CLASS_PREFIX__Button-icon fa fa-search"
           />
         </button>
       </div>
@@ -173,17 +173,17 @@ exports[`Renderer:static-quickEdit-icon 1`] = `
 exports[`Renderer:static2 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -192,10 +192,10 @@ exports[`Renderer:static2 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal cxd-Form--isStatic"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Form--isStatic"
         novalidate=""
       >
         <input
@@ -203,16 +203,16 @@ exports[`Renderer:static2 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   a
@@ -221,22 +221,22 @@ exports[`Renderer:static2 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             1
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   b
@@ -245,10 +245,10 @@ exports[`Renderer:static2 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-control cxd-TextControl"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="cxd-TextControl-input"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -263,16 +263,16 @@ exports[`Renderer:static2 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="c"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   c
@@ -281,28 +281,28 @@ exports[`Renderer:static2 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             3
           </div>
         </div>
         <div
-          class="cxd-Form-group cxd-Form-group--hor cxd-Form-group--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-group __AMIS_COMPONENT_CLASS_PREFIX__Form-group--hor __AMIS_COMPONENT_CLASS_PREFIX__Form-group--normal"
         >
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="a"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       a
@@ -311,26 +311,26 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-static cxd-Form-control"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
               >
                 1
               </div>
             </div>
           </div>
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="b"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       b
@@ -339,10 +339,10 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -358,19 +358,19 @@ exports[`Renderer:static2 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="c"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       c
@@ -379,7 +379,7 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-static cxd-Form-control"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
               >
                 3
               </div>
@@ -387,22 +387,22 @@ exports[`Renderer:static2 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-group cxd-Form-group--hor cxd-Form-group--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-group __AMIS_COMPONENT_CLASS_PREFIX__Form-group--hor __AMIS_COMPONENT_CLASS_PREFIX__Form-group--normal"
         >
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="a"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       a
@@ -411,10 +411,10 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -430,19 +430,19 @@ exports[`Renderer:static2 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="b"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       b
@@ -451,10 +451,10 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-control cxd-TextControl"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="cxd-TextControl-input"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -470,19 +470,19 @@ exports[`Renderer:static2 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Form-groupColumn"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-groupColumn"
           >
             <div
-              class="cxd-Form-item cxd-Form-item--normal"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="c"
               data-role="form-item"
             >
               <label
-                class="cxd-Form-label"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="cxd-TplField fr-view"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       c
@@ -491,7 +491,7 @@ exports[`Renderer:static2 1`] = `
                 </span>
               </label>
               <div
-                class="cxd-Form-static cxd-Form-control"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
               >
                 3
               </div>

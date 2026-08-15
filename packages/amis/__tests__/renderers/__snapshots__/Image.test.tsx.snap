@@ -3,17 +3,17 @@
 exports[`Renderer:image image as form item 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:image image as form item 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:image image as form item 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="image"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   颜色
@@ -51,23 +51,23 @@ exports[`Renderer:image image as form item 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="cxd-ImageField cxd-ImageField--thumb"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
                 style="transform: scale(1);"
               >
                 <div
-                  class="cxd-Image cxd-Image--thumb no-border"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb no-border"
                 >
                   <div
-                    class="cxd-Image-thumbWrap"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                   >
                     <div
-                      class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
                     >
                       <div
                         class="mask"
@@ -75,7 +75,7 @@ exports[`Renderer:image image as form item 1`] = `
                         <span />
                       </div>
                       <img
-                        class="cxd-Image-image"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                         src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                       />
                     </div>
@@ -88,13 +88,13 @@ exports[`Renderer:image image as form item 1`] = `
       </form>
     </div>
     <div
-      class="cxd-Panel-footerWrap"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="cxd-Panel-btnToolbar cxd-Panel-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="cxd-Button cxd-Button--primary cxd-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -110,17 +110,17 @@ exports[`Renderer:image image as form item 1`] = `
 exports[`Renderer:image image:basic 1`] = `
 <div>
   <div
-    class="cxd-ImageField cxd-ImageField--thumb show"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb show"
     style="transform: scale(1);"
   >
     <div
-      class="cxd-Image cxd-Image--thumb"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="cxd-Image-thumbWrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -130,16 +130,16 @@ exports[`Renderer:image image:basic 1`] = `
             </span>
           </div>
           <img
-            class="cxd-Image-image b"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image b"
             src="https://www.baidu.com/img/bd_logo1.png"
           />
         </div>
       </div>
       <div
-        class="cxd-Image-info"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
       >
         <div
-          class="cxd-Image-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
           title="图片"
         >
           图片
@@ -153,17 +153,17 @@ exports[`Renderer:image image:basic 1`] = `
 exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToolbar 1`] = `
 <div>
   <div
-    class="cxd-ImageField cxd-ImageField--thumb"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="cxd-Image cxd-Image--thumb"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="cxd-Image-thumbWrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -171,21 +171,21 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
             <span />
           </div>
           <img
-            class="cxd-Image-image"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
         <div
-          class="cxd-Image-overlay"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
         >
           <a
-            class="cxd-Image-overlay-view-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
             data-position="bottom"
             data-tooltip="查看大图"
             target="_blank"
           >
             <icon-mock
-              classname="icon icon-view"
+              class="icon icon-view"
               icon="view"
             />
           </a>
@@ -199,17 +199,17 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
 exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToolbar: Gallery 1`] = `
 <div>
   <div
-    class="cxd-ImageField cxd-ImageField--thumb"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="cxd-Image cxd-Image--thumb"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="cxd-Image-thumbWrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -217,21 +217,21 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
             <span />
           </div>
           <img
-            class="cxd-Image-image"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
         <div
-          class="cxd-Image-overlay"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
         >
           <a
-            class="cxd-Image-overlay-view-icon"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
             data-position="bottom"
             data-tooltip="查看大图"
             target="_blank"
           >
             <icon-mock
-              classname="icon icon-view"
+              class="icon icon-view"
               icon="view"
             />
           </a>
@@ -245,36 +245,37 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
 exports[`Renderer:image image:href 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-ImageField cxd-ImageField--thumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <a
-              class="cxd-Link"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Link"
               href="https://github.com/baidu/amis"
               target="_blank"
               title=""
             >
               <div
-                class="cxd-Image cxd-Image--thumb"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
                   >
                     <div
                       class="mask"
@@ -282,7 +283,7 @@ exports[`Renderer:image image:href 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg"
                     />
                   </div>
@@ -300,30 +301,31 @@ exports[`Renderer:image image:href 1`] = `
 exports[`Renderer:image image:preview 预览动作 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-ImageField cxd-ImageField--thumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <div
-              class="cxd-Image cxd-Image--thumb"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
             >
               <div
-                class="cxd-Image-thumbWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
               >
                 <div
-                  class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
                 >
                   <div
                     class="mask"
@@ -331,7 +333,7 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
                     <span />
                   </div>
                   <img
-                    class="cxd-Image-image"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                     src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                   />
                 </div>
@@ -339,7 +341,7 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
             </div>
           </div>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -356,17 +358,17 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
 exports[`Renderer:image image:title & imageCaption 1`] = `
 <div>
   <div
-    class="cxd-ImageField cxd-ImageField--thumb"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="cxd-Image cxd-Image--thumb"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="cxd-Image-thumbWrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -376,22 +378,22 @@ exports[`Renderer:image image:title & imageCaption 1`] = `
             </span>
           </div>
           <img
-            class="cxd-Image-image"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
       </div>
       <div
-        class="cxd-Image-info"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
       >
         <div
-          class="cxd-Image-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
           title="这是标题"
         >
           这是标题
         </div>
         <div
-          class="cxd-Image-caption"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-caption"
           title="这是一段说明"
         >
           这是一段说明
@@ -405,17 +407,17 @@ exports[`Renderer:image image:title & imageCaption 1`] = `
 exports[`Renderer:image image:width & height 1`] = `
 <div>
   <div
-    class="cxd-ImageField cxd-ImageField--thumb"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="cxd-Image cxd-Image--thumb"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="cxd-Image-thumbWrap"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
           style="height: 200px; width: 200px;"
         >
           <div
@@ -424,7 +426,7 @@ exports[`Renderer:image image:width & height 1`] = `
             <span />
           </div>
           <img
-            class="cxd-Image-image"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_400,l_1,f_jpg,q_80"
           />
         </div>
@@ -437,30 +439,31 @@ exports[`Renderer:image image:width & height 1`] = `
 exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动作 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-ImageField cxd-ImageField--thumb"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <div
-              class="cxd-Image cxd-Image--thumb"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
             >
               <div
-                class="cxd-Image-thumbWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
               >
                 <div
-                  class="cxd-Image-thumb cxd-Image-thumb--contain cxd-Image-thumb--1-1 cxd-Img-container"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
                 >
                   <div
                     class="mask"
@@ -468,7 +471,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
                     <span />
                   </div>
                   <img
-                    class="cxd-Image-image"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                     src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                   />
                 </div>
@@ -476,7 +479,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
             </div>
           </div>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -484,7 +487,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
             </span>
           </button>
           <button
-            class="cxd-Button cxd-Button--default cxd-Button--size-default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -501,32 +504,33 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
 exports[`Renderer:images images:basic 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-ImagesField"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="cxd-Images"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -534,20 +538,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -555,20 +559,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -576,20 +580,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -597,20 +601,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693379/8f2e79f82be0.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -618,7 +622,7 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693566/552b175ef11d.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
@@ -627,22 +631,22 @@ exports[`Renderer:images images:basic 1`] = `
             </div>
           </div>
           <div
-            class="cxd-Divider cxd-Divider--solid cxd-Divider--horizontal"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
           />
           <div
-            class="cxd-ImagesField"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="cxd-Images"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -650,20 +654,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -671,20 +675,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -692,20 +696,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -713,20 +717,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693379/8f2e79f82be0.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -734,7 +738,7 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693566/552b175ef11d.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
@@ -752,32 +756,33 @@ exports[`Renderer:images images:basic 1`] = `
 exports[`Renderer:images images:enlargeAble & originalSrc & source & title & description 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="cxd-ImagesField"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="cxd-Images"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -787,21 +792,21 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="cxd-Image-overlay"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="cxd-Image-overlay-view-icon"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"
                     >
                       <icon-mock
-                        classname="icon icon-view"
+                        class="icon icon-view"
                         icon="view"
                       />
                     </a>
@@ -809,13 +814,13 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -825,21 +830,21 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="cxd-Image-overlay"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="cxd-Image-overlay-view-icon"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"
                     >
                       <icon-mock
-                        classname="icon icon-view"
+                        class="icon icon-view"
                         icon="view"
                       />
                     </a>
@@ -847,13 +852,13 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                 </div>
               </div>
               <div
-                class="cxd-Image cxd-Image--thumb cxd-Images-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="cxd-Image-thumbWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="cxd-Image-thumb cxd-Image-thumb--cover cxd-Image-thumb--1-1 cxd-Img-container text-style-4"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -863,21 +868,21 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="cxd-Image-image"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="cxd-Image-overlay"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="cxd-Image-overlay-view-icon"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"
                     >
                       <icon-mock
-                        classname="icon icon-view"
+                        class="icon icon-view"
                         icon="view"
                       />
                     </a>

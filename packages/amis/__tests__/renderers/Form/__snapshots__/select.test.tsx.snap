@@ -3,117 +3,114 @@
 exports[`Renderer: chained select 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="a"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="a"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            带搜索
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          带搜索
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable is-group"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable is-group"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -127,117 +124,114 @@ exports[`Renderer: chained select 1`] = `
 exports[`Renderer:select associated 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="b"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="b"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            关联选择模式
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          关联选择模式
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -251,347 +245,100 @@ exports[`Renderer:select associated 1`] = `
 exports[`Renderer:select associated mode with virtual 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    级联
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  级联
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              tabindex="-1"
             >
               <div
-                class="amis-ResultBox amis-TransferDropDown amis-Form-control is-opened is-clickable"
-                tabindex="-1"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
-                <div
-                  class="amis-ResultBox-value-wrap"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
-                  <span
-                    class="amis-ResultBox-placeholder"
-                  >
-                    请选择
-                  </span>
-                </div>
-                <div
-                  class="amis-ResultBox-actions"
-                >
-                  <span
-                    class="amis-ResultBox-pc-arrow"
-                  >
-                    <icon-mock
-                      classname="icon icon-right-arrow-bold"
-                      icon="right-arrow-bold"
-                    />
-                  </span>
-                </div>
+                  请选择
+                </span>
               </div>
               <div
-                class="has-popover"
-                data-amis-theme="cxd"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
-                <div
-                  class="amis-PopOver amis-TransferDropDown-popover"
-                  role="popover"
-                  style="display: block; min-width: 100px; left: 0px; top: 0px; visibility: hidden;"
-                  theme="cxd"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
-                  <div
-                    class="cxd-PopOver-overlay"
+                  <icon-mock
+                    class="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
                   />
-                  <div
-                    class="amis-TransferDropDown-content"
-                  >
-                    <div
-                      class="amis-AssociatedSelection amis-Transfer-selection"
-                    >
-                      <div
-                        class="amis-AssociatedSelection-left"
-                      >
-                        <div
-                          class="amis-GroupedSelection"
-                        >
-                          <div
-                            style="display: block; position: relative; width: 100%; height: 100%;"
-                          >
-                            <div
-                              style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                            >
-                              <div
-                                style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 38760px;"
-                              >
-                                <div
-                                  class="amis-GroupedSelection-group"
-                                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 38px;"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-itemLabel"
-                                  >
-                                    <span
-                                      class=" amis-Selection-ellipsis-line"
-                                      title="group-1 "
-                                    >
-                                      group-1
-                                    </span>
-                                  </div>
-                                </div>
-                                <div
-                                  class="amis-GroupedSelection-group"
-                                  style="position: absolute; top: 38px; left: 0px; width: 100%; height: 38px;"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-items"
-                                  >
-                                    <div
-                                      class="amis-GroupedSelection-item is-active"
-                                    >
-                                      <div
-                                        class="amis-GroupedSelection-itemLabel"
-                                      >
-                                        <span
-                                          class=" amis-Selection-ellipsis-line"
-                                          title="group-1-option-1 "
-                                        >
-                                          group-1-option-1
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="amis-GroupedSelection-group"
-                                  style="position: absolute; top: 76px; left: 0px; width: 100%; height: 38px;"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-items"
-                                  >
-                                    <div
-                                      class="amis-GroupedSelection-item"
-                                    >
-                                      <div
-                                        class="amis-GroupedSelection-itemLabel"
-                                      >
-                                        <span
-                                          class=" amis-Selection-ellipsis-line"
-                                          title="group-1-option-2 "
-                                        >
-                                          group-1-option-2
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="amis-GroupedSelection-group"
-                                  style="position: absolute; top: 114px; left: 0px; width: 100%; height: 38px;"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-items"
-                                  >
-                                    <div
-                                      class="amis-GroupedSelection-item"
-                                    >
-                                      <div
-                                        class="amis-GroupedSelection-itemLabel"
-                                      >
-                                        <span
-                                          class=" amis-Selection-ellipsis-line"
-                                          title="group-1-option-3 "
-                                        >
-                                          group-1-option-3
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="amis-AssociatedSelection-right"
-                      >
-                        <div
-                          class="amis-TableSelection"
-                        >
-                          <div
-                            class="amis-Table-content is-virtual"
-                          >
-                            <table
-                              class="amis-Table-table"
-                            >
-                              <thead>
-                                <tr>
-                                  <th>
-                                    名称
-                                  </th>
-                                  <th>
-                                    值得
-                                  </th>
-                                </tr>
-                              </thead>
-                            </table>
-                            <div
-                              class="amis-Table-content-virtual"
-                            >
-                              <div
-                                style="display: block; position: relative; width: 100%; height: 100%;"
-                              >
-                                <div
-                                  style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                                >
-                                  <table
-                                    class="amis-Table-table"
-                                    style="margin-top: 0px;"
-                                  >
-                                    <colgroup>
-                                      <col
-                                        style="width: 0px;"
-                                      />
-                                      <col
-                                        style="width: 0px;"
-                                      />
-                                    </colgroup>
-                                    <tbody>
-                                      <tr
-                                        class=""
-                                        style="height: 38px;"
-                                      >
-                                        <td>
-                                          <span>
-                                            label-1
-                                          </span>
-                                        </td>
-                                        <td>
-                                          <span>
-                                            value-1
-                                          </span>
-                                        </td>
-                                      </tr>
-                                      <tr
-                                        class=""
-                                        style="height: 38px;"
-                                      >
-                                        <td>
-                                          <span>
-                                            label-2
-                                          </span>
-                                        </td>
-                                        <td>
-                                          <span>
-                                            value-2
-                                          </span>
-                                        </td>
-                                      </tr>
-                                      <tr
-                                        class=""
-                                        style="height: 38px;"
-                                      >
-                                        <td>
-                                          <span>
-                                            label-3
-                                          </span>
-                                        </td>
-                                        <td>
-                                          <span>
-                                            value-3
-                                          </span>
-                                        </td>
-                                      </tr>
-                                      <tr
-                                        class=""
-                                        style="height: 38px;"
-                                      >
-                                        <td>
-                                          <span>
-                                            label-4
-                                          </span>
-                                        </td>
-                                        <td>
-                                          <span>
-                                            value-4
-                                          </span>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <div
-                                    style="position: absolute; width: 1px; white-space: nowrap; min-height: 100%; height: 3838px; top: 0px; visibility: hidden;"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -601,117 +348,114 @@ exports[`Renderer:select associated mode with virtual 1`] = `
 exports[`Renderer:select chained 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="a"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="a"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            级联选择
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          级联选择
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -725,239 +469,100 @@ exports[`Renderer:select chained 1`] = `
 exports[`Renderer:select chained mode with virtual 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    级联
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  级联
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              tabindex="-1"
             >
               <div
-                class="amis-ResultBox amis-TransferDropDown amis-Form-control is-opened is-clickable"
-                tabindex="-1"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
-                <div
-                  class="amis-ResultBox-value-wrap"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
-                  <span
-                    class="amis-ResultBox-placeholder"
-                  >
-                    请选择
-                  </span>
-                </div>
-                <div
-                  class="amis-ResultBox-actions"
-                >
-                  <span
-                    class="amis-ResultBox-pc-arrow"
-                  >
-                    <icon-mock
-                      classname="icon icon-right-arrow-bold"
-                      icon="right-arrow-bold"
-                    />
-                  </span>
-                </div>
+                  请选择
+                </span>
               </div>
               <div
-                class="has-popover"
-                data-amis-theme="cxd"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
-                <div
-                  class="amis-PopOver amis-TransferDropDown-popover"
-                  role="popover"
-                  style="display: block; min-width: 100px; left: 0px; top: 0px; visibility: hidden;"
-                  theme="cxd"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
-                  <div
-                    class="cxd-PopOver-overlay"
+                  <icon-mock
+                    class="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
                   />
-                  <div
-                    class="amis-TransferDropDown-content"
-                  >
-                    <div
-                      class="amis-ChainedSelection amis-Transfer-selection"
-                    >
-                      <div
-                        class="amis-ChainedSelection-col"
-                      >
-                        <div
-                          style="display: block; position: relative; width: 100%; height: 100%; min-height: 266px;"
-                        >
-                          <div
-                            style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                          >
-                            <div
-                              style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 3838px;"
-                            >
-                              <div
-                                class="amis-ChainedSelection-item is-active"
-                                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-1
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 38px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-2
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 76px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-3
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 114px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-4
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="amis-ChainedSelection-col"
-                      >
-                        <div
-                          style="display: block; position: relative; width: 100%; height: 100%; min-height: 266px;"
-                        >
-                          <div
-                            style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                          >
-                            <div
-                              style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 3838px;"
-                            >
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-1-option-1
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 38px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-1-option-2
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 76px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-1-option-3
-                                </div>
-                              </div>
-                              <div
-                                class="amis-ChainedSelection-item"
-                                style="position: absolute; top: 114px; left: 0px; width: 100%; height: 38px;"
-                              >
-                                <div
-                                  class="amis-ChainedSelection-itemLabel"
-                                >
-                                  group-1-option-4
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -967,117 +572,114 @@ exports[`Renderer:select chained mode with virtual 1`] = `
 exports[`Renderer:select group 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="a"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="a"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            分组
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          分组
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -1091,203 +693,100 @@ exports[`Renderer:select group 1`] = `
 exports[`Renderer:select group mode with virtual 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    分组
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  分组
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              tabindex="-1"
             >
               <div
-                class="amis-ResultBox amis-TransferDropDown amis-Form-control is-opened is-clickable"
-                tabindex="-1"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
-                <div
-                  class="amis-ResultBox-value-wrap"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
-                  <span
-                    class="amis-ResultBox-placeholder"
-                  >
-                    请选择
-                  </span>
-                </div>
-                <div
-                  class="amis-ResultBox-actions"
-                >
-                  <span
-                    class="amis-ResultBox-pc-arrow"
-                  >
-                    <icon-mock
-                      classname="icon icon-right-arrow-bold"
-                      icon="right-arrow-bold"
-                    />
-                  </span>
-                </div>
+                  请选择
+                </span>
               </div>
               <div
-                class="has-popover"
-                data-amis-theme="cxd"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
-                <div
-                  class="amis-PopOver amis-TransferDropDown-popover"
-                  role="popover"
-                  style="display: block; min-width: 100px; left: 0px; top: 0px; visibility: hidden;"
-                  theme="cxd"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
-                  <div
-                    class="cxd-PopOver-overlay"
+                  <icon-mock
+                    class="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
                   />
-                  <div
-                    class="amis-TransferDropDown-content"
-                  >
-                    <div
-                      class="amis-GroupedSelection amis-Transfer-selection"
-                    >
-                      <div
-                        style="display: block; position: relative; width: 100%; height: 100%; min-height: 266px;"
-                      >
-                        <div
-                          style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                        >
-                          <div
-                            style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 8360px;"
-                          >
-                            <div
-                              class="amis-GroupedSelection-group"
-                              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 38px;"
-                            >
-                              <div
-                                class="amis-GroupedSelection-itemLabel"
-                              >
-                                group-1
-                              </div>
-                            </div>
-                            <div
-                              class="amis-GroupedSelection-group"
-                              style="position: absolute; top: 38px; left: 0px; width: 100%; height: 38px;"
-                            >
-                              <div
-                                class="amis-GroupedSelection-items"
-                              >
-                                <div
-                                  class="amis-GroupedSelection-item"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-itemLabel"
-                                  >
-                                    option-1
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              class="amis-GroupedSelection-group"
-                              style="position: absolute; top: 76px; left: 0px; width: 100%; height: 38px;"
-                            >
-                              <div
-                                class="amis-GroupedSelection-items"
-                              >
-                                <div
-                                  class="amis-GroupedSelection-item"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-itemLabel"
-                                  >
-                                    option-2
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              class="amis-GroupedSelection-group"
-                              style="position: absolute; top: 114px; left: 0px; width: 100%; height: 38px;"
-                            >
-                              <div
-                                class="amis-GroupedSelection-items"
-                              >
-                                <div
-                                  class="amis-GroupedSelection-item"
-                                >
-                                  <div
-                                    class="amis-GroupedSelection-itemLabel"
-                                  >
-                                    option-3
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -1297,116 +796,113 @@ exports[`Renderer:select group mode with virtual 1`] = `
 exports[`Renderer:select menutpl 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="select"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="select"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            选项
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          选项
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
+                      role="combobox"
+                      tabindex="0"
                     >
                       <div
-                        aria-expanded="false"
-                        aria-haspopup="listbox"
-                        class="amis-Select"
-                        role="combobox"
-                        tabindex="0"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                       >
                         <div
-                          class="amis-Select-valueWrap"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
                         >
-                          <div
-                            class="amis-Select-placeholder"
-                          >
-                            请选择
-                          </div>
+                          请选择
                         </div>
-                        <span
-                          class="amis-Select-arrow"
-                        >
-                          <icon-mock
-                            classname="icon icon-right-arrow-bold"
-                            icon="right-arrow-bold"
-                          />
-                        </span>
                       </div>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                      >
+                        <icon-mock
+                          class="icon icon-right-arrow-bold"
+                          icon="right-arrow-bold"
+                        />
+                      </span>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -1420,117 +916,114 @@ exports[`Renderer:select menutpl 1`] = `
 exports[`Renderer:select table 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="a"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="a"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            表格形式
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          表格形式
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -1544,235 +1037,100 @@ exports[`Renderer:select table 1`] = `
 exports[`Renderer:select table mode with virtual 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    表格
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  表格
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              tabindex="-1"
             >
               <div
-                class="amis-ResultBox amis-TransferDropDown amis-Form-control is-opened is-clickable"
-                tabindex="-1"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
-                <div
-                  class="amis-ResultBox-value-wrap"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
-                  <span
-                    class="amis-ResultBox-placeholder"
-                  >
-                    请选择
-                  </span>
-                </div>
-                <div
-                  class="amis-ResultBox-actions"
-                >
-                  <span
-                    class="amis-ResultBox-pc-arrow"
-                  >
-                    <icon-mock
-                      classname="icon icon-right-arrow-bold"
-                      icon="right-arrow-bold"
-                    />
-                  </span>
-                </div>
+                  请选择
+                </span>
               </div>
               <div
-                class="has-popover"
-                data-amis-theme="cxd"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
-                <div
-                  class="amis-PopOver amis-TransferDropDown-popover"
-                  role="popover"
-                  style="display: block; min-width: 100px; left: 0px; top: 0px; visibility: hidden;"
-                  theme="cxd"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
-                  <div
-                    class="cxd-PopOver-overlay"
+                  <icon-mock
+                    class="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
                   />
-                  <div
-                    class="amis-TransferDropDown-content"
-                  >
-                    <div
-                      class="amis-TableSelection amis-Transfer-selection"
-                    >
-                      <div
-                        class="amis-Table-content is-virtual"
-                      >
-                        <table
-                          class="amis-Table-table"
-                        >
-                          <thead>
-                            <tr>
-                              <th>
-                                名称
-                              </th>
-                              <th>
-                                值
-                              </th>
-                            </tr>
-                          </thead>
-                        </table>
-                        <div
-                          class="amis-Table-content-virtual"
-                        >
-                          <div
-                            style="display: block; position: relative; width: 100%; height: 100%; min-height: 266px;"
-                          >
-                            <div
-                              style="overflow: auto; will-change: transform; height: 0px; width: 100%;"
-                            >
-                              <table
-                                class="amis-Table-table"
-                                style="margin-top: 0px;"
-                              >
-                                <colgroup>
-                                  <col
-                                    style="width: 0px;"
-                                  />
-                                  <col
-                                    style="width: 0px;"
-                                  />
-                                </colgroup>
-                                <tbody>
-                                  <tr
-                                    class=""
-                                    style="height: 38px;"
-                                  >
-                                    <td>
-                                      <span>
-                                        label-1
-                                      </span>
-                                    </td>
-                                    <td>
-                                      <span>
-                                        1
-                                      </span>
-                                    </td>
-                                  </tr>
-                                  <tr
-                                    class=""
-                                    style="height: 38px;"
-                                  >
-                                    <td>
-                                      <span>
-                                        label-2
-                                      </span>
-                                    </td>
-                                    <td>
-                                      <span>
-                                        2
-                                      </span>
-                                    </td>
-                                  </tr>
-                                  <tr
-                                    class=""
-                                    style="height: 38px;"
-                                  >
-                                    <td>
-                                      <span>
-                                        label-3
-                                      </span>
-                                    </td>
-                                    <td>
-                                      <span>
-                                        3
-                                      </span>
-                                    </td>
-                                  </tr>
-                                  <tr
-                                    class=""
-                                    style="height: 38px;"
-                                  >
-                                    <td>
-                                      <span>
-                                        label-4
-                                      </span>
-                                    </td>
-                                    <td>
-                                      <span>
-                                        4
-                                      </span>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <div
-                                style="position: absolute; width: 1px; white-space: nowrap; min-height: 100%; height: 7600px; top: 0px; visibility: hidden;"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -1782,402 +1140,131 @@ exports[`Renderer:select table mode with virtual 1`] = `
 exports[`Renderer:select table with labelField & valueField 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="a"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="a"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    表格形式
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  表格形式
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable is-group"
+              tabindex="-1"
             >
               <div
-                class="amis-ResultBox amis-TransferDropDown amis-Form-control is-opened is-clickable is-group"
-                tabindex="-1"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <div
-                  class="amis-ResultBox-value-wrap"
-                >
-                  <div
-                    class="amis-ResultBox-value"
-                  >
-                    <span
-                      class="amis-ResultBox-valueLabel"
-                      data-index="0"
-                    >
-                      诸葛亮
-                    </span>
-                    <a
-                      data-index="0"
-                    >
-                      <icon-mock
-                        classname="icon icon-close"
-                        icon="close"
-                      />
-                    </a>
-                  </div>
-                  <div
-                    class="amis-ResultBox-value"
-                  >
-                    <span
-                      class="amis-ResultBox-valueLabel"
-                      data-index="1"
-                    >
-                      李白
-                    </span>
-                    <a
-                      data-index="1"
-                    >
-                      <icon-mock
-                        classname="icon icon-close"
-                        icon="close"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="amis-ResultBox-actions"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value"
                 >
                   <span
-                    class="amis-ResultBox-pc-arrow"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
+                    data-index="0"
+                  >
+                    诸葛亮
+                  </span>
+                  <a
+                    data-index="0"
                   >
                     <icon-mock
-                      classname="icon icon-right-arrow-bold"
-                      icon="right-arrow-bold"
+                      class="icon icon-close"
+                      icon="close"
                     />
+                  </a>
+                </div>
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value"
+                >
+                  <span
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
+                    data-index="1"
+                  >
+                    李白
                   </span>
+                  <a
+                    data-index="1"
+                  >
+                    <icon-mock
+                      class="icon icon-close"
+                      icon="close"
+                    />
+                  </a>
                 </div>
               </div>
               <div
-                class="has-popover"
-                data-amis-theme="cxd"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
-                <div
-                  class="amis-PopOver amis-TransferDropDown-popover"
-                  role="popover"
-                  style="display: block; min-width: 100px; left: 0px; top: 0px; visibility: hidden;"
-                  theme="cxd"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
-                  <div
-                    class="cxd-PopOver-overlay"
+                  <icon-mock
+                    class="icon icon-right-arrow-bold"
+                    icon="right-arrow-bold"
                   />
-                  <div
-                    class="amis-TransferDropDown-content"
-                  >
-                    <div
-                      class="amis-TableSelection amis-Transfer-selection"
-                    >
-                      <div
-                        class="amis-Table-content"
-                      >
-                        <table
-                          class="amis-Table-table"
-                        >
-                          <thead>
-                            <tr>
-                              <th
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--partial amis-Checkbox--sm checked amis-Checkbox--checkbox--default--checked"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </th>
-                              <th>
-                                英雄
-                              </th>
-                              <th>
-                                位置
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr
-                              class="is-active"
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm checked amis-Checkbox--checkbox--default--checked"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  诸葛亮
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  中单
-                                </span>
-                              </td>
-                            </tr>
-                            <tr
-                              class=""
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  曹操
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  上单
-                                </span>
-                              </td>
-                            </tr>
-                            <tr
-                              class=""
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  钟无艳
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  上单
-                                </span>
-                              </td>
-                            </tr>
-                            <tr
-                              class="is-active"
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm checked amis-Checkbox--checkbox--default--checked"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  李白
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  打野
-                                </span>
-                              </td>
-                            </tr>
-                            <tr
-                              class=""
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  韩信
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  打野
-                                </span>
-                              </td>
-                            </tr>
-                            <tr
-                              class=""
-                            >
-                              <td
-                                class="amis-Table-checkCell"
-                              >
-                                <label
-                                  class="amis-Checkbox amis-Checkbox--checkbox--default amis-Checkbox--sm"
-                                  data-role="checkbox"
-                                >
-                                  <input
-                                    type="checkbox"
-                                  />
-                                  <i>
-                                    <div
-                                      class="checkbox-icon icon"
-                                    />
-                                  </i>
-                                  <span
-                                    class=""
-                                  />
-                                </label>
-                              </td>
-                              <td>
-                                <span>
-                                  云中君
-                                </span>
-                              </td>
-                              <td>
-                                <span>
-                                  打野
-                                </span>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              Submit
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            Submit
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -2193,117 +1280,114 @@ exports[`Renderer:select table with labelField & valueField 2`] = `
 exports[`Renderer:select tree 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
           <div
-            class="amis-Page-body"
-            role="page-body"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            data-role="container"
           >
             <div
-              class="amis-Panel amis-Panel--default amis-Panel--form"
-              data-role="container"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
-              <div
-                class="amis-Panel-heading"
+              <h3
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
               >
-                <h3
-                  class="amis-Panel-title"
+                <span
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
-                  <span
-                    class="amis-TplField fr-view"
+                  <span>
+                    表单
+                  </span>
+                </span>
+              </h3>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+            >
+              <form
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                novalidate=""
+              >
+                <input
+                  style="display: none;"
+                  type="submit"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  data-amis-name="a"
+                  data-role="form-item"
+                >
+                  <label
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
-                      表单
-                    </span>
-                  </span>
-                </h3>
-              </div>
-              <div
-                class="amis-Panel-body"
-              >
-                <form
-                  class="amis-Form amis-Form--normal"
-                  novalidate=""
-                >
-                  <input
-                    style="display: none;"
-                    type="submit"
-                  />
-                  <div
-                    class="amis-Form-item amis-Form-item--normal"
-                    data-amis-name="a"
-                    data-role="form-item"
-                  >
-                    <label
-                      class="amis-Form-label"
-                    >
-                      <span>
-                        <span
-                          class="amis-TplField fr-view"
-                        >
-                          <span>
-                            树型展示
-                          </span>
+                      <span
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      >
+                        <span>
+                          树型展示
                         </span>
                       </span>
-                    </label>
+                    </span>
+                  </label>
+                  <div
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                  >
                     <div
-                      class="amis-SelectControl amis-Form-control"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      tabindex="-1"
                     >
                       <div
-                        class="amis-ResultBox amis-TransferDropDown amis-Form-control is-clickable"
-                        tabindex="-1"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
-                        <div
-                          class="amis-ResultBox-value-wrap"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
-                          <span
-                            class="amis-ResultBox-placeholder"
-                          >
-                            请选择
-                          </span>
-                        </div>
-                        <div
-                          class="amis-ResultBox-actions"
+                          请选择
+                        </span>
+                      </div>
+                      <div
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
-                          <span
-                            class="amis-ResultBox-pc-arrow"
-                          >
-                            <icon-mock
-                              classname="icon icon-right-arrow-bold"
-                              icon="right-arrow-bold"
-                            />
-                          </span>
-                        </div>
+                          <icon-mock
+                            class="icon icon-right-arrow-bold"
+                            icon="right-arrow-bold"
+                          />
+                        </span>
                       </div>
                     </div>
                   </div>
-                </form>
-              </div>
-              <div
-                class="amis-Panel-footerWrap"
-              >
-                <div
-                  class="amis-Panel-btnToolbar amis-Panel-footer"
-                >
-                  <button
-                    class="amis-Button amis-Button--primary amis-Button--size-default"
-                    type="submit"
-                  >
-                    <span>
-                      提交
-                    </span>
-                  </button>
                 </div>
+              </form>
+            </div>
+            <div
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+            >
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+              >
+                <button
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  type="submit"
+                >
+                  <span>
+                    提交
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -2317,275 +1401,267 @@ exports[`Renderer:select tree 1`] = `
 exports[`Renderer:select virtual 1`] = `
 <div>
   <div
-    data-amis-theme="cxd"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    data-role="container"
   >
     <div
-      class="amis-Panel amis-Panel--default amis-Panel--form"
-      data-role="container"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
-      <div
-        class="amis-Panel-heading"
+      <h3
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
-        <h3
-          class="amis-Panel-title"
+        <span
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
-          <span
-            class="amis-TplField fr-view"
+          <span>
+            表单
+          </span>
+        </span>
+      </h3>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+    >
+      <form
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        novalidate=""
+      >
+        <input
+          style="display: none;"
+          type="submit"
+        />
+        <div
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          data-amis-name="select"
+          data-role="form-item"
+        >
+          <label
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
-              表单
-            </span>
-          </span>
-        </h3>
-      </div>
-      <div
-        class="amis-Panel-body"
-      >
-        <form
-          class="amis-Form amis-Form--normal"
-          novalidate=""
-        >
-          <input
-            style="display: none;"
-            type="submit"
-          />
-          <div
-            class="amis-Form-item amis-Form-item--normal"
-            data-amis-name="select"
-            data-role="form-item"
-          >
-            <label
-              class="amis-Form-label"
-            >
-              <span>
-                <span
-                  class="amis-TplField fr-view"
-                >
-                  <span>
-                    选项
-                  </span>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              >
+                <span>
+                  选项
                 </span>
               </span>
-            </label>
+            </span>
+          </label>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+          >
             <div
-              class="amis-SelectControl amis-Form-control"
+              aria-expanded="true"
+              aria-haspopup="listbox"
+              aria-owns="downshift-1-menu"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened has-popover"
+              role="combobox"
+              tabindex="0"
             >
               <div
-                aria-expanded="true"
-                aria-haspopup="listbox"
-                aria-owns="downshift-1-menu"
-                class="amis-Select is-opened"
-                role="combobox"
-                tabindex="0"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="amis-Select-valueWrap"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
                 >
-                  <div
-                    class="amis-Select-placeholder"
-                  >
-                    请选择
-                  </div>
+                  请选择
                 </div>
-                <span
-                  class="amis-Select-arrow"
-                >
-                  <icon-mock
-                    classname="icon icon-right-arrow-bold"
-                    icon="right-arrow-bold"
-                  />
-                </span>
+              </div>
+              <span
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+              >
+                <icon-mock
+                  class="icon icon-right-arrow-bold"
+                  icon="right-arrow-bold"
+                />
+              </span>
+              <div
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
+                data-amis-theme="cxd"
+                role="popover"
+                style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
+                theme="cxd"
+              >
                 <div
-                  class="has-popover"
-                  data-amis-theme="cxd"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
+                />
+                <div
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu __AMIS_COMPONENT_CLASS_PREFIX__Select--longlist"
                 >
                   <div
-                    class="amis-PopOver amis-Select-popover"
-                    role="popover"
-                    style="display: block; width: auto; left: 0px; top: 0px; visibility: hidden;"
-                    theme="cxd"
+                    style="overflow: auto; will-change: transform; height: 266px; width: 100%;"
                   >
                     <div
-                      class="cxd-PopOver-overlay"
-                    />
-                    <div
-                      class="amis-Select-menu amis-Select--longlist"
+                      style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 6400px;"
                     >
                       <div
-                        style="overflow: auto; will-change: transform; height: 266px; width: 100%;"
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-0"
+                        role="option"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 32px;"
                       >
-                        <div
-                          style="position: relative; width: auto; white-space: nowrap; min-height: 100%; height: 6400px;"
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option0"
                         >
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-0"
-                            role="option"
-                            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option0"
-                            >
-                              option0
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-1"
-                            role="option"
-                            style="position: absolute; top: 32px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option1"
-                            >
-                              option1
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-2"
-                            role="option"
-                            style="position: absolute; top: 64px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option2"
-                            >
-                              option2
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-3"
-                            role="option"
-                            style="position: absolute; top: 96px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option3"
-                            >
-                              option3
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-4"
-                            role="option"
-                            style="position: absolute; top: 128px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option4"
-                            >
-                              option4
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-5"
-                            role="option"
-                            style="position: absolute; top: 160px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option5"
-                            >
-                              option5
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-6"
-                            role="option"
-                            style="position: absolute; top: 192px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option6"
-                            >
-                              option6
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-7"
-                            role="option"
-                            style="position: absolute; top: 224px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option7"
-                            >
-                              option7
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-8"
-                            role="option"
-                            style="position: absolute; top: 256px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option8"
-                            >
-                              option8
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-9"
-                            role="option"
-                            style="position: absolute; top: 288px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option9"
-                            >
-                              option9
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-10"
-                            role="option"
-                            style="position: absolute; top: 320px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option10"
-                            >
-                              option10
-                            </span>
-                          </div>
-                          <div
-                            aria-selected="false"
-                            class="amis-Select-option"
-                            id="downshift-1-item-11"
-                            role="option"
-                            style="position: absolute; top: 352px; left: 0px; width: 100%; height: 32px;"
-                          >
-                            <span
-                              class="amis-Select-option-content"
-                              title="option11"
-                            >
-                              option11
-                            </span>
-                          </div>
-                        </div>
+                          option0
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-1"
+                        role="option"
+                        style="position: absolute; top: 32px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option1"
+                        >
+                          option1
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-2"
+                        role="option"
+                        style="position: absolute; top: 64px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option2"
+                        >
+                          option2
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-3"
+                        role="option"
+                        style="position: absolute; top: 96px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option3"
+                        >
+                          option3
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-4"
+                        role="option"
+                        style="position: absolute; top: 128px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option4"
+                        >
+                          option4
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-5"
+                        role="option"
+                        style="position: absolute; top: 160px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option5"
+                        >
+                          option5
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-6"
+                        role="option"
+                        style="position: absolute; top: 192px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option6"
+                        >
+                          option6
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-7"
+                        role="option"
+                        style="position: absolute; top: 224px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option7"
+                        >
+                          option7
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-8"
+                        role="option"
+                        style="position: absolute; top: 256px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option8"
+                        >
+                          option8
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-9"
+                        role="option"
+                        style="position: absolute; top: 288px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option9"
+                        >
+                          option9
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-10"
+                        role="option"
+                        style="position: absolute; top: 320px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option10"
+                        >
+                          option10
+                        </span>
+                      </div>
+                      <div
+                        aria-selected="false"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        id="downshift-1-item-11"
+                        role="option"
+                        style="position: absolute; top: 352px; left: 0px; width: 100%; height: 32px;"
+                      >
+                        <span
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          title="option11"
+                        >
+                          option11
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -2593,23 +1669,23 @@ exports[`Renderer:select virtual 1`] = `
               </div>
             </div>
           </div>
-        </form>
-      </div>
-      <div
-        class="amis-Panel-footerWrap"
-      >
-        <div
-          class="amis-Panel-btnToolbar amis-Panel-footer"
-        >
-          <button
-            class="amis-Button amis-Button--primary amis-Button--size-default"
-            type="submit"
-          >
-            <span>
-              提交
-            </span>
-          </button>
         </div>
+      </form>
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+    >
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+      >
+        <button
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          type="submit"
+        >
+          <span>
+            提交
+          </span>
+        </button>
       </div>
     </div>
   </div>

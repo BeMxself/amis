@@ -2,525 +2,509 @@
 
 exports[`options:linkage 1`] = `
 <div>
-  <div
-    data-amis-theme="cxd"
+  <form
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    novalidate=""
   >
-    <form
-      class="amis-Form amis-Form--normal"
-      novalidate=""
+    <input
+      style="display: none;"
+      type="submit"
+    />
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="a"
+      data-role="form-item"
     >
-      <input
-        style="display: none;"
-        type="submit"
-      />
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="a"
-        data-role="form-item"
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项x
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项x
             </span>
           </span>
-        </label>
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+      >
         <div
-          class="amis-ListControl amis-Form-control is-inline"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="amis-ListControl-items"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项1
-              </div>
+              选项1
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项2
-              </div>
+              选项2
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项3
-              </div>
+              选项3
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="b"
-        data-role="form-item"
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="b"
+      data-role="form-item"
+    >
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项y
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项y
             </span>
           </span>
-        </label>
-        <div
-          class="amis-RadiosControl amis-Form-control is-inline is-thin"
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+      >
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
         >
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
-          >
-            <input
-              type="radio"
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项a
-            </span>
-          </label>
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
+          </i>
+          <span
+            class="text-muted"
           >
-            <input
-              type="radio"
+            选项a
+          </span>
+        </label>
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
+        >
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项b
-            </span>
-          </label>
-        </div>
+          </i>
+          <span
+            class="text-muted"
+          >
+            选项b
+          </span>
+        </label>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
 `;
 
 exports[`options:linkage 2`] = `
 <div>
-  <div
-    data-amis-theme="cxd"
+  <form
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    novalidate=""
   >
-    <form
-      class="amis-Form amis-Form--normal"
-      novalidate=""
+    <input
+      style="display: none;"
+      type="submit"
+    />
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="a"
+      data-role="form-item"
     >
-      <input
-        style="display: none;"
-        type="submit"
-      />
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="a"
-        data-role="form-item"
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项x
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项x
             </span>
           </span>
-        </label>
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+      >
         <div
-          class="amis-ListControl amis-Form-control is-inline"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="amis-ListControl-items"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
           >
             <div
-              class="amis-ListControl-item is-active"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项1
-              </div>
+              选项1
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项2
-              </div>
+              选项2
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项3
-              </div>
+              选项3
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="b"
-        data-role="form-item"
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="b"
+      data-role="form-item"
+    >
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项y
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项y
             </span>
           </span>
-        </label>
-        <div
-          class="amis-RadiosControl amis-Form-control is-inline is-thin"
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+      >
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--disabled--unchecked"
+          data-role="checkbox"
         >
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default disabled amis-Checkbox--radio--default--disabled--unchecked"
-            data-role="checkbox"
-          >
-            <input
-              disabled=""
-              type="radio"
+          <input
+            disabled=""
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项a
-            </span>
-          </label>
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
+          </i>
+          <span
+            class="text-muted"
           >
-            <input
-              type="radio"
+            选项a
+          </span>
+        </label>
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
+        >
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项b
-            </span>
-          </label>
-        </div>
+          </i>
+          <span
+            class="text-muted"
+          >
+            选项b
+          </span>
+        </label>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
 `;
 
 exports[`options:linkage 3`] = `
 <div>
-  <div
-    data-amis-theme="cxd"
+  <form
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    novalidate=""
   >
-    <form
-      class="amis-Form amis-Form--normal"
-      novalidate=""
+    <input
+      style="display: none;"
+      type="submit"
+    />
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="a"
+      data-role="form-item"
     >
-      <input
-        style="display: none;"
-        type="submit"
-      />
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="a"
-        data-role="form-item"
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项x
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项x
             </span>
           </span>
-        </label>
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+      >
         <div
-          class="amis-ListControl amis-Form-control is-inline"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="amis-ListControl-items"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项1
-              </div>
+              选项1
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+          >
             <div
-              class="amis-ListControl-item is-active"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项2
-              </div>
+              选项2
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项3
-              </div>
+              选项3
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="b"
-        data-role="form-item"
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="b"
+      data-role="form-item"
+    >
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项y
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项y
             </span>
           </span>
-        </label>
-        <div
-          class="amis-RadiosControl amis-Form-control is-inline is-thin"
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+      >
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
         >
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
-          >
-            <input
-              type="radio"
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项a
-            </span>
-          </label>
-        </div>
+          </i>
+          <span
+            class="text-muted"
+          >
+            选项a
+          </span>
+        </label>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
 `;
 
 exports[`options:linkage 4`] = `
 <div>
-  <div
-    data-amis-theme="cxd"
+  <form
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    novalidate=""
   >
-    <form
-      class="amis-Form amis-Form--normal"
-      novalidate=""
+    <input
+      style="display: none;"
+      type="submit"
+    />
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="a"
+      data-role="form-item"
     >
-      <input
-        style="display: none;"
-        type="submit"
-      />
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="a"
-        data-role="form-item"
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项x
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项x
             </span>
           </span>
-        </label>
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+      >
         <div
-          class="amis-ListControl amis-Form-control is-inline"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="amis-ListControl-items"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项1
-              </div>
+              选项1
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+          >
             <div
-              class="amis-ListControl-item"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项2
-              </div>
+              选项2
             </div>
+          </div>
+          <div
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+          >
             <div
-              class="amis-ListControl-item is-active"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
-              <div
-                class="amis-ListControl-itemLabel"
-              >
-                选项3
-              </div>
+              选项3
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="amis-Form-item amis-Form-item--normal"
-        data-amis-name="b"
-        data-role="form-item"
+    </div>
+    <div
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      data-amis-name="b"
+      data-role="form-item"
+    >
+      <label
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
-        <label
-          class="amis-Form-label text-muted"
-        >
-          <span>
-            <span
-              class="amis-TplField fr-view"
-            >
-              <span>
-                选项y
-              </span>
+        <span>
+          <span
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          >
+            <span>
+              选项y
             </span>
           </span>
-        </label>
-        <div
-          class="amis-RadiosControl amis-Form-control is-inline is-thin"
+        </span>
+      </label>
+      <div
+        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+      >
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
         >
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
-          >
-            <input
-              type="radio"
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项a
-            </span>
-          </label>
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
+          </i>
+          <span
+            class="text-muted"
           >
-            <input
-              type="radio"
+            选项a
+          </span>
+        </label>
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
+        >
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项b
-            </span>
-          </label>
-          <label
-            class="amis-Checkbox amis-Checkbox--radio--default"
-            data-role="checkbox"
+          </i>
+          <span
+            class="text-muted"
           >
-            <input
-              type="radio"
+            选项b
+          </span>
+        </label>
+        <label
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          data-role="checkbox"
+        >
+          <input
+            type="radio"
+          />
+          <i>
+            <div
+              class="radio-icon icon"
             />
-            <i>
-              <div
-                class="radio-icon icon"
-              />
-            </i>
-            <span
-              class="text-muted"
-            >
-              选项c
-            </span>
-          </label>
-        </div>
+          </i>
+          <span
+            class="text-muted"
+          >
+            选项c
+          </span>
+        </label>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
 `;

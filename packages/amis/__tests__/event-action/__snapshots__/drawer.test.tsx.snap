@@ -3,61 +3,58 @@
 exports[`EventAction:drawer 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Drawer amis-Drawer--right amis-Drawer--md amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Drawer-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="amis-Drawer-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="amis-Drawer-close"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
-          classname="icon icon-close"
+          class="icon icon-close"
           icon="close"
         />
       </a>
       <div
-        class="amis-Drawer-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-header"
       >
         <div
-          class="amis-Drawer-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-title"
         >
           <span
-            class="amis-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               模态抽屉
@@ -66,25 +63,25 @@ exports[`EventAction:drawer 1`] = `
         </div>
       </div>
       <div
-        class="amis-Drawer-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
       >
         <div
-          class="amis-Spinner-overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
         />
         <div
-          class="amis-Spinner amis-Spinner--overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="amis-Spinner-icon amis-Spinner-icon--lg amis-Spinner-icon--default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="amis-Drawer-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -92,7 +89,7 @@ exports[`EventAction:drawer 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -108,30 +105,27 @@ exports[`EventAction:drawer 1`] = `
 exports[`EventAction:drawer 2`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -142,30 +136,27 @@ exports[`EventAction:drawer 2`] = `
 exports[`EventAction:drawer 3`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -176,30 +167,27 @@ exports[`EventAction:drawer 3`] = `
 exports[`EventAction:drawer 4`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -210,30 +198,27 @@ exports[`EventAction:drawer 4`] = `
 exports[`EventAction:drawer 5`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -244,30 +229,27 @@ exports[`EventAction:drawer 5`] = `
 exports[`EventAction:drawer 6`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -278,30 +260,27 @@ exports[`EventAction:drawer 6`] = `
 exports[`EventAction:drawer 7`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -312,61 +291,58 @@ exports[`EventAction:drawer 7`] = `
 exports[`EventAction:drawer args 1`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget amis-Drawer amis-Drawer--right amis-Drawer--md amis-Modal--1th"
+    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
     data-amis-theme="cxd"
     role="dialog"
   >
     <div
-      class="amis-Drawer-overlay in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="amis-Drawer-content in"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="amis-Drawer-close"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
-          classname="icon icon-close"
+          class="icon icon-close"
           icon="close"
         />
       </a>
       <div
-        class="amis-Drawer-header"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-header"
       >
         <div
-          class="amis-Drawer-title"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-title"
         >
           <span
-            class="amis-TplField fr-view"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               模态抽屉
@@ -375,25 +351,25 @@ exports[`EventAction:drawer args 1`] = `
         </div>
       </div>
       <div
-        class="amis-Drawer-body"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
       >
         <div
-          class="amis-Spinner-overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
         />
         <div
-          class="amis-Spinner amis-Spinner--overlay in"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="amis-Spinner-icon amis-Spinner-icon--lg amis-Spinner-icon--default"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="amis-Drawer-footer"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="amis-Button amis-Button--default amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -401,7 +377,7 @@ exports[`EventAction:drawer args 1`] = `
           </span>
         </button>
         <button
-          class="amis-Button amis-Button--primary amis-Button--size-default"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -417,30 +393,27 @@ exports[`EventAction:drawer args 1`] = `
 exports[`EventAction:drawer args 2`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -451,30 +424,27 @@ exports[`EventAction:drawer args 2`] = `
 exports[`EventAction:drawer args 3`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -485,30 +455,27 @@ exports[`EventAction:drawer args 3`] = `
 exports[`EventAction:drawer args 4`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -519,30 +486,27 @@ exports[`EventAction:drawer args 4`] = `
 exports[`EventAction:drawer args 5`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -553,30 +517,27 @@ exports[`EventAction:drawer args 5`] = `
 exports[`EventAction:drawer args 6`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>
@@ -587,30 +548,27 @@ exports[`EventAction:drawer args 6`] = `
 exports[`EventAction:drawer args 7`] = `
 <div>
   <div
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
     data-amis-theme="cxd"
   >
     <div
-      class="amis-Page"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="amis-Page-content"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="amis-Page-main"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          role="page-body"
         >
-          <div
-            class="amis-Page-body"
-            role="page-body"
+          <button
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            type="button"
           >
-            <button
-              class="amis-Button amis-Button--default amis-Button--size-default"
-              type="button"
-            >
-              <span>
-                打开抽屉
-              </span>
-            </button>
-          </div>
+            <span>
+              打开抽屉
+            </span>
+          </button>
         </div>
       </div>
     </div>

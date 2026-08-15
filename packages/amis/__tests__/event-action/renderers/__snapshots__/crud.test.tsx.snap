@@ -3,20 +3,21 @@
 exports[`doAction:crud reload 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -24,39 +25,39 @@ exports[`doAction:crud reload 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Crud"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="cxd-Table-toolbar cxd-Table-headToolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="cxd-Table-actions"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="cxd-ColumnToggler"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="cxd-Button cxd-Button--default cxd-Button--size-sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
-                          classname="icon icon-columns"
+                          class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="cxd-ColumnToggler-caret"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -66,13 +67,13 @@ exports[`doAction:crud reload 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -106,10 +107,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -117,7 +118,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -126,10 +127,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -137,7 +138,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -146,10 +147,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -157,7 +158,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -166,10 +167,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -177,7 +178,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -186,10 +187,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -197,7 +198,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -206,10 +207,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -217,19 +218,19 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="cxd-Table-operationCell"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -237,7 +238,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -245,14 +246,14 @@ exports[`doAction:crud reload 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="0"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1
                           </span>
@@ -261,7 +262,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - pbz7l
                           </span>
@@ -270,7 +271,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.0
                           </span>
@@ -279,7 +280,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -288,7 +289,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -297,7 +298,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             X
                           </span>
@@ -306,10 +307,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -317,7 +318,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
                               type="button"
                             >
                               <span>
@@ -328,14 +329,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="1"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             2
                           </span>
@@ -344,7 +345,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - tir4m8
                           </span>
@@ -353,7 +354,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 5.0
                           </span>
@@ -362,7 +363,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -371,7 +372,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -380,7 +381,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             C
                           </span>
@@ -389,10 +390,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -400,7 +401,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
                               type="button"
                             >
                               <span>
@@ -411,14 +412,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="2"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             3
                           </span>
@@ -427,7 +428,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - wcn6f
                           </span>
@@ -436,7 +437,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 5.5
                           </span>
@@ -445,7 +446,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -454,7 +455,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5.5
                           </span>
@@ -463,7 +464,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -472,10 +473,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -483,7 +484,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -494,14 +495,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="3"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -510,7 +511,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - uwmcbf
                           </span>
@@ -519,7 +520,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 6
                           </span>
@@ -528,7 +529,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+
                           </span>
@@ -537,7 +538,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -546,7 +547,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -555,10 +556,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -566,7 +567,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -577,14 +578,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="4"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -593,7 +594,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - yjgst7
                           </span>
@@ -602,7 +603,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 7
                           </span>
@@ -611,7 +612,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win XP SP2+
                           </span>
@@ -620,7 +621,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -629,7 +630,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -638,10 +639,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -649,7 +650,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -660,14 +661,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="5"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -676,7 +677,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - w9ee2k
                           </span>
@@ -685,7 +686,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
@@ -694,7 +695,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win XP
                           </span>
@@ -703,7 +704,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -712,7 +713,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -721,10 +722,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -732,7 +733,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -743,14 +744,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="6"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -759,7 +760,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - hi6cd
                           </span>
@@ -768,7 +769,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
@@ -777,7 +778,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -786,7 +787,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.7
                           </span>
@@ -795,7 +796,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -804,10 +805,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -815,7 +816,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -826,14 +827,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="7"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             8
                           </span>
@@ -842,7 +843,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - 4kxz6
                           </span>
@@ -851,7 +852,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.5
                           </span>
@@ -860,7 +861,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -869,7 +870,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.8
                           </span>
@@ -878,7 +879,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -887,10 +888,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -898,7 +899,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -909,14 +910,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--odd cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="8"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             9
                           </span>
@@ -925,7 +926,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - x0u91o
                           </span>
@@ -934,7 +935,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
@@ -943,7 +944,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -952,7 +953,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.8
                           </span>
@@ -961,7 +962,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -970,10 +971,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -981,7 +982,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -992,14 +993,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="cxd-Table-table-tr cxd-Table-tr--even cxd-Table-tr--1th"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="9"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             10
                           </span>
@@ -1008,7 +1009,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - iou01
                           </span>
@@ -1017,7 +1018,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 3.0
                           </span>
@@ -1026,7 +1027,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 2k+ / OSX.3+
                           </span>
@@ -1035,7 +1036,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.9
                           </span>
@@ -1044,7 +1045,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="cxd-PlainField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -1053,10 +1054,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="cxd-OperationField"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -1064,7 +1065,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="cxd-Button cxd-Button--link cxd-Button--size-sm is-disabled text-danger"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -1079,44 +1080,44 @@ exports[`doAction:crud reload 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-toolbar cxd-Table-footToolbar"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-footToolbar"
               >
                 <div
-                  class="cxd-Crud-toolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--left"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <div
-                      class="cxd-Crud-statistics"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
                     >
                       1/18 共：171 项
                     </div>
                   </div>
                   <div
-                    class="cxd-Crud-toolbar-item cxd-Crud-toolbar-item--right"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="cxd-Crud-pager"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="cxd-Pagination-wrap cxd-Pagination-wrap-size--md"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="cxd-Pagination cxd-Pagination--sm cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="cxd-Pagination-prev is-disabled"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-left-arrow"
+                                class="icon icon-left-arrow"
                                 icon="left-arrow"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item is-active"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -1125,7 +1126,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1134,7 +1135,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1143,7 +1144,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1152,7 +1153,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1161,7 +1162,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1170,7 +1171,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1179,7 +1180,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-ellipsis"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -1190,13 +1191,13 @@ exports[`doAction:crud reload 1`] = `
                               class="icon"
                             >
                               <icon-mock
-                                classname="icon icon-arrow-double-right"
+                                class="icon icon-arrow-double-right"
                                 icon="arrow-double-right"
                               />
                             </span>
                           </li>
                           <li
-                            class="cxd-Pagination-pager-item"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1205,31 +1206,31 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="cxd-Pagination-next"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
-                                classname="icon icon-right-arrow"
+                                class="icon icon-right-arrow"
                                 icon="right-arrow"
                               />
                             </span>
                           </li>
                         </ul>
                         <div
-                          class="cxd-Pagination-inputGroup cxd-Pagination-item"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="cxd-Pagination-inputGroup-left"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="cxd-Pagination-inputGroup-input"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="cxd-Pagination-inputGroup-right"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>
@@ -1251,20 +1252,21 @@ exports[`doAction:crud reload 1`] = `
 exports[`doAction:crud reload with data1 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1272,39 +1274,39 @@ exports[`doAction:crud reload with data1 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Crud is-loading"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="cxd-Table-toolbar cxd-Table-headToolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="cxd-Table-actions"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="cxd-ColumnToggler"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="cxd-Button cxd-Button--default cxd-Button--size-sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
-                          classname="icon icon-columns"
+                          class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="cxd-ColumnToggler-caret"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -1314,13 +1316,13 @@ exports[`doAction:crud reload with data1 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -1354,10 +1356,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -1365,7 +1367,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -1374,10 +1376,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -1385,7 +1387,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -1394,10 +1396,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -1405,7 +1407,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -1414,10 +1416,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -1425,7 +1427,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -1434,10 +1436,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -1445,7 +1447,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -1454,10 +1456,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -1465,19 +1467,19 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="cxd-Table-operationCell"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -1485,7 +1487,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -1493,20 +1495,30 @@ exports[`doAction:crud reload with data1 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-placeholder"
-                      />
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder"
+                      >
+                        <td
+                          colspan="7"
+                        >
+                          <icon-mock
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
+                            icon="desk-empty"
+                          />
+                          暂无数据
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
                 <div
-                  class="cxd-Spinner-overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
                 />
                 <div
-                  class="cxd-Spinner cxd-Spinner--overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
                   data-testid="spinner"
                 >
                   <div
-                    class="cxd-Spinner-icon cxd-Spinner-icon--default"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
                   />
                 </div>
               </div>
@@ -1522,20 +1534,21 @@ exports[`doAction:crud reload with data1 1`] = `
 exports[`doAction:crud reload with data2 1`] = `
 <div>
   <div
-    class="cxd-Page"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
+    data-amis-theme="cxd"
   >
     <div
-      class="cxd-Page-content"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="cxd-Page-main"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="cxd-Page-body"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="cxd-Button cxd-Button--primary cxd-Button--size-default mb-2"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1543,39 +1556,39 @@ exports[`doAction:crud reload with data2 1`] = `
             </span>
           </button>
           <div
-            class="cxd-Crud is-loading"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="cxd-Table cxd-Crud-body"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="cxd-Table-fixedTop"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="cxd-Table-toolbar cxd-Table-headToolbar"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="cxd-Table-actions"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="cxd-ColumnToggler"
+                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="cxd-Button cxd-Button--default cxd-Button--size-sm"
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
-                          classname="icon icon-columns"
+                          class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="cxd-ColumnToggler-caret"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
-                            classname="icon icon-right-arrow-bold"
+                            class="icon icon-right-arrow-bold"
                             icon="right-arrow-bold"
                           />
                         </span>
@@ -1585,13 +1598,13 @@ exports[`doAction:crud reload with data2 1`] = `
                 </div>
               </div>
               <div
-                class="cxd-Table-contentWrap"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="cxd-Table-content"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="cxd-Table-table"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -1625,10 +1638,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -1636,7 +1649,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -1645,10 +1658,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -1656,7 +1669,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -1665,10 +1678,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -1676,7 +1689,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -1685,10 +1698,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -1696,7 +1709,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -1705,10 +1718,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -1716,7 +1729,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -1725,10 +1738,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -1736,19 +1749,19 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="cxd-Table-operationCell"
+                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="cxd-TableCell--title"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="cxd-TplField fr-view"
+                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -1756,7 +1769,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="cxd-Table-content-colDragLine"
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -1764,20 +1777,30 @@ exports[`doAction:crud reload with data2 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="cxd-Table-placeholder"
-                      />
+                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder"
+                      >
+                        <td
+                          colspan="7"
+                        >
+                          <icon-mock
+                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
+                            icon="desk-empty"
+                          />
+                          暂无数据
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
                 <div
-                  class="cxd-Spinner-overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
                 />
                 <div
-                  class="cxd-Spinner cxd-Spinner--overlay in"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
                   data-testid="spinner"
                 >
                   <div
-                    class="cxd-Spinner-icon cxd-Spinner-icon--default"
+                    class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
                   />
                 </div>
               </div>

@@ -3,17 +3,17 @@
 exports[`Renderer:list 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:list 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:list 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   单选
@@ -51,34 +51,34 @@ exports[`Renderer:list 1`] = `
             </span>
           </label>
           <div
-            class="cxd-ListControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-ListControl-items"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
             >
               <div
-                class="cxd-ListControl-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option A
                 </div>
               </div>
               <div
-                class="cxd-ListControl-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option B
                 </div>
               </div>
               <div
-                class="cxd-ListControl-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="cxd-ListControl-itemImage"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemImage"
                 >
                   <img
                     alt="OptionC"
@@ -86,7 +86,7 @@ exports[`Renderer:list 1`] = `
                   />
                 </div>
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   OptionC
                 </div>
@@ -103,17 +103,17 @@ exports[`Renderer:list 1`] = `
 exports[`Renderer:list:multiple clearable 1`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -122,10 +122,10 @@ exports[`Renderer:list:multiple clearable 1`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -133,16 +133,16 @@ exports[`Renderer:list:multiple clearable 1`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -151,25 +151,25 @@ exports[`Renderer:list:multiple clearable 1`] = `
             </span>
           </label>
           <div
-            class="cxd-ListControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-ListControl-items"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
             >
               <div
-                class="cxd-ListControl-item is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option A
                 </div>
               </div>
               <div
-                class="cxd-ListControl-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option B
                 </div>
@@ -178,16 +178,16 @@ exports[`Renderer:list:multiple clearable 1`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -196,13 +196,13 @@ exports[`Renderer:list:multiple clearable 1`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
@@ -218,17 +218,17 @@ exports[`Renderer:list:multiple clearable 1`] = `
 exports[`Renderer:list:multiple clearable 2`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -237,10 +237,10 @@ exports[`Renderer:list:multiple clearable 2`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -248,16 +248,16 @@ exports[`Renderer:list:multiple clearable 2`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -266,25 +266,25 @@ exports[`Renderer:list:multiple clearable 2`] = `
             </span>
           </label>
           <div
-            class="cxd-ListControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-ListControl-items"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
             >
               <div
-                class="cxd-ListControl-item is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option A
                 </div>
               </div>
               <div
-                class="cxd-ListControl-item is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option B
                 </div>
@@ -293,16 +293,16 @@ exports[`Renderer:list:multiple clearable 2`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -311,13 +311,13 @@ exports[`Renderer:list:multiple clearable 2`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a,b
               </span>
@@ -333,17 +333,17 @@ exports[`Renderer:list:multiple clearable 2`] = `
 exports[`Renderer:list:multiple clearable 3`] = `
 <div>
   <div
-    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
+    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="cxd-Panel-heading"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="cxd-Panel-title"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="cxd-TplField fr-view"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -352,10 +352,10 @@ exports[`Renderer:list:multiple clearable 3`] = `
       </h3>
     </div>
     <div
-      class="cxd-Panel-body"
+      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="cxd-Form cxd-Form--normal"
+        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -363,16 +363,16 @@ exports[`Renderer:list:multiple clearable 3`] = `
           type="submit"
         />
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -381,25 +381,25 @@ exports[`Renderer:list:multiple clearable 3`] = `
             </span>
           </label>
           <div
-            class="cxd-ListControl cxd-Form-control"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="cxd-ListControl-items"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
             >
               <div
-                class="cxd-ListControl-item is-active"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option A
                 </div>
               </div>
               <div
-                class="cxd-ListControl-item"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="cxd-ListControl-itemLabel"
+                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option B
                 </div>
@@ -408,16 +408,16 @@ exports[`Renderer:list:multiple clearable 3`] = `
           </div>
         </div>
         <div
-          class="cxd-Form-item cxd-Form-item--normal"
+          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="cxd-Form-label"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="cxd-TplField fr-view"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -426,13 +426,13 @@ exports[`Renderer:list:multiple clearable 3`] = `
             </span>
           </label>
           <div
-            class="cxd-Form-static"
+            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="cxd-Form-control"
+              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="cxd-PlainField"
+                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
