@@ -117,7 +117,7 @@ test('Renderer:steps labelPlacement', async () => {
   );
 
   expect(container.querySelector('.cxd-Steps')).toHaveClass(
-    'cxd-Steps--Placement-vertical'
+    componentClass('Steps--Placement-vertical')
   );
   expect(container).toMatchSnapshot();
 });
@@ -151,7 +151,7 @@ test('Renderer:steps progressDot', async () => {
     )
   );
   expect(container.querySelector('.cxd-Steps')).toHaveClass(
-    'cxd-Steps--ProgressDot'
+    componentClass('Steps--ProgressDot')
   );
   expect(container).toMatchSnapshot();
 });
@@ -183,7 +183,7 @@ test('Renderer:steps with vertical mode', async () => {
   );
 
   expect(container.querySelector('.cxd-Steps')).toHaveClass(
-    'cxd-Steps--vertical'
+    componentClass('Steps--vertical')
   );
   expect(container).toMatchSnapshot();
 });

@@ -76,7 +76,7 @@ test('Renderer:Nav', () => {
     'https://suda.cdn.bcebos.com/images%2F2021-01%2Fdiamond.svg'
   );
   expect(items[1].firstElementChild?.firstElementChild).toHaveClass(
-    'cxd-Badge'
+    componentClass('Badge')
   );
   expect(items[2].querySelector('.cxd-Badge--success')).toHaveTextContent(
     'SUC'

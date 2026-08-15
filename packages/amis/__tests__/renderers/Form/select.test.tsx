@@ -227,7 +227,7 @@ test('Renderer:select table', () => {
 
 test('Renderer:select table with labelField & valueField', async () => {
   const onSubmit = jest.fn();
-  const {debug, container, findByText, getByText} = render(
+  const {baseElement, debug, container, findByText, getByText} = render(
     amisRender(
       {
         type: 'form',
@@ -297,7 +297,7 @@ test('Renderer:select table with labelField & valueField', async () => {
 
   await waitFor(() => {
     expect(
-      container.querySelector('.amis-TransferDropDown-popover')
+      baseElement.querySelector(componentSelector('.amis-TransferDropDown-popover'))
     ).toBeInTheDocument();
   });
 

@@ -78,7 +78,7 @@ test('Renderer:Searchbox with enhance', async () => {
   );
 
   expect(container.querySelector('.cxd-SearchBox')).toHaveClass(
-    'cxd-SearchBox--enhance'
+    componentClass('SearchBox--enhance')
   );
   expect(container).toMatchSnapshot();
 });

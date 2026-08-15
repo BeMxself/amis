@@ -200,7 +200,7 @@ test('Renderer:TooltipWrapper with tooltipTheme', async () => {
   await wait(500);
 
   expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
-    'amis-Tooltip--dark'
+    componentClass('Tooltip--dark')
   );
 });
 
@@ -271,7 +271,7 @@ test('Renderer:TooltipWrapper with inline', async () => {
   );
 
   expect(container.querySelector('.amis-TooltipWrapper')).toHaveClass(
-    'amis-TooltipWrapper--inline'
+    componentClass('TooltipWrapper--inline')
   );
 });
 

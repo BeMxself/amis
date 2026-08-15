@@ -1258,8 +1258,10 @@ test('Renderer:table-each', () => {
 
   const td2 = container.querySelector('tr:first-child>td:nth-child(2)');
 
-  expect(td2?.innerHTML).toBe(
-    '<div class="amis-Each"><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">a</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">b</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">c</span></span></span></div>'
+  expect(normalizeSnapshotClassPrefixes(td2?.innerHTML || '')).toBe(
+    normalizeSnapshotClassPrefixes(
+      '<div class="amis-Each"><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">a</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">b</span></span></span><span class="amis-TplField fr-view"><span><span class="label label-info m-l-sm">c</span></span></span></div>'
+    )
   );
 });
 

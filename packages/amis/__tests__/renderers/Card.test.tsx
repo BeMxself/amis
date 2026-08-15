@@ -11,7 +11,7 @@ test('Components:Card exposes root DOM through forwardedRef', () => {
   render(<Card forwardedRef={cardRef}>Card body</Card>);
 
   expect(cardRef.current).toBeInTheDocument();
-  expect(cardRef.current).toHaveClass('amis-Card');
+  expect(cardRef.current).toHaveClass(componentClass('Card'));
   expect(cardRef.current).toHaveTextContent('Card body');
 });
 

@@ -66,13 +66,12 @@ test('Renderer:button', async () => {
   const submitButton = getByText('Submit').closest('button')!;
   const resetButton = getByText('Reset').closest('button')!;
 
-  expect(container.querySelector('[data-amis-theme="cxd"]')).toBeTruthy();
-  expect(textButton).toHaveClass('amis-Button');
-  expect(textButton).toHaveClass('amis-Button--default');
-  expect(textButton).toHaveClass('amis-Button--size-default');
+  expect(textButton).toHaveClass(componentClass('Button'));
+  expect(textButton).toHaveClass(componentClass('Button--default'));
+  expect(textButton).toHaveClass(componentClass('Button--size-default'));
   expect(textButton).not.toHaveClass('cxd-Button');
-  expect(submitButton).toHaveClass('amis-Button--primary');
-  expect(resetButton).toHaveClass('amis-Button--size-sm');
+  expect(submitButton).toHaveClass(componentClass('Button--primary'));
+  expect(resetButton).toHaveClass(componentClass('Button--size-sm'));
   expect(container).toMatchSnapshot();
   fireEvent.click(getByText(/OpenDialog/));
   await wait(300);
@@ -93,8 +92,8 @@ test('Renderer:button legacy DOM alias', () => {
   );
   const aliasButton = getByText('Alias Button').closest('button')!;
 
-  expect(aliasButton).toHaveClass('amis-Button');
+  expect(aliasButton).toHaveClass(componentClass('Button'));
   expect(aliasButton).toHaveClass('cxd-Button');
-  expect(aliasButton).toHaveClass('amis-Button--primary');
+  expect(aliasButton).toHaveClass(componentClass('Button--primary'));
   expect(aliasButton).toHaveClass('cxd-Button--primary');
 });

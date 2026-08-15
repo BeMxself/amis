@@ -188,10 +188,10 @@ test('Renderer:Pagination with layout', () => {
   const children = pageWrapper.children;
 
   expect(children.length).toBe(4);
-  expect(children[0]).toHaveClass('cxd-Pagination-total');
-  expect(children[1]).toHaveClass('cxd-Pagination-inputGroup');
-  expect(children[2]).toHaveClass('cxd-Pagination-perpage');
-  expect(children[3]).toHaveClass('cxd-Pagination');
+  expect(children[0]).toHaveClass(componentClass('Pagination-total'));
+  expect(children[1]).toHaveClass(componentClass('Pagination-inputGroup'));
+  expect(children[2]).toHaveClass(componentClass('Pagination-perpage'));
+  expect(children[3]).toHaveClass(componentClass('Pagination'));
 
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot();
@@ -400,7 +400,7 @@ test('pagination: Pagination with size', async () => {
   );
 
   const paginationEl = container.querySelector('.cxd-Pagination-wrap');
-  expect(paginationEl).toHaveClass('cxd-Pagination-wrap-size--sm');
+  expect(paginationEl).toHaveClass(componentClass('Pagination-wrap-size--sm'));
 });
 
 // 10.多页跳转页数

@@ -82,9 +82,11 @@ test('Renderer:status source', async () => {
   expect(
     (value1.querySelector('.cxd-StatusField-label') as HTMLElement).innerHTML
   ).toBe('11');
-  expect((value1.querySelector('i') as HTMLElement).classList.value).toMatch(
-    /fa fa-check cxd-Status-icon/
-  );
+  expect(
+    normalizeSnapshotClassPrefixes(
+      (value1.querySelector('i') as HTMLElement).classList.value
+    )
+  ).toMatch(/fa fa-check __AMIS_COMPONENT_CLASS_PREFIX__Status-icon/);
 
   const valueSuccess = setup('success').querySelector('.cxd-StatusField')!;
   expect((valueSuccess as HTMLElement).style.color).toBe('rgb(255, 255, 0)');
@@ -93,6 +95,8 @@ test('Renderer:status source', async () => {
       .innerHTML
   ).toBe('custom success');
   expect(
-    (valueSuccess.querySelector('i') as HTMLElement).classList.value
-  ).toMatch(/fa fa-success cxd-Status-icon/);
+    normalizeSnapshotClassPrefixes(
+      (valueSuccess.querySelector('i') as HTMLElement).classList.value
+    )
+  ).toMatch(/fa fa-success __AMIS_COMPONENT_CLASS_PREFIX__Status-icon/);
 });

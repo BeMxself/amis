@@ -208,8 +208,8 @@ test('Renderer:fieldSet with titlePosition & collapseTitle & title', async () =>
 
   const item = container.querySelector('.cxd-Collapse.is-active')!;
 
-  expect(item).toHaveClass('cxd-Collapse--title-bottom');
-  expect(item.firstElementChild).toHaveClass('cxd-Collapse-contentWrapper');
+  expect(item).toHaveClass(componentClass('Collapse--title-bottom'));
+  expect(item.firstElementChild).toHaveClass(componentClass('Collapse-contentWrapper'));
   expect(item.lastElementChild).toHaveTextContent('收起设置');
   expect(container).toMatchSnapshot();
 

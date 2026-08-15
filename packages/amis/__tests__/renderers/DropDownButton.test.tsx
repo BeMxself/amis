@@ -346,7 +346,7 @@ test('Renderer:dropdown-button with align', async () => {
     container.querySelector('.amis-DropDown-menu-root')!
   ).toBeInTheDocument();
   expect(container.querySelector('.amis-DropDown')!).toHaveClass(
-    'amis-DropDown--alignRight'
+    componentClass('DropDown--alignRight')
   );
 });
 
@@ -370,7 +370,7 @@ test('Renderer:dropdown-button with block & size', async () => {
   );
 
   expect(container.querySelector('.amis-DropDown')!).toHaveClass(
-    'amis-DropDown--block'
+    componentClass('DropDown--block')
   );
   expect(container).toMatchSnapshot();
 
@@ -393,7 +393,7 @@ test('Renderer:dropdown-button with block & size', async () => {
   );
 
   expect(container.querySelector('.amis-DropDown .amis-Button')!).toHaveClass(
-    'amis-Button--size-lg'
+    componentClass('Button--size-lg')
   );
   expect(container).toMatchSnapshot();
 });
@@ -423,7 +423,7 @@ test('Renderer:dropdown-button buttons with className & level', async () => {
   fireEvent.click(dropdownButton as HTMLDivElement);
 
   expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(
-    'amis-Button--success'
+    componentClass('Button--success')
   );
 
   expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(

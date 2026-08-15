@@ -178,7 +178,8 @@ test('Renderer:Progress with stripe & animate', async () => {
   );
 
   expect(container.querySelector('.cxd-Progress-line-bar')).toHaveClass(
-    'cxd-Progress-line-bar--stripe cxd-Progress-line-bar--stripe-animate'
+    componentClass('Progress-line-bar--stripe'),
+    componentClass('Progress-line-bar--stripe-animate')
   );
   expect(container).toMatchSnapshot();
 });

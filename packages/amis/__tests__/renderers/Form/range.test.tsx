@@ -67,7 +67,7 @@ test('Renderer:range with showInput & showInputUnit', async () => {
     ).getAttribute('style')
   ).toContain('width: 7%');
 
-  expect(inputWrapper).toHaveClass('cxd-InputRange-input-with-unit');
+  expect(inputWrapper).toHaveClass(componentClass('InputRange-input-with-unit'));
   expect(container).toMatchSnapshot();
 });
 

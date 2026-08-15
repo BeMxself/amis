@@ -132,6 +132,9 @@ test('Renderer:Form:valdiate', async () => {
   });
 
   fireEvent.click(getByText('Submit'));
+  await waitFor(() => {
+    expect(container.querySelector('.cxd-Form-feedback')).not.toBeInTheDocument();
+  });
   expect(container).toMatchSnapshot();
 
   await waitFor(() => {

@@ -185,7 +185,7 @@ test('Renderer:Carousel with controls & controlsTheme & thumbMode', async () => 
   );
 
   expect(container.querySelector('.cxd-Carousel')).toHaveClass(
-    'cxd-Carousel--light'
+    componentClass('Carousel--light')
   );
   expect(
     container.querySelector('.cxd-Image-origin.cxd-Image-origin--contain')
@@ -226,7 +226,7 @@ test('Renderer:Carousel with controls & controlsTheme & thumbMode', async () => 
   expect(container).toMatchSnapshot();
 
   expect(container.querySelector('.cxd-Carousel')).toHaveClass(
-    'cxd-Carousel--dark'
+    componentClass('Carousel--dark')
   );
   expect(
     container.querySelector('.cxd-Image-origin.cxd-Image-origin--cover')

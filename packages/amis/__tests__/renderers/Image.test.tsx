@@ -107,7 +107,7 @@ describe('Renderer:image', () => {
 
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--w-full');
+    ).toHaveClass(componentClass('Image-thumb--w-full'));
 
     rerender(
       amisRender({
@@ -117,7 +117,7 @@ describe('Renderer:image', () => {
     );
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--h-full');
+    ).toHaveClass(componentClass('Image-thumb--h-full'));
 
     rerender(
       amisRender({
@@ -127,7 +127,7 @@ describe('Renderer:image', () => {
     );
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--contain');
+    ).toHaveClass(componentClass('Image-thumb--contain'));
 
     rerender(
       amisRender({
@@ -137,7 +137,7 @@ describe('Renderer:image', () => {
     );
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--cover');
+    ).toHaveClass(componentClass('Image-thumb--cover'));
   });
 
   test('image:thumbRatio', async () => {
@@ -156,7 +156,7 @@ describe('Renderer:image', () => {
 
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--1-1');
+    ).toHaveClass(componentClass('Image-thumb--1-1'));
 
     rerender(
       amisRender({
@@ -166,7 +166,7 @@ describe('Renderer:image', () => {
     );
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--4-3');
+    ).toHaveClass(componentClass('Image-thumb--4-3'));
 
     rerender(
       amisRender({
@@ -176,7 +176,7 @@ describe('Renderer:image', () => {
     );
     expect(
       container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
-    ).toHaveClass('cxd-Image-thumb--16-9');
+    ).toHaveClass(componentClass('Image-thumb--16-9'));
   });
 
   test('image:enlargeAble & originalSrc & enlargeTitle & showToolbar', async () => {

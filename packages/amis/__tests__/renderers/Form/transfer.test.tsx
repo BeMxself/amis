@@ -885,7 +885,7 @@ test('Renderer:transfer table mode with virtual', async () => {
     '.cxd-Transfer-result .cxd-Selections.cxd-Transfer-value .cxd-Selections-items'
   )!;
 
-  expect(resultList.firstChild).toHaveClass('cxd-Selections-item');
+  expect(resultList.firstChild).toHaveClass(componentClass('Selections-item'));
   expect(container).toMatchSnapshot('result not virtual');
 
   // 点击后，value 变为 11 项，右侧列表变成虚拟列表
@@ -928,7 +928,7 @@ test('Renderer:transfer chained mode with virtual', async () => {
 
   expect(cols.length).toBe(2);
   expect(cols[0].children.length).toBe(10);
-  expect(cols[1].firstChild).toHaveClass('cxd-ChainedSelection-placeholder');
+  expect(cols[1].firstChild).toHaveClass(componentClass('ChainedSelection-placeholder'));
 
   fireEvent.click(getByText('group-2'));
 

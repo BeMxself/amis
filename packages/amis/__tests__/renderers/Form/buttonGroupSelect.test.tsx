@@ -237,7 +237,7 @@ test('Renderer:button-group with btnActiveLevel', async () => {
   expect(buttons.length).toBe(3);
 
   expect(container).toMatchSnapshot();
-  expect(buttons[0]).toHaveClass('amis-Button--warning');
-  expect(buttons[1]).toHaveClass('amis-Button--primary');
-  expect(buttons[2]).toHaveClass('amis-Button--light');
+  expect(buttons[0]).toHaveClass(componentClass('Button--warning'));
+  expect(buttons[1]).toHaveClass(componentClass('Button--primary'));
+  expect(buttons[2]).toHaveClass(componentClass('Button--light'));
 });

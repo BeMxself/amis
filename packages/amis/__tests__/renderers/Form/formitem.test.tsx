@@ -346,8 +346,10 @@ test('Renderer:FormItem:label with variable', async () => {
 
   await wait(200);
   const label = container.querySelector('label');
-  expect(label?.innerHTML).toBe(
-    '<span><span class="cxd-TplField fr-view"><span>Label ${b}</span></span></span>'
+  expect(normalizeSnapshotClassPrefixes(label?.innerHTML || '')).toBe(
+    normalizeSnapshotClassPrefixes(
+      '<span><span class="cxd-TplField fr-view"><span>Label ${b}</span></span></span>'
+    )
   );
 });
 

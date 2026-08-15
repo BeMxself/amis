@@ -301,7 +301,7 @@ describe('Renderer:list with listItem', () => {
 
     expect(container).toMatchSnapshot();
     expect(container.querySelector('.amis-ListItem')!).toHaveClass(
-      'amis-ListItem--actions-at-right'
+      componentClass('ListItem--actions-at-right')
     );
 
     rerender(
@@ -328,7 +328,7 @@ describe('Renderer:list with listItem', () => {
     );
 
     expect(container.querySelector('.amis-ListItem')!).toHaveClass(
-      'amis-ListItem--actions-at-left'
+      componentClass('ListItem--actions-at-left')
     );
   });
 });

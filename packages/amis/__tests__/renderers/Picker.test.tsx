@@ -154,7 +154,7 @@ test('2. Renderer:Picker with pickerSchema & valueField & labelField & multiple 
   expect(
     baseElement.querySelector('.cxd-Modal .cxd-Crud')!
   ).toBeInTheDocument();
-  expect(baseElement.querySelector('.cxd-Modal')).toHaveClass('cxd-Modal--lg');
+  expect(baseElement.querySelector('.cxd-Modal')).toHaveClass(componentClass('Modal--lg'));
 
   expect(fetcher).toBeCalledTimes(2);
   expect(fetcher.mock.calls[1][0].query).toEqual({

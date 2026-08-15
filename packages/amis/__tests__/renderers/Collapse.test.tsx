@@ -150,7 +150,7 @@ test('3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow', as
 
   expect(
     container.querySelector('.cxd-Collapse:last-of-type')!.firstElementChild!
-  ).not.toHaveClass('cxd-Collapse-icon-tranform');
+  ).not.toHaveClass(componentClass('Collapse-icon-tranform'));
 
   rerender(
     amisRender({...schema, expandIconPosition: 'right'}, {}, makeEnv({}))
@@ -201,9 +201,9 @@ test('4. Renderer:Collapse with disabled & panel nesting', async () => {
   expect(container).toMatchSnapshot();
   expect(
     container.querySelector('.cxd-Collapse-content')!.firstElementChild!
-  ).toHaveClass('cxd-CollapseGroup');
+  ).toHaveClass(componentClass('CollapseGroup'));
   expect(container.querySelector('.lastOne')!).toHaveClass(
-    'cxd-Collapse--disabled'
+    componentClass('Collapse--disabled')
   );
 });
 

@@ -62,10 +62,10 @@ test('Renderer:alert var', () => {
   expect(container).toMatchSnapshot();
 
   expect(container.querySelector('.cxd-Alert')).toHaveClass(
-    'cxd-Alert--success'
+    componentClass('Alert--success')
   );
   expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
-    'classname',
+    'class',
     'icon icon-copy'
   );
   expect(container.querySelector('.cxd-Alert-content')).toHaveTextContent(
@@ -106,10 +106,10 @@ test('Renderer:alert with level', () => {
   const alerts = container.querySelectorAll('.cxd-Alert');
 
   expect(alerts!.length).toBe(4);
-  expect(alerts[0]).toHaveClass('cxd-Alert--info');
-  expect(alerts[1]).toHaveClass('cxd-Alert--success');
-  expect(alerts[2]).toHaveClass('cxd-Alert--warning');
-  expect(alerts[3]).toHaveClass('cxd-Alert--danger');
+  expect(alerts[0]).toHaveClass(componentClass('Alert--info'));
+  expect(alerts[1]).toHaveClass(componentClass('Alert--success'));
+  expect(alerts[2]).toHaveClass(componentClass('Alert--warning'));
+  expect(alerts[3]).toHaveClass(componentClass('Alert--danger'));
 });
 
 test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
@@ -149,7 +149,7 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
 
   expect(container.querySelector('.cxd-Alert-icon')).toBeInTheDocument();
   expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
-    'classname',
+    'class',
     'icon icon-alert-info'
   );
 
@@ -163,7 +163,7 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
   );
 
   expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
-    'classname',
+    'class',
     'icon icon-star'
   );
   expect(container.querySelector('.cxd-Alert-icon')).toHaveClass('starClass');

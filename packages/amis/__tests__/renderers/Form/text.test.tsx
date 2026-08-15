@@ -403,7 +403,7 @@ describe('Renderer:text with options and multiple', () => {
     const valueLabel = screen.getByText(longText);
     // FIXME: ResizeObserver的 polyfill 在 jest 环境中不好使，先这样测吧
     expect(valueLabel).toBeInTheDocument();
-    expect(valueLabel.classList).toContain('cxd-OverflowTpl');
+    expect(valueLabel.classList).toContain(componentClass('OverflowTpl'));
   });
 });
 

@@ -512,7 +512,7 @@ test('Renderer:combo with conditions', async () => {
   }
 
   expect(getComboItem(1)!.firstElementChild).toHaveClass(
-    'cxd-TextControl-input'
+    componentClass('TextControl-input')
   );
 
   const typeSwitcher = container.querySelector(
@@ -531,7 +531,9 @@ test('Renderer:combo with conditions', async () => {
   expect(types[1].innerHTML).toBe('数字');
   fireEvent.click(types[1]);
 
-  expect(getComboItem(1)!.firstElementChild).toHaveClass('cxd-Number');
+  expect(getComboItem(1)!.firstElementChild).toHaveClass(
+    componentClass('Number')
+  );
   fireEvent.change(getComboItem(1, '.cxd-Number-input')!, {
     target: {value: 1239}
   });
@@ -552,7 +554,7 @@ test('Renderer:combo with conditions', async () => {
   await wait(10);
 
   expect(getComboItem(2)!.firstElementChild).toHaveClass(
-    'cxd-TextControl-input'
+    componentClass('TextControl-input')
   );
 
   fireEvent.click(submitBtn);

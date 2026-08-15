@@ -54,14 +54,14 @@ test('Renderer:overlay body portal uses triggering root theme scope with shared 
   await waitFor(() => {
     expect(
       document.body.querySelector(
-        scopedPopoverSelector('cxd', 'amis-DropDown-popover')
+        scopedPopoverSelector('cxd', componentClass('DropDown-popover'))
       )
     ).toBeInTheDocument();
   });
 
   expect(
     document.body.querySelector(
-      scopedPopoverSelector('dark', 'amis-DropDown-popover')
+      scopedPopoverSelector('dark', componentClass('DropDown-popover'))
     )
   ).not.toBeInTheDocument();
 });

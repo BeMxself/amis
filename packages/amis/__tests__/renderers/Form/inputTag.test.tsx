@@ -89,7 +89,7 @@ describe('Renderer:InputTag', () => {
     await wait(500);
 
     const option = screen.getByText('Honey-dew melon');
-    expect(option).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(option).toHaveClass(componentClass('ResultBox-valueLabel'));
     replaceReactAriaIds(container);
     expect(container).toMatchSnapshot();
   });
@@ -107,11 +107,11 @@ describe('Renderer:InputTag', () => {
     await wait(500);
 
     const Apple = screen.getByText('Apple');
-    expect(Apple).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Apple).toHaveClass(componentClass('ResultBox-valueLabel'));
     const Orange = screen.getByText('Orange');
-    expect(Orange).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Orange).toHaveClass(componentClass('ResultBox-valueLabel'));
     const Banana = screen.getByText('Banana');
-    expect(Banana).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Banana).toHaveClass(componentClass('ResultBox-valueLabel'));
 
     replaceReactAriaIds(container);
     expect(container).toMatchSnapshot();
@@ -133,11 +133,11 @@ describe('Renderer:InputTag', () => {
     await wait(500);
 
     const Apple = screen.getByText('Apple');
-    expect(Apple).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Apple).toHaveClass(componentClass('ResultBox-valueLabel'));
     const Orange = screen.getByText('Orange');
-    expect(Orange).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Orange).toHaveClass(componentClass('ResultBox-valueLabel'));
     const Banana = screen.getByText('Banana');
-    expect(Banana).toHaveClass('cxd-ResultBox-valueLabel');
+    expect(Banana).toHaveClass(componentClass('ResultBox-valueLabel'));
 
     replaceReactAriaIds(container);
     expect(container).toMatchSnapshot();

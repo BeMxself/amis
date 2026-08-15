@@ -299,7 +299,7 @@ test('Components:Modal exposes content DOM through contentDomRef', () => {
   );
 
   expect(contentDomRef.current).toBeInTheDocument();
-  expect(contentDomRef.current).toHaveClass('amis-Modal-content');
+  expect(contentDomRef.current).toHaveClass(componentClass('Modal-content'));
   expect(contentDomRef.current).toContainElement(
     screen.getByTestId('modal-body')
   );
@@ -346,7 +346,7 @@ test('Components:Drawer exposes content DOM through contentDomRef', () => {
   );
 
   expect(contentDomRef.current).toBeInTheDocument();
-  expect(contentDomRef.current).toHaveClass('amis-Drawer-content');
+  expect(contentDomRef.current).toHaveClass(componentClass('Drawer-content'));
   expect(contentDomRef.current).toContainElement(
     screen.getByTestId('drawer-body')
   );
@@ -363,7 +363,7 @@ test('Components:Modal closes from stable root class on outside click', () => {
 
   const modal = document.body.querySelector('.amis-Modal') as HTMLElement;
   expect(modal).toBeInTheDocument();
-  expect(modal).toHaveClass('amis-Modal--1th');
+  expect(modal).toHaveClass(componentClass('Modal--1th'));
 
   fireEvent.mouseDown(modal, {button: 0});
   fireEvent.mouseUp(modal, {button: 0});
@@ -394,9 +394,9 @@ test('Components:Drawer closes from stable overlay class on outside click', () =
   ) as HTMLElement;
 
   expect(drawer).toBeInTheDocument();
-  expect(drawer).toHaveClass('amis-Drawer--left');
-  expect(drawer).toHaveClass('amis-Drawer--md');
-  expect(drawer).toHaveClass('amis-Modal--1th');
+  expect(drawer).toHaveClass(componentClass('Drawer--left'));
+  expect(drawer).toHaveClass(componentClass('Drawer--md'));
+  expect(drawer).toHaveClass(componentClass('Modal--1th'));
   expect(overlay).toBeInTheDocument();
 
   fireEvent.mouseDown(overlay, {button: 0});

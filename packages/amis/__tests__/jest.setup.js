@@ -2,6 +2,20 @@ const originalWarn = console.warn.bind(console.warn);
 const originalGroupCollapsed = console.warn.bind(console.groupCollapsed);
 const originalGroupEnd = console.warn.bind(console.groupEnd);
 const originalDebug = console.warn.bind(console.debug);
+const {
+  componentClass,
+  componentSelector,
+  installComponentClassSelectorBridge,
+  installComponentClassSnapshotSerializer,
+  normalizeSnapshotClassPrefixes
+} = require('./componentClassPrefix');
+
+installComponentClassSelectorBridge();
+installComponentClassSnapshotSerializer();
+global.componentClass = componentClass;
+global.componentSelector = componentSelector;
+global.normalizeSnapshotClassPrefixes = normalizeSnapshotClassPrefixes;
+
 require('@testing-library/jest-dom');
 require('moment-timezone');
 const moment = require('moment');
