@@ -998,6 +998,26 @@ if (fis.project.currentMedia() === 'publish-sdk') {
         resourceType: 'mod'
       }),
       function (ret) {
+        function prioritizeRuntimeScripts(contents) {
+          const priorityScripts = [];
+          const prioritizedScriptReg =
+            /\s*<script\b[^>]*\bsrc=(['"])([^'"]*\/pkg\/(?:npm|examples\/index\.html_map)[^'"]*\.js)\1[^>]*>\s*<\/script>/g;
+
+          contents = contents.replace(prioritizedScriptReg, function (script) {
+            priorityScripts.push(script.trim());
+            return '';
+          });
+
+          if (!priorityScripts.length) {
+            return contents;
+          }
+
+          return contents.replace(
+            /(\s*<script\b[^>]*\bsrc=(['"])[^'"]*\/pkg\/[^'"]*\.js\2[^>]*>\s*<\/script>)/,
+            `\n${priorityScripts.join('\n')}$1`
+          );
+        }
+
         const indexHtml = ret.src['/examples/index.html'];
         const appJs = ret.src['/examples/components/App.tsx'];
         const DocJs = ret.src['/examples/components/Doc.tsx'];
@@ -1029,7 +1049,9 @@ if (fis.project.currentMedia() === 'publish-sdk') {
           }
         );
 
-        const contents = indexHtml.getContent();
+        const contents = prioritizeRuntimeScripts(indexHtml.getContent());
+        indexHtml.setContent(contents);
+
         pages.forEach(function (path) {
           const file = fis.file(
             fis.project.getProjectPath(),
