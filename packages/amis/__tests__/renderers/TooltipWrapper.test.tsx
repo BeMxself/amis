@@ -66,6 +66,40 @@ test('Renderer:TooltipWrapper with trigger & title', async () => {
   expect(getByText('click提示文字')!).toBeInTheDocument();
 });
 
+test('Renderer:Button hides hover tooltip after click opens dialog', async () => {
+  const {baseElement, getByText} = render(
+    amisRender({
+      type: 'page',
+      body: {
+        type: 'button',
+        label: '打开弹窗',
+        tooltip: '点击前提示',
+        actionType: 'dialog',
+        dialog: {
+          title: '确认弹窗',
+          body: '弹窗内容'
+        }
+      }
+    })
+  );
+
+  fireEvent.mouseEnter(getByText('打开弹窗'));
+
+  await waitFor(() => {
+    expect(baseElement.querySelector('.amis-Tooltip')).toBeInTheDocument();
+  });
+
+  fireEvent.click(getByText('打开弹窗'));
+
+  await waitFor(() => {
+    expect(getByText('弹窗内容')).toBeInTheDocument();
+  });
+
+  await waitFor(() => {
+    expect(baseElement.querySelector('.amis-Tooltip')).toBeNull();
+  });
+});
+
 // test('Renderer:TooltipWrapper with placement', async () => {
 //   const schema = {
 //     type: 'tooltip-wrapper',

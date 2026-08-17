@@ -148,6 +148,7 @@ export class TooltipWrapper extends React.Component<
     this.handleShow = this.handleShow.bind(this);
     this.handleHide = this.handleHide.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.handleTargetClick = this.handleTargetClick.bind(this);
     this.handleFocus = this.handleFocus.bind(this);
     this.handleBlur = this.handleBlur.bind(this);
     this.handleMouseOver = this.handleMouseOver.bind(this);
@@ -274,7 +275,15 @@ export class TooltipWrapper extends React.Component<
 
   handleClick(e: any) {
     const {onClick} = this.getChildProps();
+    clearTimeout(this.timer);
     this.state.show ? this.hide() : this.show();
+    onClick && onClick(e);
+  }
+
+  handleTargetClick(e: any) {
+    const {onClick} = this.getChildProps();
+    clearTimeout(this.timer);
+    this.state.show && this.hide();
     onClick && onClick(e);
   }
 
@@ -338,6 +347,8 @@ export class TooltipWrapper extends React.Component<
 
     if (~triggers.indexOf('click')) {
       childProps.onClick = this.handleClick;
+    } else {
+      childProps.onClick = this.handleTargetClick;
     }
 
     if (~triggers.indexOf('focus')) {
