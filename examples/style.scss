@@ -5,14 +5,16 @@
 
 body {
   background-color: #fff !important;
+
   &[data-amis-theme='dark'] {
     background-color: var(--colors-neutral-fill-11) !important;
+
     pre {
       color: #fff;
     }
 
     .markdown-body {
-      color: rgb(100 116 139 / 1);
+      color: #c9d1d9;
       background-color: var(--colors-neutral-fill-11) !important;
     }
   }
@@ -269,6 +271,13 @@ body {
 
       &-headerBar-links > a {
         color: #eee;
+      }
+    }
+
+    .DocLayout-brandBar,
+    .DocLayout-searchBar {
+      &::before {
+        border-left-color: #303844;
       }
     }
   }
@@ -703,6 +712,8 @@ body {
 [data-amis-theme='dark'] .Doc-navDrawer,
 [data-amis-theme='dark'] .Doc {
   .amis-AsideNav-item {
+    border-left-color: #303844;
+
     > a {
       color: #ccc;
       &:hover {
@@ -725,17 +736,161 @@ body {
 }
 
 [data-amis-theme='dark'] .Doc {
+  --Doc-border-color: #303844;
+  --Doc-muted-surface: #151b23;
+  --Doc-surface: #0d1117;
+  --Doc-text-color: #c9d1d9;
+  --Doc-muted-text-color: #8b949e;
+
   .Doc-headingList-item a {
-    color: #fff;
+    color: var(--Doc-text-color);
     &:hover {
-      color: #999;
+      color: #f0f6fc;
     }
   }
 
+  .Doc-headingList {
+    border-left-color: var(--Doc-border-color);
+  }
+
+  .Doc-content {
+    .markdown-body {
+      color: var(--Doc-text-color);
+
+      > h1,
+      > h2 {
+        border-top-color: var(--Doc-border-color);
+      }
+
+      hr,
+      .footnotes {
+        border-top-color: var(--Doc-border-color);
+      }
+
+      blockquote {
+        color: var(--Doc-muted-text-color);
+        border-left-color: var(--Doc-border-color);
+      }
+
+      table {
+        th,
+        td {
+          border-color: #3d444d;
+        }
+
+        tr {
+          background-color: var(--Doc-surface);
+          border-top-color: rgba(61, 68, 77, 0.7);
+        }
+
+        tr:nth-child(2n) {
+          background-color: var(--Doc-muted-surface);
+        }
+      }
+
+      :not(pre) > code,
+      :not(pre) > tt {
+        background-color: rgba(101, 108, 118, 0.2);
+      }
+
+      pre,
+      .highlight pre {
+        color: #f0f6fc;
+        background-color: var(--Doc-muted-surface);
+      }
+
+      pre code,
+      pre tt,
+      pre code[class*='language-'] {
+        background: transparent;
+      }
+
+      code[class*='language-'],
+      pre[class*='language-'] {
+        color: #e6edf3;
+        text-shadow: none;
+      }
+
+      .token.comment,
+      .token.prolog,
+      .token.doctype,
+      .token.cdata {
+        color: #8b949e;
+      }
+
+      .token.punctuation {
+        color: #c9d1d9;
+      }
+
+      .token.property,
+      .token.tag,
+      .token.boolean,
+      .token.number,
+      .token.constant,
+      .token.symbol,
+      .token.deleted {
+        color: #ff7b72;
+      }
+
+      .token.selector,
+      .token.attr-name,
+      .token.string,
+      .token.char,
+      .token.builtin,
+      .token.inserted {
+        color: #a5d6ff;
+      }
+
+      .token.operator,
+      .token.entity,
+      .token.url,
+      .language-css .token.string,
+      .style .token.string {
+        color: #d2a8ff;
+        background: transparent;
+      }
+
+      .token.atrule,
+      .token.attr-value,
+      .token.keyword {
+        color: #ff7b72;
+      }
+
+      .token.function,
+      .token.class-name {
+        color: #d2a8ff;
+      }
+
+      .token.regex,
+      .token.important,
+      .token.variable {
+        color: #ffa657;
+      }
+    }
+  }
+
+  .amis-doc > .preview,
+  .amis-doc > pre,
+  .doc-play-ground,
+  .Playgroud {
+    border-color: var(--Doc-border-color);
+  }
+
+  .amis-doc > .preview {
+    background: #191c22;
+    color: #f0f6fc;
+  }
+
   &-footer {
+    &-divider {
+      border-top-color: var(--Doc-border-color);
+    }
+
     .Doc-navLinks--prev,
     .Doc-navLinks--next {
       color: #eee;
+      border-color: var(--Doc-border-color);
+      box-shadow: none;
     }
 
     .Doc-navLinks-title {
@@ -763,6 +918,18 @@ body {
   .amis-AsideNav-label {
     color: #ccc;
   }
+
+  .Playgroud {
+    border-color: var(--Doc-border-color);
+
+    &-code {
+      border-left-color: var(--Doc-border-color);
+    }
+  }
+}
+
+[data-amis-theme='dark'] .Doc-nav > div {
+  border-right-color: #303844;
 }
 
 .Backtop {
