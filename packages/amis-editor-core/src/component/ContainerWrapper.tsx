@@ -25,8 +25,13 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
     所以 ContainerWrapper 只要修改下发的 render 即可完成包裹。
    */
   @autobind
-  renderChild(region: string, node: Schema, props: any) {
-    const {render, $$editor, $$node, $schema} = this.props;
+  renderChild(
+    region: string,
+    node: Schema,
+    props: any,
+    wrapperProps: ContainerWrapperProps
+  ) {
+    const {render, $$editor, $$node, $schema} = wrapperProps;
 
     if (
       $$editor.regions?.find(item => item.key === region)?.hiddenOn?.($schema)
@@ -71,9 +76,12 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
   }
 
   render() {
-    const {$$editor, $$node, ...rest} = this.props;
+    const wrapperProps = this.props;
+    const {$$editor, $$node, ...rest} = wrapperProps;
     const props: any = {};
     const editorStore = $$editor.plugin.manager.store;
+    const renderChild = (region: string, node: Schema, props: any) =>
+      this.renderChild(region, node, props, wrapperProps);
 
     if (
       $$editor.id &&
@@ -127,7 +135,7 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
         {...props}
         $$editor={$$editor}
         $$node={$$node}
-        render={this.renderChild}
+        render={renderChild}
         ref={this.refFn}
       />
     );

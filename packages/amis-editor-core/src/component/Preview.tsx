@@ -61,22 +61,52 @@ export interface PreviewState {
 export default class Preview extends Component<PreviewProps> {
   currentDom = React.createRef<HTMLDivElement>();
   dialogReaction: any;
-  env: RenderOptions = {
-    ...this.props.manager.env,
-    notify: (type, msg, conf) => {
-      if (this.props.editable) {
-        console.warn('[Notify]', type, msg);
-        return;
-      }
+  env: RenderOptions;
+  readonly unReaction: () => void;
 
-      toast[type]
-        ? toast[type](msg, conf || (type === 'error' ? '系统错误' : '系统消息'))
-        : console.warn('[Notify]', type, msg);
-    },
-    theme: this.props.theme,
-    session: `preview-${this.props.manager.id}`,
-    rendererResolver: this.rendererResolver.bind(this)
-  };
+  constructor(props: PreviewProps) {
+    super(props);
+
+    const {editable, manager, store, theme} = props;
+
+    this.env = {
+      ...manager.env,
+      notify: (type, msg, conf) => {
+        if (editable) {
+          console.warn('[Notify]', type, msg);
+          return;
+        }
+
+        toast[type]
+          ? toast[type](
+              msg,
+              conf || (type === 'error' ? '系统错误' : '系统消息')
+            )
+          : console.warn('[Notify]', type, msg);
+      },
+      theme,
+      session: `preview-${manager.id}`,
+      rendererResolver: this.rendererResolver.bind(this)
+    };
+
+    // 优化这块
+    this.unReaction = reactionWithOldValue(
+      () => [this.getHighlightNodes(store), store.activeId],
+      ([ids]: [Array<string>], oldValue: [Array<string>]) => {
+        // requestAnimationFrame(() => {
+        //   this.calculateHighlightBox(ids);
+        // });
+        store.activeHighlightNodes(ids);
+        let oldIds = oldValue?.[0];
+
+        if (Array.isArray(oldIds)) {
+          oldIds = oldIds.filter(id => !~ids.indexOf(id));
+          store.deActiveHighlightNodes(oldIds);
+          // store.resetHighlightBox(oldIds);
+        }
+      }
+    );
+  }
 
   doingSelection = false;
 
@@ -169,25 +199,6 @@ export default class Preview extends Component<PreviewProps> {
     }
   }
 
-  // 优化这块
-  readonly unReaction: () => void = reactionWithOldValue(
-    () => [this.getHighlightNodes(), this.props.store.activeId],
-    ([ids]: [Array<string>], oldValue: [Array<string>]) => {
-      const store = this.props.store;
-      // requestAnimationFrame(() => {
-      //   this.calculateHighlightBox(ids);
-      // });
-      store.activeHighlightNodes(ids);
-      let oldIds = oldValue?.[0];
-
-      if (Array.isArray(oldIds)) {
-        oldIds = oldIds.filter(id => !~ids.indexOf(id));
-        store.deActiveHighlightNodes(oldIds);
-        // store.resetHighlightBox(oldIds);
-      }
-    }
-  );
-
   @autobind
   handlePreviewViewChange() {
     if (this.layer && this.scrollLayer) {
@@ -206,8 +217,7 @@ export default class Preview extends Component<PreviewProps> {
     );
   }
 
-  getHighlightNodes() {
-    const store = this.props.store;
+  getHighlightNodes(store = this.props.store) {
     return store.highlightNodes.map(item => item.id);
   }
 

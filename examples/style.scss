@@ -2,6 +2,8 @@
 @import 'node_modules/amis-ui/scss/mixins';
 @import 'node_modules/amis-ui/scss/functions';
 @import 'node_modules/amis-ui/scss/variables';
+$Editor-static-path: '../packages/amis-editor-core/static';
+@import '../packages/amis-editor-core/scss/editor';
 
 body {
   background-color: #fff !important;
@@ -1321,5 +1323,92 @@ body[data-amis-theme='dark'] {
       width: auto;
       height: 200px;
     }
+  }
+}
+
+.EditorWorkbench {
+  --EditorWorkbench-border: #dfe5eb;
+  --EditorWorkbench-surface: #ffffff;
+  --EditorWorkbench-muted: #5d6875;
+
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: none;
+  min-height: calc(100vh - 140px);
+  padding: 32px;
+}
+
+.EditorWorkbench-toolbar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 6px;
+    color: var(--EditorWorkbench-muted);
+    font-size: 14px;
+  }
+}
+
+.EditorWorkbench-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    color: var(--EditorWorkbench-muted);
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.EditorWorkbench-stage {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 680px;
+  overflow: auto;
+  border: 1px solid var(--EditorWorkbench-border);
+  border-radius: 8px;
+  background: var(--EditorWorkbench-surface);
+}
+
+body[data-amis-theme='dark'] .EditorWorkbench {
+  --EditorWorkbench-border: #303844;
+  --EditorWorkbench-surface: #151b23;
+  --EditorWorkbench-muted: #9aa7b3;
+}
+
+@media screen and (max-width: 767px) {
+  .EditorWorkbench {
+    padding: 16px;
+  }
+
+  .EditorWorkbench-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .EditorWorkbench-actions {
+    flex-wrap: wrap;
   }
 }

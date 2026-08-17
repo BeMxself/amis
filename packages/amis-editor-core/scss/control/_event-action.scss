@@ -279,7 +279,7 @@
   &-placeholder {
     color: #84868c;
     line-height: #{px2rem(24px)};
-    background: url('../static/empty.png');
+    background: url('#{$Editor-static-path}/empty.png');
     text-align: center;
     width: #{px2rem(124px)};
     height: 100%;
@@ -307,7 +307,7 @@
     &-img {
       width: #{px2rem(64px)};
       height: #{px2rem(64px)};
-      background: url('../static/empty.png');
+      background: url('#{$Editor-static-path}/empty.png');
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -355,7 +355,8 @@
       margin: 0 16px 8px;
       &-input {
         & > div {
-          background: url('../static/search.svg') no-repeat right 12px center;
+          background: url('#{$Editor-static-path}/search.svg') no-repeat right
+            12px center;
           padding-right: 28px;
         }
       }
@@ -386,7 +387,8 @@
           & > div > div {
             margin-top: 82px;
             height: 64px;
-            background: url('../static/empty.png') center/contain no-repeat;
+            background: url('#{$Editor-static-path}/empty.png') center/contain
+              no-repeat;
             color: transparent;
           }
         }
@@ -430,7 +432,8 @@
 
             li .is-checked::before {
               content: '';
-              background: url('../static/check.svg') no-repeat center center;
+              background: url('#{$Editor-static-path}/check.svg') no-repeat
+                center center;
               height: var(--Tree-itemHeight);
               line-height: var(--Tree-itemHeight);
               width: 15px;

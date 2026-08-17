@@ -296,7 +296,7 @@ $tooltip-bottom: '[data-tooltip][data-position=' bottom ']:hover:after';
       height: 8px;
       left: 55%;
       top: 50%;
-      -webkit-mask-image: url(../static/side_hide_left.svg);
+      -webkit-mask-image: url(#{$Editor-static-path}/side_hide_left.svg);
       -webkit-mask-size: 100% 100%;
       mask-size: 100% 100%;
       -webkit-mask-repeat: no-repeat;

@@ -161,8 +161,8 @@ export function makeWrapper(
      * 主要目的是渲染器下发的 $$editor 指向当前层，而不是 store 层。
      */
     @autobind
-    renderChild(region: string, node: Schema, props: any) {
-      const {render} = this.props; // render: amis渲染器
+    renderChild(region: string, node: Schema, props: any, wrapperProps: Props) {
+      const {render} = wrapperProps; // render: amis渲染器
 
       // $$id 变化，渲染器最好也变化
       if (node?.$$id) {
@@ -174,7 +174,10 @@ export function makeWrapper(
     }
 
     render() {
-      const {$$id, ...rest} = this.props;
+      const wrapperProps = this.props;
+      const {$$id, ...rest} = wrapperProps;
+      const renderChild = (region: string, node: Schema, props: any) =>
+        this.renderChild(region, node, props, wrapperProps);
 
       /*
        * 根据渲染器信息决定时 NodeWrapper 包裹还是 ContainerWrapper 包裹。
@@ -184,9 +187,9 @@ export function makeWrapper(
        * 会不会包裹区域跟编辑器信息中配置不配置 regions 有关，配置了才会包裹。
        * **并不是每个容器节点都是这样的。比如 amis 中的 Table 渲染器。**
        */
-      const Wrapper = /*info.wrapper || (*/ this.props.$$commonSchema
+      const Wrapper = /*info.wrapper || (*/ wrapperProps.$$commonSchema
         ? CommonConfigWrapper
-        : this.props.$$formSchema
+        : wrapperProps.$$formSchema
         ? FormConfigWrapper
         : info.regions
         ? ContainerWrapper
@@ -210,7 +213,7 @@ export function makeWrapper(
               <LazyComponent placeholder={<span />}>
                 <Wrapper
                   {...rest}
-                  render={this.renderChild}
+                  render={renderChild}
                   $$editor={info}
                   $$node={this.editorNode}
                   ref={this.wrapperRef}
@@ -219,7 +222,7 @@ export function makeWrapper(
             ) : (
               <Wrapper
                 {...rest}
-                render={this.renderChild}
+                render={renderChild}
                 $$editor={info}
                 $$node={this.editorNode}
                 ref={this.wrapperRef}

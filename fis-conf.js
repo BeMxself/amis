@@ -102,6 +102,8 @@ fis.set('project.files', [
   '/examples/static/audio/*.mp3',
   '/examples/static/video/*.mp4',
   '/examples/static/font/*.ttf',
+  '/packages/amis-editor-core/static/*.png',
+  '/packages/amis-editor-core/static/*.svg',
   'mock/**'
 ]);
 
@@ -725,7 +727,9 @@ if (fis.project.currentMedia() === 'publish-sdk') {
     'examples/index.html',
     'examples/app/index.html',
     '/examples/static/*.docx',
-    '/examples/static/*.xlsx'
+    '/examples/static/*.xlsx',
+    '/packages/amis-editor-core/static/*.png',
+    '/packages/amis-editor-core/static/*.svg'
     // '/examples/map.json'
   ]);
 
@@ -1001,6 +1005,7 @@ if (fis.project.currentMedia() === 'publish-sdk') {
         const Components = ret.src['/examples/components/Components.tsx'];
         const DocCSS = ret.src['/examples/components/CssDocs.tsx'];
         const ExampleJs = ret.src['/examples/components/Example.jsx'];
+        const EditorDocs = ret.src['/examples/components/EditorDocs.tsx'];
 
         const pages = [];
         const source = [
@@ -1009,7 +1014,8 @@ if (fis.project.currentMedia() === 'publish-sdk') {
           DocNavCN.getContent(),
           Components.getContent(),
           DocCSS.getContent(),
-          ExampleJs.getContent()
+          ExampleJs.getContent(),
+          EditorDocs.getContent()
         ].join('\n');
         source.replace(
           /\bpath\b\s*\:\s*('|")(.*?)\1/g,

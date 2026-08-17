@@ -23,6 +23,7 @@ import DocNavCN from './DocNavCN';
 import Example from './Example';
 import CSSDocs from './CssDocs';
 import Components from './Components';
+import EditorDocs from './EditorDocs';
 import {
   BrowserRouter as Router,
   Route,
@@ -306,21 +307,17 @@ export class App extends React.PureComponent<{
             >
               示例
             </NavLink>
+            <NavLink
+              to={`${ContextPath}/zh-CN/editor`}
+              activeClassName="is-active"
+            >
+              编辑器
+            </NavLink>
             {process.env.NODE_ENV === 'development' ? (
               <>
                 <a href={`/packages/amis-ui/#/basic/button`}>UI控件</a>
-                <a href={`/packages/amis-editor/`}>编辑器</a>
               </>
-            ) : (
-              <>
-                <a
-                  href="https://github.com/fex-team/amis-editor-demo"
-                  target="_blank"
-                >
-                  编辑器
-                </a>
-              </>
-            )}
+            ) : null}
             {/* <a href="https://suda.bce.baidu.com" target="_blank">
               爱速搭
             </a> */}
@@ -629,6 +626,33 @@ export class App extends React.PureComponent<{
             exact
           />
 
+          {/* editor */}
+          <Redirect
+            from={`${ContextPath}/editor`}
+            to={`${ContextPath}/${locale}/editor/index`}
+            exact
+          />
+          <Redirect
+            from={`${ContextPath}/${locale}/editor`}
+            to={`${ContextPath}/${locale}/editor/index`}
+            exact
+          />
+          <Redirect
+            from={`${ContextPath}/examples/editor`}
+            to={`${ContextPath}/${locale}/editor/index`}
+            exact
+          />
+          <Redirect
+            from={`${ContextPath}/${locale}/docs/extend/editor`}
+            to={`${ContextPath}/${locale}/editor/editor`}
+            exact
+          />
+          <Redirect
+            from={`${ContextPath}/${locale}/docs/extend/editor-customization`}
+            to={`${ContextPath}/${locale}/editor/editor-customization`}
+            exact
+          />
+
           {/* expamles */}
           <Redirect
             from={`${ContextPath}/examples`}
@@ -662,6 +686,24 @@ export class App extends React.PureComponent<{
             path={`${ContextPath}/${locale}/components`}
             render={(props: any) => (
               <Components
+                {...{
+                  setNavigations: this.setNavigations,
+                  theme: theme.value,
+                  classPrefix: getComponentClassPrefix(theme.value),
+                  viewMode: this.state.viewMode,
+                  locale: this.state.locale,
+                  offScreen: this.state.offScreen,
+                  ContextPath,
+                  showCode: false
+                }}
+                {...props}
+              />
+            )}
+          />
+          <Route
+            path={`${ContextPath}/${locale}/editor`}
+            render={(props: any) => (
+              <EditorDocs
                 {...{
                   setNavigations: this.setNavigations,
                   theme: theme.value,
@@ -797,6 +839,12 @@ export class App extends React.PureComponent<{
                 activeClassName="is-active"
               >
                 样式
+              </NavLink>
+              <NavLink
+                to={`${ContextPath}/zh-CN/editor`}
+                activeClassName="is-active"
+              >
+                编辑器
               </NavLink>
             </ul>
             {this.renderNavigation()}

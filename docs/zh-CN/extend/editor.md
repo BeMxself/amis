@@ -4,7 +4,7 @@ title: 可视化编辑器
 
 目前 amis 可视化编辑器也作为单独的 npm 包发布了出来，可以通过 npm 安装使用。
 
-在线体验：https://aisuda.github.io/amis-editor-demo
+在线体验：[在线编辑器](./index)
 示例代码：https://github.com/aisuda/amis-editor-demo
 
 如果需要系统了解编辑器二次开发入口，包括属性定制、插件定制、左右面板定制、全局插件与渲染器插件的边界，请参考[可视化编辑器定制指南](./editor-customization)。

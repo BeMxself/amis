@@ -37,8 +37,9 @@ export default class Breadcrumb extends React.Component<
       showRightScrollBtn: false
     };
 
+    const store = props.store;
     this.unReaction = reaction(
-      () => this.props.store.bcn,
+      () => store.bcn,
       () => {
         // 内容变动时，自动触发一次计算
         this.refreshHandleScroll(true);
