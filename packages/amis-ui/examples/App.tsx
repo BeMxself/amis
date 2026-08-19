@@ -203,7 +203,7 @@ export default function App() {
       <Layout
         header={
           <div id="headerBar" className="box-shadow bg-dark">
-            <div className={`cxd-Layout-brand`}>amis-ui 示例</div>
+            <div className={`prismui-Layout-brand`}>amis-ui 示例</div>
           </div>
         }
         aside={renderAside()}

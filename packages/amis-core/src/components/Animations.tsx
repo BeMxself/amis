@@ -142,7 +142,7 @@ function Animations({
 
     if (hover) {
       node.classList.add(`${hover.type}-${id}-hover`);
-      node.classList.add(`amis-${hover.type}`);
+      node.classList.add(`prismui-${hover.type}`);
     }
 
     if (exit?.outView || enter?.repeat) {
@@ -162,7 +162,7 @@ function Animations({
     }
     if (hover) {
       node.classList.remove(`${hover.type}-${id}-hover`);
-      node.classList.remove(`amis-${hover.type}`);
+      node.classList.remove(`prismui-${hover.type}`);
     }
   }, []);
 
@@ -175,7 +175,7 @@ function Animations({
       {!animationShow && show && placeholderShow && (
         <div
           ref={refFn}
-          className="amis-animation-placeholder"
+          className="prismui-animation-placeholder"
           data-role="animation-placeholder"
         >
           {component}

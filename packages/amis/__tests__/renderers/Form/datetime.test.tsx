@@ -37,7 +37,7 @@ test('Renderer:datetime', async () => {
   );
 
   const input = container.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   )! as HTMLInputElement;
 
   expect(input.value).toEqual(
@@ -73,7 +73,7 @@ test('Renderer:datetime displayFormat valueFormat', async () => {
   );
 
   const input = container.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   )! as HTMLInputElement;
 
   expect(input.value).toEqual(
@@ -113,17 +113,17 @@ test('Renderer:InputDateTime confirm mode', async () => {
     )
   );
 
-  const trigger = container.querySelector('.cxd-DatePicker')!;
+  const trigger = container.querySelector('.prismui-DatePicker')!;
   const inputEl = (container.querySelector(
-    '.cxd-DatePicker-input'
+    '.prismui-DatePicker-input'
   ) as HTMLInputElement)!;
   const getCancelBtn = () =>
     container.querySelector(
-      '.cxd-DateRangePicker-actions > button[type=button]'
+      '.prismui-DateRangePicker-actions > button[type=button]'
     )!;
   const getConfirmBtn = () =>
     container.querySelector(
-      '.cxd-DateRangePicker-actions > .cxd-Button.cxd-Button--primary'
+      '.prismui-DateRangePicker-actions > .prismui-Button.prismui-Button--primary'
     )!;
   expect(trigger).toBeInTheDocument();
 
@@ -206,13 +206,13 @@ test('Renderer:InputDateTime Picker selects date or time for the first time', as
     )
   );
 
-  const trigger = container.querySelector('.cxd-DatePicker')!;
+  const trigger = container.querySelector('.prismui-DatePicker')!;
   const inputEl = (container.querySelector(
-    '.cxd-DatePicker-input'
+    '.prismui-DatePicker-input'
   ) as HTMLInputElement)!;
   const getConfirmBtn = () =>
     container.querySelector(
-      '.cxd-DateRangePicker-actions > .cxd-Button.cxd-Button--primary'
+      '.prismui-DateRangePicker-actions > .prismui-Button.prismui-Button--primary'
     )!;
   expect(trigger).toBeInTheDocument();
 

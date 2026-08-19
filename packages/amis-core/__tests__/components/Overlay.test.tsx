@@ -4,6 +4,7 @@ import Overlay from '../../src/components/Overlay';
 import PopOver from '../../src/components/PopOver';
 import {EnvContext} from '../../src/env';
 import {getTheme, theme, ThemeContext} from '../../src/theme';
+import {setReactRef} from '../../src/utils/reactRef';
 
 function renderOverlay({
   container,
@@ -21,7 +22,7 @@ function renderOverlay({
   const target = document.createElement('button');
   if (targetScope) {
     const root = document.createElement('div');
-    root.setAttribute('data-amis-theme', targetScope);
+    root.setAttribute('data-prismui-theme', targetScope);
     root.appendChild(target);
     document.body.appendChild(root);
   } else {
@@ -58,11 +59,11 @@ function expectTooltipInScope(
   ) as HTMLElement | undefined;
 
   expect(tooltip).toBeTruthy();
-  expect(tooltip!.closest(`[data-amis-theme="${themeName}"]`)).toBeTruthy();
+  expect(tooltip!.closest(`[data-prismui-theme="${themeName}"]`)).toBeTruthy();
   expect(
     root.querySelector(
-      `[role="tooltip"][data-amis-theme="${themeName}"], ` +
-        `[data-amis-theme="${themeName}"] [role="tooltip"]`
+      `[role="tooltip"][data-prismui-theme="${themeName}"], ` +
+        `[data-prismui-theme="${themeName}"] [role="tooltip"]`
     )
   ).toBeTruthy();
 }
@@ -94,12 +95,38 @@ function mockElementRect(
     } as DOMRect);
 }
 
+class DelayedForwardedRefOverlay extends React.Component<any> {
+  static supportForwardedRef = true;
+  rootRef = React.createRef<HTMLDivElement>();
+  timer: ReturnType<typeof setTimeout> | null = null;
+
+  componentDidMount() {
+    this.timer = setTimeout(() => {
+      setReactRef(this.props.forwardedRef, this.rootRef.current);
+    }, 0);
+  }
+
+  componentWillUnmount() {
+    this.timer && clearTimeout(this.timer);
+    setReactRef(this.props.forwardedRef, null);
+  }
+
+  render() {
+    const {forwardedRef, children, ...props} = this.props;
+
+    return (
+      <div {...props} ref={this.rootRef} role="tooltip">
+        {children}
+      </div>
+    );
+  }
+}
+
 afterEach(() => {
   cleanup();
   document.body.innerHTML = '';
   theme('dark', {
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    componentClassPrefix: 'prismui-'
   });
 });
 
@@ -121,7 +148,7 @@ test('Overlay applies scope without inserting a layout wrapper', async () => {
 
     expect(tooltip).toBeTruthy();
     expect(tooltip.parentElement).toBe(document.body);
-    expect(tooltip).toHaveAttribute('data-amis-theme', 'cxd');
+    expect(tooltip).toHaveAttribute('data-prismui-theme', 'cxd');
   });
 });
 
@@ -131,7 +158,7 @@ test('Overlay does not scope or render portal child before mount', () => {
 
   renderOverlay({container: customContainer, show: false});
 
-  expect(customContainer).not.toHaveAttribute('data-amis-theme');
+  expect(customContainer).not.toHaveAttribute('data-prismui-theme');
   expect(document.body.querySelector('[role="tooltip"]')).toBeNull();
 });
 
@@ -148,7 +175,7 @@ test('Overlay applies triggering theme scope to custom container child', async (
 
 test('Overlay preserves existing custom container theme scope', async () => {
   const customContainer = document.createElement('div');
-  customContainer.setAttribute('data-amis-theme', 'dark');
+  customContainer.setAttribute('data-prismui-theme', 'dark');
   document.body.appendChild(customContainer);
 
   renderOverlay({container: customContainer});
@@ -160,8 +187,7 @@ test('Overlay preserves existing custom container theme scope', async () => {
 
 test('Overlay prefers target DOM scope over mutable env theme', async () => {
   theme('dark', {
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    componentClassPrefix: 'prismui-'
   });
 
   renderOverlay({
@@ -177,8 +203,7 @@ test('Overlay prefers target DOM scope over mutable env theme', async () => {
 
 test('Overlay scopes body portal children per triggering root', async () => {
   theme('dark', {
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    componentClassPrefix: 'prismui-'
   });
 
   renderOverlay({label: 'cxd scoped tooltip', themeName: 'cxd'});
@@ -243,6 +268,74 @@ test('Overlay preserves PopOver forwarded root ref while positioning', async () 
 
     expect(popover).toBeTruthy();
     expect(popover.style.visibility).not.toBe('hidden');
+  });
+});
+
+test('Overlay repositions when forwarded overlay ref resolves after mount', async () => {
+  const target = document.createElement('button');
+  mockElementRect(target, {left: 8, top: 12, width: 80, height: 24});
+  document.body.appendChild(target);
+
+  render(
+    <EnvContext.Provider
+      value={
+        {
+          getModalContainer: () => document.body,
+          theme: getTheme('cxd')
+        } as any
+      }
+    >
+      <ThemeContext.Provider value="cxd">
+        <Overlay show target={() => target}>
+          <DelayedForwardedRefOverlay>delayed tooltip</DelayedForwardedRefOverlay>
+        </Overlay>
+      </ThemeContext.Provider>
+    </EnvContext.Provider>
+  );
+
+  await waitFor(() => {
+    const tooltip = document.body.querySelector(
+      '[role="tooltip"]'
+    ) as HTMLElement;
+
+    expect(tooltip).toBeTruthy();
+    expect(tooltip.style.visibility).not.toBe('hidden');
+  });
+});
+
+test('Overlay repositions when target resolves after initial mount', async () => {
+  const target = document.createElement('button');
+  mockElementRect(target, {left: 8, top: 12, width: 80, height: 24});
+  document.body.appendChild(target);
+  let targetReady = false;
+  setTimeout(() => {
+    targetReady = true;
+  }, 0);
+
+  render(
+    <EnvContext.Provider
+      value={
+        {
+          getModalContainer: () => document.body,
+          theme: getTheme('cxd')
+        } as any
+      }
+    >
+      <ThemeContext.Provider value="cxd">
+        <Overlay show target={() => (targetReady ? target : null)}>
+          <div role="tooltip">late target tooltip</div>
+        </Overlay>
+      </ThemeContext.Provider>
+    </EnvContext.Provider>
+  );
+
+  await waitFor(() => {
+    const tooltip = document.body.querySelector(
+      '[role="tooltip"]'
+    ) as HTMLElement;
+
+    expect(tooltip).toBeTruthy();
+    expect(tooltip.style.visibility).not.toBe('hidden');
   });
 });
 

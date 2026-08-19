@@ -39,7 +39,7 @@ const setup = async (items: any[] = []) => {
     'button[type="submit"]'
   ) as HTMLElement;
 
-  const inputs = utils.container.querySelectorAll('.cxd-DateRangePicker-input');
+  const inputs = utils.container.querySelectorAll('.prismui-DateRangePicker-input');
 
   function rerender(items: any[]) {
     const onSubmit = jest.fn();
@@ -89,7 +89,7 @@ test('Renderer:timeRange with default', async () => {
   await wait(200);
 
   const highlights = container.querySelectorAll(
-    '.cxd-CalendarInputWrapper .cxd-CalendarInput-sugsItem.is-highlight'
+    '.prismui-CalendarInputWrapper .prismui-CalendarInput-sugsItem.is-highlight'
   );
   expect(highlights.length).toBe(2);
   expect(highlights[0]!.innerHTML).toBe('03');
@@ -99,7 +99,7 @@ test('Renderer:timeRange with default', async () => {
   await wait(200);
 
   const highlights2 = container.querySelectorAll(
-    '.cxd-CalendarInputWrapper .cxd-CalendarInput-sugsItem.is-highlight'
+    '.prismui-CalendarInputWrapper .prismui-CalendarInput-sugsItem.is-highlight'
   );
   expect(highlights2.length).toBe(2);
   expect(highlights2[0]!.innerHTML).toBe('07');
@@ -125,33 +125,33 @@ test('Renderer:datetimeRange with timeFormat', async () => {
   await wait(200);
 
   const selects = container.querySelectorAll(
-    '.cxd-TimeContentWrapper .cxd-CalendarInputWrapper'
+    '.prismui-TimeContentWrapper .prismui-CalendarInputWrapper'
   );
 
   expect(selects!.length).toBe(3);
   fireEvent.click(
-    selects[0].querySelector('.cxd-CalendarInput-sugsItem:nth-child(4)')
+    selects[0].querySelector('.prismui-CalendarInput-sugsItem:nth-child(4)')
   );
   fireEvent.click(
-    selects[1].querySelector('.cxd-CalendarInput-sugsItem:nth-child(14)')
+    selects[1].querySelector('.prismui-CalendarInput-sugsItem:nth-child(14)')
   );
   fireEvent.click(
-    selects[2].querySelector('.cxd-CalendarInput-sugsItem:nth-child(24)')
+    selects[2].querySelector('.prismui-CalendarInput-sugsItem:nth-child(24)')
   );
   fireEvent.click(getByText('确认'));
 
   await wait(200);
   const selects2 = container.querySelectorAll(
-    '.cxd-TimeContentWrapper .cxd-CalendarInputWrapper'
+    '.prismui-TimeContentWrapper .prismui-CalendarInputWrapper'
   );
   fireEvent.click(
-    selects2[0].querySelector('.cxd-CalendarInput-sugsItem:nth-child(15)')
+    selects2[0].querySelector('.prismui-CalendarInput-sugsItem:nth-child(15)')
   );
   fireEvent.click(
-    selects2[1].querySelector('.cxd-CalendarInput-sugsItem:nth-child(25)')
+    selects2[1].querySelector('.prismui-CalendarInput-sugsItem:nth-child(25)')
   );
   fireEvent.click(
-    selects2[2].querySelector('.cxd-CalendarInput-sugsItem:nth-child(35)')
+    selects2[2].querySelector('.prismui-CalendarInput-sugsItem:nth-child(35)')
   );
   fireEvent.click(getByText('确认'));
   await wait(200);

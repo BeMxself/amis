@@ -3,21 +3,21 @@
 exports[`Renderer:bar-code 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__BarCode"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__BarCode"
             data-testid="barcode"
           >
             <img

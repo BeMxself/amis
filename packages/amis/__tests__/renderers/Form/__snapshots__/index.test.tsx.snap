@@ -3,17 +3,17 @@
 exports[`Renderer:Form 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:Form 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:Form 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Label
@@ -51,10 +51,10 @@ exports[`Renderer:Form 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -71,13 +71,13 @@ exports[`Renderer:Form 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -116,17 +116,17 @@ exports[`Renderer:Form 2`] = `
 exports[`Renderer:Form initApi 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -135,10 +135,10 @@ exports[`Renderer:Form initApi 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -146,16 +146,16 @@ exports[`Renderer:Form initApi 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   A
@@ -164,10 +164,10 @@ exports[`Renderer:Form initApi 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -182,16 +182,16 @@ exports[`Renderer:Form initApi 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   B
@@ -200,10 +200,10 @@ exports[`Renderer:Form initApi 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -220,13 +220,13 @@ exports[`Renderer:Form initApi 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -242,17 +242,17 @@ exports[`Renderer:Form initApi 1`] = `
 exports[`Renderer:Form reset 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -261,10 +261,10 @@ exports[`Renderer:Form reset 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -272,16 +272,16 @@ exports[`Renderer:Form reset 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="name"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   姓名
@@ -290,10 +290,10 @@ exports[`Renderer:Form reset 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -308,16 +308,16 @@ exports[`Renderer:Form reset 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="email"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   邮箱
@@ -326,10 +326,10 @@ exports[`Renderer:Form reset 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -346,13 +346,13 @@ exports[`Renderer:Form reset 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="reset"
         >
           <span>
@@ -360,7 +360,7 @@ exports[`Renderer:Form reset 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -376,17 +376,17 @@ exports[`Renderer:Form reset 1`] = `
 exports[`Renderer:Form sendOn:true 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -395,10 +395,10 @@ exports[`Renderer:Form sendOn:true 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -406,16 +406,16 @@ exports[`Renderer:Form sendOn:true 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   A
@@ -424,10 +424,10 @@ exports[`Renderer:Form sendOn:true 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -442,16 +442,16 @@ exports[`Renderer:Form sendOn:true 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   B
@@ -460,10 +460,10 @@ exports[`Renderer:Form sendOn:true 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -480,13 +480,13 @@ exports[`Renderer:Form sendOn:true 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -502,17 +502,17 @@ exports[`Renderer:Form sendOn:true 1`] = `
 exports[`Renderer:Form:onValidate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -521,10 +521,10 @@ exports[`Renderer:Form:onValidate 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -532,16 +532,16 @@ exports[`Renderer:Form:onValidate 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   A
@@ -550,10 +550,10 @@ exports[`Renderer:Form:onValidate 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -567,7 +567,7 @@ exports[`Renderer:Form:onValidate 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               a is wrong
@@ -575,16 +575,16 @@ exports[`Renderer:Form:onValidate 1`] = `
           </ul>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   B
@@ -593,10 +593,10 @@ exports[`Renderer:Form:onValidate 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -610,7 +610,7 @@ exports[`Renderer:Form:onValidate 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               b is wrong
@@ -623,13 +623,13 @@ exports[`Renderer:Form:onValidate 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -652,17 +652,17 @@ exports[`Renderer:Form:onValidate 2`] = `
 exports[`Renderer:Form:onValidate 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -671,10 +671,10 @@ exports[`Renderer:Form:onValidate 3`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -682,16 +682,16 @@ exports[`Renderer:Form:onValidate 3`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   A
@@ -700,10 +700,10 @@ exports[`Renderer:Form:onValidate 3`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -718,16 +718,16 @@ exports[`Renderer:Form:onValidate 3`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   B
@@ -736,10 +736,10 @@ exports[`Renderer:Form:onValidate 3`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -756,13 +756,13 @@ exports[`Renderer:Form:onValidate 3`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -785,17 +785,17 @@ exports[`Renderer:Form:onValidate 4`] = `
 exports[`Renderer:Form:remoteValidate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -804,10 +804,10 @@ exports[`Renderer:Form:remoteValidate 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -815,16 +815,16 @@ exports[`Renderer:Form:remoteValidate 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Label
@@ -833,10 +833,10 @@ exports[`Renderer:Form:remoteValidate 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -850,7 +850,7 @@ exports[`Renderer:Form:remoteValidate 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               这个字段服务端验证失败
@@ -860,13 +860,13 @@ exports[`Renderer:Form:remoteValidate 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -882,17 +882,17 @@ exports[`Renderer:Form:remoteValidate 1`] = `
 exports[`Renderer:Form:valdiate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -901,10 +901,10 @@ exports[`Renderer:Form:valdiate 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -912,33 +912,33 @@ exports[`Renderer:Form:valdiate 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Label
                 </span>
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
               >
                 *
               </span>
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -952,7 +952,7 @@ exports[`Renderer:Form:valdiate 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               这是必填项
@@ -962,13 +962,13 @@ exports[`Renderer:Form:valdiate 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -984,17 +984,17 @@ exports[`Renderer:Form:valdiate 1`] = `
 exports[`Renderer:Form:valdiate 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -1003,10 +1003,10 @@ exports[`Renderer:Form:valdiate 2`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1014,33 +1014,33 @@ exports[`Renderer:Form:valdiate 2`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Label
                 </span>
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
               >
                 *
               </span>
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -1057,13 +1057,13 @@ exports[`Renderer:Form:valdiate 2`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

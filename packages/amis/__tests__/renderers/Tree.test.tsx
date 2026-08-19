@@ -342,36 +342,36 @@ test('Tree defer load data', async () => {
   );
 
   // 展开第一个节点
-  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[0]);
+  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[0]);
   await waitFor(() =>
     expect(
       container
-        .querySelectorAll('.amis-Tree-itemArrow')[0]
+        .querySelectorAll('.prismui-Tree-itemArrow')[0]
         .classList.contains('is-folded')
     ).toBeFalsy()
   );
   // 收起第一个节点
-  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[0]);
+  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[0]);
   await waitFor(() =>
     expect(
       container
-        .querySelectorAll('.amis-Tree-itemArrow')[0]
+        .querySelectorAll('.prismui-Tree-itemArrow')[0]
         .classList.contains('is-folded')
     ).toBeTruthy()
   );
 
   // 展开第二个节点
-  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[1]);
+  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[1]);
   await waitFor(() =>
     expect(
       container
-        .querySelectorAll('.amis-Tree-itemArrow')[1]
+        .querySelectorAll('.prismui-Tree-itemArrow')[1]
         .classList.contains('is-folded')
     ).toBeFalsy()
   );
 
   // 检查节点 1 是收起的
-  expect(container.querySelectorAll('.amis-Tree-itemArrow')[0]).toHaveClass(
+  expect(container.querySelectorAll('.prismui-Tree-itemArrow')[0]).toHaveClass(
     'is-folded'
   );
 });
@@ -421,7 +421,7 @@ test('Tree: add child & cancel', async () => {
       makeEnv({})
     )
   );
-  const targetNode = container.querySelector('.amis-Tree-addTopBtn')!;
+  const targetNode = container.querySelector('.prismui-Tree-addTopBtn')!;
 
   fireEvent.click(targetNode);
   await waitFor(() => container.querySelector('input'));
@@ -598,10 +598,10 @@ test('Tree: single value mode should not render input when searchable enabled an
   );
 
   const singleModeInput = container.querySelector(
-    '.single .amis-ResultBox-value-input'
+    '.single .prismui-ResultBox-value-input'
   );
   const multipleModeInput = container.querySelector(
-    '.multiple .amis-ResultBox-value-input'
+    '.multiple .prismui-ResultBox-value-input'
   );
 
   /** 单选模式且已选值，不应该再有 input */

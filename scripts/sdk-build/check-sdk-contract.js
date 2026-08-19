@@ -5,13 +5,9 @@ const path = require('path');
 const {JSDOM} = require('jsdom');
 const {version} = require('../../packages/amis/package.json');
 const {
-  getExpectedChunkFiles,
-  getExpectedSdkFiles,
-  parseResourceMap,
-  sdkCssFiles,
-  sdkStaticFiles
+  createSdkArtifactContract,
+  parseResourceMap
 } = require('./sdk-contract');
-const {sdkRuntimeAssets} = require('./sdk-runtime-assets');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
@@ -20,23 +16,13 @@ const sdkDir = path.resolve(
   readOption('--sdk-dir') || 'packages/amis/sdk'
 );
 const baselineSdkDir = path.join(repoRoot, 'packages/amis/sdk');
+const sdkContract = createSdkArtifactContract(sdkDir);
 
 const errors = [];
 const warnings = [];
 
-const expectedChunkFiles = getExpectedChunkFiles(sdkDir);
-const expectedFiles = getExpectedSdkFiles(sdkDir);
-const sdkScopedCssFiles = ['sdk.css', 'ang.css', 'dark.css', 'antd.css'];
-const rollupEntryExactBaselineFiles = [
-  'iconfont.css',
-  'iconfont.eot',
-  'iconfont.svg',
-  'iconfont.ttf',
-  'iconfont.woff',
-  'locale/de-DE.js',
-  'thirds/moment-timezone/data/packed/latest.json',
-  'thirds/pdfjs-dist/build/pdf.worker.min.mjs'
-];
+const expectedChunkFiles = sdkContract.chunkFiles;
+const expectedFiles = sdkContract.expectedFiles;
 
 if (!fs.existsSync(sdkDir)) {
   fail(
@@ -49,6 +35,8 @@ for (const file of expectedFiles) {
   assertNonEmptyFile(file);
 }
 
+assertSdkIe11CssArtifacts(sdkDir, relative(sdkDir));
+
 const sdkJs = readSdkText('sdk.js');
 if (sdkJs) {
   assertContains(sdkJs, 'amis.require.resourceMap(', 'sdk.js resource map');
@@ -58,10 +46,17 @@ if (sdkJs) {
 
 assertRollupEntryStaticAssets();
 
-for (const cssFile of ['sdk.css', 'ang.css', 'dark.css', 'antd.css']) {
+for (const cssFile of [
+  'sdk.css',
+  'cxd.css',
+  'prismui.css',
+  'ang.css',
+  'dark.css',
+  'antd.css'
+]) {
   const css = readSdkText(cssFile);
   if (css) {
-    assertContains(css, '.amis-scope', `${cssFile} scoped selector prefix`);
+    assertContains(css, '.prismui-scope', `${cssFile} scoped selector prefix`);
   }
 }
 
@@ -125,6 +120,45 @@ function assertSameTextFile(left, right) {
   }
 }
 
+function assertSameExternalTextFile(root, left, right, label) {
+  const leftFile = path.join(root, left);
+  const rightFile = path.join(root, right);
+
+  if (!fs.existsSync(leftFile) || !fs.existsSync(rightFile)) {
+    return;
+  }
+
+  if (fs.readFileSync(leftFile, 'utf8') !== fs.readFileSync(rightFile, 'utf8')) {
+    fail(`${label}: ${right} does not match ${left}.`);
+  }
+}
+
+function assertSdkIe11CssArtifacts(dir, label) {
+  if (!fs.existsSync(dir)) {
+    fail(`Missing SDK directory for IE11 CSS: ${label}`);
+    return;
+  }
+
+  sdkContract.ie11CssFiles.forEach(file => {
+    const fullPath = path.join(dir, file);
+
+    if (!fs.existsSync(fullPath)) {
+      fail(`Missing IE11 CSS artifact: ${label}/${file}`);
+      return;
+    }
+
+    const stat = fs.statSync(fullPath);
+    if (!stat.isFile()) {
+      fail(`IE11 CSS artifact is not a file: ${label}/${file}`);
+    } else if (stat.size === 0) {
+      fail(`IE11 CSS artifact is empty: ${label}/${file}`);
+    }
+  });
+
+  assertSameExternalTextFile(dir, 'sdk-ie11.css', 'cxd-ie11.css', label);
+  assertSameExternalTextFile(dir, 'sdk-ie11.css', 'prismui-ie11.css', label);
+}
+
 function assertResourceMap(sdkJs) {
   let resourceMap;
 
@@ -154,7 +188,7 @@ function assertResourceMap(sdkJs) {
     }
   }
 
-  for (const file of ['thirds/hls.js/hls.js', 'thirds/mpegts.js/mpegts.js']) {
+  for (const file of sdkContract.resourceMapRuntimeFiles) {
     if (!resourceUrls.some(url => typeof url === 'string' && url.endsWith('/' + file))) {
       fail(`SDK resource map does not reference external runtime file: ${file}`);
     }
@@ -197,8 +231,13 @@ function assertRollupEntryStaticAssets() {
 
   const staticFiles = new Set(manifest.rollupEntry.staticFiles || []);
   const cssFiles = new Set(manifest.rollupEntry.cssFiles || []);
+  const manifestIe11CssDir = path.resolve(
+    repoRoot,
+    manifest.rollupEntry.ie11CssOutDir || path.join(sdkDir, 'rollup-entry')
+  );
+  const ie11CssFiles = new Set(manifest.rollupEntry.ie11CssFiles || []);
 
-  sdkCssFiles.forEach(file => {
+  sdkContract.cssFiles.forEach(file => {
     if (!cssFiles.has(file)) {
       fail(`Rollup entry manifest does not list CSS asset: ${file}`);
     }
@@ -210,13 +249,13 @@ function assertRollupEntryStaticAssets() {
     );
   });
 
-  sdkScopedCssFiles.forEach(file => {
+  sdkContract.scopedCssFiles.forEach(file => {
     const css = readSdkText(`rollup-entry/${file}`);
 
     if (css) {
       assertContains(
         css,
-        '.amis-scope',
+        '.prismui-scope',
         `rollup-entry/${file} scoped selector prefix`
       );
       assertNoPreprocessorExpressions(css, `rollup-entry/${file}`);
@@ -224,9 +263,18 @@ function assertRollupEntryStaticAssets() {
   });
 
   assertSameTextFile('rollup-entry/sdk.css', 'rollup-entry/cxd.css');
-  assertSameTextFile('rollup-entry/sdk-ie11.css', 'rollup-entry/cxd-ie11.css');
+  assertSameTextFile('rollup-entry/sdk.css', 'rollup-entry/prismui.css');
+  sdkContract.ie11CssFiles.forEach(file => {
+    if (!ie11CssFiles.has(file)) {
+      fail(`Rollup entry manifest does not list optional IE11 CSS asset: ${file}`);
+    }
+  });
+  assertSdkIe11CssArtifacts(
+    manifestIe11CssDir,
+    relative(manifestIe11CssDir)
+  );
 
-  sdkStaticFiles.forEach(file => {
+  sdkContract.staticFiles.forEach(file => {
     if (!staticFiles.has(file)) {
       fail(`Rollup entry manifest does not list static asset: ${file}`);
     }
@@ -244,7 +292,9 @@ function assertRollupEntryStaticAssets() {
     'rollup-entry/thirds'
   );
 
-  rollupEntryExactBaselineFiles.forEach(assertSameRollupEntryBaselineFile);
+  sdkContract.rollupEntryExactBaselineFiles.forEach(
+    assertSameRollupEntryBaselineFile
+  );
   assertRollupEntryRuntimeAssets();
   assertRollupEntryRuntimeSmoke();
   assertRollupEntryLazyRuntimeImports();
@@ -260,7 +310,7 @@ function assertRollupEntryRuntimeAssets() {
     return;
   }
 
-  sdkRuntimeAssets.forEach(asset => {
+  sdkContract.runtimeAssets.forEach(asset => {
     const resource = (resourceMap.res || {})[asset.moduleId];
 
     if (!resource || resource.type !== 'js') {
@@ -312,7 +362,7 @@ function assertRollupEntryRuntimeSmoke() {
 
   try {
     window.eval(createSdkLoaderSource());
-    sdkRuntimeAssets.forEach(asset => {
+    sdkContract.runtimeAssets.forEach(asset => {
       window.eval(readSdkText(`rollup-entry/${asset.file}`));
     });
 
@@ -363,32 +413,17 @@ function assertRollupEntryLazyRuntimeImports() {
     );
   }
 
-  assertContains(
-    readSdkText(
-      findRollupEntryFileContaining(
-        "require(['mpegts.js']",
-        'mpegts runtime import'
-      )
-    ),
-    "require(['mpegts.js']",
-    'Rollup entry mpegts runtime import'
+  assertRollupEntryFileMatches(
+    /\[\s*['"]mpegts\.js['"]\s*\]/,
+    'mpegts runtime import'
   );
-  assertContains(
-    readSdkText(
-      findRollupEntryFileContaining("require(['hls.js']", 'hls runtime import')
-    ),
-    "require(['hls.js']",
-    'Rollup entry hls runtime import'
+  assertRollupEntryFileMatches(
+    /\[\s*['"]hls\.js['"]\s*\]/,
+    'hls runtime import'
   );
-  assertContains(
-    readSdkText(
-      findRollupEntryFileContaining(
-        "require(['./loadMonacoEditor']",
-        'Monaco SDK loader import'
-      )
-    ),
-    "require(['./loadMonacoEditor']",
-    'Rollup entry Monaco SDK loader import'
+  assertRollupEntryFileMatches(
+    /\[\s*['"]\.\/loadMonacoEditor['"]\s*\]/,
+    'Monaco SDK loader import'
   );
   assertRollupEntryResourcePackage(
     'loadMonacoEditor',
@@ -397,17 +432,14 @@ function assertRollupEntryLazyRuntimeImports() {
   );
 }
 
-function findRollupEntryFileContaining(needle, label) {
+function assertRollupEntryFileMatches(pattern, label) {
   const file = listFiles(sdkPath('rollup-entry'))
     .filter(item => item.endsWith('.js') && !item.startsWith('thirds/'))
-    .find(item => readSdkText(`rollup-entry/${item}`).includes(needle));
+    .find(item => pattern.test(readSdkText(`rollup-entry/${item}`)));
 
   if (!file) {
-    fail(`Missing Rollup entry ${label}: ${needle}`);
-    return 'rollup-entry/sdk.js';
+    fail(`Missing Rollup entry ${label}.`);
   }
-
-  return `rollup-entry/${file}`;
 }
 
 function assertRollupEntryResourcePackage(moduleId, fileName, label) {
@@ -493,6 +525,10 @@ function listFiles(dir, prefix = '') {
 
 function formatFileList(files) {
   return files.slice(0, 10).join(', ') + (files.length > 10 ? ', ...' : '');
+}
+
+function relative(file) {
+  return path.relative(repoRoot, file).split(path.sep).join('/');
 }
 
 function fail(message) {

@@ -70,6 +70,13 @@ class Position extends React.Component<any, any> {
   // setState: (state: any) => void;
   componentId: string;
   overlay: HTMLDivElement | null = null;
+  mounted = false;
+  positionRetryFrame: number | null = null;
+  positionRetryCount = 0;
+  lastChildForwardedRef?: React.Ref<any> | null;
+  lastMergedForwardedRef?: React.Ref<any>;
+  lastChildRef?: React.Ref<any> | null;
+  lastMergedRef?: React.Ref<any>;
 
   static defaultProps = {
     containerPadding: 0,
@@ -92,9 +99,23 @@ class Position extends React.Component<any, any> {
     this.componentId = uuid();
   }
 
-  updatePosition(target: any) {
-    this._lastTarget = target;
+  schedulePositionRetry() {
+    if (
+      !this.mounted ||
+      this.positionRetryFrame !== null ||
+      this.positionRetryCount >= 10
+    ) {
+      return;
+    }
 
+    this.positionRetryCount += 1;
+    this.positionRetryFrame = requestAnimationFrame(() => {
+      this.positionRetryFrame = null;
+      this.updatePosition(this.getTarget());
+    });
+  }
+
+  updatePosition(target: any) {
     /** 标记宿主元素的PopOver祖先，用于后续判断PopOver 是否可以 root close */
     if (target) {
       const parentPopover = target?.closest?.('[role=popover]');
@@ -108,17 +129,28 @@ class Position extends React.Component<any, any> {
       }
     }
 
+    const overlay = this.overlay;
     if (!target || !target.offsetWidth) {
       // 靠这个 re-render 来重置 position
-      return this.setState({});
+      this.schedulePositionRetry();
+      if (this.state.ready) {
+        this.setState({ready: false});
+      }
+      return;
     }
+
+    if (!overlay) {
+      this.schedulePositionRetry();
+      if (this.state.ready) {
+        this.setState({ready: false});
+      }
+      return;
+    }
+
+    this.positionRetryCount = 0;
+    this._lastTarget = target;
 
     const watchTargetSizeChange = this.props.watchTargetSizeChange;
-    const overlay = this.overlay;
-    if (!overlay) {
-      return this.setState({});
-    }
-
     const container = getContainer(
       this.props.container,
       ownerDocument(target || overlay).body
@@ -158,6 +190,7 @@ class Position extends React.Component<any, any> {
   }
 
   componentDidMount() {
+    this.mounted = true;
     this.updatePosition(this.getTarget());
   }
 
@@ -191,23 +224,58 @@ class Position extends React.Component<any, any> {
   };
 
   overlayRef = (overlay: any) => {
-    this.overlay = resolveDOMElement(overlay) as HTMLDivElement | null;
+    const nextOverlay = resolveDOMElement(overlay) as HTMLDivElement | null;
+    const overlayChanged = nextOverlay !== this.overlay;
+
+    this.overlay = nextOverlay;
     setReactRef(this.props.rootCloseRef, this.overlay);
+
+    if (overlayChanged && this.overlay && this.mounted) {
+      this.updatePosition(this.getTarget());
+    }
   };
+
+  getMergedForwardedRef(childRef: React.Ref<any> | null | undefined) {
+    if (!childRef) {
+      return this.overlayRef;
+    }
+
+    if (
+      childRef !== this.lastChildForwardedRef ||
+      !this.lastMergedForwardedRef
+    ) {
+      this.lastChildForwardedRef = childRef;
+      this.lastMergedForwardedRef = mergeRefs(childRef, this.overlayRef);
+    }
+
+    return this.lastMergedForwardedRef;
+  }
+
+  getMergedRef(childRef: React.Ref<any> | null | undefined) {
+    if (!childRef) {
+      return this.overlayRef;
+    }
+
+    if (childRef !== this.lastChildRef || !this.lastMergedRef) {
+      this.lastChildRef = childRef;
+      this.lastMergedRef = mergeRefs(childRef, this.overlayRef);
+    }
+
+    return this.lastMergedRef;
+  }
 
   getOverlayRefProps(child: React.ReactElement) {
     if (shouldUseForwardedRef(child)) {
       return {
-        forwardedRef: mergeRefs(
-          (child.props as any).forwardedRef,
-          this.overlayRef
+        forwardedRef: this.getMergedForwardedRef(
+          (child.props as any).forwardedRef
         )
       };
     }
 
     if (canAttachRef(child)) {
       return {
-        ref: mergeRefs((child as any).ref, this.overlayRef)
+        ref: this.getMergedRef((child as any).ref)
       };
     }
 
@@ -215,6 +283,11 @@ class Position extends React.Component<any, any> {
   }
 
   componentWillUnmount() {
+    this.mounted = false;
+    if (this.positionRetryFrame !== null) {
+      cancelAnimationFrame(this.positionRetryFrame);
+      this.positionRetryFrame = null;
+    }
     // 一个 PopOver 关闭时，需把挂载父 PopOver 的标记去掉
     // 这里可能会存在多个子 PopOver 的情况，所以需要加上 componentId
     if (

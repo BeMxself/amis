@@ -1,31 +1,31 @@
-@layer amis.tokens {
+@layer prismui.tokens {
   :root,
   .AMISCSSWrapper {
-    --amis-palette-brand-400: #{$amis-palette-brand-400};
-    --amis-palette-brand-500: #{$amis-palette-brand-500};
-    --amis-palette-brand-600: #{$amis-palette-brand-600};
-    --amis-palette-neutral-text-inverse: #{$amis-palette-neutral-text-inverse};
+    --prismui-palette-brand-400: #{$prismui-palette-brand-400};
+    --prismui-palette-brand-500: #{$prismui-palette-brand-500};
+    --prismui-palette-brand-600: #{$prismui-palette-brand-600};
+    --prismui-palette-neutral-text-inverse: #{$prismui-palette-neutral-text-inverse};
 
-    --amis-color-brand-bg: var(--amis-palette-brand-500);
-    --amis-color-brand-hover-bg: var(--amis-palette-brand-600);
-    --amis-color-brand-active-bg: var(--amis-palette-brand-400);
-    --amis-color-brand-border: var(--amis-palette-brand-500);
-    --amis-color-brand-hover-border: var(--amis-palette-brand-600);
-    --amis-color-brand-active-border: var(--amis-palette-brand-400);
-    --amis-color-text-inverse: var(--amis-palette-neutral-text-inverse);
+    --prismui-color-brand-bg: var(--prismui-palette-brand-500);
+    --prismui-color-brand-hover-bg: var(--prismui-palette-brand-600);
+    --prismui-color-brand-active-bg: var(--prismui-palette-brand-400);
+    --prismui-color-brand-border: var(--prismui-palette-brand-500);
+    --prismui-color-brand-hover-border: var(--prismui-palette-brand-600);
+    --prismui-color-brand-active-border: var(--prismui-palette-brand-400);
+    --prismui-color-text-inverse: var(--prismui-palette-neutral-text-inverse);
 
-    --amis-Button-primary-bg: var(--amis-color-brand-bg);
-    --amis-Button-primary-hover-bg: var(--amis-color-brand-hover-bg);
-    --amis-Button-primary-active-bg: var(--amis-color-brand-active-bg);
-    --amis-Button-primary-border-color: var(--amis-color-brand-border);
-    --amis-Button-primary-hover-border-color: var(
-      --amis-color-brand-hover-border
+    --prismui-Button-primary-bg: var(--prismui-color-brand-bg);
+    --prismui-Button-primary-hover-bg: var(--prismui-color-brand-hover-bg);
+    --prismui-Button-primary-active-bg: var(--prismui-color-brand-active-bg);
+    --prismui-Button-primary-border-color: var(--prismui-color-brand-border);
+    --prismui-Button-primary-hover-border-color: var(
+      --prismui-color-brand-hover-border
     );
-    --amis-Button-primary-active-border-color: var(
-      --amis-color-brand-active-border
+    --prismui-Button-primary-active-border-color: var(
+      --prismui-color-brand-active-border
     );
-    --amis-Button-primary-color: var(--amis-color-text-inverse);
-    --amis-Button-primary-hover-color: var(--amis-color-text-inverse);
-    --amis-Button-primary-active-color: var(--amis-color-text-inverse);
+    --prismui-Button-primary-color: var(--prismui-color-text-inverse);
+    --prismui-Button-primary-hover-color: var(--prismui-color-text-inverse);
+    --prismui-Button-primary-active-color: var(--prismui-color-text-inverse);
   }
 }

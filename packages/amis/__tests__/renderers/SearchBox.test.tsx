@@ -44,13 +44,13 @@ test('Renderer:Searchbox', async () => {
     keywords: ''
   });
 
-  fireEvent.change(container.querySelector('.cxd-SearchBox input')!, {
+  fireEvent.change(container.querySelector('.prismui-SearchBox input')!, {
     target: {value: 'searchkey'}
   });
 
   await wait(200);
 
-  fireEvent.click(container.querySelector('.cxd-SearchBox-searchBtn')!);
+  fireEvent.click(container.querySelector('.prismui-SearchBox-searchBtn')!);
   await wait(200);
 
   // TODO: 这里点击搜索会调用两次接口，一次是 onQuery 事件，一次是数据变化组件 update
@@ -77,7 +77,7 @@ test('Renderer:Searchbox with enhance', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-SearchBox')).toHaveClass(
+  expect(container.querySelector('.prismui-SearchBox')).toHaveClass(
     componentClass('SearchBox--enhance')
   );
   expect(container).toMatchSnapshot();
@@ -96,21 +96,21 @@ test('Renderer:Searchbox with clearable', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-SearchBox .cxd-SearchBox-clearable')
+    container.querySelector('.prismui-SearchBox .prismui-SearchBox-clearable')
   ).toBeInTheDocument();
   expect(
-    (container.querySelector('.cxd-SearchBox input') as HTMLInputElement)!.value
+    (container.querySelector('.prismui-SearchBox input') as HTMLInputElement)!.value
   ).toBe('tmpvalue');
   expect(container).toMatchSnapshot();
 
   fireEvent.click(
-    container.querySelector('.cxd-SearchBox .cxd-SearchBox-clearable')!
+    container.querySelector('.prismui-SearchBox .prismui-SearchBox-clearable')!
   );
   expect(
-    (container.querySelector('.cxd-SearchBox input') as HTMLInputElement)!.value
+    (container.querySelector('.prismui-SearchBox input') as HTMLInputElement)!.value
   ).toBe('');
 
-  fireEvent.click(container.querySelector('.cxd-SearchBox-searchBtn')!);
+  fireEvent.click(container.querySelector('.prismui-SearchBox-searchBtn')!);
   await wait(200);
 
   expect(onQuery).toHaveBeenCalled();
@@ -130,19 +130,19 @@ test('Renderer:Searchbox with mini', async () => {
     })
   );
 
-  const searchBox = container.querySelector('.cxd-SearchBox');
+  const searchBox = container.querySelector('.prismui-SearchBox');
   expect(searchBox).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 
-  fireEvent.click(container.querySelector('.cxd-SearchBox-activeBtn')!);
+  fireEvent.click(container.querySelector('.prismui-SearchBox-activeBtn')!);
 
   await wait(200);
 
   expect(searchBox).toHaveClass('is-active');
   expect(
-    container.querySelector('.cxd-SearchBox-activeBtn')
+    container.querySelector('.prismui-SearchBox-activeBtn')
   ).not.toBeInTheDocument();
-  const input = container.querySelector('.cxd-SearchBox input')!;
+  const input = container.querySelector('.prismui-SearchBox input')!;
 
   expect(input).toBeInTheDocument();
 
@@ -163,7 +163,7 @@ test('Renderer:Searchbox with mini', async () => {
 
   expect(container).toMatchSnapshot();
 
-  fireEvent.click(container.querySelector('.cxd-SearchBox-cancelBtn')!);
+  fireEvent.click(container.querySelector('.prismui-SearchBox-cancelBtn')!);
   await wait(200);
 
   expect(onQuery).toHaveBeenCalledTimes(2);
@@ -173,7 +173,7 @@ test('Renderer:Searchbox with mini', async () => {
 
   expect(searchBox).not.toHaveClass('is-active');
   expect(
-    container.querySelector('.cxd-SearchBox-activeBtn')
+    container.querySelector('.prismui-SearchBox-activeBtn')
   ).toBeInTheDocument();
 });
 
@@ -190,9 +190,9 @@ test('Renderer:Searchbox with searchImediately & className', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-SearchBox')).toHaveClass('testClass');
+  expect(container.querySelector('.prismui-SearchBox')).toHaveClass('testClass');
 
-  const input = container.querySelector('.cxd-SearchBox input')!;
+  const input = container.querySelector('.prismui-SearchBox input')!;
   fireEvent.change(input, {
     target: {value: 'aa'}
   });
@@ -228,7 +228,7 @@ test('6. Renderer: Searchbox is not supposed to be triggered with composition in
     )
   );
 
-  const inputEl = container.querySelector('.cxd-SearchBox input')!;
+  const inputEl = container.querySelector('.prismui-SearchBox input')!;
   expect(inputEl).toBeInTheDocument();
 
   /** 第一次输入 Enter 后，文本填入 */
@@ -264,9 +264,9 @@ test('Renderer:Searchbox with searchImediately & className', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-SearchBox')).toHaveClass('testClass');
+  expect(container.querySelector('.prismui-SearchBox')).toHaveClass('testClass');
 
-  const input = container.querySelector('.cxd-SearchBox input')!;
+  const input = container.querySelector('.prismui-SearchBox input')!;
   fireEvent.change(input, {
     target: {value: 'aa'}
   });
@@ -303,7 +303,7 @@ test('Renderer: Searchbox with disbaled', async () => {
     )
   );
 
-  const inputEl = container.querySelector('.cxd-SearchBox input')!;
+  const inputEl = container.querySelector('.prismui-SearchBox input')!;
   expect(inputEl).toBeInTheDocument();
   /** Input元素上存在disabled attribute */
   expect((inputEl.attributes as any).disabled).not.toEqual(undefined);
@@ -325,6 +325,6 @@ test('Renderer: Searchbox with loading', async () => {
     )
   );
 
-  const spinner = container.querySelector('.cxd-SearchBox .cxd-SearchBox-spinner');
+  const spinner = container.querySelector('.prismui-SearchBox .prismui-SearchBox-spinner');
   expect(spinner).toBeInTheDocument();
 });

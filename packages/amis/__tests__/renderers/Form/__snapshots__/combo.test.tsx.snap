@@ -3,31 +3,31 @@
 exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addButtonClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -47,16 +47,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           自定义1
@@ -65,25 +65,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -91,25 +91,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -129,7 +129,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -141,10 +141,10 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn classOfAdd"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn classOfAdd"
                             type="button"
                           >
                             <icon-mock
@@ -161,16 +161,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal addAtTopClass"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal addAtTopClass"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           更复杂的
@@ -179,25 +179,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -205,25 +205,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -243,7 +243,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -254,13 +254,13 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                             </a>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -268,25 +268,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -306,7 +306,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -318,10 +318,10 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Button--block"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--block"
                             type="button"
                           >
                             <span>
@@ -334,16 +334,16 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal addableClass"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal addableClass"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           不存在的
@@ -352,25 +352,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -378,25 +378,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -416,7 +416,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -427,13 +427,13 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                             </a>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -441,25 +441,25 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -479,7 +479,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -491,7 +491,7 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         />
                       </div>
                     </div>
@@ -500,13 +500,13 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -526,31 +526,31 @@ exports[`Renderer:combo with addable & addattop & addBtn & addButtonText & addBu
 exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -559,10 +559,10 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -570,16 +570,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal parentInput"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal parentInput"
                   data-amis-name="super_text"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           父级文本框
@@ -588,13 +588,13 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -610,16 +610,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           不可获取父级数据
@@ -628,28 +628,28 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -666,16 +666,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo2"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           可获取父级数据不可更新
@@ -684,28 +684,28 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -722,16 +722,16 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo3"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           可获取父级数据亦可更新
@@ -740,28 +740,28 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -780,13 +780,13 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -806,31 +806,31 @@ exports[`Renderer:combo with canAccessSuperData & strictMode & syncFields 1`] = 
 exports[`Renderer:combo with conditions: add button open 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -839,10 +839,10 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -850,16 +850,16 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo-conditions"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           多选
@@ -868,22 +868,22 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--ver"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--ver"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemTag"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemTag"
                             >
                               <label>
                                 类型
@@ -891,21 +891,21 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               <div
                                 aria-expanded="false"
                                 aria-haspopup="listbox"
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select"
                                 role="combobox"
                                 tabindex="0"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                                   >
                                     数字
                                   </div>
                                 </div>
                                 <span
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
                                 >
                                   <icon-mock
                                     class="icon icon-right-arrow-bold"
@@ -915,10 +915,10 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               </div>
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -926,16 +926,16 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                                   data-amis-name="number"
                                   data-role="form-item"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                                   >
                                     <span>
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                                       >
                                         <span>
                                           最小值
@@ -944,46 +944,46 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                     </span>
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                                       >
                                         <span
                                           aria-disabled="false"
                                           aria-label="Increase Value"
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                                           role="button"
                                           unselectable="on"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                                             unselectable="on"
                                           />
                                         </span>
                                         <span
                                           aria-disabled="false"
                                           aria-label="Decrease Value"
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                                           role="button"
                                           unselectable="on"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                                             unselectable="on"
                                           />
                                         </span>
                                       </div>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                                       >
                                         <input
                                           aria-valuenow="0"
                                           autocomplete="off"
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                                           name="number"
                                           role="spinbutton"
                                           step="1"
@@ -996,7 +996,7 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -1008,13 +1008,13 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown is-opened"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--info __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--info __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                             >
                               <icon-mock
                                 class="icon m-r-xs icon icon-plus-fine"
@@ -1022,7 +1022,7 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               />
                               新增
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
                               >
                                 <icon-mock
                                   class="icon icon-right-arrow-bold"
@@ -1031,11 +1031,11 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                               </span>
                             </button>
                             <ul
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
                               style="width: 0px;"
                             >
                               <li
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
                               >
                                 <a
                                   class=""
@@ -1046,7 +1046,7 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
                                 </a>
                               </li>
                               <li
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
                               >
                                 <a
                                   class=""
@@ -1066,13 +1066,13 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1092,31 +1092,31 @@ exports[`Renderer:combo with conditions: add button open 1`] = `
 exports[`Renderer:combo with draggable 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1125,10 +1125,10 @@ exports[`Renderer:combo with draggable 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1136,16 +1136,16 @@ exports[`Renderer:combo with draggable 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           拖拽排序
@@ -1154,22 +1154,22 @@ exports[`Renderer:combo with draggable 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor is-draggable"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor is-draggable"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
                             >
                               <a
                                 data-position="bottom"
@@ -1182,10 +1182,10 @@ exports[`Renderer:combo with draggable 1`] = `
                               </a>
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1193,25 +1193,25 @@ exports[`Renderer:combo with draggable 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1228,38 +1228,38 @@ exports[`Renderer:combo with draggable 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="select"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                                         >
                                           <div
                                             aria-expanded="false"
                                             aria-haspopup="listbox"
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select"
                                             role="combobox"
                                             tabindex="0"
                                           >
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                             >
                                               <div
-                                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                                               >
                                                 a
                                               </div>
                                             </div>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
                                             >
                                               <icon-mock
                                                 class="icon icon-right-arrow-bold"
@@ -1275,7 +1275,7 @@ exports[`Renderer:combo with draggable 1`] = `
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -1286,10 +1286,10 @@ exports[`Renderer:combo with draggable 1`] = `
                             </a>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemDrager"
                             >
                               <a
                                 data-position="bottom"
@@ -1302,10 +1302,10 @@ exports[`Renderer:combo with draggable 1`] = `
                               </a>
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1313,25 +1313,25 @@ exports[`Renderer:combo with draggable 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1348,38 +1348,38 @@ exports[`Renderer:combo with draggable 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="select"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                                         >
                                           <div
                                             aria-expanded="false"
                                             aria-haspopup="listbox"
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select"
                                             role="combobox"
                                             tabindex="0"
                                           >
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                                             >
                                               <div
-                                                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                                               >
                                                 b
                                               </div>
                                             </div>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
                                             >
                                               <icon-mock
                                                 class="icon icon-right-arrow-bold"
@@ -1395,7 +1395,7 @@ exports[`Renderer:combo with draggable 1`] = `
                               </div>
                             </div>
                             <a
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-delBtn"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delBtn"
                               data-position="bottom"
                               data-tooltip="删除"
                             >
@@ -1407,10 +1407,10 @@ exports[`Renderer:combo with draggable 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -1422,7 +1422,7 @@ exports[`Renderer:combo with draggable 1`] = `
                             </span>
                           </button>
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-dragableTip"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-dragableTip"
                           />
                         </div>
                       </div>
@@ -1432,13 +1432,13 @@ exports[`Renderer:combo with draggable 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1458,17 +1458,17 @@ exports[`Renderer:combo with draggable 1`] = `
 exports[`Renderer:combo with items & multiLine 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1477,10 +1477,10 @@ exports[`Renderer:combo with items & multiLine 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
         novalidate=""
       >
         <input
@@ -1488,16 +1488,16 @@ exports[`Renderer:combo with items & multiLine 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
           data-amis-name="combo1"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Combo 单行展示
@@ -1506,23 +1506,23 @@ exports[`Renderer:combo with items & multiLine 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
           />
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Divider __PRISMUI_COMPONENT_CLASS_PREFIX__Divider--solid __PRISMUI_COMPONENT_CLASS_PREFIX__Divider--horizontal"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
           data-amis-name="combo2"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Combo 多行展示
@@ -1531,19 +1531,19 @@ exports[`Renderer:combo with items & multiLine 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
           />
         </div>
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1559,31 +1559,31 @@ exports[`Renderer:combo with items & multiLine 1`] = `
 exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1592,10 +1592,10 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1603,16 +1603,16 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal is-error"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal is-error"
                   data-amis-name="combo1"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           最少添加1条且最多3条
@@ -1621,28 +1621,28 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-placeholder"
                           >
                             &lt;空&gt;
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -1657,7 +1657,7 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
                       </div>
                     </div>
                     <ul
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
                     >
                       <li>
                         组合表单数量不足1个，请添加更多
@@ -1668,13 +1668,13 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1694,31 +1694,31 @@ exports[`Renderer:combo with minLength & maxLength: minLength error 1`] = `
 exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmText 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1727,10 +1727,10 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -1738,16 +1738,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal removableFalse"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal removableFalse"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1756,25 +1756,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1782,25 +1782,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1822,10 +1822,10 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -1842,16 +1842,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal deleteBtn"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal deleteBtn"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1860,25 +1860,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1886,25 +1886,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -1924,7 +1924,7 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                               </div>
                             </div>
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-delController"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delController"
                               type="button"
                             >
                               <span>
@@ -1934,10 +1934,10 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -1954,16 +1954,16 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal superDeleteBtn"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal superDeleteBtn"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           combo
@@ -1972,25 +1972,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Combo __AMIS_COMPONENT_CLASS_PREFIX__Combo--multi __AMIS_COMPONENT_CLASS_PREFIX__Combo--hor"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--multi __PRISMUI_COMPONENT_CLASS_PREFIX__Combo--hor"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-items"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-items"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-item"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--row __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--row __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -1998,25 +1998,25 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-row"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-row"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-col"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-col"
                                     style="flex: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--row"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--row"
                                       data-amis-name="text"
                                       data-role="form-item"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-rowInner"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-rowInner"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                           >
                                             <input
                                               autocomplete="off"
@@ -2036,7 +2036,7 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                               </div>
                             </div>
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--danger __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-delController"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--danger __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-delController"
                               type="button"
                             >
                               <span>
@@ -2046,10 +2046,10 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-toolbar"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-toolbar"
                         >
                           <button
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__Combo-addBtn"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-addBtn"
                             type="button"
                           >
                             <icon-mock
@@ -2068,13 +2068,13 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -2094,31 +2094,31 @@ exports[`Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmTe
 exports[`Renderer:combo with tabsMode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -2127,10 +2127,10 @@ exports[`Renderer:combo with tabsMode 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -2138,16 +2138,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="combo"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           组合多条多行
@@ -2156,41 +2156,41 @@ exports[`Renderer:combo with tabsMode 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ComboControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ComboControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__ComboTabs"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__ComboTabs"
                         data-role="container"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
                             >
                               <ul
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
                                 role="tablist"
                               >
                                 <li
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
                                 >
                                   <a
                                     title="这是第3个"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                     >
                                       这是第3个
                                     </span>
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
                                       data-position="bottom"
                                       data-tooltip="删除"
                                     >
@@ -2202,18 +2202,18 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                   </a>
                                 </li>
                                 <li
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
                                 >
                                   <a
                                     title="这是第4个"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                     >
                                       这是第4个
                                     </span>
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-tab-delBtn"
                                       data-position="bottom"
                                       data-tooltip="删除"
                                     >
@@ -2225,7 +2225,7 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                   </a>
                                 </li>
                                 <li
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__ComboTabs-addLink"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link __PRISMUI_COMPONENT_CLASS_PREFIX__ComboTabs-addLink"
                                 >
                                   <a>
                                     <icon-mock
@@ -2242,16 +2242,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
                         >
                           <div
-                            class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+                            class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Combo-itemInner"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Combo-itemInner"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal __AMIS_COMPONENT_CLASS_PREFIX__Combo-form"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal __PRISMUI_COMPONENT_CLASS_PREFIX__Combo-form"
                                 novalidate=""
                               >
                                 <input
@@ -2259,16 +2259,16 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                   type="submit"
                                 />
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                                   data-amis-name="a"
                                   data-role="form-item"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                                   >
                                     <span>
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                                       >
                                         <span>
                                           文本
@@ -2277,10 +2277,10 @@ exports[`Renderer:combo with tabsMode 1`] = `
                                     </span>
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                                     >
                                       <input
                                         autocomplete="off"
@@ -2305,13 +2305,13 @@ exports[`Renderer:combo with tabsMode 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

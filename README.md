@@ -8,9 +8,9 @@ PrismUI 不是 baidu/amis 的官方发布渠道。原项目版权和许可声明
 
 ## 当前状态
 
-- **包名过渡**：当前 npm 包仍保留 `amis`、`amis-ui`、`amis-core` 等兼容包名；计划在 2026-09-15 前完成 `prismui` 系列包名迁移。
+- **包名过渡**：当前 npm 包仍保留 `amis`、`amis-ui`、`amis-core` 等兼容包名；包名迁移如有后续安排会在 release notes 中说明。
 - **兼容策略**：迁移期优先保持现有 UI Schema、渲染器 API、主题样式和 SDK 接入方式稳定。
-- **文档口径**：新文档使用 PrismUI 名称；历史文档、代码示例或运行时 API 中仍可能出现 `amis`，会随包名迁移逐步收敛。
+- **文档口径**：新文档使用 PrismUI 名称；历史文档、代码示例或运行时 API 中仍可能出现 `amis`。
 - **维护方式**：采用轻量社区协作模式，贡献默认按对应文件或子包的现有开源许可证授权。
 
 ## 能力概览
@@ -25,7 +25,7 @@ PrismUI 不是 baidu/amis 的官方发布渠道。原项目版权和许可声明
 
 ### 当前兼容包名
 
-在包名迁移完成前，安装命令仍沿用 amis 包名：
+安装命令继续沿用 amis 包名：
 
 ```bash
 npm install amis amis-ui
@@ -85,21 +85,7 @@ export function App() {
 </script>
 ```
 
-### PrismUI 包名迁移
-
-目标包名会以 release notes 为准，预计核心映射如下：
-
-| 当前包名 | 计划包名 |
-| --- | --- |
-| `amis` | `prismui` |
-| `amis-core` | `prismui-core` |
-| `amis-ui` | `prismui-ui` |
-| `amis-formula` | `prismui-formula` |
-| `amis-editor` | `prismui-editor` |
-| `amis-editor-core` | `prismui-editor-core` |
-| `amis-theme-editor-helper` | `prismui-theme-editor-helper` |
-
-迁移完成前，请不要在生产文档或安装脚本中假设 PrismUI 包已经发布。
+目前仓库不在 README 中承诺新的 npm 包名；如后续发生迁移，会在 release notes 中单独说明。
 
 ## 仓库结构
 

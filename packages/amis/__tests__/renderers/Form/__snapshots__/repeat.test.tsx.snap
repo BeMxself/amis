@@ -3,17 +3,17 @@
 exports[`Renderer:repeat 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:repeat 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:repeat 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   repeat
@@ -51,7 +51,7 @@ exports[`Renderer:repeat 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RepeatControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RepeatControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
               class="repeat-control hbox"
@@ -68,21 +68,21 @@ exports[`Renderer:repeat 1`] = `
                 class="col v-middle"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-wrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track __PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track--background"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                       style="width: 0%; left: 0%;"
                     />
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-handle"
                       style="left: 0%; z-index: 1;"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                       >
                         <icon-mock
                           class="icon icon-slider-handle"
@@ -90,7 +90,7 @@ exports[`Renderer:repeat 1`] = `
                         />
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                       >
                         <span>
                           1
@@ -107,21 +107,21 @@ exports[`Renderer:repeat 1`] = `
                   aria-expanded="true"
                   aria-haspopup="listbox"
                   aria-owns="downshift-0-menu"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened pull-right has-popover"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select is-opened pull-right has-popover"
                   role="combobox"
                   tabindex="0"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                     >
                       年
                     </div>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -129,26 +129,26 @@ exports[`Renderer:repeat 1`] = `
                     />
                   </span>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
-                    data-amis-theme="cxd"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__Select-popover"
+                    data-prismui-theme="cxd"
                     role="popover"
                     style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                     theme="cxd"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver-overlay"
                     />
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-menu"
                     >
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-0"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="不重复"
                         >
                           不重复
@@ -156,12 +156,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-1"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="秒"
                         >
                           秒
@@ -169,12 +169,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-2"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="分"
                         >
                           分
@@ -182,12 +182,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-3"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="时"
                         >
                           时
@@ -195,12 +195,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-4"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="天"
                         >
                           天
@@ -208,12 +208,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-5"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="周中"
                         >
                           周中
@@ -221,12 +221,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-6"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="周"
                         >
                           周
@@ -234,12 +234,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-0-item-7"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="月"
                         >
                           月
@@ -247,12 +247,12 @@ exports[`Renderer:repeat 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option is-active"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option is-active"
                         id="downshift-0-item-8"
                         role="option"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="年"
                         >
                           年

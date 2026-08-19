@@ -3,17 +3,17 @@
 exports[`Renderer:InputGroup 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:InputGroup 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:InputGroup 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal no-border"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal no-border"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   input-group
@@ -51,13 +51,13 @@ exports[`Renderer:InputGroup 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__InputGroup __AMIS_COMPONENT_CLASS_PREFIX__InputGroup-validation--full __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputGroup __PRISMUI_COMPONENT_CLASS_PREFIX__InputGroup-validation--full __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
               >
                 <input
                   autocomplete="off"

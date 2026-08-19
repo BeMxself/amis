@@ -87,7 +87,7 @@ test('Renderer:input-formula', async () => {
 
   // TODO: 貌似 jsdom 不支持 codemirror，进行不下去了
 
-  // const action = document.querySelector('button.cxd-FormulaPicker-action');
+  // const action = document.querySelector('button.prismui-FormulaPicker-action');
 
   // fireEvent.click(action!);
 

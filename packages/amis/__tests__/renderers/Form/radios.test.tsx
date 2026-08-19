@@ -59,7 +59,7 @@ test('Renderer:radios', async () => {
 
   await waitFor(() => {
     expect(
-      (container.querySelector('.cxd-PlainField') as Element).innerHTML
+      (container.querySelector('.prismui-PlainField') as Element).innerHTML
     ).toBe('a');
   });
   expect(container).toMatchSnapshot();
@@ -127,14 +127,14 @@ test('Renderer:radios source & autoFill', async () => {
 
   await waitFor(() => {
     expect(
-      (container.querySelector('.cxd-PlainField') as Element).innerHTML
+      (container.querySelector('.prismui-PlainField') as Element).innerHTML
     ).toBe('aa');
   });
 
   fireEvent.click(getByText(/C/));
   await waitFor(() => {
     expect(
-      (container.querySelector('.cxd-TplField.autoFillClass span') as Element)
+      (container.querySelector('.prismui-TplField.autoFillClass span') as Element)
         .innerHTML
     ).toBe('13');
   });

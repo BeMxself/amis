@@ -20,7 +20,7 @@ test('Renderer:bar-code', async () => {
     )
   );
   await waitFor(() =>
-    expect(container.querySelector('.cxd-BarCode')).toBeInTheDocument()
+    expect(container.querySelector('.prismui-BarCode')).toBeInTheDocument()
   );
 
   expect(container).toMatchSnapshot();

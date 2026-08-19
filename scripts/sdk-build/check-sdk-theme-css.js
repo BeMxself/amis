@@ -19,7 +19,8 @@ const themeCss = buildSdkThemeCss([
       '.fr-box { color: black; }',
       '.tox-menu { color: black; }',
       '.monaco-editor { color: black; }',
-      '.Button, .Alert:hover { color: red; }'
+      '.Button, .Alert:hover { color: red; }',
+      '.SharedComponent { display: block; }'
     ].join('\n')
   }
 ]);
@@ -32,27 +33,35 @@ assertEqual(byTheme.cxd.filename, 'sdk.css', 'cxd theme filename');
 assertEqual(byTheme.dark.filename, 'dark.css', 'dark theme filename');
 assertEqual(byTheme.antd.filename, 'antd.css', 'antd theme filename');
 
-assertContains(byTheme.cxd.content, '.amis-scope .CxdOnly', 'cxd theme CSS');
+for (const theme of ['ang', 'cxd', 'dark', 'antd']) {
+  assertContains(
+    byTheme[theme].content,
+    '.prismui-scope .SharedComponent',
+    `${theme} should include shared component CSS`
+  );
+}
+
+assertContains(byTheme.cxd.content, '.prismui-scope .CxdOnly', 'cxd theme CSS');
 assertNotContains(byTheme.cxd.content, 'AngOnly', 'cxd should exclude ang CSS');
 assertNotContains(byTheme.cxd.content, 'DarkOnly', 'cxd should exclude dark CSS');
 assertNotContains(byTheme.cxd.content, 'AntdOnly', 'cxd should exclude antd CSS');
 
-assertContains(byTheme.ang.content, '.amis-scope .AngOnly', 'ang theme CSS');
+assertContains(byTheme.ang.content, '.prismui-scope .AngOnly', 'ang theme CSS');
 assertNotContains(byTheme.ang.content, 'CxdOnly', 'ang should exclude cxd CSS');
 
 assertContains(
   byTheme.cxd.content,
-  '.amis-scope .Button, .amis-scope .Alert:hover',
+  '.prismui-scope .Button, .prismui-scope .Alert:hover',
   'regular selectors should receive SDK scope'
 );
 assertContains(
   byTheme.cxd.content,
-  '.amis-scope { margin: 0; }',
+  '.prismui-scope { margin: 0; }',
   'body selectors should be rewritten to the SDK scope root'
 );
 assertContains(
   byTheme.cxd.content,
-  '.amis-scope.app { height: 100%; }',
+  '.prismui-scope.app { height: 100%; }',
   'html selectors should preserve suffixes on the SDK scope root'
 );
 assertContains(

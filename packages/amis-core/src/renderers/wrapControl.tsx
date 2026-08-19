@@ -180,10 +180,12 @@ export function wrapControl<
             this.renderChild = this.renderChild.bind(this);
             let name =
               this.props.$schema.name ||
-              ((ComposedComponent as any).defaultProps as Record<
-                string,
-                unknown
-              >)?.name;
+              (
+                (ComposedComponent as any).defaultProps as Record<
+                  string,
+                  unknown
+                >
+              )?.name;
 
             // 如果 name 是表达式
             // 扩充 each 用法

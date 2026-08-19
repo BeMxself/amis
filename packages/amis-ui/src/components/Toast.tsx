@@ -33,6 +33,7 @@ const fadeStyles: {
 };
 
 let toastRef: any = null;
+const toastInstances = new Set<ToastComponent>();
 const show = (content: string, conf: any = {}, method: string) => {
   if (!toastRef || !toastRef[method]) {
     return;
@@ -121,13 +122,21 @@ export class ToastComponent extends React.Component<
   };
 
   componentDidMount() {
-    this.hasRendered = true;
-    toastRef = this;
+    toastInstances.add(this);
+    if (!toastRef) {
+      this.hasRendered = true;
+      toastRef = this;
+    }
   }
 
   componentWillUnmount() {
-    if (this.hasRendered) {
-      toastRef = null;
+    toastInstances.delete(this);
+    if (toastRef === this) {
+      toastRef = toastInstances.values().next().value || null;
+      if (toastRef) {
+        toastRef.hasRendered = true;
+        toastRef.forceUpdate();
+      }
     }
   }
 
@@ -187,7 +196,7 @@ export class ToastComponent extends React.Component<
   }
 
   render() {
-    if (toastRef && !this.hasRendered) {
+    if (toastRef && toastRef !== this) {
       return null;
     }
 

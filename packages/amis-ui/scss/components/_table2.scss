@@ -1,20 +1,20 @@
-.amis-Table2 {
+.prismui-Table2 {
   position: relative;
   border-radius: var(--Table-borderRadius);
 
-  .amis-Table-cell-wrapper .amis-Table-badge {
+  .prismui-Table-cell-wrapper .prismui-Table-badge {
     width: 100%;
     height: 100%;
   }
 
-  &.amis-Table-bordered {
+  &.prismui-Table-bordered {
     border-width: var(--Table-borderWidth) var(--Table-borderWidth) 0
       var(--Table-borderWidth);
     border-style: solid;
     border-color: var(--Table-borderColor);
     border-collapse: inherit;
 
-    .amis-Table-table {
+    .prismui-Table-table {
       > thead > tr > th,
       > tbody > tr > td,
       > tfoot > tr > td {
@@ -26,17 +26,17 @@
       }
     }
 
-    .amis-Table-footer {
+    .prismui-Table-footer {
       border-bottom: var(--Table-borderWidth) solid var(--Table-borderColor);
     }
 
-    .amis-Table-title {
+    .prismui-Table-title {
       border-bottom: var(--Table-borderWidth) solid var(--Table-borderColor);
     }
   }
 
-  &.amis-Table-large {
-    .amis-Table-table {
+  &.prismui-Table-large {
+    .prismui-Table-table {
       > thead > tr {
         > th {
           padding: var(--table-size-large-paddingTop)
@@ -66,7 +66,7 @@
       }
     }
 
-    .amis-TableCell-filterBtn {
+    .prismui-TableCell-filterBtn {
       right: calc(
         var(--table-size-large-paddingRight) - var(--TableCell-filterBtn-width) /
           2
@@ -74,8 +74,8 @@
     }
   }
 
-  &.amis-Table-small {
-    .amis-Table-table {
+  &.prismui-Table-small {
+    .prismui-Table-table {
       > thead > tr {
         > th {
           padding: var(--table-size-small-paddingTop)
@@ -105,7 +105,7 @@
       }
     }
 
-    .amis-TableCell-filterBtn {
+    .prismui-TableCell-filterBtn {
       right: calc(
         var(--table-size-small-paddingRight) - var(--TableCell-filterBtn-width) /
           2
@@ -113,8 +113,8 @@
     }
   }
 
-  .amis-Table-title,
-  .amis-Table-footer {
+  .prismui-Table-title,
+  .prismui-Table-footer {
     color: var(--table-title-color);
     font-size: var(--table-title-fontSize);
     font-weight: var(--table-title-fontWeight);
@@ -124,7 +124,7 @@
       var(--table-title-paddingBottom) var(--table-title-paddingLeft);
   }
 
-  .amis-Table-header {
+  .prismui-Table-header {
     padding: var(--Table-toolbar-marginY) var(--Table-toolbar-marginX);
 
     &--affixed {
@@ -133,24 +133,24 @@
       padding-right: var(--Table-scrollbar-width) !important;
     }
 
-    &.amis-Table-sticky-holder {
+    &.prismui-Table-sticky-holder {
       position: sticky;
       z-index: 3;
       background: var(--Table-bg);
     }
   }
 
-  .amis-Table-toolbar {
+  .prismui-Table-toolbar {
     @include clearfix();
     display: flex;
     margin: 0 var(--Table-toolbar-marginX) var(--Table-toolbar-marginY);
     flex-wrap: wrap;
 
-    .amis-DropDown {
+    .prismui-DropDown {
       &-menuItem {
         height: auto;
 
-        .amis-Checkbox {
+        .prismui-Checkbox {
           display: flex;
           align-items: center;
         }
@@ -158,11 +158,11 @@
     }
   }
 
-  .amis-Table-header + .amis-Table-toolbar {
+  .prismui-Table-header + .prismui-Table-toolbar {
     padding-top: 0;
   }
 
-  .amis-Table-content {
+  .prismui-Table-content {
     min-height: 0.01%;
     overflow-x: auto;
     transform: translateZ(0);
@@ -172,7 +172,7 @@
     }
   }
 
-  .amis-Table-table {
+  .prismui-Table-table {
     width: 100%;
     min-width: 100%;
     margin-bottom: 0;
@@ -225,16 +225,16 @@
           padding-left: var(--TableCell--edge-paddingX-default);
         }
 
-        &.amis-Table-cell-last {
+        &.prismui-Table-cell-last {
           padding-right: var(--TableCell--edge-paddingX-default);
         }
 
-        &:not(.amis-Table-cell-last) {
+        &:not(.prismui-Table-cell-last) {
           border-right: var(--Table-thead-borderWidth) solid
             var(--Table-thead-borderColor);
         }
 
-        &.amis-Table-row-expand-icon-cell {
+        &.prismui-Table-row-expand-icon-cell {
           border-right: 0;
         }
 
@@ -244,13 +244,13 @@
         line-height: var(--table-header-lineHeight);
         white-space: nowrap;
 
-        .amis-Remark {
+        .prismui-Remark {
           margin-left: var(--gap-xs);
           position: relative;
           top: 2px;
         }
 
-        .amis-Table-head-cell-wrapper {
+        .prismui-Table-head-cell-wrapper {
           display: flex;
           align-items: center;
         }
@@ -265,7 +265,7 @@
       position: relative;
       border-top: unset !important;
 
-      &.amis-Table-summary-row {
+      &.prismui-Table-summary-row {
         > td {
           background: var(--Table-thead-bg);
         }
@@ -306,20 +306,20 @@
           padding-right: var(--TableCell--edge-paddingX-default);
         }
 
-        .amis-Form-static {
+        .prismui-Form-static {
           min-height: auto;
         }
       }
 
-      .amis-Table-cell-wrapper-prefix {
+      .prismui-Table-cell-wrapper-prefix {
         display: flex;
 
-        .amis-Table-expandBtn {
+        .prismui-Table-expandBtn {
           margin-right: 5px;
         }
       }
 
-      .amis-Form-static {
+      .prismui-Form-static {
         padding: 0;
         margin: 0;
         min-height: inherit;
@@ -329,13 +329,13 @@
         font-weight: inherit;
       }
 
-      .amis-Table-cell-height-large {
+      .prismui-Table-cell-height-large {
         height: var(--TableCell-line-height-large);
         line-height: var(--TableCell-line-height-large);
         overflow: hidden;
       }
 
-      .amis-Table-cell-height-middle {
+      .prismui-Table-cell-height-middle {
         height: var(--TableCell-line-height-middle);
         line-height: var(--TableCell-line-height-middle);
         overflow: hidden;
@@ -344,12 +344,12 @@
       @if var(--Table-strip-bg) !=transparent {
         background: var(--table-body-bg-color);
 
-        &.amis-Table-tr--odd {
+        &.prismui-Table-tr--odd {
           background: var(--Table-strip-bg);
         }
       }
 
-      &.amis-Table-tr--hasItemAction:hover {
+      &.prismui-Table-tr--hasItemAction:hover {
         cursor: pointer;
       }
 
@@ -439,19 +439,19 @@
     }
 
     @for $i from 2 through 10 {
-      tr.amis-Table-tr--#{$i}th.is-expanded {
-        .amis-Table-expandCell:before {
+      tr.prismui-Table-tr--#{$i}th.is-expanded {
+        .prismui-Table-expandCell:before {
           right: px2rem(7px) + px2rem(-18px) * ($i - 1);
         }
       }
 
-      tr.amis-Table-tr--#{$i}th {
-        .amis-Table-expandBtn {
+      tr.prismui-Table-tr--#{$i}th {
+        .prismui-Table-expandBtn {
           position: relative;
           right: -(px2rem(18px)) * ($i - 1);
         }
 
-        .amis-Table-expandCell + td {
+        .prismui-Table-expandCell + td {
           position: relative;
 
           &::before {
@@ -479,14 +479,14 @@
         }
       }
 
-      tr.amis-Table-tr--#{$i}th.is-expandable {
-        .amis-Table-expandCell + td {
+      tr.prismui-Table-tr--#{$i}th.is-expandable {
+        .prismui-Table-expandCell + td {
           padding-left: px2rem(18px) * ($i - 1);
         }
       }
 
-      tr.amis-Table-tr--#{$i}th.is-last:not(.is-expanded) {
-        .amis-Table-expandCell + td {
+      tr.prismui-Table-tr--#{$i}th.is-last:not(.is-expanded) {
+        .prismui-Table-expandCell + td {
           &::before {
             height: 50%;
             bottom: auto;
@@ -495,25 +495,25 @@
       }
     }
 
-    > thead > tr > th.amis-Table-checkCell,
-    > tbody > tr > td.amis-Table-checkCell {
+    > thead > tr > th.prismui-Table-checkCell,
+    > tbody > tr > td.prismui-Table-checkCell {
       border-right: 0;
       white-space: nowrap;
 
-      .amis-Checkbox {
+      .prismui-Checkbox {
         margin: 0;
       }
     }
 
-    > thead > tr > th.amis-Table-expandCell,
-    > tbody > tr > td.amis-Table-expandCell {
+    > thead > tr > th.prismui-Table-expandCell,
+    > tbody > tr > td.prismui-Table-expandCell {
       border-right: 0;
       width: px2rem(1px);
       padding-right: 0;
     }
 
-    > thead > tr > th.amis-Table-dragCell,
-    > tbody > tr > td.amis-Table-dragCell {
+    > thead > tr > th.prismui-Table-dragCell,
+    > tbody > tr > td.prismui-Table-dragCell {
       border-right: 0;
       width: px2rem(1px);
       padding-right: 0;
@@ -523,11 +523,11 @@
       }
     }
 
-    > tbody > tr > td.amis-Table-expandCell {
+    > tbody > tr > td.prismui-Table-expandCell {
       position: relative;
 
       @for $i from 1 through 7 {
-        .amis-Table-divider-#{$i} {
+        .prismui-Table-divider-#{$i} {
           position: absolute;
           width: px2rem(1px);
           top: 0;
@@ -539,7 +539,7 @@
       }
     }
 
-    > tbody > tr.is-expanded > td.amis-Table-expandCell {
+    > tbody > tr.is-expanded > td.prismui-Table-expandCell {
       &::before {
         content: '';
         position: absolute;
@@ -552,40 +552,40 @@
       }
     }
 
-    > thead > tr > th.amis-TableCell--sortable {
+    > thead > tr > th.prismui-TableCell--sortable {
       padding-right: calc(
         var(--TableCell-paddingX) + var(--TableCell-sortBtn-width)
       );
       position: relative;
     }
 
-    > thead > tr > th.amis-TableCell--searchable {
+    > thead > tr > th.prismui-TableCell--searchable {
       padding-right: calc(
         var(--TableCell-paddingX) + var(--TableCell-searchBtn-width)
       );
       position: relative;
     }
 
-    > thead > tr > th.amis-TableCell--filterable {
+    > thead > tr > th.prismui-TableCell--filterable {
       padding-right: calc(
         var(--TableCell-paddingX) + var(--TableCell-filterBtn-width)
       );
       position: relative;
     }
 
-    > tbody > tr.amis-Table-row-disabled {
+    > tbody > tr.prismui-Table-row-disabled {
       background: var(--TableRow-onDisabled-bg);
       color: var(--TableRow-onDisabled-color);
     }
 
-    > tbody > tr > td.amis-Table-cell-fix-left,
-    > tbody > tr > td.amis-Table-cell-fix-right {
+    > tbody > tr > td.prismui-Table-cell-fix-left,
+    > tbody > tr > td.prismui-Table-cell-fix-right {
       background: inherit;
     }
 
-    > thead > tr > th.amis-Table-cell-fix-left-last,
-    > tbody > tr > td.amis-Table-cell-fix-left-last,
-    > tfoot > tr > td.amis-Table-cell-fix-left-last {
+    > thead > tr > th.prismui-Table-cell-fix-left-last,
+    > tbody > tr > td.prismui-Table-cell-fix-left-last,
+    > tfoot > tr > td.prismui-Table-cell-fix-left-last {
       &:after {
         position: absolute;
         top: 0;
@@ -599,9 +599,9 @@
       }
     }
 
-    > thead > tr > th.amis-Table-cell-fix-right-first,
-    > tbody > tr > td.amis-Table-cell-fix-right-first,
-    > tfoot > tr > td.amis-Table-cell-fix-right-first {
+    > thead > tr > th.prismui-Table-cell-fix-right-first,
+    > tbody > tr > td.prismui-Table-cell-fix-right-first,
+    > tfoot > tr > td.prismui-Table-cell-fix-right-first {
       &:after {
         position: absolute;
         top: 0;
@@ -615,15 +615,15 @@
       }
     }
 
-    > tbody > tr > td.amis-Table-cell-expand-icon-cell {
+    > tbody > tr > td.prismui-Table-cell-expand-icon-cell {
       text-align: center;
 
-      .amis-Table-row-indent {
+      .prismui-Table-row-indent {
         height: 1px;
       }
     }
 
-    > tbody > tr.amis-Table-expanded-row > td {
+    > tbody > tr.prismui-Table-expanded-row > td {
       background: var(--Table-onHover-bg);
     }
 
@@ -638,19 +638,19 @@
     }
   }
 
-  .amis-Table-container {
-    .amis-Table-header {
+  .prismui-Table-container {
+    .prismui-Table-header {
       padding: 0;
     }
 
     &-self-sticky {
       position: relative !important;
 
-      .amis-Table-content {
+      .prismui-Table-content {
         overflow-x: unset !important;
       }
 
-      .amis-Table-table {
+      .prismui-Table-table {
         border-collapse: separate;
 
         > tbody > tr > td {
@@ -658,93 +658,93 @@
         }
       }
 
-      .amis-Table-row {
+      .prismui-Table-row {
         z-index: 1;
       }
 
-      .amis-Table-cell-self-sticky {
+      .prismui-Table-cell-self-sticky {
         z-index: 2 !important;
       }
 
-      .amis-Table-cell-fix-left {
+      .prismui-Table-cell-fix-left {
         z-index: 3 !important;
       }
     }
 
     &.is-autoFillHeight {
       overflow: auto;
-      & > .amis-Table-content {
+      & > .prismui-Table-content {
         overflow: visible !important;
         transform: unset !important;
       }
-      & > .amis-Table-content > table > thead > tr > th {
+      & > .prismui-Table-content > table > thead > tr > th {
         position: sticky;
         top: 0;
         z-index: 2 !important; // 添加z-index确保显示在最上层
 
-        &.amis-Table-cell-fix-left,
-        &.amis-Table-cell-fix-right {
+        &.prismui-Table-cell-fix-left,
+        &.prismui-Table-cell-fix-right {
           z-index: 3 !important;
         }
       }
     }
   }
 
-  &.amis-Table-ping-left {
-    .amis-Table-table {
-      > thead > tr > th.amis-Table-cell-fix-left-last,
-      > tbody > tr > td.amis-Table-cell-fix-left-last,
-      > tfoot > tr > td.amis-Table-cell-fix-left-last {
+  &.prismui-Table-ping-left {
+    .prismui-Table-table {
+      > thead > tr > th.prismui-Table-cell-fix-left-last,
+      > tbody > tr > td.prismui-Table-cell-fix-left-last,
+      > tfoot > tr > td.prismui-Table-cell-fix-left-last {
         &:after {
           box-shadow: var(--Table-fixedLeftLast-boxShadow);
         }
       }
 
-      // > tbody > tr:not(.amis-Table-row-disabled) {
-      //   > td.amis-Table-cell-fix-left {
+      // > tbody > tr:not(.prismui-Table-row-disabled) {
+      //   > td.prismui-Table-cell-fix-left {
       //     border-right-color: var(--table-body-bg-color);
       //   }
       // }
 
       // > tfoot > tr > td:not(:last-child) {
-      //   &.amis-Table-cell-fix-left-last {
+      //   &.prismui-Table-cell-fix-left-last {
       //     border-right-color: var(--table-body-bg-color);
       //   }
       // }
 
       // > thead > tr > th:not(:last-child) {
-      //   &.amis-Table-cell-fix-left-last {
+      //   &.prismui-Table-cell-fix-left-last {
       //     border-right-color: var(--table-body-bg-color);
       //   }
       // }
     }
   }
 
-  &.amis-Table-ping-right {
-    .amis-Table-table {
-      > thead > tr > th.amis-Table-cell-fix-right-first,
-      > tbody > tr > td.amis-Table-cell-fix-right-first,
-      > tfoot > tr > td.amis-Table-cell-fix-right-first {
+  &.prismui-Table-ping-right {
+    .prismui-Table-table {
+      > thead > tr > th.prismui-Table-cell-fix-right-first,
+      > tbody > tr > td.prismui-Table-cell-fix-right-first,
+      > tfoot > tr > td.prismui-Table-cell-fix-right-first {
         &:after {
           box-shadow: var(--Table-fixedRightFirst-boxShadow);
         }
       }
 
-      > tbody > tr:not(.amis-Table-row-disabled) {
-        > td.amis-Table-cell-fix-right {
+      > tbody > tr:not(.prismui-Table-row-disabled) {
+        > td.prismui-Table-cell-fix-right {
           border-right: none;
         }
       }
     }
 
-    &:not(.amis-Table-bordered) {
-      .amis-Table-table {
-        > thead > tr > th.amis-Table-cell-fix-right-first-prev {
+    &:not(.prismui-Table-bordered) {
+      .prismui-Table-table {
+        > thead > tr > th.prismui-Table-cell-fix-right-first-prev {
           border-right: none;
         }
 
         > thead > tr > th:not(:last-child) {
-          &.amis-Table-cell-fix-right-first {
+          &.prismui-Table-cell-fix-right-first {
             border-right: none;
           }
         }
@@ -752,12 +752,12 @@
     }
   }
 
-  &.amis-Table-resizable {
-    .amis-Table-table {
+  &.prismui-Table-resizable {
+    .prismui-Table-table {
       > thead > tr > th {
         position: relative;
 
-        .amis-Table-thead-resizable {
+        .prismui-Table-thead-resizable {
           position: absolute;
           width: 7px;
           right: -4px;
@@ -779,7 +779,7 @@
         }
 
         &:last-child {
-          .amis-Table-thead-resizable {
+          .prismui-Table-thead-resizable {
             width: 4px;
             right: 0;
           }
@@ -788,11 +788,11 @@
     }
   }
 
-  .amis-Table-loading {
+  .prismui-Table-loading {
     padding: var(--Table-loading-padding);
   }
 
-  .amis-TableCell-sortBtn {
+  .prismui-TableCell-sortBtn {
     cursor: pointer;
     width: var(--TableCell-sortBtn-width);
     height: 14px;
@@ -843,7 +843,7 @@
     }
   }
 
-  .amis-TableCell-searchBtn {
+  .prismui-TableCell-searchBtn {
     cursor: pointer;
     color: var(--table-icon-color);
     margin-left: var(--TableCell-icon-gap);
@@ -862,17 +862,17 @@
     }
   }
 
-  .amis-TableCell-searchPopOver {
+  .prismui-TableCell-searchPopOver {
     border: none;
     min-width: px2rem(320px);
     max-width: px2rem(640px);
 
-    .amis-Panel {
+    .prismui-Panel {
       margin: 0;
     }
   }
 
-  .amis-TableCell-filterBtn {
+  .prismui-TableCell-filterBtn {
     cursor: pointer;
     width: var(--TableCell-filterBtn-width);
     height: 14px;
@@ -896,20 +896,20 @@
       color: var(--TableCell-filterBtn--onActive-color);
     }
 
-    .amis-Remark {
+    .prismui-Remark {
       display: inline;
     }
   }
 
-  .amis-TableCell-filterPopOver {
+  .prismui-TableCell-filterPopOver {
     border: none;
     width: px2rem(160px);
 
-    .amis-DropDown-menu {
+    .prismui-DropDown-menu {
       margin: 0;
       padding: 0;
 
-      .amis-DropDown-divider {
+      .prismui-DropDown-divider {
         height: var(--TableCell-filterPopOver-dropDownItem-height);
         line-height: var(--TableCell-filterPopOver-dropDownItem-height);
         padding: var(--TableCell-filterPopOver-dropDownItem-padding);
@@ -926,18 +926,18 @@
           color: var(--primary);
         }
 
-        .amis-Checkbox {
+        .prismui-Checkbox {
           width: 100%;
           margin: 0;
         }
       }
     }
 
-    .amis-DropDown-multiple-menu {
+    .prismui-DropDown-multiple-menu {
       text-align: center;
       border-top: 1px solid var(--Table-borderColor);
 
-      .amis-Button {
+      .prismui-Button {
         margin: 0 5px;
         padding: 0 10px;
       }
@@ -948,7 +948,7 @@
     }
   }
 
-  .amis-TableCell-selectionBtn {
+  .prismui-TableCell-selectionBtn {
     cursor: pointer;
     margin-left: 4px;
 
@@ -958,14 +958,14 @@
     }
   }
 
-  .amis-TableCell-selectionPopOver {
-    .amis-DropDown-menu {
+  .prismui-TableCell-selectionPopOver {
+    .prismui-DropDown-menu {
       margin: 0;
       padding: 0;
     }
   }
 
-  &.amis-Table-expandBtn {
+  &.prismui-Table-expandBtn {
     position: relative;
     z-index: 1;
     color: var(--Table-expandBtn-color);
@@ -998,9 +998,9 @@
     }
   }
 
-  .amis-Table-table > tbody > tr:hover .amis-Table-dragBtn,
-  .amis-Table-table > tbody > tr.is-dragging .amis-Table-dragBtn,
-  .amis-Table-table > tbody > tr.is-drop-allowed .amis-Table-dragBtn {
+  .prismui-Table-table > tbody > tr:hover .prismui-Table-dragBtn,
+  .prismui-Table-table > tbody > tr.is-dragging .prismui-Table-dragBtn,
+  .prismui-Table-table > tbody > tr.is-drop-allowed .prismui-Table-dragBtn {
     visibility: visible;
   }
 
@@ -1009,7 +1009,7 @@
     position: absolute;
   }
 
-  .amis-Table-badge {
+  .prismui-Table-badge {
     position: absolute;
     top: 0;
     left: 0;
@@ -1036,30 +1036,30 @@
   }
 }
 
-.amis-InputTable-toolbar {
+.prismui-InputTable-toolbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.amis-InputTable-pager {
+.prismui-InputTable-pager {
   margin-left: auto;
 }
 
-.amis-OperationField {
+.prismui-OperationField {
   margin: px2rem(-3px);
 
-  > .amis-Button,
-  > .amis-Button--disabled-wrap > .amis-Button {
+  > .prismui-Button,
+  > .prismui-Button--disabled-wrap > .prismui-Button {
     margin: px2rem(3px);
   }
 
-  > .amis-Button--disabled-wrap > .amis-Button--link {
+  > .prismui-Button--disabled-wrap > .prismui-Button--link {
     padding: 0;
   }
 
-  > .amis-Button--link {
+  > .prismui-Button--link {
     padding: 0;
     margin-right: px2rem(10px);
   }

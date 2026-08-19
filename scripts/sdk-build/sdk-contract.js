@@ -3,8 +3,63 @@ const path = require('path');
 const {
   sdkChunkPlan,
   sdkCssFiles,
+  sdkIe11CssFiles,
   sdkStaticFiles
 } = require('./chunk-plan');
+const {
+  getSdkRuntimeResourceEntries,
+  sdkRuntimeAssets
+} = require('./sdk-runtime-assets');
+
+const sdkScopedCssFiles = [
+  'sdk.css',
+  'cxd.css',
+  'prismui.css',
+  'ang.css',
+  'dark.css',
+  'antd.css'
+];
+const sdkResourceMapRuntimeFiles = [
+  'thirds/hls.js/hls.js',
+  'thirds/mpegts.js/mpegts.js'
+];
+const rollupEntryExactBaselineFiles = [
+  'iconfont.css',
+  'iconfont.eot',
+  'iconfont.svg',
+  'iconfont.ttf',
+  'iconfont.woff',
+  'locale/de-DE.js',
+  'thirds/moment-timezone/data/packed/latest.json',
+  'thirds/pdfjs-dist/build/pdf.worker.min.mjs'
+];
+
+function createSdkArtifactContract(sdkDir) {
+  const chunkFiles = getExpectedChunkFiles(sdkDir);
+
+  return {
+    entry: sdkChunkPlan.entry,
+    allChunkFiles: Object.keys(sdkChunkPlan.chunks),
+    chunkFiles,
+    cssFiles: [...sdkCssFiles],
+    ie11CssFiles: [...sdkIe11CssFiles],
+    scopedCssFiles: [...sdkScopedCssFiles],
+    staticFiles: [...sdkStaticFiles],
+    resourceMapRuntimeFiles: [...sdkResourceMapRuntimeFiles],
+    runtimeAssets: getSdkRuntimeAssets(),
+    rollupEntryExactBaselineFiles: [...rollupEntryExactBaselineFiles],
+    expectedFiles: [
+      ...chunkFiles,
+      ...sdkCssFiles,
+      ...sdkIe11CssFiles,
+      ...sdkStaticFiles
+    ]
+  };
+}
+
+function getSdkRuntimeAssets() {
+  return sdkRuntimeAssets.map(asset => ({...asset}));
+}
 
 function getExpectedChunkFiles(sdkDir) {
   const optionalChunks = new Set(sdkChunkPlan.optionalChunks || []);
@@ -15,7 +70,7 @@ function getExpectedChunkFiles(sdkDir) {
 }
 
 function getExpectedSdkFiles(sdkDir) {
-  return [...getExpectedChunkFiles(sdkDir), ...sdkCssFiles, ...sdkStaticFiles];
+  return createSdkArtifactContract(sdkDir).expectedFiles;
 }
 
 function parseResourceMap(sdkJs) {
@@ -93,10 +148,14 @@ function findBalancedObjectEnd(source, start) {
 }
 
 module.exports = {
+  createSdkArtifactContract,
   getExpectedChunkFiles,
   getExpectedSdkFiles,
+  getSdkRuntimeAssets,
+  getSdkRuntimeResourceEntries,
   parseResourceMap,
   sdkChunkPlan,
   sdkCssFiles,
+  sdkIe11CssFiles,
   sdkStaticFiles
 };

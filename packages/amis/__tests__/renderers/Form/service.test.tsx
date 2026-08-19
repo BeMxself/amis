@@ -391,7 +391,7 @@ test('service init api with interval and concatDataFields', async () => {
 
   expect(fetcher).toHaveBeenCalledTimes(3);
   await wait(200, false);
-  const span = container.querySelector('.cxd-TplField>span');
+  const span = container.querySelector('.prismui-TplField>span');
   expect(span).toBeTruthy();
   expect(JSON.parse(span?.innerHTML!)).toMatchObject([
     '1th log',

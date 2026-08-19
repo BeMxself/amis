@@ -3,17 +3,17 @@
 exports[`Renderer:inputDate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:inputDate 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:inputDate 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   date
@@ -51,21 +51,21 @@ exports[`Renderer:inputDate 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
               tabindex="0"
             >
               <input
                 autocomplete="off"
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                 placeholder="请选择日期"
                 type="text"
                 value="2019-06-07"
               />
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-clear"
               >
                 <icon-mock
                   class="icon icon-input-clear"
@@ -73,7 +73,7 @@ exports[`Renderer:inputDate 1`] = `
                 />
               </a>
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
               >
                 <icon-mock
                   class="icon icon-date"
@@ -92,31 +92,31 @@ exports[`Renderer:inputDate 1`] = `
 exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -125,10 +125,10 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -136,16 +136,16 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date1"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -154,24 +154,24 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
                             class="icon icon-input-clear"
@@ -179,7 +179,7 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                           />
                         </a>
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
                             class="icon icon-date"
@@ -191,26 +191,26 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date1"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -219,16 +219,16 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date2"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -237,24 +237,24 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
                             class="icon icon-input-clear"
@@ -262,7 +262,7 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                           />
                         </a>
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
                             class="icon icon-date"
@@ -274,26 +274,26 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date2"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -304,13 +304,13 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -330,31 +330,31 @@ exports[`Renderer:inputDate compatible with format & inputFormat 1`] = `
 exports[`Renderer:inputDate with clearable: clearable false 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -363,10 +363,10 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -374,16 +374,16 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -392,24 +392,24 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="2022-08-19"
                         />
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
                             class="icon icon-date"
@@ -423,13 +423,13 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -449,31 +449,31 @@ exports[`Renderer:inputDate with clearable: clearable false 1`] = `
 exports[`Renderer:inputDate with clearable: clearable true 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -482,10 +482,10 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -493,16 +493,16 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -511,24 +511,24 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value=""
                         />
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
                             class="icon icon-date"
@@ -540,26 +540,26 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           <span
                             class="text-muted"
@@ -574,13 +574,13 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -600,31 +600,31 @@ exports[`Renderer:inputDate with clearable: clearable true 1`] = `
 exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -633,10 +633,10 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
                 novalidate=""
               >
                 <input
@@ -644,16 +644,16 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           日期
@@ -662,24 +662,24 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-date __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-date __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
                         tabindex="0"
                       >
                         <input
                           autocomplete="off"
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                           placeholder="请选择日期"
                           type="text"
                           value="19/08-2022"
                         />
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-clear"
                         >
                           <icon-mock
                             class="icon icon-input-clear"
@@ -687,7 +687,7 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                           />
                         </a>
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
                         >
                           <icon-mock
                             class="icon icon-date"
@@ -699,26 +699,26 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
                   data-amis-name="date"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
                   >
                     <span />
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           今天是2022年, 08月, 19日
                         </span>
@@ -729,13 +729,13 @@ exports[`Renderer:inputDate with valueFormat & displayFormat 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

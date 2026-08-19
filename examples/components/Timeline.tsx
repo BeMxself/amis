@@ -12,7 +12,7 @@ export default {
           {
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -107,7 +107,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -123,7 +123,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -140,7 +140,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -157,7 +157,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -309,7 +309,7 @@ export default {
             align: 'bottom',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -327,7 +327,7 @@ export default {
             icon: 'fa fa-adn',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -425,7 +425,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -441,7 +441,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -458,7 +458,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',
@@ -475,7 +475,7 @@ export default {
             align: 'right',
             cardSchema: {
               type: 'card',
-              href: 'https://github.com/baidu/amis',
+              href: 'https://github.com/Gengxin-Tech/prismui',
               header: {
                 title: '标题',
                 subTitle: '副标题',

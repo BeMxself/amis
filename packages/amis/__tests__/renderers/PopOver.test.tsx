@@ -80,7 +80,7 @@ test('Renderer:PopOver in table', async () => {
   );
 
   const popOverBtn = container.querySelector(
-    '.amis-Field--popOverAble .amis-Field-popOverBtn'
+    '.prismui-Field--popOverAble .prismui-Field-popOverBtn'
   )!;
   expect(popOverBtn).toBeInTheDocument();
 
@@ -147,14 +147,14 @@ test('Renderer:PopOver with trigger & showIcon & title & position & popOverEnabl
   );
 
   const btns = container.querySelectorAll(
-    '.amis-Field--popOverAble .amis-Field-popOverBtn'
+    '.prismui-Field--popOverAble .prismui-Field-popOverBtn'
   )!;
 
   expect(btns.length).toBe(1);
   fireEvent.click(btns[0]!);
 
   const popOverNode = container.querySelector(
-    '.amis-PopOver.amis-PopOverAble-popover'
+    '.prismui-PopOver.prismui-PopOverAble-popover'
   )!;
 
   expect(popOverNode).toBeInTheDocument();
@@ -167,7 +167,7 @@ test('Renderer:PopOver with trigger & showIcon & title & position & popOverEnabl
   await wait(200);
 
   const popOverNode2 = container.querySelector(
-    '.amis-PopOver.amis-PopOverAble-popover'
+    '.prismui-PopOver.prismui-PopOverAble-popover'
   )!;
   expect(popOverNode2).toBeInTheDocument();
 
@@ -192,12 +192,12 @@ test('Renderer:PopOver with offset', async () => {
 
   expect(container).toMatchSnapshot('default');
 
-  fireEvent.click(container.querySelector('.amis-Field-popOverBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Field-popOverBtn')!);
   await wait(200);
 
-  expect(container.querySelector('.amis-PopOver')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-PopOver')).toBeInTheDocument();
   const noOffsetStyle = formatStyleObject(
-    container.querySelector('.amis-PopOver')!.getAttribute('style')
+    container.querySelector('.prismui-PopOver')!.getAttribute('style')
   );
 
   expect(container).toMatchSnapshot('show popover no offset');
@@ -218,7 +218,7 @@ test('Renderer:PopOver with offset', async () => {
   expect(container).toMatchSnapshot('show popover with offset');
 
   const offsetStyle = formatStyleObject(
-    container.querySelector('.amis-PopOver')!.getAttribute('style')
+    container.querySelector('.prismui-PopOver')!.getAttribute('style')
   );
 
   expect(offsetStyle.left - noOffsetStyle.left).toEqual(101);
@@ -243,13 +243,13 @@ test('Renderer:PopOver with mode & size', async () => {
     })
   );
 
-  fireEvent.click(container.querySelector('.amis-Field-popOverBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Field-popOverBtn')!);
   await wait(200);
   expect(
-    baseElement.querySelector('.amis-Modal.amis-Modal--xl')
+    baseElement.querySelector('.prismui-Modal.prismui-Modal--xl')
   ).toBeInTheDocument();
 
-  fireEvent.click(baseElement.querySelector('.amis-Modal-close')!);
+  fireEvent.click(baseElement.querySelector('.prismui-Modal-close')!);
   await wait(300);
 
   rerender(
@@ -269,9 +269,9 @@ test('Renderer:PopOver with mode & size', async () => {
     })
   );
 
-  fireEvent.click(container.querySelector('.amis-Field-popOverBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Field-popOverBtn')!);
   await wait(200);
   expect(
-    baseElement.querySelector('.amis-Drawer.amis-Drawer--sm')
+    baseElement.querySelector('.prismui-Drawer.prismui-Drawer--sm')
   ).toBeInTheDocument();
 });

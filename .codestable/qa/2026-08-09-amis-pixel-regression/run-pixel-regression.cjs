@@ -19,9 +19,12 @@ function parseArgs(argv) {
     manifest: path.join(__dirname, 'page-manifest.json'),
     outDir: '',
     viewport: '1440x900',
-    theme: 'cxd',
+    theme: '',
+    baselineTheme: 'cxd',
+    candidateTheme: 'cxd',
     tab: '',
     path: '',
+    paths: [],
     limit: 0,
     workers: 1,
     maxChunks: 0,
@@ -46,9 +49,11 @@ function parseArgs(argv) {
     else if (key === 'manifest') args.manifest = path.resolve(next), i++;
     else if (key === 'out') args.outDir = path.resolve(next), i++;
     else if (key === 'viewport') args.viewport = next, i++;
-    else if (key === 'theme') args.theme = next, i++;
+    else if (key === 'theme') args.theme = next, args.baselineTheme = next, args.candidateTheme = next, i++;
+    else if (key === 'baseline-theme') args.baselineTheme = next, i++;
+    else if (key === 'candidate-theme') args.candidateTheme = next, i++;
     else if (key === 'tab') args.tab = next, i++;
-    else if (key === 'path') args.path = next, i++;
+    else if (key === 'path') args.path = next, args.paths.push(next), i++;
     else if (key === 'limit') args.limit = Number(next), i++;
     else if (key === 'workers') args.workers = Number(next), i++;
     else if (key === 'max-chunks') args.maxChunks = Number(next), i++;
@@ -87,7 +92,7 @@ Options:
   --limit N          Run only the first N filtered pages.
   --workers N        Run N pages in parallel. Each page still scrolls sequentially.
   --tab NAME         Filter by docs/components/style/examples.
-  --path PATH        Run one route path from page-manifest.json.
+  --path PATH        Run one route path from page-manifest.json. Can be repeated.
   --max-chunks N     Cap scroll chunks per page, useful for smoke runs.
   --no-retry         Do not recapture chunks that exceed warn threshold.
   --out DIR          Output directory, default .gstack/visual-regression/<timestamp>.
@@ -145,6 +150,18 @@ async function twoRaf(page) {
   );
 }
 
+async function waitForFonts(page, timeoutMs = 4000) {
+  await Promise.race([
+    page
+      .evaluate(() => {
+        if (!document.fonts || !document.fonts.ready) return true;
+        return document.fonts.ready.then(() => true);
+      })
+      .catch(() => true),
+    delay(timeoutMs)
+  ]);
+}
+
 async function waitForVisibleImages(page, timeoutMs) {
   const started = Date.now();
   while (Date.now() - started < timeoutMs) {
@@ -171,10 +188,8 @@ async function waitForNoSpinner(page, timeout = 15000) {
     await page.waitForFunction(
       () => {
         const selectors = [
-          '.visibility-sensor > .amis-Spinner',
-          '.visibility-sensor > .cxd-Spinner',
-          '.amis-LazyComponent > .amis-Spinner',
-          '.cxd-LazyComponent > .cxd-Spinner'
+          '.visibility-sensor > .prismui-Spinner',
+          '.prismui-LazyComponent > .prismui-Spinner'
         ];
         return selectors.every(selector =>
           Array.from(document.querySelectorAll(selector)).every(node => {
@@ -211,7 +226,29 @@ async function waitForStableLayout(page, rounds = 3, interval = 250) {
   while (Date.now() - started < 8000) {
     const current = await page.evaluate(() => {
       const el = document.scrollingElement || document.documentElement;
-      return [el.scrollHeight, el.clientWidth, el.clientHeight, window.innerWidth, window.innerHeight].join('x');
+      const content =
+        document.querySelector('.Doc-content') ||
+        document.querySelector('.markdown-body') ||
+        document.querySelector('.markdown') ||
+        document.querySelector('[role="main"]') ||
+        document.querySelector('main') ||
+        document.querySelector('#root') ||
+        document.body;
+      const rect = content ? content.getBoundingClientRect() : null;
+      const text = content
+        ? content.innerText || content.textContent || ''
+        : document.body.innerText || '';
+      const textLength = text.replace(/\s+/g, ' ').trim().length;
+      const contentHeight = rect ? Math.round(rect.height) : 0;
+      return [
+        el.scrollHeight,
+        el.clientWidth,
+        el.clientHeight,
+        window.innerWidth,
+        window.innerHeight,
+        textLength,
+        contentHeight
+      ].join('x');
     });
     stable = current === previous ? stable + 1 : 1;
     previous = current;
@@ -220,23 +257,166 @@ async function waitForStableLayout(page, rounds = 3, interval = 250) {
   }
 }
 
+async function waitForStableMainContent(page, timeout = 30000) {
+  let stable = 0;
+  let previous = '';
+  let lastState = null;
+  const started = Date.now();
+  while (Date.now() - started < timeout) {
+    const state = await page.evaluate(() => {
+      const el = document.scrollingElement || document.documentElement;
+      const content =
+        document.querySelector('.Doc-content') ||
+        document.querySelector('.markdown-body') ||
+        document.querySelector('.markdown') ||
+        document.querySelector('[role="main"]') ||
+        document.querySelector('main') ||
+        document.querySelector('#root') ||
+        document.body;
+      const text = content
+        ? content.innerText || content.textContent || ''
+        : document.body.innerText || '';
+      const normalizedText = text.replace(/\s+/g, ' ').trim();
+      const rect = content ? content.getBoundingClientRect() : null;
+      return {
+        url: window.location.href,
+        title: document.title,
+        selector:
+          content && content.id
+            ? `#${content.id}`
+            : content && content.className
+              ? `.${String(content.className).split(/\s+/).filter(Boolean).join('.')}`
+              : content
+                ? content.tagName.toLowerCase()
+                : 'none',
+        signature: [
+          el.scrollHeight,
+          el.clientWidth,
+          el.clientHeight,
+          normalizedText.length,
+          rect ? Math.round(rect.height) : 0,
+          document.title
+        ].join('x'),
+        textLength: normalizedText.length,
+        scrollHeight: el.scrollHeight,
+        viewportHeight: window.innerHeight
+      };
+    });
+
+    lastState = state;
+    stable = state.signature === previous ? stable + 1 : 1;
+    previous = state.signature;
+    if (
+      stable >= 4 &&
+      state.textLength > 20 &&
+      state.scrollHeight >= state.viewportHeight
+    ) {
+      return;
+    }
+    await delay(500);
+  }
+
+  throw new Error(
+    `Main content did not become populated before capture: ${JSON.stringify(
+      lastState
+    )}`
+  );
+}
+
 async function stabilize(page, mode) {
-  await page.evaluate(() => document.fonts && document.fonts.ready).catch(() => undefined);
+  await waitForFonts(page);
   await waitForNoSpinner(page);
   await waitForVisibleImages(page, 4000);
-  await waitForStableLayout(page, mode === 'scroll' ? 2 : 3, 250);
+  if (mode !== 'scroll') {
+    await waitForStableMainContent(page);
+  }
+  await waitForStableLayout(
+    page,
+    mode === 'scroll' ? 2 : 5,
+    mode === 'scroll' ? 250 : 500
+  );
   await twoRaf(page).catch(() => undefined);
   await delay(mode === 'scroll' ? 700 : 500);
   const loadingSettled = await waitForNoSpinner(page);
   if (!loadingSettled) {
     throw new Error('Visible loading placeholder did not settle before capture.');
   }
-  await waitForStableLayout(page, 2, 250);
+  await waitForStableLayout(page, mode === 'scroll' ? 2 : 3, 250);
   await twoRaf(page).catch(() => undefined);
 }
 
-async function installDeterminism(context, theme) {
-  await context.addInitScript(({theme}) => {
+function sampleScrollPositions(positions, maxPositions) {
+  if (!maxPositions || positions.length <= maxPositions) return positions;
+  if (maxPositions <= 1) return [positions[0]];
+
+  const indexes = new Set();
+  for (let index = 0; index < maxPositions; index++) {
+    indexes.add(Math.round((index * (positions.length - 1)) / (maxPositions - 1)));
+  }
+
+  return Array.from(indexes)
+    .sort((a, b) => a - b)
+    .map(index => positions[index]);
+}
+
+async function warmLazyComponents(page, maxPositions = 36) {
+  const hasLazyComponents = await page.evaluate(
+    () => !!document.querySelector('.visibility-sensor')
+  ).catch(() => false);
+  if (!hasLazyComponents) return;
+
+  for (let pass = 0; pass < 2; pass++) {
+    const state = await page.evaluate(() => {
+      const el = document.scrollingElement || document.documentElement;
+      const lazyYs = Array.from(document.querySelectorAll('.visibility-sensor'))
+        .filter(node =>
+          /(?:加载中，请稍后|Loading\.\.\.)/.test(node.textContent || '')
+        )
+        .map(node => {
+          const rect = node.getBoundingClientRect();
+          return Math.max(0, Math.round(window.scrollY + rect.top - window.innerHeight * 0.4));
+        });
+      return {
+        scrollHeight: el.scrollHeight,
+        viewportHeight: window.innerHeight,
+        lazyYs
+      };
+    }).catch(() => null);
+    if (!state) return;
+
+    const sampledYs = sampleScrollPositions(
+      yPositions(state.scrollHeight, state.viewportHeight, 240, 0),
+      maxPositions
+    );
+    const ys = Array.from(new Set(sampledYs.concat(state.lazyYs || []))).sort(
+      (a, b) => a - b
+    );
+
+    for (const y of ys) {
+      await page.evaluate(y => window.scrollTo(0, y), y).catch(() => undefined);
+      await twoRaf(page).catch(() => undefined);
+      await delay(80);
+    }
+
+    await waitForFonts(page).catch(() => undefined);
+    await waitForVisibleImages(page, 1000).catch(() => undefined);
+    await waitForStableLayout(page, 2, 250).catch(() => undefined);
+
+    const pending = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('.visibility-sensor')).filter(
+        node => /(?:加载中，请稍后|Loading\.\.\.)/.test(node.textContent || '')
+      ).length;
+    }).catch(() => 0);
+    if (!pending) break;
+  }
+
+  await page.evaluate(() => window.scrollTo(0, 0)).catch(() => undefined);
+  await waitForStableLayout(page, 2, 250).catch(() => undefined);
+  await twoRaf(page).catch(() => undefined);
+}
+
+async function installDeterminism(context, args) {
+  await context.addInitScript(({baselineOrigin, candidateOrigin, baselineTheme, candidateTheme}) => {
     const fixedNow = Date.parse('2026-08-09T00:00:00.000Z');
     const RealDate = Date;
     class FixedDate extends RealDate {
@@ -256,13 +436,175 @@ async function installDeterminism(context, theme) {
       randomSeed = (randomSeed * 1664525 + 1013904223) >>> 0;
       return randomSeed / 0x100000000;
     };
+    const RealIntersectionObserver = window.IntersectionObserver;
+    if (RealIntersectionObserver) {
+      window.IntersectionObserver = class DeterministicIntersectionObserver {
+        constructor(callback, options) {
+          this.callback = callback;
+          this.options = options;
+          this.elements = new Set();
+        }
+
+        observe(element) {
+          this.elements.add(element);
+          const rect = element.getBoundingClientRect();
+          const entry = {
+            target: element,
+            isIntersecting: true,
+            intersectionRatio: 1,
+            time: Date.now(),
+            boundingClientRect: rect,
+            intersectionRect: rect,
+            rootBounds: null
+          };
+          setTimeout(() => this.callback([entry], this), 0);
+        }
+
+        unobserve(element) {
+          this.elements.delete(element);
+        }
+
+        disconnect() {
+          this.elements.clear();
+        }
+
+        takeRecords() {
+          return [];
+        }
+      };
+    }
+    const theme =
+      window.location.origin === baselineOrigin
+        ? baselineTheme
+        : window.location.origin === candidateOrigin
+          ? candidateTheme
+          : candidateTheme;
     try {
       localStorage.clear();
       localStorage.setItem('amis-theme', theme);
       localStorage.setItem('amis-viewMode', 'pc');
       localStorage.setItem('amis-locale', 'zh-CN');
     } catch (e) {}
-  }, {theme});
+  }, {
+    baselineOrigin: new URL(args.baseline).origin,
+    candidateOrigin: new URL(args.candidate).origin,
+    baselineTheme: args.baselineTheme,
+    candidateTheme: args.candidateTheme
+  });
+}
+
+function stableHash(input) {
+  return crypto.createHash('sha256').update(String(input)).digest().readUInt32BE(0);
+}
+
+function stableInt(input, min = 1, max = 100) {
+  return min + (stableHash(input) % (max - min + 1));
+}
+
+function visualMockSeedUrl(requestUrl) {
+  try {
+    const url = new URL(requestUrl);
+    return `${url.pathname}${url.search}`;
+  } catch (error) {
+    return String(requestUrl || '');
+  }
+}
+
+function normalizeVisualMockPayload(value, requestUrl, trail = []) {
+  if (Array.isArray(value)) {
+    return value.map((item, index) =>
+      normalizeVisualMockPayload(item, requestUrl, trail.concat(index))
+    );
+  }
+
+  if (!value || typeof value !== 'object') {
+    return normalizeVisualMockScalar(value, requestUrl, trail);
+  }
+
+  return Object.fromEntries(
+    Object.entries(value).map(([key, item]) => [
+      key,
+      normalizeVisualMockPayload(item, requestUrl, trail.concat(key))
+    ])
+  );
+}
+
+function normalizeVisualMockScalar(value, requestUrl, trail) {
+  const key = String(trail[trail.length - 1] || '');
+  const marker = `${visualMockSeedUrl(requestUrl)}#${trail.join('.')}`;
+
+  if (typeof value === 'string') {
+    if (key === 'engine') {
+      return value.replace(/\s+-\s+[a-z0-9]{3,}$/i, '');
+    }
+
+    return value.replace(/\/random\/\d+/g, '/random/1');
+  }
+
+  if (typeof value === 'number') {
+    if (/^(?:date|createdAt|time|timestamp)$/i.test(key)) {
+      return value > 100000000000 ? 1786233600000 : 1786233600;
+    }
+
+    if (/\/(?:chart|dashboard)\//.test(requestUrl)) {
+      return stableInt(marker, 1, Math.max(100, Math.ceil(Math.abs(value)) || 100));
+    }
+
+    if (key === 'progress') return stableInt(marker, 10, 90);
+    if (key === 'type') return stableInt(marker, 1, 5);
+    if (key === 'random') return 6;
+  }
+
+  if (typeof value === 'boolean' && /(?:form\/async|options\/nav|table[26])/.test(requestUrl)) {
+    return stableHash(marker) % 2 === 0;
+  }
+
+  return value;
+}
+
+function shouldNormalizeVisualMock(url) {
+  return /\/api\/(?:mock2\/)?(?:sample(?:[/?]|$)|service\/data(?:[/?]|$)|crud\/(?:list|table2|table3|table6)(?:[/?]|$)|chart\/|dashboard\/|number\/random(?:[/?]|$)|task(?:[/?]|$)|form\/(?:initData|async)(?:[/?]|$)|detail\/basic(?:[/?]|$)|upload\/random(?:[/?]|$)|options\/(?:nav|autoComplete3)(?:[/?]|$))/.test(
+    url
+  );
+}
+
+async function installDeterministicMockResponses(context) {
+  await context.route(/\/api\//, async route => {
+    const requestUrl = route.request().url();
+    if (!shouldNormalizeVisualMock(requestUrl)) {
+      await route.continue();
+      return;
+    }
+
+    let response;
+    try {
+      response = await route.fetch();
+    } catch (error) {
+      await route.continue();
+      return;
+    }
+
+    const headers = {...response.headers()};
+    const contentType = headers['content-type'] || headers['Content-Type'] || '';
+    if (!/json/i.test(contentType)) {
+      await route.fulfill({response});
+      return;
+    }
+
+    try {
+      const body = await response.text();
+      const normalized = normalizeVisualMockPayload(JSON.parse(body), requestUrl);
+      delete headers['content-length'];
+      delete headers['Content-Length'];
+      await route.fulfill({
+        response,
+        headers,
+        body: JSON.stringify(normalized)
+      });
+    } catch (error) {
+      await route.fulfill({response});
+    }
+  });
 }
 
 async function disableAnimations(page) {
@@ -289,19 +631,17 @@ async function installVisualMasks(page) {
   await page
     .addStyleTag({
       content: `
-        .amis-Log-body,
-        .cxd-Log-body {
+        .prismui-Log-body {
           color: transparent !important;
         }
 
-        .amis-Log-body *,
-        .cxd-Log-body * {
+        .prismui-Log-body * {
           color: transparent !important;
           text-shadow: none !important;
         }
 
         .markdown img[src*=".gif"],
-        .amis-doc img[src*=".gif"] {
+        .prismui-doc img[src*=".gif"] {
           visibility: hidden !important;
         }
 
@@ -500,10 +840,8 @@ async function visibleRuntimeErrors(page) {
   return page.evaluate(() => {
     const errorPattern = /\b(?:TypeError|ReferenceError|SyntaxError|RangeError|EvalError|URIError):/;
     const candidateSelectors = [
-      '.amis-Alert--danger',
-      '.cxd-Alert--danger',
-      '.amis-Alert--error',
-      '.cxd-Alert--error',
+      '.prismui-Alert--danger',
+      '.prismui-Alert--error',
       '.renderer-error-boundary',
       '[role="alert"]'
     ];
@@ -608,7 +946,7 @@ async function metrics(page) {
       viewportWidth: window.innerWidth,
       title: document.title,
       notFound:
-        !!document.querySelector('.amis-404, .cxd-404') ||
+        !!document.querySelector('.prismui-404') ||
         /not\s*found|404/i.test(document.body.innerText.slice(0, 500))
     };
   });
@@ -669,6 +1007,98 @@ async function screenshotAt(page, y, minimumScrollHeight, outPath) {
   }
   await page.screenshot({path: outPath, animations: 'disabled'});
   return actualY;
+}
+
+async function pageCaptureState(page) {
+  return page.evaluate(() => {
+    const el = document.scrollingElement || document.documentElement;
+    const content =
+      document.querySelector('.Doc-content') ||
+      document.querySelector('.markdown-body') ||
+      document.querySelector('.markdown') ||
+      document.querySelector('[role="main"]') ||
+      document.querySelector('main') ||
+      document.querySelector('#root') ||
+      document.body;
+    const rect = content ? content.getBoundingClientRect() : null;
+    const text = content
+      ? content.innerText || content.textContent || ''
+      : document.body.innerText || '';
+    return {
+      url: window.location.href,
+      title: document.title,
+      readyState: document.readyState,
+      bodyClass: document.body.className,
+      bodyTheme: document.body.getAttribute('data-prismui-theme'),
+      textLength: text.replace(/\s+/g, ' ').trim().length,
+      scrollY: window.scrollY,
+      scrollHeight: el.scrollHeight,
+      viewportHeight: window.innerHeight,
+      contentRect: rect
+        ? {
+            x: Math.round(rect.x),
+            y: Math.round(rect.y),
+            width: Math.round(rect.width),
+            height: Math.round(rect.height)
+          }
+        : null,
+      rootHtmlSample: (document.querySelector('#root')?.innerHTML || '').slice(0, 500)
+    };
+  }).catch(error => ({error: String(error)}));
+}
+
+function screenshotStats(PNG, imagePath) {
+  const image = PNG.sync.read(fs.readFileSync(imagePath));
+  const colors = new Map();
+  const totalPixels = image.width * image.height;
+
+  for (let index = 0; index < image.data.length; index += 4) {
+    const color = `${image.data[index]},${image.data[index + 1]},${
+      image.data[index + 2]
+    },${image.data[index + 3]}`;
+    colors.set(color, (colors.get(color) || 0) + 1);
+  }
+
+  const [dominantColor = '', dominantPixels = 0] = Array.from(colors.entries()).sort(
+    (left, right) => right[1] - left[1]
+  )[0] || ['', 0];
+
+  return {
+    width: image.width,
+    height: image.height,
+    colorCount: colors.size,
+    dominantColor,
+    dominantRatio: totalPixels ? dominantPixels / totalPixels : 1
+  };
+}
+
+function isScreenshotEffectivelyBlank(stats) {
+  return stats.colorCount <= 4 && stats.dominantRatio >= 0.995;
+}
+
+async function screenshotAtVerified(PNG, page, y, minimumScrollHeight, outPath, label) {
+  let actualY = 0;
+  let lastStats = null;
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    actualY = await screenshotAt(page, y, minimumScrollHeight, outPath);
+    lastStats = screenshotStats(PNG, outPath);
+    if (!isScreenshotEffectivelyBlank(lastStats)) {
+      return actualY;
+    }
+
+    await waitForStableMainContent(page, 10000).catch(() => undefined);
+    await stabilize(page, 'load').catch(() => undefined);
+    await delay(500);
+  }
+
+  const state = await pageCaptureState(page);
+  throw new Error(
+    `Blank screenshot captured after retries for ${label}: ${JSON.stringify({
+      stats: lastStats,
+      state
+    })}`
+  );
 }
 
 async function comparePng(pixelmatch, PNG, baselinePath, candidatePath, diffPath, threshold) {
@@ -743,7 +1173,8 @@ async function runPageAttempt(deps, browser, args, pageMeta) {
     reducedMotion: 'reduce',
     locale: 'zh-CN'
   });
-  await installDeterminism(context, args.theme);
+  await installDeterminism(context, args);
+  await installDeterministicMockResponses(context);
 
   let baseline;
   let candidate;
@@ -764,6 +1195,12 @@ async function runPageAttempt(deps, browser, args, pageMeta) {
       consoleEvents,
       args.timeout
     );
+
+    const lazyWarmPositions = args.maxChunks
+      ? Math.max(6, Math.min(24, args.maxChunks * 6))
+      : 36;
+    await warmLazyComponents(baseline.page, lazyWarmPositions);
+    await warmLazyComponents(candidate.page, lazyWarmPositions);
 
     const baseMetrics = await metrics(baseline.page);
     const candMetrics = await metrics(candidate.page);
@@ -812,17 +1249,21 @@ async function runPageAttempt(deps, browser, args, pageMeta) {
       const baselinePath = path.join(baselineDir, fileName);
       const candidatePath = path.join(candidateDir, fileName);
       const diffPath = path.join(diffDir, fileName);
-      const actualBaselineY = await screenshotAt(
+      const actualBaselineY = await screenshotAtVerified(
+        deps.PNG,
         baseline.page,
         y,
         baseMetrics.scrollHeight,
-        baselinePath
+        baselinePath,
+        `${pageMeta.path} baseline chunk ${index + 1}`
       );
-      const actualCandidateY = await screenshotAt(
+      const actualCandidateY = await screenshotAtVerified(
+        deps.PNG,
         candidate.page,
         y,
         candMetrics.scrollHeight,
-        candidatePath
+        candidatePath,
+        `${pageMeta.path} candidate chunk ${index + 1}`
       );
       let diff = await comparePng(
         deps.pixelmatch,
@@ -838,17 +1279,21 @@ async function runPageAttempt(deps, browser, args, pageMeta) {
         const retryBaselinePath = path.join(baselineDir, fileName.replace('.png', '.retry.png'));
         const retryCandidatePath = path.join(candidateDir, fileName.replace('.png', '.retry.png'));
         const retryDiffPath = path.join(diffDir, fileName.replace('.png', '.retry.png'));
-        await screenshotAt(
+        await screenshotAtVerified(
+          deps.PNG,
           baseline.page,
           y,
           baseMetrics.scrollHeight,
-          retryBaselinePath
+          retryBaselinePath,
+          `${pageMeta.path} baseline retry chunk ${index + 1}`
         );
-        await screenshotAt(
+        await screenshotAtVerified(
+          deps.PNG,
           candidate.page,
           y,
           candMetrics.scrollHeight,
-          retryCandidatePath
+          retryCandidatePath,
+          `${pageMeta.path} candidate retry chunk ${index + 1}`
         );
         const retryDiff = await comparePng(
           deps.pixelmatch,
@@ -939,7 +1384,9 @@ function writeReport(args, manifest, results) {
     baseline: args.baseline,
     candidate: args.candidate,
     viewport: args.viewport,
-    theme: args.theme,
+    theme: args.theme || `${args.baselineTheme} -> ${args.candidateTheme}`,
+    baselineTheme: args.baselineTheme,
+    candidateTheme: args.candidateTheme,
     totalPagesInManifest: manifest.total,
     pagesRun: results.length,
     counts: results.reduce(
@@ -976,7 +1423,7 @@ function writeReport(args, manifest, results) {
     `Baseline：${args.baseline}`,
     `Candidate：${args.candidate}`,
     `Viewport：${args.viewport}`,
-    `Theme：${args.theme}`,
+    `Theme：${args.theme || `${args.baselineTheme} -> ${args.candidateTheme}`}`,
     '',
     '## Summary',
     '',
@@ -1028,9 +1475,13 @@ async function main() {
     path: normalizeRoutePath(page.path)
   }));
   if (args.tab) pages = pages.filter(page => page.tab === args.tab);
-  if (args.path) {
-    const requestedPath = normalizeRoutePath(args.path);
-    pages = pages.filter(page => page.path === requestedPath);
+  const requestedPaths = args.paths.length
+    ? new Set(args.paths.map(normalizeRoutePath))
+    : args.path
+      ? new Set([normalizeRoutePath(args.path)])
+      : null;
+  if (requestedPaths) {
+    pages = pages.filter(page => requestedPaths.has(page.path));
   }
   if (args.limit) pages = pages.slice(0, args.limit);
   if (!pages.length) throw new Error('No pages matched the filters.');

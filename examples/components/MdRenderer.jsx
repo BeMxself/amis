@@ -5,9 +5,51 @@ import {getTheme, render} from 'amis';
 import {LazyComponent} from 'amis-core';
 import {Overlay} from 'amis-core';
 import {PopOver} from 'amis-core';
+import {__uri, loadScript} from 'amis-core';
 import classnames from 'classnames';
 import {Link} from 'react-router-dom';
 import Play from './Play';
+
+let mermaidLoader = null;
+
+const mermaidScriptUrls = [
+  __uri('../../node_modules/mermaid/dist/mermaid.min.js'),
+  __uri('/docs/vendor/mermaid/mermaid.min.js')
+];
+
+function loadMermaidScript(urls) {
+  const [url, ...rest] = urls;
+
+  if (!url) {
+    return Promise.reject(new Error('Mermaid failed to load.'));
+  }
+
+  return loadScript(url).catch(error => {
+    if (!rest.length) {
+      throw error;
+    }
+
+    return loadMermaidScript(rest);
+  });
+}
+
+function loadMermaid() {
+  if (window.mermaid) {
+    return Promise.resolve(window.mermaid);
+  }
+
+  if (!mermaidLoader) {
+    mermaidLoader = loadMermaidScript(mermaidScriptUrls).then(() => {
+      if (!window.mermaid) {
+        throw new Error('Mermaid failed to load.');
+      }
+
+      return window.mermaid;
+    });
+  }
+
+  return mermaidLoader;
+}
 
 class CodePreview extends React.Component {
   state = {
@@ -34,7 +76,7 @@ function eachDom(dom, iterator) {
 }
 
 function getComponentClassPrefix(theme) {
-  return getTheme(theme)?.componentClassPrefix || 'amis-';
+  return getTheme(theme)?.componentClassPrefix || 'prismui-';
 }
 
 class Preview extends React.Component {
@@ -42,6 +84,8 @@ class Preview extends React.Component {
   rootRef = React.createRef();
   ref = null;
   roots = [];
+  mermaidRenderId = 0;
+  mermaidRenderRequest = 0;
   constructor(props) {
     super(props);
     this.divRef = this.divRef.bind(this);
@@ -50,6 +94,7 @@ class Preview extends React.Component {
   componentDidMount() {
     this.renderSchema();
     this.fixHtmlPreview();
+    this.renderMermaid();
 
     if (location.hash && location.hash.length > 1) {
       // 禁用自动跳转
@@ -67,9 +112,12 @@ class Preview extends React.Component {
   componentDidUpdate() {
     this.renderSchema();
     this.fixHtmlPreview();
+    this.renderMermaid();
   }
 
   componentWillUnmount() {
+    this.mermaidRenderRequest += 1;
+
     // 立即 unmout 会报错
     window.requestAnimationFrame(() => {
       this.roots.forEach(root => root.unmount());
@@ -129,8 +177,90 @@ class Preview extends React.Component {
     }
   }
 
+  normalizeMermaidBlocks() {
+    if (!this.ref) {
+      return [];
+    }
+
+    const blocks = this.ref.querySelectorAll(
+      'pre > code.language-mermaid, pre > code.lang-mermaid'
+    );
+    [].slice.call(blocks).forEach(code => {
+      const pre = code.parentNode;
+      const source = code.textContent || '';
+      const container = document.createElement('div');
+
+      container.className = 'prismui-doc-mermaid';
+      container.setAttribute('data-mermaid-source', source);
+      container.textContent = source;
+
+      pre.parentNode.replaceChild(container, pre);
+    });
+
+    return [].slice.call(this.ref.querySelectorAll('.prismui-doc-mermaid'));
+  }
+
+  getMermaidTheme() {
+    return this.props.theme === 'dark' ||
+      document.body.getAttribute('data-prismui-theme') === 'dark'
+      ? 'dark'
+      : 'default';
+  }
+
+  async renderMermaid() {
+    const diagrams = this.normalizeMermaidBlocks();
+
+    if (!diagrams.length) {
+      return;
+    }
+
+    const requestId = ++this.mermaidRenderRequest;
+
+    try {
+      const mermaid = await loadMermaid();
+
+      if (requestId !== this.mermaidRenderRequest || !this.ref) {
+        return;
+      }
+
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'strict',
+        theme: this.getMermaidTheme()
+      });
+
+      for (const diagram of diagrams) {
+        const source = diagram.getAttribute('data-mermaid-source') || '';
+        const id = `prismui-doc-mermaid-${++this.mermaidRenderId}`;
+
+        diagram.classList.remove('is-error');
+        diagram.classList.add('is-rendering');
+        diagram.textContent = source;
+
+        try {
+          const {svg, bindFunctions} = await mermaid.render(id, source);
+
+          if (requestId !== this.mermaidRenderRequest || !diagram.isConnected) {
+            return;
+          }
+
+          diagram.innerHTML = svg;
+          bindFunctions && bindFunctions(diagram);
+          diagram.classList.remove('is-rendering');
+        } catch (error) {
+          diagram.classList.remove('is-rendering');
+          diagram.classList.add('is-error');
+          diagram.textContent = source;
+          console.error('Failed to render mermaid diagram.', error);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load mermaid.', error);
+    }
+  }
+
   fixHtmlPreview() {
-    const htmlPreviews = document.querySelectorAll('.amis-doc>.preview');
+    const htmlPreviews = document.querySelectorAll('.prismui-doc>.preview');
     if (!htmlPreviews && !htmlPreviews.length) {
       return;
     }
@@ -259,7 +389,7 @@ export default function (doc) {
 
     getDocEditLink() {
       const {ContextPath} = this.props;
-      const basePath = 'https://github.com/baidu/amis/edit/master';
+      const basePath = 'https://github.com/Gengxin-Tech/prismui/edit/master';
 
       try {
         const [urlPath, locale, moduleName, relativePath] = location.pathname

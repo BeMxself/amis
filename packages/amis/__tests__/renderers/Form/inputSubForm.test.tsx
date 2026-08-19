@@ -57,11 +57,11 @@ test('Renderer:InputSubForm base', async () => {
   fireEvent.click(getByText('设置子表单'));
 
   expect(
-    baseElement.querySelector('.amis-Modal .amis-Form')
+    baseElement.querySelector('.prismui-Modal .prismui-Form')
   ).toBeInTheDocument();
 
   const inputs = baseElement.querySelectorAll(
-    '.amis-Modal .amis-Form .amis-TextControl-input input'
+    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
   );
   expect(inputs!.length).toBe(2);
   expect(baseElement).toMatchSnapshot();
@@ -123,7 +123,7 @@ test('Renderer:InputSubForm with multiple & maxLength & btnLabel', async () => {
     fireEvent.click(getByText('新增一项'));
 
     const inputs = baseElement.querySelectorAll(
-      '.amis-Modal .amis-Form .amis-TextControl-input input'
+      '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
     );
     fireEvent.change(inputs[0], {
       target: {value: val1}
@@ -162,11 +162,11 @@ test('Renderer:InputSubForm with multiple & maxLength & btnLabel', async () => {
   ]);
 
   expect(
-    container.querySelector('.amis-SubForm-toolbar .amis-SubForm-addBtn')!
+    container.querySelector('.prismui-SubForm-toolbar .prismui-SubForm-addBtn')!
   ).toHaveAttribute('disabled');
 
   const values = container.querySelectorAll(
-    '.amis-SubForm-values .amis-SubForm-value'
+    '.prismui-SubForm-values .prismui-SubForm-value'
   );
 
   expect(values!.length).toBe(2);
@@ -226,37 +226,37 @@ test('Renderer:InputSubForm with draggable & addable & removable', async () => {
   );
 
   let values = container.querySelectorAll(
-    '.amis-SubForm-values .amis-SubForm-value'
+    '.prismui-SubForm-values .prismui-SubForm-value'
   );
 
   expect(values!.length).toBe(4);
   expect(values[1]).toHaveTextContent('设置val-b');
 
   expect(
-    values[0].querySelector('.amis-SubForm-valueDragBar')
+    values[0].querySelector('.prismui-SubForm-valueDragBar')
   ).toBeInTheDocument();
 
-  fireEvent.click(values[0].querySelector('.amis-SubForm-valueDel')!);
+  fireEvent.click(values[0].querySelector('.prismui-SubForm-valueDel')!);
 
   await wait(200);
 
   values = container.querySelectorAll(
-    '.amis-SubForm-values .amis-SubForm-value'
+    '.prismui-SubForm-values .prismui-SubForm-value'
   );
 
   expect(values!.length).toBe(3);
   expect(values[1]).toHaveTextContent('设置val-c');
 
-  fireEvent.click(values[0].querySelector('.amis-SubForm-valueEdit')!);
+  fireEvent.click(values[0].querySelector('.prismui-SubForm-valueEdit')!);
 
   await wait(200);
 
   expect(
-    baseElement.querySelector('.amis-Modal .amis-Form')
+    baseElement.querySelector('.prismui-Modal .prismui-Form')
   ).toBeInTheDocument();
 
   const firstInput = baseElement.querySelector(
-    '.amis-Modal .amis-Form .amis-TextControl-input input'
+    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
   )!;
 
   expect((firstInput as HTMLInputElement)!.value).toBe('val-b');
@@ -326,21 +326,21 @@ test('Renderer:InputSubForm with addButtonClassName & itemsClassName & itemClass
   await wait(500);
 
   expect(container).toMatchSnapshot();
-  expect(container.querySelector('.amis-SubForm-values')).toHaveClass(
+  expect(container.querySelector('.prismui-SubForm-values')).toHaveClass(
     'items-wrapper'
   );
   expect(
-    container.querySelector('.amis-SubForm-values .amis-SubForm-value')
+    container.querySelector('.prismui-SubForm-values .prismui-SubForm-value')
   ).toHaveClass('item-classname');
 
   // labelField 这里不知为何不生效
   // expect(
-  //   container.querySelector('.amis-SubForm-values .amis-SubForm-value')
+  //   container.querySelector('.prismui-SubForm-values .prismui-SubForm-value')
   // ).toHaveTextContent('val-a');
-  expect(container.querySelector('.amis-SubForm-addBtn')).toHaveClass(
+  expect(container.querySelector('.prismui-SubForm-addBtn')).toHaveClass(
     'thisis-add-btn'
   );
-  expect(container.querySelector('.amis-SubForm-addBtn')).toHaveTextContent(
+  expect(container.querySelector('.prismui-SubForm-addBtn')).toHaveTextContent(
     '自定义的新增'
   );
 });
@@ -384,11 +384,11 @@ test('Renderer:InputSubForm-can-access-superdata-1', async () => {
   fireEvent.click(getByText('设置子表单'));
 
   expect(
-    baseElement.querySelector('.amis-Modal .amis-Form')
+    baseElement.querySelector('.prismui-Modal .prismui-Form')
   ).toBeInTheDocument();
 
   const inputs = baseElement.querySelectorAll(
-    '.amis-Modal .amis-Form .amis-TextControl-input input'
+    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
   );
   expect(inputs!.length).toBe(2);
   expect((inputs[0] as HTMLInputElement).value).toBe('');
@@ -435,11 +435,11 @@ test('Renderer:InputSubForm-can-access-superdata-2', async () => {
   fireEvent.click(getByText('设置子表单'));
 
   expect(
-    baseElement.querySelector('.amis-Modal .amis-Form')
+    baseElement.querySelector('.prismui-Modal .prismui-Form')
   ).toBeInTheDocument();
 
   const inputs = baseElement.querySelectorAll(
-    '.amis-Modal .amis-Form .amis-TextControl-input input'
+    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
   );
   expect(inputs!.length).toBe(2);
   expect((inputs[0] as HTMLInputElement).value).toBe('123');

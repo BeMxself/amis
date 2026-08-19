@@ -3,17 +3,17 @@
 exports[`Renderer:button-group with btnActiveLevel 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="type"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   选项
@@ -51,10 +51,10 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--warning __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--warning __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
               type="button"
             >
               <span>
@@ -62,7 +62,7 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -70,7 +70,7 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--light __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--light __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -88,17 +88,17 @@ exports[`Renderer:button-group with btnActiveLevel 1`] = `
 exports[`Renderer:button-group with tiled 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -107,10 +107,10 @@ exports[`Renderer:button-group with tiled 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -118,16 +118,16 @@ exports[`Renderer:button-group with tiled 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -136,10 +136,10 @@ exports[`Renderer:button-group with tiled 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup--tiled __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup--tiled __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -147,7 +147,7 @@ exports[`Renderer:button-group with tiled 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -165,17 +165,17 @@ exports[`Renderer:button-group with tiled 1`] = `
 exports[`Renderer:button-group with vertical 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -184,10 +184,10 @@ exports[`Renderer:button-group with vertical 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -195,16 +195,16 @@ exports[`Renderer:button-group with vertical 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -213,10 +213,10 @@ exports[`Renderer:button-group with vertical 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup--vertical __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup--vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -224,7 +224,7 @@ exports[`Renderer:button-group with vertical 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -242,17 +242,17 @@ exports[`Renderer:button-group with vertical 1`] = `
 exports[`Renderer:button-group:multiple clearable 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -261,10 +261,10 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -272,16 +272,16 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -290,10 +290,10 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
               type="button"
             >
               <span>
@@ -301,7 +301,7 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -311,16 +311,16 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -329,13 +329,13 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
@@ -351,17 +351,17 @@ exports[`Renderer:button-group:multiple clearable 1`] = `
 exports[`Renderer:button-group:multiple clearable 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -370,10 +370,10 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -381,16 +381,16 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -399,10 +399,10 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
               type="button"
             >
               <span>
@@ -410,7 +410,7 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
               type="button"
             >
               <span>
@@ -420,16 +420,16 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -438,13 +438,13 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a,b
               </span>
@@ -460,17 +460,17 @@ exports[`Renderer:button-group:multiple clearable 2`] = `
 exports[`Renderer:button-group:multiple clearable 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -479,10 +479,10 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -490,16 +490,16 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   多选
@@ -508,10 +508,10 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default __AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default __PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup-button--active"
               type="button"
             >
               <span>
@@ -519,7 +519,7 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -529,16 +529,16 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -547,13 +547,13 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
@@ -569,17 +569,17 @@ exports[`Renderer:button-group:multiple clearable 3`] = `
 exports[`Renderer:button-group-select 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -588,10 +588,10 @@ exports[`Renderer:button-group-select 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -599,16 +599,16 @@ exports[`Renderer:button-group-select 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   单选
@@ -617,10 +617,10 @@ exports[`Renderer:button-group-select 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonGroup __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -628,7 +628,7 @@ exports[`Renderer:button-group-select 1`] = `
               </span>
             </button>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
               type="button"
             >
               <span>
@@ -638,16 +638,16 @@ exports[`Renderer:button-group-select 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   当前值
@@ -656,13 +656,13 @@ exports[`Renderer:button-group-select 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 <span
                   class="text-muted"

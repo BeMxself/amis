@@ -38,13 +38,13 @@ test('Renderer:mobile Input Date', async () => {
   fireEvent.click(inputDate);
   // mobile判断有问题
   // const confirmButton = document.querySelector(
-  //   '.cxd-PickerColumns-confirm'
+  //   '.prismui-PickerColumns-confirm'
   // ) as HTMLButtonElement;
 
   // fireEvent.click(confirmButton);
 
   // const value = document.querySelector(
-  //   '.cxd-DatePicker-value'
+  //   '.prismui-DatePicker-value'
   // ) as HTMLSpanElement;
 
   // TODO: 这里原组件的日错了，等修复

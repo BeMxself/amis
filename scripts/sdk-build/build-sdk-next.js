@@ -4,10 +4,8 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const {
-  getExpectedSdkFiles,
   parseResourceMap,
-  sdkChunkPlan,
-  sdkCssFiles
+  createSdkArtifactContract
 } = require('./sdk-contract');
 const {
   buildSdkHelperCssFromSource,
@@ -19,6 +17,7 @@ const {buildSdkThemeCssFromSource} = require('./build-sdk-theme-css-source');
 const {
   createSdkEntryWithEmbeddedResourceMap,
   defaultEntry,
+  findAsset,
   generateRollupSdkEntryOutput,
   sdkEntryAliases
 } = require('./rollup-sdk-entry-build');
@@ -26,30 +25,23 @@ const {
 const repoRoot = path.resolve(__dirname, '../..');
 const args = process.argv.slice(2);
 const mode = readOption('--mode') || 'contract-mirror';
+const defaultOutDir =
+  mode === 'rollup-sdk' ? 'packages/amis/sdk' : 'packages/amis/sdk-next';
 const sourceSdkDir = path.resolve(
   repoRoot,
   readOption('--source-sdk-dir') || 'packages/amis/sdk'
 );
-const outDir = path.resolve(
+const outDir = path.resolve(repoRoot, readOption('--out-dir') || defaultOutDir);
+const rollupEntryOutDir =
+  mode === 'rollup-sdk' ? outDir : path.join(outDir, 'rollup-entry');
+const defaultIe11CssOutDir = rollupEntryOutDir;
+const ie11CssOutDir = path.resolve(
   repoRoot,
-  readOption('--out-dir') || 'packages/amis/sdk-next'
+  readOption('--ie11-css-out-dir') || defaultIe11CssOutDir
 );
 const manifestFile = path.join(outDir, 'sdk-next-manifest.json');
-const rollupEntryOutDir = path.join(outDir, 'rollup-entry');
-const sourceGeneratedCssFiles = new Set([
-  'sdk.css',
-  'cxd.css',
-  'ang.css',
-  'dark.css',
-  'antd.css',
-  'sdk-ie11.css',
-  'cxd-ie11.css',
-  'ang-ie11.css',
-  'dark-ie11.css',
-  'antd-ie11.css',
-  'helper.css',
-  'ie11-patch.css'
-]);
+const sourceSdkContract = createSdkArtifactContract(sourceSdkDir);
+const sourceGeneratedCssFiles = new Set(sourceSdkContract.cssFiles);
 
 main().catch(error => {
   console.error(error);
@@ -57,9 +49,15 @@ main().catch(error => {
 });
 
 async function main() {
+  assertSupportedMode(mode);
+
+  if (mode === 'rollup-sdk') {
+    await writeRollupSdkOutput();
+    return;
+  }
+
   assertDirectory(sourceSdkDir, 'source SDK directory');
   assertExpectedArtifacts(sourceSdkDir);
-  assertSupportedMode(mode);
 
   fs.rmSync(outDir, {recursive: true, force: true});
   fs.mkdirSync(path.dirname(outDir), {recursive: true});
@@ -80,9 +78,13 @@ async function main() {
 }
 
 function assertSupportedMode(value) {
-  if (value !== 'contract-mirror' && value !== 'rollup-entry') {
+  if (
+    value !== 'contract-mirror' &&
+    value !== 'rollup-entry' &&
+    value !== 'rollup-sdk'
+  ) {
     throw new Error(
-      `Unsupported SDK next mode: ${value}. Use contract-mirror or rollup-entry.`
+      `Unsupported SDK build mode: ${value}. Use contract-mirror, rollup-entry, or rollup-sdk.`
     );
   }
 }
@@ -105,8 +107,9 @@ function assertDirectory(dir, label) {
 }
 
 function assertExpectedArtifacts(sdkDir) {
-  const missing = getExpectedSdkFiles(sdkDir)
-    .filter(file => !fs.existsSync(path.join(sdkDir, file)));
+  const missing = createSdkArtifactContract(sdkDir).expectedFiles.filter(
+    file => !fs.existsSync(path.join(sdkDir, file))
+  );
 
   if (missing.length) {
     throw new Error(
@@ -122,24 +125,24 @@ async function writeRollupEntryOutput() {
   const embeddedSdkJs = createSdkEntryWithEmbeddedResourceMap(output);
 
   fs.mkdirSync(rollupEntryOutDir, {recursive: true});
-  output.forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
+  output
+    .filter(shouldWriteRollupOutputItem)
+    .forEach(item => writeRollupOutputItem(rollupEntryOutDir, item));
   fs.writeFileSync(path.join(rollupEntryOutDir, 'sdk.js'), embeddedSdkJs);
   const cssFiles = await writeRollupEntryCssAssets();
   const staticFiles = await copyRollupEntryStaticAssets();
 
   const resourceMap = parseResourceMap(embeddedSdkJs);
   const chunkManifest = JSON.parse(
-    fs.readFileSync(
-      path.join(rollupEntryOutDir, 'sdk-chunk-manifest.json'),
-      'utf8'
-    )
+    findAsset(output, 'sdk-chunk-manifest.json').source
   );
   const emptyAssetManifest = JSON.parse(
-    fs.readFileSync(path.join(rollupEntryOutDir, 'sdk-empty-assets.json'), 'utf8')
+    findAsset(output, 'sdk-empty-assets.json').source
   );
 
   return {
     outDir: relative(rollupEntryOutDir),
+    ie11CssOutDir: relative(ie11CssOutDir),
     entry: relative(defaultEntry),
     embeddedResourceMap: true,
     entryAliases: sdkEntryAliases,
@@ -148,15 +151,37 @@ async function writeRollupEntryOutput() {
     packageCount: Object.keys(resourceMap.pkg || {}).length,
     chunks: chunkManifest.chunks.map(chunk => chunk.fileName).sort(),
     cssFiles,
+    ie11CssFiles: sourceSdkContract.ie11CssFiles.filter(file =>
+      fs.existsSync(path.join(ie11CssOutDir, file))
+    ),
     emptyAssetImports: emptyAssetManifest.imports || [],
     staticFiles,
     files: listFiles(rollupEntryOutDir).map(file => `rollup-entry/${file}`)
   };
 }
 
+async function writeRollupSdkOutput() {
+  fs.rmSync(outDir, {recursive: true, force: true});
+  fs.rmSync(ie11CssOutDir, {recursive: true, force: true});
+  fs.mkdirSync(outDir, {recursive: true});
+
+  const rollupEntry = await writeRollupEntryOutput();
+  const files = listFiles(outDir);
+
+  console.log(
+    `SDK Rollup written: ${relative(outDir)} (${files.length} files, ${
+      rollupEntry.chunks.length
+    } chunks).`
+  );
+}
+
+function shouldWriteRollupOutputItem(item) {
+  return mode !== 'rollup-sdk' || item.type === 'chunk';
+}
+
 function copyRollupEntryCssAssets() {
   return copyRollupEntryFiles(
-    sdkCssFiles.filter(file => !sourceGeneratedCssFiles.has(file))
+    sourceSdkContract.cssFiles.filter(file => !sourceGeneratedCssFiles.has(file))
   );
 }
 
@@ -167,12 +192,15 @@ async function writeRollupEntryCssAssets() {
   for (const themeCss of themeCssItems) {
     writeRollupEntryTextFile(themeCss.filename, themeCss.content);
     cssFiles.add(themeCss.filename);
-    await writeRollupEntryIe11Css(themeCss.filename, themeCss.content, cssFiles);
+    await writeRollupEntryIe11Css(themeCss.filename, themeCss.content);
 
     if (themeCss.filename === 'sdk.css') {
       writeRollupEntryTextFile('cxd.css', themeCss.content);
       cssFiles.add('cxd.css');
-      await writeRollupEntryIe11Css('cxd.css', themeCss.content, cssFiles);
+      await writeRollupEntryIe11Css('cxd.css', themeCss.content);
+      writeRollupEntryTextFile('prismui.css', themeCss.content);
+      cssFiles.add('prismui.css');
+      await writeRollupEntryIe11Css('prismui.css', themeCss.content);
     }
   }
 
@@ -181,17 +209,23 @@ async function writeRollupEntryCssAssets() {
     await buildSdkHelperCssFromSource({repoRoot})
   );
   cssFiles.add('helper.css');
-  writeRollupEntryTextFile('ie11-patch.css', sdkIe11PatchCss);
-  cssFiles.add('ie11-patch.css');
+  writeIe11CssTextFile('ie11-patch.css', sdkIe11PatchCss);
 
   return [...cssFiles].sort();
 }
 
-async function writeRollupEntryIe11Css(file, css, cssFiles) {
-  const ie11File = file.replace(/\.css$/, '-ie11.css');
+async function writeRollupEntryIe11Css(file, css) {
+  writeIe11CssTextFile(
+    file.replace(/\.css$/, '-ie11.css'),
+    await buildSdkIe11Css(css)
+  );
+}
 
-  writeRollupEntryTextFile(ie11File, await buildSdkIe11Css(css));
-  cssFiles.add(ie11File);
+function writeIe11CssTextFile(file, contents) {
+  const outputFile = path.join(ie11CssOutDir, file);
+
+  fs.mkdirSync(path.dirname(outputFile), {recursive: true});
+  fs.writeFileSync(outputFile, contents);
 }
 
 async function copyRollupEntryStaticAssets() {
@@ -234,6 +268,7 @@ function writeRollupEntryTextFile(file, contents) {
 
 function createSdkNextManifest(sdkDir, sourceDir, options) {
   options = options || {};
+  const sourceContract = createSdkArtifactContract(sourceDir);
   const files = listFiles(sdkDir)
     .filter(file => file !== path.basename(manifestFile))
     .map(file => describeFile(sdkDir, file));
@@ -243,9 +278,9 @@ function createSdkNextManifest(sdkDir, sourceDir, options) {
     mode: options.mode || 'contract-mirror',
     sourceSdkDir: relative(sourceDir),
     outDir: relative(sdkDir),
-    entry: sdkChunkPlan.entry,
-    chunks: Object.keys(sdkChunkPlan.chunks),
-    expectedFiles: getExpectedSdkFiles(sourceDir),
+    entry: sourceContract.entry,
+    chunks: sourceContract.allChunkFiles,
+    expectedFiles: sourceContract.expectedFiles,
     ...(options.rollupEntry ? {rollupEntry: options.rollupEntry} : {}),
     files
   };

@@ -236,7 +236,7 @@ test('Renderer:condition-builder drag order', async () => {
 
   await findByText('BText');
 
-  const dragbar = container.querySelectorAll('.cxd-CBGroupOrItem-dragbar');
+  const dragbar = container.querySelectorAll('.prismui-CBGroupOrItem-dragbar');
 
   // TODO: jsdom 目前还不支持 drag，用不了
   // fireEvent.dragStart(dragbar[1]);
@@ -325,7 +325,7 @@ test('Renderer:condition-builder with number type', async () => {
 
   fireEvent.click(await findByText('大于或等于'));
   fireEvent.click(await findByText('属于范围'));
-  const inputs = container.querySelectorAll('.cxd-Number input')!;
+  const inputs = container.querySelectorAll('.prismui-Number input')!;
   fireEvent.change(inputs[0], {
     target: {value: 11}
   });
@@ -405,7 +405,7 @@ test('Renderer:condition-builder with select type & source & searchable', async 
   fireEvent.click(await findByText('这个是下拉框'));
 
   expect(
-    container.querySelectorAll('.cxd-CBValue .cxd-Select-option')!.length
+    container.querySelectorAll('.prismui-CBValue .prismui-Select-option')!.length
   ).toBe(5);
   expect(await findByText('Option A')).toBeInTheDocument();
 
@@ -414,7 +414,7 @@ test('Renderer:condition-builder with select type & source & searchable', async 
   });
 
   expect(
-    container.querySelectorAll('.cxd-CBValue .cxd-Select-option')!.length
+    container.querySelectorAll('.prismui-CBValue .prismui-Select-option')!.length
   ).toBe(1);
   // expect(container).toMatchSnapshot();
   expect(await findByTitle('Option C')).toBeInTheDocument();
@@ -481,7 +481,7 @@ test('Renderer:condition-builder with custom field', async () => {
 
   await wait(1000);
   const colorInputs = container.querySelectorAll(
-    '.cxd-CBValue .cxd-ColorPicker-input'
+    '.prismui-CBValue .prismui-ColorPicker-input'
   )!;
   expect(colorInputs.length).toBe(2);
 
@@ -573,7 +573,7 @@ test('Renderer:condition-builder with source fields', async () => {
   fireEvent.click(await findByText('添加条件'));
   fireEvent.click(await findByText('请选择字段'));
   fireEvent.click(await findByText('布尔'));
-  fireEvent.click(container.querySelector('.cxd-Switch')!);
+  fireEvent.click(container.querySelector('.prismui-Switch')!);
 
   await wait(200);
   fireEvent.click(await findByText('Submit'));
@@ -668,7 +668,7 @@ test('Renderer:condition-builder with selectMode', async () => {
   fireEvent.click(await findByText('添加条件'));
   fireEvent.click(await findByText('请选择字段'));
 
-  expect(container.querySelector('.cxd-TreeSelection')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-TreeSelection')).toBeInTheDocument();
   // expect(container).toMatchSnapshot();
 });
 
@@ -699,12 +699,12 @@ test('Renderer:condition-builder with builderMode & showANDOR & showNot', async 
   fireEvent.click(await findByText('添加条件'));
 
   expect(
-    container.querySelector('.cxd-CBGroupOrItem-simple')
+    container.querySelector('.prismui-CBGroupOrItem-simple')
   ).toBeInTheDocument();
 
   fireEvent.click(await findByText('请选择字段'));
   fireEvent.click(await findByText('布尔'));
-  fireEvent.click(container.querySelector('.cxd-Switch')!);
+  fireEvent.click(container.querySelector('.prismui-Switch')!);
 
   await wait(200);
   fireEvent.click(await findByText('Submit'));
@@ -810,7 +810,7 @@ test('Renderer:condition-builder with not embed', async () => {
   fireEvent.click(await findByText('不属于范围'));
 
   expect(
-    baseElement.querySelector('.cxd-Modal .cxd-CBGroup')
+    baseElement.querySelector('.prismui-Modal .prismui-CBGroup')
   ).toBeInTheDocument();
 });
 
@@ -971,28 +971,28 @@ describe('Renderer: condition-builder with formula', () => {
     replaceReactAriaIds(container);
     // 7种类型都存在
     expect(
-      container.querySelectorAll('.amis-FormulaPicker-input')?.length
+      container.querySelectorAll('.prismui-FormulaPicker-input')?.length
     ).toEqual(7);
     expect(
-      container.querySelector('.amis-FormulaPicker--text')
+      container.querySelector('.prismui-FormulaPicker--text')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-number')
+      container.querySelector('.prismui-FormulaPicker-input-number')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-boolean')
+      container.querySelector('.prismui-FormulaPicker-input-boolean')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-select')
+      container.querySelector('.prismui-FormulaPicker-input-select')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-date')
+      container.querySelector('.prismui-FormulaPicker-input-date')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-time')
+      container.querySelector('.prismui-FormulaPicker-input-time')
     ).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-FormulaPicker-input-datetime')
+      container.querySelector('.prismui-FormulaPicker-input-datetime')
     ).toBeInTheDocument();
   });
 
@@ -1063,29 +1063,29 @@ describe('Renderer: condition-builder with formula', () => {
 
     // 选中第一个选项（Form中默认值是等于操作）
     let fieldValueControl = container.querySelector(
-      '.amis-FormulaPicker-input-select'
+      '.prismui-FormulaPicker-input-select'
     )!;
     fireEvent.click(fieldValueControl);
     await wait(100);
     fireEvent.click(await findByText('A'));
-    expect(container.querySelector('.amis-Tag-text')?.innerHTML).toEqual('A');
+    expect(container.querySelector('.prismui-Tag-text')?.innerHTML).toEqual('A');
 
     // 切换操作符，字段值清空，需要重新选择，且下拉选项变成多选
-    const opControl = container.querySelector('.amis-CBGroup-operatorInput')!;
+    const opControl = container.querySelector('.prismui-CBGroup-operatorInput')!;
     fireEvent.click(opControl);
     await wait(100);
     fireEvent.click(await findByText('包含'));
     await wait(100);
     expect(
-      container.querySelector('.amis-Select-placeholder')
+      container.querySelector('.prismui-Select-placeholder')
     ).toBeInTheDocument();
     fieldValueControl = container.querySelector(
-      '.amis-FormulaPicker-input-select'
+      '.prismui-FormulaPicker-input-select'
     )!;
     fireEvent.click(fieldValueControl);
     await wait(100);
     expect(
-      document.body.querySelectorAll('.amis-Select-option-checkbox').length
+      document.body.querySelectorAll('.prismui-Select-option-checkbox').length
     ).toEqual(3);
   });
 
@@ -1162,40 +1162,40 @@ describe('Renderer: condition-builder with formula', () => {
 
     // 切换字段类型，对应字段值控件更新
     const fieldControl = container.querySelector(
-      '.amis-DropDownSelection-input'
+      '.prismui-DropDownSelection-input'
     )!;
     fireEvent.click(fieldControl);
     await wait(100);
     fireEvent.click(await findByText('选项'));
     await wait(100);
     let selectValueControl = container.querySelector(
-      '.amis-FormulaPicker-input-select'
+      '.prismui-FormulaPicker-input-select'
     )!;
     expect(selectValueControl).toBeInTheDocument();
 
     // 切换操作符，下拉选项变成多选
-    const opControl = container.querySelector('.amis-CBGroup-operatorInput')!;
+    const opControl = container.querySelector('.prismui-CBGroup-operatorInput')!;
     fireEvent.click(opControl);
     await wait(100);
     fireEvent.click(await findByText('包含'));
     await wait(100);
     expect(
-      container.querySelector('.amis-Select-placeholder')
+      container.querySelector('.prismui-Select-placeholder')
     ).toBeInTheDocument();
     selectValueControl = container.querySelector(
-      '.amis-FormulaPicker-input-select'
+      '.prismui-FormulaPicker-input-select'
     )!;
     fireEvent.click(selectValueControl);
     await wait(100);
     expect(
-      document.body.querySelectorAll('.amis-Select-option-checkbox').length
+      document.body.querySelectorAll('.prismui-Select-option-checkbox').length
     ).toEqual(3);
 
     // 选择2个选项，绑定值变化
     fireEvent.click(await findByText('A'));
     fireEvent.click(await findByText('C'));
     const selectedValues = [];
-    const nodes = container.querySelectorAll('.amis-Select-valueLabel');
+    const nodes = container.querySelectorAll('.prismui-Select-valueLabel');
     for (const el of nodes.values()) {
       selectedValues.push(el?.innerHTML);
     }

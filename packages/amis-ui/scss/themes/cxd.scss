@@ -1,12 +1,25 @@
 // 百度云舍主题：http://console.yunshe.design/docs/index
-$amis-theme-name: 'cxd';
-$amis-palette-brand-400: #144bcc;
-$amis-palette-brand-500: #2468f2;
-$amis-palette-brand-600: #528eff;
-$amis-palette-neutral-text-inverse: #fff;
+$prismui-theme-name: 'cxd';
+$prismui-palette-brand-400: #144bcc;
+$prismui-palette-brand-500: #2468f2;
+$prismui-palette-brand-600: #528eff;
+$prismui-palette-neutral-text-inverse: #fff;
+@import '../tokens/index';
 @import '../properties';
 @import '../components';
 @import './cxd-variables';
-$ns: 'amis-';
+$ns: 'prismui-';
+
+:root,
+.AMISCSSWrapper {
+  @include prismui-cxd-theme-vars;
+}
+
+[data-prismui-theme='cxd'] {
+  @include prismui-cxd-theme-vars;
+  @include prismui-property-vars;
+  @include prismui-component-vars;
+}
+
 @import './common';
 @import '../tokens/legacy-palette-aliases';

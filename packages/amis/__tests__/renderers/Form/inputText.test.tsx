@@ -34,7 +34,7 @@ describe('clearable', () => {
     expect(screen.queryByDisplayValue('baidu')).toBeInTheDocument();
 
     await waitFor(() => {
-      const clearEl = container.querySelector('a.cxd-TextControl-clear');
+      const clearEl = container.querySelector('a.prismui-TextControl-clear');
 
       expect(clearEl).toBeInTheDocument();
       fireEvent.click(clearEl!);
@@ -65,7 +65,7 @@ describe('clearable', () => {
     expect(screen.queryByDisplayValue('baidu')).toBeInTheDocument();
 
     await waitFor(() => {
-      const clearEl = container.querySelector('a.cxd-TextControl-clear');
+      const clearEl = container.querySelector('a.prismui-TextControl-clear');
 
       expect(clearEl).toBeInTheDocument();
       fireEvent.click(clearEl!);

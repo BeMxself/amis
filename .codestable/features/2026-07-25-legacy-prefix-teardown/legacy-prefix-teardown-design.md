@@ -16,7 +16,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 | 术语 | 定义 | 防冲突结论 |
 |---|---|---|
 | Legacy prefix public contract | 用户、插件、editor 或库样式把 `.cxd-*`、`.antd-*`、`.dark-*` 或 `classPrefix` 当作公共样式 API 的依赖。 | 本 feature 的目标是退出该契约；不是把 `.cxd-*` 再包装成新 API。 |
-| DOM-only legacy alias | 显式迁移开关开启后 DOM 同时输出 `.amis-*` 和 `.cxd-*`，让老定制页面自己的 `.cxd-*` CSS 在迁移期继续命中。 | 只允许 `cxd`，不生成库 CSS，不从任意 `classPrefix` 推导 `antd` / `dark` alias。 |
+| DOM-only legacy alias | 显式迁移开关开启后 DOM 同时输出 `.prismui-*` 和 `.cxd-*`，让老定制页面自己的 `.cxd-*` CSS 在迁移期继续命中。 | 只允许 `cxd`，不生成库 CSS，不从任意 `classPrefix` 推导 `antd` / `dark` alias。 |
 | LegacyPrefixLedger | 汇总 selector allowlist、ComponentMigrationLedger、HelperScssInventory 和剩余 `classPrefix` 命中的机器可读清单。 | 它是 teardown 的输入和验收证据，不是长期例外列表。 |
 | AliasRetentionRecord | 记录 DOM-only alias 开关的默认状态、适用范围、人工复审责任方、复审窗口和退出评估材料。 | 复审是人工评估，不绑定固定版本卡点；目标是在可用迁移路径形成后不晚于 1 年触发评估。 |
 | PrefixTeardownBoundary | 哪些旧前缀依赖被删除、内部化、迁移到 stable selector，哪些留给 docs rollout。 | 不覆盖 IE11 动态 token；IE11 只保留静态 CSS 降级说明。 |
@@ -25,7 +25,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 
 ### 需求摘要
 
-本 feature 承接前置的 selector inventory、核心组件迁移和 editor/helper 迁移，收口旧主题前缀作为公共样式 API 的最后一段治理。核心目标是：默认主路径只暴露稳定 `.amis-*`、`[data-amis-theme]` 和 token；剩余 `classPrefix` / `.cxd-*` 依赖要么迁移到 stable selector，要么标记为内部 legacy，要么进入 DOM-only alias 的显式迁移边界；最终交给 docs rollout 的只剩用户迁移说明、复审材料和风险记录。
+本 feature 承接前置的 selector inventory、核心组件迁移和 editor/helper 迁移，收口旧主题前缀作为公共样式 API 的最后一段治理。核心目标是：默认主路径只暴露稳定 `.prismui-*`、`[data-prismui-theme]` 和 token；剩余 `classPrefix` / `.cxd-*` 依赖要么迁移到 stable selector，要么标记为内部 legacy，要么进入 DOM-only alias 的显式迁移边界；最终交给 docs rollout 的只剩用户迁移说明、复审材料和风险记录。
 
 明确不做：
 
@@ -50,7 +50,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
    本 design 可以在 `core-component-selector-migration` 与 `editor-theme-helper-migration` design-review passed 后起草；implementation 开始前必须确认这两个依赖以及它们的前置 guard / inventory 已 `done`。
 
 2. **默认主路径不含旧前缀 API**
-   `ThemeInstance.classnames`、组件 DOM、主题覆写和用户文档主路径必须围绕 `.amis-*`、`[data-amis-theme]` 和 token；`classPrefix` 只能作为 legacy/internal 或行为对象兼容字段存在。
+   `ThemeInstance.classnames`、组件 DOM、主题覆写和用户文档主路径必须围绕 `.prismui-*`、`[data-prismui-theme]` 和 token；`classPrefix` 只能作为 legacy/internal 或行为对象兼容字段存在。
 
 3. **DOM-only alias 是显式迁移能力，不是样式契约**
    `legacyDomClassAlias` 默认关闭，只允许显式 `cxd`；不得生成 `.cxd-*` 库 CSS，不得要求 theme-editor 生成 `.cxd-*`，不得从 `classPrefix` 自动推导其他主题 alias。
@@ -64,7 +64,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 ### 基线风险与验证入口
 
 - `packages/amis-core/src/theme.tsx` 已有 `componentClassPrefix: 'amis-'`、`legacyDomClassAlias?: false | 'cxd'`、`makeStableClassnames()` 和默认关闭的 DOM-only alias。
-- `packages/amis-core/src/Root.tsx` 已通过 `ThemeScopeRoot` 输出 `data-amis-theme`，但仍把 `classPrefix` 透传给 renderer props。
+- `packages/amis-core/src/Root.tsx` 已通过 `ThemeScopeRoot` 输出 `data-prismui-theme`，但仍把 `classPrefix` 透传给 renderer props。
 - `packages/amis-core/src/theme.tsx#getClassPrefix()` 与 `packages/amis-editor-core/src/manager.ts#getThemeClassPrefix()` 仍暴露旧前缀读取点。
 - `packages/amis-ui/src/themes/cxd.ts`、`antd.ts`、`dark.ts` 仍声明 `classPrefix`；需要区分主题行为对象兼容字段和公共样式 API。
 - `packages/amis-ui/scss/themes/cxd-ie11.scss`、`packages/amis/build.sh` 的 `cxd.css` / `cxd-ie11.css` 文件名兼容不能被误解为 selector 兼容。
@@ -83,10 +83,10 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 #### 现状
 
 - Theme Runtime 已新增 `componentClassPrefix`、`legacyDomClassAlias`、`stableClassnames` 和 `scope`，但 `classPrefix` 仍存在于 `ThemeConfig`、`ThemeProps` 和部分调用链中。
-- Button pilot 已证明默认 `.amis-*`、显式 `.cxd-*` DOM alias、Root `data-amis-theme` 的最小闭环。
+- Button pilot 已证明默认 `.prismui-*`、显式 `.cxd-*` DOM alias、Root `data-prismui-theme` 的最小闭环。
 - Stylesheet build design 定义 selector inventory、allowlist 和 guard，拒绝新增 SCSS `.cxd-*` legacy selector。
 - Core component migration design 定义 ComponentMigrationLedger，要求剩余 `#{$ns}` / `.cxd-*` / `classPrefix` 命中有分类、owner 和退出条件。
-- Editor helper migration design 定义 HelperScssInventory，要求 `.AMISCSSWrapper` 只能是容器别名，theme identity 来自 `data-amis-theme`。
+- Editor helper migration design 定义 HelperScssInventory，要求 `.AMISCSSWrapper` 只能是容器别名，theme identity 来自 `data-prismui-theme`。
 - compound 结论已拒绝 SCSS/CSS `.cxd-*` 兼容开关，允许显式 DOM-only alias。
 
 #### 变化
@@ -113,7 +113,7 @@ alias_retention:
   decision_owner: "theme architecture owner"
   exit_evidence:
     - "selector guard has no new public prefix dependencies"
-    - "docs provide stable .amis-* / token migration path"
+    - "docs provide stable .prismui-* / token migration path"
     - "known legacy consumers have migration notes or risk acceptance"
 ```
 
@@ -130,7 +130,7 @@ Interface 设计检查：
 
 #### 现状
 
-当前迁移链路是多条 feature 分别产生证据：Runtime 证明 `.amis-*` 主路径和 DOM alias，Stylesheet Build 建 guard，Core Migration 输出组件 ledger，Editor Migration 输出 helper/editor inventory。缺口在于：这些证据还没有汇总成一个“旧前缀公共契约是否退出”的最终判定，也没有把 DOM-only alias 的复审和退出边界写成可执行材料。
+当前迁移链路是多条 feature 分别产生证据：Runtime 证明 `.prismui-*` 主路径和 DOM alias，Stylesheet Build 建 guard，Core Migration 输出组件 ledger，Editor Migration 输出 helper/editor inventory。缺口在于：这些证据还没有汇总成一个“旧前缀公共契约是否退出”的最终判定，也没有把 DOM-only alias 的复审和退出边界写成可执行材料。
 
 #### 变化
 
@@ -161,7 +161,7 @@ flowchart TD
 - PrefixPublicApiGuard：删掉后新增 `.cxd-*` / `classPrefix` 公共样式依赖无法被阻止。
 - Theme Runtime alias policy：删掉后 DOM-only `.cxd-*` alias 的默认关闭和显式开启边界不可验证。
 - AliasRetentionRecord：删掉后最多 1 年内人工评估、责任方和退出材料没有 durable evidence。
-- Docs rollout handoff：删掉后下一项无法把用户心智收口到 token / `.amis-*` / `[data-amis-theme]`。
+- Docs rollout handoff：删掉后下一项无法把用户心智收口到 token / `.prismui-*` / `[data-prismui-theme]`。
 
 ### 2.4 推进策略
 
@@ -205,8 +205,8 @@ flowchart TD
 ### 3.1 关键场景清单
 
 - 输入：前置 core/editor ledger 与 selector allowlist → 期望 LegacyPrefixLedger 汇总所有剩余旧前缀命中，并带分类、owner、退出条件。
-- 输入：默认渲染 Button / core migrated component → 期望 DOM 主路径为 `.amis-*`，默认不输出 `.cxd-*` alias。
-- 输入：显式开启 `legacyDomClassAlias: 'cxd'` → 期望 DOM 同时有 `.amis-*` 与 `.cxd-*`，但库 CSS 不新增 `.cxd-*` selector。
+- 输入：默认渲染 Button / core migrated component → 期望 DOM 主路径为 `.prismui-*`，默认不输出 `.cxd-*` alias。
+- 输入：显式开启 `legacyDomClassAlias: 'cxd'` → 期望 DOM 同时有 `.prismui-*` 与 `.cxd-*`，但库 CSS 不新增 `.cxd-*` selector。
 - 输入：新增 `.cxd-Foo` / `.antd-Foo` / `.dark-Foo` SCSS selector 或 theme-editor 生成路径 → 期望 guard 失败。
 - 输入：保留 `cxd.css` / `cxd-ie11.css` 文件名兼容 → 期望 ledger 标为 file-name compatibility，文档 handoff 不把它解释成 selector 兼容。
 - 输入：AliasRetentionRecord 审查 → 期望包含默认状态、显式值、适用范围、人工复审窗口、责任方和退出评估材料。

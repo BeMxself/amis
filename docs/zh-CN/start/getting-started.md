@@ -14,7 +14,7 @@ SDK 版本适合对前端或 React 不了解的开发者，它不依赖 npm 及 
 
 下载方式：
 
-1. github 的 [releases](https://github.com/baidu/amis/releases)，文件是 sdk.tar.gz。
+1. github 的 [releases](https://github.com/Gengxin-Tech/prismui/releases)，文件是 sdk.tar.gz。
 1. 使用 `npm i amis` 来下载，在 `node_modules\amis\sdk` 目录里就能找到。
 
 新建一个 hello.html 文件，内容如下：
@@ -87,7 +87,7 @@ SDK 版本适合对前端或 React 不了解的开发者，它不依赖 npm 及 
 
 ### 切换主题
 
-jssdk 版本默认使用 `sdk.css`。如果要使用其它主题，需要先加载对应主题 CSS，再在 js 渲染第四个参数里传入 `theme`。`theme` 决定 `[data-amis-theme]` 的主题作用域，组件 DOM 主类名仍是稳定的 `.amis-*`。
+jssdk 版本默认使用 `sdk.css`（cxd 主题）。如果要使用其它主题，需要先加载对应主题 CSS，再在 js 渲染第四个参数里传入 `theme`。`theme` 决定 `[data-prismui-theme]` 的主题作用域，组件 DOM 主类名仍是稳定的 `.prismui-*`。
 
 ```js
 amis.embed(
@@ -105,7 +105,7 @@ amis.embed(
 );
 ```
 
-> `cxd.css`、`antd.css`、`dark.css` 是主题包文件名，不代表新样式应该写成 `.cxd-*`、`.antd-*` 或 `.dark-*` 选择器。业务覆写请优先使用 `--amis-*` token、`.amis-*` 稳定组件类名和 `[data-amis-theme]` 作用域。
+> `cxd.css`、`antd.css`、`dark.css` 是主题包文件名，不代表新样式应该写成 `.prismui-*`、`.antd-*` 或 `.dark-*` 选择器。业务覆写请优先使用 `--prismui-*` token、`.prismui-*` 稳定组件类名和 `[data-prismui-theme]` 作用域。
 
 ### 初始值
 
@@ -192,7 +192,7 @@ let amisScoped = amis.embed(
     // confirm: content => {},
     //
     // 主题，默认是 default。使用其它主题时需要同时引用对应主题 CSS。
-    // 组件 DOM 主类名保持 .amis-*，主题身份通过 data-amis-theme 表达。
+    // 组件 DOM 主类名保持 .prismui-*，主题身份通过 data-prismui-theme 表达。
     // theme: 'antd'
     //
     // 用来实现用户行为跟踪，详细请查看左侧高级中的说明
@@ -332,7 +332,7 @@ function handleChange() {
 
 默认 JSSDK 不是 hash 路由，如果你想改成 hash 路由模式，请查看此处代码实现。只需要修改 `env.isCurrentUrl`、`env.jumpTo` 和 `env.updateLocation` 这几个方法，并在路由切换的时候，通过 amisScoped 对象的 `updateProps` 方法，更新 `location` 属性即可。
 
-参考：https://github.com/baidu/amis/blob/master/examples/app/index.jsx
+参考：https://github.com/Gengxin-Tech/prismui/blob/master/examples/app/index.jsx
 
 ### 销毁
 
@@ -451,7 +451,7 @@ import 'amis/sdk/iconfont.css';
 ```
 
 > 上面只是示例，请根据自己的项目结构调整引用路径。
-> 如果要支持 IE11，只能引入对应的静态 CSS 降级文件，例如 `amis/sdk/cxd-ie11.css`；IE11 不支持基于 CSS 变量的动态 token 主题切换。
+> 如果要支持 IE11，只能引入对应的静态 CSS 降级文件，例如 `amis/lib/themes/cxd-ie11.css`；IE11 不支持基于 CSS 变量的动态 token 主题切换。
 
 2. 渲染器使用配置主题
 
@@ -467,7 +467,7 @@ renderAmis(
   },
   {
     // env...
-    theme: 'cxd' // 选择已加载的主题包；DOM 主类名仍是 .amis-*
+    theme: 'cxd' // 选择主题；DOM 主类名仍是 .prismui-*
   }
 );
 ```
@@ -731,7 +731,7 @@ render 有三个参数，后面会详细说明这三个参数内的属性
 
 #### theme: string
 
-目前支持是三种主题：`default`、`cxd` 和 `dark`
+目前支持的主题包括：`cxd`、`ang`、`antd` 和 `dark`；`default` 作为 cxd 的兼容别名。
 
 #### isCurrentUrl
 
@@ -771,7 +771,7 @@ render 有三个参数，后面会详细说明这三个参数内的属性
 (schema: any, path: string) => Promise<Function>;
 ```
 
-可以通过它懒加载自定义组件，比如： https://github.com/baidu/amis/blob/master/packages/amis-core/__tests__/factory.test.tsx#L64-L91。
+可以通过它懒加载自定义组件，比如： https://github.com/Gengxin-Tech/prismui/blob/master/packages/amis-core/__tests__/factory.test.tsx#L64-L91。
 
 #### affixOffsetTop: number
 

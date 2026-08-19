@@ -1,7 +1,8 @@
 import {theme} from 'amis-core';
 
 theme('antd', {
-  classPrefix: 'antd-',
+  classPrefix: 'prismui-',
+  componentClassPrefix: 'prismui-',
   components: {
     toast: {
       closeButton: true

@@ -3,28 +3,28 @@
 exports[`Renderer:anchorNav 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--vertical"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav __PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav--vertical"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap linksWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap linksWrap"
               role="anchorlist"
             >
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -33,7 +33,7 @@ exports[`Renderer:anchorNav 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="工作信息"
@@ -42,7 +42,7 @@ exports[`Renderer:anchorNav 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="兴趣爱好"
@@ -52,24 +52,24 @@ exports[`Renderer:anchorNav 1`] = `
               </li>
             </ul>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap sectionsWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap sectionsWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -78,10 +78,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -89,16 +89,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -107,10 +107,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -125,16 +125,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -143,10 +143,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -163,13 +163,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -181,21 +181,21 @@ exports[`Renderer:anchorNav 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="1"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           工作信息
@@ -204,10 +204,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -215,16 +215,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司名称：
@@ -233,10 +233,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -251,16 +251,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司地址：
@@ -269,10 +269,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -289,13 +289,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -307,21 +307,21 @@ exports[`Renderer:anchorNav 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="2"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           兴趣爱好
@@ -330,10 +330,10 @@ exports[`Renderer:anchorNav 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -341,16 +341,16 @@ exports[`Renderer:anchorNav 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest1"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好1：
@@ -359,10 +359,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -377,16 +377,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest2"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好2：
@@ -395,10 +395,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -413,16 +413,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest3"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好3：
@@ -431,10 +431,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -449,16 +449,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest4"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好4：
@@ -467,10 +467,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -485,16 +485,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest5"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好5：
@@ -503,10 +503,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -521,16 +521,16 @@ exports[`Renderer:anchorNav 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="interest6"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 兴趣爱好6：
@@ -539,10 +539,10 @@ exports[`Renderer:anchorNav 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -559,13 +559,13 @@ exports[`Renderer:anchorNav 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -588,28 +588,28 @@ exports[`Renderer:anchorNav 1`] = `
 exports[`Renderer:anchorNav with children 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav __PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
               role="anchorlist"
             >
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -618,7 +618,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link __PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
               >
                 <a
                   title="基本信息1-1"
@@ -627,7 +627,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link __PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link-child"
               >
                 <a
                   title="基本信息1-2"
@@ -636,7 +636,7 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link"
               >
                 <a
                   title="工作信息"
@@ -646,24 +646,24 @@ exports[`Renderer:anchorNav with children 1`] = `
               </li>
             </ul>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -672,10 +672,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -683,16 +683,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -701,10 +701,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -719,16 +719,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -737,10 +737,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -757,13 +757,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -775,21 +775,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0-0"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息1-1
@@ -798,10 +798,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -809,16 +809,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname1"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 cname1
@@ -827,10 +827,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -845,16 +845,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress1"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 caddress1
@@ -863,10 +863,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -883,13 +883,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -901,21 +901,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0-1"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息1-2
@@ -924,10 +924,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -935,16 +935,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname2"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 cname2
@@ -953,10 +953,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -971,16 +971,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress2"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 caddress2
@@ -989,10 +989,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1009,13 +1009,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -1027,21 +1027,21 @@ exports[`Renderer:anchorNav with children 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="1"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           工作信息
@@ -1050,10 +1050,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -1061,16 +1061,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="cname"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司名称：
@@ -1079,10 +1079,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1097,16 +1097,16 @@ exports[`Renderer:anchorNav with children 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="caddress"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 公司地址：
@@ -1115,10 +1115,10 @@ exports[`Renderer:anchorNav with children 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1135,13 +1135,13 @@ exports[`Renderer:anchorNav with children 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>
@@ -1164,28 +1164,28 @@ exports[`Renderer:anchorNav with children 1`] = `
 exports[`Renderer:anchorNav with horizontal 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav __AMIS_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav __PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav--horizontal"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link-wrap"
               role="anchorlist"
             >
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-link is-active"
               >
                 <a
                   title="基本信息"
@@ -1195,24 +1195,24 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
               </li>
             </ul>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section-wrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__AnchorNav-section"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AnchorNav-section"
                 data-id="0"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
                   data-role="container"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
                   >
                     <h3
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           基本信息
@@ -1221,10 +1221,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                     </h3>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
                   >
                     <form
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                       novalidate=""
                     >
                       <input
@@ -1232,16 +1232,16 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                         type="submit"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="name"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 姓名：
@@ -1250,10 +1250,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1268,16 +1268,16 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                         data-amis-name="email"
                         data-role="form-item"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                         >
                           <span>
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 邮箱：
@@ -1286,10 +1286,10 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                           </span>
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                           >
                             <input
                               autocomplete="off"
@@ -1306,13 +1306,13 @@ exports[`Renderer:anchorNav with horizontal 1`] = `
                     </form>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         type="submit"
                       >
                         <span>

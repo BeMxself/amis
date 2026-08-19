@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const {rollup} = require('rollup');
 const {generateSdkLocale} = require('../generate-sdk-locale');
-const {sdkRuntimeAssets} = require('./sdk-runtime-assets');
+const {getSdkRuntimeAssets} = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const monacoBasicLanguages = [
@@ -145,7 +145,7 @@ function copyPdfWorkerAsset(root, outDir) {
 }
 
 async function writePackagedRuntimeAssets(root, outDir) {
-  for (const asset of sdkRuntimeAssets) {
+  for (const asset of getSdkRuntimeAssets()) {
     const source = path.join(root, asset.sourceFile);
     const target = path.join(outDir, asset.file);
     const contents =

@@ -55,13 +55,13 @@ const customStyleCases: [any, string][] = [
   ],
   [
     {
-      '.cxd-Table': {
+      '.prismui-Table': {
         'td,th': {
           color: 'red'
         }
       }
     },
-    '\n.wrapperCustomStyle-test .cxd-Table td,.wrapperCustomStyle-test .cxd-Table th {\n  color: red;\n}'
+    '\n.wrapperCustomStyle-test .prismui-Table td,.wrapperCustomStyle-test .prismui-Table th {\n  color: red;\n}'
   ]
 ];
 

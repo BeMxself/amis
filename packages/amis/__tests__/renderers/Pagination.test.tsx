@@ -114,7 +114,7 @@ test('Renderer:Pagination with simple mode', async () => {
     )
   );
 
-  const next = container.querySelector('.cxd-Pagination-next')!;
+  const next = container.querySelector('.prismui-Pagination-next')!;
   expect(next).toBeInTheDocument();
   expect(next).not.toHaveClass('is-disabled');
 
@@ -128,7 +128,7 @@ test('Renderer:Pagination with simple mode', async () => {
 
   // keyboard up & down
   // 简洁模式下不支持键盘上下键切换页码
-  // const simplego = container.querySelector('.cxd-Pagination-simplego-input')! as HTMLInputElement;
+  // const simplego = container.querySelector('.prismui-Pagination-simplego-input')! as HTMLInputElement;
   // fireEvent.focus(simplego);
   // await wait(500);
 
@@ -182,7 +182,7 @@ test('Renderer:Pagination with layout', () => {
   };
   const {container} = render(amisRender(schema, {}, makeEnv({})));
 
-  const pageWrapper = container.querySelector('.cxd-Pagination-wrap')!;
+  const pageWrapper = container.querySelector('.prismui-Pagination-wrap')!;
   expect(pageWrapper).toBeInTheDocument();
 
   const children = pageWrapper.children;
@@ -214,7 +214,7 @@ test('Renderer:Pagination with maxButtons', () => {
   const {container} = render(amisRender(schema, {}, makeEnv({})));
 
   const pager = container.querySelectorAll(
-    '.cxd-Pagination > .cxd-Pagination-pager-item'
+    '.prismui-Pagination > .prismui-Pagination-pager-item'
   );
   expect(pager.length).toBe(10);
 
@@ -242,12 +242,12 @@ test('Renderer:Pagination with total & perPage & activePage', async () => {
   );
 
   const pager = container.querySelectorAll(
-    '.cxd-Pagination > .cxd-Pagination-pager-item'
+    '.prismui-Pagination > .prismui-Pagination-pager-item'
   );
 
   expect(pager[pager.length - 1]).toHaveTextContent('500');
   expect(
-    container.querySelector('.cxd-Pagination-pager-item.is-active')!
+    container.querySelector('.prismui-Pagination-pager-item.is-active')!
   ).toHaveTextContent('20');
 
   await wait(200);
@@ -271,11 +271,11 @@ test('Renderer:Pagination with total & perPage & activePage', async () => {
   await wait(200);
 
   const pager2 = container.querySelectorAll(
-    '.cxd-Pagination > .cxd-Pagination-pager-item'
+    '.prismui-Pagination > .prismui-Pagination-pager-item'
   );
   expect(pager2[pager2.length - 1]).toHaveTextContent('9');
   expect(
-    container.querySelector('.cxd-Pagination-pager-item.is-active')!
+    container.querySelector('.prismui-Pagination-pager-item.is-active')!
   ).toHaveTextContent('5');
 });
 
@@ -304,13 +304,13 @@ test('Renderer:Pagination with showPerPage & perPageAvailable & showPageInput', 
 
   function getLastPagerItem() {
     const pager = container.querySelectorAll(
-      '.cxd-Pagination > .cxd-Pagination-pager-item'
+      '.prismui-Pagination > .prismui-Pagination-pager-item'
     );
     return pager[pager.length - 1];
   }
 
-  const perPage = container.querySelector('.cxd-Pagination-perpage')!;
-  const go = container.querySelector('.cxd-Pagination-inputGroup')!;
+  const perPage = container.querySelector('.prismui-Pagination-perpage')!;
+  const go = container.querySelector('.prismui-Pagination-inputGroup')!;
 
   expect(getLastPagerItem()).toHaveTextContent('100');
   expect(perPage).toBeInTheDocument();
@@ -318,7 +318,7 @@ test('Renderer:Pagination with showPerPage & perPageAvailable & showPageInput', 
 
   fireEvent.click(perPage);
   await waitFor(() => {
-    expect(perPage.querySelectorAll('.cxd-Select-option')!.length).toBe(5);
+    expect(perPage.querySelectorAll('.prismui-Select-option')!.length).toBe(5);
     expect(perPage).toMatchSnapshot();
   });
 
@@ -331,11 +331,11 @@ test('Renderer:Pagination with showPerPage & perPageAvailable & showPageInput', 
 
   expect(getLastPagerItem()).toHaveTextContent('10');
 
-  fireEvent.change(go.querySelector('.cxd-Pagination-inputGroup-input')!, {
+  fireEvent.change(go.querySelector('.prismui-Pagination-inputGroup-input')!, {
     target: {value: 9}
   });
   await wait(500);
-  fireEvent.click(go.querySelector('.cxd-Pagination-inputGroup-right')!);
+  fireEvent.click(go.querySelector('.prismui-Pagination-inputGroup-right')!);
 
   await wait(200);
 
@@ -366,12 +366,12 @@ test('Renderer:Pagination with disabled', async () => {
     )
   );
 
-  expect(container.querySelector('.cxd-Pagination-wrap')!).toHaveClass(
+  expect(container.querySelector('.prismui-Pagination-wrap')!).toHaveClass(
     'disabled'
   );
 
   fireEvent.click(
-    await within(container.querySelector('.cxd-Pagination')!).getByText('2')!
+    await within(container.querySelector('.prismui-Pagination')!).getByText('2')!
   );
 
   await wait(200);
@@ -399,7 +399,7 @@ test('pagination: Pagination with size', async () => {
     )
   );
 
-  const paginationEl = container.querySelector('.cxd-Pagination-wrap');
+  const paginationEl = container.querySelector('.prismui-Pagination-wrap');
   expect(paginationEl).toHaveClass(componentClass('Pagination-wrap-size--sm'));
 });
 
@@ -450,7 +450,7 @@ test('pagination: Pagination with ellipsisPageGap', async () => {
     )
   );
 
-  const ellipsisEL = container.querySelector('.cxd-Pagination-ellipsis');
+  const ellipsisEL = container.querySelector('.prismui-Pagination-ellipsis');
   fireEvent.click(ellipsisEL!);
   await wait(200);
   expect(pageChange).toBeCalled();

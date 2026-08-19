@@ -6,8 +6,7 @@ import Spinner from '../src/components/Spinner';
 describe('Spinner ThemeScope portal', () => {
   beforeEach(() => {
     theme('dark', {
-      componentClassPrefix: 'amis-',
-      legacyDomClassAlias: false
+      componentClassPrefix: 'prismui-'
     });
   });
 
@@ -28,12 +27,12 @@ describe('Spinner ThemeScope portal', () => {
     await waitFor(() => {
       expect(
         loadingRoot.querySelector('[data-testid="spinner"]')
-      ).toHaveAttribute('data-amis-theme', 'dark');
+      ).toHaveAttribute('data-prismui-theme', 'dark');
     });
 
-    expect(loadingRoot).not.toHaveAttribute('data-amis-theme');
-    expect(loadingRoot.querySelector('.amis-Spinner-overlay')).toHaveAttribute(
-      'data-amis-theme',
+    expect(loadingRoot).not.toHaveAttribute('data-prismui-theme');
+    expect(loadingRoot.querySelector('.prismui-Spinner-overlay')).toHaveAttribute(
+      'data-prismui-theme',
       'dark'
     );
   });
@@ -41,7 +40,7 @@ describe('Spinner ThemeScope portal', () => {
   it('preserves an existing loading root theme scope', async () => {
     const loadingRoot = document.createElement('div');
     loadingRoot.id = 'dark-loading-root';
-    loadingRoot.setAttribute('data-amis-theme', 'dark');
+    loadingRoot.setAttribute('data-prismui-theme', 'dark');
     document.body.appendChild(loadingRoot);
 
     render(
@@ -51,9 +50,9 @@ describe('Spinner ThemeScope portal', () => {
     await waitFor(() => {
       expect(
         loadingRoot.querySelector('[data-testid="spinner"]')
-      ).toHaveAttribute('data-amis-theme', 'dark');
+      ).toHaveAttribute('data-prismui-theme', 'dark');
     });
 
-    expect(loadingRoot).toHaveAttribute('data-amis-theme', 'dark');
+    expect(loadingRoot).toHaveAttribute('data-prismui-theme', 'dark');
   });
 });

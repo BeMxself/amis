@@ -48,15 +48,15 @@ test('1. Renderer:Picker base', async () => {
   fireEvent.click(getByText('picker-placeholder')!);
 
   expect(
-    baseElement.querySelector('.cxd-Modal .cxd-Crud')!
+    baseElement.querySelector('.prismui-Modal .prismui-Crud')!
   ).toBeInTheDocument();
 
-  const items = baseElement.querySelectorAll('.cxd-Crud .cxd-ListItem');
+  const items = baseElement.querySelectorAll('.prismui-Crud .prismui-ListItem');
   expect(items!.length).toBe(3);
 
   fireEvent.click(items[1]);
   expect(
-    baseElement.querySelector('.cxd-Crud .cxd-ListItem.is-checked')
+    baseElement.querySelector('.prismui-Crud .prismui-ListItem.is-checked')
   ).toHaveTextContent('B');
   expect(baseElement).toMatchSnapshot();
 
@@ -64,7 +64,7 @@ test('1. Renderer:Picker base', async () => {
 
   await wait(500);
 
-  expect(container.querySelector('.cxd-Picker-value')).toHaveTextContent('B');
+  expect(container.querySelector('.prismui-Picker-value')).toHaveTextContent('B');
   expect(container).toMatchSnapshot();
 });
 
@@ -142,19 +142,19 @@ test('2. Renderer:Picker with pickerSchema & valueField & labelField & multiple 
     value: 'a,b'
   });
 
-  const values = container.querySelectorAll('.cxd-Picker .cxd-Picker-value');
+  const values = container.querySelectorAll('.prismui-Picker .prismui-Picker-value');
   expect(values.length).toBe(2);
 
   expect(values[0]).toHaveTextContent('engine a');
 
-  fireEvent.click(container.querySelector('.cxd-Picker-valueWrap')!);
+  fireEvent.click(container.querySelector('.prismui-Picker-valueWrap')!);
 
   await wait(1000);
 
   expect(
-    baseElement.querySelector('.cxd-Modal .cxd-Crud')!
+    baseElement.querySelector('.prismui-Modal .prismui-Crud')!
   ).toBeInTheDocument();
-  expect(baseElement.querySelector('.cxd-Modal')).toHaveClass(componentClass('Modal--lg'));
+  expect(baseElement.querySelector('.prismui-Modal')).toHaveClass(componentClass('Modal--lg'));
 
   expect(fetcher).toBeCalledTimes(2);
   expect(fetcher.mock.calls[1][0].query).toEqual({
@@ -232,7 +232,7 @@ test('3. Renderer:Picker with embed', async () => {
 
   await wait(500);
   expect(
-    container.querySelector('.cxd-Picker .cxd-Crud .cxd-Table')
+    container.querySelector('.prismui-Picker .prismui-Crud .prismui-Table')
   ).toBeInTheDocument();
 });
 
@@ -266,7 +266,7 @@ test('4. Renderer:Picker with drawer modalMode', async () => {
   await wait(500);
 
   expect(
-    baseElement.querySelector('.cxd-Drawer .cxd-Crud')!
+    baseElement.querySelector('.prismui-Drawer .prismui-Crud')!
   ).toBeInTheDocument();
 });
 
@@ -296,7 +296,7 @@ test('4. Renderer:Picker with drawer modalMode', async () => {
 
 //     await wait(500);
 
-//     const tags = container.querySelector('.cxd-Picker-valueWrap');
+//     const tags = container.querySelector('.prismui-Picker-valueWrap');
 
 //     expect(tags).toBeInTheDocument();
 //     /** tag 元素数量正确 */
@@ -334,7 +334,7 @@ test('4. Renderer:Picker with drawer modalMode', async () => {
 //     await wait(500);
 
 //     const tags = container.querySelectorAll(
-//       '.cxd-Crud-selection .cxd-Crud-value'
+//       '.prismui-Crud-selection .prismui-Crud-value'
 //     );
 //     /** tag 元素数量正确 */
 //     expect(tags?.length).toEqual(3);
@@ -511,6 +511,6 @@ test('6. picker with toolbar form', async () => {
     );
 
   await wait(200);
-  expect(container.querySelector('.cxd-Select-value')).toBeInTheDocument();
-  expect(container.querySelector('.cxd-Select-value')).toHaveTextContent('id');
+  expect(container.querySelector('.prismui-Select-value')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Select-value')).toHaveTextContent('id');
 });

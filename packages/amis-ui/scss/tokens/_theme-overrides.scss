@@ -1,22 +1,22 @@
-@if $amis-theme-name != null {
-  @layer amis.tokens {
-    [data-amis-theme='#{$amis-theme-name}'] {
-      --amis-palette-brand-400: #{$amis-palette-brand-400};
-      --amis-palette-brand-500: #{$amis-palette-brand-500};
-      --amis-palette-brand-600: #{$amis-palette-brand-600};
-      --amis-palette-neutral-text-inverse: #{$amis-palette-neutral-text-inverse};
-      --amis-color-brand-bg: var(--amis-palette-brand-500);
-      --amis-color-brand-hover-bg: var(--amis-palette-brand-600);
-      --amis-color-brand-active-bg: var(--amis-palette-brand-400);
-      --amis-color-brand-border: var(--amis-palette-brand-500);
-      --amis-color-brand-hover-border: var(--amis-palette-brand-600);
-      --amis-color-brand-active-border: var(--amis-palette-brand-400);
+@if $prismui-theme-name != null {
+  @layer prismui.tokens {
+    [data-prismui-theme='#{$prismui-theme-name}'] {
+      --prismui-palette-brand-400: #{$prismui-palette-brand-400};
+      --prismui-palette-brand-500: #{$prismui-palette-brand-500};
+      --prismui-palette-brand-600: #{$prismui-palette-brand-600};
+      --prismui-palette-neutral-text-inverse: #{$prismui-palette-neutral-text-inverse};
+      --prismui-color-brand-bg: var(--prismui-palette-brand-500);
+      --prismui-color-brand-hover-bg: var(--prismui-palette-brand-600);
+      --prismui-color-brand-active-bg: var(--prismui-palette-brand-400);
+      --prismui-color-brand-border: var(--prismui-palette-brand-500);
+      --prismui-color-brand-hover-border: var(--prismui-palette-brand-600);
+      --prismui-color-brand-active-border: var(--prismui-palette-brand-400);
     }
   }
 
-  @layer amis.theme {
-    [data-amis-theme='#{$amis-theme-name}'] {
-      --amis-theme-name: '#{$amis-theme-name}';
+  @layer prismui.theme {
+    [data-prismui-theme='#{$prismui-theme-name}'] {
+      --prismui-theme-name: '#{$prismui-theme-name}';
     }
   }
 }

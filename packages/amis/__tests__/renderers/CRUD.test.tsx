@@ -250,11 +250,11 @@ test('3. Renderer:crud loadDataOnce', async () => {
   });
 
   expect(
-    container.querySelectorAll('.cxd-Table-tr--1th .cxd-PlainField')[4]
+    container.querySelectorAll('.prismui-Table-tr--1th .prismui-PlainField')[4]
       ?.innerHTML
   ).toEqual('4');
   // 啥意思？为何不能有分页？
-  // expect(container.querySelector('.cxd-Crud-pager')).not.toBeInTheDocument();
+  // expect(container.querySelector('.prismui-Crud-pager')).not.toBeInTheDocument();
   // expect(container).toMatchSnapshot();
 });
 
@@ -282,7 +282,7 @@ test('4. Renderer:crud list', async () => {
   );
 
   await waitFor(() => {
-    expect(container.querySelectorAll('.cxd-ListItem').length > 5).toBeTruthy();
+    expect(container.querySelectorAll('.prismui-ListItem').length > 5).toBeTruthy();
   });
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot();
@@ -325,7 +325,7 @@ test('5. Renderer:crud cards', async () => {
   );
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Card-title')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Card-title')).toBeInTheDocument();
   });
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot();
@@ -528,7 +528,7 @@ test('9. Renderer:crud quickEdit quickSaveApi', async () => {
   await waitFor(() => {
     expect(container.querySelectorAll('tbody>tr').length > 5).toBeTruthy();
   });
-  fireEvent.click(container.querySelector('.cxd-Field-quickEditBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Field-quickEditBtn')!);
   await waitFor(() => {
     expect(container.querySelector('input[name="engine"]')).toBeInTheDocument();
   });
@@ -583,7 +583,7 @@ test('10. Renderer:crud quickSaveItemApi saveImmediately', async () => {
   await waitFor(() => {
     expect(container.querySelectorAll('tbody>tr').length > 5).toBeTruthy();
   });
-  fireEvent.click(container.querySelector('.cxd-Field-quickEditBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Field-quickEditBtn')!);
   await waitFor(() => {
     expect(
       container.querySelector('input[name="browser"]')
@@ -642,7 +642,7 @@ test('10.1 quickEdit.saveImmediately对象形式,能够触发接口调用', asyn
     )
   );
 
-  const switchBtn = container.querySelector('.cxd-Switch.is-checked')!;
+  const switchBtn = container.querySelector('.prismui-Switch.is-checked')!;
   expect(switchBtn).toBeInTheDocument();
   fireEvent.click(switchBtn);
 
@@ -698,14 +698,14 @@ test('11. Renderer:crud bulkActions', async () => {
     expect(container.querySelectorAll('tbody>tr').length > 5).toBeTruthy();
   });
   expect(
-    container.querySelector('.cxd-Button.is-disabled')
+    container.querySelector('.prismui-Button.is-disabled')
   ).toBeInTheDocument();
   fireEvent.click(
-    container.querySelector('.cxd-Table-checkCell input[type="checkbox"]')!
+    container.querySelector('.prismui-Table-checkCell input[type="checkbox"]')!
   );
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-Button.is-disabled')
+      container.querySelector('.prismui-Button.is-disabled')
     ).not.toBeInTheDocument();
   });
 });
@@ -801,7 +801,7 @@ test('13. enderer: crud keepItemSelectionOnPageChange & maxKeepItemSelectionLeng
   fireEvent.click(container.querySelector('th input[type="checkbox"]')!);
   await waitFor(() => {
     expect(
-      container.querySelectorAll('.cxd-Crud-selection>.cxd-Crud-value').length
+      container.querySelectorAll('.prismui-Crud-selection>.prismui-Crud-value').length
     ).toBe(4);
   });
   replaceReactAriaIds(container);
@@ -1010,7 +1010,7 @@ test('15. Renderer:crud group', async () => {
   });
   expect(
     (
-      container.querySelector('th.cxd-Table-checkCell') as HTMLElement
+      container.querySelector('th.prismui-Table-checkCell') as HTMLElement
     ).getAttribute('rowSpan')
   ).toBe('2');
 });
@@ -1055,7 +1055,7 @@ test('16. Renderer: crud searchable sortable filterable', async () => {
   fireEvent.click(container.querySelector('[icon="search"]')!);
 
   await waitFor(() => {
-    expect(container.querySelector('.amis-PopOver')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-PopOver')).toBeInTheDocument();
   });
 
   // 弹窗中没有 排序
@@ -1278,12 +1278,12 @@ test('20. CRUD filters contain fields that modification inspection should use st
     )
   );
 
-  const select = container.querySelector('.cxd-Select')!;
+  const select = container.querySelector('.prismui-Select')!;
   const submitBtn = container.querySelector("button[type='submit']")!;
 
   fireEvent.click(select);
   await wait(200);
-  let options = container.querySelectorAll('.cxd-Select-option-content');
+  let options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[0]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1293,7 +1293,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 0 -> false 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[3]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1303,7 +1303,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 false -> '' 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[4]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1313,7 +1313,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 '' -> 0 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[0]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1323,7 +1323,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 切换到1 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[1]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1333,7 +1333,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 1 -> true 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[2]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1343,7 +1343,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 true -> '1' 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[6]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1353,7 +1353,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 切换到false */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[3]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1363,7 +1363,7 @@ test('20. CRUD filters contain fields that modification inspection should use st
   /** 从 false -> '0' 查询成功 */
   fireEvent.click(select);
   await wait(200);
-  options = container.querySelectorAll('.cxd-Select-option-content');
+  options = container.querySelectorAll('.prismui-Select-option-content');
   fireEvent.click(options[5]);
   await wait(200);
   fireEvent.click(submitBtn);
@@ -1433,7 +1433,7 @@ test('21. CRUD reUseRow set false to reset crud state when api return same data'
   });
 
   // 切换switch
-  const switchBtn = container.querySelectorAll('.cxd-Switch');
+  const switchBtn = container.querySelectorAll('.prismui-Switch');
   fireEvent.click(switchBtn[0]);
   await wait(200);
 
@@ -1441,7 +1441,7 @@ test('21. CRUD reUseRow set false to reset crud state when api return same data'
   expect(checks1.length).toEqual(1);
 
   // 刷新
-  const btn = container.querySelectorAll('.cxd-Button')!;
+  const btn = container.querySelectorAll('.prismui-Button')!;
   fireEvent.click(btn[0]);
   await wait(300);
 
@@ -1570,11 +1570,11 @@ describe('22. CRUD reload and reset selcted rows', () => {
 
     // 全选数据, 选中2条数据
     const checkbox = container.querySelector(
-      '.cxd-Table-checkCell input[type="checkbox"]'
+      '.prismui-Table-checkCell input[type="checkbox"]'
     )!;
     fireEvent.click(checkbox);
     expect(
-      container.querySelectorAll('.cxd-Table-table-tr.is-checked')?.length
+      container.querySelectorAll('.prismui-Table-table-tr.is-checked')?.length
     ).toEqual(2);
 
     // 刷新数据，选中数据清空
@@ -1584,7 +1584,7 @@ describe('22. CRUD reload and reset selcted rows', () => {
     await wait(200);
 
     expect(
-      container.querySelectorAll('.cxd-Table-table-tr.is-checked')?.length
+      container.querySelectorAll('.prismui-Table-table-tr.is-checked')?.length
     ).toEqual(0);
   });
 
@@ -1709,11 +1709,11 @@ describe('22. CRUD reload and reset selcted rows', () => {
 
     // 全选数据, 选中2条数据
     const checkbox = container.querySelector(
-      '.cxd-Table-checkCell input[type="checkbox"]'
+      '.prismui-Table-checkCell input[type="checkbox"]'
     )!;
     fireEvent.click(checkbox);
     expect(
-      container.querySelectorAll('.cxd-Table-table-tr.is-checked')?.length
+      container.querySelectorAll('.prismui-Table-table-tr.is-checked')?.length
     ).toEqual(2);
 
     // 刷新数据，选中数据清空
@@ -1723,7 +1723,7 @@ describe('22. CRUD reload and reset selcted rows', () => {
     await wait(200);
 
     expect(
-      container.querySelectorAll('.cxd-Table-table-tr.is-checked')?.length
+      container.querySelectorAll('.prismui-Table-table-tr.is-checked')?.length
     ).toEqual(0);
   });
 });
@@ -1825,14 +1825,14 @@ test('23. Nested CRUD change to normal CRUD', async () => {
     })
   );
 
-  const space = container.querySelectorAll('.cxd-Table-expandSpace');
-  const button = container.querySelectorAll('.cxd-Button')[0];
+  const space = container.querySelectorAll('.prismui-Table-expandSpace');
+  const button = container.querySelectorAll('.prismui-Button')[0];
   expect(space.length).toEqual(1);
 
   fireEvent.click(button);
   await wait(100);
 
-  const newSpace = container.querySelectorAll('.cxd-Table-expandSpace');
+  const newSpace = container.querySelectorAll('.prismui-Table-expandSpace');
   expect(newSpace.length).toEqual(0);
 });
 
@@ -1934,16 +1934,16 @@ test('25. CRUD Table Cell sync data to store', async () => {
 
   await wait(300);
 
-  const button = container.querySelectorAll('.cxd-Button')[0];
+  const button = container.querySelectorAll('.prismui-Button')[0];
 
   // 刚开始存在 list 字段，所以是 1
-  const listDoms = container.querySelectorAll('.cxd-ListItem-title');
+  const listDoms = container.querySelectorAll('.prismui-ListItem-title');
   expect(listDoms.length).toEqual(1);
 
   fireEvent.click(button);
   await wait(300);
 
   // 切换后 list 字段是 undefined 了，所以应该不显示了
-  const listDoms2 = container.querySelectorAll('.cxd-ListItem-title');
+  const listDoms2 = container.querySelectorAll('.prismui-ListItem-title');
   expect(listDoms2.length).toEqual(0);
 });

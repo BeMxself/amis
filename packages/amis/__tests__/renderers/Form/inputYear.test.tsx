@@ -38,7 +38,7 @@ test('Renderer:inputYear click', async () => {
   fireEvent.click(thisYear);
 
   const value = document.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   ) as HTMLInputElement;
 
   expect(value.value).toEqual(thisYearText);

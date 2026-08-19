@@ -3,24 +3,24 @@
 exports[`Renderer:Each basic use 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Each"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -32,7 +32,7 @@ exports[`Renderer:Each basic use 1`] = `
               </span>
             </span>
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -44,7 +44,7 @@ exports[`Renderer:Each basic use 1`] = `
               </span>
             </span>
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 <span
@@ -66,17 +66,17 @@ exports[`Renderer:Each basic use 1`] = `
 exports[`Renderer:Each in form 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -85,10 +85,10 @@ exports[`Renderer:Each in form 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -96,10 +96,10 @@ exports[`Renderer:Each in form 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Each"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -110,7 +110,7 @@ exports[`Renderer:Each in form 1`] = `
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -121,7 +121,7 @@ exports[`Renderer:Each in form 1`] = `
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <span
@@ -135,13 +135,13 @@ exports[`Renderer:Each in form 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -157,10 +157,10 @@ exports[`Renderer:Each in form 1`] = `
 exports[`Renderer:Each with array of objects value 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Each show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Each show"
   >
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         <span
@@ -172,7 +172,7 @@ exports[`Renderer:Each with array of objects value 1`] = `
       </span>
     </span>
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
     >
       <span>
         <span
@@ -190,27 +190,27 @@ exports[`Renderer:Each with array of objects value 1`] = `
 exports[`Renderer:Each with source 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Each"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Each"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wrapper __AMIS_COMPONENT_CLASS_PREFIX__Wrapper--md"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wrapper __PRISMUI_COMPONENT_CLASS_PREFIX__Wrapper--md"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   <span
@@ -222,20 +222,20 @@ exports[`Renderer:Each with source 1`] = `
                 </span>
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tag __AMIS_COMPONENT_CLASS_PREFIX__Tag--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tag __PRISMUI_COMPONENT_CLASS_PREFIX__Tag--normal"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tag-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tag-text"
                 >
                   age: 21
                 </span>
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wrapper __AMIS_COMPONENT_CLASS_PREFIX__Wrapper--md"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wrapper __PRISMUI_COMPONENT_CLASS_PREFIX__Wrapper--md"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   <span
@@ -247,10 +247,10 @@ exports[`Renderer:Each with source 1`] = `
                 </span>
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tag __AMIS_COMPONENT_CLASS_PREFIX__Tag--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tag __PRISMUI_COMPONENT_CLASS_PREFIX__Tag--normal"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tag-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tag-text"
                 >
                   age: 29
                 </span>

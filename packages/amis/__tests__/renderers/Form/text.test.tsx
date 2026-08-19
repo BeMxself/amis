@@ -144,7 +144,7 @@ test('Renderer:text type is password', async () => {
   expect(container).toMatchSnapshot('password invisible');
 
   const revealPasswordBtn = container.querySelector(
-    '.cxd-TextControl-revealPassword'
+    '.prismui-TextControl-revealPassword'
   ) as HTMLElement;
 
   fireEvent.click(revealPasswordBtn);
@@ -167,7 +167,7 @@ test('Renderer:text type is password with revealPassword', async () => {
   });
 
   expect(
-    container.querySelector('.cxd-TextControl-revealPassword') as Element
+    container.querySelector('.prismui-TextControl-revealPassword') as Element
   ).not.toBeInTheDocument();
 
   fireEvent.change(input, {target: {value: 'abcd'}});
@@ -206,7 +206,7 @@ test('Renderer:text with clearable', async () => {
   expect(container).toMatchSnapshot();
 
   fireEvent.click(
-    container.querySelector('a.cxd-TextControl-clear') as HTMLElement
+    container.querySelector('a.prismui-TextControl-clear') as HTMLElement
   );
   await wait(300);
   expect(input.value).toBe('');
@@ -234,7 +234,7 @@ test('Renderer:text with options', async () => {
 
   // 展开 options
   fireEvent.click(
-    container.querySelector('.cxd-TextControl-input > input') as HTMLElement
+    container.querySelector('.prismui-TextControl-input > input') as HTMLElement
   );
   await wait(300);
 
@@ -244,7 +244,7 @@ test('Renderer:text with options', async () => {
   // 选中一项
   fireEvent.click(
     container.querySelector(
-      '.cxd-TextControl-sugs .cxd-TextControl-sugItem'
+      '.prismui-TextControl-sugs .prismui-TextControl-sugItem'
     ) as HTMLElement
   );
   await wait(300);
@@ -294,7 +294,7 @@ describe('Renderer:text with options and multiple', () => {
     );
 
     const textControl = container.querySelector(
-      '.cxd-TextControl-input'
+      '.prismui-TextControl-input'
     ) as HTMLElement;
 
     // 展开 options
@@ -307,7 +307,7 @@ describe('Renderer:text with options and multiple', () => {
     // 选中第一项
     fireEvent.click(
       container.querySelector(
-        '.cxd-TextControl-sugs .cxd-TextControl-sugItem'
+        '.prismui-TextControl-sugs .prismui-TextControl-sugItem'
       ) as HTMLElement
     );
     await wait(300);
@@ -328,14 +328,14 @@ describe('Renderer:text with options and multiple', () => {
     // 选中 options 中的第一项
     fireEvent.click(
       container.querySelector(
-        '.cxd-TextControl-sugs .cxd-TextControl-sugItem'
+        '.prismui-TextControl-sugs .prismui-TextControl-sugItem'
       ) as HTMLElement
     );
     await wait(300);
 
     // 分隔符
     expect(
-      (container.querySelector('.cxd-PlainField') as Element).innerHTML
+      (container.querySelector('.prismui-PlainField') as Element).innerHTML
     ).toBe('a-b');
 
     replaceReactAriaIds(container);
@@ -350,7 +350,7 @@ describe('Renderer:text with options and multiple', () => {
     await wait(500);
 
     expect(
-      (container.querySelector('.cxd-PlainField') as Element).innerHTML
+      (container.querySelector('.prismui-PlainField') as Element).innerHTML
     ).toBe('a-b-AbCd');
 
     replaceReactAriaIds(container);
@@ -385,14 +385,14 @@ describe('Renderer:text with options and multiple', () => {
     });
 
     const textControl = container.querySelector(
-      '.cxd-TextControl-input'
+      '.prismui-TextControl-input'
     ) as HTMLElement;
 
     fireEvent.click(textControl);
     await wait(300);
     replaceReactAriaIds(container);
     const listItems = container.querySelectorAll(
-      '.cxd-TextControl-sugs .cxd-TextControl-sugItem'
+      '.prismui-TextControl-sugs .prismui-TextControl-sugItem'
     );
     expect(listItems.length).toBe(4);
 
@@ -505,7 +505,7 @@ test('Renderer:text with resetValue and trimContents', async () => {
     ]
   );
 
-  const resetBtn = container.querySelector('.cxd-Button.reset-button');
+  const resetBtn = container.querySelector('.prismui-Button.reset-button');
   await waitFor(() => {
     expect(resetBtn).toBeInTheDocument();
   });
@@ -517,7 +517,7 @@ test('Renderer:text with resetValue and trimContents', async () => {
 
   // trimContents
   const textControl = container.querySelector(
-    '.cxd-TextControl-input'
+    '.prismui-TextControl-input'
   ) as HTMLElement;
 
   fireEvent.click(textControl);
@@ -546,7 +546,7 @@ test('Renderer:text with minLength', async () => {
   );
 
   const textControl = container.querySelector(
-    '.cxd-TextControl-input'
+    '.prismui-TextControl-input'
   ) as HTMLElement;
 
   // 测试 minLength
@@ -557,7 +557,7 @@ test('Renderer:text with minLength', async () => {
   fireEvent.click(submitBtn);
   await wait(300);
   expect(
-    container.querySelector('.cxd-TextControl.has-error--minLength') as Element
+    container.querySelector('.prismui-TextControl.has-error--minLength') as Element
   ).toBeInTheDocument();
 
   // 测试 maxLength
@@ -566,7 +566,7 @@ test('Renderer:text with minLength', async () => {
   fireEvent.change(input, {target: {value: '123456789'}});
   await wait(500);
   expect(
-    container.querySelector('.cxd-TextControl.has-error--maxLength') as Element
+    container.querySelector('.prismui-TextControl.has-error--maxLength') as Element
   ).toBeInTheDocument();
 
   replaceReactAriaIds(container);

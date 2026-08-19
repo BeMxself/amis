@@ -40,7 +40,7 @@ describe('Renderer:Switch', () => {
     );
 
     expect(
-      (container.querySelector('.cxd-SwitchControl .cxd-Switch .text') as Element).innerHTML
+      (container.querySelector('.prismui-SwitchControl .prismui-Switch .text') as Element).innerHTML
     ).toBe('已开启飞行模式');
 
     expect(container).toMatchSnapshot();
@@ -65,7 +65,7 @@ describe('Renderer:Switch', () => {
       )
     );
 
-    const SwitchDom = container.querySelector('.cxd-Switch--sm');
+    const SwitchDom = container.querySelector('.prismui-Switch--sm');
 
     expect(SwitchDom).toBeTruthy();
     expect(container).toMatchSnapshot();
@@ -106,7 +106,7 @@ test('Renderer:Switch with loading status', async () => {
     )
   );
 
-  const loadingDom = container.querySelectorAll('.cxd-Switch-spinner');
+  const loadingDom = container.querySelectorAll('.prismui-Switch-spinner');
 
   expect(loadingDom?.length).toEqual(2);
 });
@@ -153,7 +153,7 @@ test('Renderer:Switch onText & offText schema', async () => {
     )
   );
 
-  const text = container.querySelector('.cxd-Switch > span.text')!;
+  const text = container.querySelector('.prismui-Switch > span.text')!;
 
   /** offText的Schema包含了2个元素 */
   expect(text?.childNodes?.length).toEqual(2);

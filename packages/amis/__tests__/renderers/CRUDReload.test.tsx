@@ -647,13 +647,13 @@ test('reload event triggered and clear selectedItems & unselectedItems', async (
   });
 
   fireEvent.click(
-    container.querySelector('.cxd-Table-checkCell input[type="checkbox"]')!
+    container.querySelector('.prismui-Table-checkCell input[type="checkbox"]')!
   );
   await wait(200);
   expect(container.querySelectorAll('tbody>tr.is-checked').length).toEqual(3);
 
   /** 触发reload后勾选项清空 */
-  const deleteBtn = container.querySelector('.cxd-Button.deleteBtn');
+  const deleteBtn = container.querySelector('.prismui-Button.deleteBtn');
   expect(deleteBtn).toBeInTheDocument();
   fireEvent.click(deleteBtn!);
   await wait(500);

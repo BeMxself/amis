@@ -41,6 +41,15 @@ node "$ROOT_DIR/scripts/generate-search-data.js"
 
 GH_PAGES_DOCS_DIR="$GH_PAGES_DIR/docs"
 GH_PAGES_SDK_DIR="$GH_PAGES_DIR/sdk"
+MERMAID_SOURCE="$ROOT_DIR/node_modules/mermaid/dist/mermaid.min.js"
+
+if [[ ! -f "$MERMAID_SOURCE" ]]; then
+  echo "Missing Mermaid bundle: $MERMAID_SOURCE" >&2
+  exit 1
+fi
+
+mkdir -p "$GH_PAGES_DOCS_DIR/vendor/mermaid"
+cp "$MERMAID_SOURCE" "$GH_PAGES_DOCS_DIR/vendor/mermaid/mermaid.min.js"
 
 node - "$GH_PAGES_DOCS_DIR/docs.json" <<'NODE'
 const fs = require('fs');

@@ -6,7 +6,7 @@ function buildSdkThemeCss(cssContents, options) {
   options = options || {};
 
   var themes = options.themes || defaultSdkThemes;
-  var prefix = options.prefix || '.amis-scope';
+  var prefix = options.prefix || '.prismui-scope';
 
   return themes.map(function (theme) {
     var excludedThemeFiles = themes

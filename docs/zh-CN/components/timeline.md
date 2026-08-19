@@ -586,7 +586,7 @@ order: 73
         {
           cardSchema: {
             type: 'card',
-            href: 'https://github.com/baidu/amis',
+            href: 'https://github.com/Gengxin-Tech/prismui',
             header: {
               title: '标题',
               subTitle: '副标题',
@@ -600,7 +600,7 @@ order: 73
           time: '2019-02-08',
           cardSchema: {
             type: 'card',
-            href: 'https://github.com/baidu/amis',
+            href: 'https://github.com/Gengxin-Tech/prismui',
             header: {
               title: '标题',
               subTitle: '副标题',
@@ -636,7 +636,7 @@ order: 73
     direction: 'horizontal',
     cardSchema: {
       type: 'card',
-      href: 'https://github.com/baidu/amis',
+      href: 'https://github.com/Gengxin-Tech/prismui',
       header: {
         title: '${title}',
         subTitle: '${time}',
@@ -648,7 +648,7 @@ order: 73
       {
         cardSchema: {
           type: 'card',
-          href: 'https://github.com/baidu/amis',
+          href: 'https://github.com/Gengxin-Tech/prismui',
           header: {
             title: '标题',
             subTitle: '副标题',

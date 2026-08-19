@@ -3,17 +3,17 @@
 exports[`Renderer:number 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:number 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:number 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -51,46 +51,46 @@ exports[`Renderer:number 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="456"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="a"
                   role="spinbutton"
                   step="1"
@@ -109,17 +109,17 @@ exports[`Renderer:number 1`] = `
 exports[`Renderer:number with big value 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -128,10 +128,10 @@ exports[`Renderer:number with big value 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -139,16 +139,16 @@ exports[`Renderer:number with big value 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -157,48 +157,48 @@ exports[`Renderer:number with big value 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="true"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-disabled"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuemax="99999999999999999.99"
                   aria-valuemin="9999999999999999.99"
                   aria-valuenow="99999999999999999.99"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="1"
@@ -211,13 +211,13 @@ exports[`Renderer:number with big value 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -233,17 +233,17 @@ exports[`Renderer:number with big value 1`] = `
 exports[`Renderer:number with borderMode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -252,10 +252,10 @@ exports[`Renderer:number with borderMode 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -263,16 +263,16 @@ exports[`Renderer:number with borderMode 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -281,45 +281,45 @@ exports[`Renderer:number with borderMode 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderNone"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderNone"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="1"
@@ -332,13 +332,13 @@ exports[`Renderer:number with borderMode 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -354,17 +354,17 @@ exports[`Renderer:number with borderMode 1`] = `
 exports[`Renderer:number with borderMode 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -373,10 +373,10 @@ exports[`Renderer:number with borderMode 2`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -384,16 +384,16 @@ exports[`Renderer:number with borderMode 2`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -402,45 +402,45 @@ exports[`Renderer:number with borderMode 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderHalf"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderHalf"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="1"
@@ -453,13 +453,13 @@ exports[`Renderer:number with borderMode 2`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -475,17 +475,17 @@ exports[`Renderer:number with borderMode 2`] = `
 exports[`Renderer:number with precision and default value 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -494,10 +494,10 @@ exports[`Renderer:number with precision and default value 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -505,16 +505,16 @@ exports[`Renderer:number with precision and default value 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -523,46 +523,46 @@ exports[`Renderer:number with precision and default value 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="2.99"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="0.01"
@@ -575,13 +575,13 @@ exports[`Renderer:number with precision and default value 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -597,17 +597,17 @@ exports[`Renderer:number with precision and default value 1`] = `
 exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -616,10 +616,10 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -627,16 +627,16 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -645,46 +645,46 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="123456"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="1"
@@ -697,13 +697,13 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -719,17 +719,17 @@ exports[`Renderer:number with prefix & suffix & kilobitSeparator 1`] = `
 exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -738,10 +738,10 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -749,16 +749,16 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -767,57 +767,57 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number--enhance __AMIS_COMPONENT_CLASS_PREFIX__Number--enhance-borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number--enhance __PRISMUI_COMPONENT_CLASS_PREFIX__Number--enhance-borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number--enhance-left-icon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number--enhance-left-icon"
               >
                 <icon-mock
-                  class="icon icon-minus __AMIS_COMPONENT_CLASS_PREFIX__InputNumber-enhance-minus icon"
+                  class="icon icon-minus __PRISMUI_COMPONENT_CLASS_PREFIX__InputNumber-enhance-minus icon"
                   icon="minus"
                 />
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--enhance-input __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--enhance-input __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                 >
                   <span
                     aria-disabled="false"
                     aria-label="Increase Value"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                       unselectable="on"
                     />
                   </span>
                   <span
                     aria-disabled="false"
                     aria-label="Decrease Value"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                     role="button"
                     unselectable="on"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                       unselectable="on"
                     />
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                 >
                   <input
                     aria-valuenow="14.111"
                     autocomplete="off"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                     name="number"
                     role="spinbutton"
                     step="3"
@@ -826,10 +826,10 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number--enhance-right-icon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number--enhance-right-icon"
               >
                 <icon-mock
-                  class="icon icon-plus __AMIS_COMPONENT_CLASS_PREFIX__InputNumber-enhance-plus icon"
+                  class="icon icon-plus __PRISMUI_COMPONENT_CLASS_PREFIX__InputNumber-enhance-plus icon"
                   icon="plus"
                 />
               </div>
@@ -839,13 +839,13 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -861,17 +861,17 @@ exports[`Renderer:number with step & precision & displayMode & keyboard 1`] = `
 exports[`Renderer:number with unitOptions 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -880,10 +880,10 @@ exports[`Renderer:number with unitOptions 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -891,16 +891,16 @@ exports[`Renderer:number with unitOptions 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   number
@@ -909,46 +909,46 @@ exports[`Renderer:number with unitOptions 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__NumberControl--withUnit __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl--withUnit __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="99"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="number"
                   role="spinbutton"
                   step="1"
@@ -959,21 +959,21 @@ exports[`Renderer:number with unitOptions 1`] = `
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__NumberControl-unit"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl-unit"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   em
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -984,18 +984,18 @@ exports[`Renderer:number with unitOptions 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="number"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 99em
               </span>
@@ -1005,13 +1005,13 @@ exports[`Renderer:number with unitOptions 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

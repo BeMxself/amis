@@ -3,26 +3,26 @@
 exports[`Renderer:Progress 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-inter"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-inter"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-info"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-info"
           style="width: 60%;"
           title="60%"
         />
       </div>
     </div>
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-text"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-text"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           60%
@@ -36,17 +36,17 @@ exports[`Renderer:Progress 1`] = `
 exports[`Renderer:Progress as form item 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -55,10 +55,10 @@ exports[`Renderer:Progress as form item 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -66,16 +66,16 @@ exports[`Renderer:Progress as form item 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="progress"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   进度
@@ -84,32 +84,32 @@ exports[`Renderer:Progress as form item 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-inter"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-inter"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-success"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-success"
                       style="width: 61%;"
                       title="61%"
                     />
                   </div>
                 </div>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-text"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       61%
@@ -123,13 +123,13 @@ exports[`Renderer:Progress as form item 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -145,26 +145,26 @@ exports[`Renderer:Progress as form item 1`] = `
 exports[`Renderer:Progress with map 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-inter"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-inter"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar"
           style="width: 60%; background-color: rgb(249, 109, 62);"
           title="60%"
         />
       </div>
     </div>
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-text"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-text"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           60%
@@ -178,10 +178,10 @@ exports[`Renderer:Progress with map 1`] = `
 exports[`Renderer:Progress with mode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle"
       style="width: 80px; height: 80px;"
     >
       <svg
@@ -212,10 +212,10 @@ exports[`Renderer:Progress with mode 1`] = `
         />
       </svg>
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle-text"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle-text"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             63%
@@ -230,10 +230,10 @@ exports[`Renderer:Progress with mode 1`] = `
 exports[`Renderer:Progress with mode 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle"
       style="width: 80px; height: 80px;"
     >
       <svg
@@ -264,10 +264,10 @@ exports[`Renderer:Progress with mode 2`] = `
         />
       </svg>
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle-text"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle-text"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             64%
@@ -282,26 +282,26 @@ exports[`Renderer:Progress with mode 2`] = `
 exports[`Renderer:Progress with stripe & animate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-inter"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-inter"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-success __AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar--stripe __AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar--stripe-animate"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-success __PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar--stripe __PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar--stripe-animate"
           style="width: 62%;"
           title="62%"
         />
       </div>
     </div>
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-text"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-text"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           62%
@@ -315,46 +315,46 @@ exports[`Renderer:Progress with stripe & animate 1`] = `
 exports[`Renderer:Progress with threshold & showThresholdText 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-threshold"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-threshold"
         style="left: 30%; border-color: red;"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-threshold-text"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-threshold-text"
         >
           30%
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-threshold"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-threshold"
         style="left: 90%; border-color: blue;"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-threshold-text"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-threshold-text"
         >
           90%
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-inter"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-inter"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-info"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-bar bg-info"
           style="width: 60%;"
           title="60%"
         />
       </div>
     </div>
     <span
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-line-text"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-line-text"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
       >
         <span>
           60%
@@ -368,10 +368,10 @@ exports[`Renderer:Progress with threshold & showThresholdText 1`] = `
 exports[`Renderer:Progress with valueTpl 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Progress"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle"
       style="width: 80px; height: 80px;"
     >
       <svg
@@ -402,10 +402,10 @@ exports[`Renderer:Progress with valueTpl 1`] = `
         />
       </svg>
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Progress-circle-text"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Progress-circle-text"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             67个

@@ -116,7 +116,7 @@
   color: $font-color;
 
   & a,
-  & .amis-Button--link {
+  & .prismui-Button--link {
     color: $link-color;
 
     &:hover {
@@ -250,7 +250,7 @@
   padding: $paddingTop $paddingRight $paddingBottom $paddingLeft;
   margin: $marginTop $marginRight $marginBottom $marginLeft;
 
-  .amis-Button-icon:first-child:not(:last-child):not(.pull-right),
+  .prismui-Button-icon:first-child:not(:last-child):not(.pull-right),
   > svg.icon:not(:last-child):not(.pull-right),
   > .pull-left {
     margin-right: $iconMargin;
@@ -260,7 +260,7 @@
     line-height: $iconSize;
   }
 
-  .amis-Button-icon:last-child:not(:first-child):not(.pull-left),
+  .prismui-Button-icon:last-child:not(:first-child):not(.pull-left),
   > .pull-right {
     font-size: $iconSize;
     margin-left: $iconMargin;
@@ -269,7 +269,7 @@
     line-height: $iconSize;
   }
 
-  .amis-Button--loading:first-child:not(:last-child):not(.pull-right),
+  .prismui-Button--loading:first-child:not(:last-child):not(.pull-right),
   > svg.icon:not(:last-child):not(.pull-right),
   > .pull-left {
     font-size: $iconSize;
@@ -279,7 +279,7 @@
     line-height: $iconSize;
   }
 
-  .amis-Button--loading:last-child:not(:first-child):not(.pull-left),
+  .prismui-Button--loading:last-child:not(:first-child):not(.pull-left),
   > .pull-right {
     font-size: $iconSize;
     margin-left: $iconMargin;
@@ -288,10 +288,10 @@
     line-height: $iconSize;
   }
 
-  &.amis-Button--iconOnly {
+  &.prismui-Button--iconOnly {
     min-width: $height;
     padding: 0;
-    &:not(.amis-Button--link) {
+    &:not(.prismui-Button--link) {
       > svg.icon {
         width: $iconSize;
         height: $iconSize;
@@ -309,7 +309,7 @@
   }
 
   // img 需要加一下高度限制
-  img.amis-Button-icon {
+  img.prismui-Button-icon {
     height: $iconSize;
     vertical-align: middle;
   }

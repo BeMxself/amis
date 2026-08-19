@@ -81,3 +81,27 @@ test('HocQuickEdit exposes the quick-edit root through wrapperRef', () => {
   expect(wrapperRef.current).toHaveClass('Field--quickEditable');
   expect(wrapperRef.current).toHaveTextContent('value');
 });
+
+test('HocQuickEdit preserves wrapperRef when quick edit is inactive', () => {
+  const wrapperRef = React.createRef<HTMLElement>();
+  const Host = ({wrapperRef, children}: any) => (
+    <div ref={wrapperRef} data-testid="host">
+      value
+      {children}
+    </div>
+  );
+  const QuickEditHost = HocQuickEdit()(Host) as React.ComponentType<any>;
+
+  const {getByTestId} = render(
+    <QuickEditHost
+      wrapperRef={wrapperRef}
+      quickEdit={false}
+      classnames={() => ''}
+      render={jest.fn()}
+      translate={(str: string) => str}
+    />
+  );
+
+  expect(wrapperRef.current).toBe(getByTestId('host'));
+  expect(wrapperRef.current).toHaveTextContent('value');
+});

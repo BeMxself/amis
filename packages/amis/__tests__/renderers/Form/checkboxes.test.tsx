@@ -177,13 +177,13 @@ test('Renderer:checkboxes with group', async () => {
   ]);
   expect(container).toMatchSnapshot();
 
-  const groups = container.querySelectorAll('.cxd-CheckboxesControl-group');
+  const groups = container.querySelectorAll('.prismui-CheckboxesControl-group');
   expect(groups.length).toBe(2);
 
   expect(
-    groups[0].querySelector('.cxd-CheckboxesControl-groupLabel')!.innerHTML
+    groups[0].querySelector('.prismui-CheckboxesControl-groupLabel')!.innerHTML
   ).toBe('A类型');
-  expect(groups[1].querySelectorAll('.cxd-Checkbox').length).toBe(4);
+  expect(groups[1].querySelectorAll('.prismui-Checkbox').length).toBe(4);
 });
 
 test('Renderer:checkboxes with columnsCount', async () => {
@@ -198,7 +198,7 @@ test('Renderer:checkboxes with columnsCount', async () => {
     }
   ]);
   expect(container).toMatchSnapshot();
-  expect(container.querySelector('.cxd-Grid')!.children.length).toBe(2);
+  expect(container.querySelector('.prismui-Grid')!.children.length).toBe(2);
 
   const {container: containerTwo} = await setup([
     {
@@ -211,7 +211,7 @@ test('Renderer:checkboxes with columnsCount', async () => {
     }
   ]);
   expect(containerTwo).toMatchSnapshot();
-  const grids = containerTwo.querySelectorAll('.cxd-Grid');
+  const grids = containerTwo.querySelectorAll('.prismui-Grid');
   expect(grids.length).toBe(3);
   expect(grids[0].children.length).toBe(1);
   expect(grids[1].children.length).toBe(2);
@@ -296,7 +296,7 @@ test('Renderer:checkboxes with checkall', async () => {
   ]);
 
   const tpl = container.querySelector(
-    '.cxd-TextControl-input input'
+    '.prismui-TextControl-input input'
   )! as HTMLInputElement;
   const checkAll = await screen.findByLabelText('全选/不选');
 
@@ -354,7 +354,7 @@ test('Renderer:checkboxes with delimiter', async () => {
     }
   ]);
 
-  const tpl = container.querySelector('.cxd-PlainField')! as HTMLInputElement;
+  const tpl = container.querySelector('.prismui-PlainField')! as HTMLInputElement;
 
   fireEvent.click(getByText(/OptionD/));
   await waitFor(() => {
@@ -519,7 +519,7 @@ test('Renderer:checkboxes with source & labelField & valueField', async () => {
   await waitFor(async () => {
     expect(fetcher).toHaveBeenCalled();
     expect(getByText('Label B')).toBeInTheDocument();
-    expect(container.querySelectorAll('.cxd-Checkbox').length).toBe(2);
+    expect(container.querySelectorAll('.prismui-Checkbox').length).toBe(2);
 
     await wait(200);
   });
@@ -559,7 +559,7 @@ test('Renderer:checkboxes with defaultCheckAll & inline', async () => {
     }
   );
 
-  const Ins = container.querySelectorAll('.cxd-CheckboxesControl');
+  const Ins = container.querySelectorAll('.prismui-CheckboxesControl');
   expect(Ins[0]!).toHaveClass('is-inline');
   expect(Ins[1]!).not.toHaveClass('is-inline');
   await wait(200);
@@ -627,22 +627,22 @@ test('Renderer:checkboxes with creatable & createBtnLabel & addControls & addApi
   // 点击新增按钮，打卡弹框
   fireEvent.click(getByText('我是新增按钮'));
   await waitFor(() => {
-    expect(baseElement.querySelector('.cxd-Modal-body')).toBeVisible();
+    expect(baseElement.querySelector('.prismui-Modal-body')).toBeVisible();
     expect(baseElement).toMatchSnapshot('dialog open');
   });
 
   // 新增表单输入
-  fireEvent.change(baseElement.querySelector('.cxd-TextControl-input input')!, {
+  fireEvent.change(baseElement.querySelector('.prismui-TextControl-input input')!, {
     target: {value: '我是label啊'}
   });
-  fireEvent.change(baseElement.querySelector('.cxd-NumberControl input')!, {
+  fireEvent.change(baseElement.querySelector('.prismui-NumberControl input')!, {
     target: {value: 555}
   });
   await wait(300);
 
   // 表单提交
   fireEvent.click(
-    baseElement.querySelector('.cxd-Modal-footer .cxd-Button--primary')!
+    baseElement.querySelector('.prismui-Modal-footer .prismui-Button--primary')!
   );
   await waitFor(async () => {
     expect(fetcher).toHaveBeenCalled();
@@ -653,7 +653,7 @@ test('Renderer:checkboxes with creatable & createBtnLabel & addControls & addApi
   });
 
   const lastOption = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:last-of-type'
+    '.prismui-CheckboxesControl .prismui-Checkbox:last-of-type'
   )!;
 
   expect(lastOption).toHaveTextContent('我是label啊');
@@ -719,7 +719,7 @@ test('Renderer:checkboxes with editable & editControls & editApi', async () => {
   );
 
   const optionD = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:last-of-type'
+    '.prismui-CheckboxesControl .prismui-Checkbox:last-of-type'
   )!;
   fireEvent.mouseOver(optionD.querySelector('input')!);
   await waitFor(() => {
@@ -728,7 +728,7 @@ test('Renderer:checkboxes with editable & editControls & editApi', async () => {
   await wait(200);
 
   const optionDEdit = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:last-of-type a'
+    '.prismui-CheckboxesControl .prismui-Checkbox:last-of-type a'
   )!;
 
   expect(optionDEdit).toBeVisible();
@@ -736,12 +736,12 @@ test('Renderer:checkboxes with editable & editControls & editApi', async () => {
   // 点击编辑按钮
   fireEvent.click(optionDEdit.querySelector('icon-mock')!);
   await waitFor(() => {
-    expect(baseElement.querySelector('.cxd-Modal-body')).toBeVisible();
+    expect(baseElement.querySelector('.prismui-Modal-body')).toBeVisible();
     expect(baseElement).toMatchSnapshot('dialog open');
   });
 
   const inputs = baseElement.querySelectorAll(
-    '.cxd-TextControl-input input'
+    '.prismui-TextControl-input input'
   ) as unknown as HTMLInputElement[];
   expect(inputs.length).toBe(2);
   expect(inputs[0].value).toBe('OptionD');
@@ -758,7 +758,7 @@ test('Renderer:checkboxes with editable & editControls & editApi', async () => {
 
   // 表单提交
   fireEvent.click(
-    baseElement.querySelector('.cxd-Modal-footer .cxd-Button--primary')!
+    baseElement.querySelector('.prismui-Modal-footer .prismui-Button--primary')!
   );
   await waitFor(async () => {
     expect(fetcher).toHaveBeenCalled();
@@ -768,7 +768,7 @@ test('Renderer:checkboxes with editable & editControls & editApi', async () => {
     await wait(200);
   });
   const lastOption = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:last-of-type'
+    '.prismui-CheckboxesControl .prismui-Checkbox:last-of-type'
   )!;
 
   expect(lastOption).toHaveTextContent('OptionD 修改');
@@ -822,7 +822,7 @@ test('Renderer:checkboxes with removable & deleteApi', async () => {
   );
 
   const optionA = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:first-of-type'
+    '.prismui-CheckboxesControl .prismui-Checkbox:first-of-type'
   )!;
 
   fireEvent.mouseOver(optionA.querySelector('input')!);
@@ -838,13 +838,13 @@ test('Renderer:checkboxes with removable & deleteApi', async () => {
   // 点击删除按钮
   fireEvent.click(optionAEdit.querySelector('icon-mock')!);
   await waitFor(() => {
-    expect(baseElement.querySelector('.cxd-Modal-body')).toBeVisible();
+    expect(baseElement.querySelector('.prismui-Modal-body')).toBeVisible();
     expect(baseElement).toMatchSnapshot('dialog open');
   });
 
   // 确定
   fireEvent.click(
-    baseElement.querySelector('.cxd-Modal-footer .cxd-Button--danger')!
+    baseElement.querySelector('.prismui-Modal-footer .prismui-Button--danger')!
   );
   await waitFor(async () => {
     expect(fetcher).toHaveBeenCalled();
@@ -853,7 +853,7 @@ test('Renderer:checkboxes with removable & deleteApi', async () => {
   // 第一项变成了 OptionB
   expect(
     container.querySelector(
-      '.cxd-CheckboxesControl .cxd-Checkbox:first-of-type'
+      '.prismui-CheckboxesControl .prismui-Checkbox:first-of-type'
     )!
   ).toHaveTextContent('OptionB');
 });
@@ -873,7 +873,7 @@ test('Renderer:checkboxes with optionType & labelClassName & itemClassName', asy
   ]);
 
   const OptionA = container.querySelector(
-    '.cxd-CheckboxesControl .cxd-Checkbox:first-of-type'
+    '.prismui-CheckboxesControl .prismui-Checkbox:first-of-type'
   )!;
 
   expect(OptionA).toHaveClass(componentClass('Checkbox--checkbox--button'));

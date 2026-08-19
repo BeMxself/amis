@@ -76,7 +76,7 @@ test('Renderer:inputCity', async () => {
   ]);
   await wait(100);
 
-  const select = container.querySelector('.cxd-CityPicker > .cxd-Select')!;
+  const select = container.querySelector('.prismui-CityPicker > .prismui-Select')!;
   expect(select).toBeInTheDocument();
   fireEvent.click(select);
   expect(getByText('北京市')).toBeInTheDocument();
@@ -91,7 +91,7 @@ test('Renderer:inputCity', async () => {
   });
 
   const select2 = container.querySelector(
-    '.cxd-CityPicker > .cxd-Select:nth-child(2)'
+    '.prismui-CityPicker > .prismui-Select:nth-child(2)'
   )!;
   expect(select2).toBeInTheDocument();
   fireEvent.click(select2);
@@ -107,7 +107,7 @@ test('Renderer:inputCity', async () => {
   });
 
   const select3 = container.querySelector(
-    '.cxd-CityPicker > .cxd-Select:nth-child(3)'
+    '.prismui-CityPicker > .prismui-Select:nth-child(3)'
   )!;
   expect(select3).toBeInTheDocument();
   fireEvent.click(select3);
@@ -138,7 +138,7 @@ test('Renderer:inputCity with searchable', async () => {
   ]);
   await wait(100);
 
-  const select = container.querySelector('.cxd-CityPicker > .cxd-Select')!;
+  const select = container.querySelector('.prismui-CityPicker > .prismui-Select')!;
   expect(select).toBeInTheDocument();
   fireEvent.click(select);
 
@@ -146,14 +146,14 @@ test('Renderer:inputCity with searchable', async () => {
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot('open select');
 
-  const input = select.querySelector('.cxd-Select-input input')!;
+  const input = select.querySelector('.prismui-Select-input input')!;
   expect(input).toBeInTheDocument();
 
   fireEvent.change(input, {target: {value: '山'}});
   await wait(100);
 
   expect(
-    select.querySelectorAll('.cxd-Select-menu > .cxd-Select-option')!.length
+    select.querySelectorAll('.prismui-Select-menu > .prismui-Select-option')!.length
   ).toBe(2);
   expect(
     await within(select as HTMLElement).getByTitle('山东省')
@@ -177,7 +177,7 @@ test('Renderer:inputCity with allowDistrict & allowCity', async () => {
     ]);
   await wait(100);
 
-  const select = container.querySelector('.cxd-CityPicker > .cxd-Select')!;
+  const select = container.querySelector('.prismui-CityPicker > .prismui-Select')!;
   expect(select).toBeInTheDocument();
   fireEvent.click(select);
   expect(getByText('北京市')).toBeInTheDocument();
@@ -185,7 +185,7 @@ test('Renderer:inputCity with allowDistrict & allowCity', async () => {
 
   await wait(100);
   expect(
-    container.querySelector('.cxd-CityPicker > .cxd-Select:nth-child(2)')!
+    container.querySelector('.prismui-CityPicker > .prismui-Select:nth-child(2)')!
   ).not.toBeInTheDocument();
 
   rerender([
@@ -204,7 +204,7 @@ test('Renderer:inputCity with allowDistrict & allowCity', async () => {
 
   await wait(100);
   const select2 = container.querySelector(
-    '.cxd-CityPicker > .cxd-Select:nth-child(2)'
+    '.prismui-CityPicker > .prismui-Select:nth-child(2)'
   )!;
   expect(select2).toBeInTheDocument();
   fireEvent.click(select2);
@@ -213,7 +213,7 @@ test('Renderer:inputCity with allowDistrict & allowCity', async () => {
 
   await wait(100);
   expect(
-    container.querySelector('.cxd-CityPicker > .cxd-Select:nth-child(3)')!
+    container.querySelector('.prismui-CityPicker > .prismui-Select:nth-child(3)')!
   ).not.toBeInTheDocument();
 
   rerender([
@@ -232,6 +232,6 @@ test('Renderer:inputCity with allowDistrict & allowCity', async () => {
 
   await wait(100);
   expect(
-    container.querySelector('.cxd-CityPicker > .cxd-Select:nth-child(3)')!
+    container.querySelector('.prismui-CityPicker > .prismui-Select:nth-child(3)')!
   ).toBeInTheDocument();
 });

@@ -40,7 +40,7 @@ test('Renderer:range with showInput & showInputUnit', async () => {
     )
   );
 
-  const slider = container.querySelector('.cxd-InputRange-handle')!;
+  const slider = container.querySelector('.prismui-InputRange-handle')!;
   fireEvent.mouseDown(slider);
   fireEvent.mouseMove(slider, {
     clientX: 400,
@@ -49,11 +49,11 @@ test('Renderer:range with showInput & showInputUnit', async () => {
   fireEvent.mouseUp(slider);
 
   expect(
-    container.querySelector('.cxd-InputRange-input') as Element
+    container.querySelector('.prismui-InputRange-input') as Element
   ).toBeInTheDocument();
 
-  const inputWrapper = container.querySelector('.cxd-InputRange-input');
-  const input = container.querySelector('.cxd-InputRange-input input');
+  const inputWrapper = container.querySelector('.prismui-InputRange-input');
+  const input = container.querySelector('.prismui-InputRange-input input');
   fireEvent.change(input!, {
     target: {
       value: '7'
@@ -63,7 +63,7 @@ test('Renderer:range with showInput & showInputUnit', async () => {
 
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toContain('width: 7%');
 
@@ -101,10 +101,10 @@ test('Renderer:range with multiple & clearable & delimiter', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-InputRange-clear')
+    container.querySelector('.prismui-InputRange-clear')
   ).not.toBeInTheDocument();
 
-  const inputs = container.querySelectorAll('.cxd-InputRange-input input');
+  const inputs = container.querySelectorAll('.prismui-InputRange-input input');
   fireEvent.change(inputs[0], {
     target: {
       value: '7'
@@ -121,16 +121,16 @@ test('Renderer:range with multiple & clearable & delimiter', async () => {
   await wait(200);
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toBe('width: 6%; left: 7%;');
 
-  const icons = container.querySelectorAll('.cxd-InputRange-handle');
+  const icons = container.querySelectorAll('.prismui-InputRange-handle');
   expect(icons[0].getAttribute('style')).toContain('left: 7%;');
   expect(icons[1].getAttribute('style')).toContain('left: 13%;');
 
   expect(
-    (container.querySelector('.cxd-PlainField') as Element).innerHTML
+    (container.querySelector('.prismui-PlainField') as Element).innerHTML
   ).toBe('7--13');
 
   expect(container).toMatchSnapshot();
@@ -161,7 +161,7 @@ test('Renderer:range with showSteps', async () => {
 
   await wait(200);
 
-  const dots = container.querySelectorAll('.cxd-InputRange-track-dot');
+  const dots = container.querySelectorAll('.prismui-InputRange-track-dot');
 
   expect(dots.length).toBe(9);
   expect(dots[8].getAttribute('style')).toContain('left: 90%;');
@@ -200,7 +200,7 @@ test('Renderer:range with marks', async () => {
 
   await wait(200);
 
-  const marks = container.querySelectorAll('.cxd-InputRange-marks > div');
+  const marks = container.querySelectorAll('.prismui-InputRange-marks > div');
 
   expect(marks.length).toBe(6);
   expect(marks[3].innerHTML).toBe('<span>60Mbps</span>');
@@ -236,11 +236,11 @@ test('Renderer:range with tooltipVisible & tooltipPlacement', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-InputRange-label.pos-right.cxd-InputRange-label-visible'
+      '.prismui-InputRange-label.pos-right.prismui-InputRange-label-visible'
     )
   ).toBeInTheDocument();
 
-  const labelSpan = container.querySelector('.cxd-InputRange-label span');
+  const labelSpan = container.querySelector('.prismui-InputRange-label span');
   expect(labelSpan).toBeI;
 
   expect(labelSpan!.innerHTML).toBe('41');
@@ -275,7 +275,7 @@ test('Renderer:range with min & max & step & joinValues', async () => {
     )
   );
 
-  const inputs = container.querySelectorAll('.cxd-InputRange-input input');
+  const inputs = container.querySelectorAll('.prismui-InputRange-input input');
   fireEvent.change(inputs[0], {
     target: {
       value: '0.2'
@@ -292,7 +292,7 @@ test('Renderer:range with min & max & step & joinValues', async () => {
   await wait(200);
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toContain('width: 60%; left: 20%;');
 
@@ -351,7 +351,7 @@ test('Renderer: range with min & max & step by variables', async () => {
     )
   );
 
-  const inputs = container.querySelectorAll('.cxd-InputRange-input input');
+  const inputs = container.querySelectorAll('.prismui-InputRange-input input');
   const inputEl = inputs[0];
   const calculatePercentage = (value: number) => ((value - 6) / (66 - 6)) * 100;
   /** min & max 正常解析 */
@@ -360,7 +360,7 @@ test('Renderer: range with min & max & step by variables', async () => {
   await wait(200);
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toContain(`width: 100%; left: 0%;`);
   await wait(200);
@@ -369,7 +369,7 @@ test('Renderer: range with min & max & step by variables', async () => {
   await wait(200);
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toContain(`width: 0%; left: 0%;`);
   /** step正常解析 */
@@ -378,7 +378,7 @@ test('Renderer: range with min & max & step by variables', async () => {
   await wait(200);
   expect(
     (
-      container.querySelector('.cxd-InputRange-track-active') as Element
+      container.querySelector('.prismui-InputRange-track-active') as Element
     ).getAttribute('style')
   ).toContain(`width: ${calculatePercentage(12)}%; left: 0%;`);
   /** 提交参数 */

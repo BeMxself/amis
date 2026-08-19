@@ -1,11 +1,12 @@
 import {theme, ClassNamesFn, makeClassnames} from 'amis-core';
 
-export const classPrefix: string = 'cxd-';
+export const classPrefix: string = 'prismui-';
 export const classnames: ClassNamesFn = makeClassnames(classPrefix);
 
 // yunshe.design 百度云舍
 theme('cxd', {
-  classPrefix: 'cxd-',
+  classPrefix: 'prismui-',
+  componentClassPrefix: 'prismui-',
 
   components: {
     toast: {

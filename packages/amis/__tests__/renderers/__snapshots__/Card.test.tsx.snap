@@ -3,33 +3,33 @@
 exports[`Renderer:card 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Card className __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card className __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-title"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       标题
@@ -39,10 +39,10 @@ exports[`Renderer:card 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body bodyClassName"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body bodyClassName"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   这里是内容
@@ -50,23 +50,23 @@ exports[`Renderer:card 1`] = `
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions"
                 >
                   <a
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action __AMIS_COMPONENT_CLASS_PREFIX__Card-action--sm"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action __PRISMUI_COMPONENT_CLASS_PREFIX__Card-action--sm"
                   >
                     <span>
                       编辑
                     </span>
                   </a>
                   <a
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action __AMIS_COMPONENT_CLASS_PREFIX__Card-action--sm"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action __PRISMUI_COMPONENT_CLASS_PREFIX__Card-action--sm"
                   >
                     <span>
                       删除
@@ -86,43 +86,43 @@ exports[`Renderer:card 1`] = `
 exports[`Renderer:cards color 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Cards"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Cards"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-fixedTop"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Cards-fixedTop"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Cards-body __AMIS_COMPONENT_CLASS_PREFIX__Grid"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Cards-body __PRISMUI_COMPONENT_CLASS_PREFIX__Grid"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--md4 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(180, 0, 158);"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           TR
@@ -130,25 +130,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Internet Explorer 4.0
                         </span>
@@ -158,20 +158,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--md4 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(0, 180, 255);"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           CH
@@ -179,25 +179,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Chrome 44
                         </span>
@@ -207,20 +207,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--md4 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(181, 14, 14);"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           GE
@@ -228,25 +228,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Firefox 1.0
                         </span>
@@ -256,20 +256,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--md4 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(0, 120, 215);"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           PR
@@ -277,25 +277,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Opera 10
                         </span>
@@ -305,20 +305,20 @@ exports[`Renderer:cards color 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--md4 __AMIS_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--xs12 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--sm6 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--md4 __PRISMUI_COMPONENT_CLASS_PREFIX__Grid-col--lg3"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-avtarText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-avtarText"
                       style="background: rgb(232, 17, 35);"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           WE
@@ -326,25 +326,25 @@ exports[`Renderer:cards color 1`] = `
                       </span>
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-field"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-field"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldLabel"
                       >
                         Browser
                       </label>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-fieldValue"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-fieldValue"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                         >
                           Safari 12
                         </span>
@@ -365,43 +365,43 @@ exports[`Renderer:cards color 1`] = `
 exports[`Renderer:cards hightlight 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -410,13 +410,13 @@ exports[`Renderer:cards hightlight 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <i
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
                     />
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -425,10 +425,10 @@ exports[`Renderer:cards hightlight 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -436,13 +436,13 @@ exports[`Renderer:cards hightlight 1`] = `
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -450,30 +450,30 @@ exports[`Renderer:cards hightlight 1`] = `
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -496,43 +496,43 @@ exports[`Renderer:cards hightlight 1`] = `
 exports[`Renderer:cards hightlight 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -541,13 +541,13 @@ exports[`Renderer:cards hightlight 2`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <i
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-highlight test-highlight-class"
                     />
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -556,10 +556,10 @@ exports[`Renderer:cards hightlight 2`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -567,13 +567,13 @@ exports[`Renderer:cards hightlight 2`] = `
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -581,30 +581,30 @@ exports[`Renderer:cards hightlight 2`] = `
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -627,43 +627,43 @@ exports[`Renderer:cards hightlight 2`] = `
 exports[`Renderer:cards media 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Card __AMIS_COMPONENT_CLASS_PREFIX__Card--link"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card __PRISMUI_COMPONENT_CLASS_PREFIX__Card--link"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia--left"
             >
               <img
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-img w-36 h-24"
                 src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-multiMedia-flex"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-heading"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-heading"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-meta"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-meta"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           标题
@@ -672,10 +672,10 @@ exports[`Renderer:cards media 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-toolbar"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-toolbar"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view label label-warning"
                     >
                       <span>
                         标签
@@ -684,10 +684,10 @@ exports[`Renderer:cards media 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-body"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这里是内容
@@ -695,13 +695,13 @@ exports[`Renderer:cards media 1`] = `
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-footer-wrapper"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-secondary"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-secondary"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         次要说明
@@ -709,30 +709,30 @@ exports[`Renderer:cards media 1`] = `
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions-wrapper"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Card-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-actions"
                     >
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-4"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-4"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Card-action mr-2.5"
                       >
                         <span>
                           操作
                         </span>
                       </a>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Card-action pr-1 flex"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"

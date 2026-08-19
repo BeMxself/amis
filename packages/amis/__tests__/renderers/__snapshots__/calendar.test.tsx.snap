@@ -3,28 +3,28 @@
 exports[`Renderer:calendar 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DateCalendar __AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateCalendar __PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar"
               >
                 <div
                   class="rdt rdtStatic rdtOpen"
@@ -243,7 +243,7 @@ exports[`Renderer:calendar 1`] = `
                               <span>
                                 11
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-warning"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-warning"
                                 />
                               </span>
                             </td>
@@ -330,7 +330,7 @@ exports[`Renderer:calendar 1`] = `
                               <span>
                                 21
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
                                 />
                               </span>
                             </td>
@@ -341,7 +341,7 @@ exports[`Renderer:calendar 1`] = `
                               <span>
                                 22
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
                                 />
                               </span>
                             </td>
@@ -513,28 +513,28 @@ exports[`Renderer:calendar 1`] = `
 exports[`Renderer:calendar largeMode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DateCalendar __AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar __AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateCalendar __PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar __PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large"
               >
                 <div
                   class="rdt rdtStatic rdtOpen"
@@ -751,21 +751,21 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="11"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     11
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-warning"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-warning"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程1
                                   </div>
@@ -777,21 +777,21 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="12"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     12
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-danger"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程2
                                   </div>
@@ -805,21 +805,21 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="13"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     13
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-danger"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程2
                                   </div>
@@ -881,21 +881,21 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="20"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     20
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-success"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-success"
                                   style="width: 200%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程3
                                   </div>
@@ -907,29 +907,29 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="21"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     21
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   />
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-info"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-info"
                                   style="width: 200%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程4
                                   </div>
@@ -941,45 +941,45 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="22"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     22
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-secondary"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-secondary"
                                   style="width: 200%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程5
                                   </div>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   />
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-warning"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-warning"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   >
                                     这是一个日程6
                                   </div>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-footer"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-footer"
                                 >
                                   1
 
@@ -992,21 +992,21 @@ exports[`Renderer:calendar largeMode 1`] = `
                               data-value="23"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-day-wrap"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-header"
                                 >
                                   <span>
                                     23
                                   </span>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-large-schedule-content bg-transparent"
                                   style="width: 100%;"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-text-overflow"
                                   />
                                 </div>
                               </div>
@@ -1171,28 +1171,28 @@ exports[`Renderer:calendar largeMode 1`] = `
 exports[`Renderer:calendar scheduleAction 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-role="form-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DateCalendar __AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateCalendar __PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar"
               >
                 <div
                   class="rdt rdtStatic rdtOpen"
@@ -1411,7 +1411,7 @@ exports[`Renderer:calendar scheduleAction 1`] = `
                               <span>
                                 11
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-warning"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-warning"
                                 />
                               </span>
                             </td>
@@ -1498,7 +1498,7 @@ exports[`Renderer:calendar scheduleAction 1`] = `
                               <span>
                                 21
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
                                 />
                               </span>
                             </td>
@@ -1509,7 +1509,7 @@ exports[`Renderer:calendar scheduleAction 1`] = `
                               <span>
                                 22
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ScheduleCalendar-icon bg-danger"
                                 />
                               </span>
                             </td>

@@ -12,7 +12,8 @@ loadLanguages([
   'tsx',
   'css',
   'markup',
-  'json'
+  'json',
+  'mermaid'
 ]);
 const rYml = /^\s*---([\s\S]*?)---\s/;
 const renderer = new marked.Renderer();
@@ -29,7 +30,7 @@ const renderer = new marked.Renderer();
 // Synchronous highlighting with prism.js
 (marked as any).setOptions({
   highlight: function (code: string, lang: string) {
-    if (lang) {
+    if (lang && prism.languages[lang]) {
       return prism.highlight(code, prism.languages[lang], lang);
     } else {
       return code;
@@ -80,6 +81,43 @@ renderer.link = function (href: string, title: string, text: string) {
   return out;
 };
 
+function decodeHtmlEntities(text: string) {
+  return text.replace(
+    /&(#(?:x[0-9a-fA-F]+|\d+)|[a-zA-Z][\w]+);/g,
+    (entity: string, body: string) => {
+      if (body.charAt(0) === '#') {
+        const isHex = body.charAt(1).toLowerCase() === 'x';
+        const codePoint = parseInt(body.slice(isHex ? 2 : 1), isHex ? 16 : 10);
+
+        return Number.isFinite(codePoint)
+          ? String.fromCodePoint(codePoint)
+          : entity;
+      }
+
+      switch (body) {
+        case 'amp':
+          return '&';
+        case 'apos':
+          return "'";
+        case 'gt':
+          return '>';
+        case 'lt':
+          return '<';
+        case 'nbsp':
+          return ' ';
+        case 'quot':
+          return '"';
+        default:
+          return entity;
+      }
+    }
+  );
+}
+
+function getTocLabel(text: string) {
+  return decodeHtmlEntities(text.replace(/<[^>]*>/g, ''));
+}
+
 function markdown2js(content: string, file: string) {
   var raw = content;
   var m = rYml.exec(content);
@@ -101,10 +139,11 @@ function markdown2js(content: string, file: string) {
     var escapedText = encodeURIComponent(
       text.toLowerCase().replace(/[^\u4e00-\u9fa5_a-zA-Z0-9]+/g, '-')
     );
+    var label = getTocLabel(text);
 
     if (level < 5) {
       var menu = {
-        label: text,
+        label: label,
         fragment: escapedText,
         fullPath: '#' + escapedText,
         level: level
@@ -180,18 +219,18 @@ function markdown2js(content: string, file: string) {
 
           placeholder[
             index
-          ] = `<!--amis-preview-start--><div class="amis-doc"><div class="preview">${code}</div><pre><code class="lang-html">${prism.highlight(
+          ] = `<!--prismui-preview-start--><div class="prismui-doc"><div class="preview">${code}</div><pre><code class="lang-html">${prism.highlight(
             code
               .replace(/"data:(\w+\/\w+);.*?"/g, '"data:$1; ..."')
               .replace(/<svg([^>]*)>[\s\S]*?<\/svg>/g, '<svg$1>...</svg>')
               .replace(/class="([^"]*?)\.\.\.([^"]*?)"/g, 'class="$1..."'),
             prism.languages[lang],
             lang
-          )}</code></pre></div><!--amis-preview-end-->`;
+          )}</code></pre></div><!--prismui-preview-end-->`;
         } else {
           placeholder[
             index
-          ] = `<!--amis-preview-start--><div class="amis-preview" style="min-height: ${setting.height}px"><script type="text/schema" ${attr}>${code}</script></div><!--amis-preview-end-->`;
+          ] = `<!--prismui-preview-start--><div class="prismui-preview" style="min-height: ${setting.height}px"><script type="text/schema" ${attr}>${code}</script></div><!--prismui-preview-end-->`;
         }
 
         return `[[${index++}]]`;
@@ -205,11 +244,11 @@ function markdown2js(content: string, file: string) {
     });
 
   // content = global.fis ? fis.compile.partial(content, file, 'html') : content;
-  // + `\n\n<div class="m-t-lg b-l b-info b-3x wrapper bg-light dk">文档内容有误？欢迎大家一起来编写，文档地址：<i class="fa fa-github"></i><a href="https://github.com/baidu/amis/tree/master${file.subpath}">${file.subpath}</a>。</div>`;
+  // + `\n\n<div class="m-t-lg b-l b-info b-3x wrapper bg-light dk">文档内容有误？欢迎大家一起来编写，文档地址：<i class="fa fa-github"></i><a href="https://github.com/Gengxin-Tech/prismui/tree/master${file.subpath}">${file.subpath}</a>。</div>`;
   info.html =
     '<div class="markdown-body">' +
     content.replace(
-      /<\!\-\-amis\-preview\-(start|end)\-\-\>/g,
+      /<\!\-\-(?:amis|prismui)\-preview\-(start|end)\-\-\>/g,
       function (_, type) {
         return type === 'start' ? '</div>' : '<div class="markdown-body">';
       }

@@ -108,8 +108,8 @@ export class AvatarFieldRenderer extends AvatarField {}
 新组件一般都需要对应的样式，首先创建 `scss/components/_avatar.scss` 文件，内容是：
 
 ```css
-.amis-Avatar {
-  color: var(--amis-color-brand-bg);
+.prismui-Avatar {
+  color: var(--prismui-color-brand-bg);
 }
 ```
 
@@ -117,7 +117,7 @@ export class AvatarFieldRenderer extends AvatarField {}
 
 amis 中的 css 命名使用 [SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) 规范，请按照这个规范编写。
 
-新增组件样式应使用稳定的 `.amis-*` 组件类名和 `--amis-*` token。不同主题下的差异应通过 token 或 `[data-amis-theme="主题名"] .amis-*` 作用域覆写，不要通过主题类前缀或 `classPrefix` 生成新的公共选择器。
+新增组件样式应使用稳定的 `.prismui-*` 组件类名和 `--prismui-*` token。不同主题下的差异应通过 token 或 `[data-prismui-theme="主题名"] .prismui-*` 作用域覆写，不要通过主题类前缀或 `classPrefix` 生成新的公共选择器。
 
 ### 编写文档
 

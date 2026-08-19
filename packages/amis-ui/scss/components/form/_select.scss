@@ -1,9 +1,9 @@
-.amis-Select {
+.prismui-Select {
   display: inline-flex;
 
   /* select 标签样式 */
   @mixin select-value {
-    .amis-Select-value {
+    .prismui-Select-value {
       position: static;
       white-space: normal;
       flex-shrink: 0;
@@ -37,7 +37,7 @@
       }
     }
 
-    .amis-Select-valueLabel {
+    .prismui-Select-valueLabel {
       display: inline-block;
       max-width: var(--Form-valueLabel-maxWidth);
       overflow: hidden;
@@ -90,7 +90,7 @@
       var(--select-base-hover-bottom-border-color)
       var(--select-base-hover-left-border-color);
 
-    .amis-Select-arrow:before {
+    .prismui-Select-arrow:before {
       color: var(--Form-select-caret-onHover-iconColor);
     }
   }
@@ -151,23 +151,23 @@
     box-shadow: var(--Form-select-onFocus-boxShadow);
   }
 
-  .amis-PopOver.amis-Select-popover {
-    &.amis-PopOver--v-top {
+  .prismui-PopOver.prismui-Select-popover {
+    &.prismui-PopOver--v-top {
       margin-top: px2rem(4px);
     }
-    &.amis-PopOver--v-bottom {
+    &.prismui-PopOver--v-bottom {
       margin-bottom: px2rem(4px);
     }
-    .amis-Select-menu {
-      .amis-Checkbox span {
+    .prismui-Select-menu {
+      .prismui-Checkbox span {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
-      .amis-Select-option {
+      .prismui-Select-option {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
-      .amis-Select-addBtn {
+      .prismui-Select-addBtn {
         line-height: var(--select-base-default-option-line-height);
         height: var(--select-base-default-option-line-height);
       }
@@ -226,14 +226,14 @@
       var(--select-base-default-paddingBottom)
       var(--select-base-default-paddingLeft);
 
-    .amis-Select-valueWrap {
+    .prismui-Select-valueWrap {
       > input {
         display: inline-block;
         width: px2rem(100px);
         margin-bottom: var(--gap-xs);
       }
     }
-    .amis-Select-values + .amis-Select-input {
+    .prismui-Select-values + .prismui-Select-input {
       transform: translateY(0);
     }
 
@@ -290,11 +290,11 @@
     padding: 0;
     font-size: var(--select-base-default-fontSize);
 
-    .amis-Select-valueWrap {
+    .prismui-Select-valueWrap {
       text-align: left;
       padding-right: 4px;
     }
-    .amis-Select-arrow {
+    .prismui-Select-arrow {
       > svg {
         transform: rotate(-90deg);
       }
@@ -307,13 +307,13 @@
     padding-bottom: px2rem(4px);
     overflow: auto;
     user-select: none;
-    .amis-Checkbox--sm > i {
+    .prismui-Checkbox--sm > i {
       margin-right: px2rem(4px);
     }
     &.is-mobile {
       width: 100%;
       text-align: center;
-      .amis-Select-option {
+      .prismui-Select-option {
         line-height: px2rem(36px);
       }
     }
@@ -370,7 +370,7 @@
     background: var(--select-base-default-option-bg-color);
     line-height: var(--select-base-default-option-line-height);
 
-    .amis-Checkbox {
+    .prismui-Checkbox {
       width: 100%;
       display: flex;
       align-items: center;
@@ -391,7 +391,7 @@
         font-weight: var(--select-base-default-option-fontWeight);
         color: var(--select-base-default-option-color);
       }
-      .amis-TplField {
+      .prismui-TplField {
         > span > p {
           margin: 0;
           text-overflow: ellipsis;
@@ -405,7 +405,7 @@
       color: var(--Form-select-menu-onActive-color);
       background: var(--Form-select-menu-onActive-bg);
 
-      .amis-Select-option-checkbox > label > span {
+      .prismui-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onActive-color);
       }
     }
@@ -414,7 +414,7 @@
       color: var(--Form-select-menu-onHover-color);
       background: var(--Form-select-menu-onHover-bg);
 
-      .amis-Select-option-checkbox > label > span {
+      .prismui-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onHover-color);
       }
     }
@@ -423,7 +423,7 @@
       color: var(--Form-select-menu-onDisabled-color);
       background: var(--Form-select-menu-onDisabled-bg);
 
-      .amis-Select-option-checkbox > label > span {
+      .prismui-Select-option-checkbox > label > span {
         color: var(--Form-select-menu-onDisabled-color);
       }
     }
@@ -442,8 +442,8 @@
       display: block;
     }
 
-    .amis-Select-option-content,
-    .amis-Select-option-content > span > div {
+    .prismui-Select-option-content,
+    .prismui-Select-option-content > span > div {
       flex: auto;
       overflow: hidden;
       white-space: nowrap;
@@ -466,7 +466,7 @@
         );
       }
 
-      .amis-Select-option-item-check {
+      .prismui-Select-option-item-check {
         min-width: 0;
         min-height: 0;
         flex: 1;
@@ -474,7 +474,7 @@
         border-bottom: px2rem(1px) solid var(--borderColor);
       }
 
-      .amis-Select-option-mcheck {
+      .prismui-Select-option-mcheck {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -485,7 +485,7 @@
       }
 
       &:last-child {
-        .amis-Select-option-item-check {
+        .prismui-Select-option-item-check {
           border-bottom: none;
         }
       }
@@ -588,9 +588,9 @@
       @include select-value();
     }
 
-    &.amis-Tooltip--dark {
-      .amis-Select-overflow-wrapper {
-        .amis-Select-value {
+    &.prismui-Tooltip--dark {
+      .prismui-Select-overflow-wrapper {
+        .prismui-Select-value {
           background-color: var(--Form-select-value-bgColor--dark);
           border: none;
 
@@ -598,7 +598,7 @@
             background-color: var(--ResultBox-value--onHover-bg--dark);
           }
 
-          .amis-Select-valueIcon {
+          .prismui-Select-valueIcon {
             color: var(--Form-select-valueIcon-color--dark);
           }
         }
@@ -607,13 +607,13 @@
   }
 }
 
-.amis-Select-overflow-wrapper {
-  .amis-Select-value {
+.prismui-Select-overflow-wrapper {
+  .prismui-Select-value {
     margin-bottom: var(--gap-xs);
   }
 }
 
-.amis-Select-popover {
+.prismui-Select-popover {
   background: var(--Form-select-menu-bg);
   color: var(--Form-select-menu-color);
   border: var(--Form-select-outer-borderWidth) solid
@@ -624,36 +624,36 @@
   // PopOver 上已经配置了，这个要是配置就会覆盖，所以先干掉好了
   // z-index: 10;
 }
-.amis-InputGroup:hover {
-  .amis-Select-popover {
+.prismui-InputGroup:hover {
+  .prismui-Select-popover {
     border-color: var(--Form-select-outer-borderColor) !important;
   }
 }
 
-.amis-SelectControl {
-  &:not(.is-inline) > .amis-Select {
+.prismui-SelectControl {
+  &:not(.is-inline) > .prismui-Select {
     display: flex;
   }
 
-  &.is-error > .amis-Select {
+  &.is-error > .prismui-Select {
     border-color: var(--Form-input-onError-borderColor);
     background: var(--Form-input-onError-bg);
   }
 
-  .amis-TransferDropDown-popover {
-    .amis-Tree-list {
-      .amis-Tree-item {
-        .amis-Tree-itemLabel,
-        .amis-Tree-item--isLeaf {
+  .prismui-TransferDropDown-popover {
+    .prismui-Tree-list {
+      .prismui-Tree-item {
+        .prismui-Tree-itemLabel,
+        .prismui-Tree-item--isLeaf {
           &:hover {
             background-color: transparent;
-            .amis-Tree-itemText {
+            .prismui-Tree-itemText {
               background: var(--select-tree-hover-bg-color);
             }
           }
           &:active {
             background-color: transparent;
-            .amis-Tree-itemText {
+            .prismui-Tree-itemText {
               background: var(--select-tree-active-bg-color);
             }
           }
@@ -666,45 +666,45 @@
   }
 }
 
-.amis-Select.is-error {
+.prismui-Select.is-error {
   border-color: var(--Form-input-onError-borderColor);
   background: var(--Form-input-onError-bg);
 }
 
 // 需要能撑开
 @include media-breakpoint-up(sm) {
-  .amis-Form-control--sizeXs > .amis-Select,
-  .amis-Form-control--sizeSm > .amis-Select,
-  .amis-Form-control--sizeMd > .amis-Select,
-  .amis-Form-control--sizeLg > .amis-Select {
+  .prismui-Form-control--sizeXs > .prismui-Select,
+  .prismui-Form-control--sizeSm > .prismui-Select,
+  .prismui-Form-control--sizeMd > .prismui-Select,
+  .prismui-Form-control--sizeLg > .prismui-Select {
     min-width: 100%;
     max-width: 100%;
     display: inline-flex !important;
 
-    .amis-Select-valueWrap {
+    .prismui-Select-valueWrap {
       width: 0; // ! 没有这个会撑开。
     }
   }
 }
 
 // 下拉框在弹框中的的时候没有select层，所以把这部分单独提出来
-.amis-PopOver.amis-Select-popover {
-  &.amis-PopOver--v-top {
+.prismui-PopOver.prismui-Select-popover {
+  &.prismui-PopOver--v-top {
     margin-top: px2rem(4px);
   }
-  &.amis-PopOver--v-bottom {
+  &.prismui-PopOver--v-bottom {
     margin-bottom: px2rem(4px);
   }
-  .amis-Select-menu {
-    .amis-Checkbox span {
+  .prismui-Select-menu {
+    .prismui-Checkbox span {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }
-    .amis-Select-option {
+    .prismui-Select-option {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }
-    .amis-Select-addBtn {
+    .prismui-Select-addBtn {
       line-height: var(--select-base-default-option-line-height);
       height: var(--select-base-default-option-line-height);
     }

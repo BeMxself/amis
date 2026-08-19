@@ -3,17 +3,17 @@
 exports[`Renderer:checkbox 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:checkbox 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:checkbox 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="checkbox"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Checkbox
@@ -51,10 +51,10 @@ exports[`Renderer:checkbox 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__CheckboxControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-thin"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__CheckboxControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-thin"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default first last"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default first last"
               data-role="checkbox"
             >
               <input
@@ -69,7 +69,7 @@ exports[`Renderer:checkbox 1`] = `
                 class=""
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     选项说明
@@ -88,17 +88,17 @@ exports[`Renderer:checkbox 1`] = `
 exports[`Renderer:checkbox with checked 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -107,10 +107,10 @@ exports[`Renderer:checkbox with checked 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -118,16 +118,16 @@ exports[`Renderer:checkbox with checked 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="checkbox"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Checkbox
@@ -136,10 +136,10 @@ exports[`Renderer:checkbox with checked 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__CheckboxControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-thin"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__CheckboxControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-thin"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default first last checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default first last checked __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default--checked"
               data-role="checkbox"
             >
               <input
@@ -155,7 +155,7 @@ exports[`Renderer:checkbox with checked 1`] = `
                 class=""
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     选项说明
@@ -174,17 +174,17 @@ exports[`Renderer:checkbox with checked 1`] = `
 exports[`Renderer:checkbox with optionType 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -193,10 +193,10 @@ exports[`Renderer:checkbox with optionType 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -204,16 +204,16 @@ exports[`Renderer:checkbox with optionType 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="checkbox"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Checkbox
@@ -222,10 +222,10 @@ exports[`Renderer:checkbox with optionType 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__CheckboxControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-thin"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__CheckboxControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-thin"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--button first last checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--button--checked"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--button first last checked __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--button--checked"
               data-role="checkbox"
             >
               <input
@@ -240,7 +240,7 @@ exports[`Renderer:checkbox with optionType 1`] = `
                 class=""
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     去吃饭
@@ -251,16 +251,16 @@ exports[`Renderer:checkbox with optionType 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="checkbox"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   您吃了吗
@@ -269,13 +269,13 @@ exports[`Renderer:checkbox with optionType 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 吃了
               </span>

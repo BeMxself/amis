@@ -1,17 +1,24 @@
 // Ang 主题
-$amis-theme-name: 'ang';
-$amis-palette-brand-400: #584a94;
-$amis-palette-brand-500: #7266ba;
-$amis-palette-brand-600: #897fc7;
-$amis-palette-neutral-text-inverse: #fff;
+$prismui-theme-name: 'ang';
+$prismui-palette-brand-400: #584a94;
+$prismui-palette-brand-500: #7266ba;
+$prismui-palette-brand-600: #897fc7;
+$prismui-palette-neutral-text-inverse: #fff;
+@import '../tokens/index';
 @import '../properties';
 @import '../components';
+@import '../functions';
+$remFactor: 16px;
 @import './ang-variables';
-$ns: 'amis-';
+$ns: 'prismui-';
 @import './common';
 @import '../tokens/legacy-palette-aliases';
 
-:root {
+[data-prismui-theme='ang'] {
+  @include prismui-property-vars;
+  @include prismui-component-vars;
+  @include prismui-ang-theme-vars;
+
   --Layout-header-boxShadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.05),
     0 1px 0 rgba(0, 0, 0, 0.05);
   --Layout-aside-bg: var(--colors-brand-1);

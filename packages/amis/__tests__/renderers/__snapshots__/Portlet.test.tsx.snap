@@ -3,59 +3,59 @@
 exports[`Renderer:portlet 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Portlet"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Portlet"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line __AMIS_COMPONENT_CLASS_PREFIX__Portlet-tab"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line __PRISMUI_COMPONENT_CLASS_PREFIX__Portlet-tab"
       data-role="container"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper __AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper--toolbar"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper--toolbar"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
               role="tablist"
             >
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
               >
                 <a
                   title="Tab 1"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                   >
                     Tab 1
                   </span>
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
               >
                 <a
                   title="Tab 2"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                   >
                     Tab 2
                   </span>
                 </a>
               </li>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Portlet-toolbar"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Portlet-toolbar"
               >
                 <div
-                  class="amis-toolbar"
+                  class="prismui-toolbar"
                 >
                   <button
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     type="button"
                   >
                     <span>
@@ -64,10 +64,10 @@ exports[`Renderer:portlet 1`] = `
                   </button>
                 </div>
                 <div
-                  class="amis-tab-toolbar"
+                  class="prismui-tab-toolbar"
                 >
                   <button
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     type="button"
                   >
                     <span>
@@ -75,10 +75,10 @@ exports[`Renderer:portlet 1`] = `
                     </span>
                   </button>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                   >
                     <button
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                     >
                       <i
                         class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -92,13 +92,13 @@ exports[`Renderer:portlet 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
       >
         <div
-          class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+          class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               Content 1
@@ -106,10 +106,10 @@ exports[`Renderer:portlet 1`] = `
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               Content 2

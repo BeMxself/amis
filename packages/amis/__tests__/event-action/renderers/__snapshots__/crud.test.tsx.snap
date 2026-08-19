@@ -3,21 +3,21 @@
 exports[`doAction:crud reload 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -25,36 +25,36 @@ exports[`doAction:crud reload 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-toolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
                           class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -67,13 +67,13 @@ exports[`doAction:crud reload 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -107,10 +107,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -118,7 +118,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -127,10 +127,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -138,7 +138,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -147,10 +147,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -158,7 +158,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -167,10 +167,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -178,7 +178,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -187,10 +187,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -198,7 +198,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -207,10 +207,10 @@ exports[`doAction:crud reload 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -218,19 +218,19 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -238,7 +238,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -246,14 +246,14 @@ exports[`doAction:crud reload 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="0"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1
                           </span>
@@ -262,7 +262,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - pbz7l
                           </span>
@@ -271,7 +271,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 4.0
                           </span>
@@ -280,7 +280,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -289,7 +289,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -298,7 +298,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             X
                           </span>
@@ -307,10 +307,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -318,7 +318,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
                               type="button"
                             >
                               <span>
@@ -329,14 +329,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="1"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             2
                           </span>
@@ -345,7 +345,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - tir4m8
                           </span>
@@ -354,7 +354,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 5.0
                           </span>
@@ -363,7 +363,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -372,7 +372,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -381,7 +381,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             C
                           </span>
@@ -390,10 +390,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -401,7 +401,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm text-danger"
                               type="button"
                             >
                               <span>
@@ -412,14 +412,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="2"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             3
                           </span>
@@ -428,7 +428,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - wcn6f
                           </span>
@@ -437,7 +437,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 5.5
                           </span>
@@ -446,7 +446,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 95+
                           </span>
@@ -455,7 +455,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5.5
                           </span>
@@ -464,7 +464,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -473,10 +473,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -484,7 +484,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -495,14 +495,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="3"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -511,7 +511,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - uwmcbf
                           </span>
@@ -520,7 +520,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 6
                           </span>
@@ -529,7 +529,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+
                           </span>
@@ -538,7 +538,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -547,7 +547,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -556,10 +556,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -567,7 +567,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -578,14 +578,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="4"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             5
                           </span>
@@ -594,7 +594,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - yjgst7
                           </span>
@@ -603,7 +603,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Internet Explorer 7
                           </span>
@@ -612,7 +612,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win XP SP2+
                           </span>
@@ -621,7 +621,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -630,7 +630,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -639,10 +639,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -650,7 +650,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -661,14 +661,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="5"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -677,7 +677,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident - w9ee2k
                           </span>
@@ -686,7 +686,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             AOL browser (AOL desktop)
                           </span>
@@ -695,7 +695,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win XP
                           </span>
@@ -704,7 +704,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             6
                           </span>
@@ -713,7 +713,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -722,10 +722,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -733,7 +733,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -744,14 +744,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="6"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             7
                           </span>
@@ -760,7 +760,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - hi6cd
                           </span>
@@ -769,7 +769,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.0
                           </span>
@@ -778,7 +778,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -787,7 +787,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.7
                           </span>
@@ -796,7 +796,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -805,10 +805,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -816,7 +816,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -827,14 +827,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="7"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             8
                           </span>
@@ -843,7 +843,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - 4kxz6
                           </span>
@@ -852,7 +852,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 1.5
                           </span>
@@ -861,7 +861,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -870,7 +870,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.8
                           </span>
@@ -879,7 +879,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -888,10 +888,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -899,7 +899,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -910,14 +910,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="8"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             9
                           </span>
@@ -926,7 +926,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - x0u91o
                           </span>
@@ -935,7 +935,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 2.0
                           </span>
@@ -944,7 +944,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 98+ / OSX.2+
                           </span>
@@ -953,7 +953,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.8
                           </span>
@@ -962,7 +962,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -971,10 +971,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -982,7 +982,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -993,14 +993,14 @@ exports[`doAction:crud reload 1`] = `
                         </td>
                       </tr>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                         data-index="9"
                       >
                         <td
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             10
                           </span>
@@ -1009,7 +1009,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Gecko - iou01
                           </span>
@@ -1018,7 +1018,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Firefox 3.0
                           </span>
@@ -1027,7 +1027,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Win 2k+ / OSX.3+
                           </span>
@@ -1036,7 +1036,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             1.9
                           </span>
@@ -1045,7 +1045,7 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             A
                           </span>
@@ -1054,10 +1054,10 @@ exports[`doAction:crud reload 1`] = `
                           class=""
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__OperationField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__OperationField"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -1065,7 +1065,7 @@ exports[`doAction:crud reload 1`] = `
                               </span>
                             </button>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm is-disabled text-danger"
                               disabled=""
                             >
                               <span>
@@ -1080,34 +1080,34 @@ exports[`doAction:crud reload 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-footToolbar"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-toolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Table-footToolbar"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud-toolbar"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--left"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-statistics"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud-statistics"
                     >
                       1/18 共：171 项
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __AMIS_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud-toolbar-item __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-toolbar-item--right"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Crud-pager"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud-pager"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
                       >
                         <ul
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
                           >
                             <span>
                               <icon-mock
@@ -1117,7 +1117,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
                           >
                             <a
                               role="button"
@@ -1126,7 +1126,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1135,7 +1135,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1144,7 +1144,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1153,7 +1153,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1162,7 +1162,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1171,7 +1171,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1180,7 +1180,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
                           >
                             <a
                               role="button"
@@ -1197,7 +1197,7 @@ exports[`doAction:crud reload 1`] = `
                             </span>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
                           >
                             <a
                               role="button"
@@ -1206,7 +1206,7 @@ exports[`doAction:crud reload 1`] = `
                             </a>
                           </li>
                           <li
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
                           >
                             <span>
                               <icon-mock
@@ -1217,20 +1217,20 @@ exports[`doAction:crud reload 1`] = `
                           </li>
                         </ul>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
                           >
                             跳转至
                           </span>
                           <input
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
                             type="text"
                             value=""
                           />
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
                           >
                             前往
                           </span>
@@ -1252,21 +1252,21 @@ exports[`doAction:crud reload 1`] = `
 exports[`doAction:crud reload with data1 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1274,36 +1274,36 @@ exports[`doAction:crud reload with data1 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-toolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
                           class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -1316,13 +1316,13 @@ exports[`doAction:crud reload with data1 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -1356,10 +1356,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -1367,7 +1367,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -1376,10 +1376,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -1387,7 +1387,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -1396,10 +1396,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -1407,7 +1407,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -1416,10 +1416,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -1427,7 +1427,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -1436,10 +1436,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -1447,7 +1447,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -1456,10 +1456,10 @@ exports[`doAction:crud reload with data1 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -1467,19 +1467,19 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -1487,7 +1487,7 @@ exports[`doAction:crud reload with data1 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -1495,13 +1495,13 @@ exports[`doAction:crud reload with data1 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-placeholder"
                       >
                         <td
                           colspan="7"
                         >
                           <icon-mock
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
                             icon="desk-empty"
                           />
                           暂无数据
@@ -1511,14 +1511,14 @@ exports[`doAction:crud reload with data1 1`] = `
                   </table>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
                   data-testid="spinner"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
                   />
                 </div>
               </div>
@@ -1534,21 +1534,21 @@ exports[`doAction:crud reload with data1 1`] = `
 exports[`doAction:crud reload with data2 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1556,36 +1556,36 @@ exports[`doAction:crud reload with data2 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud"
             data-id="crud_reload"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Table __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-body"
               data-id="crud_reload"
               style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px; --Table-column-5-width: 0px; --Table-column-6-width: 0px; --Table-column-7-width: 0px; --Table-column-8-width: 0px; --Table-column-9-width: 0px;"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-fixedTop"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-toolbar __AMIS_COMPONENT_CLASS_PREFIX__Table-headToolbar"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-toolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Table-headToolbar"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-actions"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-actions"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                       >
                         <icon-mock
                           class="icon icon-columns"
                           icon="columns"
                         />
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ColumnToggler-caret"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -1598,13 +1598,13 @@ exports[`doAction:crud reload with data2 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-contentWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content"
                 >
                   <table
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table"
                   >
                     <colgroup>
                       <col
@@ -1638,10 +1638,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="3"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 ID
@@ -1649,7 +1649,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="3"
                           />
                         </th>
@@ -1658,10 +1658,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="4"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Rendering engine
@@ -1669,7 +1669,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="4"
                           />
                         </th>
@@ -1678,10 +1678,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="5"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Browser
@@ -1689,7 +1689,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="5"
                           />
                         </th>
@@ -1698,10 +1698,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="6"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Platform(s)
@@ -1709,7 +1709,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="6"
                           />
                         </th>
@@ -1718,10 +1718,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="7"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 Engine version
@@ -1729,7 +1729,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="7"
                           />
                         </th>
@@ -1738,10 +1738,10 @@ exports[`doAction:crud reload with data2 1`] = `
                           data-index="8"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 CSS grade
@@ -1749,19 +1749,19 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="8"
                           />
                         </th>
                         <th
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-operationCell"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-operationCell"
                           data-index="9"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                             >
                               <span>
                                 操作
@@ -1769,7 +1769,7 @@ exports[`doAction:crud reload with data2 1`] = `
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                             data-index="9"
                           />
                         </th>
@@ -1777,13 +1777,13 @@ exports[`doAction:crud reload with data2 1`] = `
                     </thead>
                     <tbody>
                       <tr
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-placeholder"
                       >
                         <td
                           colspan="7"
                         >
                           <icon-mock
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-placeholder-empty-icon icon icon-desk-empty"
                             icon="desk-empty"
                           />
                           暂无数据
@@ -1793,14 +1793,14 @@ exports[`doAction:crud reload with data2 1`] = `
                   </table>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
                   data-testid="spinner"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
                   />
                 </div>
               </div>

@@ -87,15 +87,15 @@ test('Renderer:fieldSet with mode', async () => {
   const {container, rerender} = render(
     amisRender(schema('horizontal'), {}, makeEnv({}))
   );
-  expect(container.querySelector('.cxd-Form--horizontal')!).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Form--horizontal')!).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 
   rerender(amisRender(schema('inline'), {}, makeEnv({})));
-  expect(container.querySelector('.cxd-Form--inline')!).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Form--inline')!).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 
   rerender(amisRender(schema('justify'), {}, makeEnv({})));
-  expect(container.querySelector('.cxd-Form--justify')!).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Form--justify')!).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 });
 
@@ -155,15 +155,15 @@ test('Renderer:fieldSet with collapsable & collapsed', async () => {
     )
   );
 
-  const header = container.querySelector('.cxd-Collapse-header')!;
-  expect(container.querySelector('.cxd-Collapse')!).toHaveClass('is-active');
+  const header = container.querySelector('.prismui-Collapse-header')!;
+  expect(container.querySelector('.prismui-Collapse')!).toHaveClass('is-active');
   expect(
-    container.querySelector('.cxd-Collapse:last-of-type')!
+    container.querySelector('.prismui-Collapse:last-of-type')!
   ).not.toHaveClass('is-active');
 
   fireEvent.click(header);
   await wait(300);
-  expect(container.querySelector('.cxd-Collapse')!).not.toHaveClass(
+  expect(container.querySelector('.prismui-Collapse')!).not.toHaveClass(
     'is-active'
   );
 });
@@ -206,7 +206,7 @@ test('Renderer:fieldSet with titlePosition & collapseTitle & title', async () =>
     )
   );
 
-  const item = container.querySelector('.cxd-Collapse.is-active')!;
+  const item = container.querySelector('.prismui-Collapse.is-active')!;
 
   expect(item).toHaveClass(componentClass('Collapse--title-bottom'));
   expect(item.firstElementChild).toHaveClass(componentClass('Collapse-contentWrapper'));
@@ -253,26 +253,26 @@ test('Renderer:fieldSet with titlePosition & collapseTitle & title', async () =>
     amisRender(schema('xs'), {}, makeEnv({}))
   );
   expect(
-    container.querySelector('.cxd-Collapse.cxd-Collapse--xs')!
+    container.querySelector('.prismui-Collapse.prismui-Collapse--xs')!
   ).toBeInTheDocument();
 
   rerender(amisRender(schema('sm'), {}, makeEnv({})));
   expect(
-    container.querySelector('.cxd-Collapse.cxd-Collapse--sm')!
+    container.querySelector('.prismui-Collapse.prismui-Collapse--sm')!
   ).toBeInTheDocument();
 
   rerender(amisRender(schema('base'), {}, makeEnv({})));
   expect(
-    container.querySelector('.cxd-Collapse.cxd-Collapse--base')!
+    container.querySelector('.prismui-Collapse.prismui-Collapse--base')!
   ).toBeInTheDocument();
 
   rerender(amisRender(schema('lg'), {}, makeEnv({})));
   expect(
-    container.querySelector('.cxd-Collapse.cxd-Collapse--lg')!
+    container.querySelector('.prismui-Collapse.prismui-Collapse--lg')!
   ).toBeInTheDocument();
 
   rerender(amisRender(schema('xl'), {}, makeEnv({})));
   expect(
-    container.querySelector('.cxd-Collapse.cxd-Collapse--xl')!
+    container.querySelector('.prismui-Collapse.prismui-Collapse--xl')!
   ).toBeInTheDocument();
 });

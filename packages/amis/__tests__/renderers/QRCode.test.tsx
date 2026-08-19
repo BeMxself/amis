@@ -26,7 +26,7 @@ const setupQRCode = async (qrcodeProps: any = {}) => {
   );
 
   const getQRCode = () =>
-    result.container.querySelector('.amis-QrCode, .cxd-QrCode');
+    result.container.querySelector('.prismui-QrCode, .prismui-QrCode');
 
   await waitFor(() => {
     expect(getQRCode()).toBeInTheDocument();

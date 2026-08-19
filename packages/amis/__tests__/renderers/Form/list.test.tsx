@@ -88,7 +88,7 @@ test('Renderer:list:multiple clearable', async () => {
     )
   );
   // 这个是为了用于监视值是否变更完成
-  const refDom = container.querySelector('.cxd-PlainField') as Element;
+  const refDom = container.querySelector('.prismui-PlainField') as Element;
 
   fireEvent.click(await findByText(/Option A/));
   await waitFor(() => expect(refDom.innerHTML).toBe('a'));

@@ -39,7 +39,7 @@ test('Renderer:listSelect with multiple & clearable', async () => {
 
   const {container, rerender, getByText} = render(amisRender(schema()));
 
-  const options = container.querySelectorAll('.amis-ListControl-item');
+  const options = container.querySelectorAll('.prismui-ListControl-item');
   expect(options!.length).toBe(2);
 
   async function checkRes(times: number, res: any) {
@@ -125,14 +125,14 @@ test('Renderer:listSelect with image option & listClassName', async () => {
 
   expect(container).toMatchSnapshot();
 
-  const item = container.querySelector('.amis-ListControl-item');
+  const item = container.querySelector('.prismui-ListControl-item');
   expect(item).toHaveTextContent('OptionA');
-  expect(item!.querySelector('.amis-ListControl-itemImage img')).toHaveAttribute(
+  expect(item!.querySelector('.prismui-ListControl-itemImage img')).toHaveAttribute(
     'src',
     'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3893101144,2877209892&fm=23&gp=0.jpg'
   );
 
-  expect(container.querySelector('.amis-ListControl-items')).toHaveClass(
+  expect(container.querySelector('.prismui-ListControl-items')).toHaveClass(
     'items-wrapper'
   );
 });

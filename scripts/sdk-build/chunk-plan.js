@@ -81,6 +81,7 @@ const sdkChunkPlan = {
       'reactcss/**',
       'tinycolor2/**'
     ],
+    'pdf-viewer-shared.js': ['amis-ui/lib/components/Input.js', 'clsx/**'],
     'pdf-viewer.js': ['amis-ui/lib/components/PdfViewer.js', 'react-pdf/**'],
     'cropperjs.js': ['cropperjs/**', 'react-cropper/**'],
     'barcode.js': ['src/components/BarCode.tsx', 'jsbarcode/**'],
@@ -127,15 +128,20 @@ const sdkChunkPlan = {
 const sdkCssFiles = [
   'sdk.css',
   'cxd.css',
+  'prismui.css',
   'ang.css',
   'dark.css',
   'antd.css',
+  'helper.css'
+];
+
+const sdkIe11CssFiles = [
   'sdk-ie11.css',
   'cxd-ie11.css',
+  'prismui-ie11.css',
   'ang-ie11.css',
   'dark-ie11.css',
   'antd-ie11.css',
-  'helper.css',
   'ie11-patch.css'
 ];
 
@@ -157,5 +163,6 @@ const sdkStaticFiles = [
 module.exports = {
   sdkChunkPlan,
   sdkCssFiles,
+  sdkIe11CssFiles,
   sdkStaticFiles
 };

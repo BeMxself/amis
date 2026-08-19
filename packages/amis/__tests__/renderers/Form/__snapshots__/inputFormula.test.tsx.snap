@@ -3,31 +3,31 @@
 exports[`Renderer:input-formula button 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`Renderer:input-formula button 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -47,7 +47,7 @@ exports[`Renderer:input-formula button 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__JsonField __PRISMUI_COMPONENT_CLASS_PREFIX__Form--debug"
                 >
                   <div
                     class="w-json-view-container w-rjv  w-rjv-inner"
@@ -138,16 +138,16 @@ exports[`Renderer:input-formula button 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="formula"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           公式
@@ -156,14 +156,14 @@ exports[`Renderer:input-formula button 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker __AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker--text __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker __PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker--text __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <button
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default is-active __AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker-action w-full"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default is-active __PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker-action w-full"
                       type="button"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker-label"
                       >
                         公式编辑
                       </span>
@@ -173,13 +173,13 @@ exports[`Renderer:input-formula button 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -199,31 +199,31 @@ exports[`Renderer:input-formula button 1`] = `
 exports[`Renderer:input-formula input-group 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -232,10 +232,10 @@ exports[`Renderer:input-formula input-group 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -243,7 +243,7 @@ exports[`Renderer:input-formula input-group 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__JsonField __PRISMUI_COMPONENT_CLASS_PREFIX__Form--debug"
                 >
                   <div
                     class="w-json-view-container w-rjv  w-rjv-inner"
@@ -334,16 +334,16 @@ exports[`Renderer:input-formula input-group 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="formula"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           公式
@@ -352,13 +352,13 @@ exports[`Renderer:input-formula input-group 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker is-input-group __AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker--text __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker is-input-group __PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker--text __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputBox __AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker-input __AMIS_COMPONENT_CLASS_PREFIX__InputBox--borderFull"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputBox __PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker-input __PRISMUI_COMPONENT_CLASS_PREFIX__InputBox--borderFull"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__FormulaCodeEditor __AMIS_COMPONENT_CLASS_PREFIX__FormulaCodeEditor--singleLine"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__FormulaCodeEditor __PRISMUI_COMPONENT_CLASS_PREFIX__FormulaCodeEditor--singleLine"
                       >
                         <div
                           class="CodeMirror cm-s-idea"
@@ -445,7 +445,7 @@ exports[`Renderer:input-formula input-group 1`] = `
                         </div>
                       </div>
                       <a
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__InputBox-clear"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputBox-clear"
                       >
                         <icon-mock
                           class="icon icon-input-clear"
@@ -454,7 +454,7 @@ exports[`Renderer:input-formula input-group 1`] = `
                       </a>
                     </div>
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__FormulaPicker-toggler"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__FormulaPicker-toggler"
                     >
                       <icon-mock
                         class="icon icon-function"
@@ -466,13 +466,13 @@ exports[`Renderer:input-formula input-group 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

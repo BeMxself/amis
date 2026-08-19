@@ -175,7 +175,7 @@
       align-items: center;
 
       .#{$ns}ButtonGroup {
-        & > .cxd-Button:not(:last-child) {
+        & > .prismui-Button:not(:last-child) {
           margin-right: px2rem(24px);
         }
       }

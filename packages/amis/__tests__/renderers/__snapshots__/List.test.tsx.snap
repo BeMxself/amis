@@ -3,34 +3,34 @@
 exports[`Renderer:list 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default"
               data-role="container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
               >
                 <h3
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       简单 List 示例
@@ -39,33 +39,33 @@ exports[`Renderer:list 1`] = `
                 </h3>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="0"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -74,27 +74,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Trident
                                     </span>
@@ -102,21 +102,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       4
                                     </span>
@@ -127,15 +127,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="1"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -144,27 +144,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Trident
                                     </span>
@@ -172,21 +172,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       4
                                     </span>
@@ -197,15 +197,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="2"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -214,27 +214,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Trident
                                     </span>
@@ -242,21 +242,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       4
                                     </span>
@@ -267,15 +267,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="3"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -284,27 +284,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Trident
                                     </span>
@@ -312,21 +312,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       3
                                     </span>
@@ -337,15 +337,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="4"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -354,27 +354,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Trident
                                     </span>
@@ -382,21 +382,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       4
                                     </span>
@@ -407,15 +407,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="5"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -424,27 +424,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Gecko
                                     </span>
@@ -452,21 +452,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       4
                                     </span>
@@ -477,15 +477,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="6"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -494,27 +494,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Gecko
                                     </span>
@@ -522,21 +522,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       5
                                     </span>
@@ -547,15 +547,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="7"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -564,27 +564,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Gecko
                                     </span>
@@ -592,21 +592,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       5
                                     </span>
@@ -617,15 +617,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="8"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -634,27 +634,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Gecko
                                     </span>
@@ -662,21 +662,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       5
                                     </span>
@@ -687,15 +687,15 @@ exports[`Renderer:list 1`] = `
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                           data-index="9"
                           style="scroll-margin-top: var(--affix-offset-top);"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                               type="button"
                             >
                               <span>
@@ -704,27 +704,27 @@ exports[`Renderer:list 1`] = `
                             </button>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Engine
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       Gecko
                                     </span>
@@ -732,21 +732,21 @@ exports[`Renderer:list 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                                 >
                                   <label
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                                   >
                                     Version
                                   </label>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                                   >
                                     <span
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                                     >
                                       5
                                     </span>
@@ -777,79 +777,79 @@ exports[`Renderer:list with itemAction 1`] = `
 >
   <div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-      data-amis-theme="cxd"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+      data-prismui-theme="cxd"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
             role="page-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__List-heading"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-heading"
                     >
                       listTitleForTest
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                       data-index="0"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Engine
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               Trident
                             </span>
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Version
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               4
                             </span>
@@ -858,44 +858,44 @@ exports[`Renderer:list with itemAction 1`] = `
                       </div>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                       data-index="1"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Engine
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               Trident
                             </span>
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Version
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               4
                             </span>
@@ -904,44 +904,44 @@ exports[`Renderer:list with itemAction 1`] = `
                       </div>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __AMIS_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--hasItemAction"
                       data-index="2"
                       style="scroll-margin-top: var(--affix-offset-top);"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Engine
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               Trident
                             </span>
                           </div>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                         >
                           <label
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                           >
                             Version
                           </label>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                             >
                               4
                             </span>
@@ -959,21 +959,21 @@ exports[`Renderer:list with itemAction 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -983,17 +983,17 @@ exports[`Renderer:list with itemAction 1`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           详情
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             当前行的数据 browser: Internet Explorer 4.0, version: 4
@@ -1001,10 +1001,10 @@ exports[`Renderer:list with itemAction 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1012,7 +1012,7 @@ exports[`Renderer:list with itemAction 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1028,44 +1028,44 @@ exports[`Renderer:list with itemAction 1`] = `
 exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="0"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         type="button"
                       >
                         <span>
@@ -1074,39 +1074,39 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
                       </button>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1115,15 +1115,15 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="1"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         type="button"
                       >
                         <span>
@@ -1132,39 +1132,39 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
                       </button>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1173,15 +1173,15 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="2"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-actions"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-actions"
                     >
                       <button
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                         type="button"
                       >
                         <span>
@@ -1190,39 +1190,39 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
                       </button>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1244,41 +1244,41 @@ exports[`Renderer:list with listItem actions & actionsPosition 1`] = `
 exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="0"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
                       <img
                         alt="..."
@@ -1286,39 +1286,39 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
                       />
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1327,12 +1327,12 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="1"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
                       <img
                         alt="..."
@@ -1340,39 +1340,39 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
                       />
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1381,12 +1381,12 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="2"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-avatar avatarClassNameForTest"
                     >
                       <img
                         alt="..."
@@ -1394,39 +1394,39 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
                       />
                     </span>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1448,92 +1448,92 @@ exports[`Renderer:list with listItem avatar & avatarClassName 1`] = `
 exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="0"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
                         Win 95+
                       </p>
                       <div>
                         <small
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
                           等级为：A
                         </small>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           this is list item desc
                         </span>
                       </span>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1542,63 +1542,63 @@ exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="1"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
                         Win 95+
                       </p>
                       <div>
                         <small
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
                           等级为：B
                         </small>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           this is list item desc
                         </span>
                       </span>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1607,63 +1607,63 @@ exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="2"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title classForItemTitle"
                       >
                         Win 95+
                       </p>
                       <div>
                         <small
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-subtitle"
                         >
                           等级为：C
                         </small>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           this is list item desc
                         </span>
                       </span>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Engine
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             Trident
                           </span>
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-field"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-field"
                       >
                         <label
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldLabel"
                         >
                           Version
                         </label>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-fieldValue"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                           >
                             4
                           </span>
@@ -1685,36 +1685,36 @@ exports[`Renderer:list with listItem title & titleClassName & subTitle & desc 1`
 exports[`Renderer:list with title & header & footer & headerClassName & footerClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__List"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__List"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-header headerTplClassName"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-header headerTplClassName"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         头部标题
@@ -1722,16 +1722,16 @@ exports[`Renderer:list with title & header & footer & headerClassName & footerCl
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__List-heading"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-heading"
                   >
                     listTitleForTest
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-placeholder"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       暂无数据
@@ -1739,10 +1739,10 @@ exports[`Renderer:list with title & header & footer & headerClassName & footerCl
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-footer footerButtonClassName"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-footer footerButtonClassName"
                 >
                   <button
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                     type="button"
                   >
                     <span>

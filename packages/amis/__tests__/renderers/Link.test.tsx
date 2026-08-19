@@ -40,7 +40,7 @@ test('Renderer:link with href & blank & htmlTarget', async () => {
   };
   const {container, rerender} = render(amisRender(schema));
 
-  const link = container.querySelector('.cxd-Link');
+  const link = container.querySelector('.prismui-Link');
   expect(link).toHaveAttribute('href', 'https://www.baidu.com');
   expect(link).toHaveAttribute('target', '_blank');
 
@@ -70,7 +70,7 @@ test('Renderer:link with disabled', async () => {
     )
   );
 
-  const link = container.querySelector('.cxd-Link');
+  const link = container.querySelector('.prismui-Link');
   expect(link).toHaveClass('is-disabled');
   expect(link).toHaveTextContent('百度一下');
 
@@ -89,10 +89,10 @@ test('Renderer:link with title & icon & rightIcon', async () => {
     })
   );
 
-  const link = container.querySelector('.cxd-Link');
+  const link = container.querySelector('.prismui-Link');
   expect(link).toHaveAttribute('title', 'linkTitleForTest');
 
-  const icons = container.querySelectorAll('.cxd-Link-icon');
+  const icons = container.querySelectorAll('.prismui-Link-icon');
 
   expect(icons!.length).toBe(2);
   expect(icons[0]).toHaveClass('fa-search');

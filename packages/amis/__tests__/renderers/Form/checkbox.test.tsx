@@ -71,7 +71,7 @@ test('Renderer:checkbox with optionType', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-Checkbox.cxd-Checkbox--checkbox--button'
+      '.prismui-Checkbox.prismui-Checkbox--checkbox--button'
     ) as Element
   ).toBeInTheDocument();
 
@@ -79,12 +79,12 @@ test('Renderer:checkbox with optionType', async () => {
 
   await waitFor(() => {
     expect(
-      (container.querySelector('.cxd-PlainField') as Element).innerHTML
+      (container.querySelector('.prismui-PlainField') as Element).innerHTML
     ).toBe('吃了');
 
     expect(
       container.querySelector(
-        '.cxd-Checkbox.cxd-Checkbox--checkbox--button.cxd-Checkbox--checkbox--button--checked'
+        '.prismui-Checkbox.prismui-Checkbox--checkbox--button.prismui-Checkbox--checkbox--button--checked'
       ) as Element
     ).toBeInTheDocument();
   });
@@ -118,7 +118,7 @@ test('Renderer:checkbox with checked', async () => {
   await wait(300);
 
   expect(
-    container.querySelector('.cxd-Checkbox input[checked]') as Element
+    container.querySelector('.prismui-Checkbox input[checked]') as Element
   ).toBeInTheDocument();
 
   expect(container).toMatchSnapshot();

@@ -1584,7 +1584,7 @@ export class Table extends React.PureComponent<TableProps, TableState> {
     }
 
     const div = document.createElement('div');
-    div.className = 'amis-scope'; // jssdk 里面 css 会在这一层
+    div.className = 'prismui-scope'; // jssdk 里面 css 会在这一层
     div.style.cssText += `visibility: hidden!important;`;
     div.innerHTML = htmls.join('');
     let ths1: Array<HTMLTableCellElement> = [];

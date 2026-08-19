@@ -3,46 +3,46 @@
 exports[`Renderer:timeline dot size is adjusted 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-xl __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-xl __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
           >
             error
           </div>
@@ -50,43 +50,43 @@ exports[`Renderer:timeline dot size is adjusted 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-sm __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-sm __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
           >
             success
           </div>
@@ -94,43 +94,43 @@ exports[`Renderer:timeline dot size is adjusted 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-lg __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-hide-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-lg __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-hide-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible auto-detail-class"
           >
             warning
           </div>
@@ -144,19 +144,19 @@ exports[`Renderer:timeline dot size is adjusted 1`] = `
 exports[`Renderer:timeline itemTitleSchema 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
         >
           <icon-mock
             class="icon icon-close"
@@ -165,18 +165,18 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <div
@@ -188,10 +188,10 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             detail
           </div>
@@ -199,39 +199,39 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <div
@@ -245,38 +245,38 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <div
@@ -290,38 +290,38 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               <div
@@ -341,19 +341,19 @@ exports[`Renderer:timeline itemTitleSchema 1`] = `
 exports[`Renderer:timeline items 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
         >
           <icon-mock
             class="icon icon-close"
@@ -362,23 +362,23 @@ exports[`Renderer:timeline items 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             detail
           </div>
@@ -386,106 +386,106 @@ exports[`Renderer:timeline items 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
@@ -498,145 +498,145 @@ exports[`Renderer:timeline items 1`] = `
 exports[`Renderer:timeline mode direction 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(255, 178, 0);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
@@ -649,145 +649,145 @@ exports[`Renderer:timeline mode direction 1`] = `
 exports[`Renderer:timeline mode direction 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-left"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-left"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(255, 178, 0);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
@@ -800,145 +800,145 @@ exports[`Renderer:timeline mode direction 2`] = `
 exports[`Renderer:timeline mode direction 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-alternate"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-alternate"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(255, 178, 0);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
@@ -951,172 +951,172 @@ exports[`Renderer:timeline mode direction 3`] = `
 exports[`Renderer:timeline mode direction 4`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-horizontal __AMIS_COMPONENT_CLASS_PREFIX__Timeline-top"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-top"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-first-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-first-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(255, 178, 0);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-second-line"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-second-line"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
           >
             节点数据
           </div>
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
           >
             节点数据
           </div>
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
           >
             节点数据
           </div>
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content-align--center"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-inner-content-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
           >
             节点数据
           </div>
@@ -1130,145 +1130,145 @@ exports[`Renderer:timeline mode direction 4`] = `
 exports[`Renderer:timeline mode direction 5`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--success"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--success"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(79, 134, 244);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
             style="background-color: rgb(255, 178, 0);"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           节点数据
         </div>
@@ -1281,19 +1281,19 @@ exports[`Renderer:timeline mode direction 5`] = `
 exports[`Renderer:timeline source 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Timeline __AMIS_COMPONENT_CLASS_PREFIX__Timeline-vertical __AMIS_COMPONENT_CLASS_PREFIX__Timeline-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Timeline __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Timeline-right"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
         >
           <icon-mock
             class="icon icon-close"
@@ -1302,23 +1302,23 @@ exports[`Renderer:timeline source 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-07
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           数据开发
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-07detail
           </div>
@@ -1326,43 +1326,43 @@ exports[`Renderer:timeline source 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-08
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           管理中心
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-08detail
           </div>
@@ -1370,43 +1370,43 @@ exports[`Renderer:timeline source 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-background--warning"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round--warning"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-09
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           SQL语句
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-09detail
           </div>
@@ -1414,16 +1414,16 @@ exports[`Renderer:timeline source 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
         >
           <icon-mock
             class="icon icon-compress-alt"
@@ -1432,23 +1432,23 @@ exports[`Renderer:timeline source 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-10
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           一键部署
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-10detail
           </div>
@@ -1456,43 +1456,43 @@ exports[`Renderer:timeline source 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round-wrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-round"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-round"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-dot"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-10
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           一键部署
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-11detail
           </div>
@@ -1500,16 +1500,16 @@ exports[`Renderer:timeline source 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-axle __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-axle __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-size-md __PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-point-align--top"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-line"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-icon"
         >
           <icon-mock
             class="icon icon-close"
@@ -1518,23 +1518,23 @@ exports[`Renderer:timeline source 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-content"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-content"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-time"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-time"
         >
           2019-02-10
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-title"
         >
           一键部署
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TimelineItem-detail-visible"
           >
             2019-02-12detail
           </div>

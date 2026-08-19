@@ -1,4 +1,4 @@
-$ns: $amis-component-prefix;
+$ns: $prismui-component-prefix;
 .Theme-ColorPicker {
   &-label-out {
     height: px2rem(32px);
@@ -241,7 +241,7 @@ $ns: $amis-component-prefix;
     input {
       font-size: 12px;
     }
-    .#{$amis-component-prefix}SearchBox.is-active {
+    .#{$prismui-component-prefix}SearchBox.is-active {
       width: px2rem(216px);
     }
   }
@@ -280,13 +280,13 @@ $ns: $amis-component-prefix;
   &-range {
     width: px2rem(40px);
     position: relative;
-    .#{$amis-component-prefix}Number {
+    .#{$prismui-component-prefix}Number {
       height: px2rem(26px);
     }
-    .#{$amis-component-prefix}Number-handler-wrap {
+    .#{$prismui-component-prefix}Number-handler-wrap {
       display: none !important;
     }
-    .#{$amis-component-prefix}Number-input {
+    .#{$prismui-component-prefix}Number-input {
       padding: 0 px2rem(4px);
       font-size: 12px;
     }

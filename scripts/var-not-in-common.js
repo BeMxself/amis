@@ -4,14 +4,15 @@
 
 const fs = require('fs');
 const path = require('path');
+const scssDir = path.join(__dirname, '..', 'packages', 'amis-ui', 'scss');
 
 const cxdVariables = fs.readFileSync(
-  path.join(__dirname, '..', 'scss', 'themes', '_cxd-variables.scss'),
+  path.join(scssDir, 'themes', '_cxd-variables.scss'),
   {encoding: 'utf8'}
 );
 
 const commonVariables = fs.readFileSync(
-  path.join(__dirname, '..', 'scss', '_properties.scss'),
+  path.join(scssDir, '_properties.scss'),
   {encoding: 'utf8'}
 );
 

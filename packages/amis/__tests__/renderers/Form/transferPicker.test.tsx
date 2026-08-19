@@ -75,7 +75,7 @@ test('Renderer:transfer-picker', async () => {
     )
   );
 
-  const dom = container.querySelector('.cxd-ResultBox')!;
+  const dom = container.querySelector('.prismui-ResultBox')!;
   expect(dom).not.toBeNull();
 
   fireEvent.click(dom);

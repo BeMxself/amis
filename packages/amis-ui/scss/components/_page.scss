@@ -1,4 +1,4 @@
-.amis-Page {
+.prismui-Page {
   width: 100%;
   background: var(--Page-main-bg);
   display: flex;
@@ -36,13 +36,13 @@
     flex-direction: row;
     align-items: center;
 
-    .amis-Page-header,
-    .amis-Page-toolbar {
+    .prismui-Page-header,
+    .prismui-Page-toolbar {
       flex-grow: 1;
       min-height: 100%;
     }
 
-    .amis-Page-toolbar {
+    .prismui-Page-toolbar {
       text-align: right;
       padding-right: var(--gap-base);
       display: flex;
@@ -101,26 +101,26 @@
   }
 }
 
-.amis-Page-toolbar {
+.prismui-Page-toolbar {
   > * + * {
     margin-left: var(--gap-xs);
   }
 }
 
-.amis-Page-aside {
+.prismui-Page-aside {
   // background: var(--Page-aside-bg);
 }
 
 @include media-breakpoint-down(sm) {
-  .amis-Page {
+  .prismui-Page {
     flex-direction: column;
   }
 
-  .amis-Page-aside {
+  .prismui-Page-aside {
     flex-shrink: 0;
   }
 
-  .amis-Page-content {
+  .prismui-Page-content {
     flex-grow: 1;
     min-height: 0;
     display: flex;
@@ -128,14 +128,14 @@
     flex-direction: row;
   }
 
-  .amis-Page-main {
+  .prismui-Page-main {
     height: auto;
     width: 100%;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .amis-Page-aside {
+  .prismui-Page-aside {
     &::before {
       content: '';
       position: absolute;
@@ -157,35 +157,35 @@
     }
   }
 
-  .amis-Page--withSidebar {
+  .prismui-Page--withSidebar {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 
-    > .amis-Page-content,
-    > .amis-PullRefresh {
+    > .prismui-Page-content,
+    > .prismui-PullRefresh {
       width: 0;
       flex-grow: 1;
     }
   }
 
   // 右侧侧边栏时，调整侧边栏相关的样式
-  .amis-Page--rightAside {
+  .prismui-Page--rightAside {
     flex-direction: row-reverse;
 
-    > .amis-Page-aside {
+    > .prismui-Page-aside {
       border-left: var(--borderWidth) solid var(--borderColor);
       border-right: unset;
 
-      > .amis-Page-asideResizor {
+      > .prismui-Page-asideResizor {
         left: px2rem(-6px);
         right: unset;
       }
     }
   }
 
-  .amis-Page--asideSticky {
-    > .amis-Page-aside {
+  .prismui-Page--asideSticky {
+    > .prismui-Page-aside {
       position: sticky;
       top: var(--affix-offset-top);
       max-height: calc(

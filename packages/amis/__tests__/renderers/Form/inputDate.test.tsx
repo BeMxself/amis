@@ -80,7 +80,7 @@ test('Renderer:inputDate', async () => {
   );
 
   const input = container.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   )! as HTMLInputElement;
   expect(input.value).toEqual(moment(1559836800, 'X').format('YYYY-MM-DD'));
 
@@ -114,27 +114,27 @@ test('Renderer:inputDate click', async () => {
     )
   );
 
-  const inputDate = container.querySelector('.cxd-DatePicker') as HTMLElement;
+  const inputDate = container.querySelector('.prismui-DatePicker') as HTMLElement;
 
   fireEvent.click(inputDate);
 
   // 点击前一年
   fireEvent.click(
-    container.querySelector('.cxd-DatePicker-popover .rdtPrev') as HTMLElement
+    container.querySelector('.prismui-DatePicker-popover .rdtPrev') as HTMLElement
   );
 
   // 点击下一个月
   fireEvent.click(
-    container.querySelector('.cxd-DatePicker-popover .rdtNext') as HTMLElement
+    container.querySelector('.prismui-DatePicker-popover .rdtNext') as HTMLElement
   );
 
   const date = container.querySelector(
-    '.cxd-DatePicker-popover tr td[data-value="1"]'
+    '.prismui-DatePicker-popover tr td[data-value="1"]'
   ) as HTMLElement;
 
   fireEvent.click(date);
 
-  const tpl = container.querySelector('.cxd-DateField') as HTMLElement;
+  const tpl = container.querySelector('.prismui-DateField') as HTMLElement;
 
   expect(tpl.innerHTML).toEqual(
     moment().subtract(1, 'year').add(1, 'month').format('YYYY-MM') + '-01'
@@ -170,12 +170,12 @@ test('Renderer:inputDate embed', async () => {
   );
 
   const date = container.querySelector(
-    '.cxd-DateCalendar tr td[data-value="1"]'
+    '.prismui-DateCalendar tr td[data-value="1"]'
   ) as HTMLElement;
 
   fireEvent.click(date);
 
-  const tpl = container.querySelector('.cxd-DateField') as HTMLElement;
+  const tpl = container.querySelector('.prismui-DateField') as HTMLElement;
 
   expect(tpl.innerHTML).toEqual(moment().format('YYYY-MM') + '-01');
 });
@@ -196,9 +196,9 @@ test('Renderer:inputDate with valueFormat & displayFormat', async () => {
     }
   ]);
 
-  const tpl = container.querySelector('.cxd-PlainField')! as HTMLElement;
+  const tpl = container.querySelector('.prismui-PlainField')! as HTMLElement;
   const input = container.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   )! as HTMLInputElement;
 
   expect(tpl.innerHTML).toEqual('今天是2022年, 08月, 19日');
@@ -236,10 +236,10 @@ test('Renderer:inputDate compatible with format & inputFormat', async () => {
   ]);
 
   const tpl = container.querySelectorAll(
-    '.cxd-PlainField'
+    '.prismui-PlainField'
   )! as NodeListOf<Element>;
   const input = container.querySelectorAll(
-    '.cxd-DatePicker-input'
+    '.prismui-DatePicker-input'
   )! as NodeListOf<HTMLInputElement>;
 
   expect(tpl[0].innerHTML).toEqual(tpl[1].innerHTML);
@@ -295,7 +295,7 @@ test('Renderer:inputDate with shortcuts', async () => {
     }
   ]);
 
-  const tpl = container.querySelector('.cxd-PlainField')! as HTMLElement;
+  const tpl = container.querySelector('.prismui-PlainField')! as HTMLElement;
 
   expect(tpl.innerHTML).toBe(moment().add(-1, 'd').format('YYYY-MM-DD'));
 });
@@ -321,14 +321,14 @@ test('Renderer:inputDate with shortcuts', async () => {
     }
   ]);
 
-  const tpl = container.querySelector('.cxd-PlainField')! as HTMLElement;
+  const tpl = container.querySelector('.prismui-PlainField')! as HTMLElement;
 
   // 点击打开
-  const inputDate = container.querySelector('.cxd-DatePicker') as HTMLElement;
+  const inputDate = container.querySelector('.prismui-DatePicker') as HTMLElement;
   fireEvent.click(inputDate);
   await wait(300);
 
-  const shortcuts = container.querySelectorAll('.cxd-DatePicker-shortcut');
+  const shortcuts = container.querySelectorAll('.prismui-DatePicker-shortcut');
   expect(shortcuts.length).toEqual(5);
 
   // 本月末
@@ -353,21 +353,21 @@ test('Renderer:inputDate with clearable', async () => {
     }
   ]);
 
-  const inputDate = container.querySelector('.cxd-DatePicker') as HTMLElement;
+  const inputDate = container.querySelector('.prismui-DatePicker') as HTMLElement;
   fireEvent.mouseEnter(inputDate);
 
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-DatePicker .cxd-DatePicker-clear')
+      container.querySelector('.prismui-DatePicker .prismui-DatePicker-clear')
     ).toBeInTheDocument();
   });
 
   fireEvent.click(
-    container.querySelector('.cxd-DatePicker .cxd-DatePicker-clear')!
+    container.querySelector('.prismui-DatePicker .prismui-DatePicker-clear')!
   );
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-PlainField')!.innerHTML).toBe(
+    expect(container.querySelector('.prismui-PlainField')!.innerHTML).toBe(
       '<span class="text-muted">-</span>'
     );
   });
@@ -385,11 +385,11 @@ test('Renderer:inputDate with clearable', async () => {
     }
   ]);
 
-  fireEvent.mouseEnter(noClearableCon.querySelector('.cxd-DatePicker')!);
+  fireEvent.mouseEnter(noClearableCon.querySelector('.prismui-DatePicker')!);
 
   await waitFor(() => {
     expect(
-      noClearableCon.querySelector('.cxd-DatePicker .cxd-DatePicker-clear')
+      noClearableCon.querySelector('.prismui-DatePicker .prismui-DatePicker-clear')
     ).not.toBeInTheDocument();
   });
 
@@ -422,7 +422,7 @@ test('Renderer:inputDate with utc', async () => {
   ]);
 
   const inputs = container.querySelectorAll(
-    '.cxd-DatePicker-input'
+    '.prismui-DatePicker-input'
   )! as unknown as HTMLInputElement[];
 
   expect(inputs[0].value).toBe('2022-08-22');
@@ -442,22 +442,22 @@ test('Renderer:inputDate with closeOnSelect', async () => {
   ]);
 
   // 打开弹框
-  fireEvent.click(container.querySelector('.cxd-DatePicker') as HTMLElement);
+  fireEvent.click(container.querySelector('.prismui-DatePicker') as HTMLElement);
   // 点击选择
   fireEvent.click(
     container.querySelector(
-      '.cxd-DatePicker-popover tr td[data-value="1"]'
+      '.prismui-DatePicker-popover tr td[data-value="1"]'
     ) as HTMLElement
   );
 
   await wait(500);
   // expect(
-  //   container.querySelector('.cxd-PopOver.cxd-DatePicker-popover')
+  //   container.querySelector('.prismui-PopOver.prismui-DatePicker-popover')
   // ).not.toBeInTheDocument();
 
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-PopOver.cxd-DatePicker-popover')
+      container.querySelector('.prismui-PopOver.prismui-DatePicker-popover')
     ).not.toBeInTheDocument();
   });
 
@@ -473,16 +473,16 @@ test('Renderer:inputDate with closeOnSelect', async () => {
   ]);
 
   // 打开弹框
-  fireEvent.click(conDontClose.querySelector('.cxd-DatePicker') as HTMLElement);
+  fireEvent.click(conDontClose.querySelector('.prismui-DatePicker') as HTMLElement);
   // 点击选择
   fireEvent.click(
     conDontClose.querySelector(
-      '.cxd-DatePicker-popover tr td[data-value="1"]'
+      '.prismui-DatePicker-popover tr td[data-value="1"]'
     ) as HTMLElement
   );
   await wait(500);
   expect(
-    conDontClose.querySelector('.cxd-PopOver.cxd-DatePicker-popover')
+    conDontClose.querySelector('.prismui-PopOver.prismui-DatePicker-popover')
   ).toBeInTheDocument();
 });
 
@@ -498,13 +498,13 @@ test('Renderer:inputDate disabledDate', async () => {
   ]);
 
   // 打开弹框
-  fireEvent.click(container.querySelector('.cxd-DatePicker') as HTMLElement);
+  fireEvent.click(container.querySelector('.prismui-DatePicker') as HTMLElement);
 
   const monday = moment().day(1);
   const tuesday = moment().day(2);
 
   const todayCell = container.querySelector(
-    '.cxd-DatePicker-popover td.rdtToday'
+    '.prismui-DatePicker-popover td.rdtToday'
   )!;
   expect(todayCell).toBeInTheDocument();
 
@@ -541,7 +541,7 @@ test('Renderer:inputDate defaultValue with formula', async () => {
 
   await wait(300);
   const input = container.querySelector(
-    '.cxd-DatePicker-input'
+    '.prismui-DatePicker-input'
   )! as HTMLInputElement;
 
   expect(input).toBeInTheDocument();
@@ -581,7 +581,7 @@ test('Renderer:inputDate setValue actions with special words', async () => {
   fireEvent.click(getByText('设置值'));
   await wait(200);
   const today = moment();
-  const inputDate = container.querySelector('.cxd-DatePicker-input');
+  const inputDate = container.querySelector('.prismui-DatePicker-input');
 
   expect(inputDate).toBeInTheDocument();
   expect((inputDate as any)?.value).toEqual(today.format('YYYY-MM-DD'));

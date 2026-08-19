@@ -3,17 +3,17 @@
 exports[`Renderer:tabs as form item 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:tabs as form item 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,43 +33,43 @@ exports[`Renderer:tabs as form item 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line"
           data-role="container"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
                   role="tablist"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
                   >
                     <a
                       title="Tab 1"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                       >
                         Tab 1
                       </span>
                     </a>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
                   >
                     <a
                       title="Tab 2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                       >
                         Tab 2
                       </span>
@@ -80,13 +80,13 @@ exports[`Renderer:tabs as form item 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Content 1
@@ -94,10 +94,10 @@ exports[`Renderer:tabs as form item 1`] = `
               </span>
             </div>
             <div
-              class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+              class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   Content 2
@@ -109,13 +109,13 @@ exports[`Renderer:tabs as form item 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -131,60 +131,60 @@ exports[`Renderer:tabs as form item 1`] = `
 exports[`Renderer:tabs change active tab 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line tabs-wrapper"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line tabs-wrapper"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
                   icon="close"
                 />
               </span>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
               </a>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
                   icon="close"
                 />
               </span>
@@ -194,13 +194,13 @@ exports[`Renderer:tabs change active tab 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -217,60 +217,60 @@ exports[`Renderer:tabs change active tab 1`] = `
 exports[`Renderer:tabs change active tab 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line tabs-wrapper"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line tabs-wrapper"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
                   icon="close"
                 />
               </span>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
               </a>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-close-icon icon-close"
                   icon="close"
                 />
               </span>
@@ -280,13 +280,13 @@ exports[`Renderer:tabs change active tab 2`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -296,19 +296,19 @@ exports[`Renderer:tabs change active tab 2`] = `
         </span>
       </div>
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="c"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   文本3
@@ -317,10 +317,10 @@ exports[`Renderer:tabs change active tab 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -335,16 +335,16 @@ exports[`Renderer:tabs change active tab 2`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="d"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   文本4
@@ -353,10 +353,10 @@ exports[`Renderer:tabs change active tab 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -379,43 +379,43 @@ exports[`Renderer:tabs change active tab 2`] = `
 exports[`Renderer:tabs tabsMode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--card"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--card"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
@@ -426,13 +426,13 @@ exports[`Renderer:tabs tabsMode 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -449,43 +449,43 @@ exports[`Renderer:tabs tabsMode 1`] = `
 exports[`Renderer:tabs tabsMode 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--radio"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--radio"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
@@ -496,13 +496,13 @@ exports[`Renderer:tabs tabsMode 2`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -519,37 +519,37 @@ exports[`Renderer:tabs tabsMode 2`] = `
 exports[`Renderer:tabs tabsMode 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--vertical"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--vertical"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
         role="tablist"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
         >
           <a
             title="基本配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               基本配置
             </span>
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="其他配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               其他配置
             </span>
@@ -558,13 +558,13 @@ exports[`Renderer:tabs tabsMode 3`] = `
       </ul>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -581,24 +581,24 @@ exports[`Renderer:tabs tabsMode 3`] = `
 exports[`Renderer:tabs tabsMode 4`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--chrome"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--chrome"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
         role="tablist"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
         >
           <a
             title="基本配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               基本配置
             </span>
@@ -625,13 +625,13 @@ exports[`Renderer:tabs tabsMode 4`] = `
           </div>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="其他配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               其他配置
             </span>
@@ -660,13 +660,13 @@ exports[`Renderer:tabs tabsMode 4`] = `
       </ul>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -683,43 +683,43 @@ exports[`Renderer:tabs tabsMode 4`] = `
 exports[`Renderer:tabs tabsMode 5`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--simple"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--simple"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
@@ -730,13 +730,13 @@ exports[`Renderer:tabs tabsMode 5`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -753,43 +753,43 @@ exports[`Renderer:tabs tabsMode 5`] = `
 exports[`Renderer:tabs tabsMode 6`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--strong"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--strong"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
@@ -800,13 +800,13 @@ exports[`Renderer:tabs tabsMode 6`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -823,43 +823,43 @@ exports[`Renderer:tabs tabsMode 6`] = `
 exports[`Renderer:tabs tabsMode 7`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--tiled"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--tiled"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
@@ -870,13 +870,13 @@ exports[`Renderer:tabs tabsMode 7`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -893,37 +893,37 @@ exports[`Renderer:tabs tabsMode 7`] = `
 exports[`Renderer:tabs tabsMode 8`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--sidebar sidebar--right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--sidebar sidebar--right"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksWrapper"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
         role="tablist"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
         >
           <a
             title="基本配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               基本配置
             </span>
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="其他配置"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               其他配置
             </span>
@@ -932,13 +932,13 @@ exports[`Renderer:tabs tabsMode 8`] = `
       </ul>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -955,53 +955,53 @@ exports[`Renderer:tabs tabsMode 8`] = `
 exports[`Renderer:tabs toolbar 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper __AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper--toolbar"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper--toolbar"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="基本配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   基本配置
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="其他配置"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   其他配置
                 </span>
               </a>
             </li>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-toolbar toolbarClassName"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-toolbar toolbarClassName"
             >
               <button
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-sm"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-sm"
                 type="button"
               >
                 <span>
@@ -1014,13 +1014,13 @@ exports[`Renderer:tabs toolbar 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <p>
@@ -1037,59 +1037,59 @@ exports[`Renderer:tabs toolbar 1`] = `
 exports[`Renderer:tabs with collapseOnExceed: popover show 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--tiled has-popover"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--tiled has-popover"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
         >
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
             role="tablist"
           >
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
             >
               <a
                 title="Tab 1"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   Tab 1
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
                 title="Tab 2"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                 >
                   Tab 2
                 </span>
               </a>
             </li>
             <li
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
             >
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-togglor is-opened"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-togglor is-opened"
               >
                 <span>
                   更多
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-togglor-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-togglor-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -1103,13 +1103,13 @@ exports[`Renderer:tabs with collapseOnExceed: popover show 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
     >
       <div
-        class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+        class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             Content 1
@@ -1118,52 +1118,52 @@ exports[`Renderer:tabs with collapseOnExceed: popover show 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Tabs-PopOver"
-      data-amis-theme="cxd"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-PopOver"
+      data-prismui-theme="cxd"
       role="popover"
       style="display: block; min-width: auto; left: 0px; top: 0px; visibility: hidden;"
       theme="cxd"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver-overlay"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-PopOverList __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-PopOverList __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="Tab 3"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               Tab 3
             </span>
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="Tab 4"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               Tab 4
             </span>
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
         >
           <a
             title="Tab 5"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
             >
               Tab 5
             </span>

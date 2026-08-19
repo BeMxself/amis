@@ -28,7 +28,7 @@ checks:
   - item: "implementation 开始前重新确认 core-component-selector-migration 和 editor-theme-helper-migration status=done，design-review passed 只允许 design admission"
     source: 关键决策
     status: passed
-  - item: "默认主路径只暴露 .amis-*、data-amis-theme 和 token，不把旧前缀写成公共样式 API"
+  - item: "默认主路径只暴露 .prismui-*、data-prismui-theme 和 token，不把旧前缀写成公共样式 API"
     source: Legacy prefix public contract
     status: passed
   - item: "legacyDomClassAlias 默认关闭，只允许显式 cxd，不从 classPrefix 自动推导 antd / dark alias"

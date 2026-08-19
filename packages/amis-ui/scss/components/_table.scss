@@ -1,4 +1,4 @@
-.amis-Table {
+.prismui-Table {
   position: relative;
 
   // 黑科技，让 scrollIntoView 能够跑正确的位置
@@ -9,7 +9,7 @@
   border-radius: var(--Table-borderRadius);
   margin-bottom: var(--gap-md);
 
-  .amis-Form-control > & {
+  .prismui-Form-control > & {
     margin-bottom: var(--gap-sm);
   }
 
@@ -47,13 +47,13 @@
     // }
 
     &.is-fakeHide {
-      > .amis-Table-wrapper {
+      > .prismui-Table-wrapper {
         visibility: hidden;
         position: absolute;
       }
     }
 
-    .amis-Table-table {
+    .prismui-Table-table {
       table-layout: fixed;
     }
   }
@@ -123,9 +123,9 @@
   &-header {
     padding: var(--Table-toolbar-marginY) var(--Table-toolbar-marginX);
 
-    > * + .amis-Button,
-    > * + .amis-ButtonGroup,
-    > * + .amis-ButtonToolbar {
+    > * + .prismui-Button,
+    > * + .prismui-ButtonGroup,
+    > * + .prismui-ButtonToolbar {
       margin-left: var(--Crud-toolbar-gap);
     }
   }
@@ -136,11 +136,11 @@
     padding: var(--Table-toolbar-marginY) var(--Table-toolbar-marginX);
     flex-wrap: wrap;
 
-    .amis-DropDown {
+    .prismui-DropDown {
       &-menuItem {
         height: auto;
 
-        .amis-Checkbox {
+        .prismui-Checkbox {
           display: flex;
           align-items: center;
         }
@@ -157,8 +157,8 @@
   }
 
   &.is-mobile {
-    .amis-Table-toolbar {
-      .amis-Form-item {
+    .prismui-Table-toolbar {
+      .prismui-Form-item {
         padding: 0;
       }
     }
@@ -246,9 +246,12 @@
     }
   }
 
+  & &-table,
   &-table {
+    display: table;
     width: 100%;
     min-width: 100%;
+    max-width: none;
     margin-bottom: 0;
     font-size: var(--Table-fontSize);
     color: var(--Table-color);
@@ -263,7 +266,7 @@
     & th,
     & td {
       text-align: left;
-      border-color: transparent;
+      border: 0;
       border-bottom: var(--Table-borderWidth) solid var(--Table-borderColor);
 
       &.is-sticky {
@@ -299,18 +302,18 @@
         font-size: 90%;
       }
 
-      & > .amis-Form,
-      & > .amis-Form-item > .amis-Form-control:not(.is-thin) {
+      & > .prismui-Form,
+      & > .prismui-Form-item > .prismui-Form-control:not(.is-thin) {
         min-width: var(--Form-control-widthBase);
 
-        &.amis-CheckboxControl,
-        &.amis-SwitchControl,
-        &.amis-RadiosControl {
+        &.prismui-CheckboxControl,
+        &.prismui-SwitchControl,
+        &.prismui-RadiosControl {
           min-width: auto;
         }
       }
 
-      .amis-Form-static {
+      .prismui-Form-static {
         min-height: auto;
       }
     }
@@ -356,7 +359,7 @@
       vertical-align: bottom !important;
     }
 
-    & td .amis-SwitchControl {
+    & td .prismui-SwitchControl {
       padding-top: 0;
     }
 
@@ -383,7 +386,7 @@
       // reset
       > tbody > tr {
         @if $Table-strip-bg != transparent {
-          &.amis-Table-tr--odd {
+          &.prismui-Table-tr--odd {
             background: transparent;
           }
         }
@@ -418,7 +421,7 @@
         &:first-child {
           padding-left: px2rem(12px);
 
-          &.amis-Table-checkCell {
+          &.prismui-Table-checkCell {
             padding-left: var(--TableCell--edge-paddingX);
           }
         }
@@ -426,7 +429,7 @@
         &:last-child {
           padding-right: px2rem(12px);
 
-          .amis-Table-content-colDragLine {
+          .prismui-Table-content-colDragLine {
             // 避免出现横向滚动条
             width: 4px;
             right: 0;
@@ -446,15 +449,15 @@
         font-weight: var(--fontWeightNormal);
         white-space: nowrap;
 
-        // .amis-TableCell--title {
+        // .prismui-TableCell--title {
         //   display: flex;
         //   align-items: center;
         // }
-        .amis-Remark {
+        .prismui-Remark {
           margin-left: var(--gap-xs);
         }
 
-        .amis-TableCell--title {
+        .prismui-TableCell--title {
           min-width: fit-content;
           display: inline-block;
         }
@@ -476,12 +479,14 @@
     > thead > tr {
       border-bottom: var(--Table-borderWidth) solid var(--Table-borderColor);
     }
-    @at-root .amis-Table-table-tr {
+    @at-root .prismui-Table-table-tr {
       background: var(--Table-bg);
     }
 
     > tbody > tr {
       position: relative;
+      border-top: 0;
+      background: var(--Table-bg);
 
       & + tr {
         border-top: var(--Table-borderWidth) solid var(--Table-borderColor);
@@ -520,12 +525,12 @@
       @if $Table-strip-bg != transparent {
         background: transparent;
 
-        &.amis-Table-tr--odd {
+        &.prismui-Table-tr--odd {
           background: var(--Table-strip-bg);
         }
       }
 
-      &.amis-Table-tr--hasItemAction:hover {
+      &.prismui-Table-tr--hasItemAction:hover {
         cursor: pointer;
       }
 
@@ -544,7 +549,7 @@
         background: var(--Table-onHover-bg);
       }
 
-      &:hover.amis-Table-placeholder {
+      &:hover.prismui-Table-placeholder {
         color: var(--text--muted-color);
       }
 
@@ -598,6 +603,10 @@
         @include font-variant($success);
       }
 
+      &.bg-blue-50 {
+        background: map-get(map-get($colors, blue), 50);
+      }
+
       &.bg-info {
         @include color-variant($info, 5%, 10%, 5%, 10%);
         @include font-variant($info);
@@ -629,7 +638,7 @@
       background-color: var(--table-body-disabled-bg-color);
     }
 
-    .amis-Table-divider2 {
+    .prismui-Table-divider2 {
       content: '';
       position: absolute;
       height: px2rem(1px);
@@ -638,7 +647,7 @@
       background: var(--Table-tree-borderColor);
     }
 
-    .amis-Table-divider3 {
+    .prismui-Table-divider3 {
       position: absolute;
       width: px2rem(1px);
       top: 0;
@@ -647,30 +656,30 @@
       background: var(--Table-tree-borderColor);
     }
 
-    > thead > tr > th.amis-Table-checkCell,
-    > tbody > tr > td.amis-Table-checkCell {
+    > thead > tr > th.prismui-Table-checkCell,
+    > tbody > tr > td.prismui-Table-checkCell {
       width: px2rem(1px);
       padding-right: var(--TableCell-paddingX);
       white-space: nowrap;
 
-      .amis-Checkbox {
+      .prismui-Checkbox {
         margin: 0;
       }
     }
 
-    > tbody > tr > td.amis-Table-checkCell {
+    > tbody > tr > td.prismui-Table-checkCell {
       border-right: 0;
     }
 
-    > thead > tr > th.amis-Table-expandCell,
-    > tbody > tr > td.amis-Table-expandCell {
+    > thead > tr > th.prismui-Table-expandCell,
+    > tbody > tr > td.prismui-Table-expandCell {
       border-right: 0;
       width: px2rem(1px);
       padding-right: 0;
     }
 
-    > thead > tr > th.amis-Table-dragCell,
-    > tbody > tr > td.amis-Table-dragCell {
+    > thead > tr > th.prismui-Table-dragCell,
+    > tbody > tr > td.prismui-Table-dragCell {
       border-right: 0;
       width: px2rem(1px);
       padding-right: 0;
@@ -682,11 +691,11 @@
       }
     }
 
-    > tbody > tr > td.amis-Table-expandCell {
+    > tbody > tr > td.prismui-Table-expandCell {
       position: relative;
     }
 
-    > tbody > tr.is-expanded > td.amis-Table-expandCell {
+    > tbody > tr.is-expanded > td.prismui-Table-expandCell {
       // position: relative;
 
       &::before {
@@ -701,19 +710,19 @@
       }
     }
 
-    > thead > tr > th.amis-TableCell--sortable,
-    > thead > tr > th.amis-TableCell--searchable,
-    > thead > tr > th.amis-TableCell--filterable {
-      > .amis-TableCell--title {
+    > thead > tr > th.prismui-TableCell--sortable,
+    > thead > tr > th.prismui-TableCell--searchable,
+    > thead > tr > th.prismui-TableCell--filterable {
+      > .prismui-TableCell--title {
         display: inline-block;
       }
     }
 
-    > thead > tr > th.amis-Table-primayCell,
-    > tbody > tr > td.amis-Table-primayCell {
+    > thead > tr > th.prismui-Table-primayCell,
+    > tbody > tr > td.prismui-Table-primayCell {
       white-space: nowrap; // 树形表格展示标题栏，不要换行
 
-      > .amis-Spinner {
+      > .prismui-Spinner {
         vertical-align: middle;
       }
 
@@ -725,7 +734,7 @@
   }
 
   &.is-mobile {
-    .amis-Table-table > tbody > tr {
+    .prismui-Table-table > tbody > tr {
       &:hover,
       &.is-hovered {
         background: var(--Table-bg);
@@ -822,7 +831,7 @@
     min-width: px2rem(320px);
     max-width: px2rem(640px);
 
-    > .amis-Panel {
+    > .prismui-Panel {
       margin: 0;
     }
   }
@@ -841,7 +850,7 @@
       color: var(--TableCell-filterBtn--onActive-color);
     }
 
-    .amis-Remark {
+    .prismui-Remark {
       display: inline;
     }
   }
@@ -850,12 +859,12 @@
     border: none;
     width: px2rem(160px);
 
-    .amis-DropDown-menu {
+    .prismui-DropDown-menu {
       margin: 0;
       padding: 0;
       border-radius: 0;
 
-      .amis-DropDown-divider {
+      .prismui-DropDown-divider {
         height: var(--TableCell-filterPopOver-dropDownItem-height);
         line-height: var(--TableCell-filterPopOver-dropDownItem-height);
         padding: var(--TableCell-filterPopOver-dropDownItem-padding);
@@ -872,14 +881,14 @@
           color: var(--primary);
         }
 
-        .amis-Checkbox {
+        .prismui-Checkbox {
           width: 100%;
           margin: 0;
         }
       }
     }
 
-    .amis-SearchBox {
+    .prismui-SearchBox {
       margin-left: var(--gap-xs);
       margin-top: var(--gap-xs);
     }
@@ -1047,9 +1056,9 @@
     }
   }
 
-  &-table > tbody > tr:hover .amis-Table-dragBtn,
-  &-table > tbody > tr.is-dragging .amis-Table-dragBtn,
-  &-table > tbody > tr.is-drop-allowed .amis-Table-dragBtn {
+  &-table > tbody > tr:hover .prismui-Table-dragBtn,
+  &-table > tbody > tr.is-dragging .prismui-Table-dragBtn,
+  &-table > tbody > tr.is-drop-allowed .prismui-Table-dragBtn {
     visibility: visible;
   }
 
@@ -1068,11 +1077,11 @@
   &--autoFillHeight {
     margin-bottom: 0;
 
-    > .amis-Table-contentWrap {
-      > .amis-Table-content > table {
+    > .prismui-Table-contentWrap {
+      > .prismui-Table-content > table {
         border-top: none; // 不然会导致拖动时顶部露出内容
 
-        &.amis-Table-table--tableFillHeight {
+        &.prismui-Table-table--tableFillHeight {
           > tbody {
             height: calc(
               var(--Table-content-height) - var(--Table-thead-height) - 20px
@@ -1085,14 +1094,14 @@
         }
       }
 
-      > .amis-Table-content table thead {
+      > .prismui-Table-content table thead {
         position: sticky; // 简单实现表头吸顶效果，不考虑 IE 11 不然太麻烦
         top: 0;
         z-index: 21; // 由于 badge 导致 tbody 里 tr 的 position: relative 了
       }
     }
 
-    > .amis-Table-footToolbar {
+    > .prismui-Table-footToolbar {
       margin-bottom: 0;
     }
   }
@@ -1131,7 +1140,7 @@
     &.is-expanded {
       color: var(--Tabs-onActive-color);
 
-      .amis-Table-SFToggler-arrow > svg {
+      .prismui-Table-SFToggler-arrow > svg {
         transform: rotate(180deg);
       }
     }
@@ -1145,8 +1154,8 @@
   }
 }
 
-.amis-InputTable {
-  .amis-Field--quickEditable svg {
+.prismui-InputTable {
+  .prismui-Field--quickEditable svg {
     color: var(--primary);
 
     &:hover {
@@ -1159,8 +1168,8 @@
   }
 }
 
-.amis-InputTable {
-  .amis-Field--quickEditable svg {
+.prismui-InputTable {
+  .prismui-Field--quickEditable svg {
     color: var(--primary);
 
     &:hover {
@@ -1173,31 +1182,31 @@
   }
 }
 
-.amis-InputTable-toolbar {
+.prismui-InputTable-toolbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.amis-InputTable-pager {
+.prismui-InputTable-pager {
   margin-left: auto;
 }
 
-.amis-OperationField {
+.prismui-OperationField {
   margin: px2rem(-3px);
 
-  > .amis-Button,
-  > .amis-Button--disabled-wrap > .amis-Button {
+  > .prismui-Button,
+  > .prismui-Button--disabled-wrap > .prismui-Button {
     margin: px2rem(3px);
     height: auto;
   }
 
-  > .amis-Button--disabled-wrap > .amis-Button--link {
+  > .prismui-Button--disabled-wrap > .prismui-Button--link {
     padding: 0;
   }
 
-  > .amis-Button--link {
+  > .prismui-Button--link {
     padding: 0;
     margin-right: px2rem(10px);
   }
@@ -1205,15 +1214,15 @@
 
 /* 移动端样式调整 */
 @include media-breakpoint-down(sm) {
-  .amis-Table-table > thead > tr > th {
+  .prismui-Table-table > thead > tr > th {
     border-bottom: none;
 
     &::before {
       @include hairline-bottom(var(--Table-thead-borderColor));
     }
   }
-  .amis-Table-table th,
-  .amis-Table-table td {
+  .prismui-Table-table th,
+  .prismui-Table-table td {
     position: relative;
     border-bottom: none;
 
@@ -1223,12 +1232,12 @@
   }
 }
 
-.amis-AutoFilterToolbar {
+.prismui-AutoFilterToolbar {
   display: block;
   text-align: right;
   white-space: nowrap;
 
-  > .amis-Button {
+  > .prismui-Button {
     margin-top: 0;
   }
 }

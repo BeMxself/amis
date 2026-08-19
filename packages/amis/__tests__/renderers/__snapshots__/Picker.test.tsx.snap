@@ -7,16 +7,16 @@ exports[`1. Renderer:Picker base 1`] = `
 >
   <div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="picker"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               picker
@@ -25,21 +25,21 @@ exports[`1. Renderer:Picker base 1`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__PickerControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__PickerControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Picker __AMIS_COMPONENT_CLASS_PREFIX__Picker--single"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker __PRISMUI_COMPONENT_CLASS_PREFIX__Picker--single"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-input"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-input"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-placeholder"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-placeholder"
             >
               picker-placeholder
             </div>
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-btn"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-btn"
             >
               <icon-mock
                 class="icon icon-window-restore"
@@ -52,21 +52,21 @@ exports[`1. Renderer:Picker base 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -76,44 +76,44 @@ exports[`1. Renderer:Picker base 1`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           请选择
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Crud"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Crud"
           data-role="container"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__List __AMIS_COMPONENT_CLASS_PREFIX__Crud-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__List __PRISMUI_COMPONENT_CLASS_PREFIX__Crud-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__List-content-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-content-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__List-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-main"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-fixedTop"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-fixedTop"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__List-items"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__List-items"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="0"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
                         data-role="checkbox"
                       >
                         <input
@@ -130,25 +130,25 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         A
                       </p>
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right is-checked"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right is-checked"
                     data-index="1"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default checked __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--checked"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default checked __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--checked"
                         data-role="checkbox"
                       >
                         <input
@@ -165,25 +165,25 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         B
                       </p>
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem __AMIS_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem __PRISMUI_COMPONENT_CLASS_PREFIX__ListItem--actions-at-right"
                     data-index="2"
                     style="scroll-margin-top: var(--affix-offset-top);"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-checkBtn"
                     >
                       <label
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
                         data-role="checkbox"
                       >
                         <input
@@ -200,10 +200,10 @@ exports[`1. Renderer:Picker base 1`] = `
                       </label>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-content"
                     >
                       <p
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ListItem-title h5"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListItem-title h5"
                       >
                         C
                       </p>
@@ -216,10 +216,10 @@ exports[`1. Renderer:Picker base 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -227,7 +227,7 @@ exports[`1. Renderer:Picker base 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -243,16 +243,16 @@ exports[`1. Renderer:Picker base 1`] = `
 exports[`1. Renderer:Picker base 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
     data-amis-name="picker"
     data-role="form-item"
   >
     <label
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             picker
@@ -261,40 +261,40 @@ exports[`1. Renderer:Picker base 2`] = `
       </span>
     </label>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__PickerControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PickerControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Picker __AMIS_COMPONENT_CLASS_PREFIX__Picker--single"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker __PRISMUI_COMPONENT_CLASS_PREFIX__Picker--single"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-input"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-input"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueWrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-valueWrap"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-value"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-valueIcon"
               >
                 ×
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-valueLabel"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-valueLabel"
               >
                 B
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__AutoFoldedList-more"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__AutoFoldedList-more"
             />
             <input
               value=""
             />
           </div>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Picker-btn"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Picker-btn"
           >
             <icon-mock
               class="icon icon-window-restore"

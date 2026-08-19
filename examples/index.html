@@ -2,7 +2,7 @@
 <html lang="zh">
   <head>
     <meta charset="UTF-8" />
-    <title>amis - 低代码前端框架</title>
+    <title>PrismUI - UI Schema 驱动系统</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link type="image/x-icon" rel="shortcut icon" href="./static/favicon.png" />
     <meta
@@ -45,13 +45,14 @@
       if (theme === 'default') {
         theme = 'cxd';
       }
+      document.documentElement.setAttribute('data-prismui-theme', theme);
 
       // 非 IE 模式
       if (window.navigator.userAgent.indexOf('Trident') === -1) {
         document.write(
           `<link rel="stylesheet" title="ang" ${
             theme !== 'ang' ? 'disabled' : ''
-          }  href="${__uri('amis/lib/themes/ang.css')}" />`
+          } href="${__uri('amis/lib/themes/ang.css')}" />`
         );
         document.write(
           `<link rel="stylesheet" title="cxd" ${

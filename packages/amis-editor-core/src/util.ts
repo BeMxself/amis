@@ -64,7 +64,11 @@ export const THEME_CSS_MIGRATION_WARNINGS_KEY = '__themeCssMigrationWarnings';
 export function migrateLegacyThemeSelector(selector: string, theme?: any) {
   const componentClassPrefix = resolveEditorComponentClassPrefix(theme);
 
-  return selector.replace(/\.cxd-/g, () => `.${componentClassPrefix}`);
+  return selector.replace(/\.(?:amis|cxd)-/g, () => `.${componentClassPrefix}`);
+}
+
+function isLegacyThemeSelector(selector: string) {
+  return /\.(?:amis|cxd)-/.test(selector);
 }
 
 function appendThemeCssMigrationWarning(data: any, warning: string) {
@@ -1267,11 +1271,11 @@ export function getCssVarById(id: string, selectorText: string | string[]) {
 export function getAllCssVar() {
   const cssVars = getCssVarById('baseStyle', [
     ':root',
-    '[data-amis-theme',
+    '[data-prismui-theme',
     '.AMISCSSWrapper'
   ]);
   const themeCssVars = getCssVarById('themeCss', [
-    '[data-amis-theme',
+    '[data-prismui-theme',
     '.app-popover',
     '#editor-preview-body'
   ]);
@@ -1365,12 +1369,17 @@ export function clearDirtyCssKey(data: any) {
   const temp = {...data};
   Object.keys(temp).forEach(key => {
     if (key.startsWith('.') || key.startsWith('#')) {
-      if (key.includes('.cxd-')) {
+      if (isLegacyThemeSelector(key)) {
         appendThemeCssMigrationWarning(
           temp,
           `removed legacy selector ${key}; stable candidate ${migrateLegacyThemeSelector(
             key
           )}`
+        );
+      } else {
+        appendThemeCssMigrationWarning(
+          temp,
+          `removed selector key ${key}; move styles into themeCss before saving`
         );
       }
       delete temp[key];

@@ -866,9 +866,9 @@ test('doAction:form static&nonstatic', async () => {
   fireEvent.click(getByText(/静态模式/));
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Form-static')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-static')).toBeInTheDocument();
     expect(
-      container.querySelector('.cxd-TextControl-input')
+      container.querySelector('.prismui-TextControl-input')
     ).not.toBeInTheDocument();
   });
 
@@ -882,9 +882,9 @@ test('doAction:form static&nonstatic', async () => {
 
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-TextControl-input')
+      container.querySelector('.prismui-TextControl-input')
     ).toBeInTheDocument();
-    expect(container.querySelector('.cxd-Form-static')).not.toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-static')).not.toBeInTheDocument();
   });
 
   expect(container).toMatchSnapshot();
@@ -922,13 +922,13 @@ test('doAction:form valdiate requiredOn', async () => {
   await wait(200);
   expect(onSubmit).toBeCalled();
 
-  expect(container.querySelector('.cxd-Switch')!).toBeInTheDocument();
-  fireEvent.click(container.querySelector('.cxd-Switch')!);
+  expect(container.querySelector('.prismui-Switch')!).toBeInTheDocument();
+  fireEvent.click(container.querySelector('.prismui-Switch')!);
   await wait(300);
   fireEvent.click(getByText('提交表单'));
   await wait(300);
 
-  const ul = container.querySelector('.cxd-Form-feedback');
+  const ul = container.querySelector('.prismui-Form-feedback');
   expect(ul).toBeInTheDocument();
 
   fireEvent.change(container.querySelector('input[name="b"]')!, {
@@ -944,16 +944,16 @@ test('doAction:form valdiate requiredOn', async () => {
     b: '123'
   });
 
-  expect(container.querySelector('.cxd-Form-feedback')).toBeNull();
+  expect(container.querySelector('.prismui-Form-feedback')).toBeNull();
 
   fireEvent.change(container.querySelector('input[name="b"]')!, {
     target: {value: ''}
   });
   await wait(300);
 
-  expect(container.querySelector('.cxd-Form-feedback')).toBeInTheDocument();
-  fireEvent.click(container.querySelector('.cxd-Switch')!);
+  expect(container.querySelector('.prismui-Form-feedback')).toBeInTheDocument();
+  fireEvent.click(container.querySelector('.prismui-Switch')!);
   await wait(300);
 
-  expect(container.querySelector('.cxd-Form-feedback')).toBeNull();
+  expect(container.querySelector('.prismui-Form-feedback')).toBeNull();
 });

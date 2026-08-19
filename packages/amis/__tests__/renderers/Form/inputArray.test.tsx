@@ -78,7 +78,7 @@ test('Renderer:inputArray', async () => {
   fireEvent.click(addButton);
 
   await waitFor(() => {
-    const input = container.querySelector('.amis-TextControl-input input')!;
+    const input = container.querySelector('.prismui-TextControl-input input')!;
     fireEvent.change(input, {target: {value: 'amis'}});
   });
 
@@ -118,10 +118,10 @@ test('Renderer:inputArray with removable & addable & addButtonText', async () =>
 
   await waitFor(() => {
     expect(
-      containerOne.querySelector('.amis-Combo-delBtn')
+      containerOne.querySelector('.prismui-Combo-delBtn')
     ).not.toBeInTheDocument();
     expect(
-      containerOne.querySelector('.amis-Combo-addBtn')
+      containerOne.querySelector('.prismui-Combo-addBtn')
     ).not.toBeInTheDocument();
     expect(containerOne).toMatchSnapshot('false');
   });
@@ -143,9 +143,9 @@ test('Renderer:inputArray with removable & addable & addButtonText', async () =>
   ]);
   await wait(300);
 
-  const delButton = container.querySelector('a.amis-Combo-delBtn');
-  expect(container.querySelectorAll('a.amis-Combo-delBtn').length).toBe(2);
-  const addButton = container.querySelector('.amis-Combo-addBtn')!;
+  const delButton = container.querySelector('a.prismui-Combo-delBtn');
+  expect(container.querySelectorAll('a.prismui-Combo-delBtn').length).toBe(2);
+  const addButton = container.querySelector('.prismui-Combo-addBtn')!;
 
   expect(delButton).toBeInTheDocument();
   expect(addButton).toBeInTheDocument();
@@ -190,26 +190,26 @@ test('Renderer:inputArray with minLength & maxLength', async () => {
   await wait(300);
 
   // 范围内的，增删都在
-  expect(container.querySelector('a.amis-Combo-delBtn')).toBeInTheDocument();
-  expect(container.querySelector('.amis-Combo-addBtn')).toBeInTheDocument();
+  expect(container.querySelector('a.prismui-Combo-delBtn')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Combo-addBtn')).toBeInTheDocument();
   // 最大值
-  fireEvent.click(container.querySelector('.amis-Combo-addBtn')!);
+  fireEvent.click(container.querySelector('.prismui-Combo-addBtn')!);
   await wait(300);
   await waitFor(() => {
-    expect(container.querySelector('a.amis-Combo-delBtn')).toBeInTheDocument();
+    expect(container.querySelector('a.prismui-Combo-delBtn')).toBeInTheDocument();
     expect(
-      container.querySelector('.amis-Combo-addBtn')
+      container.querySelector('.prismui-Combo-addBtn')
     ).not.toBeInTheDocument();
   });
   // 最小值
-  fireEvent.click(container.querySelector('a.amis-Combo-delBtn')!);
+  fireEvent.click(container.querySelector('a.prismui-Combo-delBtn')!);
   await wait(300);
-  fireEvent.click(container.querySelector('a.amis-Combo-delBtn')!);
+  fireEvent.click(container.querySelector('a.prismui-Combo-delBtn')!);
   await waitFor(() => {
     expect(
-      container.querySelector('a.amis-Combo-delBtn')
+      container.querySelector('a.prismui-Combo-delBtn')
     ).not.toBeInTheDocument();
-    expect(container.querySelector('.amis-Combo-addBtn')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Combo-addBtn')).toBeInTheDocument();
   });
 
   expect(container).toMatchSnapshot();
@@ -232,13 +232,13 @@ test('Renderer:inputArray with draggable & draggableTip', async () => {
   ]);
   await wait(500);
 
-  const drager = container.querySelector('.amis-Combo-itemDrager')!;
+  const drager = container.querySelector('.prismui-Combo-itemDrager')!;
   expect(drager).toBeInTheDocument();
-  expect(container.querySelectorAll('.amis-Combo-itemDrager').length).toBe(3);
+  expect(container.querySelectorAll('.prismui-Combo-itemDrager').length).toBe(3);
 
-  expect(container.querySelector('.amis-Combo-dragableTip')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Combo-dragableTip')).toBeInTheDocument();
   expect(
-    (container.querySelector('.amis-Combo-dragableTip') as Element).innerHTML
+    (container.querySelector('.prismui-Combo-dragableTip') as Element).innerHTML
   ).toBe('我是拖拽提示');
 
   expect(container).toMatchSnapshot();

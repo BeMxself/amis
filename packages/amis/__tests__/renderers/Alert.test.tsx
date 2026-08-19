@@ -36,7 +36,7 @@ test('Renderer:alert', () => {
     )
   );
 
-  expect(container.querySelector('.cxd-Alert')).toHaveTextContent('提示内容');
+  expect(container.querySelector('.prismui-Alert')).toHaveTextContent('提示内容');
   expect(container).toMatchSnapshot();
 });
 
@@ -61,14 +61,14 @@ test('Renderer:alert var', () => {
   );
   expect(container).toMatchSnapshot();
 
-  expect(container.querySelector('.cxd-Alert')).toHaveClass(
+  expect(container.querySelector('.prismui-Alert')).toHaveClass(
     componentClass('Alert--success')
   );
-  expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
+  expect(container.querySelector('.prismui-Alert-icon icon-mock')).toHaveAttribute(
     'class',
     'icon icon-copy'
   );
-  expect(container.querySelector('.cxd-Alert-content')).toHaveTextContent(
+  expect(container.querySelector('.prismui-Alert-content')).toHaveTextContent(
     '百度一下，你就知道'
   );
 });
@@ -103,7 +103,7 @@ test('Renderer:alert with level', () => {
   );
   expect(container).toMatchSnapshot();
 
-  const alerts = container.querySelectorAll('.cxd-Alert');
+  const alerts = container.querySelectorAll('.prismui-Alert');
 
   expect(alerts!.length).toBe(4);
   expect(alerts[0]).toHaveClass(componentClass('Alert--info'));
@@ -126,7 +126,7 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
 
   const {container, rerender} = render(renderAmis());
 
-  expect(container.querySelector('.cxd-Alert-title')!).not.toBeInTheDocument();
+  expect(container.querySelector('.prismui-Alert-title')!).not.toBeInTheDocument();
 
   rerender(
     renderAmis({
@@ -134,11 +134,11 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Alert-title')!).toBeInTheDocument();
-  expect(container.querySelector('.cxd-Alert-title')!).toHaveTextContent(
+  expect(container.querySelector('.prismui-Alert-title')!).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Alert-title')!).toHaveTextContent(
     '提示类文案'
   );
-  expect(container.querySelector('.cxd-Alert-icon')).not.toBeInTheDocument();
+  expect(container.querySelector('.prismui-Alert-icon')).not.toBeInTheDocument();
 
   rerender(
     renderAmis({
@@ -147,8 +147,8 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Alert-icon')).toBeInTheDocument();
-  expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
+  expect(container.querySelector('.prismui-Alert-icon')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Alert-icon icon-mock')).toHaveAttribute(
     'class',
     'icon icon-alert-info'
   );
@@ -162,11 +162,11 @@ test('Renderer:alert with title & showIcon & icon & iconClassName', () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Alert-icon icon-mock')).toHaveAttribute(
+  expect(container.querySelector('.prismui-Alert-icon icon-mock')).toHaveAttribute(
     'class',
     'icon icon-star'
   );
-  expect(container.querySelector('.cxd-Alert-icon')).toHaveClass('starClass');
+  expect(container.querySelector('.prismui-Alert-icon')).toHaveClass('starClass');
 
   expect(container).toMatchSnapshot();
 });
@@ -184,7 +184,7 @@ test('Renderer:alert with showCloseButton & closeButtonClassName', () => {
   );
 
   expect(
-    container.querySelector('.cxd-Alert .cxd-Alert-close')
+    container.querySelector('.prismui-Alert .prismui-Alert-close')
   ).not.toBeInTheDocument();
 
   rerender(
@@ -200,7 +200,7 @@ test('Renderer:alert with showCloseButton & closeButtonClassName', () => {
     })
   );
 
-  const closeBth = container.querySelector('.cxd-Alert .cxd-Alert-close')!;
+  const closeBth = container.querySelector('.prismui-Alert .prismui-Alert-close')!;
 
   expect(closeBth).toBeInTheDocument();
 
@@ -210,7 +210,7 @@ test('Renderer:alert with showCloseButton & closeButtonClassName', () => {
 
   fireEvent.click(closeBth);
 
-  expect(container.querySelector('.cxd-Alert')).not.toBeInTheDocument();
+  expect(container.querySelector('.prismui-Alert')).not.toBeInTheDocument();
 });
 
 test('Renderer:alert with actions', () => {
@@ -233,10 +233,10 @@ test('Renderer:alert with actions', () => {
     ]
   }, {}, makeEnv({})));
 
-  const alert = container.querySelector('.cxd-Alert');
+  const alert = container.querySelector('.prismui-Alert');
   expect(alert).toBeInTheDocument();
 
-  const actions = container.querySelector('.cxd-Alert-actions')!;
+  const actions = container.querySelector('.prismui-Alert-actions')!;
   expect(actions).toBeInTheDocument();
   expect(actions.childNodes.length).toEqual(1);
 });

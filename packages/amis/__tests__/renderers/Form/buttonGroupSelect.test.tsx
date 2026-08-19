@@ -97,7 +97,7 @@ test('Renderer:button-group:multiple clearable', async () => {
     )
   );
   // 这个是为了用于监视值是否变更完成
-  const refDom = container.querySelector('.amis-PlainField') as Element;
+  const refDom = container.querySelector('.prismui-PlainField') as Element;
 
   fireEvent.click(await findByText(/Option A/));
   await waitFor(() => expect(refDom.innerHTML).toBe('a'));
@@ -146,7 +146,7 @@ test('Renderer:button-group with vertical', async () => {
   );
 
   expect(
-    container.querySelector('.amis-ButtonGroup.amis-ButtonGroup--vertical')!
+    container.querySelector('.prismui-ButtonGroup.prismui-ButtonGroup--vertical')!
   ).toBeInTheDocument();
 
   expect(container).toMatchSnapshot();
@@ -186,7 +186,7 @@ test('Renderer:button-group with tiled', async () => {
   );
 
   expect(
-    container.querySelector('.amis-ButtonGroup.amis-ButtonGroup--tiled')!
+    container.querySelector('.prismui-ButtonGroup.prismui-ButtonGroup--tiled')!
   ).toBeInTheDocument();
 
   expect(container).toMatchSnapshot();
@@ -233,7 +233,7 @@ test('Renderer:button-group with btnActiveLevel', async () => {
     )
   );
 
-  const buttons = container.querySelectorAll('.amis-ButtonGroup .amis-Button')!;
+  const buttons = container.querySelectorAll('.prismui-ButtonGroup .prismui-Button')!;
   expect(buttons.length).toBe(3);
 
   expect(container).toMatchSnapshot();

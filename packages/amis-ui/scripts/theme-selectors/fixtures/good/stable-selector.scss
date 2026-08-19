@@ -1,7 +1,7 @@
-@include amis-component('GuardFixture') {
-  color: var(--amis-color-text);
+@include prismui-component('GuardFixture') {
+  color: var(--prismui-color-text);
 }
 
-@include amis-themed-component('cxd', 'GuardFixture') {
-  color: var(--amis-color-brand);
+@include prismui-themed-component('cxd', 'GuardFixture') {
+  color: var(--prismui-color-brand);
 }

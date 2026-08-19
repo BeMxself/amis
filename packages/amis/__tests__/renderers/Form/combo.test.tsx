@@ -202,7 +202,7 @@ test('Renderer:combo with multiple', async () => {
   await wait(300);
 
   // 下拉框点击
-  fireEvent.click(container.querySelector('.cxd-Select')!);
+  fireEvent.click(container.querySelector('.prismui-Select')!);
 
   await waitFor(() => {
     expect(getByText('aOptions')).toBeInTheDocument();
@@ -266,13 +266,13 @@ test('Renderer:combo with minLength & maxLength', async () => {
   await wait(100);
   expect(onSubmit).not.toBeCalled();
   expect(
-    container.querySelector('form.cxd-Form > .cxd-Form-item')!
+    container.querySelector('form.prismui-Form > .prismui-Form-item')!
   ).toHaveClass('is-error');
 
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot('minLength error');
 
-  const addBtn = container.querySelector('button.cxd-Combo-addBtn')!;
+  const addBtn = container.querySelector('button.prismui-Combo-addBtn')!;
   expect(addBtn).toBeInTheDocument();
 
   fireEvent.click(addBtn);
@@ -283,7 +283,7 @@ test('Renderer:combo with minLength & maxLength', async () => {
 
   await wait(100);
   expect(
-    container.querySelector('button.cxd-Combo-addBtn')!
+    container.querySelector('button.prismui-Combo-addBtn')!
   ).not.toBeInTheDocument();
 });
 
@@ -319,7 +319,7 @@ test('Renderer:combo with flat', async () => {
     }
   ]);
 
-  const addBtns = container.querySelectorAll('button.cxd-Combo-addBtn')!;
+  const addBtns = container.querySelectorAll('button.prismui-Combo-addBtn')!;
   expect(addBtns.length).toBe(2);
 
   fireEvent.click(addBtns[0]);
@@ -328,7 +328,7 @@ test('Renderer:combo with flat', async () => {
   await wait(10);
 
   const inputTexts = container.querySelectorAll(
-    '.cxd-TextControl-input input'
+    '.prismui-TextControl-input input'
   )!;
   expect(inputTexts.length).toBe(2);
 
@@ -373,14 +373,14 @@ test('Renderer:combo with unique', async () => {
     }
   ]);
 
-  const addBtn = container.querySelector('button.cxd-Combo-addBtn')!;
+  const addBtn = container.querySelector('button.prismui-Combo-addBtn')!;
   fireEvent.click(addBtn);
   await wait(10);
   fireEvent.click(addBtn);
   await wait(10);
 
   const inputTexts = container.querySelectorAll(
-    '.cxd-TextControl-input input'
+    '.prismui-TextControl-input input'
   )!;
   expect(inputTexts.length).toBe(2);
   fireEvent.change(inputTexts[0], {
@@ -396,7 +396,7 @@ test('Renderer:combo with unique', async () => {
   await wait(10);
   expect(onSubmit).not.toBeCalled();
   expect(
-    container.querySelector('form.cxd-Form > .cxd-Form-item')!
+    container.querySelector('form.prismui-Form > .prismui-Form-item')!
   ).toHaveClass('is-error');
 
   // 不知道为何第二个不飘红，浏览器里面看是飘红的
@@ -447,7 +447,7 @@ test('Renderer:combo with draggable', async () => {
     }
   ]);
 
-  expect(container.querySelectorAll('.cxd-Combo-itemDrager')!.length).toBe(2);
+  expect(container.querySelectorAll('.prismui-Combo-itemDrager')!.length).toBe(2);
 
   replaceReactAriaIds(container);
   expect(container).toMatchSnapshot();
@@ -505,7 +505,7 @@ test('Renderer:combo with conditions', async () => {
 
   function getComboItem(nth: number = 1, path: string = ''): Element {
     return container.querySelector(
-      `.cxd-Combo .cxd-Combo-item:nth-child(${nth}) .cxd-Combo-itemInner .cxd-Form-control${
+      `.prismui-Combo .prismui-Combo-item:nth-child(${nth}) .prismui-Combo-itemInner .prismui-Form-control${
         path ? ' ' + path : ''
       }`
     ) as Element;
@@ -516,14 +516,14 @@ test('Renderer:combo with conditions', async () => {
   );
 
   const typeSwitcher = container.querySelector(
-    '.cxd-Combo .cxd-Combo-itemTag .cxd-Select'
+    '.prismui-Combo .prismui-Combo-itemTag .prismui-Select'
   )!;
   expect(typeSwitcher).toBeInTheDocument();
   fireEvent.click(typeSwitcher);
   await wait(10);
 
   const types = typeSwitcher.querySelectorAll(
-    '.cxd-Select-menu .cxd-Select-option-content'
+    '.prismui-Select-menu .prismui-Select-option-content'
   )!;
 
   expect(types.length).toBe(2);
@@ -534,11 +534,11 @@ test('Renderer:combo with conditions', async () => {
   expect(getComboItem(1)!.firstElementChild).toHaveClass(
     componentClass('Number')
   );
-  fireEvent.change(getComboItem(1, '.cxd-Number-input')!, {
+  fireEvent.change(getComboItem(1, '.prismui-Number-input')!, {
     target: {value: 1239}
   });
 
-  const addBtn = container.querySelector('.cxd-Combo-toolbar .cxd-Button')!;
+  const addBtn = container.querySelector('.prismui-Combo-toolbar .prismui-Button')!;
   expect(addBtn).toBeInTheDocument();
   fireEvent.click(addBtn);
   await waitFor(() => {
@@ -547,7 +547,7 @@ test('Renderer:combo with conditions', async () => {
   });
 
   fireEvent.click(
-    await within(document.querySelector('.cxd-Combo-toolbar')!).findByText(
+    await within(document.querySelector('.prismui-Combo-toolbar')!).findByText(
       '文本'
     )
   );
@@ -632,7 +632,7 @@ test('Renderer:combo with canAccessSuperData & strictMode & syncFields', async (
   const parentInput = container.querySelector('.parentInput input')!;
 
   const addBtns = container.querySelectorAll(
-    '.cxd-Combo .cxd-Combo-toolbar button'
+    '.prismui-Combo .prismui-Combo-toolbar button'
   )!;
 
   expect(addBtns.length).toBe(3);
@@ -643,7 +643,7 @@ test('Renderer:combo with canAccessSuperData & strictMode & syncFields', async (
 
   await wait(200);
   const comboInputs = container.querySelectorAll(
-    '.cxd-Combo .cxd-TextControl-input input'
+    '.prismui-Combo .prismui-TextControl-input input'
   )! as NodeListOf<HTMLInputElement>;
   expect(comboInputs.length).toBe(3);
 
@@ -697,7 +697,7 @@ test('Renderer:combo with tabsMode', async () => {
   ]);
 
   expect(
-    container.querySelector('.cxd-ComboControl .cxd-Tabs.cxd-ComboTabs')
+    container.querySelector('.prismui-ComboControl .prismui-Tabs.prismui-ComboTabs')
   ).toBeInTheDocument();
 
   replaceReactAriaIds(container);
@@ -783,22 +783,22 @@ test('Renderer:combo with addable & addattop & addBtn & addButtonText & addButto
 
   expect(
     (container.querySelector(
-      '.addAtTopClass .cxd-Combo-item .cxd-TextControl-input input'
+      '.addAtTopClass .prismui-Combo-item .prismui-TextControl-input input'
     ) as HTMLInputElement)!.value
   ).toBe('1');
   fireEvent.click(
-    container.querySelector('.addAtTopClass .cxd-Combo-toolbar button')!
+    container.querySelector('.addAtTopClass .prismui-Combo-toolbar button')!
   );
   await waitFor(() => {
     expect(
       (container.querySelector(
-        '.addAtTopClass .cxd-Combo-item .cxd-TextControl-input input'
+        '.addAtTopClass .prismui-Combo-item .prismui-TextControl-input input'
       ) as HTMLInputElement)!.value
     ).toBe('');
   });
 
   expect(
-    container.querySelector('.addableClass .cxd-Combo-toolbar button')!
+    container.querySelector('.addableClass .prismui-Combo-toolbar button')!
   ).not.toBeInTheDocument();
 
   replaceReactAriaIds(container);
@@ -891,7 +891,7 @@ test('Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmText'
   );
 
   expect(
-    container.querySelector('.removableFalse .cxd-Combo-delController')!
+    container.querySelector('.removableFalse .prismui-Combo-delController')!
   ).not.toBeInTheDocument();
   expect(
     await within(document.querySelector('.deleteBtn')!).findByText(
@@ -899,7 +899,7 @@ test('Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmText'
     )
   ).toBeInTheDocument();
   expect(
-    container.querySelector('.superDeleteBtn .cxd-Combo-delController')!
+    container.querySelector('.superDeleteBtn .prismui-Combo-delController')!
   ).toBeInTheDocument();
 
   replaceReactAriaIds(container);
@@ -912,13 +912,13 @@ test('Renderer:combo with removable & deleteBtn & deleteApi & deleteConfirmText'
   );
   await wait(200);
 
-  expect(baseElement.querySelector('.cxd-Modal-body')).toBeInTheDocument();
+  expect(baseElement.querySelector('.prismui-Modal-body')).toBeInTheDocument();
   expect(
-    baseElement.querySelector('.cxd-Modal-body .cxd-Html')!.innerHTML
+    baseElement.querySelector('.prismui-Modal-body .prismui-Html')!.innerHTML
   ).toBe('Are you sure?');
 
   fireEvent.click(
-    await within(baseElement.querySelector('.cxd-Modal-footer')!).findByText(
+    await within(baseElement.querySelector('.prismui-Modal-footer')!).findByText(
       '确认'
     )
   );
@@ -971,7 +971,7 @@ test('Renderer:select autofill in combo', async () => {
   fireEvent.click(await findByText('请选择'));
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Select-popover')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Select-popover')).toBeInTheDocument();
   });
 
   fireEvent.click(await findByText('A'));

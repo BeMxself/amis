@@ -4,15 +4,14 @@ const {rollup} = require('rollup');
 const commonjs = require('@rollup/plugin-commonjs');
 const json = require('@rollup/plugin-json');
 const resolve = require('@rollup/plugin-node-resolve').default;
+const replace = require('@rollup/plugin-replace');
 const swc = require('@swc/core');
 const {version} = require('../../packages/amis/package.json');
 const {prepareSdkJs} = require('./prepare-sdk-js');
 const {createSdkManualChunks} = require('./rollup-sdk-manual-chunks');
 const {sdkFisDirectivePlugin} = require('./rollup-fis-directives');
-const {sdkChunkManifestPlugin} = require('./rollup-sdk-chunk-manifest');
-const {sdkResourceMapPlugin} = require('./rollup-sdk-resource-map-plugin');
-const {packRollupSdkRestChunk} = require('./rollup-sdk-rest-pack');
-const {getSdkRuntimeResourceEntries} = require('./sdk-runtime-assets');
+const {finalizeRollupSdkOutput} = require('./rollup-sdk-rest-pack');
+const {getSdkRuntimeResourceEntries} = require('./sdk-contract');
 
 const repoRoot = path.resolve(__dirname, '../..');
 const defaultEntry = path.join(repoRoot, 'examples/embed.tsx');
@@ -32,10 +31,15 @@ async function generateRollupSdkEntryOutput(options) {
     input: options.entry || defaultEntry,
     plugins: [
       resolveSdkRuntimeImports(),
+      resolveSdkOptimizedImports(),
       resolveWorkspaceLibImports(),
       emptyAssetImports({fileName: 'sdk-empty-assets.json'}),
       transformSdkEntryTypescript(),
       sdkFisDirectivePlugin({basePathExpression: sdkBasePathExpression}),
+      replace({
+        preventAssignment: true,
+        'process.env.NODE_ENV': JSON.stringify('production')
+      }),
       json(),
       resolve({
         browser: true,
@@ -44,13 +48,8 @@ async function generateRollupSdkEntryOutput(options) {
       transformFisAsyncCommonjsRequire(),
       commonjs({
         sourceMap: false,
-        transformMixedEsModules: true
-      }),
-      sdkChunkManifestPlugin({fileName: 'sdk-chunk-manifest.json'}),
-      sdkResourceMapPlugin({
-        basePathExpression: sdkBasePathExpression,
-        externalResources: getSdkRuntimeResourceEntries(sdkBasePathExpression),
-        fileName: 'resource-map.js'
+        transformMixedEsModules: true,
+        requireReturnsDefault: 'preferred'
       })
     ],
     onwarn(warning, warn) {
@@ -73,17 +72,47 @@ async function generateRollupSdkEntryOutput(options) {
       },
       manualChunks: createSdkManualChunks()
     });
+    const output = finalizeRollupSdkOutput(generated.output, {
+      basePathExpression: sdkBasePathExpression,
+      externalResources: getSdkRuntimeResourceEntries(sdkBasePathExpression)
+    });
 
     return {
       ...generated,
-      output: packRollupSdkRestChunk(generated.output, {
-        basePathExpression: sdkBasePathExpression,
-        externalResources: getSdkRuntimeResourceEntries(sdkBasePathExpression)
-      })
+      output:
+        options.minify === false ? output : await minifyRollupSdkOutput(output)
     };
   } finally {
     await bundle.close();
   }
+}
+
+async function minifyRollupSdkOutput(output) {
+  const minified = [];
+
+  for (const item of output) {
+    minified.push(item.type === 'chunk' ? await minifyRollupChunk(item) : item);
+  }
+
+  return minified;
+}
+
+async function minifyRollupChunk(chunk) {
+  const result = await swc.minify(chunk.code, {
+    compress: true,
+    mangle: true,
+    sourceMap: false,
+    format: {
+      comments: 'some'
+    }
+  });
+
+  assert(result.code, `SWC minify emitted empty code for ${chunk.fileName}`);
+
+  return {
+    ...chunk,
+    code: result.code
+  };
 }
 
 function createSdkEntryWithEmbeddedResourceMap(output) {
@@ -120,7 +149,9 @@ function collectStaticChunkDependencies(output, entryChunk) {
     visited.add(fileName);
 
     const chunk = chunksByFileName.get(fileName);
-    assert(chunk, `missing emitted chunk: ${fileName}`);
+    if (!chunk) {
+      return;
+    }
     chunk.imports.forEach(visit);
     chunks.push(chunk);
   }
@@ -382,7 +413,12 @@ function resolveSdkRuntimeImports() {
   const monacoLoader = path.join(repoRoot, 'examples/loadMonacoEditor.ts');
   const externalRuntimeIds = new Map([
     ['hls.js', 'hls.js'],
-    ['mpegts.js', 'mpegts.js']
+    ['mpegts.js', 'mpegts.js'],
+    ['pdfjs-dist', 'node_modules/pdfjs-dist/build/pdf.mjs'],
+    [
+      'pdfjs-dist/build/pdf.mjs',
+      'node_modules/pdfjs-dist/build/pdf.mjs'
+    ]
   ]);
 
   return {
@@ -394,6 +430,31 @@ function resolveSdkRuntimeImports() {
 
       const externalId = externalRuntimeIds.get(id);
       return externalId ? {id: externalId, external: true} : null;
+    }
+  };
+}
+
+function resolveSdkOptimizedImports() {
+  const optimizedImports = new Map([
+    ['echarts', path.join(repoRoot, 'node_modules/echarts/index.js')],
+    [
+      'echarts/lib/echarts',
+      path.join(repoRoot, 'node_modules/echarts/index.js')
+    ],
+    [
+      'echarts/lib/echarts.js',
+      path.join(repoRoot, 'node_modules/echarts/index.js')
+    ],
+    [
+      'echarts-wordcloud/dist/echarts-wordcloud',
+      path.join(repoRoot, 'node_modules/echarts-wordcloud/index.js')
+    ]
+  ]);
+
+  return {
+    name: 'sdk-optimized-imports',
+    resolveId(id) {
+      return optimizedImports.get(id) || null;
     }
   };
 }
@@ -528,6 +589,7 @@ module.exports = {
   findAsset,
   findChunk,
   generateRollupSdkEntryOutput,
+  minifyRollupSdkOutput,
   sdkEntryAliases,
   sdkEntryModuleId
 };

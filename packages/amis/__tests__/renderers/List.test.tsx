@@ -140,15 +140,15 @@ test('Renderer:list with title & header & footer & headerClassName & footerClass
     })
   );
 
-  const header = container.querySelector('.amis-List-header');
+  const header = container.querySelector('.prismui-List-header');
   expect(header).toHaveClass('headerTplClassName');
   expect(header).toHaveTextContent('头部标题');
 
-  const footer = container.querySelector('.amis-List-footer');
+  const footer = container.querySelector('.prismui-List-footer');
   expect(footer).toHaveClass('footerButtonClassName');
-  expect(footer!.querySelector('.amis-Button')).toBeInTheDocument();
+  expect(footer!.querySelector('.prismui-Button')).toBeInTheDocument();
 
-  expect(container.querySelector('.amis-List-heading')).toHaveTextContent(
+  expect(container.querySelector('.prismui-List-heading')).toHaveTextContent(
     'listTitleForTest'
   );
 
@@ -189,12 +189,12 @@ test('Renderer:list with itemAction', () => {
     })
   );
 
-  fireEvent.click(container.querySelector('.amis-ListItem')!);
+  fireEvent.click(container.querySelector('.prismui-ListItem')!);
 
   expect(baseElement).toMatchSnapshot();
-  expect(baseElement.querySelector('.amis-Modal-content')).toBeInTheDocument();
+  expect(baseElement.querySelector('.prismui-Modal-content')).toBeInTheDocument();
 
-  expect(baseElement.querySelector('.amis-Modal-content')).toHaveTextContent(
+  expect(baseElement.querySelector('.prismui-Modal-content')).toHaveTextContent(
     `当前行的数据 browser: ${miniRows[0].browser}, version: ${miniRows[0].version}`
   );
 });
@@ -235,16 +235,16 @@ describe('Renderer:list with listItem', () => {
     expect(container).toMatchSnapshot();
 
     expect(
-      container.querySelector('.amis-ListItem .amis-ListItem-title')!.innerHTML
+      container.querySelector('.prismui-ListItem .prismui-ListItem-title')!.innerHTML
     ).toBe(miniRows[0].platform);
     expect(
-      container.querySelector('.amis-ListItem .amis-ListItem-title')
+      container.querySelector('.prismui-ListItem .prismui-ListItem-title')
     ).toHaveClass('classForItemTitle');
     expect(
-      container.querySelector('.amis-ListItem .amis-ListItem-subtitle')!
+      container.querySelector('.prismui-ListItem .prismui-ListItem-subtitle')!
         .innerHTML
     ).toBe(`等级为：${miniRows[0].grade}`);
-    expect(container.querySelector('.amis-ListItem')).toHaveTextContent(
+    expect(container.querySelector('.prismui-ListItem')).toHaveTextContent(
       'this is list item desc'
     );
   });
@@ -268,7 +268,7 @@ describe('Renderer:list with listItem', () => {
     );
 
     expect(container).toMatchSnapshot();
-    const avatar = container.querySelector('.amis-ListItem-avatar')!;
+    const avatar = container.querySelector('.prismui-ListItem-avatar')!;
     expect(avatar).toHaveClass('avatarClassNameForTest');
     expect(avatar.querySelector('img')).toHaveAttribute(
       'src',
@@ -300,7 +300,7 @@ describe('Renderer:list with listItem', () => {
     );
 
     expect(container).toMatchSnapshot();
-    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
+    expect(container.querySelector('.prismui-ListItem')!).toHaveClass(
       componentClass('ListItem--actions-at-right')
     );
 
@@ -327,7 +327,7 @@ describe('Renderer:list with listItem', () => {
       })
     );
 
-    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
+    expect(container.querySelector('.prismui-ListItem')!).toHaveClass(
       componentClass('ListItem--actions-at-left')
     );
   });

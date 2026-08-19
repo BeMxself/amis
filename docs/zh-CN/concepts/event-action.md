@@ -2700,7 +2700,7 @@ registerAction('my-action', new MyAction());
       platform: 'aisuda',
       detail: {
         version: '2.8.0',
-        github: 'https://github.com/baidu/amis'
+        github: 'https://github.com/Gengxin-Tech/prismui'
       }
     },
     body: [

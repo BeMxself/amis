@@ -15,6 +15,11 @@ function createRollupResourceMap(bundle, options) {
   const pkgByFileName = new Map(
     pkgEntries.map(([pkgId, pkg], index) => [chunks[index].fileName, pkgId])
   );
+  const externalModuleIds = new Set(
+    (options.externalResources || [])
+      .filter(resource => resource.includeAsDependency)
+      .map(resource => resource.moduleId)
+  );
   const moduleIdByFileName = new Map(
     chunks.map(chunk => [
       chunk.fileName,
@@ -26,9 +31,16 @@ function createRollupResourceMap(bundle, options) {
   chunks.forEach(chunk => {
     const pkgId = pkgByFileName.get(chunk.fileName);
 
-    getChunkModuleIds(chunk, moduleIdPrefix).forEach(moduleId => {
-      res[moduleId] = createResourceEntry(chunk, pkgId, moduleIdByFileName);
-    });
+    getChunkModuleIds(chunk, moduleIdPrefix)
+      .filter(shouldExposeResourceModuleId)
+      .forEach(moduleId => {
+        res[moduleId] = createResourceEntry(
+          chunk,
+          pkgId,
+          moduleIdByFileName,
+          externalModuleIds
+        );
+      });
   });
 
   addExternalResources(res, options.externalResources || []);
@@ -57,7 +69,7 @@ function createResourceMapScript(resourceMap, options) {
 
   const basePathExpression = options.basePathExpression || 'd';
   const serialized = unwrapBasePathExpressions(
-    JSON.stringify(resourceMap, null, 2),
+    JSON.stringify(resourceMap),
     basePathExpression
   );
 
@@ -69,10 +81,10 @@ function unwrapBasePathExpressions(serialized, basePathExpression) {
 
   return serialized.replace(
     new RegExp(
-      `"url": "${escapedBasePathExpression} \\+ \\\\"([^"\\\\]+)\\\\""`,
+      `"url"\\s*:\\s*"${escapedBasePathExpression}\\s*\\+\\s*\\\\"([^"\\\\]+)\\\\""`,
       'g'
     ),
-    `"url": ${basePathExpression} + "$1"`
+    `"url":${basePathExpression}+"$1"`
   );
 }
 
@@ -94,9 +106,9 @@ function getChunkModuleIds(chunk, prefix) {
   }
   ids.add(normalizeChunkModuleId(chunk.fileName, prefix));
 
-  Object.keys(chunk.modules || {}).forEach(moduleId => {
-    ids.add(normalizeModuleId(moduleId, prefix));
-  });
+  getAmdDefineModuleIds(chunk.code || '', prefix).forEach(moduleId =>
+    ids.add(moduleId)
+  );
 
   if (!ids.size) {
     ids.add(normalizeModuleId(chunk.name || chunk.fileName, prefix));
@@ -105,9 +117,37 @@ function getChunkModuleIds(chunk, prefix) {
   return Array.from(ids).sort();
 }
 
-function createResourceEntry(chunk, pkgId, moduleIdByFileName) {
+function getAmdDefineModuleIds(code, prefix = '') {
+  const ids = new Set();
+  const pattern = /amis\.define\(\s*['"]([^'"]+)['"]/g;
+  let match;
+
+  while ((match = pattern.exec(code))) {
+    ids.add(prefix + match[1]);
+  }
+
+  return Array.from(ids).sort();
+}
+
+function shouldExposeResourceModuleId(moduleId) {
+  return !(
+    moduleId === 'commonjsHelpers.js' ||
+    moduleId.includes('?commonjs-') ||
+    moduleId.endsWith('?commonjs-module')
+  );
+}
+
+function createResourceEntry(
+  chunk,
+  pkgId,
+  moduleIdByFileName,
+  externalModuleIds
+) {
   const deps = chunk.imports
-    .map(fileName => moduleIdByFileName.get(fileName))
+    .map(fileName =>
+      moduleIdByFileName.get(fileName) ||
+      (externalModuleIds.has(fileName) ? fileName : undefined)
+    )
     .filter(Boolean)
     .sort();
   const entry = {
@@ -144,7 +184,9 @@ function createPackageId(index, prefix) {
 module.exports = {
   createRollupResourceMap,
   createResourceMapScript,
+  getAmdDefineModuleIds,
   normalizeChunkModuleId,
   normalizeModuleId,
+  shouldExposeResourceModuleId,
   unwrapBasePathExpressions
 };

@@ -3,21 +3,21 @@
 exports[`Renderer:Carousel 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--light show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel __PRISMUI_COMPONENT_CLASS_PREFIX__Carousel--light show"
     style="width: 500px; height: 300px;"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade out"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-item fade out"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--original __AMIS_COMPONENT_CLASS_PREFIX__Carousel-image"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--original __PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-image"
         >
           <div
             class="
-            __AMIS_COMPONENT_CLASS_PREFIX__Image-origin __AMIS_COMPONENT_CLASS_PREFIX__Image-origin--contain undefined Img-container"
+            __PRISMUI_COMPONENT_CLASS_PREFIX__Image-origin __PRISMUI_COMPONENT_CLASS_PREFIX__Image-origin--contain undefined Img-container"
           >
             <div
               class="mask"
@@ -27,21 +27,21 @@ exports[`Renderer:Carousel 1`] = `
               </span>
             </div>
             <img
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
               src="https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png"
             />
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-info"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-title"
               title="标题"
             >
               标题
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-caption"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-caption"
               title="描述"
             >
               描述
@@ -50,10 +50,10 @@ exports[`Renderer:Carousel 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Html"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Html"
         >
           <div
             style="width: 100%; height: 300px; background: #e3e3e3; text-align: center; line-height: 300px;"
@@ -64,20 +64,20 @@ exports[`Renderer:Carousel 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dot"
       />
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
       />
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dot"
       />
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
     >
       <icon-mock
         class="icon icon-left-arrow"
@@ -85,7 +85,7 @@ exports[`Renderer:Carousel 1`] = `
       />
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
     >
       <icon-mock
         class="icon icon-right-arrow"
@@ -99,20 +99,20 @@ exports[`Renderer:Carousel 1`] = `
 exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--dark"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel __PRISMUI_COMPONENT_CLASS_PREFIX__Carousel--dark"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--original __AMIS_COMPONENT_CLASS_PREFIX__Carousel-image"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--original __PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-image"
         >
           <div
             class="
-            __AMIS_COMPONENT_CLASS_PREFIX__Image-origin __AMIS_COMPONENT_CLASS_PREFIX__Image-origin--cover undefined Img-container"
+            __PRISMUI_COMPONENT_CLASS_PREFIX__Image-origin __PRISMUI_COMPONENT_CLASS_PREFIX__Image-origin--cover undefined Img-container"
           >
             <div
               class="mask"
@@ -120,7 +120,7 @@ exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
               <span />
             </div>
             <img
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
               src="https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png"
             />
           </div>
@@ -134,17 +134,17 @@ exports[`Renderer:Carousel with controls & controlsTheme & thumbMode 1`] = `
 exports[`Renderer:Carousel with itemSchema & width & height 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel __AMIS_COMPONENT_CLASS_PREFIX__Carousel--light"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel __PRISMUI_COMPONENT_CLASS_PREFIX__Carousel--light"
     style="width: 101px; height: 99px;"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-container"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-container"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-item fade in"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             <div
@@ -156,14 +156,14 @@ exports[`Renderer:Carousel with itemSchema & width & height 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dotsControl"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-dot is-active"
       />
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-leftArrow"
     >
       <icon-mock
         class="icon icon-left-arrow"
@@ -171,7 +171,7 @@ exports[`Renderer:Carousel with itemSchema & width & height 1`] = `
       />
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Carousel-rightArrow"
     >
       <icon-mock
         class="icon icon-right-arrow"

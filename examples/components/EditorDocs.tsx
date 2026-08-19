@@ -30,6 +30,15 @@ export const editorDocs = [
         )
       },
       {
+        label: '编辑器架构',
+        icon: 'fa fa-sitemap',
+        hidden: true,
+        path: '/zh-CN/editor/editor-architecture',
+        component: React.lazy(() =>
+          import('../../docs/zh-CN/extend/editor-architecture.md').then(wrapDoc)
+        )
+      },
+      {
         label: '定制指南',
         icon: 'fa fa-sliders',
         path: '/zh-CN/editor/editor-customization',
@@ -66,10 +75,12 @@ export default class EditorDocs extends React.PureComponent<any> {
       ...doc,
       children:
         Array.isArray(doc.children) && doc.children.length
-          ? doc.children.map((item: any) => ({
-              ...item,
-              group: doc.group || doc.label
-            }))
+          ? doc.children
+              .filter((item: any) => !item.hidden)
+              .map((item: any) => ({
+                ...item,
+                group: doc.group || doc.label
+              }))
           : null
     }));
     const flattenDocs = flattenTree(newDocs).filter((i: any) => !!i.path);

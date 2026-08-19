@@ -47,7 +47,7 @@ test('1. Renderer:Collapse', async () => {
   );
 
   const items = container.querySelectorAll(
-    '.cxd-CollapseGroup > .cxd-Collapse'
+    '.prismui-CollapseGroup > .prismui-Collapse'
   );
   expect(items.length).toBe(3);
   expect(items[0]).toHaveClass('is-active');
@@ -96,7 +96,7 @@ test('2. Renderer:Collapse with accordion', async () => {
   );
 
   const items = container.querySelectorAll(
-    '.cxd-CollapseGroup > .cxd-Collapse'
+    '.prismui-CollapseGroup > .prismui-Collapse'
   );
   expect(items.length).toBe(3);
   expect(items[0]).toHaveClass('is-active');
@@ -144,12 +144,12 @@ test('3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow', as
   const {container, rerender} = render(amisRender(schema, {}, makeEnv({})));
 
   const item = container.querySelector(
-    '.cxd-Collapse.is-active .cxd-Collapse-icon-tranform'
+    '.prismui-Collapse.is-active .prismui-Collapse-icon-tranform'
   )!;
   expect(item).toHaveClass('fa-caret-right');
 
   expect(
-    container.querySelector('.cxd-Collapse:last-of-type')!.firstElementChild!
+    container.querySelector('.prismui-Collapse:last-of-type')!.firstElementChild!
   ).not.toHaveClass(componentClass('Collapse-icon-tranform'));
 
   rerender(
@@ -157,7 +157,7 @@ test('3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow', as
   );
 
   await wait(200);
-  expect(container.querySelector('.cxd-CollapseGroup')!).toHaveClass(
+  expect(container.querySelector('.prismui-CollapseGroup')!).toHaveClass(
     'icon-position-right'
   );
   expect(container).toMatchSnapshot();
@@ -200,7 +200,7 @@ test('4. Renderer:Collapse with disabled & panel nesting', async () => {
 
   expect(container).toMatchSnapshot();
   expect(
-    container.querySelector('.cxd-Collapse-content')!.firstElementChild!
+    container.querySelector('.prismui-Collapse-content')!.firstElementChild!
   ).toHaveClass(componentClass('CollapseGroup'));
   expect(container.querySelector('.lastOne')!).toHaveClass(
     componentClass('Collapse--disabled')
@@ -256,10 +256,10 @@ test('5. enableFieldSetStyle属性控制CollapseGroup组件在Form中的样式',
   );
 
   const totalCollections = container.querySelectorAll(
-    '.cxd-CollapseGroup > .cxd-Collapse'
+    '.prismui-CollapseGroup > .prismui-Collapse'
   );
   const disabledStyleCollections = container.querySelectorAll(
-    '.cxd-CollapseGroup > .cxd-Collapse-fieldset--disabled'
+    '.prismui-CollapseGroup > .prismui-Collapse-fieldset--disabled'
   );
 
   expect(totalCollections.length).toBe(4);

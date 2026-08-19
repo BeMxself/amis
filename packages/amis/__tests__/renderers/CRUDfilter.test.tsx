@@ -221,7 +221,7 @@ test('Picker filter1', async () => {
   container = renderResult.container;
 
   await wait(200);
-  const pickerBtn = container.querySelector('span.cxd-Picker-btn')!;
+  const pickerBtn = container.querySelector('span.prismui-Picker-btn')!;
   expect(pickerBtn).toBeTruthy();
 
   fireEvent.click(pickerBtn);
@@ -302,7 +302,7 @@ test('Picker filter2', async () => {
   container = renderResult.container;
 
   await wait(200);
-  const pickerBtn = container.querySelector('span.cxd-Picker-btn')!;
+  const pickerBtn = container.querySelector('span.prismui-Picker-btn')!;
   expect(pickerBtn).toBeTruthy();
 
   fireEvent.click(pickerBtn);

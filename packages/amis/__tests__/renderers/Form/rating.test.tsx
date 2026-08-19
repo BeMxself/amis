@@ -39,7 +39,7 @@ const setup = async (options: any = {}, items: any[] = []) => {
     )
   );
 
-  const rating = util.container.querySelector('.cxd-Rating')!;
+  const rating = util.container.querySelector('.prismui-Rating')!;
 
   expect(rating).toBeInTheDocument();
 
@@ -56,11 +56,11 @@ test('Renderer:rating with count & half', async () => {
     count: 5
   });
 
-  expect(container.querySelectorAll('.cxd-Rating-star').length).toBe(5);
-  expect(container.querySelectorAll('.cxd-Rating-star.is-active').length).toBe(
+  expect(container.querySelectorAll('.prismui-Rating-star').length).toBe(5);
+  expect(container.querySelectorAll('.prismui-Rating-star.is-active').length).toBe(
     3
   );
-  expect(container.querySelectorAll('.cxd-Rating-star.is-half').length).toBe(1);
+  expect(container.querySelectorAll('.prismui-Rating-star.is-half').length).toBe(1);
 
   expect(container).toMatchSnapshot();
 });
@@ -87,8 +87,8 @@ test('Renderer:rating with colors & inactiveColor', async () => {
       }
     ]
   );
-  const firstStar = rating.querySelector('.cxd-Rating-star')!;
-  const input = container.querySelector('.cxd-Number-input-wrap input')!;
+  const firstStar = rating.querySelector('.prismui-Rating-star')!;
+  const input = container.querySelector('.prismui-Number-input-wrap input')!;
 
   expect(firstStar.getAttribute('style')).toContain('color: yellow');
 
@@ -150,8 +150,8 @@ test('Renderer:rating with texts & textPosition & textClassName', async () => {
   );
 
   // 值为 0 不显示提示文字
-  expect(container.querySelector('.cxd-Rating-text')).not.toBeInTheDocument();
-  const input = container.querySelector('.cxd-Number-input-wrap input')!;
+  expect(container.querySelector('.prismui-Rating-text')).not.toBeInTheDocument();
+  const input = container.querySelector('.prismui-Number-input-wrap input')!;
 
   fireEvent.change(input, {
     target: {
@@ -162,7 +162,7 @@ test('Renderer:rating with texts & textPosition & textClassName', async () => {
   await wait(500);
 
   const textDom = container.querySelector(
-    '.cxd-Rating-text.cxd-Rating-text--left.test-rating-class'
+    '.prismui-Rating-text.prismui-Rating-text--left.test-rating-class'
   )!;
   // 一星
   expect(textDom).toBeInTheDocument();
@@ -199,11 +199,11 @@ test('Renderer:rating with char & charClassName', async () => {
   });
 
   expect(
-    container.querySelectorAll('.cxd-Rating-star.test-rating-char').length
+    container.querySelectorAll('.prismui-Rating-star.test-rating-char').length
   ).toBe(5);
 
   expect(
-    (container.querySelector('.cxd-Rating-star.test-rating-char') as Element)
+    (container.querySelector('.prismui-Rating-star.test-rating-char') as Element)
       .innerHTML
   ).toBe('X');
 
@@ -226,12 +226,12 @@ test('Renderer:rating with allowClear', async () => {
   );
 
   const input = (container.querySelector(
-    '.cxd-Number-input-wrap input'
+    '.prismui-Number-input-wrap input'
   ) as HTMLInputElement)!;
   expect(input.value).toBe('2');
 
   const secondStar = container.querySelector(
-    '.cxd-Rating > ul > li:nth-child(2)'
+    '.prismui-Rating > ul > li:nth-child(2)'
   )!;
   fireEvent.click(secondStar);
 
@@ -258,12 +258,12 @@ test('Renderer:rating with readOnly', async () => {
   );
 
   const input = (container.querySelector(
-    '.cxd-Number-input-wrap input'
+    '.prismui-Number-input-wrap input'
   ) as HTMLInputElement)!;
   expect(input.value).toBe('5');
 
   const secondStar = container.querySelector(
-    '.cxd-Rating > ul > li:nth-child(2)'
+    '.prismui-Rating > ul > li:nth-child(2)'
   )!;
   fireEvent.click(secondStar);
 

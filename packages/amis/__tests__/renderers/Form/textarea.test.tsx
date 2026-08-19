@@ -28,7 +28,7 @@ const setup = async (items: any[] = []) => {
   );
 
   const textarea = util.container.querySelector(
-    '.cxd-TextareaControl > textarea.cxd-TextareaControl-input'
+    '.prismui-TextareaControl > textarea.prismui-TextareaControl-input'
   )!;
 
   expect(textarea).toBeInTheDocument();
@@ -96,10 +96,10 @@ test('Renderer:textarea with trimContents & showCounter', async () => {
   ]);
 
   expect(
-    container.querySelector('.cxd-TextareaControl-counter')
+    container.querySelector('.prismui-TextareaControl-counter')
   ).toBeInTheDocument();
   expect(
-    (container.querySelector('.cxd-TextareaControl-counter') as Element)
+    (container.querySelector('.prismui-TextareaControl-counter') as Element)
       .innerHTML
   ).toBe('<span>3</span>');
 
@@ -109,7 +109,7 @@ test('Renderer:textarea with trimContents & showCounter', async () => {
 
   expect(textarea.innerHTML).toBe('12345');
   expect(
-    (container.querySelector('.cxd-TextareaControl-counter') as Element)
+    (container.querySelector('.prismui-TextareaControl-counter') as Element)
       .innerHTML
   ).toBe('<span>5</span>');
 
@@ -131,18 +131,18 @@ test('Renderer:textarea with maxLength & clearable & resetValue', async () => {
   ]);
 
   expect(
-    container.querySelector('.cxd-TextareaControl-clear')
+    container.querySelector('.prismui-TextareaControl-clear')
   ).toBeInTheDocument();
   expect(
-    (container.querySelector('.cxd-TextareaControl-counter') as Element)
+    (container.querySelector('.prismui-TextareaControl-counter') as Element)
       .innerHTML
   ).toBe('<span>3</span><i>/</i><span>9</span>');
 
-  fireEvent.click(container.querySelector('.cxd-TextareaControl-clear')!);
+  fireEvent.click(container.querySelector('.prismui-TextareaControl-clear')!);
   await waitFor(() => {
     expect(textarea.innerHTML).toBe('i am reset value');
     expect(
-      (container.querySelector('.cxd-TextareaControl-counter') as Element)
+      (container.querySelector('.prismui-TextareaControl-counter') as Element)
         .innerHTML
     ).toBe('<span>16</span><i>/</i><span>9</span>');
   });
@@ -156,7 +156,7 @@ test('Renderer:textarea with maxLength & clearable & resetValue', async () => {
   await waitFor(() => {
     expect(
       container.querySelector(
-        '.cxd-TextareaControl.is-error.has-error--maxLength'
+        '.prismui-TextareaControl.is-error.has-error--maxLength'
       )
     ).toBeInTheDocument();
   });

@@ -3,13 +3,13 @@
 exports[`Renderer:dropdown-button 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown is-opened show"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"
@@ -18,11 +18,11 @@ exports[`Renderer:dropdown-button 1`] = `
       </span>
     </button>
     <ul
-      class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       style="width: 0px;"
     >
       <li
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
       >
         <a
           class=""
@@ -33,7 +33,7 @@ exports[`Renderer:dropdown-button 1`] = `
         </a>
       </li>
       <li
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
       >
         <a
           class=""
@@ -51,13 +51,13 @@ exports[`Renderer:dropdown-button 1`] = `
 exports[`Renderer:dropdown-button 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown show"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"
@@ -72,14 +72,14 @@ exports[`Renderer:dropdown-button 2`] = `
 exports[`Renderer:dropdown-button with block & size 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown __AMIS_COMPONENT_CLASS_PREFIX__DropDown--block"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown--block"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--block __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--block __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       下拉菜单
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"
@@ -94,14 +94,14 @@ exports[`Renderer:dropdown-button with block & size 1`] = `
 exports[`Renderer:dropdown-button with block & size 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-lg"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-lg"
     >
       下拉菜单
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"
@@ -116,14 +116,14 @@ exports[`Renderer:dropdown-button with block & size 2`] = `
 exports[`Renderer:dropdown-button with buttons group 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown is-opened"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       下拉菜单
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"
@@ -132,14 +132,14 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
       </span>
     </button>
     <ul
-      class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       style="width: 0px;"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
         >
           <i
             class="fa fa-user m-r-xs fa fa-user"
@@ -149,7 +149,7 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
         >
           <a
             class=""
@@ -160,7 +160,7 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
         >
           <a
             class=""
@@ -172,10 +172,10 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
         </li>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
         >
           <i
             class="fa fa-user m-r-xs fa fa-user"
@@ -185,7 +185,7 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
         >
           <a
             class=""
@@ -196,7 +196,7 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button is-disabled"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button is-disabled"
         >
           <a
             class=""
@@ -208,14 +208,14 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-divider"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-divider"
         />
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-groupTitle"
         >
           <i
             class="fa fa-user m-r-xs fa fa-user"
@@ -225,7 +225,7 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
         >
           <a
             class=""
@@ -244,28 +244,28 @@ exports[`Renderer:dropdown-button with buttons group 1`] = `
 exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown is-opened"
           >
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             >
               下拉菜单
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -274,11 +274,11 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
               </span>
             </button>
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu-root __AMIS_COMPONENT_CLASS_PREFIX__DropDown-menu"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-menu"
               style="width: 0px;"
             >
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
               >
                 <a
                   class=""
@@ -289,7 +289,7 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
                 </a>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-button"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-button"
               >
                 <a
                   class=""
@@ -302,7 +302,7 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
             </ul>
           </div>
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -319,10 +319,10 @@ exports[`Renderer:dropdown-button with closeOnClick & closeOnOutside 1`] = `
 exports[`Renderer:dropdown-button with hideCaret 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       <i
         class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -336,10 +336,10 @@ exports[`Renderer:dropdown-button with hideCaret 1`] = `
 exports[`Renderer:dropdown-button with icon & rightIcon 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
   >
     <button
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
     >
       <i
         class="fa fa-home icon m-r-xs fa fa-home"
@@ -349,7 +349,7 @@ exports[`Renderer:dropdown-button with icon & rightIcon 1`] = `
         class="fa fa-ellipsis-v icon m-l-xs fa fa-ellipsis-v"
       />
       <span
-        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown-caret"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown-caret"
       >
         <icon-mock
           class="icon icon-right-arrow-bold"

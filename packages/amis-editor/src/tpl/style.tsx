@@ -1410,7 +1410,7 @@ setSchemaTpl('animation', () => {
     id = formateId(id);
     const className = `${animations[type].type}-${id}-${type}`;
     if (type === 'hover') {
-      el?.classList.add(`amis-${animations[type].type}-show`);
+      el?.classList.add(`prismui-${animations[type].type}-show`);
       el?.classList.add(`${animations[type].type}-${id}-hover-show`);
     }
     el?.classList.add(className);
@@ -1432,7 +1432,7 @@ setSchemaTpl('animation', () => {
     timeoutId = setTimeout(() => {
       el?.classList.remove(className);
       if (type === 'hover') {
-        el?.classList.remove(`amis-${animations[type].type}-show`);
+        el?.classList.remove(`prismui-${animations[type].type}-show`);
         el?.classList.remove(`${animations[type].type}-${id}-hover-show`);
       }
 

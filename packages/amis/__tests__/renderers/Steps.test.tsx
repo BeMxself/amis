@@ -78,7 +78,7 @@ test('Renderer:steps status', async () => {
     )
   );
 
-  const steps = container.querySelectorAll('.cxd-Steps .cxd-StepsItem');
+  const steps = container.querySelectorAll('.prismui-Steps .prismui-StepsItem');
   expect(steps!.length).toBe(3);
   expect(steps[0]).toHaveClass('is-finish');
   expect(steps[1]).toHaveClass('is-error');
@@ -116,7 +116,7 @@ test('Renderer:steps labelPlacement', async () => {
     )
   );
 
-  expect(container.querySelector('.cxd-Steps')).toHaveClass(
+  expect(container.querySelector('.prismui-Steps')).toHaveClass(
     componentClass('Steps--Placement-vertical')
   );
   expect(container).toMatchSnapshot();
@@ -150,7 +150,7 @@ test('Renderer:steps progressDot', async () => {
       makeEnv()
     )
   );
-  expect(container.querySelector('.cxd-Steps')).toHaveClass(
+  expect(container.querySelector('.prismui-Steps')).toHaveClass(
     componentClass('Steps--ProgressDot')
   );
   expect(container).toMatchSnapshot();
@@ -182,7 +182,7 @@ test('Renderer:steps with vertical mode', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Steps')).toHaveClass(
+  expect(container.querySelector('.prismui-Steps')).toHaveClass(
     componentClass('Steps--vertical')
   );
   expect(container).toMatchSnapshot();
@@ -227,7 +227,7 @@ test('Renderer:steps with name', async () => {
     })
   );
 
-  const input = container.querySelector('.cxd-Number input');
+  const input = container.querySelector('.prismui-Number input');
   const setNum = async (num: number = 0) => {
     fireEvent.change(input!, {
       target: {value: num}
@@ -235,12 +235,12 @@ test('Renderer:steps with name', async () => {
     await wait(300);
   };
 
-  const steps = container.querySelectorAll('.cxd-Steps .cxd-StepsItem');
+  const steps = container.querySelectorAll('.prismui-Steps .prismui-StepsItem');
   expect(steps!.length).toBe(3);
 
   expect(steps[0]).toHaveClass('is-error');
   expect(
-    steps[0].querySelector('.cxd-StepsItem-description')
+    steps[0].querySelector('.prismui-StepsItem-description')
   ).toHaveTextContent('very good idea');
 
   await setNum(1);
@@ -248,7 +248,7 @@ test('Renderer:steps with name', async () => {
   expect(steps[1]).toHaveClass('is-error');
   expect(steps[2]).toHaveClass('is-wait');
 
-  expect(steps[1].querySelector('.cxd-StepsItem-title')).toHaveTextContent(
+  expect(steps[1].querySelector('.prismui-StepsItem-title')).toHaveTextContent(
     'Second Test'
   );
 
@@ -257,7 +257,7 @@ test('Renderer:steps with name', async () => {
   expect(steps[1]).toHaveClass('is-finish');
   expect(steps[2]).toHaveClass('is-error');
 
-  expect(steps[2].querySelector('.cxd-StepsItem-subTitle')).toHaveTextContent(
+  expect(steps[2].querySelector('.prismui-StepsItem-subTitle')).toHaveTextContent(
     'what is this'
   );
 

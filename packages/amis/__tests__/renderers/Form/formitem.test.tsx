@@ -224,21 +224,21 @@ test('Renderer:FormItem:extraName', async () => {
 
   // 打开弹框
   fireEvent.click(
-    container.querySelector('.cxd-DateRangePicker-input') as HTMLElement
+    container.querySelector('.prismui-DateRangePicker-input') as HTMLElement
   );
   await wait(200);
 
   // 点击选择
   fireEvent.click(
     container.querySelector(
-      '.cxd-DateRangePicker-popover tr td[data-value="15"]'
+      '.prismui-DateRangePicker-popover tr td[data-value="15"]'
     ) as HTMLElement
   );
 
   // 点击选择
   fireEvent.click(
     container.querySelector(
-      '.cxd-DateRangePicker-popover tr td[data-value="15"]'
+      '.prismui-DateRangePicker-popover tr td[data-value="15"]'
     ) as HTMLElement
   );
 
@@ -348,7 +348,7 @@ test('Renderer:FormItem:label with variable', async () => {
   const label = container.querySelector('label');
   expect(normalizeSnapshotClassPrefixes(label?.innerHTML || '')).toBe(
     normalizeSnapshotClassPrefixes(
-      '<span><span class="cxd-TplField fr-view"><span>Label ${b}</span></span></span>'
+      '<span><span class="prismui-TplField fr-view"><span>Label ${b}</span></span></span>'
     )
   );
 });

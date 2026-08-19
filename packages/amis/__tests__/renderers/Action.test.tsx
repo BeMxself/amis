@@ -315,12 +315,12 @@ test('Renderers:Action tooltip', async () => {
 //       })
 //     )
 //   );
-//   fireEvent.click(container.querySelector('.cxd-Button'));
+//   fireEvent.click(container.querySelector('.prismui-Button'));
 //   wait(2000);
 //   expect(fetcher).toBeCalled();
 //   expect(baseElement).toMatchSnapshot();
 //   expect(
-//     await within(baseElement.querySelector('.cxd-Modal-content')!).getByText(
+//     await within(baseElement.querySelector('.prismui-Modal-content')!).getByText(
 //       'xxx 已操作成功'
 //     )!
 //   ).toBeInTheDocument();
@@ -356,11 +356,11 @@ test('Renderers:Action with confirmText & actionType ajax', async () => {
       })
     )
   );
-  fireEvent.click(container.querySelector('.cxd-Button'));
+  fireEvent.click(container.querySelector('.prismui-Button'));
   await wait(500);
   expect(baseElement).toMatchSnapshot();
 
-  expect(baseElement.querySelector('.cxd-Modal-content')!).toHaveTextContent(
+  expect(baseElement.querySelector('.prismui-Modal-content')!).toHaveTextContent(
     '确认要发出这个请求？'
   );
 
@@ -368,7 +368,7 @@ test('Renderers:Action with confirmText & actionType ajax', async () => {
   await wait(500);
   expect(fetcher).not.toBeCalled();
 
-  fireEvent.click(container.querySelector('.cxd-Button'));
+  fireEvent.click(container.querySelector('.prismui-Button'));
   await wait(500);
   fireEvent.click(getByText('确认'));
 
@@ -407,7 +407,7 @@ test('Renderers:Action as container', async () => {
     )
   );
 
-  const color = container.querySelector('.cxd-ColorField');
+  const color = container.querySelector('.prismui-ColorField');
   expect(color).toBeInTheDocument();
 
   fireEvent.click(color);

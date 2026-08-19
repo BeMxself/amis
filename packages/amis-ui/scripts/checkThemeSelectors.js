@@ -14,17 +14,17 @@ const fixtureName = fixtureIndex >= 0 ? args[fixtureIndex + 1] : null;
 const categories = {
   'public-forbidden': {
     description:
-      'New public theme-prefix selectors or unclassified prefix-based style dependencies.',
+      'New old-prefix selectors or unclassified prefix-based style dependencies.',
     owner: 'theme-system-refactor',
     exit_condition:
-      'Must be rewritten to stable .amis-* selectors, [data-amis-theme] scope, or explicitly classified before merge.'
+      'Must be rewritten to stable .prismui-* selectors, [data-prismui-theme] scope, or explicitly classified before merge.'
   },
   'migration-target': {
     description:
-      'Existing #{$ns}, prefixed selector, or classPrefix selector debt that belongs to component migration.',
+      'Existing old-prefix selector or classPrefix selector debt that belongs to component migration.',
     owner: 'core-component-selector-migration',
     exit_condition:
-      'Remove as each component migrates to stable .amis-* selectors and tokenized styles.'
+      'Remove as each component migrates to stable .prismui-* selectors and tokenized styles.'
   },
   'internal-legacy': {
     description:
@@ -71,24 +71,18 @@ const categories = {
 
 const scans = [
   {
-    id: 'scss-ns-selector',
-    description: 'Legacy #{$ns} selector interpolation in amis-ui source SCSS.',
-    paths: ['packages/amis-ui/scss'],
-    extensions: ['.scss'],
-    regex: '#\\{\\$ns\\}',
-    defaultCategory: 'migration-target'
-  },
-  {
     id: 'theme-prefix-selector',
     description:
-      'Theme-prefixed .cxd-* / .antd-* / .dark-* selector usage in source styles and editor helpers.',
+      'Old .amis-* / .cxd-* selectors or theme-specific .antd-* / .dark-* selector usage in source styles and editor helpers.',
     paths: [
       'packages/amis-ui/scss',
       'packages/amis-theme-editor-helper/src',
-      'packages/amis-editor-core/scss'
+      'packages/amis-editor-core/scss',
+      'packages/amis-editor/examples',
+      'examples'
     ],
     extensions: ['.scss', '.ts', '.tsx'],
-    regex: '\\.(?:cxd|antd|dark)-[A-Za-z0-9_-]+',
+    regex: '\\.(?:amis|cxd|antd|dark)-[A-Za-z0-9_-]+',
     defaultCategory: 'migration-target'
   },
   {
@@ -237,7 +231,7 @@ function hasCxClassName(line) {
 }
 
 function hasHardcodedLegacySelector(line) {
-  return /['"`][^'"`]*\.(?:cxd|antd|dark)-[A-Za-z0-9_-]+/.test(line);
+  return /['"`][^'"`]*\.(?:amis|cxd|antd|dark)-[A-Za-z0-9_-]+/.test(line);
 }
 
 function hasClassListContainsCx(line) {
@@ -582,7 +576,7 @@ function writePolicy(entries) {
     version: 1,
     updated: new Date().toISOString().slice(0, 10),
     purpose:
-      'Tracks the selector migration baseline as active debt. Existing entries may be removed; new unclassified legacy selector matches fail npm run check:theme-selectors --workspace amis-ui. Plain --update may only keep or shrink the baseline; growth requires --allow-baseline-growth and review.',
+      'Tracks old-prefix selector and unsafe classPrefix selector baseline as active debt. Existing entries may be removed; new unclassified matches fail npm run check:theme-selectors --workspace amis-ui. Plain --update may only keep or shrink the baseline; growth requires --allow-baseline-growth and review.',
     categories,
     ignored_generated_segments: [...generatedSegments].sort(),
     scans: scans.map(
@@ -641,7 +635,7 @@ function main() {
 
   if (violations.length) {
     console.error(
-      'Theme selector guard failed: new unclassified legacy selector matches found.'
+      'Theme selector guard failed: new unclassified old-prefix or unsafe classPrefix selector matches found.'
     );
     for (const violation of violations.slice(0, 50)) {
       console.error(
@@ -660,7 +654,7 @@ function main() {
     .map(category => `${category}: ${summary.by_category[category]}`)
     .join(', ');
   console.log(
-    `Theme selector guard passed: ${summary.total_matches} legacy baseline match(es), 0 new violation(s). Remaining debt by category: ${categorySummary}.`
+    `Theme selector guard passed: ${summary.total_matches} old-prefix/classPrefix baseline match(es), 0 new violation(s). Remaining debt by category: ${categorySummary}.`
   );
 }
 

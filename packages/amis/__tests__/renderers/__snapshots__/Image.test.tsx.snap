@@ -3,17 +3,17 @@
 exports[`Renderer:image image as form item 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:image image as form item 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:image image as form item 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="image"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   颜色
@@ -51,23 +51,23 @@ exports[`Renderer:image image as form item 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
                 style="transform: scale(1);"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb no-border"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb no-border"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
                     >
                       <div
                         class="mask"
@@ -75,7 +75,7 @@ exports[`Renderer:image image as form item 1`] = `
                         <span />
                       </div>
                       <img
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                         src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                       />
                     </div>
@@ -88,13 +88,13 @@ exports[`Renderer:image image as form item 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -110,17 +110,17 @@ exports[`Renderer:image image as form item 1`] = `
 exports[`Renderer:image image:basic 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb show"
     style="transform: scale(1);"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -130,16 +130,16 @@ exports[`Renderer:image image:basic 1`] = `
             </span>
           </div>
           <img
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image b"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image b"
             src="https://www.baidu.com/img/bd_logo1.png"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-info"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-title"
           title="图片"
         >
           图片
@@ -153,17 +153,17 @@ exports[`Renderer:image image:basic 1`] = `
 exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToolbar 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -171,15 +171,15 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
             <span />
           </div>
           <img
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay"
         >
           <a
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
             data-position="bottom"
             data-tooltip="查看大图"
             target="_blank"
@@ -199,17 +199,17 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
 exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToolbar: Gallery 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -217,15 +217,15 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
             <span />
           </div>
           <img
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay"
         >
           <a
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
             data-position="bottom"
             data-tooltip="查看大图"
             target="_blank"
@@ -245,37 +245,37 @@ exports[`Renderer:image image:enlargeAble & originalSrc & enlargeTitle & showToo
 exports[`Renderer:image image:href 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Link"
-              href="https://github.com/baidu/amis"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Link"
+              href="https://github.com/Gengxin-Tech/prismui"
               target="_blank"
               title=""
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
                   >
                     <div
                       class="mask"
@@ -283,7 +283,7 @@ exports[`Renderer:image image:href 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg"
                     />
                   </div>
@@ -301,31 +301,31 @@ exports[`Renderer:image image:href 1`] = `
 exports[`Renderer:image image:preview 预览动作 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
                 >
                   <div
                     class="mask"
@@ -333,7 +333,7 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
                     <span />
                   </div>
                   <img
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                     src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                   />
                 </div>
@@ -341,7 +341,7 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
             </div>
           </div>
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -358,17 +358,17 @@ exports[`Renderer:image image:preview 预览动作 1`] = `
 exports[`Renderer:image image:title & imageCaption 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
         >
           <div
             class="mask"
@@ -378,22 +378,22 @@ exports[`Renderer:image image:title & imageCaption 1`] = `
             </span>
           </div>
           <img
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-info"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-info"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-title"
           title="这是标题"
         >
           这是标题
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-caption"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-caption"
           title="这是一段说明"
         >
           这是一段说明
@@ -407,17 +407,17 @@ exports[`Renderer:image image:title & imageCaption 1`] = `
 exports[`Renderer:image image:width & height 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
     style="transform: scale(1);"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
           style="height: 200px; width: 200px;"
         >
           <div
@@ -426,7 +426,7 @@ exports[`Renderer:image image:width & height 1`] = `
             <span />
           </div>
           <img
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
             src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_400,l_1,f_jpg,q_80"
           />
         </div>
@@ -439,31 +439,31 @@ exports[`Renderer:image image:width & height 1`] = `
 exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动作 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImageField __AMIS_COMPONENT_CLASS_PREFIX__ImageField--thumb"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImageField __PRISMUI_COMPONENT_CLASS_PREFIX__ImageField--thumb"
             style="transform: scale(1);"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--contain __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--contain __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container"
                 >
                   <div
                     class="mask"
@@ -471,7 +471,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
                     <span />
                   </div>
                   <img
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                     src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                   />
                 </div>
@@ -479,7 +479,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
             </div>
           </div>
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -487,7 +487,7 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
             </span>
           </button>
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -504,33 +504,33 @@ exports[`Renderer:image image:zoom & maxScale & minScale 调整图片比例动�
 exports[`Renderer:images images:basic 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -538,20 +538,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -559,20 +559,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -580,20 +580,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -601,20 +601,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693379/8f2e79f82be0.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -622,7 +622,7 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693566/552b175ef11d.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
@@ -631,22 +631,22 @@ exports[`Renderer:images images:basic 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Divider __AMIS_COMPONENT_CLASS_PREFIX__Divider--solid __AMIS_COMPONENT_CLASS_PREFIX__Divider--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Divider __PRISMUI_COMPONENT_CLASS_PREFIX__Divider--solid __PRISMUI_COMPONENT_CLASS_PREFIX__Divider--horizontal"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -654,20 +654,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -675,20 +675,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -696,20 +696,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -717,20 +717,20 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693379/8f2e79f82be0.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -738,7 +738,7 @@ exports[`Renderer:images images:basic 1`] = `
                       <span />
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693566/552b175ef11d.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
@@ -756,33 +756,33 @@ exports[`Renderer:images images:basic 1`] = `
 exports[`Renderer:images images:enlargeAble & originalSrc & source & title & description 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ImagesField"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ImagesField"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Images"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Images"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -792,15 +792,15 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"
@@ -814,13 +814,13 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -830,15 +830,15 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692942/d8e4992057f9.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"
@@ -852,13 +852,13 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Image __AMIS_COMPONENT_CLASS_PREFIX__Image--thumb __AMIS_COMPONENT_CLASS_PREFIX__Images-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image __PRISMUI_COMPONENT_CLASS_PREFIX__Image--thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Images-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumbWrap"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-thumb __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--cover __AMIS_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __AMIS_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--cover __PRISMUI_COMPONENT_CLASS_PREFIX__Image-thumb--1-1 __PRISMUI_COMPONENT_CLASS_PREFIX__Img-container text-style-4"
                   >
                     <div
                       class="mask"
@@ -868,15 +868,15 @@ exports[`Renderer:images images:enlargeAble & originalSrc & source & title & des
                       </span>
                     </div>
                     <img
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-image"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-image"
                       src="https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395693148/1314a2a3d3f6.jpeg@s_0,w_216,l_1,f_jpg,q_80"
                     />
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Image-overlay-view-icon"
                       data-position="bottom"
                       data-tooltip="查看大图"
                       target="_blank"

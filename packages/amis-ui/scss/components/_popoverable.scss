@@ -1,4 +1,4 @@
-.amis-Field-popOverBtn {
+.prismui-Field-popOverBtn {
   color: var(--PopOverAble-iconColor);
   margin-left: var(--gap-xs);
   display: inline-block;
@@ -12,16 +12,16 @@
   }
 }
 
-.amis-TableCell-ellipsis {
+.prismui-TableCell-ellipsis {
   display: flex;
   align-items: center;
 }
 
-.amis-Field--popOverAble {
+.prismui-Field--popOverAble {
   outline: none;
   position: relative;
 
-  .amis-Field-popOverWrap {
+  .prismui-Field-popOverWrap {
     display: -webkit-inline-box;
     vertical-align: middle;
 
@@ -42,30 +42,30 @@
   }
 }
 
-.amis-Field--copyable {
+.prismui-Field--copyable {
   white-space: nowrap;
 
-  .amis-Form-item {
+  .prismui-Form-item {
     display: inline-block;
     margin-bottom: unset;
     vertical-align: middle;
   }
-  .amis-Field-copyBtn {
+  .prismui-Field-copyBtn {
     vertical-align: middle;
   }
 }
 
-.amis-PopOverAble-popover {
+.prismui-PopOverAble-popover {
   min-width: px2rem(320px);
   max-width: px2rem(640px);
 
-  .amis-Panel {
+  .prismui-Panel {
     margin-bottom: 0;
     border: none;
   }
 }
 
-.amis-PopOverAble--fixed {
+.prismui-PopOverAble--fixed {
   position: fixed;
 
   > * {
@@ -73,28 +73,28 @@
   }
 }
 
-.amis-PopOverAble--fixed-center {
+.prismui-PopOverAble--fixed-center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.amis-PopOverAble--fixed-left-top {
+.prismui-PopOverAble--fixed-left-top {
   top: 0;
   left: 0;
 }
 
-.amis-PopOverAble--fixed-right-top {
+.prismui-PopOverAble--fixed-right-top {
   top: 0;
   right: 0;
 }
 
-.amis-PopOverAble--fixed-left-bottom {
+.prismui-PopOverAble--fixed-left-bottom {
   bottom: 0;
   left: 0;
 }
 
-.amis-PopOverAble--fixed-right-bottom {
+.prismui-PopOverAble--fixed-right-bottom {
   bottom: 0;
   right: 0;
 }

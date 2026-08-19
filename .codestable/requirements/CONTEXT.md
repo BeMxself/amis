@@ -5,11 +5,11 @@
 ## Language
 
 **主题作用域**:
-承载当前主题身份的 DOM 范围，例如未来的 `[data-amis-theme="cxd"]`。它决定作用域内 token 值和主题特定覆写规则。
+承载当前主题身份的 DOM 范围，例如未来的 `[data-prismui-theme="cxd"]`。它决定作用域内 token 值和主题特定覆写规则。
 _Avoid_: theme prefix root, scoped theme wrapper
 
 **稳定组件类名**:
-不包含主题名的组件选择器，稳定前缀确定为 `amis-`，例如 `.amis-Button`。它表达组件身份，而不是主题身份。
+不包含主题名的组件选择器，稳定前缀确定为 `prismui-`，例如 `.prismui-Button`。它表达组件身份，而不是主题身份。
 _Avoid_: cxd-Button, antd-Button, theme-prefixed component class
 
 **Legacy DOM 类名别名**:

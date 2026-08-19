@@ -28,8 +28,8 @@ round: 1
 
 | ID | 来源 | 核心性 | 场景 / 风险 | 证据类型 | 命令或动作 | 期望 | 结果 |
 |---|---|---|---|---|---|---|---|
-| QA-001 | design CMD-002 | core-functional | `legacyDomClassAlias` 默认关闭、只允许显式 `cxd`，stable helper 在 alias-on 时仍取 `.amis-*` 主类 | unit | `npm test --workspace amis-core -- theme` | 9 tests pass | pass |
-| QA-002 | design CMD-004 / review QA focus | core-functional | 主 selector guard 不允许新增未分类 legacy selector | static guard | `npm run check:theme-selectors --workspace amis-ui` | 1503 baseline / 0 new violation | pass |
+| QA-001 | design CMD-002 | core-functional | `legacyDomClassAlias` 默认关闭、只允许显式 `cxd`，stable helper 在 alias-on 时仍取 `.prismui-*` 主类 | unit | `npm test --workspace amis-core -- theme` | 10 tests pass | pass |
+| QA-002 | design CMD-004 / review QA focus | core-functional | 主 selector guard 不允许新增未分类 legacy selector | static guard | `npm run check:theme-selectors --workspace amis-ui` | 7 baseline / 0 new violation | pass |
 | QA-003 | review QA focus | core-functional | good fixture 使用 stable selector helper 不应触发 guard | static guard | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` | exit 0 | pass |
 | QA-004 | review QA focus | core-functional | bad fixture 必须能抓到 direct alias、props alias、解构 alias、预构造 selector、`cx(...)`、`classList.contains`、Sortable selector | static guard | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` | expected exit 1 with listed violations | pass |
 | QA-005 | design CMD-009 | core-functional | Tabs/List/Table/InputSubForm/Video 行为查询和 snapshot 跟随 stable class 主路径 | unit/snapshot | DoD `CMD-009` | 5 suites / 51 tests / 37 snapshots pass | pass |
@@ -39,10 +39,10 @@ round: 1
 
 ## 3. Command Results
 
-- `npm test --workspace amis-core -- theme` → exit 0：1 suite / 9 tests pass。
-- `npm run check:theme-selectors --workspace amis-ui` → exit 0：1503 legacy baseline matches，0 new violations。
+- `npm test --workspace amis-core -- theme` → exit 0：1 suite / 10 tests pass。
+- `npm run check:theme-selectors --workspace amis-ui` → exit 0：7 baseline matches，0 new violations。
 - `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` → exit 0：0 baseline / 0 violation。
-- `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` → exit 1 as expected：命中 `classprefix-dom-selector`、`scss-ns-selector`、`theme-prefix-selector`，覆盖 props alias / 解构 alias 等反例。
+- `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` → exit 1 as expected：命中 `classprefix-dom-selector`、`theme-prefix-selector`，覆盖 props alias / 解构 alias 等反例。
 - `npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tree.test.tsx __tests__/renderers/Form/formula.test.tsx` → exit 0：2 suites / 14 tests / 3 snapshots pass。
 - DoD runner → status passed；warning 仅 `CMD-006: non-core command failed with exit 2`。
 - `git diff --check` → exit 0。
@@ -51,7 +51,7 @@ round: 1
 ## 4. Scenario Results
 
 - [x] QA-001 alias runtime policy：pass
-  - Evidence: `theme.test.ts` 覆盖默认 stable class、显式 `cxd` alias、非法 `antd` 不输出旧类、stable helper 优先 `.amis-*`。
+  - Evidence: `theme.test.ts` 覆盖默认 stable class、显式 `cxd` alias、非法 `antd` 不输出旧类、stable helper 优先 `.prismui-*`。
   - Notes: 证明 DOM-only alias 不会自动扩展成 `antd` / `dark`。
 - [x] QA-002 selector guard 主路径：pass
   - Evidence: `npm run check:theme-selectors --workspace amis-ui` 通过，0 new violation。

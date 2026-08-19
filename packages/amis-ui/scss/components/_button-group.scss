@@ -1,10 +1,10 @@
-.amis-ButtonGroup {
+.prismui-ButtonGroup {
   position: relative;
   display: inline-flex;
   vertical-align: middle;
   flex-wrap: wrap;
 
-  > .amis-Button {
+  > .prismui-Button {
     position: relative;
     flex: 0 1 auto;
     overflow: hidden;
@@ -12,8 +12,8 @@
     white-space: nowrap;
   }
 
-  > .amis-Button,
-  .amis-Badge {
+  > .prismui-Button,
+  .prismui-Badge {
     @include hover {
       z-index: 1;
     }
@@ -26,22 +26,22 @@
     }
   }
 
-  .amis-Badge {
-    .amis-Badge-text,
-    .amis-Badge-dot,
-    .amis-Badge-ribbon,
-    .amis-Badge-dot {
+  .prismui-Badge {
+    .prismui-Badge-text,
+    .prismui-Badge-dot,
+    .prismui-Badge-ribbon,
+    .prismui-Badge-dot {
       z-index: 2;
     }
   }
 
-  .amis-Button + .amis-Button,
-  .amis-Button + .amis-ButtonGroup,
-  .amis-Button + .amis-Badge,
-  .amis-ButtonGroup + .amis-Button,
-  .amis-ButtonGroup + .amis-ButtonGroup,
-  .amis-Badge + .amis-Badge,
-  .amis-Badge + .amis-Button {
+  .prismui-Button + .prismui-Button,
+  .prismui-Button + .prismui-ButtonGroup,
+  .prismui-Button + .prismui-Badge,
+  .prismui-ButtonGroup + .prismui-Button,
+  .prismui-ButtonGroup + .prismui-ButtonGroup,
+  .prismui-Badge + .prismui-Badge,
+  .prismui-Badge + .prismui-Button {
     margin-left: calc(var(--ButtonGroup-borderWidth) * -1);
   }
 
@@ -58,107 +58,107 @@
   }
 }
 
-.amis-ButtonToolbar {
+.prismui-ButtonToolbar {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
 
-  .amis-ButtonGroup {
+  .prismui-ButtonGroup {
     margin-left: var(--gap-xs);
     margin-top: var(--gap-xs);
     width: auto;
   }
 }
 
-.amis-ButtonGroup {
-  > .amis-Button:first-child,
-  > .amis-Badge .amis-Button {
+.prismui-ButtonGroup {
+  > .prismui-Button:first-child,
+  > .prismui-Badge .prismui-Button {
     margin-left: 0;
   }
 
-  // cxd的ButtonGroup的is-active和:active样式不一样，这里做个兼容
-  .amis-Button--primary.is-active {
+  // prismui的ButtonGroup的is-active和:active样式不一样，这里做个兼容
+  .prismui-Button--primary.is-active {
     color: var(--ButtonGroup--primary-isActive-color);
     background: var(--ButtonGroup--primary-isActive-bg);
   }
 
-  > .amis-Button:not(:last-child),
-  > .amis-ButtonGroup:not(:last-child) > .amis-Button,
-  > .amis-Badge:not(:last-child) > .amis-Button {
+  > .prismui-Button:not(:last-child),
+  > .prismui-ButtonGroup:not(:last-child) > .prismui-Button,
+  > .prismui-Badge:not(:last-child) > .prismui-Button {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
 
-  > .amis-Button:not(:first-child),
-  > .amis-ButtonGroup:not(:first-child) > .amis-Button,
-  > .amis-Badge:not(:first-child) > .amis-Button {
+  > .prismui-Button:not(:first-child),
+  > .prismui-ButtonGroup:not(:first-child) > .prismui-Button,
+  > .prismui-Badge:not(:first-child) > .prismui-Button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
 
-  > .amis-ButtonGroup:last-child > .amis-Button:not(:last-child) {
+  > .prismui-ButtonGroup:last-child > .prismui-Button:not(:last-child) {
     border-top-right-radius: 0;
   }
 }
 
-.amis-ButtonGroup--vertical {
+.prismui-ButtonGroup--vertical {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 
-  .amis-Button,
-  .amis-ButtonGroup {
+  .prismui-Button,
+  .prismui-ButtonGroup {
     width: 100%;
   }
 
-  > .amis-Button + .amis-Button,
-  > .amis-Button + .amis-ButtonGroup,
-  > .amis-Button + .amis-Badge,
-  > .amis-ButtonGroup + .amis-Button,
-  > .amis-ButtonGroup + .amis-ButtonGroup,
-  > .amis-Badge + .amis-Badge,
-  > .amis-Badge + .amis-Button {
+  > .prismui-Button + .prismui-Button,
+  > .prismui-Button + .prismui-ButtonGroup,
+  > .prismui-Button + .prismui-Badge,
+  > .prismui-ButtonGroup + .prismui-Button,
+  > .prismui-ButtonGroup + .prismui-ButtonGroup,
+  > .prismui-Badge + .prismui-Badge,
+  > .prismui-Badge + .prismui-Button {
     margin-top: calc(var(--ButtonGroup-borderWidth) * -1);
     margin-left: 0;
   }
-  > .amis-Button:not(:last-child),
-  > .amis-ButtonGroup:not(:last-child) > .amis-Button,
-  > .amis-Badge:not(:last-child) > .amis-Button {
+  > .prismui-Button:not(:last-child),
+  > .prismui-ButtonGroup:not(:last-child) > .prismui-Button,
+  > .prismui-Badge:not(:last-child) > .prismui-Button {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
 
-  > .amis-Button:not(:first-child),
-  > .amis-ButtonGroup:not(:first-child) > .btn,
-  > .amis-Badge:not(:first-child) > .btn {
+  > .prismui-Button:not(:first-child),
+  > .prismui-ButtonGroup:not(:first-child) > .btn,
+  > .prismui-Badge:not(:first-child) > .btn {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
 
   /* 修正头尾的圆角 */
-  > .amis-Button:first-child,
-  > .amis-ButtonGroup:first-child > .amis-Button:first-child,
-  > .amis-Badge:first-child > .amis-Button:first-child {
+  > .prismui-Button:first-child,
+  > .prismui-ButtonGroup:first-child > .prismui-Button:first-child,
+  > .prismui-Badge:first-child > .prismui-Button:first-child {
     border-top-right-radius: var(--borders-radius-3);
   }
 
-  > .amis-Button:last-child,
-  > .amis-ButtonGroup:last-child > .amis-Button:last-child,
-  > .amis-Badge:last-child > .amis-Button:last-child {
+  > .prismui-Button:last-child,
+  > .prismui-ButtonGroup:last-child > .prismui-Button:last-child,
+  > .prismui-Badge:last-child > .prismui-Button:last-child {
     border-bottom-left-radius: var(--borders-radius-3);
   }
 }
 
-.amis-ButtonGroup--tiled {
+.prismui-ButtonGroup--tiled {
   display: flex;
 
-  .amis-Button,
-  .amis-ButtonGroup,
-  .amis-Badge {
+  .prismui-Button,
+  .prismui-ButtonGroup,
+  .prismui-Badge {
     flex-grow: 1;
     text-align: center;
-    .amis-Button {
+    .prismui-Button {
       width: 100%;
     }
   }

@@ -1,8 +1,9 @@
 @use 'sass:color';
 @import './mixins';
 @import './stable-selectors';
-:root,
-.AMISCSSWrapper {
+$prismui-theme-vars-only: false !default;
+
+@mixin prismui-component-vars {
   --button-default-default-top-border-color: var(--colors-neutral-line-8);
   --button-default-default-top-border-style: var(--borders-style-2);
   --button-default-default-top-border-width: var(--borders-width-2);
@@ -64,74 +65,74 @@
   --button-default-disabled-bg-color: var(--colors-neutral-fill-10);
   --button-default-disabled-font-color: var(--colors-neutral-text-6);
   --button-primary-default-top-border-color: var(
-    --amis-Button-primary-border-color
+    --prismui-Button-primary-border-color
   );
   --button-primary-default-top-border-style: var(--borders-style-2);
   --button-primary-default-top-border-width: var(--borders-width-2);
   --button-primary-default-left-border-color: var(
-    --amis-Button-primary-border-color
+    --prismui-Button-primary-border-color
   );
   --button-primary-default-left-border-style: var(--borders-style-2);
   --button-primary-default-left-border-width: var(--borders-width-2);
   --button-primary-default-right-border-color: var(
-    --amis-Button-primary-border-color
+    --prismui-Button-primary-border-color
   );
   --button-primary-default-right-border-style: var(--borders-style-2);
   --button-primary-default-right-border-width: var(--borders-width-2);
   --button-primary-default-bottom-border-color: var(
-    --amis-Button-primary-border-color
+    --prismui-Button-primary-border-color
   );
   --button-primary-default-bottom-border-style: var(--borders-style-2);
   --button-primary-default-bottom-border-width: var(--borders-width-2);
   --button-primary-default-shadow: var(--shadows-shadow-none);
-  --button-primary-default-bg-color: var(--amis-Button-primary-bg);
-  --button-primary-default-font-color: var(--amis-Button-primary-color);
+  --button-primary-default-bg-color: var(--prismui-Button-primary-bg);
+  --button-primary-default-font-color: var(--prismui-Button-primary-color);
   --button-primary-hover-top-border-color: var(
-    --amis-Button-primary-hover-border-color
+    --prismui-Button-primary-hover-border-color
   );
   --button-primary-hover-top-border-style: var(--borders-style-2);
   --button-primary-hover-top-border-width: var(--borders-width-2);
   --button-primary-hover-left-border-color: var(
-    --amis-Button-primary-hover-border-color
+    --prismui-Button-primary-hover-border-color
   );
   --button-primary-hover-left-border-style: var(--borders-style-2);
   --button-primary-hover-left-border-width: var(--borders-width-2);
   --button-primary-hover-right-border-color: var(
-    --amis-Button-primary-hover-border-color
+    --prismui-Button-primary-hover-border-color
   );
   --button-primary-hover-right-border-style: var(--borders-style-2);
   --button-primary-hover-right-border-width: var(--borders-width-2);
   --button-primary-hover-bottom-border-color: var(
-    --amis-Button-primary-hover-border-color
+    --prismui-Button-primary-hover-border-color
   );
   --button-primary-hover-bottom-border-style: var(--borders-style-2);
   --button-primary-hover-bottom-border-width: var(--borders-width-2);
   --button-primary-hover-shadow: var(--shadows-shadow-none);
-  --button-primary-hover-bg-color: var(--amis-Button-primary-hover-bg);
-  --button-primary-hover-font-color: var(--amis-Button-primary-hover-color);
+  --button-primary-hover-bg-color: var(--prismui-Button-primary-hover-bg);
+  --button-primary-hover-font-color: var(--prismui-Button-primary-hover-color);
   --button-primary-active-top-border-color: var(
-    --amis-Button-primary-active-border-color
+    --prismui-Button-primary-active-border-color
   );
   --button-primary-active-top-border-style: var(--borders-style-2);
   --button-primary-active-top-border-width: var(--borders-width-2);
   --button-primary-active-left-border-color: var(
-    --amis-Button-primary-active-border-color
+    --prismui-Button-primary-active-border-color
   );
   --button-primary-active-left-border-style: var(--borders-style-2);
   --button-primary-active-left-border-width: var(--borders-width-2);
   --button-primary-active-right-border-color: var(
-    --amis-Button-primary-active-border-color
+    --prismui-Button-primary-active-border-color
   );
   --button-primary-active-right-border-style: var(--borders-style-2);
   --button-primary-active-right-border-width: var(--borders-width-2);
   --button-primary-active-bottom-border-color: var(
-    --amis-Button-primary-active-border-color
+    --prismui-Button-primary-active-border-color
   );
   --button-primary-active-bottom-border-style: var(--borders-style-2);
   --button-primary-active-bottom-border-width: var(--borders-width-2);
   --button-primary-active-shadow: var(--shadows-shadow-none);
-  --button-primary-active-bg-color: var(--amis-Button-primary-active-bg);
-  --button-primary-active-font-color: var(--amis-Button-primary-active-color);
+  --button-primary-active-bg-color: var(--prismui-Button-primary-active-bg);
+  --button-primary-active-font-color: var(--prismui-Button-primary-active-color);
   --button-primary-disabled-top-border-color: var(--colors-neutral-line-10);
   --button-primary-disabled-top-border-style: var(--borders-style-2);
   --button-primary-disabled-top-border-width: var(--borders-width-2);
@@ -4368,4 +4369,11 @@
   --Form-static-color: var(--colors-neutral-text-2);
   --Form-static-lineHeight: var(--fonts-lineHeight-2);
   --Form-static-fontWeight: var(--fonts-weight-6);
+}
+
+@if not $prismui-theme-vars-only {
+  :root,
+  .AMISCSSWrapper {
+    @include prismui-component-vars;
+  }
 }

@@ -4,10 +4,11 @@ title: 可视化编辑器
 
 目前 amis 可视化编辑器也作为单独的 npm 包发布了出来，可以通过 npm 安装使用。
 
-在线体验：[在线编辑器](./index)
-示例代码：https://github.com/aisuda/amis-editor-demo
+如果想先上手体验，可以直接打开左侧菜单中的「在线编辑器」。
 
 如果需要系统了解编辑器二次开发入口，包括属性定制、插件定制、左右面板定制、全局插件与渲染器插件的边界，请参考[可视化编辑器定制指南](./editor-customization)。
+
+如果需要先理解编辑器内部的核心概念、静态架构、加载流程、渲染接入流程和插件协作方式，请参考[编辑器架构](./editor-architecture)。
 
 ## 使用
 
@@ -48,7 +49,7 @@ render() {
 - `className?: string` 额外加个 css 类名，辅助样式定义。
 - `schemas?: JSONSchemaObject` 用来定义有哪些全局变量，辅助编辑器格式化绑定全局数据。
 - `theme?: string` amis 主题
-- `schemaFilter?: (schema: any, isPreview?: boolean) => any` 配置过滤器。可以用来实现 api proxy，比如原始配置中请求地址是 `http://baidu.com` 如果直接给编辑器预览请求，很可能会报跨域，可以自动转成 `/api/proxy?_url=xxxx`，走 proxy 解决。
+- `schemaFilter?: (schema: any, isPreview?: boolean) => any` 配置过滤器。可以用来实现 api proxy，比如原始配置中请求地址是 `https://example.com/api` 如果直接给编辑器预览请求，很可能会报跨域，可以自动转成 `/api/proxy?_url=xxxx`，走 proxy 解决。
 - `amisEnv?: any` 这是给 amis 的 Env 对象，具体请前往 [env 说明](../start/getting-started#env)
 - `disableBultinPlugin?: boolean` 是否禁用内置插件
 - `disablePluginList?: Array<string> | (id: string, plugin: PluginClass) => boolean` 禁用插件列表
@@ -595,7 +596,7 @@ export class MyRenderer extends React.Component {
 }
 ```
 
-然后[插件](https://github.com/aisuda/amis-editor-demo?tab=readme-ov-file#%E6%89%A9%E5%85%85%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E7%89%88)中修改继承类，即可完成拖拽调整宽高：
+然后将对应插件继承自 `LayoutBasePlugin`，即可完成拖拽调整宽高：
 
 ```tsx
 import {LayoutBasePlugin} from 'amis-editor';

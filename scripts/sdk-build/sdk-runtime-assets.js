@@ -15,7 +15,8 @@ const sdkRuntimeAssets = [
     moduleId: 'node_modules/pdfjs-dist/build/pdf.mjs',
     file: 'thirds/pdfjs-dist/build/pdf.js',
     sourceFile: 'node_modules/pdfjs-dist/build/pdf.mjs',
-    format: 'pdfjs-esm'
+    format: 'pdfjs-esm',
+    includeAsDependency: true
   }
 ];
 
@@ -23,7 +24,8 @@ function getSdkRuntimeResourceEntries(basePathExpression) {
   return sdkRuntimeAssets.map(asset => ({
     moduleId: asset.moduleId,
     url: `${basePathExpression} + ${JSON.stringify('/' + asset.file)}`,
-    type: 'js'
+    type: 'js',
+    includeAsDependency: asset.includeAsDependency
   }));
 }
 

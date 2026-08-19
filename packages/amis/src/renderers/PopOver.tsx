@@ -74,6 +74,9 @@ export const HocPopOver =
         lastOpenedInstance?.closePopOver();
         lastOpenedInstance = this;
         const e = event.currentTarget;
+        if (!config.targetOutter && e) {
+          this.target = e;
+        }
         // 如果内容不超出，不需要弹出
         if (
           (this.getClassName() === 'ellipsis' &&

@@ -40,6 +40,8 @@
   var scriptsMap = {};
   var resMap = {};
   var pkgMap = {};
+  var defineBatchDepth = 0;
+  var pendingModuleQueues = {};
 
   var createScripts = function (queues, onerror) {
     for (var i = 0, len = queues.length; i < len; i++) {
@@ -130,6 +132,15 @@
     }
   };
 
+  var scheduleQueue = function (id) {
+    if (defineBatchDepth) {
+      pendingModuleQueues[id] = true;
+      return;
+    }
+
+    runQueue(id);
+  };
+
   define = function (id, factory) {
     id = id.replace(/\.js$/i, '');
     factoryMap[id] = factory;
@@ -165,7 +176,7 @@
         factoryMap[id].load();
       }
     } else {
-      runQueue(id);
+      scheduleQueue(id);
     }
   };
 
@@ -298,6 +309,20 @@
         pkgMap[k] = col[k];
       }
     }
+  };
+
+  require.beginDefineBatch = function () {
+    defineBatchDepth++;
+  };
+
+  require.endDefineBatch = function () {
+    if (!defineBatchDepth || --defineBatchDepth) {
+      return;
+    }
+
+    var moduleIds = Object.keys(pendingModuleQueues);
+    pendingModuleQueues = {};
+    moduleIds.forEach(runQueue);
   };
 
   require.loadJs = function (url) {

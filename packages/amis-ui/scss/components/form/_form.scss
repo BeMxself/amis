@@ -1,6 +1,6 @@
 @use 'sass:math';
 
-.amis-Form {
+.prismui-Form {
   font-size: var(--Form-fontSize);
   position: relative;
 
@@ -10,12 +10,12 @@
   }
 
   &--inline {
-    > .amis-Button {
+    > .prismui-Button {
       margin-bottom: calc(var(--Form-item-gap) / 2);
       margin-right: calc(var(--Form-item-gap) / 2);
     }
 
-    > .amis-PlainField {
+    > .prismui-PlainField {
       display: inline-block;
       padding-top: var(--Form-input-paddingY);
       // padding-bottom: var(--Form-input-paddingY);
@@ -23,7 +23,7 @@
   }
 }
 
-.amis-Form-static {
+.prismui-Form-static {
   min-height: var(--Form-input-height);
   font-size: var(--Form-static-fontSize);
   color: var(--Form-static-color);
@@ -36,7 +36,7 @@
   margin-bottom: 0;
   word-break: break-word;
 
-  .amis-Form-item--inline > .amis-Form-value > & {
+  .prismui-Form-item--inline > .prismui-Form-value > & {
     display: inline-block;
     vertical-align: top;
   }
@@ -55,7 +55,7 @@
   }
 }
 
-.amis-Form-label {
+.prismui-Form-label {
   font-weight: var(--Form-item-fontWeight);
   line-height: var(--Form-item-lineHeight);
   margin-bottom: var(--Form-mode-default-labelGap);
@@ -69,13 +69,13 @@
   }
 }
 
-.amis-Form-star {
+.prismui-Form-star {
   color: var(--Form-item-star-color);
   font-size: var(--Form-item-star-size);
   line-height: 1;
 }
 
-.amis-Form-feedback {
+.prismui-Form-feedback {
   color: var(--Form-feedBack-color);
   list-style-type: none;
   margin: 0;
@@ -84,7 +84,7 @@
   font-size: var(--Form-feedBack-fontSize);
 }
 
-.amis-Form-description {
+.prismui-Form-description {
   display: block;
   word-break: break-word;
   color: var(--Form-description-color);
@@ -94,35 +94,35 @@
   font-size: var(--Form-description-fontSize);
 }
 
-.amis-Form-hint {
+.prismui-Form-hint {
   display: inline-block;
   margin-left: var(--gap-sm);
   padding-top: var(--Form-input-paddingY);
   vertical-align: top;
 }
 
-.amis-Form-item {
+.prismui-Form-item {
   margin-bottom: var(--Form-item-gap);
 
   &:last-child {
     margin-bottom: 0;
-    .amis-Form-feedback {
+    .prismui-Form-feedback {
       position: relative;
     }
   }
 
-  .amis-Grid-form > &:last-child {
+  .prismui-Grid-form > &:last-child {
     margin-bottom: 0;
   }
 
-  .amis-Form--inline > &--inline {
+  .prismui-Form--inline > &--inline {
     &:last-child {
       margin-right: 0;
       margin-bottom: 0;
     }
   }
 
-  .amis-Form-remark {
+  .prismui-Form-remark {
     padding-top: var(--Form-label-paddingTop);
     vertical-align: top;
   }
@@ -139,7 +139,7 @@
   }
 
   &--horizontal {
-    > .amis-Form-label {
+    > .prismui-Form-label {
       text-align: var(--Form--horizontal-label-align);
       white-space: var(--Form--horizontal-label-whiteSpace);
 
@@ -152,11 +152,11 @@
   &--horizontal-justify {
     justify-content: space-between;
 
-    > .amis-Form-label {
+    > .prismui-Form-label {
       text-align: var(--Form--horizontal-justify-label-align);
       white-space: var(--Form--horizontal-justify-label-whiteSpace);
     }
-    > .amis-Form-value {
+    > .prismui-Form-value {
       text-align: var(--Form--horizontal-justify-value-align);
 
       > * {
@@ -166,10 +166,10 @@
   }
 
   &--normal {
-    > .amis-Form-label {
+    > .prismui-Form-label {
       display: block;
       width: var(--Form-mode-default-width);
-      .amis-Form-star {
+      .prismui-Form-star {
         position: absolute;
         left: px2rem(-6px);
         top: px2rem(3px);
@@ -177,23 +177,23 @@
     }
   }
 
-  &.is-error > .amis-Form-label {
+  &.is-error > .prismui-Form-label {
     color: var(--Form-item-onError-color);
   }
 
-  .amis-Form-control--withSize {
-    > .amis-ResultBox {
-      // 兼容 @media (min-width: 576px) .cxd-Form-control--sizeLg
+  .prismui-Form-control--withSize {
+    > .prismui-ResultBox {
+      // 兼容 @media (min-width: 576px) .prismui-Form-control--sizeLg
       display: flex;
     }
   }
 }
 
-.amis-Form-placeholder {
+.prismui-Form-placeholder {
   color: var(--Form-input-placeholderColor);
 }
 
-.amis-Form-caption {
+.prismui-Form-caption {
   display: inline-block;
   line-height: var(--Form-input-height);
   height: var(--Form-input-height);
@@ -201,12 +201,12 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .amis-Form-label {
+  .prismui-Form-label {
     display: inline-block;
     max-width: 100%;
   }
 
-  .amis-Form-control--sizeXs {
+  .prismui-Form-control--sizeXs {
     // min-width: var(--Form-control-widthXs);
     // width: auto;
     width: var(--Form-control-widthXs);
@@ -215,65 +215,65 @@
     vertical-align: top;
 
     // 非常难受，number 类型的 input 不能设置size
-    &.amis-NumberControl {
+    &.prismui-NumberControl {
       width: var(--Form-control-widthXs);
     }
   }
 
-  .amis-Form-control--sizeSm {
+  .prismui-Form-control--sizeSm {
     width: var(--Form-control-widthSm);
     max-width: 100%;
     display: inline-block;
     vertical-align: top;
 
     // 非常难受，number 类型的 input 不能设置size
-    &.amis-NumberControl {
+    &.prismui-NumberControl {
       width: var(--Form-control-widthSm);
     }
   }
 
-  .amis-Form-control--sizeMd {
+  .prismui-Form-control--sizeMd {
     width: var(--Form-control-widthMd);
     max-width: 100%;
     display: inline-block;
     vertical-align: top;
   }
 
-  .amis-Form-control--sizeLg {
+  .prismui-Form-control--sizeLg {
     width: var(--Form-control-widthLg);
     max-width: 100%;
     display: inline-block;
     vertical-align: top;
 
     // 非常难受，number 类型的 input 不能设置size
-    &.amis-NumberControl {
+    &.prismui-NumberControl {
       width: var(--Form-control-widthLg);
     }
   }
 
-  .amis-Form-item {
+  .prismui-Form-item {
     &--horizontal {
       display: flex;
       flex-wrap: nowrap;
 
-      > .amis-Form-value {
+      > .prismui-Form-value {
         flex-basis: 0;
         flex-grow: 1;
         max-width: var(--Form--horizontal-value-maxWidth);
         min-width: var(--Form--horizontal-value-minWidth);
       }
 
-      .amis-Form-itemColumn--xs,
-      .amis-Form-itemColumn--sm,
-      .amis-Form-itemColumn--normal,
-      .amis-Form-itemColumn--auto,
-      .amis-Form-itemColumn--md,
-      .amis-Form-itemColumn--lg {
+      .prismui-Form-itemColumn--xs,
+      .prismui-Form-itemColumn--sm,
+      .prismui-Form-itemColumn--normal,
+      .prismui-Form-itemColumn--auto,
+      .prismui-Form-itemColumn--md,
+      .prismui-Form-itemColumn--lg {
         flex-grow: unset;
         flex-basis: unset;
       }
 
-      > .amis-Form-label {
+      > .prismui-Form-label {
         padding-top: calc(
           (
               var(--Form-input-height) - var(--Form-item-lineHeight) *
@@ -285,7 +285,7 @@
         margin: 0;
         margin-right: var(--Form--horizontal-label-gap);
         flex-shrink: 0;
-        .amis-Form-ellipsis {
+        .prismui-Form-ellipsis {
           max-width: 100%;
           display: inline-block;
           .fr-view span{
@@ -295,52 +295,52 @@
             overflow: hidden;
             text-overflow: ellipsis;
           }
-          .amis-Remark{
+          .prismui-Remark{
             margin-top: px2rem(-24px);
           }
         }
-        .amis-Form-star {
+        .prismui-Form-star {
           position: absolute;
           left: px2rem(-6px);
           top: px2rem(3px);
         }
       }
 
-      .amis-Form-itemColumn--xs {
+      .prismui-Form-itemColumn--xs {
         width: var(--Form--horizontal-label-widthXs);
       }
 
-      .amis-Form-itemColumn--sm {
+      .prismui-Form-itemColumn--sm {
         width: var(--Form--horizontal-label-widthSm);
       }
 
-      .amis-Form-itemColumn--normal {
+      .prismui-Form-itemColumn--normal {
         width: var(--Form--horizontal-label-widthBase);
       }
 
-      .amis-Form-itemColumn--md {
+      .prismui-Form-itemColumn--md {
         width: var(--Form--horizontal-label-widthMd);
       }
 
-      .amis-Form-itemColumn--lg {
+      .prismui-Form-itemColumn--lg {
         width: var(--Form--horizontal-label-widthLg);
       }
 
-      .amis-Form-itemColumn--auto {
+      .prismui-Form-itemColumn--auto {
         width: auto;
       }
 
       @for $i from (1) through $Form--horizontal-columns {
-        .amis-Form-itemColumn--#{$i} {
+        .prismui-Form-itemColumn--#{$i} {
           flex: 0 0 percentage(math.div($i, $Form--horizontal-columns));
           max-width: percentage(math.div($i, $Form--horizontal-columns));
           min-height: 1px;
         }
       }
-      .amis-Form-itemColumn--align-left {
+      .prismui-Form-itemColumn--align-left {
         text-align: left;
       }
-      .amis-Form-itemColumn--align-right {
+      .prismui-Form-itemColumn--align-right {
         text-align: right;
       }
     }
@@ -349,7 +349,7 @@
       display: inline-block;
       vertical-align: top;
 
-      > .amis-Form-label {
+      > .prismui-Form-label {
         padding-top: calc(
           (
               var(--Form-input-height) - var(--Form-item-lineHeight) *
@@ -361,38 +361,38 @@
         margin: 0;
         margin-right: var(--Form-mode-inline-label-gap);
 
-        .amis-Form-star {
+        .prismui-Form-star {
           position: absolute;
           left: px2rem(-6px);
           top: px2rem(3px);
         }
       }
 
-      > .amis-Form-value {
+      > .prismui-Form-value {
         display: inline-block;
         vertical-align: top;
 
-        > .amis-Button--link {
+        > .prismui-Button--link {
           padding-top: var(--Form-label-paddingTop);
         }
 
-        > .amis-Form-control {
+        > .prismui-Form-control {
           vertical-align: top;
           display: inline-block;
         }
 
-        > .amis-Form-control.amis-InputGroup {
+        > .prismui-Form-control.prismui-InputGroup {
           display: inline-flex;
         }
 
-        > .amis-TextControl--withAddOn {
+        > .prismui-TextControl--withAddOn {
           display: inline-flex;
         }
       }
     }
   }
 
-  .amis-Form-row {
+  .prismui-Form-row {
     display: flex;
     flex-wrap: wrap;
 
@@ -406,7 +406,7 @@
     }
   }
 
-  .amis-Form-col {
+  .prismui-Form-col {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
@@ -414,37 +414,37 @@
     min-height: 0;
   }
 
-  .amis-Form-rowInner {
+  .prismui-Form-rowInner {
     display: flex;
     flex-wrap: nowrap;
 
-    > .amis-Form-label {
+    > .prismui-Form-label {
       display: inline-block;
       vertical-align: top;
       padding-top: var(--Form-label-paddingTop);
       padding-right: var(--Form-row-gutterWidth);
     }
 
-    > .amis-Form-control {
+    > .prismui-Form-control {
       flex-basis: 0;
       flex-grow: 1;
       min-width: 0;
       min-height: 0;
 
-      // &:not(.amis-Form-control--withSize) {
+      // &:not(.prismui-Form-control--withSize) {
       //   width: var(--Form-control-widthBase);
       // }
     }
   }
 
-  .amis-Form-flex {
+  .prismui-Form-flex {
     display: flex;
     // flex-wrap: wrap;
     align-items: flex-start;
     width: 100%;
   }
 
-  .amis-Form-flex-col {
+  .prismui-Form-flex-col {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
@@ -452,46 +452,46 @@
     min-height: 0;
   }
 
-  .amis-Form-flexInner {
+  .prismui-Form-flexInner {
     display: flex;
     flex-wrap: nowrap;
 
-    > .amis-Form-label {
+    > .prismui-Form-label {
       display: inline-block;
       vertical-align: top;
       padding-top: var(--Form-label-paddingTop);
       margin-right: var(--Form-row-gutterWidth);
-      .amis-Remark {
+      .prismui-Remark {
         vertical-align: initial;
       }
     }
 
-    > .amis-Form-value {
+    > .prismui-Form-value {
       flex-basis: 0;
       flex-grow: 1;
       min-width: 0;
-      .amis-Remark {
+      .prismui-Remark {
         vertical-align: initial;
         margin-left: 0;
       }
     }
   }
 
-  .amis-Form-flexInner--label-top {
+  .prismui-Form-flexInner--label-top {
     flex-direction: column;
-    > .amis-Form-value {
+    > .prismui-Form-value {
       flex-basis: auto;
     }
   }
-  .amis-Form-flexInner--label-left {
-    > .amis-Form-label {
+  .prismui-Form-flexInner--label-left {
+    > .prismui-Form-label {
       text-align: left;
       width: px2rem(76px);
       word-break: break-all;
     }
   }
-  .amis-Form-flexInner--label-right {
-    > .amis-Form-label {
+  .prismui-Form-flexInner--label-right {
+    > .prismui-Form-label {
       text-align: right;
       width: px2rem(76px);
       word-break: break-all;
@@ -499,7 +499,7 @@
   }
 }
 
-.amis-Form--debug {
+.prismui-Form--debug {
   padding: var(--gap-sm);
   margin-bottom: var(--gap-sm);
   background-color: var(--colors-neutral-fill-11);
@@ -509,34 +509,34 @@
   word-break: break-all;
 }
 
-// .amis-Form--quickEdit {
+// .prismui-Form--quickEdit {
 //   min-width: var(--Form-control-widthSm);
 // }
 
-.amis-Form--column {
+.prismui-Form--column {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(var(--Form-group-gutterWidth) / -2);
   margin-right: calc(var(--Form-group-gutterWidth) / -2);
 
-  > .amis-Form-item {
+  > .prismui-Form-item {
     flex-shrink: 0;
     flex-grow: 1;
     padding-left: calc(var(--Form-group-gutterWidth) / 2);
     padding-right: calc(var(--Form-group-gutterWidth) / 2);
 
-    &.amis-Form-item--inline {
+    &.prismui-Form-item--inline {
       /* 设置columnCount之后，margin-right自动计算，如果设置了会导致flex自动wrap */
       margin-right: unset;
       display: inline-flex;
 
-      & > .amis-Form-value {
+      & > .prismui-Form-value {
         min-width: 0;
         min-height: 0;
         flex: 1;
 
         /* 如果size设置了full就占满剩余空间 */
-        .amis-Form-control:first-child.is-full {
+        .prismui-Form-control:first-child.is-full {
           width: -webkit-fill-available;
         }
       }
@@ -545,23 +545,23 @@
 }
 
 @for $i from 1 through 10 {
-  .amis-Form--column-#{$i} > .amis-Form-item {
+  .prismui-Form--column-#{$i} > .prismui-Form-item {
     width: 100 / $i * 1%;
   }
 
-  .amis-Form--column-#{$i} > [data-role*='container'] {
+  .prismui-Form--column-#{$i} > [data-role*='container'] {
     flex: 100%;
     min-width: 0;
   }
 
-  .amis-Form--column-#{$i} > .amis-Form-item:nth-last-child(-n + #{$i}) {
+  .prismui-Form--column-#{$i} > .prismui-Form-item:nth-last-child(-n + #{$i}) {
     margin-bottom: 0;
   }
 }
 
 /* 移动端样式调整 */
 @include media-breakpoint-down(sm) {
-  .amis-Form {
+  .prismui-Form {
     // &::before {
     //   position: absolute;
     //   box-sizing: border-box;
@@ -574,13 +574,13 @@
     // }
   }
 
-  .amis-Combo-form {
+  .prismui-Combo-form {
     &::before {
       border-bottom: none;
     }
   }
 
-  .amis-Form-item {
+  .prismui-Form-item {
     display: flex;
     // flex-wrap: wrap;
     margin-bottom: 0;
@@ -599,12 +599,12 @@
       transform: scaleY(0.5);
     }
 
-    .amis-InputGroup-addOn,
-    .amis-TextControl-addOn {
+    .prismui-InputGroup-addOn,
+    .prismui-TextControl-addOn {
       border: none;
     }
 
-    .amis-Form-label {
+    .prismui-Form-label {
       flex: 0 0 28%;
       max-width: 28%;
       min-height: 1px;
@@ -614,7 +614,7 @@
       margin-right: 0;
       margin-bottom: 0;
 
-      & + .amis-Form-item-controlBox {
+      & + .prismui-Form-item-controlBox {
         max-width: calc(100% - 28%);
       }
 
@@ -622,41 +622,41 @@
         line-height: px2rem(32px);
         display: inline-block;
 
-        .amis-Form-star {
+        .prismui-Form-star {
           top: px2rem(10px);
         }
       }
     }
 
-    .amis-Form-description {
+    .prismui-Form-description {
       font-size: var(--fontSizeBase);
     }
 
-    .amis-TextControl-input {
+    .prismui-TextControl-input {
       input {
         height: calc(var(--Form-input-lineHeight) * var(--Form-item-fontSize));
       }
     }
 
-    .amis-NumberControl {
-      .amis-Number {
+    .prismui-NumberControl {
+      .prismui-Number {
         min-width: 0;
         min-height: 0;
         flex: 1;
         border: none;
 
-        .amis-Number-handler-wrap {
+        .prismui-Number-handler-wrap {
           display: none;
         }
       }
 
-      .amis-Select {
+      .prismui-Select {
         flex: none;
         border: none;
       }
     }
 
-    .amis-Number--enhance {
+    .prismui-Number--enhance {
       float: right;
       border: none;
 
@@ -673,17 +673,17 @@
         }
       }
 
-      .amis-Number-input {
+      .prismui-Number-input {
         text-align: center;
       }
 
-      .amis-Number--enhance-input {
+      .prismui-Number--enhance-input {
         width: var(--inputNumber-enhance-mobile-input-width);
         text-align: center;
       }
 
-      .amis-InputNumber-enhance-minus,
-      .amis-InputNumber-enhance-plus {
+      .prismui-InputNumber-enhance-minus,
+      .prismui-InputNumber-enhance-plus {
         width: var(--inputNumber-enhance-mobile-icon-inner-width);
         height: var(--inputNumber-enhance-mobile-icon-inner-height);
         display: flex;
@@ -692,62 +692,62 @@
       }
 
       &:hover {
-        .amis-Number-input {
+        .prismui-Number-input {
           padding-left: var(--inputNumber-enhance-default-paddingLeft);
           padding-right: var(--inputNumber-enhance-default-paddingRight);
         }
       }
     }
 
-    .amis-Form-value,
-    .amis-Form-control {
+    .prismui-Form-value,
+    .prismui-Form-control {
       flex: 1;
       flex-wrap: wrap;
       min-width: 0;
 
-      .amis-ColorPicker {
+      .prismui-ColorPicker {
         > input {
           height: 100%;
         }
       }
 
-      .amis-ResultBox {
+      .prismui-ResultBox {
         height: 100%;
 
-        .amis-ResultBox-value-wrap {
+        .prismui-ResultBox-value-wrap {
           justify-content: flex-start;
           text-align: left;
           flex-wrap: nowrap; // 避免右侧下拉箭头换行
         }
       }
 
-      &.is-disabled > .amis-TextControl-input {
+      &.is-disabled > .prismui-TextControl-input {
         background: transparent;
       }
     }
-    .amis-SelectControl.amis-Form-control {
+    .prismui-SelectControl.prismui-Form-control {
       overflow: hidden;
     }
 
-    .amis-Form-hint,
-    .amis-Form-remark,
-    // .amis-Form-static,
-    .amis-Form-group--hor .amis-Form-item,
-    .amis-SwitchControl,
-    .amis-CheckboxControl,
-    .amis-RadiosControl,
-    .amis-CheckboxesControl {
+    .prismui-Form-hint,
+    .prismui-Form-remark,
+    // .prismui-Form-static,
+    .prismui-Form-group--hor .prismui-Form-item,
+    .prismui-SwitchControl,
+    .prismui-CheckboxControl,
+    .prismui-RadiosControl,
+    .prismui-CheckboxesControl {
       padding-top: 0;
       padding-bottom: 0;
     }
 
-    .amis-SwitchControl,
-    .amis-TransferControl,
-    .amis-TagControl,
-    .amis-CheckboxControl,
-    .amis-TreeSelectControl,
-    .amis-NestedSelectControl,
-    .amis-TabsTransferControl {
+    .prismui-SwitchControl,
+    .prismui-TransferControl,
+    .prismui-TagControl,
+    .prismui-CheckboxControl,
+    .prismui-TreeSelectControl,
+    .prismui-NestedSelectControl,
+    .prismui-TabsTransferControl {
       padding-top: px2rem(3px);
     }
 
@@ -755,7 +755,7 @@
       margin-right: 0;
     }
 
-    .amis-Form-item-controlBox {
+    .prismui-Form-item-controlBox {
       min-width: 0;
       min-height: 0;
       flex: 1;
@@ -764,69 +764,69 @@
       max-width: fill-available;
     }
 
-    .amis-Form-static {
-      .amis-Progress {
+    .prismui-Form-static {
+      .prismui-Progress {
         margin-top: px2rem(3px);
       }
 
-      .amis-Field-quickEditBtn {
+      .prismui-Field-quickEditBtn {
         vertical-align: baseline;
       }
     }
 
-    .amis-Form-group--horizontal .amis-TextControl-input input {
+    .prismui-Form-group--horizontal .prismui-TextControl-input input {
       height: var(--Form-input-height);
     }
 
-    .amis-Form-hint {
+    .prismui-Form-hint {
       font-size: var(--fontSizeBase);
       margin-left: 0;
       color: var(--text--muted-color);
     }
 
-    .amis-TextControl-placeholder {
+    .prismui-TextControl-placeholder {
       top: 0;
     }
 
-    .amis-Form-static {
+    .prismui-Form-static {
       min-height: 0;
     }
 
-    .amis-Form-description,
-    .amis-Form-feedback {
+    .prismui-Form-description,
+    .prismui-Form-feedback {
       font-size: var(--fontSizeBase);
     }
 
-    .amis-InputGroup {
-      .amis-Select,
-      .amis-InputGroup-btn .amis-Button {
+    .prismui-InputGroup {
+      .prismui-Select,
+      .prismui-InputGroup-btn .prismui-Button {
         border: none;
       }
 
-      > .amis-TextControl-input input {
+      > .prismui-TextControl-input input {
         height: var(--Form-input-height);
       }
     }
 
-    .amis-ColorPicker {
+    .prismui-ColorPicker {
       padding: 0;
       border: none;
 
-      .amis-ColorPicker-arrow {
+      .prismui-ColorPicker-arrow {
         display: none;
       }
     }
 
-    .amis-Form-group--hor .amis-Form-item .amis-Button {
+    .prismui-Form-group--hor .prismui-Form-item .prismui-Button {
       margin-bottom: var(--gap-xs);
     }
 
-    .amis-TextareaControl > textarea,
-    .amis-Form-control > .amis-TextControl-input,
-    .amis-Number-input,
-    .amis-ResultBox,
-    .amis-DateControl > .amis-DatePicker,
-    .amis-TextControl.is-focused > .amis-TextControl-input {
+    .prismui-TextareaControl > textarea,
+    .prismui-Form-control > .prismui-TextControl-input,
+    .prismui-Number-input,
+    .prismui-ResultBox,
+    .prismui-DateControl > .prismui-DatePicker,
+    .prismui-TextControl.is-focused > .prismui-TextControl-input {
       border: none;
       padding: 0 var(--Form-input-paddingX) 0 0;
       box-shadow: none;
@@ -841,33 +841,33 @@
       }
     }
 
-    .amis-Form-control > .amis-TextControl-input--multiple {
+    .prismui-Form-control > .prismui-TextControl-input--multiple {
       padding: 0;
       min-height: 0;
     }
   }
 
-  .amis-Form-groupColumn {
+  .prismui-Form-groupColumn {
     margin-bottom: 0;
   }
 
-  .amis-Form-item.is-placeholder::after {
+  .prismui-Form-item.is-placeholder::after {
     display: none;
   }
 
-  // .amis-Divider {
+  // .prismui-Divider {
   //   display: none;
   // }
 
-  .amis-Tabs-pane {
+  .prismui-Tabs-pane {
     padding: 0;
   }
 
-  .amis-Form-item .amis-Form-groupColumn > .amis-Form-item {
+  .prismui-Form-item .prismui-Form-groupColumn > .prismui-Form-item {
     padding-bottom: var(--Form-input-paddingX);
   }
 
-  .amis-Form-groupColumn {
+  .prismui-Form-groupColumn {
     position: relative;
 
     &::after {
@@ -882,17 +882,17 @@
     }
   }
 
-  .amis-Form-groupColumn:nth-last-of-type(1) {
+  .prismui-Form-groupColumn:nth-last-of-type(1) {
     &::after {
       display: none;
     }
   }
-  .amis-Form-flexInner {
+  .prismui-Form-flexInner {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
 
-    > .amis-Form-label {
+    > .prismui-Form-label {
       display: inline-block;
       vertical-align: top;
       padding-top: var(--Form-label-paddingTop);
@@ -902,35 +902,35 @@
       padding-top: 0;
     }
 
-    > .amis-Form-control {
+    > .prismui-Form-control {
       flex: 1;
     }
   }
 
-  .amis-Form-flexInner--label-top {
+  .prismui-Form-flexInner--label-top {
     flex-direction: column;
-    > .amis-Form-label {
+    > .prismui-Form-label {
       margin-bottom: px2rem(10px);
     }
   }
-  .amis-Form-flexInner--label-left {
-    > .amis-Form-label {
+  .prismui-Form-flexInner--label-left {
+    > .prismui-Form-label {
       text-align: left;
     }
   }
-  .amis-Form-flexInner--label-right {
-    > .amis-Form-label {
+  .prismui-Form-flexInner--label-right {
+    > .prismui-Form-label {
       text-align: right;
     }
   }
 }
 
-.amis-Autofill-popOver {
+.prismui-Autofill-popOver {
   border: none;
   min-width: px2rem(320px);
   max-width: px2rem(640px);
 
-  > .amis-Panel {
+  > .prismui-Panel {
     margin: 0;
   }
 }

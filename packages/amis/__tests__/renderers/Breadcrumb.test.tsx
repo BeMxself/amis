@@ -209,7 +209,7 @@ test('Renderer:breadcrumb className', () => {
       makeEnv({})
     )
   );
-  fireEvent.click(container.querySelector('.cxd-Breadcrumb-item-caret')!);
+  fireEvent.click(container.querySelector('.prismui-Breadcrumb-item-caret')!);
   expect(!container.querySelector('.dropdownClassName')).toBeFalsy();
   expect(!container.querySelector('.dropdownItemClassName')).toBeFalsy();
   expect(container).toMatchSnapshot();

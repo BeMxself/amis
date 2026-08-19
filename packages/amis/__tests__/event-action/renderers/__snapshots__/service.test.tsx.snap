@@ -3,31 +3,31 @@
 exports[`doAction:service reload 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`doAction:service reload 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -47,16 +47,16 @@ exports[`doAction:service reload 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           名字：
@@ -65,10 +65,10 @@ exports[`doAction:service reload 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -83,16 +83,16 @@ exports[`doAction:service reload 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="age"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           年龄：
@@ -101,10 +101,10 @@ exports[`doAction:service reload 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -119,7 +119,7 @@ exports[`doAction:service reload 1`] = `
                   </div>
                 </div>
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
                   type="button"
                 >
                   <span>
@@ -130,19 +130,19 @@ exports[`doAction:service reload 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -151,10 +151,10 @@ exports[`doAction:service reload 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -169,16 +169,16 @@ exports[`doAction:service reload 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -187,10 +187,10 @@ exports[`doAction:service reload 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -215,31 +215,31 @@ exports[`doAction:service reload 1`] = `
 exports[`doAction:service reload 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -248,10 +248,10 @@ exports[`doAction:service reload 2`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -259,16 +259,16 @@ exports[`doAction:service reload 2`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           名字：
@@ -277,10 +277,10 @@ exports[`doAction:service reload 2`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -295,16 +295,16 @@ exports[`doAction:service reload 2`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="age"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           年龄：
@@ -313,10 +313,10 @@ exports[`doAction:service reload 2`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -331,7 +331,7 @@ exports[`doAction:service reload 2`] = `
                   </div>
                 </div>
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
                   type="button"
                 >
                   <span>
@@ -342,19 +342,19 @@ exports[`doAction:service reload 2`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -363,10 +363,10 @@ exports[`doAction:service reload 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -381,16 +381,16 @@ exports[`doAction:service reload 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -399,10 +399,10 @@ exports[`doAction:service reload 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -417,14 +417,14 @@ exports[`doAction:service reload 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -438,21 +438,21 @@ exports[`doAction:service reload 2`] = `
 exports[`doAction:service reload with data 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -460,19 +460,19 @@ exports[`doAction:service reload with data 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -481,10 +481,10 @@ exports[`doAction:service reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -499,16 +499,16 @@ exports[`doAction:service reload with data 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -517,10 +517,10 @@ exports[`doAction:service reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -545,21 +545,21 @@ exports[`doAction:service reload with data 1`] = `
 exports[`doAction:service reload with data 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -567,19 +567,19 @@ exports[`doAction:service reload with data 2`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -588,10 +588,10 @@ exports[`doAction:service reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -606,16 +606,16 @@ exports[`doAction:service reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -624,10 +624,10 @@ exports[`doAction:service reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -642,14 +642,14 @@ exports[`doAction:service reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -663,21 +663,21 @@ exports[`doAction:service reload with data 2`] = `
 exports[`doAction:service(schemaApi) reload 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -685,19 +685,19 @@ exports[`doAction:service(schemaApi) reload 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -706,10 +706,10 @@ exports[`doAction:service(schemaApi) reload 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -724,16 +724,16 @@ exports[`doAction:service(schemaApi) reload 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -742,10 +742,10 @@ exports[`doAction:service(schemaApi) reload 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -770,21 +770,21 @@ exports[`doAction:service(schemaApi) reload 1`] = `
 exports[`doAction:service(schemaApi) reload 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -792,19 +792,19 @@ exports[`doAction:service(schemaApi) reload 2`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -813,10 +813,10 @@ exports[`doAction:service(schemaApi) reload 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -831,16 +831,16 @@ exports[`doAction:service(schemaApi) reload 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -849,10 +849,10 @@ exports[`doAction:service(schemaApi) reload 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -867,14 +867,14 @@ exports[`doAction:service(schemaApi) reload 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -888,21 +888,21 @@ exports[`doAction:service(schemaApi) reload 2`] = `
 exports[`doAction:service(schemaApi) reload with data 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -910,19 +910,19 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -931,10 +931,10 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -949,16 +949,16 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -967,10 +967,10 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -995,21 +995,21 @@ exports[`doAction:service(schemaApi) reload with data 1`] = `
 exports[`doAction:service(schemaApi) reload with data 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1017,19 +1017,19 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1038,10 +1038,10 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1056,16 +1056,16 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1074,10 +1074,10 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1092,14 +1092,14 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -1113,21 +1113,21 @@ exports[`doAction:service(schemaApi) reload with data 2`] = `
 exports[`doAction:service(schemaApi+data) reload with data 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1135,19 +1135,19 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1156,10 +1156,10 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1174,16 +1174,16 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1192,10 +1192,10 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1220,21 +1220,21 @@ exports[`doAction:service(schemaApi+data) reload with data 1`] = `
 exports[`doAction:service(schemaApi+data) reload with data 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default mb-2"
             type="button"
           >
             <span>
@@ -1242,19 +1242,19 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
             </span>
           </button>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="name"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的名字：
@@ -1263,10 +1263,10 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1281,16 +1281,16 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
               data-amis-name="age"
               data-role="form-item"
             >
               <label
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
               >
                 <span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       我的年龄：
@@ -1299,10 +1299,10 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
                 </span>
               </label>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1317,14 +1317,14 @@ exports[`doAction:service(schemaApi+data) reload with data 2`] = `
               </div>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>

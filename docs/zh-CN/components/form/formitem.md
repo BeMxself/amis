@@ -1198,7 +1198,7 @@ amis 会有默认的报错信息，如果你想自定义校验信息，配置`va
 }
 ```
 
-默认的校验信息如下，可以直接配置文字，也可用多语言中的 key。参考：https://github.com/baidu/amis/blob/master/packages/amis-ui/src/locale/zh-CN.ts#L250
+默认的校验信息如下，可以直接配置文字，也可用多语言中的 key。参考：https://github.com/Gengxin-Tech/prismui/blob/master/packages/amis-ui/src/locale/zh-CN.ts#L250
 
 ```js
 {

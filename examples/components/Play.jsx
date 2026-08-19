@@ -1,4 +1,5 @@
 import React from 'react';
+import {DOCS_BASE_PATH, isDocsDeployment} from './publicPath';
 import {toast, render, makeTranslator} from 'amis';
 import {normalizeLink} from 'amis-core';
 import {isMobile} from 'amis-core';
@@ -161,11 +162,14 @@ export default class PlayGround extends React.Component {
         config = config || {};
         // 如果在 gh-pages 里面
         if (
-          /^\/amis/.test(window.location.pathname) &&
+          isDocsDeployment(window.location.pathname) &&
           typeof url === 'string' &&
           url.startsWith('/examples/static/')
         ) {
-          url = url.replace('/examples/static/', '/amis/static/');
+          url = url.replace(
+            '/examples/static/',
+            `${DOCS_BASE_PATH}/static/`
+          );
         }
 
         config.url = url;
@@ -494,8 +498,8 @@ export default class PlayGround extends React.Component {
     let host = `${window.location.protocol}//${window.location.host}`;
 
     // 如果在 gh-pages 里面
-    if (/^\/amis/.test(window.location.pathname)) {
-      host += '/amis';
+    if (isDocsDeployment(window.location.pathname)) {
+      host += DOCS_BASE_PATH;
     }
 
     const schemaUrl = `${host}/schema.json`;

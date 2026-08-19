@@ -1,4 +1,4 @@
-.amis-Drawer {
+.prismui-Drawer {
   position: fixed;
   top: 0;
   right: 0;
@@ -116,28 +116,28 @@
     border-bottom-left-radius: var(--Drawer-content-borderRadius);
     border-bottom-right-radius: var(--Drawer-content-borderRadius);
 
-    .amis-Button {
+    .prismui-Button {
       margin-left: var(--gap-xs);
     }
 
-    .amis-Drawer-info {
+    .prismui-Drawer-info {
       flex-basis: 0;
       flex-grow: 1;
       text-align: left;
       align-self: center;
     }
 
-    .amis-Drawer-error {
+    .prismui-Drawer-error {
       color: var(--danger);
       white-space: pre-wrap;
     }
   }
 
-  &.amis-Drawer--noOverlay {
+  &.prismui-Drawer--noOverlay {
     pointer-events: none;
   }
 
-  .amis-Drawer-resizeCtrl {
+  .prismui-Drawer-resizeCtrl {
     position: absolute;
     border: var(--borderWidth) solid var(--borderColor);
     background: var(--white);
@@ -151,32 +151,32 @@
 
 // size
 @include media-breakpoint-up(sm) {
-  .amis-Drawer .amis-Drawer-content {
+  .prismui-Drawer .prismui-Drawer-content {
     width: var(--Drawer-widthBase);
     height: var(--Drawer-widthBase);
   }
 
-  .amis-Drawer--xs .amis-Drawer-content {
+  .prismui-Drawer--xs .prismui-Drawer-content {
     width: var(--drawer-size-xs-width);
     height: var(--Drawer-widthXs);
   }
 
-  .amis-Drawer--sm .amis-Drawer-content {
+  .prismui-Drawer--sm .prismui-Drawer-content {
     width: var(--drawer-size-sm-width);
     height: var(--Drawer-widthSm);
   }
 
-  .amis-Drawer--md .amis-Drawer-content {
+  .prismui-Drawer--md .prismui-Drawer-content {
     width: var(--drawer-size-md-width);
     height: var(--Drawer-widthMd);
   }
 
-  .amis-Drawer--lg .amis-Drawer-content {
+  .prismui-Drawer--lg .prismui-Drawer-content {
     width: var(--drawer-size-lg-width);
     height: var(--Drawer-widthLg);
   }
 
-  .amis-Drawer--xl .amis-Drawer-content {
+  .prismui-Drawer--xl .prismui-Drawer-content {
     width: var(--drawer-size-xl-width);
     height: var(--Drawer-widthXl);
   }
@@ -184,56 +184,56 @@
   // 从第二层弹框开始左右弹框的每层宽度或高度递减
   @for $i from 2 through 6 {
     $space-diff: 20;
-    .amis-Drawer--right.amis-Modal--#{$i}th,
-    .amis-Drawer--left.amis-Modal--#{$i}th {
-      &.amis-Drawer .amis-Drawer-content {
+    .prismui-Drawer--right.prismui-Modal--#{$i}th,
+    .prismui-Drawer--left.prismui-Modal--#{$i}th {
+      &.prismui-Drawer .prismui-Drawer-content {
         width: calc(var(--Drawer-widthBase) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--xs .amis-Drawer-content {
+      &.prismui-Drawer--xs .prismui-Drawer-content {
         width: calc(var(--Drawer-widthXs) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--sm .amis-Drawer-content {
+      &.prismui-Drawer--sm .prismui-Drawer-content {
         width: calc(var(--Drawer-widthSm) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--md .amis-Drawer-content {
+      &.prismui-Drawer--md .prismui-Drawer-content {
         width: calc(var(--Drawer-widthMd) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--lg .amis-Drawer-content {
+      &.prismui-Drawer--lg .prismui-Drawer-content {
         width: calc(var(--Drawer-widthLg) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--xl .amis-Drawer-content {
+      &.prismui-Drawer--xl .prismui-Drawer-content {
         width: calc(var(--Drawer-widthXl) - #{($i - 1) * $space-diff}px);
       }
     }
 
-    .amis-Drawer--top.amis-Modal--#{$i}th,
-    .amis-Drawer--bottom.amis-Modal--#{$i}th {
-      &.amis-Drawer .amis-Drawer-content {
+    .prismui-Drawer--top.prismui-Modal--#{$i}th,
+    .prismui-Drawer--bottom.prismui-Modal--#{$i}th {
+      &.prismui-Drawer .prismui-Drawer-content {
         height: calc(var(--Drawer-widthBase) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--xs .amis-Drawer-content {
+      &.prismui-Drawer--xs .prismui-Drawer-content {
         height: calc(var(--Drawer-widthXs) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--sm .amis-Drawer-content {
+      &.prismui-Drawer--sm .prismui-Drawer-content {
         height: calc(var(--Drawer-widthSm) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--md .amis-Drawer-content {
+      &.prismui-Drawer--md .prismui-Drawer-content {
         height: calc(var(--Drawer-widthMd) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--lg .amis-Drawer-content {
+      &.prismui-Drawer--lg .prismui-Drawer-content {
         height: calc(var(--Drawer-widthLg) - #{($i - 1) * $space-diff}px);
       }
 
-      &.amis-Drawer--xl .amis-Drawer-content {
+      &.prismui-Drawer--xl .prismui-Drawer-content {
         height: calc(var(--Drawer-widthXl) - #{($i - 1) * $space-diff}px);
       }
     }
@@ -241,15 +241,15 @@
 }
 
 // positons
-.amis-Drawer--top .amis-Drawer-content.in,
-.amis-Drawer--right .amis-Drawer-content.in,
-.amis-Drawer--bottom .amis-Drawer-content.in,
-.amis-Drawer--left .amis-Drawer-content.in {
+.prismui-Drawer--top .prismui-Drawer-content.in,
+.prismui-Drawer--right .prismui-Drawer-content.in,
+.prismui-Drawer--bottom .prismui-Drawer-content.in,
+.prismui-Drawer--left .prismui-Drawer-content.in {
   transform: translate3d(0, 0, 0);
 }
 
-.amis-Drawer--top {
-  .amis-Drawer-close {
+.prismui-Drawer--top {
+  .prismui-Drawer-close {
     top: var(--gap-base);
     right: var(--gap-base);
     left: auto;
@@ -257,7 +257,7 @@
     z-index: 10;
   }
 
-  .amis-Drawer-content {
+  .prismui-Drawer-content {
     top: 0;
     bottom: auto;
     left: 0;
@@ -269,7 +269,7 @@
     border-bottom: var(--common-popover-border);
   }
 
-  .amis-Drawer-resizeCtrl {
+  .prismui-Drawer-resizeCtrl {
     bottom: px2rem(-6px);
     left: 50%;
     cursor: ns-resize;
@@ -278,15 +278,15 @@
   }
 }
 
-.amis-Drawer--right {
-  .amis-Drawer-close {
+.prismui-Drawer--right {
+  .prismui-Drawer-close {
     top: var(--gap-md);
     right: var(--gap-md);
     margin-right: 0;
     z-index: 10;
   }
 
-  .amis-Drawer-content {
+  .prismui-Drawer-content {
     top: 0;
     bottom: 0;
     left: auto;
@@ -298,26 +298,26 @@
     border-left: var(--common-popover-border);
   }
 
-  .amis-Drawer-footer {
+  .prismui-Drawer-footer {
     justify-content: flex-end;
 
-    .amis-Button {
+    .prismui-Button {
       margin-left: var(--drawer-footer-margin-left);
       margin-right: var(--gap-xs);
     }
 
-    .amis-Drawer-info {
+    .prismui-Drawer-info {
       flex-basis: 0;
       flex-grow: 1;
       align-self: center;
     }
 
-    .amis-Drawer-error {
+    .prismui-Drawer-error {
       color: var(--danger);
     }
   }
 
-  .amis-Drawer-resizeCtrl {
+  .prismui-Drawer-resizeCtrl {
     left: px2rem(-6px);
     top: 50%;
     cursor: ew-resize;
@@ -327,8 +327,8 @@
   }
 }
 
-.amis-Drawer--bottom {
-  .amis-Drawer-close {
+.prismui-Drawer--bottom {
+  .prismui-Drawer-close {
     top: var(--gap-base);
     right: var(--gap-base);
     left: auto;
@@ -336,7 +336,7 @@
     z-index: 10;
   }
 
-  .amis-Drawer-content {
+  .prismui-Drawer-content {
     top: auto;
     bottom: 0;
     left: 0;
@@ -348,7 +348,7 @@
     border-top: var(--common-popover-border);
   }
 
-  .amis-Drawer-resizeCtrl {
+  .prismui-Drawer-resizeCtrl {
     top: px2rem(-6px);
     left: 50%;
     cursor: ns-resize;
@@ -357,15 +357,15 @@
   }
 }
 
-.amis-Drawer--left {
-  .amis-Drawer-close {
+.prismui-Drawer--left {
+  .prismui-Drawer-close {
     left: auto;
     right: var(--gap-base);
     top: var(--gap-base);
     z-index: 10;
   }
 
-  .amis-Drawer-content {
+  .prismui-Drawer-content {
     top: 0;
     bottom: 0;
     right: auto;
@@ -378,7 +378,7 @@
     border-right: var(--common-popover-border);
   }
 
-  .amis-Drawer-resizeCtrl {
+  .prismui-Drawer-resizeCtrl {
     right: px2rem(-6px);
     top: 50%;
     cursor: ew-resize;
@@ -387,7 +387,7 @@
     height: px2rem(24px);
   }
 
-  .amis-Button {
+  .prismui-Button {
     margin-left: var(--Drawer-footer-margin);
   }
 }

@@ -1,4 +1,4 @@
-.amis-Tooltip {
+.prismui-Tooltip {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,23 +35,23 @@
   &--top {
     margin-top: calc(var(--Tooltip-arrow-height) * -1 - #{px2rem(2px)});
 
-    .amis-Tooltip-arrow {
+    .prismui-Tooltip-arrow {
       bottom: calc(
         (var(--Tooltip-arrow-height) + var(--Tooltip-borderWidth)) * -1
       );
     }
 
-    .amis-Tooltip-arrow::before,
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::before,
+    .prismui-Tooltip-arrow::after {
       border-width: var(--Tooltip-arrow-height)
         calc(var(--Tooltip-arrow-width) / 2) 0;
     }
 
-    .amis-Tooltip-arrow::before {
+    .prismui-Tooltip-arrow::before {
       bottom: 0;
     }
 
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::after {
       bottom: var(--Tooltip-borderWidth);
       border-top-color: var(--Tooltip-arrow-color);
     }
@@ -60,7 +60,7 @@
   &--right {
     margin-left: calc(var(--Tooltip-arrow-height) + #{px2rem(2px)});
 
-    .amis-Tooltip-arrow {
+    .prismui-Tooltip-arrow {
       left: calc(var(--Tooltip-borderWidth) * -1);
       width: var(--Tooltip-arrow-height);
       height: var(--Tooltip-arrow-width);
@@ -68,17 +68,17 @@
       top: 50%;
     }
 
-    .amis-Tooltip-arrow::before,
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::before,
+    .prismui-Tooltip-arrow::after {
       border-width: calc(var(--Tooltip-arrow-width) / 2)
         var(--Tooltip-arrow-height) calc(var(--Tooltip-arrow-width) / 2) 0;
     }
 
-    .amis-Tooltip-arrow::before {
+    .prismui-Tooltip-arrow::before {
       left: 0;
     }
 
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::after {
       left: var(--Tooltip-borderWidth);
       border-right-color: var(--Tooltip-arrow-color);
     }
@@ -87,29 +87,29 @@
   &--bottom {
     margin-top: calc(var(--Tooltip-arrow-height) + #{px2rem(2px)});
 
-    .amis-Tooltip-arrow {
+    .prismui-Tooltip-arrow {
       top: calc(
         (var(--Tooltip-arrow-height) + var(--Tooltip-borderWidth)) * -1
       );
     }
 
-    .amis-Tooltip-arrow::before,
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::before,
+    .prismui-Tooltip-arrow::after {
       border-width: 0 calc(var(--Tooltip-arrow-width) / 2)
         var(--Tooltip-arrow-height) calc(var(--Tooltip-arrow-width) / 2);
     }
 
-    .amis-Tooltip-arrow::before {
+    .prismui-Tooltip-arrow::before {
       top: 0;
     }
 
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::after {
       top: var(--Tooltip-borderWidth);
       border-bottom-color: var(--Tooltip-arrow-color);
     }
 
     // This will remove the popover-header's border just below the arrow
-    .amis-Tooltip-title::before {
+    .prismui-Tooltip-title::before {
       position: absolute;
       top: 0;
       left: 50%;
@@ -124,7 +124,7 @@
   &--left {
     margin-left: calc(var(--Tooltip-arrow-height) * -1 - #{px2rem(2px)});
 
-    .amis-Tooltip-arrow {
+    .prismui-Tooltip-arrow {
       left: auto;
       right: calc(
         (var(--Tooltip-arrow-height) + var(--Tooltip-borderWidth)) * -1
@@ -135,17 +135,17 @@
       top: 50%;
     }
 
-    .amis-Tooltip-arrow::before,
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::before,
+    .prismui-Tooltip-arrow::after {
       border-width: calc(var(--Tooltip-arrow-width) / 2) 0
         calc(var(--Tooltip-arrow-width) / 2) var(--Tooltip-arrow-height);
     }
 
-    .amis-Tooltip-arrow::before {
+    .prismui-Tooltip-arrow::before {
       right: 0;
     }
 
-    .amis-Tooltip-arrow::after {
+    .prismui-Tooltip-arrow::after {
       right: var(--Tooltip-borderWidth);
       border-left-color: var(--Tooltip-arrow-color);
     }
@@ -182,7 +182,7 @@
     border: none;
     box-shadow: var(--Tooltip-boxShadow--dark);
 
-    .amis-Tooltip-title {
+    .prismui-Tooltip-title {
       color: var(--Tooltip-title-color--dark);
       background: transparent;
       border-bottom: none;
@@ -192,13 +192,13 @@
       }
     }
 
-    .amis-Tooltip-body {
+    .prismui-Tooltip-body {
       color: var(--Tooltip-body-color--dark);
     }
 
     $placements: top left right bottom;
-    &.amis-Tooltip--top {
-      .amis-Tooltip-arrow {
+    &.prismui-Tooltip--top {
+      .prismui-Tooltip-arrow {
         &::before {
           border-width: 0;
         }
@@ -208,8 +208,8 @@
       }
     }
 
-    &.amis-Tooltip--bottom {
-      .amis-Tooltip-arrow {
+    &.prismui-Tooltip--bottom {
+      .prismui-Tooltip-arrow {
         &::before {
           border-width: 0;
         }
@@ -219,8 +219,8 @@
       }
     }
 
-    &.amis-Tooltip--left {
-      .amis-Tooltip-arrow {
+    &.prismui-Tooltip--left {
+      .prismui-Tooltip-arrow {
         &::before {
           border-width: 0;
         }
@@ -230,8 +230,8 @@
       }
     }
 
-    &.amis-Tooltip--right {
-      .amis-Tooltip-arrow {
+    &.prismui-Tooltip--right {
+      .prismui-Tooltip-arrow {
         &::before {
           border-width: 0;
         }
@@ -243,7 +243,7 @@
   }
 }
 
-.amis-TooltipWrapper {
+.prismui-TooltipWrapper {
   &--inline {
     display: inline-block;
   }

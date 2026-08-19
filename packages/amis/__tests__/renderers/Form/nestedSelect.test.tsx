@@ -42,12 +42,12 @@ const setupNestedSelect = async (
 
   await waitFor(() => {
     expect(
-      renderResult.container.querySelector('.amis-NestedSelectControl')
+      renderResult.container.querySelector('.prismui-NestedSelectControl')
     ).toBeInTheDocument();
   });
 
   const cmpt = renderResult.container.querySelector(
-    '.amis-ResultBox .amis-NestedSelect'
+    '.prismui-ResultBox .prismui-NestedSelect'
   ) as HTMLDivElement;
 
   return {
@@ -103,7 +103,7 @@ describe('Renderer:NestedSelect', () => {
   //       }
   //     ]
   //   });
-  //   const list = container.querySelectorAll('.amis-ResultBox-value-wrap')[0];
+  //   const list = container.querySelectorAll('.prismui-ResultBox-value-wrap')[0];
   //   /** Tag 数量正确 */
   //   expect(list.childNodes.length).toBe(4);
   //   const overflowText = '+ 10 ...';
@@ -133,18 +133,18 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
       ]
     });
 
-    const trigger = container.querySelector('.amis-ResultBox');
+    const trigger = container.querySelector('.prismui-ResultBox');
     expect(trigger).toBeInTheDocument();
 
     fireEvent.click(trigger!);
     await wait(200);
 
     const parentNum =
-      container.querySelectorAll('.amis-NestedSelect-optionArrowRight')
+      container.querySelectorAll('.prismui-NestedSelect-optionArrowRight')
         ?.length ?? 0;
     expect(parentNum).toEqual(1);
 
-    let options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
+    let options = container.querySelectorAll('.prismui-NestedSelect-optionLabel');
     expect(options.length).toEqual(3);
 
     /** onlyLeaf开启后，children为空数组的选项也可以选择 */
@@ -154,7 +154,7 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
 
     fireEvent.click(trigger!);
     await wait(200);
-    options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
+    options = container.querySelectorAll('.prismui-NestedSelect-optionLabel');
     fireEvent.click(options[2]);
     await wait(300);
     fireEvent.click(trigger!);
@@ -184,18 +184,18 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
       ]
     });
 
-    const trigger = container.querySelector('.amis-ResultBox');
+    const trigger = container.querySelector('.prismui-ResultBox');
     expect(trigger).toBeInTheDocument();
 
     fireEvent.click(trigger!);
     await wait(200);
 
     const parentNum =
-      container.querySelectorAll('.amis-NestedSelect-optionArrowRight')
+      container.querySelectorAll('.prismui-NestedSelect-optionArrowRight')
         ?.length ?? 0;
     expect(parentNum).toEqual(1);
 
-    let options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
+    let options = container.querySelectorAll('.prismui-NestedSelect-optionLabel');
     expect(options.length).toEqual(3);
 
     /** onlyLeaf开启后，children为空数组的选项也可以选择 */
@@ -207,7 +207,7 @@ describe('Renderer:NestedSelect with onlyLeaf', () => {
 
     fireEvent.click(trigger!);
     await wait(200);
-    options = container.querySelectorAll('.amis-NestedSelect-optionLabel');
+    options = container.querySelectorAll('.prismui-NestedSelect-optionLabel');
     fireEvent.click(options[2]);
     await wait(300);
     fireEvent.click(trigger!);
@@ -241,7 +241,7 @@ test('test onlyChildren&onlyleaf', async () => {
     ]
   });
 
-  const trigger = container.querySelector('.amis-ResultBox');
+  const trigger = container.querySelector('.prismui-ResultBox');
   expect(trigger).toBeInTheDocument();
 
   fireEvent.click(trigger!);

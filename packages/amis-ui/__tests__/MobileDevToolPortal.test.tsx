@@ -29,7 +29,7 @@ describe('MobileDevTool portal exception', () => {
   it('renders only editor-owned handles into preview body', () => {
     const container = document.createElement('div');
     const previewBody = document.createElement('div');
-    previewBody.setAttribute('data-amis-theme', 'dark');
+    previewBody.setAttribute('data-prismui-theme', 'dark');
     document.body.appendChild(container);
     document.body.appendChild(previewBody);
 
@@ -44,8 +44,8 @@ describe('MobileDevTool portal exception', () => {
 
     expect(rightHandle).toBeInTheDocument();
     expect(bottomHandle).toBeInTheDocument();
-    expect(rightHandle).not.toHaveAttribute('data-amis-theme');
-    expect(bottomHandle).not.toHaveAttribute('data-amis-theme');
-    expect(previewBody.querySelector('[class^="amis-"]')).toBeNull();
+    expect(rightHandle).not.toHaveAttribute('data-prismui-theme');
+    expect(bottomHandle).not.toHaveAttribute('data-prismui-theme');
+    expect(previewBody.querySelector('[class^="prismui-"]')).toBeNull();
   });
 });

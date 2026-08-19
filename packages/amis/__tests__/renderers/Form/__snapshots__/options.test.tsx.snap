@@ -3,7 +3,7 @@
 exports[`options:linkage 1`] = `
 <div>
   <form
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -11,16 +11,16 @@ exports[`options:linkage 1`] = `
       type="submit"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="a"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项x
@@ -29,34 +29,34 @@ exports[`options:linkage 1`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项1
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项2
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项3
             </div>
@@ -65,16 +65,16 @@ exports[`options:linkage 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="b"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项y
@@ -83,10 +83,10 @@ exports[`options:linkage 1`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__RadiosControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
       >
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -104,7 +104,7 @@ exports[`options:linkage 1`] = `
           </span>
         </label>
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -130,7 +130,7 @@ exports[`options:linkage 1`] = `
 exports[`options:linkage 2`] = `
 <div>
   <form
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -138,16 +138,16 @@ exports[`options:linkage 2`] = `
       type="submit"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="a"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项x
@@ -156,34 +156,34 @@ exports[`options:linkage 2`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项1
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项2
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项3
             </div>
@@ -192,16 +192,16 @@ exports[`options:linkage 2`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="b"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项y
@@ -210,10 +210,10 @@ exports[`options:linkage 2`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__RadiosControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
       >
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default disabled __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--disabled--unchecked"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default disabled __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default--disabled--unchecked"
           data-role="checkbox"
         >
           <input
@@ -232,7 +232,7 @@ exports[`options:linkage 2`] = `
           </span>
         </label>
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -258,7 +258,7 @@ exports[`options:linkage 2`] = `
 exports[`options:linkage 3`] = `
 <div>
   <form
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -266,16 +266,16 @@ exports[`options:linkage 3`] = `
       type="submit"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="a"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项x
@@ -284,34 +284,34 @@ exports[`options:linkage 3`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项1
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项2
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项3
             </div>
@@ -320,16 +320,16 @@ exports[`options:linkage 3`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="b"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项y
@@ -338,10 +338,10 @@ exports[`options:linkage 3`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__RadiosControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
       >
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -367,7 +367,7 @@ exports[`options:linkage 3`] = `
 exports[`options:linkage 4`] = `
 <div>
   <form
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
     novalidate=""
   >
     <input
@@ -375,16 +375,16 @@ exports[`options:linkage 4`] = `
       type="submit"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="a"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项x
@@ -393,34 +393,34 @@ exports[`options:linkage 4`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项1
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项2
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
             >
               选项3
             </div>
@@ -429,16 +429,16 @@ exports[`options:linkage 4`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
       data-amis-name="b"
       data-role="form-item"
     >
       <label
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label text-muted"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label text-muted"
       >
         <span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               选项y
@@ -447,10 +447,10 @@ exports[`options:linkage 4`] = `
         </span>
       </label>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__RadiosControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__RadiosControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-inline is-thin"
       >
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -468,7 +468,7 @@ exports[`options:linkage 4`] = `
           </span>
         </label>
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input
@@ -486,7 +486,7 @@ exports[`options:linkage 4`] = `
           </span>
         </label>
         <label
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--radio--default"
           data-role="checkbox"
         >
           <input

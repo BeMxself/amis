@@ -80,7 +80,7 @@
   }
   &-wrap {
     border: 1px solid #e8e9eb;
-    .#{$amis-component-prefix}MonacoEditor-placeholder {
+    .#{$prismui-component-prefix}MonacoEditor-placeholder {
       left: 1rem;
     }
   }
@@ -100,7 +100,7 @@
   }
 }
 
-.#{$amis-component-prefix}ThemeCssCode-custom-editor {
+.#{$prismui-component-prefix}ThemeCssCode-custom-editor {
   .suggest-widget {
     width: auto !important;
     left: 16px !important;

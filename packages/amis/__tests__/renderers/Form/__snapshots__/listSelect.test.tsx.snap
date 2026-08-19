@@ -3,17 +3,17 @@
 exports[`Renderer:listSelect with image option & listClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   单选
@@ -51,16 +51,16 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items items-wrapper"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items items-wrapper"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemImage"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemImage"
                 >
                   <img
                     alt="OptionA"
@@ -68,16 +68,16 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
                   />
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   OptionA
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemImage"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemImage"
                 >
                   <img
                     alt="OptionB"
@@ -85,7 +85,7 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
                   />
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   OptionB
                 </div>
@@ -96,13 +96,13 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -118,17 +118,17 @@ exports[`Renderer:listSelect with image option & listClassName 1`] = `
 exports[`Renderer:listSelect with multiple & clearable 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -137,10 +137,10 @@ exports[`Renderer:listSelect with multiple & clearable 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -148,16 +148,16 @@ exports[`Renderer:listSelect with multiple & clearable 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   单选
@@ -166,25 +166,25 @@ exports[`Renderer:listSelect with multiple & clearable 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-items"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-items"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option A
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-item is-active"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ListControl-itemLabel"
                 >
                   Option B
                 </div>
@@ -195,13 +195,13 @@ exports[`Renderer:listSelect with multiple & clearable 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

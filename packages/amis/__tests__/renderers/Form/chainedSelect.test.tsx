@@ -120,7 +120,7 @@ test('Renderer:chained-select', async () => {
 
   expect(container).not.toHaveTextContent('请选择');
   expect(
-    container.querySelectorAll('.amis-ChainedSelectControl > .amis-Select')!
+    container.querySelectorAll('.prismui-ChainedSelectControl > .prismui-Select')!
       .length
   ).toBe(4);
 

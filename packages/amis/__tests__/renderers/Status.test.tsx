@@ -77,26 +77,26 @@ test('Renderer:status source', async () => {
       )
     ).container;
 
-  const value1 = setup(11).querySelector('.cxd-StatusField')!;
+  const value1 = setup(11).querySelector('.prismui-StatusField')!;
   expect((value1 as HTMLElement).style.color).toBe('rgb(255, 0, 255)');
   expect(
-    (value1.querySelector('.cxd-StatusField-label') as HTMLElement).innerHTML
+    (value1.querySelector('.prismui-StatusField-label') as HTMLElement).innerHTML
   ).toBe('11');
   expect(
     normalizeSnapshotClassPrefixes(
       (value1.querySelector('i') as HTMLElement).classList.value
     )
-  ).toMatch(/fa fa-check __AMIS_COMPONENT_CLASS_PREFIX__Status-icon/);
+  ).toMatch(/fa fa-check __PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon/);
 
-  const valueSuccess = setup('success').querySelector('.cxd-StatusField')!;
+  const valueSuccess = setup('success').querySelector('.prismui-StatusField')!;
   expect((valueSuccess as HTMLElement).style.color).toBe('rgb(255, 255, 0)');
   expect(
-    (valueSuccess.querySelector('.cxd-StatusField-label') as HTMLElement)
+    (valueSuccess.querySelector('.prismui-StatusField-label') as HTMLElement)
       .innerHTML
   ).toBe('custom success');
   expect(
     normalizeSnapshotClassPrefixes(
       (valueSuccess.querySelector('i') as HTMLElement).classList.value
     )
-  ).toMatch(/fa fa-success __AMIS_COMPONENT_CLASS_PREFIX__Status-icon/);
+  ).toMatch(/fa fa-success __PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon/);
 });

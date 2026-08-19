@@ -36,19 +36,13 @@ describe('ParseThemeData', () => {
 
     const generated = parser.getGeneratedCss();
 
-    expect(generated.selectorCss).not.toContain('.cxd-');
     expect(generated.selectorCss).toContain(
-      '[data-amis-theme="custom"] .amis-Button--accent'
+      '[data-prismui-theme="custom"] .prismui-Button--accent'
     );
     expect(generated.selectorCss).toContain(
-      '[data-amis-theme="custom"] .amis-Button--size-compact'
+      '[data-prismui-theme="custom"] .prismui-Button--size-compact'
     );
-    expect(generated.migrationWarnings).toContain(
-      'migrated legacy selector .cxd-Button--accent to .amis-Button--accent'
-    );
-    expect(generated.migrationWarnings).toContain(
-      'migrated legacy selector .cxd-Button--size-compact to .amis-Button--size-compact'
-    );
+    expect(generated.migrationWarnings).toEqual([]);
   });
 
   it('uses the configured component prefix for generated selectors', () => {
@@ -83,8 +77,8 @@ describe('ParseThemeData', () => {
     const generated = parser.getGeneratedCss();
 
     expect(generated.selectorCss).toContain(
-      '[data-amis-theme="custom"] .brand-Button--accent'
+      '[data-prismui-theme="custom"] .brand-Button--accent'
     );
-    expect(generated.selectorCss).not.toContain('.amis-Button--accent');
+    expect(generated.selectorCss).not.toContain('.prismui-Button--accent');
   });
 });

@@ -36,7 +36,7 @@ export function resolveEditorComponentClassPrefix(
   }
 
   const themeName = resolveEditorThemeName(theme, fallbackTheme);
-  return getTheme(themeName).componentClassPrefix || 'amis-';
+  return getTheme(themeName).componentClassPrefix || 'prismui-';
 }
 
 export function getEditorThemeClassnames(
@@ -75,11 +75,11 @@ export function getEditorThemeScope(
   fallbackTheme?: string
 ): ThemeScope {
   const value = resolveEditorThemeName(theme, fallbackTheme);
-  const selector = `[data-amis-theme="${value.replace(/"/g, '\\"')}"]`;
+  const selector = `[data-prismui-theme="${value.replace(/"/g, '\\"')}"]`;
 
   return {
     theme: value,
-    attribute: 'data-amis-theme',
+    attribute: 'data-prismui-theme',
     value,
     selector,
     tokenScopeSelector: selector
@@ -91,7 +91,7 @@ export function getEditorThemeScopeProps(
   fallbackTheme?: string
 ): ThemeScopeProps {
   return {
-    'data-amis-theme': getEditorThemeScope(theme, fallbackTheme).value
+    'data-prismui-theme': getEditorThemeScope(theme, fallbackTheme).value
   };
 }
 
@@ -117,5 +117,7 @@ export function getEditorThemeScopeHtmlAttrs(
 ) {
   const props = getEditorThemeScopeProps(theme, fallbackTheme);
 
-  return `data-amis-theme="${escapeHtmlAttribute(props['data-amis-theme'])}"`;
+  return `data-prismui-theme="${escapeHtmlAttribute(
+    props['data-prismui-theme']
+  )}"`;
 }

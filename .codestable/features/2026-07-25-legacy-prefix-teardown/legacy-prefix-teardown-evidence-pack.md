@@ -53,7 +53,7 @@ status: generated
     {
       "command": "npm run check:theme-selectors --workspace amis-ui",
       "exit_code": 0,
-      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 7 old-prefix/classPrefix baseline match(es), 0 new violation(s). Remaining debt by category: theme-scope-portal-covered: 6, theme-scope-portal-exception: 1.\n",
       "stderr": "",
       "id": "CMD-004",
       "core": true,

@@ -7,6 +7,14 @@
     border: 1px solid #e6e6e8;
   }
 
+  .ApiControl-header {
+    .#{$prismui-component-prefix}Form-label {
+      display: inline;
+      margin-bottom: 0;
+      line-height: inherit;
+    }
+  }
+
   &-header {
     @include flexBox();
     height: #{px2rem(24px)};
@@ -150,11 +158,11 @@
     }
     &-editor {
       margin-bottom: 0;
-      .#{$amis-component-prefix}EditorControl {
+      .#{$prismui-component-prefix}EditorControl {
         padding-top: 20px;
         padding-bottom: 20px;
       }
-      .#{$amis-component-prefix}MonacoEditor-placeholder {
+      .#{$prismui-component-prefix}MonacoEditor-placeholder {
         line-height: 18px;
         font-size: 12px;
       }

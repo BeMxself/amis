@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch} from 'react-router-dom';
 
-import {flattenTree, filterTree, mapTree} from 'amis-core';
+import {flattenTree, mapTree} from 'amis-core';
 import {navigations2route} from './App';
 
 import DocNavCN from './DocNavCN';
@@ -43,10 +43,12 @@ export default class Doc extends React.PureComponent<any> {
       ...doc,
       children:
         Array.isArray(doc.children) && doc.children.length
-          ? doc.children.map((item: any) => ({
-              ...item,
-              group: doc.group || doc.label
-            }))
+          ? doc.children
+              .filter((item: any) => !item.hidden)
+              .map((item: any) => ({
+                ...item,
+                group: doc.group || doc.label
+              }))
           : null
     }));
     const flattenDocs = flattenTree(newDocs).filter(i => !!i.path);

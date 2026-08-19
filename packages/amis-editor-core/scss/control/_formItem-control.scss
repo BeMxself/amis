@@ -152,19 +152,19 @@
 }
 
 /* 设置面板 combo 多行模式样式调整 */
-.#{$amis-component-prefix}Combo--ver:not(
-    .#{$amis-component-prefix}Combo--noBorder
+.#{$prismui-component-prefix}Combo--ver:not(
+    .#{$prismui-component-prefix}Combo--noBorder
   )
   > .ae-Combo-items {
   margin: px2rem(8px) 0;
   padding: 0;
 }
 
-.#{$amis-component-prefix}Combo--ver:not(
-    .#{$amis-component-prefix}Combo--noBorder
+.#{$prismui-component-prefix}Combo--ver:not(
+    .#{$prismui-component-prefix}Combo--noBorder
   )
   > .ae-Combo-items
-  > .#{$amis-component-prefix}Combo-item {
+  > .#{$prismui-component-prefix}Combo-item {
   margin: 0;
   border: none;
 

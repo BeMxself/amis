@@ -102,7 +102,7 @@ test('Renderer:Page initApi error show Message', async () => {
       container.querySelector('[data-testid="spinner"]')
     ).not.toBeInTheDocument();
 
-    expect(container.querySelector('.cxd-Alert')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Alert')).toBeInTheDocument();
   });
 
   expect(container).toMatchSnapshot();

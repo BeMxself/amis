@@ -69,7 +69,7 @@ test('Renderer:Nav', () => {
 
   expect(container).toMatchSnapshot();
 
-  const items = container.querySelectorAll('.cxd-Nav-Menu-item')!;
+  const items = container.querySelectorAll('.prismui-Nav-Menu-item')!;
   expect(items.length).toBe(4);
   expect(items[0].querySelector('img')).toHaveAttribute(
     'src',
@@ -78,7 +78,7 @@ test('Renderer:Nav', () => {
   expect(items[1].firstElementChild?.firstElementChild).toHaveClass(
     componentClass('Badge')
   );
-  expect(items[2].querySelector('.cxd-Badge--success')).toHaveTextContent(
+  expect(items[2].querySelector('.prismui-Badge--success')).toHaveTextContent(
     'SUC'
   );
 });
@@ -135,9 +135,9 @@ test('Renderer:Nav with multi-level', () => {
   );
 
   expect(container).toMatchSnapshot();
-  expect(container.querySelector('.cxd-Nav-Menu-submenu')!).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Nav-Menu-submenu')!).toBeInTheDocument();
   const menuWrapper = container.querySelector(
-    '.cxd-Nav-Menu > .cxd-Nav-Menu-submenu > .cxd-Nav-Menu'
+    '.prismui-Nav-Menu > .prismui-Nav-Menu-submenu > .prismui-Nav-Menu'
   );
   const children = menuWrapper?.children;
   expect(children?.length).toBe(2);
@@ -176,7 +176,7 @@ test('Renderer:Nav with stacked', () => {
 
   expect(container).toMatchSnapshot();
   expect(
-    container.querySelector('.cxd-Nav-Menu-horizontal')!
+    container.querySelector('.prismui-Nav-Menu-horizontal')!
   ).toBeInTheDocument();
 });
 
@@ -253,7 +253,7 @@ test('Renderer:Nav with overflow', async () => {
   );
 
   const wrap = container.querySelector(
-    'section.cxd-Nav-Menu.cxd-Nav-Menu-horizontal'
+    'section.prismui-Nav-Menu.prismui-Nav-Menu-horizontal'
   )!;
 
   expect(wrap).toBeInTheDocument();
@@ -261,24 +261,24 @@ test('Renderer:Nav with overflow', async () => {
     color: 'red'
   });
 
-  const btn = container.querySelector('.cxd-Nav-Menu-overflow-item-rest');
+  const btn = container.querySelector('.prismui-Nav-Menu-overflow-item-rest');
   expect(btn).toBeInTheDocument();
   expect(btn).toHaveTextContent('点击展开');
   expect(btn?.querySelector('.fa-angle-double-down')!).toBeInTheDocument();
-  expect(btn?.querySelector('.cxd-Nav-Menu-overflowedIcon')!).toHaveClass(
+  expect(btn?.querySelector('.prismui-Nav-Menu-overflowedIcon')!).toHaveClass(
     'thisisoverflowClassName'
   );
 
   expect(
     container.querySelectorAll(
-      '.cxd-Nav-Menu-item:not(.cxd-Nav-Menu-overflow-item-rest)'
+      '.prismui-Nav-Menu-item:not(.prismui-Nav-Menu-overflow-item-rest)'
     )!.length
   ).toEqual(2);
 
   fireEvent.click(btn!);
 
   await waitFor(() =>
-    expect(container.querySelector('.cxd-Spinner')).not.toBeInTheDocument()
+    expect(container.querySelector('.prismui-Spinner')).not.toBeInTheDocument()
   );
   expect(container).toMatchSnapshot();
 });
@@ -320,7 +320,7 @@ test('Renderer:Nav with source', async () => {
     )
   );
 
-  expect(container.querySelectorAll('.cxd-Nav-Menu-item').length).toBe(3);
+  expect(container.querySelectorAll('.prismui-Nav-Menu-item').length).toBe(3);
   expect(container).toMatchSnapshot();
 });
 
@@ -402,7 +402,7 @@ test('Renderer:Nav with defer', async () => {
   await wait(200);
   expect(fetcher).toBeCalled();
 
-  const menu = container.querySelector('.cxd-Nav-Menu');
+  const menu = container.querySelector('.prismui-Nav-Menu');
   expect(menu?.children.length).toBe(3);
 
   const navThreeHeader = getByTitle('Nav 3');
@@ -411,7 +411,7 @@ test('Renderer:Nav with defer', async () => {
   fireEvent.click(
     navThreeHeader
       ?.closest('div[role="menuitem"]')
-      ?.querySelector('.cxd-Nav-Menu-submenu-arrow')!
+      ?.querySelector('.prismui-Nav-Menu-submenu-arrow')!
   );
 
   await wait(200);
@@ -426,9 +426,9 @@ test('Renderer:Nav with defer', async () => {
 
   await wait(200);
   const navThree = container.querySelector(
-    '.cxd-Nav > .cxd-Nav-Menu > .cxd-Nav-Menu-submenu:last-of-type'
+    '.prismui-Nav > .prismui-Nav-Menu > .prismui-Nav-Menu-submenu:last-of-type'
   );
-  expect(navThree!.querySelector('.cxd-Nav-Menu-sub')?.children.length).toBe(2);
+  expect(navThree!.querySelector('.prismui-Nav-Menu-sub')?.children.length).toBe(2);
   expect(getByText('Nav 3-2')).not.toBeNull();
 
   expect(container).toMatchSnapshot();
@@ -510,11 +510,11 @@ test('Renderer:Nav with itemActions', async () => {
 
   expect(container.querySelectorAll('.fa-cloud').length).toBe(1);
   fireEvent.click(
-    container.querySelector('.cxd-Nav-Menu-item-extra .cxd-Button')!
+    container.querySelector('.prismui-Nav-Menu-item-extra .prismui-Button')!
   );
 
   await waitFor(() =>
-    expect(container.querySelector('.cxd-Spinner')).not.toBeInTheDocument()
+    expect(container.querySelector('.prismui-Spinner')).not.toBeInTheDocument()
   );
   expect(container).toMatchSnapshot();
   expect(getByText('编辑')).toBeInTheDocument();
@@ -690,13 +690,13 @@ test('Renderer:Nav with Dialog', async () => {
 
   fireEvent.click(
     container.querySelector(
-      '[role="dialog"] .cxd-Nav-Menu-item-extra .cxd-Button'
+      '[role="dialog"] .prismui-Nav-Menu-item-extra .prismui-Button'
     )!
   );
 
   await waitFor(() => {
     expect(
-      container.querySelector('[role="dialog"] .cxd-PopOver')
+      container.querySelector('[role="dialog"] .prismui-PopOver')
     ).toBeInTheDocument();
   });
 });
@@ -765,7 +765,7 @@ test('Renderer:Nav with reload1', async () => {
       })
     )
   );
-  fireEvent.click(container.querySelector('.cxd-Button'));
+  fireEvent.click(container.querySelector('.prismui-Button'));
   await wait(500);
   expect(fetcher).not.toBeCalled();
 });
@@ -858,9 +858,9 @@ test('Renderer:Nav with reload2', async () => {
     )
   );
   await wait(500);
-  const navItem = container.querySelector('.cxd-Nav-Menu-item');
+  const navItem = container.querySelector('.prismui-Nav-Menu-item');
   expect(navItem).toBeInTheDocument();
-  fireEvent.click(container.querySelector('.cxd-Button'));
+  fireEvent.click(container.querySelector('.prismui-Button'));
   await wait(500);
   expect(fetcher).toBeCalled();
 });
@@ -930,9 +930,9 @@ test('Renderer:Nav with searchable', async () => {
     )
   );
 
-  const nav = container.querySelector('.cxd-Nav')!;
-  const searchbox = container.querySelector('.cxd-Nav-SearchBox input')!;
-  const searchboxBtn = container.querySelector('.cxd-SearchBox-searchBtn')!;
+  const nav = container.querySelector('.prismui-Nav')!;
+  const searchbox = container.querySelector('.prismui-Nav-SearchBox input')!;
+  const searchboxBtn = container.querySelector('.prismui-SearchBox-searchBtn')!;
 
   expect(nav).toBeInTheDocument();
 
@@ -1127,27 +1127,27 @@ test('Renderer:Nav with updateItems', async () => {
     )
   );
 
-  const navs = container.querySelectorAll('.cxd-Nav');
+  const navs = container.querySelectorAll('.prismui-Nav');
   expect(navs.length).toEqual(2);
   const children = navs[0].querySelectorAll(
-    '.cxd-Nav-Menu-root > .cxd-Nav-Menu-item-tooltip-wrap'
+    '.prismui-Nav-Menu-root > .prismui-Nav-Menu-item-tooltip-wrap'
   );
   expect(children.length).toEqual(4);
   expect(
     navs[1].querySelectorAll(
-      '.cxd-Nav-Menu-root > .cxd-Nav-Menu-item-tooltip-wrap'
+      '.prismui-Nav-Menu-root > .prismui-Nav-Menu-item-tooltip-wrap'
     ).length
   ).toEqual(15);
 
-  fireEvent.click(children[3].querySelector('.cxd-Nav-Menu-item-link')!);
+  fireEvent.click(children[3].querySelector('.prismui-Nav-Menu-item-link')!);
   await wait(200);
   expect(getByTitle('Nav 2-1')).toBeInTheDocument();
 
-  fireEvent.click(children[0].querySelector('.cxd-Nav-Menu-item-link')!);
+  fireEvent.click(children[0].querySelector('.prismui-Nav-Menu-item-link')!);
   await wait(200);
   expect(
     navs[1].querySelectorAll(
-      '.cxd-Nav-Menu-root > .cxd-Nav-Menu-item-tooltip-wrap'
+      '.prismui-Nav-Menu-root > .prismui-Nav-Menu-item-tooltip-wrap'
     ).length
   ).toEqual(2);
 });
@@ -1217,7 +1217,7 @@ test('Render Nav with panel mode', async () => {
     )
   );
   let panelItemsSelector =
-    '.cxd-Nav-Menu-panel-wrapper .cxd-Nav-Menu-panel-group-item';
+    '.prismui-Nav-Menu-panel-wrapper .prismui-Nav-Menu-panel-group-item';
   expect(container.querySelectorAll(panelItemsSelector).length).toBe(2);
 });
 
@@ -1371,7 +1371,7 @@ test('Render Nav with swipe mode', async () => {
   );
 
   const horizontalRootDom = container.querySelector(
-    '.cxd-Nav-horizontal .cxd-Nav-Menu'
+    '.prismui-Nav-horizontal .prismui-Nav-Menu'
   );
 
   // TODO: 这里应该让浏览器有响应式的能力，测试点击能力

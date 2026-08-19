@@ -77,22 +77,22 @@
 }
 
 .ae-BadgeControl {
-  .#{$amis-component-prefix}Form-groupColumn:nth-child(1) {
+  .#{$prismui-component-prefix}Form-groupColumn:nth-child(1) {
     padding-right: 4px;
   }
-  .#{$amis-component-prefix}Form-groupColumn:nth-child(2) {
+  .#{$prismui-component-prefix}Form-groupColumn:nth-child(2) {
     padding-left: 4px;
   }
-  .#{$amis-component-prefix}TextControl.is-focused
-    > .#{$amis-component-prefix}TextControl-input {
+  .#{$prismui-component-prefix}TextControl.is-focused
+    > .#{$prismui-component-prefix}TextControl-input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding-left: 4px;
   }
-  .#{$amis-component-prefix}TextControl-addOn:first-child {
+  .#{$prismui-component-prefix}TextControl-addOn:first-child {
     border-left-width: 0.0625rem;
   }
-  .#{$amis-component-prefix}TextControl-input {
+  .#{$prismui-component-prefix}TextControl-input {
     padding: 4px;
   }
 }
@@ -179,7 +179,7 @@
   }
 }
 .ae-NavControl-dialog {
-  .#{$amis-component-prefix}IconPickerControl-valueWrap {
+  .#{$prismui-component-prefix}IconPickerControl-valueWrap {
     display: flex;
   }
 }

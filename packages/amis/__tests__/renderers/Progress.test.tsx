@@ -32,7 +32,7 @@ test('Renderer:Progress', () => {
 
   expect(container).toMatchSnapshot();
   expect(container).toHaveTextContent('60%');
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveStyle({
     width: '60%'
   });
 });
@@ -45,7 +45,7 @@ test('Renderer:Progress with map', async () => {
     })
   );
 
-  const bar = () => container.querySelector('.cxd-Progress-line-bar')!;
+  const bar = () => container.querySelector('.prismui-Progress-line-bar')!;
   expect(bar()).toHaveClass('bg-danger');
 
   rerender(
@@ -82,7 +82,7 @@ test('Renderer:Progress with map', async () => {
 
   await wait(200);
   expect(container).toMatchSnapshot();
-  expect(container.querySelector('.cxd-Progress-line-bar')!).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')!).toHaveStyle({
     'background-color': 'rgb(249, 109, 62)'
   });
 
@@ -103,7 +103,7 @@ test('Renderer:Progress with map', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Progress-line-bar')!).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')!).toHaveStyle({
     'background-color': 'rgb(0, 123, 255)'
   });
 });
@@ -127,7 +127,7 @@ test('Renderer:Progress with threshold & showThresholdText', async () => {
     })
   );
 
-  const thresholds = container.querySelectorAll('.cxd-Progress-line-threshold');
+  const thresholds = container.querySelectorAll('.prismui-Progress-line-threshold');
   expect(thresholds.length).toBe(2);
 
   expect(thresholds[0]).toHaveStyle({
@@ -161,7 +161,7 @@ test('Renderer:Progress as form item', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveStyle({
     width: '61%'
   });
   expect(container).toMatchSnapshot();
@@ -177,7 +177,7 @@ test('Renderer:Progress with stripe & animate', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveClass(
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveClass(
     componentClass('Progress-line-bar--stripe'),
     componentClass('Progress-line-bar--stripe-animate')
   );
@@ -193,7 +193,7 @@ test('Renderer:Progress with mode', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Progress-circle')).toBeInTheDocument();
+  expect(container.querySelector('.prismui-Progress-circle')).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 
   rerender(
@@ -220,7 +220,7 @@ test('Renderer:Progress with strokeWidth', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveStyle({
     height: '12px'
   });
 
@@ -234,7 +234,7 @@ test('Renderer:Progress with strokeWidth', async () => {
   );
 
   expect(
-    container.querySelector('.cxd-Progress-circle svg circle')
+    container.querySelector('.prismui-Progress-circle svg circle')
   ).toHaveAttribute('stroke-width', '8');
 });
 
@@ -299,13 +299,13 @@ test('9.Renderer:Process reset and setValue actions', async () => {
   );
 
   fireEvent.click(getByText('重置值'));
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveStyle({
     width: '0%'
   });
 
   await wait(200);
   fireEvent.click(getByText('设置值'));
-  expect(container.querySelector('.cxd-Progress-line-bar')).toHaveStyle({
+  expect(container.querySelector('.prismui-Progress-line-bar')).toHaveStyle({
     width: '20%'
   });
 });

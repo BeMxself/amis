@@ -182,8 +182,8 @@ test('Renderer:staticOn', async () => {
   );
 
   expect(container.querySelector('input[name="b"]')).toBeInTheDocument();
-  expect(container.querySelector('label.cxd-Switch')).toBeInTheDocument();
-  fireEvent.click(container.querySelector('label.cxd-Switch')!);
+  expect(container.querySelector('label.prismui-Switch')).toBeInTheDocument();
+  fireEvent.click(container.querySelector('label.prismui-Switch')!);
   await wait(200);
 
   const text = getByText('123');

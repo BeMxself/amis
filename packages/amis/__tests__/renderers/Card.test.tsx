@@ -417,8 +417,8 @@ test('Renderer:card with expression in className property', async () => {
 
   await wait(200);
 
-  const card = container.querySelector('.cxd-Card');
-  const head = container.querySelector('.cxd-Card .cxd-Card-heading');
+  const card = container.querySelector('.prismui-Card');
+  const head = container.querySelector('.prismui-Card .prismui-Card-heading');
 
   expect(card?.classList).toContain('bg-success');
   expect(head?.classList).toContain('mockClassName1');
@@ -475,7 +475,7 @@ test('Renderer:cards with expression in className property', async () => {
 
   await wait(200);
 
-  const cardList = container.querySelectorAll('.cxd-Cards .cxd-Card');
+  const cardList = container.querySelectorAll('.prismui-Cards .prismui-Card');
 
   expect(cardList.length).toEqual(2);
   expect(cardList[0].classList).toContain('mockClassName1');

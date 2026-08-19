@@ -10,30 +10,37 @@ const defaultRestFileName = 'rest.js';
 const defaultResourceMapFileName = 'resource-map.js';
 const defaultChunkManifestFileName = 'sdk-chunk-manifest.json';
 
-function packRollupSdkRestChunk(output, options) {
+function finalizeRollupSdkOutput(output, options) {
   options = options || {};
 
   const restFileName = options.restFileName || defaultRestFileName;
   const restCandidates = getRestChunkCandidates(output, restFileName);
-
-  if (!restCandidates.length) {
-    return output;
-  }
-
   const packedFileNames = new Set(
     restCandidates.map(chunk => chunk.fileName)
   );
-  const restChunk = createRestChunk(restCandidates, packedFileNames, restFileName);
-  let packedOutput = output
-    .filter(item => !isPackedChunk(item, packedFileNames))
-    .map(item => remapPackedChunkImports(item, packedFileNames, restFileName));
+  let packedOutput = output;
 
-  packedOutput.push(restChunk);
+  if (restCandidates.length) {
+    const restChunk = createRestChunk(
+      restCandidates,
+      packedFileNames,
+      restFileName
+    );
+
+    packedOutput = output
+      .filter(item => !isPackedChunk(item, packedFileNames))
+      .map(item => remapPackedChunkImports(item, packedFileNames, restFileName));
+
+    packedOutput.push(restChunk);
+  }
+
   packedOutput = packEmbeddedEntryChunks(packedOutput);
   replaceGeneratedAssets(packedOutput, options, packedFileNames, restFileName);
 
   return packedOutput;
 }
+
+const packRollupSdkRestChunk = finalizeRollupSdkOutput;
 
 function packEmbeddedEntryChunks(output) {
   const expectedChunks = new Set(Object.keys(sdkChunkPlan.chunks));
@@ -79,9 +86,13 @@ function createEntryChunkWithEmbeddedChunks(
 
   embeddedFileNames.forEach(fileName => imports.delete(fileName));
   embeddedChunks.forEach(chunk => {
-    (chunk.imports || []).forEach(fileName => imports.add(fileName));
+    (chunk.imports || []).forEach(fileName => {
+      if (!embeddedFileNames.has(fileName)) {
+        imports.add(fileName);
+      }
+    });
     (chunk.dynamicImports || []).forEach(fileName =>
-      dynamicImports.add(fileName)
+      !embeddedFileNames.has(fileName) && dynamicImports.add(fileName)
     );
   });
 
@@ -142,6 +153,8 @@ function getStaticEntryChunks(output) {
 }
 
 function createRestChunk(chunks, packedFileNames, restFileName) {
+  const code = chunks.map(chunk => chunk.code.trim()).join('\n;\n');
+
   return {
     type: 'chunk',
     fileName: restFileName,
@@ -152,7 +165,15 @@ function createRestChunk(chunks, packedFileNames, restFileName) {
     imports: getPackedImports(chunks, packedFileNames, 'imports'),
     dynamicImports: getPackedImports(chunks, packedFileNames, 'dynamicImports'),
     modules: Object.assign({}, ...chunks.map(chunk => chunk.modules || {})),
-    code: chunks.map(chunk => chunk.code.trim()).join('\n;\n') + '\n',
+    code: [
+      'amis.require.beginDefineBatch();',
+      'try {',
+      code,
+      '} finally {',
+      '  amis.require.endDefineBatch();',
+      '}',
+      ''
+    ].join('\n'),
     map: null
   };
 }
@@ -211,16 +232,18 @@ function replaceGeneratedAssets(output, options, packedFileNames, restFileName) 
   });
   const chunkManifest = createSdkChunkManifest(bundle);
 
-  addPackedChunkAliases(resourceMap, packedFileNames, restFileName);
+  if (packedFileNames.size) {
+    addPackedChunkAliases(resourceMap, packedFileNames, restFileName);
+  }
 
-  replaceAsset(
+  upsertAsset(
     output,
     resourceMapFileName,
     createResourceMapScript(resourceMap, {
       basePathExpression: options.basePathExpression
     })
   );
-  replaceAsset(
+  upsertAsset(
     output,
     chunkManifestFileName,
     JSON.stringify(chunkManifest, null, 2) + '\n'
@@ -242,18 +265,21 @@ function outputToBundle(output) {
   return Object.fromEntries(output.map(item => [item.fileName, item]));
 }
 
-function replaceAsset(output, fileName, source) {
+function upsertAsset(output, fileName, source) {
   const index = output.findIndex(
     item => item.type === 'asset' && item.fileName === fileName
   );
-
-  assert(index !== -1, `missing emitted asset: ${fileName}`);
-
-  output[index] = {
+  const asset = {
     type: 'asset',
     fileName,
     source
   };
+
+  if (index === -1) {
+    output.push(asset);
+  } else {
+    output[index] = asset;
+  }
 }
 
 function assert(condition, message) {
@@ -263,6 +289,7 @@ function assert(condition, message) {
 }
 
 module.exports = {
+  finalizeRollupSdkOutput,
   getRestChunkCandidates,
   packRollupSdkRestChunk
 };

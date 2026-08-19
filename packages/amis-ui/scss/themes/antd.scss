@@ -1,12 +1,21 @@
 // 参考 antd 主题
-$amis-theme-name: 'antd';
-$amis-palette-brand-400: #096dd9;
-$amis-palette-brand-500: #1677ff;
-$amis-palette-brand-600: #45a8ff;
-$amis-palette-neutral-text-inverse: #fff;
+$prismui-theme-name: 'antd';
+$prismui-palette-brand-400: #096dd9;
+$prismui-palette-brand-500: #1677ff;
+$prismui-palette-brand-600: #45a8ff;
+$prismui-palette-neutral-text-inverse: #fff;
+@import '../tokens/index';
 @import '../properties';
 @import '../components';
+@import '../functions';
+$remFactor: 16px;
 @import './antd-variables';
-$ns: 'amis-';
+$ns: 'prismui-';
 @import './common';
 @import '../tokens/legacy-palette-aliases';
+
+[data-prismui-theme='antd'] {
+  @include prismui-property-vars;
+  @include prismui-component-vars;
+  @include prismui-antd-theme-vars;
+}

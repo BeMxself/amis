@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ReactPlayer = React.lazy(() => import('react-player'));
+const ReactPlayer = React.lazy(() => import('./VideoReactPlayer'));
 
 export interface VideoPlayerState {
   currentTime: number;
@@ -80,21 +80,25 @@ function getMediaState(media: HTMLMediaElement | null): VideoPlayerState {
   };
 }
 
-function isFlvSource(src?: string, videoType?: string, isLive?: boolean) {
+export function isFlvSource(
+  src?: string,
+  videoType?: string,
+  isLive?: boolean
+) {
   return (
     videoType === 'video/x-flv' ||
     Boolean(src && /\.flv(?:$|\?)/.test(src) && isLive)
   );
 }
 
-function isHlsSource(src?: string, videoType?: string) {
+export function isHlsSource(src?: string, videoType?: string) {
   return (
     videoType === 'application/x-mpegURL' ||
     Boolean(src && /\.m3u8(?:$|\?)/.test(src))
   );
 }
 
-function isReactPlayerSource(
+export function isReactPlayerSource(
   src?: string,
   videoType?: string,
   isLive?: boolean
@@ -393,8 +397,8 @@ export default class VideoPlayer extends React.Component<VideoPlayerProps> {
     }
 
     return (
-      <label className="amis-Video-playbackRate">
-        <span className="amis-Video-playbackRateLabel">倍速</span>
+      <label className="prismui-Video-playbackRate">
+        <span className="prismui-Video-playbackRateLabel">倍速</span>
         <select
           aria-label="Playback Rate"
           onChange={this.handlePlaybackRateChange}
@@ -416,7 +420,7 @@ export default class VideoPlayer extends React.Component<VideoPlayerProps> {
     return (
       <video
         autoPlay={autoPlay}
-        className="amis-Video-media"
+        className="prismui-Video-media"
         controls
         loop={loop}
         muted={muted}
@@ -443,7 +447,7 @@ export default class VideoPlayer extends React.Component<VideoPlayerProps> {
   }
 
   private renderMediaPlaceholder() {
-    return <div className="amis-Video-media" />;
+    return <div className="prismui-Video-media" />;
   }
 
   private renderReactPlayer() {
@@ -453,7 +457,7 @@ export default class VideoPlayer extends React.Component<VideoPlayerProps> {
       <React.Suspense fallback={this.renderMediaPlaceholder()}>
         <ReactPlayer
           autoPlay={autoPlay}
-          className="amis-Video-media"
+          className="prismui-Video-media"
           controls
           height="100%"
           loop={loop}
@@ -491,7 +495,7 @@ export default class VideoPlayer extends React.Component<VideoPlayerProps> {
     return (
       <div className={className}>
         <div
-          className="amis-Video-mediaWrap"
+          className="prismui-Video-mediaWrap"
           style={{
             aspectRatio: getAspectRatio(aspectRatio, this.state.playerState)
           }}

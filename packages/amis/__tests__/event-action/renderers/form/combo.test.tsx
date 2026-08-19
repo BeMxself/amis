@@ -219,7 +219,7 @@ test('EventAction:combo', async () => {
   // fireEvent.click(getByText('clear'));
   // await waitFor(() => {
   //   expect(
-  //     container.querySelector('div[class="cxd-Tabs-content"]')
+  //     container.querySelector('div[class="prismui-Tabs-content"]')
   //   ).toBeEmptyDOMElement();
   // });
 });

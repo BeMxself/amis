@@ -1,14 +1,14 @@
 :root,
 .AMISCSSWrapper {
-  --colors-brand-4: var(--amis-palette-brand-400);
-  --colors-brand-5: var(--amis-palette-brand-500);
-  --colors-brand-6: var(--amis-palette-brand-600);
+  --colors-brand-4: var(--prismui-palette-brand-400);
+  --colors-brand-5: var(--prismui-palette-brand-500);
+  --colors-brand-6: var(--prismui-palette-brand-600);
 }
 
-@if $amis-theme-name != null {
-  [data-amis-theme='#{$amis-theme-name}'] {
-    --colors-brand-4: var(--amis-palette-brand-400);
-    --colors-brand-5: var(--amis-palette-brand-500);
-    --colors-brand-6: var(--amis-palette-brand-600);
+@if $prismui-theme-name != null {
+  [data-prismui-theme='#{$prismui-theme-name}'] {
+    --colors-brand-4: var(--prismui-palette-brand-400);
+    --colors-brand-5: var(--prismui-palette-brand-500);
+    --colors-brand-6: var(--prismui-palette-brand-600);
   }
 }

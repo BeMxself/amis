@@ -3,17 +3,17 @@
 exports[`Renderer:datetime 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:datetime 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:datetime 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   date
@@ -51,21 +51,21 @@ exports[`Renderer:datetime 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__DateControl is-datetime __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateControl is-datetime __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker"
               tabindex="0"
             >
               <input
                 autocomplete="off"
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-input"
                 placeholder="请选择日期以及时间"
                 type="text"
                 value="2019-06-06 21:11:00"
               />
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-clear"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-clear"
               >
                 <icon-mock
                   class="icon icon-input-clear"
@@ -73,7 +73,7 @@ exports[`Renderer:datetime 1`] = `
                 />
               </a>
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DatePicker-toggler"
               >
                 <icon-mock
                   class="icon icon-date"

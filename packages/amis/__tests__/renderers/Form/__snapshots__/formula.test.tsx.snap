@@ -3,17 +3,17 @@
 exports[`Renderer:formula 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:formula 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:formula 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   a
@@ -51,46 +51,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="1"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="a"
                   role="spinbutton"
                   step="1"
@@ -101,16 +101,16 @@ exports[`Renderer:formula 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="b"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   b
@@ -119,46 +119,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="2"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="b"
                   role="spinbutton"
                   step="1"
@@ -169,16 +169,16 @@ exports[`Renderer:formula 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="sum1"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   sum1
@@ -187,46 +187,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="3"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="sum1"
                   role="spinbutton"
                   step="1"
@@ -237,16 +237,16 @@ exports[`Renderer:formula 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="sum2"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   sum2
@@ -255,46 +255,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="4"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="sum2"
                   role="spinbutton"
                   step="1"
@@ -305,16 +305,16 @@ exports[`Renderer:formula 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="sum3"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   sum3
@@ -323,46 +323,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="5"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="sum3"
                   role="spinbutton"
                   step="1"
@@ -373,16 +373,16 @@ exports[`Renderer:formula 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="sum4"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   sum4
@@ -391,46 +391,46 @@ exports[`Renderer:formula 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="5"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="sum4"
                   role="spinbutton"
                   step="1"

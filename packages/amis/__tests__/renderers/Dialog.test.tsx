@@ -219,7 +219,7 @@ test('Renderer:dialog applies theme scope to body portal dialog', async () => {
 
   await waitFor(() => {
     expect(document.body.querySelector('[role="dialog"]')).toHaveAttribute(
-      'data-amis-theme',
+      'data-prismui-theme',
       'cxd'
     );
   });
@@ -227,7 +227,7 @@ test('Renderer:dialog applies theme scope to body portal dialog', async () => {
 
 test('Renderer:dialog preserves custom modal container theme scope', async () => {
   const modalContainer = document.createElement('div');
-  modalContainer.setAttribute('data-amis-theme', 'dark');
+  modalContainer.setAttribute('data-prismui-theme', 'dark');
   document.body.appendChild(modalContainer);
 
   const {getByText} = render(
@@ -255,7 +255,7 @@ test('Renderer:dialog preserves custom modal container theme scope', async () =>
 
   await waitFor(() => {
     expect(modalContainer.querySelector('[role="dialog"]')).toHaveAttribute(
-      'data-amis-theme',
+      'data-prismui-theme',
       'dark'
     );
   });
@@ -317,7 +317,7 @@ test('Components:Modal draggable uses content nodeRef instead of findDOMNode', (
     </Modal>
   );
 
-  fireEvent.mouseDown(document.body.querySelector('.amis-Modal-header')!, {
+  fireEvent.mouseDown(document.body.querySelector('.prismui-Modal-header')!, {
     button: 0,
     clientX: 10,
     clientY: 10
@@ -361,7 +361,7 @@ test('Components:Modal closes from stable root class on outside click', () => {
     </Modal>
   );
 
-  const modal = document.body.querySelector('.amis-Modal') as HTMLElement;
+  const modal = document.body.querySelector('.prismui-Modal') as HTMLElement;
   expect(modal).toBeInTheDocument();
   expect(modal).toHaveClass(componentClass('Modal--1th'));
 
@@ -388,9 +388,9 @@ test('Components:Drawer closes from stable overlay class on outside click', () =
     </Drawer>
   );
 
-  const drawer = document.body.querySelector('.amis-Drawer') as HTMLElement;
+  const drawer = document.body.querySelector('.prismui-Drawer') as HTMLElement;
   const overlay = document.body.querySelector(
-    '.amis-Drawer-overlay'
+    '.prismui-Drawer-overlay'
   ) as HTMLElement;
 
   expect(drawer).toBeInTheDocument();

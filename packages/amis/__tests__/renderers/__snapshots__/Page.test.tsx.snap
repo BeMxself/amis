@@ -2,36 +2,36 @@
 
 exports[`Renderer:Page 1`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-headerRow"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-headerRow"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-header"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-header"
         >
           <h2
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-title"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is Title
               </span>
             </span>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Remark __AMIS_COMPONENT_CLASS_PREFIX__Remark--warning"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Remark __PRISMUI_COMPONENT_CLASS_PREFIX__Remark--warning"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Remark-icon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Remark-icon"
               >
                 <icon-mock
                   class="icon-question-mark"
@@ -41,10 +41,10 @@ exports[`Renderer:Page 1`] = `
             </div>
           </h2>
           <small
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-subTitle"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-subTitle"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is SubTitle
@@ -53,10 +53,10 @@ exports[`Renderer:Page 1`] = `
           </small>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               This is toolbar
@@ -65,11 +65,11 @@ exports[`Renderer:Page 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             This is body
@@ -84,14 +84,14 @@ exports[`Renderer:Page 1`] = `
 exports[`Renderer:Page classNames 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page __AMIS_COMPONENT_CLASS_PREFIX__Page--withSidebar __AMIS_COMPONENT_CLASS_PREFIX__Page--asideSticky __AMIS_COMPONENT_CLASS_PREFIX__Page--leftAside"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page __PRISMUI_COMPONENT_CLASS_PREFIX__Page--withSidebar __PRISMUI_COMPONENT_CLASS_PREFIX__Page--asideSticky __PRISMUI_COMPONENT_CLASS_PREFIX__Page--leftAside"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-aside __AMIS_COMPONENT_CLASS_PREFIX__Page-aside--withWidth aside-class-name"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-aside __PRISMUI_COMPONENT_CLASS_PREFIX__Page-aside--withWidth aside-class-name"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view __AMIS_COMPONENT_CLASS_PREFIX__Page-asideTplWrapper"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view __PRISMUI_COMPONENT_CLASS_PREFIX__Page-asideTplWrapper"
       >
         <span>
           This is aside
@@ -99,32 +99,32 @@ exports[`Renderer:Page classNames 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-headerRow"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-headerRow"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-header header-class-name"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-header header-class-name"
           >
             <h2
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Page-title"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-title"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   This is Title
                 </span>
               </span>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Remark __AMIS_COMPONENT_CLASS_PREFIX__Remark--warning"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Remark __PRISMUI_COMPONENT_CLASS_PREFIX__Remark--warning"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Remark-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Remark-icon"
                 >
                   <icon-mock
                     class="icon-question-mark"
@@ -134,10 +134,10 @@ exports[`Renderer:Page classNames 1`] = `
               </div>
             </h2>
             <small
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Page-subTitle"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-subTitle"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   This is SubTitle
@@ -146,10 +146,10 @@ exports[`Renderer:Page classNames 1`] = `
             </small>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar toolbar-class-name"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar toolbar-class-name"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 This is toolbar
@@ -158,11 +158,11 @@ exports[`Renderer:Page classNames 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body body-class-name"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body body-class-name"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               This is body
@@ -178,20 +178,20 @@ exports[`Renderer:Page classNames 1`] = `
 exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -200,11 +200,11 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -215,21 +215,21 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -239,17 +239,17 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             this is feedback
@@ -257,10 +257,10 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -268,7 +268,7 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -284,20 +284,20 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 1`] = `
 exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -306,11 +306,11 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -326,20 +326,20 @@ exports[`Renderer:Page handleAction actionType=ajax & feedback 2`] = `
 exports[`Renderer:Page handleAction actionType=ajax 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -348,11 +348,11 @@ exports[`Renderer:Page handleAction actionType=ajax 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 6
@@ -368,20 +368,20 @@ exports[`Renderer:Page handleAction actionType=ajax 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -390,7 +390,7 @@ exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -402,20 +402,20 @@ exports[`Renderer:Page handleAction actionType=dialog default 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -424,7 +424,7 @@ exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -436,20 +436,20 @@ exports[`Renderer:Page handleAction actionType=dialog default 2`] = `
 exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -458,11 +458,11 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is
@@ -473,21 +473,21 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -497,17 +497,17 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -515,16 +515,16 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     A
@@ -533,13 +533,13 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -557,10 +557,10 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -576,20 +576,20 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 1`] = `
 exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -598,11 +598,11 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 3
@@ -618,20 +618,20 @@ exports[`Renderer:Page handleAction actionType=dialog mergeData 2`] = `
 exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -640,25 +640,25 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--right __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--md __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
           class="icon icon-close"
@@ -666,25 +666,25 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
         />
       </a>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-body"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
           data-testid="spinner"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
           />
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -692,7 +692,7 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -708,20 +708,20 @@ exports[`Renderer:Page handleAction actionType=drawer default 1`] = `
 exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -730,7 +730,7 @@ exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         />
       </div>
@@ -742,20 +742,20 @@ exports[`Renderer:Page handleAction actionType=drawer default 2`] = `
 exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -764,11 +764,11 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is
@@ -779,18 +779,18 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--right __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--md __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
           class="icon icon-close"
@@ -798,11 +798,11 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
         />
       </a>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-body"
         role="dialog-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -810,16 +810,16 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     A
@@ -828,13 +828,13 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -852,10 +852,10 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -871,20 +871,20 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 1`] = `
 exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -893,11 +893,11 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable a is 3
@@ -913,21 +913,21 @@ exports[`Renderer:Page handleAction actionType=drawer mergeData 2`] = `
 exports[`Renderer:Page initApi 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -943,33 +943,33 @@ exports[`Renderer:Page initApi 1`] = `
 exports[`Renderer:Page initApi error show Message 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--danger"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--danger"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 Internal Error
               </div>
             </div>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-close"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-close"
               type="button"
             >
               <icon-mock
@@ -987,21 +987,21 @@ exports[`Renderer:Page initApi error show Message 1`] = `
 
 exports[`Renderer:Page initApi reFetch when condition changes 1`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 1
@@ -1015,21 +1015,21 @@ exports[`Renderer:Page initApi reFetch when condition changes 1`] = `
 
 exports[`Renderer:Page initApi reFetch when condition changes 2`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 2
@@ -1044,20 +1044,20 @@ exports[`Renderer:Page initApi reFetch when condition changes 2`] = `
 exports[`Renderer:Page initApi reload by Dialog action 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1066,11 +1066,11 @@ exports[`Renderer:Page initApi reload by Dialog action 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1086,20 +1086,20 @@ exports[`Renderer:Page initApi reload by Dialog action 1`] = `
 exports[`Renderer:Page initApi reload by Dialog action 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1108,11 +1108,11 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1123,21 +1123,21 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -1147,17 +1147,17 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           弹框
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -1165,23 +1165,23 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span />
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1199,10 +1199,10 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1210,7 +1210,7 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1226,20 +1226,20 @@ exports[`Renderer:Page initApi reload by Dialog action 2`] = `
 exports[`Renderer:Page initApi reload by Dialog action 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1248,11 +1248,11 @@ exports[`Renderer:Page initApi reload by Dialog action 3`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1268,20 +1268,20 @@ exports[`Renderer:Page initApi reload by Dialog action 3`] = `
 exports[`Renderer:Page initApi reload by Drawer action 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1290,11 +1290,11 @@ exports[`Renderer:Page initApi reload by Drawer action 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1310,20 +1310,20 @@ exports[`Renderer:Page initApi reload by Drawer action 1`] = `
 exports[`Renderer:Page initApi reload by Drawer action 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1332,11 +1332,11 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1347,18 +1347,18 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Drawer __AMIS_COMPONENT_CLASS_PREFIX__Drawer--right __AMIS_COMPONENT_CLASS_PREFIX__Drawer--md __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--right __PRISMUI_COMPONENT_CLASS_PREFIX__Drawer--md __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-content in"
     >
       <a
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-close"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-close"
       >
         <icon-mock
           class="icon icon-close"
@@ -1366,11 +1366,11 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
         />
       </a>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-body"
         role="dialog-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -1378,23 +1378,23 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="a"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span />
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -1412,10 +1412,10 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Drawer-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Drawer-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1423,7 +1423,7 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1439,20 +1439,20 @@ exports[`Renderer:Page initApi reload by Drawer action 2`] = `
 exports[`Renderer:Page initApi reload by Drawer action 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1461,11 +1461,11 @@ exports[`Renderer:Page initApi reload by Drawer action 3`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1481,30 +1481,30 @@ exports[`Renderer:Page initApi reload by Drawer action 3`] = `
 exports[`Renderer:Page initApi reload by Form submit 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1513,10 +1513,10 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1524,15 +1524,15 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1549,13 +1549,13 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1567,11 +1567,11 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1587,30 +1587,30 @@ exports[`Renderer:Page initApi reload by Form submit 1`] = `
 exports[`Renderer:Page initApi reload by Form submit 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1619,10 +1619,10 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1630,15 +1630,15 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -1655,13 +1655,13 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1673,11 +1673,11 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1693,20 +1693,20 @@ exports[`Renderer:Page initApi reload by Form submit 2`] = `
 exports[`Renderer:Page initApi reload by action 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1715,11 +1715,11 @@ exports[`Renderer:Page initApi reload by action 1`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 1
@@ -1735,20 +1735,20 @@ exports[`Renderer:Page initApi reload by action 1`] = `
 exports[`Renderer:Page initApi reload by action 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-toolbar"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-toolbar"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -1757,11 +1757,11 @@ exports[`Renderer:Page initApi reload by action 2`] = `
           </button>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 2
@@ -1777,32 +1777,32 @@ exports[`Renderer:Page initApi reload by action 2`] = `
 exports[`Renderer:Page initApi show loading 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
             data-testid="spinner"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
             />
           </div>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is
@@ -1818,21 +1818,21 @@ exports[`Renderer:Page initApi show loading 1`] = `
 exports[`Renderer:Page initApi show loading 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 3
@@ -1848,21 +1848,21 @@ exports[`Renderer:Page initApi show loading 2`] = `
 exports[`Renderer:Page initApi silentPolling 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 3
@@ -1878,21 +1878,21 @@ exports[`Renderer:Page initApi silentPolling 1`] = `
 exports[`Renderer:Page initApi silentPolling 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               The variable value is 4
@@ -1907,21 +1907,21 @@ exports[`Renderer:Page initApi silentPolling 2`] = `
 
 exports[`Renderer:Page initData 1`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 1
@@ -1935,21 +1935,21 @@ exports[`Renderer:Page initData 1`] = `
 
 exports[`Renderer:Page initFetchOn trigger initApi fetch when condition becomes ture 1`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 6
@@ -1963,21 +1963,21 @@ exports[`Renderer:Page initFetchOn trigger initApi fetch when condition becomes 
 
 exports[`Renderer:Page location query 1`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 5
@@ -1991,21 +1991,21 @@ exports[`Renderer:Page location query 1`] = `
 
 exports[`Renderer:Page location query 2`] = `
 <div
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-  data-amis-theme="cxd"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+  data-prismui-theme="cxd"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
         role="page-body"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The variable value is 6

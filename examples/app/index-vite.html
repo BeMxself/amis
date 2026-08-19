@@ -37,6 +37,7 @@
       if (theme === 'default') {
         theme = 'cxd';
       }
+      document.documentElement.setAttribute('data-prismui-theme', theme);
 
       ['ang', 'cxd', 'dark', 'antd'].forEach(key => {
         const link = document.createElement('link');

@@ -31,4 +31,4 @@ https://www.w3school.com.cn/cssref/pr_pos_overflow.asp
 
 ## 状态前缀
 
-不支持[「状态前缀」](../../../docs/style/state.md)，有需求请提 [issue](https://github.com/baidu/amis/issues)。
+不支持[「状态前缀」](../../../docs/style/state.md)，有需求请提 [issue](https://github.com/Gengxin-Tech/prismui/issues)。

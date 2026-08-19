@@ -9,8 +9,7 @@ afterEach(() => {
   clearStoresCache();
   document.body.innerHTML = '';
   theme('cxd', {
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    componentClassPrefix: 'prismui-'
   });
 });
 
@@ -18,17 +17,17 @@ test('Renderer:popup applies current theme scope to body portal root', async () 
   render(<PopUp isShow>popup body</PopUp>);
 
   await waitFor(() => {
-    const popup = document.body.querySelector('.amis-PopUp') as HTMLElement;
+    const popup = document.body.querySelector('.prismui-PopUp') as HTMLElement;
 
     expect(popup).toBeTruthy();
-    expect(popup).toHaveAttribute('data-amis-theme', 'cxd');
+    expect(popup).toHaveAttribute('data-prismui-theme', 'cxd');
     expect(popup.parentElement).toBe(document.body);
   });
 });
 
 test('Renderer:popup preserves existing custom container theme scope', async () => {
   const container = document.createElement('div');
-  container.setAttribute('data-amis-theme', 'dark');
+  container.setAttribute('data-prismui-theme', 'dark');
   document.body.appendChild(container);
 
   render(
@@ -38,11 +37,11 @@ test('Renderer:popup preserves existing custom container theme scope', async () 
   );
 
   await waitFor(() => {
-    const popup = container.querySelector('.amis-PopUp') as HTMLElement;
+    const popup = container.querySelector('.prismui-PopUp') as HTMLElement;
 
     expect(popup).toBeTruthy();
-    expect(popup).toHaveAttribute('data-amis-theme', 'dark');
-    expect(container).toHaveAttribute('data-amis-theme', 'dark');
+    expect(popup).toHaveAttribute('data-prismui-theme', 'dark');
+    expect(container).toHaveAttribute('data-prismui-theme', 'dark');
   });
 });
 
@@ -56,6 +55,6 @@ test('Renderer:popup does not scope or render portal child before mount', () => 
     </PopUp>
   );
 
-  expect(container).not.toHaveAttribute('data-amis-theme');
-  expect(container.querySelector('.amis-PopUp')).toBeNull();
+  expect(container).not.toHaveAttribute('data-prismui-theme');
+  expect(container.querySelector('.prismui-PopUp')).toBeNull();
 });

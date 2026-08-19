@@ -590,8 +590,8 @@ order: 32
 | source           | [数据映射](../../docs/concepts/data-mapping) | `${items}`          | 数据源, 获取当前数据域中的变量 |
 | placeholder      | [模板](../../docs/concepts/template)         | '暂无数据'          | 当没数据的时候的文字提示       |
 | className        | `string`                                     |                     | 外层 CSS 类名                  |
-| headerClassName  | `string`                                     | `amis-grid-header`  | 顶部外层 CSS 类名              |
-| footerClassName  | `string`                                     | `amis-grid-footer`  | 底部外层 CSS 类名              |
+| headerClassName  | `string`                                     | `prismui-grid-header`  | 顶部外层 CSS 类名              |
+| footerClassName  | `string`                                     | `prismui-grid-footer`  | 底部外层 CSS 类名              |
 | itemClassName    | `string`                                     | `col-sm-4 col-md-3` | 卡片 CSS 类名                  |
 | card             | [Card](./card)                               |                     | 配置卡片信息                   |
 | selectable       | `boolean`                                    | `false`             | 卡片组是否可选                 |

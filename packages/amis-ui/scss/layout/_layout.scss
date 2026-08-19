@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-.amis-Layout {
+.prismui-Layout {
   min-height: 100%;
   width: 100%;
   position: relative;
@@ -31,7 +31,7 @@ body {
     // box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   }
 
-  .amis-Layout-header {
+  .prismui-Layout-header {
     background: var(--Layout-header-bg);
     box-shadow: var(--Layout-header-boxShadow);
     height: var(--Layout-header-height);
@@ -40,7 +40,7 @@ body {
   &--headerFixed {
     padding-top: var(--Layout-header-height);
 
-    .amis-Layout-header {
+    .prismui-Layout-header {
       position: fixed;
       top: 0;
       width: 100%;
@@ -174,38 +174,38 @@ body {
   }
 
   &--sm {
-    .amis-Layout-asideFooter {
+    .prismui-Layout-asideFooter {
       max-width: var(--Layout-aside--sm-width);
     }
 
-    .amis-AsideNav-item a {
+    .prismui-AsideNav-item a {
       font-size: var(--fontSizeSm);
     }
   }
 
-  &--md .amis-Layout-asideFooter {
+  &--md .prismui-Layout-asideFooter {
     max-width: var(--Layout-aside--md-width);
   }
 
-  &--lg .amis-Layout-asideFooter {
+  &--lg .prismui-Layout-asideFooter {
     max-width: var(--Layout-aside--lg-width);
   }
 }
 
 @include media-breakpoint-down(sm) {
-  // .amis-Layout {
+  // .prismui-Layout {
   // Layout 层没有出现滚动条件，导致移动端无法响应固定顶部/底部效果
   // overflow-x: hidden;
   // }
 
-  .amis-Layout-content {
+  .prismui-Layout-content {
     transition: transform var(--animation-duration) ease;
   }
 
-  .amis-Layout-aside {
+  .prismui-Layout-aside {
     display: none;
 
-    .amis-Layout--offScreen & {
+    .prismui-Layout--offScreen & {
       position: fixed;
       top: px2rem(50px);
       bottom: 0;
@@ -219,13 +219,13 @@ body {
     }
   }
 
-  .amis-Layout-headerBar {
+  .prismui-Layout-headerBar {
     display: none;
   }
 
-  .amis-Layout--offScreen {
-    .amis-Layout-body,
-    .amis-Layout-footer {
+  .prismui-Layout--offScreen {
+    .prismui-Layout-body,
+    .prismui-Layout-footer {
       background: var(--body-bg);
       transition: transform var(--animation-duration) ease;
       backface-visibility: hidden;
@@ -242,13 +242,13 @@ body {
     }
   }
 
-  .amis-Layout-offScreenBtn {
+  .prismui-Layout-offScreenBtn {
     display: block;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .amis-Layout {
+  .prismui-Layout {
     display: flex;
     flex-direction: column;
 
@@ -283,7 +283,7 @@ body {
       // height: 0;
     }
 
-    > .amis-Layout-body {
+    > .prismui-Layout-body {
       flex-grow: 1;
       position: relative;
       // height: 0;
@@ -292,7 +292,7 @@ body {
     &--boxed {
       width: px2rem(760px);
 
-      &.amis-Layout--headerFixed .amis-Layout-header {
+      &.prismui-Layout--headerFixed .prismui-Layout-header {
         width: px2rem(760px);
       }
     }
@@ -314,14 +314,14 @@ body {
       // flex-wrap: wrap;
       // justify-content: stretch;
 
-      // > .amis-Layout-content {
+      // > .prismui-Layout-content {
       //   flex-grow: 1;
       //   width: 0;
       //   position: relative;
       // }
 
-      .amis-Layout-headerBar,
-      .amis-Layout-footer {
+      .prismui-Layout-headerBar,
+      .prismui-Layout-footer {
         margin-left: var(--Layout-aside-width);
         transition: margin var(--animation-duration) ease;
       }
@@ -352,19 +352,19 @@ body {
         width: auto;
       }
 
-      .amis-Layout-aside,
-      .amis-Layout-brandBar {
+      .prismui-Layout-aside,
+      .prismui-Layout-brandBar {
         width: var(--Layout-aside--folded-width);
       }
 
-      &.amis-Layout--withAside {
-        .amis-Layout-headerBar,
-        .amis-Layout-footer {
+      &.prismui-Layout--withAside {
+        .prismui-Layout-headerBar,
+        .prismui-Layout-footer {
           margin-left: var(--Layout-aside--folded-width);
         }
       }
 
-      .amis-Layout-brand {
+      .prismui-Layout-brand {
         display: block;
         padding: 0;
         font-size: var(--fontSizeLg);
@@ -373,7 +373,7 @@ body {
     }
 
     &--asideFixed {
-      .amis-Layout-aside {
+      .prismui-Layout-aside {
         height: 100%;
 
         &:before {
@@ -382,11 +382,11 @@ body {
         }
       }
 
-      .amis-Layout-brandBar {
+      .prismui-Layout-brandBar {
         position: fixed;
       }
 
-      .amis-Layout-asideWrap {
+      .prismui-Layout-asideWrap {
         position: fixed;
         overflow: hidden;
         top: var(--Layout-header-height);
@@ -396,7 +396,7 @@ body {
         z-index: $zindex-fixed;
       }
 
-      .amis-Layout-asideInner {
+      .prismui-Layout-asideInner {
         position: relative;
         width: 100%;
         height: 100%;
@@ -419,48 +419,48 @@ body {
       top: 0;
     }
 
-    &--asideFixed.amis-Layout--folded {
-      .amis-Layout-aside {
+    &--asideFixed.prismui-Layout--folded {
+      .prismui-Layout-aside {
         position: static;
       }
 
-      .amis-Layout-brandBar {
+      .prismui-Layout-brandBar {
         position: static;
         padding-right: 17px;
       }
 
-      .amis-Layout-asideWrap {
+      .prismui-Layout-asideWrap {
         overflow: visible;
         // position: relative;
         // top: 0;
       }
 
-      .amis-Layout-asideInner {
+      .prismui-Layout-asideInner {
         overflow: visible;
         padding-right: 17px;
       }
     }
 
-    &--sm:not(.amis-Layout--folded) {
-      .amis-Layout-brand,
-      .amis-Layout-brandBar,
-      .amis-Layout-aside {
+    &--sm:not(.prismui-Layout--folded) {
+      .prismui-Layout-brand,
+      .prismui-Layout-brandBar,
+      .prismui-Layout-aside {
         width: var(--Layout-aside--sm-width);
       }
     }
 
-    &--md:not(.amis-Layout--folded) {
-      .amis-Layout-brand,
-      .amis-Layout-brandBar,
-      .amis-Layout-aside {
+    &--md:not(.prismui-Layout--folded) {
+      .prismui-Layout-brand,
+      .prismui-Layout-brandBar,
+      .prismui-Layout-aside {
         width: var(--Layout-aside--md-width);
       }
     }
 
-    &--lg:not(.amis-Layout--folded) {
-      .amis-Layout-brand,
-      .amis-Layout-brandBar,
-      .amis-Layout-aside {
+    &--lg:not(.prismui-Layout--folded) {
+      .prismui-Layout-brand,
+      .prismui-Layout-brandBar,
+      .prismui-Layout-aside {
         width: var(--Layout-aside--lg-width);
       }
     }
@@ -468,11 +468,11 @@ body {
 }
 
 @include media-breakpoint-up(lg) {
-  .amis-Layout {
+  .prismui-Layout {
     &--boxed {
       width: px2rem(980px);
 
-      &.amis-Layout--headerFixed .amis-Layout-header {
+      &.prismui-Layout--headerFixed .prismui-Layout-header {
         width: px2rem(980px);
       }
     }
@@ -480,11 +480,11 @@ body {
 }
 
 @include media-breakpoint-up(xl) {
-  .amis-Layout {
+  .prismui-Layout {
     &--boxed {
       width: px2rem(1180px);
 
-      &.amis-Layout--headerFixed .amis-Layout-header {
+      &.prismui-Layout--headerFixed .prismui-Layout-header {
         width: px2rem(1180px);
       }
     }

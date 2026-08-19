@@ -3,17 +3,17 @@
 exports[`Renderer:tabs 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:tabs 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,43 +33,43 @@ exports[`Renderer:tabs 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line"
           data-role="container"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
                   role="tablist"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active"
                   >
                     <a
                       title="基本配置"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                       >
                         基本配置
                       </span>
                     </a>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link"
                   >
                     <a
                       title="其他配置"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                       >
                         其他配置
                       </span>
@@ -80,13 +80,13 @@ exports[`Renderer:tabs 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
           >
             <div
-              class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+              class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   <p>
@@ -96,19 +96,19 @@ exports[`Renderer:tabs 1`] = `
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                 data-amis-name="c"
                 data-role="form-item"
               >
                 <label
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                 >
                   <span>
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         文本3
@@ -117,10 +117,10 @@ exports[`Renderer:tabs 1`] = `
                   </span>
                 </label>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                   >
                     <input
                       autocomplete="off"
@@ -135,16 +135,16 @@ exports[`Renderer:tabs 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                 data-amis-name="d"
                 data-role="form-item"
               >
                 <label
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                 >
                   <span>
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                     >
                       <span>
                         文本4
@@ -153,10 +153,10 @@ exports[`Renderer:tabs 1`] = `
                   </span>
                 </label>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                   >
                     <input
                       autocomplete="off"

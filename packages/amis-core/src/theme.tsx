@@ -14,19 +14,19 @@ export type ClassValue =
 
 export type ClassNamesFn = (...classes: ClassValue[]) => string;
 
-export type ComponentClassPrefix = 'amis-';
+export type ComponentClassPrefix = 'prismui-';
 export type LegacyDomClassAlias = false | 'cxd';
 
 export interface ThemeScope {
   theme: string;
-  attribute: 'data-amis-theme';
+  attribute: 'data-prismui-theme';
   value: string;
   selector: string;
   tokenScopeSelector: string;
 }
 
 export interface ThemeScopeProps {
-  'data-amis-theme': string;
+  'data-prismui-theme': string;
 }
 
 export interface OverlayContainerResolution {
@@ -54,12 +54,12 @@ export interface ThemeConfig {
 
 const themes: Record<string, ThemeConfig> = {
   default: {
-    componentClassPrefix: 'amis-',
+    componentClassPrefix: 'prismui-',
     legacyDomClassAlias: false
   },
   cxd: {
-    classPrefix: 'cxd-',
-    componentClassPrefix: 'amis-',
+    classPrefix: 'prismui-',
+    componentClassPrefix: 'prismui-',
     legacyDomClassAlias: false
   }
 };
@@ -131,7 +131,7 @@ function makePrefixedClassnames(prefixes: Array<string>): ClassNamesFn {
 }
 
 export function makeStableClassnames(
-  prefix: ComponentClassPrefix = 'amis-'
+  prefix: ComponentClassPrefix = 'prismui-'
 ): ClassNamesFn {
   if (stableFns[prefix]) {
     return stableFns[prefix];
@@ -205,7 +205,7 @@ export function classnames(...classes: ClassValue[]) {
 }
 
 export function getClassPrefix() {
-  return getTheme(defaultTheme).componentClassPrefix || 'amis-';
+  return getTheme(defaultTheme).componentClassPrefix || 'prismui-';
 }
 
 export function normalizeThemeName(theme?: string): string {
@@ -228,11 +228,11 @@ export function normalizeThemeName(theme?: string): string {
 }
 
 function createThemeScope(value: string): ThemeScope {
-  const selector = `[data-amis-theme="${value.replace(/"/g, '\\"')}"]`;
+  const selector = `[data-prismui-theme="${value.replace(/"/g, '\\"')}"]`;
 
   return {
     theme: value,
-    attribute: 'data-amis-theme',
+    attribute: 'data-prismui-theme',
     value,
     selector,
     tokenScopeSelector: selector
@@ -245,15 +245,15 @@ export function getThemeScope(themeName?: string): ThemeScope {
 
 export function getThemeScopeProps(themeName?: string): ThemeScopeProps {
   return {
-    'data-amis-theme': getThemeScope(themeName).value
+    'data-prismui-theme': getThemeScope(themeName).value
   };
 }
 
 export function getNearestThemeScope(
   node: HTMLElement | null | undefined
 ): ThemeScope | null {
-  const scopeNode = node?.closest?.('[data-amis-theme]');
-  const themeValue = scopeNode?.getAttribute('data-amis-theme');
+  const scopeNode = node?.closest?.('[data-prismui-theme]');
+  const themeValue = scopeNode?.getAttribute('data-prismui-theme');
 
   return themeValue ? createThemeScope(themeValue) : null;
 }
@@ -293,7 +293,7 @@ export function getTheme(theme: string): ThemeInstance {
   theme = normalizeThemeName(theme);
 
   const config = themes[theme];
-  const componentClassPrefix = config.componentClassPrefix || 'amis-';
+  const componentClassPrefix = config.componentClassPrefix || 'prismui-';
   const legacyDomClassAlias = normalizeLegacyDomClassAlias(
     config.legacyDomClassAlias
   );
@@ -396,7 +396,7 @@ export function themeable<
           classnames: ClassNamesFn;
           theme: string;
         } = {
-          classPrefix: config.componentClassPrefix || 'amis-',
+          classPrefix: config.componentClassPrefix || 'prismui-',
           classnames: config.classnames,
           theme
         };

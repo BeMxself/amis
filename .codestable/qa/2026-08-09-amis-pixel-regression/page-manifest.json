@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-08-09T07:32:08.958Z",
+  "generatedAt": "2026-08-18T00:50:21.344Z",
   "baseUrl": "http://127.0.0.1:8888",
-  "total": 372,
+  "total": 376,
   "totals": {
     "docs": 28,
+    "editor": 4,
     "components": 155,
     "style": 62,
     "examples": 127
@@ -14,6 +15,12 @@
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
       "exportName": "default"
+    },
+    {
+      "tab": "editor",
+      "tabTitle": "编辑器",
+      "source": "examples/components/EditorDocs.tsx",
+      "exportName": "editorDocs"
     },
     {
       "tab": "components",
@@ -97,13 +104,24 @@
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
       "group": "💡  概念",
+      "label": "渲染器架构",
+      "breadcrumb": "💡  概念 / 渲染器架构",
+      "path": "/zh-CN/docs/concepts/renderer-architecture",
+      "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/renderer-architecture"
+    },
+    {
+      "index": 7,
+      "tab": "docs",
+      "tabTitle": "文档",
+      "source": "examples/components/DocNavCN.ts",
+      "group": "💡  概念",
       "label": "数据域与数据链",
       "breadcrumb": "💡  概念 / 数据域与数据链",
       "path": "/zh-CN/docs/concepts/datascope-and-datachain",
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/datascope-and-datachain"
     },
     {
-      "index": 7,
+      "index": 8,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -114,7 +132,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/template"
     },
     {
-      "index": 8,
+      "index": 9,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -125,7 +143,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/data-mapping"
     },
     {
-      "index": 9,
+      "index": 10,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -136,7 +154,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/expression"
     },
     {
-      "index": 10,
+      "index": 11,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -147,7 +165,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/linkage"
     },
     {
-      "index": 11,
+      "index": 12,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -158,7 +176,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/event-action"
     },
     {
-      "index": 12,
+      "index": 13,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -169,7 +187,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/action"
     },
     {
-      "index": 13,
+      "index": 14,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -180,7 +198,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/concepts/style"
     },
     {
-      "index": 14,
+      "index": 15,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -191,7 +209,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/types/schemanode"
     },
     {
-      "index": 15,
+      "index": 16,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -202,7 +220,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/types/classname"
     },
     {
-      "index": 16,
+      "index": 17,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -213,7 +231,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/types/api"
     },
     {
-      "index": 17,
+      "index": 18,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -224,7 +242,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/types/definitions"
     },
     {
-      "index": 18,
+      "index": 19,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -235,7 +253,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/internal"
     },
     {
-      "index": 19,
+      "index": 20,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -246,7 +264,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/custom-sdk"
     },
     {
-      "index": 20,
+      "index": 21,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -257,7 +275,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/custom-react"
     },
     {
-      "index": 21,
+      "index": 22,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -268,7 +286,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/ui-library"
     },
     {
-      "index": 22,
+      "index": 23,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -279,7 +297,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/addon"
     },
     {
-      "index": 23,
+      "index": 24,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -290,7 +308,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/tracker"
     },
     {
-      "index": 24,
+      "index": 25,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -301,7 +319,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/debug"
     },
     {
-      "index": 25,
+      "index": 26,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -312,7 +330,7 @@
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/mobile"
     },
     {
-      "index": 26,
+      "index": 27,
       "tab": "docs",
       "tabTitle": "文档",
       "source": "examples/components/DocNavCN.ts",
@@ -321,17 +339,6 @@
       "breadcrumb": "💎  高级 / 多语言",
       "path": "/zh-CN/docs/extend/i18n",
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/i18n"
-    },
-    {
-      "index": 27,
-      "tab": "docs",
-      "tabTitle": "文档",
-      "source": "examples/components/DocNavCN.ts",
-      "group": "💎  高级",
-      "label": "可视化编辑器",
-      "breadcrumb": "💎  高级 / 可视化编辑器",
-      "path": "/zh-CN/docs/extend/editor",
-      "url": "http://127.0.0.1:8888/zh-CN/docs/extend/editor"
     },
     {
       "index": 28,
@@ -343,6 +350,50 @@
       "breadcrumb": "💎  高级 / 如何贡献代码",
       "path": "/zh-CN/docs/extend/contribute",
       "url": "http://127.0.0.1:8888/zh-CN/docs/extend/contribute"
+    },
+    {
+      "index": 1,
+      "tab": "editor",
+      "tabTitle": "编辑器",
+      "source": "examples/components/EditorDocs.tsx",
+      "group": "编辑器",
+      "label": "在线编辑器",
+      "breadcrumb": "编辑器 / 在线编辑器",
+      "path": "/zh-CN/editor/index",
+      "url": "http://127.0.0.1:8888/zh-CN/editor/index"
+    },
+    {
+      "index": 2,
+      "tab": "editor",
+      "tabTitle": "编辑器",
+      "source": "examples/components/EditorDocs.tsx",
+      "group": "编辑器",
+      "label": "使用文档",
+      "breadcrumb": "编辑器 / 使用文档",
+      "path": "/zh-CN/editor/editor",
+      "url": "http://127.0.0.1:8888/zh-CN/editor/editor"
+    },
+    {
+      "index": 3,
+      "tab": "editor",
+      "tabTitle": "编辑器",
+      "source": "examples/components/EditorDocs.tsx",
+      "group": "编辑器",
+      "label": "编辑器架构",
+      "breadcrumb": "编辑器 / 编辑器架构",
+      "path": "/zh-CN/editor/editor-architecture",
+      "url": "http://127.0.0.1:8888/zh-CN/editor/editor-architecture"
+    },
+    {
+      "index": 4,
+      "tab": "editor",
+      "tabTitle": "编辑器",
+      "source": "examples/components/EditorDocs.tsx",
+      "group": "编辑器",
+      "label": "定制指南",
+      "breadcrumb": "编辑器 / 定制指南",
+      "path": "/zh-CN/editor/editor-customization",
+      "url": "http://127.0.0.1:8888/zh-CN/editor/editor-customization"
     },
     {
       "index": 1,

@@ -3,22 +3,22 @@
 exports[`Renderer:steps 1`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             <icon-mock
               class="icon icon-close"
@@ -27,29 +27,29 @@ exports[`Renderer:steps 1`] = `
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -63,41 +63,41 @@ exports[`Renderer:steps 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -108,41 +108,41 @@ exports[`Renderer:steps 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Last"
               >
                 Last
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -159,22 +159,22 @@ exports[`Renderer:steps 1`] = `
 exports[`Renderer:steps 2`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process className"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             <icon-mock
               class="icon icon-close"
@@ -183,29 +183,29 @@ exports[`Renderer:steps 2`] = `
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -219,41 +219,41 @@ exports[`Renderer:steps 2`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -264,41 +264,41 @@ exports[`Renderer:steps 2`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Last"
               >
                 Last
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -315,44 +315,44 @@ exports[`Renderer:steps 2`] = `
 exports[`Renderer:steps labelPlacement 1`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             1
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -363,47 +363,47 @@ exports[`Renderer:steps labelPlacement 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -417,41 +417,41 @@ exports[`Renderer:steps labelPlacement 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -468,38 +468,38 @@ exports[`Renderer:steps labelPlacement 1`] = `
 exports[`Renderer:steps progressDot 1`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -510,41 +510,41 @@ exports[`Renderer:steps progressDot 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -558,35 +558,35 @@ exports[`Renderer:steps progressDot 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -603,44 +603,44 @@ exports[`Renderer:steps progressDot 1`] = `
 exports[`Renderer:steps status 1`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             1
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -651,47 +651,47 @@ exports[`Renderer:steps status 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-error"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-error"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             2
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -705,41 +705,41 @@ exports[`Renderer:steps status 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
           >
             3
           </span>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -756,38 +756,38 @@ exports[`Renderer:steps status 1`] = `
 exports[`Renderer:steps with vertical mode 1`] = `
 <div>
   <ul
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __AMIS_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __AMIS_COMPONENT_CLASS_PREFIX__Steps--vertical __AMIS_COMPONENT_CLASS_PREFIX__StepsControl className"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement-vertical __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--ProgressDot __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--vertical __PRISMUI_COMPONENT_CLASS_PREFIX__StepsControl className"
   >
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="First"
               >
                 First
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""
@@ -798,41 +798,41 @@ exports[`Renderer:steps with vertical mode 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Second"
               >
                 Second
               </span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-subTitle __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="this is subTitle"
               >
                 this is subTitle
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
               title="this is description"
             >
               <span
@@ -846,35 +846,35 @@ exports[`Renderer:steps with vertical mode 1`] = `
       </div>
     </li>
     <li
-      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ProgressDot"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerProgressDot"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-vertical-ProgressDot"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                 title="Third"
               >
                 Third
               </span>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
             >
               <span
                 class=""

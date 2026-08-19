@@ -310,7 +310,7 @@ order: 52
 {
     "type": "image",
     "src": "https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80",
-    "href": "https://github.com/baidu/amis"
+    "href": "https://github.com/Gengxin-Tech/prismui"
 }
 ```
 
@@ -321,7 +321,7 @@ href 也可以是模板
     "type": "page",
     "data": {
         "imageUrl": "https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg",
-        "imageHref": "https://github.com/baidu/amis"
+        "imageHref": "https://github.com/Gengxin-Tech/prismui"
     },
     "body": {
         "type": "image",

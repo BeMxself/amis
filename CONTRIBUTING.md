@@ -75,7 +75,7 @@ npm run update-snapshot --workspace amis -- -t <spec-name>
 - 说明用户可见影响、兼容性影响和验证方式。
 - 修改行为时补充测试；无法补测试时说明原因和人工验证步骤。
 - 不要顺手重排无关文件、批量格式化无关代码或删除历史许可声明。
-- 包名迁移完成前，文档中同时说明当前 `amis` 兼容包名和计划中的 `prismui` 包名。
+- 包名或发布路径如有迁移，文档应以 release notes 已确认的信息为准；不要预设 `amis-*` 会批量改成 `prismui-*`。
 
 ## Commit 和分支
 

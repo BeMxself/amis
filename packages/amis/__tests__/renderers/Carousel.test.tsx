@@ -46,11 +46,11 @@ test('Renderer:Carousel', async () => {
     )
   );
 
-  const image = container.querySelector('div.cxd-Carousel-item');
+  const image = container.querySelector('div.prismui-Carousel-item');
   fireEvent.mouseEnter(image as HTMLDivElement);
-  const leftArrow = container.querySelector('div.cxd-Carousel-leftArrow');
+  const leftArrow = container.querySelector('div.prismui-Carousel-leftArrow');
   fireEvent.click(leftArrow as HTMLDivElement);
-  const rightArrow = container.querySelector('div.cxd-Carousel-rightArrow');
+  const rightArrow = container.querySelector('div.prismui-Carousel-rightArrow');
   fireEvent.click(rightArrow as HTMLDivElement);
 
   // 等到第二个点变成激活状态
@@ -100,7 +100,7 @@ test('Renderer:Carousel with auto & interval & duration', async () => {
 
   await wait(2500);
 
-  expect(container.querySelector('.cxd-Carousel-dot:nth-child(2)')).toHaveClass(
+  expect(container.querySelector('.prismui-Carousel-dot:nth-child(2)')).toHaveClass(
     'is-active'
   );
 });
@@ -139,7 +139,7 @@ test('Renderer:Carousel with name & option config', async () => {
     )
   );
 
-  const item = container.querySelector('.cxd-Carousel-item')!;
+  const item = container.querySelector('.prismui-Carousel-item')!;
 
   expect(item.firstElementChild).toHaveAttribute(
     'href',
@@ -148,10 +148,10 @@ test('Renderer:Carousel with name & option config', async () => {
   expect(item).toHaveTextContent('这是标题');
   expect(item).toHaveTextContent('这是描述');
 
-  fireEvent.click(container.querySelector('.cxd-Carousel-dot:nth-child(2)')!);
+  fireEvent.click(container.querySelector('.prismui-Carousel-dot:nth-child(2)')!);
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Carousel-item')!).toHaveTextContent(
+    expect(container.querySelector('.prismui-Carousel-item')!).toHaveTextContent(
       'carousel data'
     );
   });
@@ -184,17 +184,17 @@ test('Renderer:Carousel with controls & controlsTheme & thumbMode', async () => 
     )
   );
 
-  expect(container.querySelector('.cxd-Carousel')).toHaveClass(
+  expect(container.querySelector('.prismui-Carousel')).toHaveClass(
     componentClass('Carousel--light')
   );
   expect(
-    container.querySelector('.cxd-Image-origin.cxd-Image-origin--contain')
+    container.querySelector('.prismui-Image-origin.prismui-Image-origin--contain')
   ).toBeInTheDocument();
   expect(
-    container.querySelector('.cxd-Carousel-dotsControl')
+    container.querySelector('.prismui-Carousel-dotsControl')
   ).toBeInTheDocument();
   expect(
-    container.querySelector('.cxd-Carousel-leftArrow')
+    container.querySelector('.prismui-Carousel-leftArrow')
   ).toBeInTheDocument();
 
   rerender(
@@ -225,17 +225,17 @@ test('Renderer:Carousel with controls & controlsTheme & thumbMode', async () => 
 
   expect(container).toMatchSnapshot();
 
-  expect(container.querySelector('.cxd-Carousel')).toHaveClass(
+  expect(container.querySelector('.prismui-Carousel')).toHaveClass(
     componentClass('Carousel--dark')
   );
   expect(
-    container.querySelector('.cxd-Image-origin.cxd-Image-origin--cover')
+    container.querySelector('.prismui-Image-origin.prismui-Image-origin--cover')
   ).toBeInTheDocument();
   expect(
-    container.querySelector('.cxd-Carousel-dotsControl')
+    container.querySelector('.prismui-Carousel-dotsControl')
   ).not.toBeInTheDocument();
   expect(
-    container.querySelector('.cxd-Carousel-leftArrow')
+    container.querySelector('.prismui-Carousel-leftArrow')
   ).not.toBeInTheDocument();
 });
 
@@ -263,7 +263,7 @@ test('Renderer:Carousel with itemSchema & width & height', async () => {
   );
 
   expect(container).toMatchSnapshot();
-  expect(container.querySelector('.cxd-Carousel')).toHaveStyle({
+  expect(container.querySelector('.prismui-Carousel')).toHaveStyle({
     width: '101px',
     height: '99px'
   });

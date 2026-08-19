@@ -1,6 +1,6 @@
 # amis 像素回归页面全集
 
-生成时间：2026-08-09T07:32:08.958Z
+生成时间：2026-08-18T00:50:21.344Z
 本地基准 URL：http://127.0.0.1:8888
 
 ## 覆盖统计
@@ -8,10 +8,11 @@
 | 页签 | 页面数 | 来源 |
 |---|---:|---|
 | 文档 | 28 | `examples/components/DocNavCN.ts` |
+| 编辑器 | 4 | `examples/components/EditorDocs.tsx` |
 | 组件 | 155 | `examples/components/Components.tsx` |
 | 样式 | 62 | `examples/components/CssDocs.tsx` |
 | 示例 | 127 | `examples/components/Example.jsx` |
-| **合计** | **372** | 4 个页签导航配置 |
+| **合计** | **376** | 5 个页签导航配置 |
 
 > 只纳入实际导航对象中的 active routes；`Example.jsx` 中注释掉的 5 个 path 不计入回归全集。
 
@@ -24,29 +25,38 @@
 | 3 | 📌  开始 | 更新记录 | `/zh-CN/docs/start/changelog` | http://127.0.0.1:8888/zh-CN/docs/start/changelog |
 | 4 | 📌  开始 | 常见问题 | `/zh-CN/docs/start/faq` | http://127.0.0.1:8888/zh-CN/docs/start/faq |
 | 5 | 💡  概念 | 配置与组件 | `/zh-CN/docs/concepts/schema` | http://127.0.0.1:8888/zh-CN/docs/concepts/schema |
-| 6 | 💡  概念 | 数据域与数据链 | `/zh-CN/docs/concepts/datascope-and-datachain` | http://127.0.0.1:8888/zh-CN/docs/concepts/datascope-and-datachain |
-| 7 | 💡  概念 | 模板 | `/zh-CN/docs/concepts/template` | http://127.0.0.1:8888/zh-CN/docs/concepts/template |
-| 8 | 💡  概念 | 数据映射 | `/zh-CN/docs/concepts/data-mapping` | http://127.0.0.1:8888/zh-CN/docs/concepts/data-mapping |
-| 9 | 💡  概念 | 表达式 | `/zh-CN/docs/concepts/expression` | http://127.0.0.1:8888/zh-CN/docs/concepts/expression |
-| 10 | 💡  概念 | 联动 | `/zh-CN/docs/concepts/linkage` | http://127.0.0.1:8888/zh-CN/docs/concepts/linkage |
-| 11 | 💡  概念 | 事件动作 | `/zh-CN/docs/concepts/event-action` | http://127.0.0.1:8888/zh-CN/docs/concepts/event-action |
-| 12 | 💡  概念 | 行为 | `/zh-CN/docs/concepts/action` | http://127.0.0.1:8888/zh-CN/docs/concepts/action |
-| 13 | 💡  概念 | 样式 | `/zh-CN/docs/concepts/style` | http://127.0.0.1:8888/zh-CN/docs/concepts/style |
-| 14 | 类型 | SchemaNode | `/zh-CN/docs/types/schemanode` | http://127.0.0.1:8888/zh-CN/docs/types/schemanode |
-| 15 | 类型 | ClassName | `/zh-CN/docs/types/classname` | http://127.0.0.1:8888/zh-CN/docs/types/classname |
-| 16 | 类型 | API | `/zh-CN/docs/types/api` | http://127.0.0.1:8888/zh-CN/docs/types/api |
-| 17 | 类型 | Definitions | `/zh-CN/docs/types/definitions` | http://127.0.0.1:8888/zh-CN/docs/types/definitions |
-| 18 | 💎  高级 | 工作原理 | `/zh-CN/docs/extend/internal` | http://127.0.0.1:8888/zh-CN/docs/extend/internal |
-| 19 | 💎  高级 | 自定义组件 - SDK | `/zh-CN/docs/extend/custom-sdk` | http://127.0.0.1:8888/zh-CN/docs/extend/custom-sdk |
-| 20 | 💎  高级 | 自定义组件 - React | `/zh-CN/docs/extend/custom-react` | http://127.0.0.1:8888/zh-CN/docs/extend/custom-react |
-| 21 | 💎  高级 | 将 amis 当成 UI 库用 | `/zh-CN/docs/extend/ui-library` | http://127.0.0.1:8888/zh-CN/docs/extend/ui-library |
-| 22 | 💎  高级 | 扩展现有组件 | `/zh-CN/docs/extend/addon` | http://127.0.0.1:8888/zh-CN/docs/extend/addon |
-| 23 | 💎  高级 | 页面交互行为跟踪 | `/zh-CN/docs/extend/tracker` | http://127.0.0.1:8888/zh-CN/docs/extend/tracker |
-| 24 | 💎  高级 | 调试工具 | `/zh-CN/docs/extend/debug` | http://127.0.0.1:8888/zh-CN/docs/extend/debug |
-| 25 | 💎  高级 | 移动端定制 | `/zh-CN/docs/extend/mobile` | http://127.0.0.1:8888/zh-CN/docs/extend/mobile |
-| 26 | 💎  高级 | 多语言 | `/zh-CN/docs/extend/i18n` | http://127.0.0.1:8888/zh-CN/docs/extend/i18n |
-| 27 | 💎  高级 | 可视化编辑器 | `/zh-CN/docs/extend/editor` | http://127.0.0.1:8888/zh-CN/docs/extend/editor |
+| 6 | 💡  概念 | 渲染器架构 | `/zh-CN/docs/concepts/renderer-architecture` | http://127.0.0.1:8888/zh-CN/docs/concepts/renderer-architecture |
+| 7 | 💡  概念 | 数据域与数据链 | `/zh-CN/docs/concepts/datascope-and-datachain` | http://127.0.0.1:8888/zh-CN/docs/concepts/datascope-and-datachain |
+| 8 | 💡  概念 | 模板 | `/zh-CN/docs/concepts/template` | http://127.0.0.1:8888/zh-CN/docs/concepts/template |
+| 9 | 💡  概念 | 数据映射 | `/zh-CN/docs/concepts/data-mapping` | http://127.0.0.1:8888/zh-CN/docs/concepts/data-mapping |
+| 10 | 💡  概念 | 表达式 | `/zh-CN/docs/concepts/expression` | http://127.0.0.1:8888/zh-CN/docs/concepts/expression |
+| 11 | 💡  概念 | 联动 | `/zh-CN/docs/concepts/linkage` | http://127.0.0.1:8888/zh-CN/docs/concepts/linkage |
+| 12 | 💡  概念 | 事件动作 | `/zh-CN/docs/concepts/event-action` | http://127.0.0.1:8888/zh-CN/docs/concepts/event-action |
+| 13 | 💡  概念 | 行为 | `/zh-CN/docs/concepts/action` | http://127.0.0.1:8888/zh-CN/docs/concepts/action |
+| 14 | 💡  概念 | 样式 | `/zh-CN/docs/concepts/style` | http://127.0.0.1:8888/zh-CN/docs/concepts/style |
+| 15 | 类型 | SchemaNode | `/zh-CN/docs/types/schemanode` | http://127.0.0.1:8888/zh-CN/docs/types/schemanode |
+| 16 | 类型 | ClassName | `/zh-CN/docs/types/classname` | http://127.0.0.1:8888/zh-CN/docs/types/classname |
+| 17 | 类型 | API | `/zh-CN/docs/types/api` | http://127.0.0.1:8888/zh-CN/docs/types/api |
+| 18 | 类型 | Definitions | `/zh-CN/docs/types/definitions` | http://127.0.0.1:8888/zh-CN/docs/types/definitions |
+| 19 | 💎  高级 | 工作原理 | `/zh-CN/docs/extend/internal` | http://127.0.0.1:8888/zh-CN/docs/extend/internal |
+| 20 | 💎  高级 | 自定义组件 - SDK | `/zh-CN/docs/extend/custom-sdk` | http://127.0.0.1:8888/zh-CN/docs/extend/custom-sdk |
+| 21 | 💎  高级 | 自定义组件 - React | `/zh-CN/docs/extend/custom-react` | http://127.0.0.1:8888/zh-CN/docs/extend/custom-react |
+| 22 | 💎  高级 | 将 amis 当成 UI 库用 | `/zh-CN/docs/extend/ui-library` | http://127.0.0.1:8888/zh-CN/docs/extend/ui-library |
+| 23 | 💎  高级 | 扩展现有组件 | `/zh-CN/docs/extend/addon` | http://127.0.0.1:8888/zh-CN/docs/extend/addon |
+| 24 | 💎  高级 | 页面交互行为跟踪 | `/zh-CN/docs/extend/tracker` | http://127.0.0.1:8888/zh-CN/docs/extend/tracker |
+| 25 | 💎  高级 | 调试工具 | `/zh-CN/docs/extend/debug` | http://127.0.0.1:8888/zh-CN/docs/extend/debug |
+| 26 | 💎  高级 | 移动端定制 | `/zh-CN/docs/extend/mobile` | http://127.0.0.1:8888/zh-CN/docs/extend/mobile |
+| 27 | 💎  高级 | 多语言 | `/zh-CN/docs/extend/i18n` | http://127.0.0.1:8888/zh-CN/docs/extend/i18n |
 | 28 | 💎  高级 | 如何贡献代码 | `/zh-CN/docs/extend/contribute` | http://127.0.0.1:8888/zh-CN/docs/extend/contribute |
+
+## 编辑器页签（4）
+
+| # | 分组 | 页面 | Path | URL |
+|---:|---|---|---|---|
+| 1 | 编辑器 | 在线编辑器 | `/zh-CN/editor/index` | http://127.0.0.1:8888/zh-CN/editor/index |
+| 2 | 编辑器 | 使用文档 | `/zh-CN/editor/editor` | http://127.0.0.1:8888/zh-CN/editor/editor |
+| 3 | 编辑器 | 编辑器架构 | `/zh-CN/editor/editor-architecture` | http://127.0.0.1:8888/zh-CN/editor/editor-architecture |
+| 4 | 编辑器 | 定制指南 | `/zh-CN/editor/editor-customization` | http://127.0.0.1:8888/zh-CN/editor/editor-customization |
 
 ## 组件页签（155）
 

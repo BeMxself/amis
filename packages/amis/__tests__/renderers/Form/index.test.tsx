@@ -97,7 +97,7 @@ test('Renderer:Form:valdiate', async () => {
 
   fireEvent.click(getByText('Submit'));
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Form-feedback')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-feedback')).toBeInTheDocument();
   });
 
   expect(container).toMatchSnapshot();
@@ -133,7 +133,7 @@ test('Renderer:Form:valdiate', async () => {
 
   fireEvent.click(getByText('Submit'));
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Form-feedback')).not.toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-feedback')).not.toBeInTheDocument();
   });
   expect(container).toMatchSnapshot();
 
@@ -186,7 +186,7 @@ test('Renderer:Form:remoteValidate', async () => {
 
   fireEvent.click(getByText('Submit'));
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Form-feedback')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-feedback')).toBeInTheDocument();
   });
   expect(container).toMatchSnapshot();
 });
@@ -246,7 +246,7 @@ test('Renderer:Form:onValidate', async () => {
   fireEvent.click(getByText('Submit'));
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-Form-feedback')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Form-feedback')).toBeInTheDocument();
   });
 
   expect(container).toMatchSnapshot();
@@ -272,7 +272,7 @@ test('Renderer:Form:onValidate', async () => {
 
   await waitFor(() => {
     expect(
-      container.querySelector('.cxd-Form-feedback')
+      container.querySelector('.prismui-Form-feedback')
     ).not.toBeInTheDocument();
   });
 

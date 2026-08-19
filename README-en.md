@@ -10,9 +10,9 @@ The Chinese README is the primary project document. This English version is kept
 
 ## Current Status
 
-- **Package transition**: current npm packages still use compatible names such as `amis`, `amis-ui`, and `amis-core`; PrismUI package names are planned by 2026-09-15.
+- **Package transition**: current npm packages still use compatible names such as `amis`, `amis-ui`, and `amis-core`; any future package migration will be announced in the release notes.
 - **Compatibility**: during the transition, existing UI Schema, renderer APIs, theme assets, and SDK integration remain the priority.
-- **Docs**: new docs use the PrismUI name. Historical pages, examples, and runtime APIs may still mention `amis` until the package migration is complete.
+- **Docs**: new docs use the PrismUI name. Historical pages, examples, and runtime APIs may still mention `amis`.
 - **Contribution model**: contributions use a lightweight inbound = outbound model and are licensed under the same license as the relevant file or package.
 
 ## Capabilities
@@ -27,7 +27,7 @@ The Chinese README is the primary project document. This English version is kept
 
 ### Current Compatible Package Names
 
-Before the PrismUI package migration is complete, install the existing amis packages:
+Install the existing amis packages:
 
 ```bash
 npm install amis amis-ui
@@ -87,21 +87,7 @@ export function App() {
 </script>
 ```
 
-### Planned PrismUI Package Names
-
-Final names will be confirmed in release notes. The current plan is:
-
-| Current package | Planned package |
-| --- | --- |
-| `amis` | `prismui` |
-| `amis-core` | `prismui-core` |
-| `amis-ui` | `prismui-ui` |
-| `amis-formula` | `prismui-formula` |
-| `amis-editor` | `prismui-editor` |
-| `amis-editor-core` | `prismui-editor-core` |
-| `amis-theme-editor-helper` | `prismui-theme-editor-helper` |
-
-Do not assume the PrismUI npm packages are published until the migration release notes say so.
+This repository does not promise new npm package names in the README; if migration happens later, it will be spelled out in the release notes.
 
 ## Repository Layout
 

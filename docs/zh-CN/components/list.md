@@ -436,8 +436,8 @@ order: 56
 | selectable               | `boolean`                            | `false`               | 列表是否可选                                                                 |
 | multiple                 | `boolean`                            | `true`                | 列表是否为多选                                                               |
 | className                | `string`                             |                       | 外层 CSS 类名                                                                |
-| headerClassName          | `string`                             | `amis-list-header`    | 顶部外层 CSS 类名                                                            |
-| footerClassName          | `string`                             | `amis-list-footer`    | 底部外层 CSS 类名                                                            |
+| headerClassName          | `string`                             | `prismui-list-header`    | 顶部外层 CSS 类名                                                            |
+| footerClassName          | `string`                             | `prismui-list-footer`    | 底部外层 CSS 类名                                                            |
 | listItem                 | `Array`                              |                       | 配置单条信息                                                                 |
 | listItem.title           | [模板](../../docs/concepts/template) |                       | 标题                                                                         |
 | listItem.titleClassName  | `string`                             | `h5`                  | 标题 CSS 类名                                                                |

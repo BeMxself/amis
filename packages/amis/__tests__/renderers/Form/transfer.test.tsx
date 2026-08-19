@@ -642,7 +642,7 @@ test('Renderer:transfer follow left mode', async () => {
   await wait(300);
 
   const dom = container.querySelector(
-    '.cxd-ResultTreeList .cxd-Tree-item .cxd-Tree-itemText'
+    '.prismui-ResultTreeList .prismui-Tree-item .prismui-Tree-itemText'
   );
   expect(dom).not.toBeNull();
   expect(dom?.getAttribute('title')).toEqual('战士');
@@ -804,7 +804,7 @@ test('Renderer:transfer group mode with virtual', async () => {
   ]);
 
   const optionsOrLabel = container.querySelectorAll(
-    '.cxd-GroupedSelection.cxd-Transfer-selection > div > div > div > div.cxd-GroupedSelection-group'
+    '.prismui-GroupedSelection.prismui-Transfer-selection > div > div > div > div.prismui-GroupedSelection-group'
   );
 
   expect(optionsOrLabel.length > 0).toBeTruthy();
@@ -822,7 +822,7 @@ test('Renderer:transfer group mode with virtual', async () => {
   expect(await queryByText('option-100')).toBeNull();
 
   const scrollContainer = container.querySelector(
-    '.cxd-GroupedSelection.cxd-Transfer-selection > div > div'
+    '.prismui-GroupedSelection.prismui-Transfer-selection > div > div'
   )!;
 
   // 滚动到底部
@@ -836,7 +836,7 @@ test('Renderer:transfer group mode with virtual', async () => {
 
   // 最后一项
   const lastOne = container.querySelector(
-    '.cxd-GroupedSelection.cxd-Transfer-selection > div > div > div > div.cxd-GroupedSelection-group:last-of-type'
+    '.prismui-GroupedSelection.prismui-Transfer-selection > div > div > div > div.prismui-GroupedSelection-group:last-of-type'
   );
 
   expect(formatStyleObject(lastOne!.getAttribute('style')).top).toBe(8760);
@@ -876,13 +876,13 @@ test('Renderer:transfer table mode with virtual', async () => {
   ]);
 
   const virtualTable = container.querySelector(
-    '.cxd-Transfer-select .cxd-Table-content.is-virtual .cxd-Table-content-virtual table.cxd-Table-table'
+    '.prismui-Transfer-select .prismui-Table-content.is-virtual .prismui-Table-content-virtual table.prismui-Table-table'
   )!;
 
   expect(virtualTable).toBeInTheDocument();
 
   const resultList = container.querySelector(
-    '.cxd-Transfer-result .cxd-Selections.cxd-Transfer-value .cxd-Selections-items'
+    '.prismui-Transfer-result .prismui-Selections.prismui-Transfer-value .prismui-Selections-items'
   )!;
 
   expect(resultList.firstChild).toHaveClass(componentClass('Selections-item'));
@@ -894,7 +894,7 @@ test('Renderer:transfer table mode with virtual', async () => {
   await wait(300);
 
   const firstVirtualItem = resultList.querySelector(
-    'div > div:first-of-type > div > .cxd-Selections-item'
+    'div > div:first-of-type > div > .prismui-Selections-item'
   );
 
   expect(firstVirtualItem).toBeInTheDocument();
@@ -924,7 +924,7 @@ test('Renderer:transfer chained mode with virtual', async () => {
     }
   ]);
 
-  const cols = container.querySelectorAll('.cxd-ChainedSelection-col');
+  const cols = container.querySelectorAll('.prismui-ChainedSelection-col');
 
   expect(cols.length).toBe(2);
   expect(cols[0].children.length).toBe(10);
@@ -935,7 +935,7 @@ test('Renderer:transfer chained mode with virtual', async () => {
   await wait(300);
 
   expect(cols[1].firstChild).not.toHaveClass(
-    'cxd-ChainedSelection-placeholder'
+    'prismui-ChainedSelection-placeholder'
   );
 
   expect(getByText('group-2-option-1')).toBeInTheDocument();
@@ -1014,7 +1014,7 @@ test('Renderer:transfer associated mode with virtual', async () => {
     }
   ]);
 
-  const rightCol = container.querySelector('.cxd-AssociatedSelection-right');
+  const rightCol = container.querySelector('.prismui-AssociatedSelection-right');
 
   expect(rightCol).toBeInTheDocument();
 
@@ -1024,7 +1024,7 @@ test('Renderer:transfer associated mode with virtual', async () => {
 
   expect(
     rightCol!.querySelector(
-      '.cxd-GroupedSelection .cxd-GroupedSelection-item .cxd-GroupedSelection-itemLabel span'
+      '.prismui-GroupedSelection .prismui-GroupedSelection-item .prismui-GroupedSelection-itemLabel span'
     )!.innerHTML
   ).toBe('A');
 
@@ -1032,7 +1032,7 @@ test('Renderer:transfer associated mode with virtual', async () => {
   await wait(200);
 
   expect(
-    rightCol!.querySelectorAll('.cxd-GroupedSelection-item').length < 200
+    rightCol!.querySelectorAll('.prismui-GroupedSelection-item').length < 200
   ).toBeTruthy();
 
   expect(getByText('label-1')).toBeInTheDocument();
@@ -1069,12 +1069,12 @@ test('Renderer:transfer with showInvalidMatch & unmatched do not add', async () 
   });
 
   function leftItems() {
-    return container.querySelectorAll('.cxd-Transfer-select .cxd-Tree-item');
+    return container.querySelectorAll('.prismui-Transfer-select .prismui-Tree-item');
   }
 
   function rightItems() {
     return container.querySelectorAll(
-      '.cxd-Transfer-result .cxd-Selections-item'
+      '.prismui-Transfer-result .prismui-Selections-item'
     );
   }
 
@@ -1082,9 +1082,9 @@ test('Renderer:transfer with showInvalidMatch & unmatched do not add', async () 
   expect(rightItems()!.length).toBe(5);
 
   expect(
-    rightItems()[0]!.querySelector('.cxd-Selections-label')!
+    rightItems()[0]!.querySelector('.prismui-Selections-label')!
   ).not.toHaveClass('is-invalid');
-  fireEvent.click(rightItems()[0]!.querySelector('.cxd-Selections-delBtn')!);
+  fireEvent.click(rightItems()[0]!.querySelector('.prismui-Selections-delBtn')!);
 
   await wait(500);
 
@@ -1094,10 +1094,10 @@ test('Renderer:transfer with showInvalidMatch & unmatched do not add', async () 
   rerender(amisRender({...schema, showInvalidMatch: true}));
 
   await wait(500);
-  expect(rightItems()[0]!.querySelector('.cxd-Selections-label')!).toHaveClass(
+  expect(rightItems()[0]!.querySelector('.prismui-Selections-label')!).toHaveClass(
     'is-invalid'
   );
-  fireEvent.click(rightItems()[0]!.querySelector('.cxd-Selections-delBtn')!);
+  fireEvent.click(rightItems()[0]!.querySelector('.prismui-Selections-delBtn')!);
 
   await wait(500);
 
@@ -1297,7 +1297,7 @@ test('Renderer:transfer tree onlyChildren true', async () => {
     amisRender(schema, {onSubmit}, makeEnv({}))
   );
 
-  const checkbox = container.querySelector('.cxd-Checkbox');
+  const checkbox = container.querySelector('.prismui-Checkbox');
   expect(checkbox).not.toBeNull();
 
   checkbox && fireEvent.click(checkbox);
@@ -1560,7 +1560,7 @@ test('Renderer:transfer table follow left mode close', async () => {
 
   await wait(500);
 
-  const checkboxes = container.querySelectorAll('.cxd-Checkbox')!;
+  const checkboxes = container.querySelectorAll('.prismui-Checkbox')!;
 
   const zhugeliang = checkboxes[1];
   const caocao = checkboxes[2];
@@ -1573,13 +1573,13 @@ test('Renderer:transfer table follow left mode close', async () => {
   
   await wait(300);
 
-  const zhugeliangClose = container.querySelectorAll('.cxd-ResultTableList-close-btn')[0];
+  const zhugeliangClose = container.querySelectorAll('.prismui-ResultTableList-close-btn')[0];
   expect(zhugeliangClose).not.toBeNaN();
   fireEvent.click(zhugeliangClose);
 
   await wait(500);
 
-  const results = container.querySelectorAll('.cxd-ResultTableList .is-active');
+  const results = container.querySelectorAll('.prismui-ResultTableList .is-active');
   expect(results.length).toEqual(1);
 });
 
@@ -1675,11 +1675,11 @@ test('Renderer:transfer tree follow left mode resultSearchable', async () => {
 
   await wait(300);
 
-  const caocaoResult = container.querySelectorAll('.cxd-Transfer-result span[title=曹操]');
+  const caocaoResult = container.querySelectorAll('.prismui-Transfer-result span[title=曹操]');
   console.log(caocaoResult[0]?.innerHTML);
   expect(caocaoResult.length).toEqual(1);
 
-  const zhugeliangeResult = container.querySelectorAll('.cxd-Transfer-result span[title=诸葛亮]');
+  const zhugeliangeResult = container.querySelectorAll('.prismui-Transfer-result span[title=诸葛亮]');
   expect(zhugeliangeResult.length).toEqual(0);
 });
 
@@ -1798,7 +1798,7 @@ test('Renderer:Transfer with pagination', async () => {
             "pagination": {
               "enable": true,
               "layout": ["pager", "perpage", "total"],
-              "popOverContainerSelector": ".cxd-Panel--form"
+              "popOverContainerSelector": ".prismui-Panel--form"
             },
             "value": [
               {"label": "Laura Lewis", "value": "1", id: 1},
@@ -1811,7 +1811,7 @@ test('Renderer:Transfer with pagination', async () => {
     }, {}, makeEnv({fetcher})));
 
     await wait(500);
-    expect(container.querySelector('.cxd-Transfer-footer-pagination')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Transfer-footer-pagination')).toBeInTheDocument();
 
     const checkboxes = container.querySelectorAll('input[type=checkbox]')!;
     expect(checkboxes.length).toEqual(11); /** 包括顶部全选 */
@@ -1820,7 +1820,7 @@ test('Renderer:Transfer with pagination', async () => {
     expect((checkboxes[3] as HTMLInputElement)?.checked).toEqual(true);
     expect((checkboxes[4] as HTMLInputElement)?.checked).toEqual(false);
 
-    const nextBtn = container.querySelector('.cxd-Pagination-next')!;
+    const nextBtn = container.querySelector('.prismui-Pagination-next')!;
     fireEvent.click(nextBtn);
     await wait(500);
 
@@ -1953,7 +1953,7 @@ test('Renderer:Transfer with pagination and data source from data scope', async 
                 "pagination": {
                   "enable": true,
                   "layout": ["pager", "perpage", "total"],
-                  "popOverContainerSelector": ".cxd-Panel--form"
+                  "popOverContainerSelector": ".prismui-Panel--form"
                 },
                 "value": [
                   {"label": "Laura Lewis", "value": "1", id: 1},
@@ -1968,7 +1968,7 @@ test('Renderer:Transfer with pagination and data source from data scope', async 
     }, {}, makeEnv({fetcher})));
 
     await wait(500);
-    expect(container.querySelector('.cxd-Transfer-footer-pagination')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Transfer-footer-pagination')).toBeInTheDocument();
 
     const checkboxes = container.querySelectorAll('input[type=checkbox]')!;
     expect(checkboxes.length).toEqual(11); /** 包括顶部全选 */
@@ -1977,7 +1977,7 @@ test('Renderer:Transfer with pagination and data source from data scope', async 
     expect((checkboxes[3] as HTMLInputElement)?.checked).toEqual(true);
     expect((checkboxes[4] as HTMLInputElement)?.checked).toEqual(false);
 
-    const nextBtn = container.querySelector('.cxd-Pagination-next')!;
+    const nextBtn = container.querySelector('.prismui-Pagination-next')!;
     fireEvent.click(nextBtn);
     await wait(500);
 

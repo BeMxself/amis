@@ -57,7 +57,7 @@ test('Renderer:dropdown-button', async () => {
     )
   );
 
-  const dropdowmButton = document.querySelector('button.amis-Button');
+  const dropdowmButton = document.querySelector('button.prismui-Button');
   fireEvent.click(dropdowmButton as HTMLDivElement);
   expect(container).toMatchSnapshot();
   fireEvent.click(dropdowmButton as HTMLDivElement);
@@ -121,17 +121,17 @@ test('Renderer:dropdown-button with buttons group', async () => {
     })
   );
 
-  const dropdowmButton = document.querySelector('button.amis-Button');
+  const dropdowmButton = document.querySelector('button.prismui-Button');
   fireEvent.click(dropdowmButton as HTMLDivElement);
 
   const menus = container.querySelectorAll(
-    '.amis-DropDown-menu-root > .amis-DropDown-menu'
+    '.prismui-DropDown-menu-root > .prismui-DropDown-menu'
   );
   expect(container).toMatchSnapshot();
   expect(menus.length).toBe(3);
 
   expect(
-    container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')!
+    container.querySelectorAll('.prismui-DropDown-menu-root .prismui-DropDown-button')!
       .length
   ).toBe(5);
 });
@@ -170,14 +170,14 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
     )
   );
 
-  fireEvent.click(document.querySelector('button.amis-Button')!);
+  fireEvent.click(document.querySelector('button.prismui-Button')!);
 
   const isMenuExist = (exist: boolean) => {
     exist
       ? expect(
-          container.querySelector('.amis-DropDown-menu-root')!
+          container.querySelector('.prismui-DropDown-menu-root')!
         ).toBeInTheDocument()
-      : expect(container.querySelector('.amis-DropDown-menu-root')!).toBeNull();
+      : expect(container.querySelector('.prismui-DropDown-menu-root')!).toBeNull();
   };
 
   isMenuExist(true);
@@ -199,7 +199,7 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
   await wait(500);
   isMenuExist(false);
 
-  fireEvent.click(document.querySelector('button.amis-Button')!);
+  fireEvent.click(document.querySelector('button.prismui-Button')!);
   isMenuExist(true);
 
   fireEvent.click(getByText('outside'));
@@ -215,7 +215,7 @@ test('Renderer:dropdown-button with closeOnClick & closeOnOutside', async () => 
     )
   );
 
-  fireEvent.click(document.querySelector('button.amis-Button')!);
+  fireEvent.click(document.querySelector('button.prismui-Button')!);
   isMenuExist(true);
 
   fireEvent.click(getByText('outside'));
@@ -241,10 +241,10 @@ test('Renderer:dropdown-button with trigger', async () => {
       ]
     })
   );
-  fireEvent.mouseEnter(document.querySelector('button.amis-Button')!);
+  fireEvent.mouseEnter(document.querySelector('button.prismui-Button')!);
   await wait(200);
   expect(
-    container.querySelector('.amis-DropDown-menu-root')!
+    container.querySelector('.prismui-DropDown-menu-root')!
   ).toBeInTheDocument();
 });
 
@@ -294,7 +294,7 @@ test('Renderer:dropdown-button with hideCaret', async () => {
     })
   );
 
-  expect(container.querySelector('.amis-DropDown-caret')!).toBeNull();
+  expect(container.querySelector('.prismui-DropDown-caret')!).toBeNull();
   expect(container).toMatchSnapshot();
 });
 
@@ -318,7 +318,7 @@ test('Renderer:dropdown-button with defaultIsOpened', async () => {
   );
 
   expect(
-    container.querySelector('.amis-DropDown-menu-root')!
+    container.querySelector('.prismui-DropDown-menu-root')!
   ).toBeInTheDocument();
 });
 
@@ -343,9 +343,9 @@ test('Renderer:dropdown-button with align', async () => {
   );
 
   expect(
-    container.querySelector('.amis-DropDown-menu-root')!
+    container.querySelector('.prismui-DropDown-menu-root')!
   ).toBeInTheDocument();
-  expect(container.querySelector('.amis-DropDown')!).toHaveClass(
+  expect(container.querySelector('.prismui-DropDown')!).toHaveClass(
     componentClass('DropDown--alignRight')
   );
 });
@@ -369,7 +369,7 @@ test('Renderer:dropdown-button with block & size', async () => {
     })
   );
 
-  expect(container.querySelector('.amis-DropDown')!).toHaveClass(
+  expect(container.querySelector('.prismui-DropDown')!).toHaveClass(
     componentClass('DropDown--block')
   );
   expect(container).toMatchSnapshot();
@@ -392,7 +392,7 @@ test('Renderer:dropdown-button with block & size', async () => {
     })
   );
 
-  expect(container.querySelector('.amis-DropDown .amis-Button')!).toHaveClass(
+  expect(container.querySelector('.prismui-DropDown .prismui-Button')!).toHaveClass(
     componentClass('Button--size-lg')
   );
   expect(container).toMatchSnapshot();
@@ -419,14 +419,14 @@ test('Renderer:dropdown-button buttons with className & level', async () => {
     })
   );
 
-  const dropdownButton = document.querySelector('button.amis-Button');
+  const dropdownButton = document.querySelector('button.prismui-Button');
   fireEvent.click(dropdownButton as HTMLDivElement);
 
-  expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(
+  expect(container.querySelectorAll('.prismui-DropDown-menu-root .prismui-DropDown-button')[0]!).toHaveClass(
     componentClass('Button--success')
   );
 
-  expect(container.querySelectorAll('.amis-DropDown-menu-root .amis-DropDown-button')[0]!).toHaveClass(
+  expect(container.querySelectorAll('.prismui-DropDown-menu-root .prismui-DropDown-button')[0]!).toHaveClass(
     'custom-button-class'
   );
 });

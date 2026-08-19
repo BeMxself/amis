@@ -3,49 +3,49 @@
 exports[`Renderer:Nav 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav w-md"
   >
     <ul
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
           data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="1"
                 title="Nav 1"
               >
                 <i
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                 >
                   <img
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Icon mr-2"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Icon mr-2"
                     src="https://suda.cdn.bcebos.com/images%2F2021-01%2Fdiamond.svg"
                   />
                 </i>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 1"
                 >
                   Nav 1
@@ -56,42 +56,42 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           data-menu-id="rc-menu-uuid-2"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="1"
                 title="Nav 2"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 2"
                 >
                   Nav 2
                 </span>
               </a>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
                 style="width: 21.970562748477143px; height: 21.970562748477143px;"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __AMIS_COMPONENT_CLASS_PREFIX__Badge--danger"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon __PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __PRISMUI_COMPONENT_CLASS_PREFIX__Badge--danger"
                   style="height: 12px; line-height: 12px; font-size: 12px;"
                 >
                   HOT
@@ -102,42 +102,42 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           data-menu-id="rc-menu-uuid-3"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="2"
                 title="Nav 3"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="Nav 3"
                 >
                   Nav 3
                 </span>
               </a>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon-out __PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon-out--top-left"
                 style="width: 21.970562748477143px; height: 21.970562748477143px;"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon __AMIS_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __AMIS_COMPONENT_CLASS_PREFIX__Badge--success"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon __PRISMUI_COMPONENT_CLASS_PREFIX__Badge-ribbon--top-left __PRISMUI_COMPONENT_CLASS_PREFIX__Badge--success"
                   style="height: 12px; line-height: 12px; font-size: 12px;"
                 >
                   SUC
@@ -148,31 +148,31 @@ exports[`Renderer:Nav 1`] = `
         </li>
       </ul>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 3;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           data-menu-id="rc-menu-uuid-4"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Badge"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Badge"
             >
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                 data-depth="1"
                 data-id="3"
                 title="外部地址"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                   title="外部地址"
                 >
                   外部地址
@@ -188,19 +188,19 @@ exports[`Renderer:Nav 1`] = `
       style="display: none;"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 3;"
       />
     </div>
@@ -211,21 +211,21 @@ exports[`Renderer:Nav 1`] = `
 exports[`Renderer:Nav with Dialog 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <button
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
             type="button"
           >
             <span>
@@ -242,59 +242,59 @@ exports[`Renderer:Nav with Dialog 1`] = `
 exports[`Renderer:Nav with defer 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -304,29 +304,29 @@ exports[`Renderer:Nav with defer 1`] = `
                 </li>
               </ul>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
                   aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
@@ -334,7 +334,7 @@ exports[`Renderer:Nav with defer 1`] = `
                     </a>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -343,35 +343,35 @@ exports[`Renderer:Nav with defer 1`] = `
                   </span>
                 </div>
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
                   id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
                       aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                       data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
@@ -379,7 +379,7 @@ exports[`Renderer:Nav with defer 1`] = `
                         </a>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
                           class="icon icon-right-arrow-bold"
@@ -389,28 +389,28 @@ exports[`Renderer:Nav with defer 1`] = `
                     </div>
                   </li>
                   <ul
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                       data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
@@ -422,7 +422,7 @@ exports[`Renderer:Nav with defer 1`] = `
                 </ul>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
@@ -430,22 +430,22 @@ exports[`Renderer:Nav with defer 1`] = `
                   aria-disabled="false"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
@@ -453,7 +453,7 @@ exports[`Renderer:Nav with defer 1`] = `
                     </a>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -462,34 +462,34 @@ exports[`Renderer:Nav with defer 1`] = `
                   </span>
                 </div>
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
                   id="rc-menu-uuid-6-popup"
                   role="menu"
                 >
                   <ul
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 0;"
                   >
                     <li
                       aria-disabled="false"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                       data-menu-id="rc-menu-uuid-7"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="3.1"
                           title="Nav 3-1"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 3-1"
                           >
                             Nav 3-1
@@ -499,28 +499,28 @@ exports[`Renderer:Nav with defer 1`] = `
                     </li>
                   </ul>
                   <ul
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                       data-menu-id="rc-menu-uuid-8"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="3.2"
                           title="Nav 3-2"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 3-2"
                           >
                             Nav 3-2
@@ -537,23 +537,23 @@ exports[`Renderer:Nav with defer 1`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
@@ -568,59 +568,59 @@ exports[`Renderer:Nav with defer 1`] = `
 exports[`Renderer:Nav with icons 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -630,29 +630,29 @@ exports[`Renderer:Nav with icons 1`] = `
                 </li>
               </ul>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
                   aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
@@ -660,7 +660,7 @@ exports[`Renderer:Nav with icons 1`] = `
                     </a>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -669,35 +669,35 @@ exports[`Renderer:Nav with icons 1`] = `
                   </span>
                 </div>
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
                   id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
                       aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                       data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <i
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                           >
                             <icon-mock
                               class="mr-2 icon-star"
@@ -709,23 +709,23 @@ exports[`Renderer:Nav with icons 1`] = `
                             />
                           </i>
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                           <i
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon-after"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon-after"
                           >
                             <img
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Icon ml-2"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Icon ml-2"
                               src="https://suda.cdn.bcebos.com/images%2F2021-01%2Fdiamond.svg"
                             />
                           </i>
                         </a>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
                           class="icon icon-right-arrow-bold"
@@ -742,11 +742,11 @@ exports[`Renderer:Nav with icons 1`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
             </div>
@@ -761,74 +761,74 @@ exports[`Renderer:Nav with icons 1`] = `
 exports[`Renderer:Nav with itemActions 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav w-md"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-disabled __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-disabled __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <i
                         class="cloud fa fa-cloud"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -840,7 +840,7 @@ exports[`Renderer:Nav with itemActions 1`] = `
                 </li>
               </ul>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                 role="none"
               >
                 <div
@@ -848,34 +848,34 @@ exports[`Renderer:Nav with itemActions 1`] = `
                   aria-disabled="true"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -885,7 +885,7 @@ exports[`Renderer:Nav with itemActions 1`] = `
                     </div>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -894,13 +894,13 @@ exports[`Renderer:Nav with itemActions 1`] = `
                   </span>
                 </div>
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
                   id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                     role="none"
                   >
                     <div
@@ -908,34 +908,34 @@ exports[`Renderer:Nav with itemActions 1`] = `
                       aria-disabled="true"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                       data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                         </a>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -945,7 +945,7 @@ exports[`Renderer:Nav with itemActions 1`] = `
                         </div>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
                           class="icon icon-right-arrow-bold"
@@ -955,40 +955,40 @@ exports[`Renderer:Nav with itemActions 1`] = `
                     </div>
                   </li>
                   <ul
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="true"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-disabled"
                       data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
                           </span>
                         </a>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1002,7 +1002,7 @@ exports[`Renderer:Nav with itemActions 1`] = `
                 </ul>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-disabled"
                 role="none"
               >
                 <div
@@ -1010,34 +1010,34 @@ exports[`Renderer:Nav with itemActions 1`] = `
                   aria-disabled="true"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1047,7 +1047,7 @@ exports[`Renderer:Nav with itemActions 1`] = `
                     </div>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -1062,27 +1062,27 @@ exports[`Renderer:Nav with itemActions 1`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
             />
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
               data-testid="spinner"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
               />
             </div>
           </div>
@@ -1096,81 +1096,81 @@ exports[`Renderer:Nav with itemActions 1`] = `
 exports[`Renderer:Nav with itemActions 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav w-md"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <i
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <i
                         class="cloud fa fa-cloud"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown is-opened"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown is-opened"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1182,48 +1182,48 @@ exports[`Renderer:Nav with itemActions 2`] = `
                 </li>
               </ul>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
                 role="none"
               >
                 <div
                   aria-controls="rc-menu-uuid-2-popup"
                   aria-expanded="true"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 2"
                       >
                         Nav 2
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1233,7 +1233,7 @@ exports[`Renderer:Nav with itemActions 2`] = `
                     </div>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -1242,54 +1242,54 @@ exports[`Renderer:Nav with itemActions 2`] = `
                   </span>
                 </div>
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
                   data-menu-list="true"
                   id="rc-menu-uuid-2-popup"
                   role="menu"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                     role="none"
                   >
                     <div
                       aria-controls="rc-menu-uuid-3-popup"
                       aria-expanded="false"
                       aria-haspopup="true"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                       data-menu-id="rc-menu-uuid-3"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.1"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                             draggable="true"
                           >
                             <icon-mock />
                           </span>
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                             title="Nav 2-1"
                           >
                             Nav 2-1
                           </span>
                         </a>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1299,7 +1299,7 @@ exports[`Renderer:Nav with itemActions 2`] = `
                         </div>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                       >
                         <icon-mock
                           class="icon icon-right-arrow-bold"
@@ -1309,47 +1309,47 @@ exports[`Renderer:Nav with itemActions 2`] = `
                     </div>
                   </li>
                   <ul
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                     style="order: 1;"
                   >
                     <li
                       aria-disabled="false"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                       data-menu-id="rc-menu-uuid-5"
                       role="menuitem"
                       style="padding-left: 32px;"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                       >
                         <a
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                           data-depth="2"
                           data-id="2.2"
                           title="Nav 2-2"
                         >
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                             draggable="true"
                           >
                             <icon-mock />
                           </span>
                           <span
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                             title="Nav 2-2"
                           >
                             Nav 2-2
                           </span>
                         </a>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                           >
                             <button
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                             >
                               <i
                                 class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1363,48 +1363,48 @@ exports[`Renderer:Nav with itemActions 2`] = `
                 </ul>
               </li>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
                 role="none"
               >
                 <div
                   aria-controls="rc-menu-uuid-6-popup"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-6"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-dragBar"
                         draggable="true"
                       >
                         <icon-mock />
                       </span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                         title="Nav 3"
                       >
                         Nav 3
                       </span>
                     </a>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-extra"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__DropDown"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__DropDown"
                       >
                         <button
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--link __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--link __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                         >
                           <i
                             class="fa fa-ellipsis-h icon m-r-xs fa fa-ellipsis-h"
@@ -1414,7 +1414,7 @@ exports[`Renderer:Nav with itemActions 2`] = `
                     </div>
                   </div>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   >
                     <icon-mock
                       class="icon icon-right-arrow-bold"
@@ -1429,15 +1429,15 @@ exports[`Renderer:Nav with itemActions 2`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
             </div>
@@ -1452,45 +1452,45 @@ exports[`Renderer:Nav with itemActions 2`] = `
 exports[`Renderer:Nav with multi-level 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav w-md"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav w-md"
   >
     <ul
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-selected"
           data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="1"
               title="Nav 1"
             >
               <i
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
               >
                 <i
                   class="fa fa-user mr-2 fa fa-user"
                 />
               </i>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 1"
               >
                 Nav 1
@@ -1500,29 +1500,29 @@ exports[`Renderer:Nav with multi-level 1`] = `
         </li>
       </ul>
       <li
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-open"
         role="none"
       >
         <div
           aria-controls="rc-menu-uuid-2-popup"
           aria-expanded="true"
           aria-haspopup="true"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
           data-menu-id="rc-menu-uuid-2"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="2"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                 title="Nav 2"
               >
                 Nav 2
@@ -1530,7 +1530,7 @@ exports[`Renderer:Nav with multi-level 1`] = `
             </a>
           </div>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
           >
             <icon-mock
               class="icon icon-right-arrow-bold"
@@ -1539,35 +1539,35 @@ exports[`Renderer:Nav with multi-level 1`] = `
           </span>
         </div>
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-sub __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline"
           data-menu-list="true"
           id="rc-menu-uuid-2-popup"
           role="menu"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu"
             role="none"
           >
             <div
               aria-controls="rc-menu-uuid-3-popup"
               aria-expanded="false"
               aria-haspopup="true"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
               data-menu-id="rc-menu-uuid-3"
               role="menuitem"
               style="padding-left: 32px;"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
               >
                 <a
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                   data-depth="2"
                   data-id="2.1"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label-subTitle"
                     title="Nav 2-1"
                   >
                     Nav 2-1
@@ -1575,7 +1575,7 @@ exports[`Renderer:Nav with multi-level 1`] = `
                 </a>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -1585,28 +1585,28 @@ exports[`Renderer:Nav with multi-level 1`] = `
             </div>
           </li>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
             style="order: 1;"
           >
             <li
               aria-disabled="false"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
               data-menu-id="rc-menu-uuid-5"
               role="menuitem"
               style="padding-left: 32px;"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
               >
                 <a
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                   data-depth="2"
                   data-id="2.2"
                   title="Nav 2-2"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                     title="Nav 2-2"
                   >
                     Nav 2-2
@@ -1618,28 +1618,28 @@ exports[`Renderer:Nav with multi-level 1`] = `
         </ul>
       </li>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           data-menu-id="rc-menu-uuid-6"
           role="menuitem"
           style="padding-left: 16px;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="3"
               title="Nav 3"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 3"
               >
                 Nav 3
@@ -1654,19 +1654,19 @@ exports[`Renderer:Nav with multi-level 1`] = `
       style="display: none;"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
     </div>
@@ -1677,24 +1677,24 @@ exports[`Renderer:Nav with multi-level 1`] = `
 exports[`Renderer:Nav with overflow 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav __AMIS_COMPONENT_CLASS_PREFIX__Nav-horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-horizontal"
           >
             <section
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
               data-menu-list="true"
               dir="ltr"
               role="menu"
@@ -1702,27 +1702,27 @@ exports[`Renderer:Nav with overflow 1`] = `
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="opacity: 1;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -1732,26 +1732,26 @@ exports[`Renderer:Nav with overflow 1`] = `
                 </li>
               </ul>
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   role="menuitem"
                   style="opacity: 1;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                       title="Nav 2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 2"
                       >
                         Nav 2
@@ -1761,7 +1761,7 @@ exports[`Renderer:Nav with overflow 1`] = `
                 </li>
               </ul>
               <li
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
                 role="none"
                 style="opacity: 1;"
               >
@@ -1770,13 +1770,13 @@ exports[`Renderer:Nav with overflow 1`] = `
                   aria-disabled="false"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
                   data-menu-id="rc-menu-uuid-rc-menu-more"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon thisisoverflowClassName"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon thisisoverflowClassName"
                   >
                     <i
                       class="fas fa-angle-double-down icon Nav-item-icon fas fa-angle-double-down"
@@ -1784,7 +1784,7 @@ exports[`Renderer:Nav with overflow 1`] = `
                     点击展开
                   </span>
                   <i
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
                   />
                 </div>
               </li>
@@ -1794,28 +1794,28 @@ exports[`Renderer:Nav with overflow 1`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
               />
             </div>
           </div>
@@ -1829,59 +1829,59 @@ exports[`Renderer:Nav with overflow 1`] = `
 exports[`Renderer:Nav with source 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav"
           >
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-inline __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-expand-before"
               data-menu-list="true"
               dir="ltr"
               role="menu"
               tabindex="0"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-1"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="1"
                       title="Nav 1"
                     >
                       <i
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
                       >
                         <i
                           class="fa fa-user mr-2 fa fa-user"
                         />
                       </i>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 1"
                       >
                         Nav 1
@@ -1891,28 +1891,28 @@ exports[`Renderer:Nav with source 1`] = `
                 </li>
               </ul>
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-2"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="2"
                       title="Nav 2"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 2"
                       >
                         Nav 2
@@ -1922,28 +1922,28 @@ exports[`Renderer:Nav with source 1`] = `
                 </li>
               </ul>
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 2;"
               >
                 <li
                   aria-disabled="false"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
                   data-menu-id="rc-menu-uuid-3"
                   role="menuitem"
                   style="padding-left: 16px;"
                   tabindex="-1"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
                   >
                     <a
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
                       data-depth="1"
                       data-id="3"
                       title="Nav 3"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                         title="Nav 3"
                       >
                         Nav 3
@@ -1958,15 +1958,15 @@ exports[`Renderer:Nav with source 1`] = `
               style="display: none;"
             >
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 0;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 1;"
               />
               <ul
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
                 style="order: 2;"
               />
             </div>
@@ -1981,45 +1981,45 @@ exports[`Renderer:Nav with source 1`] = `
 exports[`Renderer:Nav with stacked 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Nav __AMIS_COMPONENT_CLASS_PREFIX__Nav-horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-horizontal"
   >
     <ul
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-root __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-root __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-horizontal __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-ltr __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-light"
       data-menu-list="true"
       dir="ltr"
       role="menu"
       tabindex="0"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           style="opacity: 1; order: 0;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="1"
               title="Nav 1"
             >
               <i
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon"
               >
                 <i
                   class="fa fa-user mr-2 fa fa-user"
                 />
               </i>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 1"
               >
                 Nav 1
@@ -2029,27 +2029,27 @@ exports[`Renderer:Nav with stacked 1`] = `
         </li>
       </ul>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           role="menuitem"
           style="opacity: 1; order: 1;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="2"
               title="Nav 2"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 2"
               >
                 Nav 2
@@ -2059,27 +2059,27 @@ exports[`Renderer:Nav with stacked 1`] = `
         </li>
       </ul>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       >
         <li
           aria-disabled="false"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item"
           role="menuitem"
           style="opacity: 1; order: 2;"
           tabindex="-1"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-wrap"
           >
             <a
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-link"
               data-depth="1"
               data-id="3"
               title="Nav 3"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-label"
                 title="Nav 3"
               >
                 Nav 3
@@ -2090,7 +2090,7 @@ exports[`Renderer:Nav with stacked 1`] = `
       </ul>
       <li
         aria-hidden="true"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflow-item-rest __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-horizontal"
         role="none"
         style="opacity: 0; height: 0px; overflow-y: hidden; order: 9007199254740991; pointer-events: none; position: absolute;"
       >
@@ -2099,16 +2099,16 @@ exports[`Renderer:Nav with stacked 1`] = `
           aria-disabled="false"
           aria-expanded="false"
           aria-haspopup="true"
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-title"
           data-menu-id="rc-menu-uuid-rc-menu-more"
           role="menuitem"
           tabindex="-1"
         >
           <i
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon fa fa-ellipsis-h"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-overflowedIcon fa fa-ellipsis-h"
           />
           <i
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-submenu-arrow"
           />
         </div>
       </li>
@@ -2118,15 +2118,15 @@ exports[`Renderer:Nav with stacked 1`] = `
       style="display: none;"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 0;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 1;"
       />
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Nav-Menu-item-tooltip-wrap"
         style="order: 2;"
       />
     </div>

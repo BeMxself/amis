@@ -87,7 +87,7 @@ export class Root extends React.Component<RootProps> {
     } = this.props;
     const theme = env.theme;
     const themeName = theme.name || normalizeThemeName(this.props.theme);
-    const componentClassPrefix = theme.componentClassPrefix || 'amis-';
+    const componentClassPrefix = theme.componentClassPrefix || 'prismui-';
 
     return (
       <RootStoreContext.Provider value={rootStore}>

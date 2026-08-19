@@ -1,5 +1,5 @@
-$ns: 'antd-';
-:root {
+@import '../functions';
+@mixin prismui-antd-theme-vars {
   --colors-neutral-fill-none: translate;
   --colors-error-main: #ff4d4f;
   --colors-error-1: #660a18;

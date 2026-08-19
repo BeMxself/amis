@@ -20,6 +20,8 @@
     "build-esm": "npm run build-esm --workspaces",
     "build-sdk-next": "node scripts/sdk-build/build-sdk-next.js",
     "build-sdk-next-rollup-entry": "node scripts/sdk-build/build-sdk-next.js --mode rollup-entry",
+    "build-sdk-rollup": "node scripts/sdk-build/build-sdk-next.js --mode rollup-sdk",
+    "build-sdk-fis3": "cd packages/amis && ../../node_modules/.bin/fis3 release publish-sdk -c -f ../../fis-conf.js",
     "check-sdk-contract": "node scripts/sdk-build/check-sdk-contract.js",
     "check-sdk-next-contract": "node scripts/sdk-build/check-sdk-contract.js --sdk-dir packages/amis/sdk-next",
     "check-sdk-placeholder-assets": "node scripts/sdk-build/check-sdk-placeholder-assets.js",
@@ -111,6 +113,7 @@
     "lint-staged": "^12.1.2",
     "magic-string": "^0.26.7",
     "marked": "^4.2.1",
+    "mermaid": "^11.16.1",
     "monaco-editor": "0.30.1",
     "plugin-react-i18n": "1.0.10",
     "postcss-scss": "^4.0.6",
@@ -166,11 +169,16 @@
       "^amis$": "<rootDir>/packages/amis/src/index.tsx"
     },
     "setupFilesAfterEnv": [
-      "<rootDir>/packages/amis-core/__tests__/jest.setup.js"
+      "<rootDir>/packages/amis-core/__tests__/jest.setup.js",
+      "<rootDir>/packages/amis/__tests__/jest.setup.js"
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "/.rollup.cache/"
+      "/.rollup.cache/",
+      "/.worktrees/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.worktrees/"
     ],
     "snapshotFormat": {
       "escapeString": false,

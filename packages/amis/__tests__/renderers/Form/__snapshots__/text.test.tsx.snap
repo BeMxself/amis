@@ -3,17 +3,17 @@
 exports[`Renderer:text 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:text 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:text 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -51,10 +51,10 @@ exports[`Renderer:text 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -71,13 +71,13 @@ exports[`Renderer:text 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -93,17 +93,17 @@ exports[`Renderer:text 1`] = `
 exports[`Renderer:text type is email: validate fail 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -112,10 +112,10 @@ exports[`Renderer:text type is email: validate fail 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -123,16 +123,16 @@ exports[`Renderer:text type is email: validate fail 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--isEmail"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--isEmail"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -141,10 +141,10 @@ exports[`Renderer:text type is email: validate fail 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isEmail __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isEmail __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -158,7 +158,7 @@ exports[`Renderer:text type is email: validate fail 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               Email 格式不正确
@@ -168,13 +168,13 @@ exports[`Renderer:text type is email: validate fail 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -190,17 +190,17 @@ exports[`Renderer:text type is email: validate fail 1`] = `
 exports[`Renderer:text type is email: validate success 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -209,10 +209,10 @@ exports[`Renderer:text type is email: validate success 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -220,16 +220,16 @@ exports[`Renderer:text type is email: validate success 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -238,10 +238,10 @@ exports[`Renderer:text type is email: validate success 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -258,13 +258,13 @@ exports[`Renderer:text type is email: validate success 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -280,17 +280,17 @@ exports[`Renderer:text type is email: validate success 1`] = `
 exports[`Renderer:text type is password with revealPassword 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -299,10 +299,10 @@ exports[`Renderer:text type is password with revealPassword 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -310,16 +310,16 @@ exports[`Renderer:text type is password with revealPassword 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -328,10 +328,10 @@ exports[`Renderer:text type is password with revealPassword 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -348,13 +348,13 @@ exports[`Renderer:text type is password with revealPassword 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -370,17 +370,17 @@ exports[`Renderer:text type is password with revealPassword 1`] = `
 exports[`Renderer:text type is password: password invisible 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -389,10 +389,10 @@ exports[`Renderer:text type is password: password invisible 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -400,16 +400,16 @@ exports[`Renderer:text type is password: password invisible 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -418,14 +418,14 @@ exports[`Renderer:text type is password: password invisible 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input-password"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input-password"
                 name="text"
                 placeholder=""
                 size="10"
@@ -433,10 +433,10 @@ exports[`Renderer:text type is password: password invisible 1`] = `
                 value="abcd"
               />
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-revealPassword"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-revealPassword"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-icon-invisible icon-invisible __AMIS_COMPONENT_CLASS_PREFIX__TextControl-icon-invisible"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-icon-invisible icon-invisible __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-icon-invisible"
                   icon="invisible"
                 />
               </a>
@@ -446,13 +446,13 @@ exports[`Renderer:text type is password: password invisible 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -468,17 +468,17 @@ exports[`Renderer:text type is password: password invisible 1`] = `
 exports[`Renderer:text type is password: password visible 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -487,10 +487,10 @@ exports[`Renderer:text type is password: password visible 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -498,16 +498,16 @@ exports[`Renderer:text type is password: password visible 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -516,14 +516,14 @@ exports[`Renderer:text type is password: password visible 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input-password"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input-password"
                 name="text"
                 placeholder=""
                 size="10"
@@ -531,10 +531,10 @@ exports[`Renderer:text type is password: password visible 1`] = `
                 value="abcd"
               />
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-revealPassword"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-revealPassword"
               >
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-icon-view icon-view __AMIS_COMPONENT_CLASS_PREFIX__TextControl-icon-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-icon-view icon-view __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-icon-view"
                   icon="view"
                 />
               </a>
@@ -544,13 +544,13 @@ exports[`Renderer:text type is password: password visible 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -566,17 +566,17 @@ exports[`Renderer:text type is password: password visible 1`] = `
 exports[`Renderer:text type is url: validate fail 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -585,10 +585,10 @@ exports[`Renderer:text type is url: validate fail 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -596,16 +596,16 @@ exports[`Renderer:text type is url: validate fail 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--isUrl"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--isUrl"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -614,10 +614,10 @@ exports[`Renderer:text type is url: validate fail 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isUrl __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isUrl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -631,7 +631,7 @@ exports[`Renderer:text type is url: validate fail 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               URL 格式不正确
@@ -641,13 +641,13 @@ exports[`Renderer:text type is url: validate fail 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -663,17 +663,17 @@ exports[`Renderer:text type is url: validate fail 1`] = `
 exports[`Renderer:text type is url: validate success 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -682,10 +682,10 @@ exports[`Renderer:text type is url: validate success 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -693,16 +693,16 @@ exports[`Renderer:text type is url: validate success 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -711,10 +711,10 @@ exports[`Renderer:text type is url: validate success 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -731,13 +731,13 @@ exports[`Renderer:text type is url: validate success 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -753,17 +753,17 @@ exports[`Renderer:text type is url: validate success 1`] = `
 exports[`Renderer:text with addOn 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -772,10 +772,10 @@ exports[`Renderer:text with addOn 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -783,16 +783,16 @@ exports[`Renderer:text with addOn 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -801,10 +801,10 @@ exports[`Renderer:text with addOn 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl __AMIS_COMPONENT_CLASS_PREFIX__TextControl--withAddOn"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl--withAddOn"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -817,10 +817,10 @@ exports[`Renderer:text with addOn 1`] = `
               />
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-button"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-button"
             >
               <button
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                 type="button"
               >
                 <span>
@@ -833,13 +833,13 @@ exports[`Renderer:text with addOn 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -855,17 +855,17 @@ exports[`Renderer:text with addOn 1`] = `
 exports[`Renderer:text with clearable 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -874,10 +874,10 @@ exports[`Renderer:text with clearable 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -885,16 +885,16 @@ exports[`Renderer:text with clearable 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -903,10 +903,10 @@ exports[`Renderer:text with clearable 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -918,7 +918,7 @@ exports[`Renderer:text with clearable 1`] = `
                 value="abcd"
               />
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-clear"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-clear"
               >
                 <icon-mock
                   class="icon icon-input-clear"
@@ -931,13 +931,13 @@ exports[`Renderer:text with clearable 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -953,17 +953,17 @@ exports[`Renderer:text with clearable 1`] = `
 exports[`Renderer:text with counter 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -972,10 +972,10 @@ exports[`Renderer:text with counter 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -983,16 +983,16 @@ exports[`Renderer:text with counter 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1001,10 +1001,10 @@ exports[`Renderer:text with counter 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -1016,7 +1016,7 @@ exports[`Renderer:text with counter 1`] = `
                 value=""
               />
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-counter"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-counter"
               >
                 0
               </span>
@@ -1026,13 +1026,13 @@ exports[`Renderer:text with counter 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1048,17 +1048,17 @@ exports[`Renderer:text with counter 1`] = `
 exports[`Renderer:text with counter 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1067,10 +1067,10 @@ exports[`Renderer:text with counter 2`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1078,16 +1078,16 @@ exports[`Renderer:text with counter 2`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1096,10 +1096,10 @@ exports[`Renderer:text with counter 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -1111,7 +1111,7 @@ exports[`Renderer:text with counter 2`] = `
                 value="abcd"
               />
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-counter"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-counter"
               >
                 4
               </span>
@@ -1121,13 +1121,13 @@ exports[`Renderer:text with counter 2`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1143,17 +1143,17 @@ exports[`Renderer:text with counter 2`] = `
 exports[`Renderer:text with counter and maxLength 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1162,10 +1162,10 @@ exports[`Renderer:text with counter and maxLength 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1173,16 +1173,16 @@ exports[`Renderer:text with counter and maxLength 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1191,10 +1191,10 @@ exports[`Renderer:text with counter and maxLength 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -1207,7 +1207,7 @@ exports[`Renderer:text with counter and maxLength 1`] = `
                 value=""
               />
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-counter"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-counter"
               >
                 0/10
               </span>
@@ -1217,13 +1217,13 @@ exports[`Renderer:text with counter and maxLength 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1239,17 +1239,17 @@ exports[`Renderer:text with counter and maxLength 1`] = `
 exports[`Renderer:text with counter and maxLength 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1258,10 +1258,10 @@ exports[`Renderer:text with counter and maxLength 2`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1269,16 +1269,16 @@ exports[`Renderer:text with counter and maxLength 2`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1287,10 +1287,10 @@ exports[`Renderer:text with counter and maxLength 2`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <input
                 autocomplete="off"
@@ -1303,7 +1303,7 @@ exports[`Renderer:text with counter and maxLength 2`] = `
                 value="abcd"
               />
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-counter"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-counter"
               >
                 4/10
               </span>
@@ -1313,13 +1313,13 @@ exports[`Renderer:text with counter and maxLength 2`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1335,17 +1335,17 @@ exports[`Renderer:text with counter and maxLength 2`] = `
 exports[`Renderer:text with minLength 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1354,10 +1354,10 @@ exports[`Renderer:text with minLength 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1365,16 +1365,16 @@ exports[`Renderer:text with minLength 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--maxLength"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error has-error--maxLength"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1383,10 +1383,10 @@ exports[`Renderer:text with minLength 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--maxLength __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--maxLength __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--borderHalf test-text-class-one"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--borderHalf test-text-class-one"
             >
               <input
                 autocomplete="off"
@@ -1402,7 +1402,7 @@ exports[`Renderer:text with minLength 1`] = `
             </div>
           </div>
           <ul
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
           >
             <li>
               请控制内容长度, 不要输入 8 个以上字符
@@ -1412,13 +1412,13 @@ exports[`Renderer:text with minLength 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1434,17 +1434,17 @@ exports[`Renderer:text with minLength 1`] = `
 exports[`Renderer:text with options 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1453,10 +1453,10 @@ exports[`Renderer:text with options 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1464,16 +1464,16 @@ exports[`Renderer:text with options 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1482,12 +1482,12 @@ exports[`Renderer:text with options 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC"
               role="combobox"
             >
               <input
@@ -1506,13 +1506,13 @@ exports[`Renderer:text with options 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1528,17 +1528,17 @@ exports[`Renderer:text with options 1`] = `
 exports[`Renderer:text with options and multiple Renderer:text with options and multiple and delimiter: first option selected 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1547,10 +1547,10 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1558,16 +1558,16 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1576,25 +1576,25 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-1-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
               role="combobox"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionA
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
@@ -1610,18 +1610,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                 value=""
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__TextControl-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugs"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugs"
                 >
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-0"
                     role="option"
                   >
@@ -1631,7 +1631,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-1"
                     role="option"
                   >
@@ -1641,7 +1641,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-2"
                     role="option"
                   >
@@ -1655,18 +1655,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
@@ -1676,13 +1676,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1698,17 +1698,17 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
 exports[`Renderer:text with options and multiple Renderer:text with options and multiple and delimiter: options is opened 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1717,10 +1717,10 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1728,16 +1728,16 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1746,13 +1746,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-1-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
               role="combobox"
             >
               <input
@@ -1767,18 +1767,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                 value=""
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__TextControl-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugs"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugs"
                 >
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-0"
                     role="option"
                   >
@@ -1788,7 +1788,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-1"
                     role="option"
                   >
@@ -1798,7 +1798,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-2"
                     role="option"
                   >
@@ -1808,7 +1808,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-3"
                     role="option"
                   >
@@ -1822,18 +1822,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 <span
                   class="text-muted"
@@ -1847,13 +1847,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1869,17 +1869,17 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
 exports[`Renderer:text with options and multiple Renderer:text with options and multiple and delimiter: options is opened again, and first option already selected 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1888,10 +1888,10 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1899,16 +1899,16 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -1917,25 +1917,25 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-1-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
               role="combobox"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionA
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
@@ -1951,18 +1951,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                 value=""
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__TextControl-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugs"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugs"
                 >
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-0"
                     role="option"
                   >
@@ -1972,7 +1972,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-1"
                     role="option"
                   >
@@ -1982,7 +1982,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-2"
                     role="option"
                   >
@@ -1996,18 +1996,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a
               </span>
@@ -2017,13 +2017,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -2039,17 +2039,17 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
 exports[`Renderer:text with options and multiple Renderer:text with options and multiple and delimiter: second option selected 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -2058,10 +2058,10 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -2069,16 +2069,16 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -2087,38 +2087,38 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-1-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--multiple has-popover"
               role="combobox"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionA
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionB
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
@@ -2134,18 +2134,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                 value=""
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__TextControl-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugs"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugs"
                 >
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-0"
                     role="option"
                   >
@@ -2155,7 +2155,7 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-1-item-1"
                     role="option"
                   >
@@ -2169,18 +2169,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a-b
               </span>
@@ -2190,13 +2190,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -2212,17 +2212,17 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
 exports[`Renderer:text with options and multiple Renderer:text with options and multiple and delimiter: thrid option create 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -2231,10 +2231,10 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -2242,16 +2242,16 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -2260,50 +2260,50 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--multiple"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--multiple"
               role="combobox"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionA
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   OptionB
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-value"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-value"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__OverflowTpl __AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__OverflowTpl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueLabel"
                 >
                   AbCd
                 </span>
                 <icon-mock
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-valueIcon icon icon-close"
                   icon="close"
                 />
               </div>
@@ -2321,18 +2321,18 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-static"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-static"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
               >
                 a-b-AbCd
               </span>
@@ -2342,13 +2342,13 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -2364,17 +2364,17 @@ exports[`Renderer:text with options and multiple Renderer:text with options and 
 exports[`Renderer:text with options: options is open 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -2383,10 +2383,10 @@ exports[`Renderer:text with options: options is open 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -2394,16 +2394,16 @@ exports[`Renderer:text with options: options is open 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -2412,13 +2412,13 @@ exports[`Renderer:text with options: options is open 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-0-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC is-opened has-popover"
               role="combobox"
             >
               <input
@@ -2433,18 +2433,18 @@ exports[`Renderer:text with options: options is open 1`] = `
                 value=""
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__TextControl-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugs"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugs"
                 >
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-0-item-0"
                     role="option"
                   >
@@ -2454,7 +2454,7 @@ exports[`Renderer:text with options: options is open 1`] = `
                   </div>
                   <div
                     aria-selected="false"
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-sugItem"
                     id="downshift-0-item-1"
                     role="option"
                   >
@@ -2470,13 +2470,13 @@ exports[`Renderer:text with options: options is open 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -2492,17 +2492,17 @@ exports[`Renderer:text with options: options is open 1`] = `
 exports[`Renderer:text with options: select first option 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -2511,10 +2511,10 @@ exports[`Renderer:text with options: select first option 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -2522,16 +2522,16 @@ exports[`Renderer:text with options: select first option 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -2540,12 +2540,12 @@ exports[`Renderer:text with options: select first option 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
           >
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input __AMIS_COMPONENT_CLASS_PREFIX__TextControl-input--withAC"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input--withAC"
               role="combobox"
             >
               <input
@@ -2564,13 +2564,13 @@ exports[`Renderer:text with options: select first option 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -2586,17 +2586,17 @@ exports[`Renderer:text with options: select first option 1`] = `
 exports[`Renderer:text with prefix and suffix 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -2605,10 +2605,10 @@ exports[`Renderer:text with prefix and suffix 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -2616,16 +2616,16 @@ exports[`Renderer:text with prefix and suffix 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="text"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   text
@@ -2634,13 +2634,13 @@ exports[`Renderer:text with prefix and suffix 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-inputPrefix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-inputPrefix"
               >
                 ￥
               </span>
@@ -2654,7 +2654,7 @@ exports[`Renderer:text with prefix and suffix 1`] = `
                 value=""
               />
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-inputSuffix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-inputSuffix"
               >
                 RMB
               </span>
@@ -2664,13 +2664,13 @@ exports[`Renderer:text with prefix and suffix 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

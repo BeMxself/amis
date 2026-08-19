@@ -3,17 +3,17 @@
 exports[`Renderer:rating with allowClear 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -22,10 +22,10 @@ exports[`Renderer:rating with allowClear 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:rating with allowClear 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -51,14 +51,14 @@ exports[`Renderer:rating with allowClear 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -66,7 +66,7 @@ exports[`Renderer:rating with allowClear 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -74,7 +74,7 @@ exports[`Renderer:rating with allowClear 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -82,7 +82,7 @@ exports[`Renderer:rating with allowClear 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -90,7 +90,7 @@ exports[`Renderer:rating with allowClear 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -102,51 +102,51 @@ exports[`Renderer:rating with allowClear 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="0"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="rating"
                   role="spinbutton"
                   step="1"
@@ -159,13 +159,13 @@ exports[`Renderer:rating with allowClear 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -181,17 +181,17 @@ exports[`Renderer:rating with allowClear 1`] = `
 exports[`Renderer:rating with char & charClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -200,10 +200,10 @@ exports[`Renderer:rating with char & charClassName 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -211,16 +211,16 @@ exports[`Renderer:rating with char & charClassName 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -229,34 +229,34 @@ exports[`Renderer:rating with char & charClassName 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char is-active"
                 >
                   X
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char is-active"
                 >
                   X
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
                 >
                   X
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
                 >
                   X
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star test-rating-char"
                 >
                   X
                 </li>
@@ -267,13 +267,13 @@ exports[`Renderer:rating with char & charClassName 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -289,17 +289,17 @@ exports[`Renderer:rating with char & charClassName 1`] = `
 exports[`Renderer:rating with colors & inactiveColor 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -308,10 +308,10 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -319,16 +319,16 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -337,14 +337,14 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                   style="color: rgb(119, 168, 141);"
                 >
                   <icon-mock
@@ -353,7 +353,7 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                   style="color: rgb(119, 168, 141);"
                 >
                   <icon-mock
@@ -362,7 +362,7 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                   style="color: rgb(119, 168, 141);"
                 >
                   <icon-mock
@@ -371,7 +371,7 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                   style="color: yellow;"
                 >
                   <icon-mock
@@ -380,7 +380,7 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                   style="color: yellow;"
                 >
                   <icon-mock
@@ -393,16 +393,16 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   选中数量
@@ -411,46 +411,46 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="3"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="rating"
                   role="spinbutton"
                   step="1"
@@ -463,13 +463,13 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -485,17 +485,17 @@ exports[`Renderer:rating with colors & inactiveColor 1`] = `
 exports[`Renderer:rating with count & half 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -504,10 +504,10 @@ exports[`Renderer:rating with count & half 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -515,16 +515,16 @@ exports[`Renderer:rating with count & half 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -533,14 +533,14 @@ exports[`Renderer:rating with count & half 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -548,7 +548,7 @@ exports[`Renderer:rating with count & half 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -556,7 +556,7 @@ exports[`Renderer:rating with count & half 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -564,10 +564,10 @@ exports[`Renderer:rating with count & half 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-half"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-half"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star-half"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star-half"
                   >
                     <icon-mock
                       class="icon icon-star"
@@ -580,7 +580,7 @@ exports[`Renderer:rating with count & half 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -594,13 +594,13 @@ exports[`Renderer:rating with count & half 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -616,17 +616,17 @@ exports[`Renderer:rating with count & half 1`] = `
 exports[`Renderer:rating with readOnly 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -635,10 +635,10 @@ exports[`Renderer:rating with readOnly 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -646,16 +646,16 @@ exports[`Renderer:rating with readOnly 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -664,14 +664,14 @@ exports[`Renderer:rating with readOnly 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -679,7 +679,7 @@ exports[`Renderer:rating with readOnly 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -687,7 +687,7 @@ exports[`Renderer:rating with readOnly 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -695,7 +695,7 @@ exports[`Renderer:rating with readOnly 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -703,7 +703,7 @@ exports[`Renderer:rating with readOnly 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active is-disabled"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -715,51 +715,51 @@ exports[`Renderer:rating with readOnly 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="5"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="rating"
                   role="spinbutton"
                   step="1"
@@ -772,13 +772,13 @@ exports[`Renderer:rating with readOnly 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -794,17 +794,17 @@ exports[`Renderer:rating with readOnly 1`] = `
 exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             The form
@@ -813,10 +813,10 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -824,16 +824,16 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   评分
@@ -842,19 +842,19 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__RatingControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__RatingControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Rating"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating"
             >
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-text test-rating-class __AMIS_COMPONENT_CLASS_PREFIX__Rating-text--left"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-text test-rating-class __PRISMUI_COMPONENT_CLASS_PREFIX__Rating-text--left"
               >
                 非常优秀
               </span>
               <ul>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -862,7 +862,7 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -870,7 +870,7 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -878,7 +878,7 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -886,7 +886,7 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
                   />
                 </li>
                 <li
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Rating-star is-active"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Rating-star is-active"
                 >
                   <icon-mock
                     class="icon icon-star"
@@ -898,16 +898,16 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="rating"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   选中数量
@@ -916,46 +916,46 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__NumberControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__NumberControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
               >
                 <span
                   aria-disabled="false"
                   aria-label="Increase Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                     unselectable="on"
                   />
                 </span>
                 <span
                   aria-disabled="false"
                   aria-label="Decrease Value"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down"
                   role="button"
                   unselectable="on"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                     unselectable="on"
                   />
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
               >
                 <input
                   aria-valuenow="5"
                   autocomplete="off"
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                   name="rating"
                   role="spinbutton"
                   step="1"
@@ -968,13 +968,13 @@ exports[`Renderer:rating with texts & textPosition & textClassName 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

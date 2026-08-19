@@ -42,19 +42,19 @@ test('Renderer:InputQuarterRange click', async () => {
     )
   );
 
-  const inputs = document.querySelectorAll('.cxd-DateRangePicker-input')!;
+  const inputs = document.querySelectorAll('.prismui-DateRangePicker-input')!;
 
   fireEvent.click(inputs[0]!);
 
   fireEvent.click(
     await within(
-      document.querySelector('.cxd-DateRangePicker-start')!
+      document.querySelector('.prismui-DateRangePicker-start')!
     ).findByText('Q1')
   );
 
   fireEvent.click(
     await within(
-      document.querySelector('.cxd-DateRangePicker-start')!
+      document.querySelector('.prismui-DateRangePicker-start')!
     ).findByText('Q4')
   );
 
@@ -94,13 +94,13 @@ test('Renderer:InputQuarterRange with embed', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-start .rdtQuarter.rdtActive span'
+      '.prismui-DateRangePicker-start .rdtQuarter.rdtActive span'
     )!.innerHTML
   ).toBe('Q4');
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-end .rdtQuarter.rdtActive span'
+      '.prismui-DateRangePicker-end .rdtQuarter.rdtActive span'
     )!.innerHTML
   ).toBe('Q4');
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import {DOCS_BASE_PATH, isDocsDeployment} from './publicPath';
 import {match} from 'path-to-regexp';
 import makeSchemaRenderer from './SchemaRender';
 
@@ -929,8 +930,8 @@ export const examples = [
         path: '/examples/app/',
         component: () => {
           // 如果在 gh-pages 里面
-          if (/^\/amis/.test(window.location.pathname)) {
-            window.open(`/amis/app/`, '_blank');
+          if (isDocsDeployment(window.location.pathname)) {
+            window.open(`${DOCS_BASE_PATH}/app/`, '_blank');
           } else {
             window.open(`/examples/app/`, '_blank');
           }

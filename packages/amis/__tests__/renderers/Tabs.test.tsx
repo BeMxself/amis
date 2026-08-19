@@ -364,7 +364,7 @@ test('Renderer:tabs editable', async () => {
   fireEvent.doubleClick(getByText('其他配置'));
 
   await waitFor(() => {
-    expect(!container.querySelector('.amis-Tabs-link-edit')).toBeFalsy();
+    expect(!container.querySelector('.prismui-Tabs-link-edit')).toBeFalsy();
   });
 });
 
@@ -396,10 +396,10 @@ test('Renderer:tabs closable', async () => {
     )
   );
 
-  fireEvent.click(container.querySelector('.amis-Tabs-link-close')!);
+  fireEvent.click(container.querySelector('.prismui-Tabs-link-close')!);
 
   await waitFor(() => {
-    expect(container.querySelectorAll('.amis-Tabs-link').length).toBe(1);
+    expect(container.querySelectorAll('.prismui-Tabs-link').length).toBe(1);
   });
 });
 
@@ -432,7 +432,7 @@ test('Renderer:tabs disabled', async () => {
 
   expect(
     container
-      .querySelectorAll('.amis-Tabs-link')[0]
+      .querySelectorAll('.prismui-Tabs-link')[0]
       .classList.contains('is-active')
   ).toBeTruthy();
 });
@@ -524,13 +524,13 @@ test('Renderer:tabs with collapseOnExceed', async () => {
     )
   );
 
-  expect(container.querySelectorAll('.amis-Tabs-link')!.length).toBe(3);
+  expect(container.querySelectorAll('.prismui-Tabs-link')!.length).toBe(3);
   expect(
-    container.querySelector('.is-active.amis-Tabs-pane')!
+    container.querySelector('.is-active.prismui-Tabs-pane')!
   ).toHaveTextContent('Content 1');
 
   const showMore = container.querySelector(
-    '.amis-Tabs-link .amis-Tabs-togglor'
+    '.prismui-Tabs-link .prismui-Tabs-togglor'
   )!;
   expect(showMore).toBeInTheDocument();
 
@@ -538,14 +538,14 @@ test('Renderer:tabs with collapseOnExceed', async () => {
   await wait(100);
 
   expect(
-    container.querySelectorAll('.amis-Tabs-PopOver .amis-Tabs-link')!.length
+    container.querySelectorAll('.prismui-Tabs-PopOver .prismui-Tabs-link')!.length
   ).toBe(3);
   expect(container).toMatchSnapshot('popover show');
 
   fireEvent.click(getByText('Tab 5'));
   await wait(100);
   expect(
-    container.querySelector('.is-active.amis-Tabs-pane')!
+    container.querySelector('.is-active.prismui-Tabs-pane')!
   ).toHaveTextContent('Content 5');
 });
 
@@ -615,7 +615,7 @@ test('Renderer:Tabs delete actions', async () => {
     })
   );
 
-  const tabs = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
+  const tabs = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
 
   expect(tabs.length).toBe(3);
   expect(tabs[0].textContent).toBe('选项卡1');
@@ -624,14 +624,14 @@ test('Renderer:Tabs delete actions', async () => {
 
   fireEvent.click(getByText('删除选项卡1'));
   await wait(300);
-  const tabs1 = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
+  const tabs1 = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
   expect(tabs1.length).toBe(2);
   expect(tabs1[0].textContent).toBe('选项卡2');
   expect(tabs1[1].textContent).toBe('选项卡3');
 
   fireEvent.click(getByText('删除选项卡3'));
   await wait(300);
-  const tabs2 = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
+  const tabs2 = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
   expect(tabs2.length).toBe(1);
   expect(tabs2[0].textContent).toBe('选项卡2');
 });

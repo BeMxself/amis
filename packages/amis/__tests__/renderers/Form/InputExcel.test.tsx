@@ -139,12 +139,12 @@ describe('Renderer:InputExcel', () => {
     simulateFileUpload(fileInput, [mockExcelFile]);
 
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
   });
@@ -177,12 +177,12 @@ describe('Renderer:InputExcel', () => {
     simulateFileUpload(input, [mockExcelFile]);
 
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
   });
@@ -211,17 +211,17 @@ describe('Renderer:InputExcel', () => {
     simulateFileUpload(input, [mockExcelFile]);
 
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
 
     // 获取删除按钮 (必须指定multiple: true才会显示)
-    const removeBtn = container.querySelector('.cxd-ExcelControl-clear');
+    const removeBtn = container.querySelector('.prismui-ExcelControl-clear');
     if (removeBtn) {
       // 如果找到删除按钮, 则点击它
       fireEvent.click(removeBtn);
@@ -244,7 +244,7 @@ describe('Renderer:InputExcel', () => {
     }
 
     // 验证上传区域继续存在
-    expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
   });
 
   test('Renderer:InputExcel with allSheets=true', async () => {
@@ -262,7 +262,7 @@ describe('Renderer:InputExcel', () => {
       }, {}, makeEnv())
     );
 
-    const excelControl = container.querySelector('.cxd-ExcelControl');
+    const excelControl = container.querySelector('.prismui-ExcelControl');
     expect(excelControl).toBeInTheDocument();
 
     // Upload a file
@@ -274,12 +274,12 @@ describe('Renderer:InputExcel', () => {
     simulateFileUpload(input, [mockExcelFile]);
 
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
   });
@@ -301,12 +301,12 @@ describe('Renderer:InputExcel', () => {
       })
     );
 
-    const excelControl = container.querySelector('.cxd-ExcelControl');
+    const excelControl = container.querySelector('.prismui-ExcelControl');
     expect(excelControl).toBeInTheDocument();
     
     // 在多文件模式下, 区域应该包含 is-disabled 类
     await waitFor(() => {
-      const dropzone = container.querySelector('.cxd-ExcelControl-dropzone');
+      const dropzone = container.querySelector('.prismui-ExcelControl-dropzone');
       expect(dropzone).toBeInTheDocument();
       expect(dropzone?.classList.contains('is-disabled')).toBeTruthy();
     });
@@ -363,7 +363,7 @@ describe('Renderer:InputExcel', () => {
       }, {}, makeEnv())
     );
 
-    const dropzone = container.querySelector('.cxd-ExcelControl-dropzone');
+    const dropzone = container.querySelector('.prismui-ExcelControl-dropzone');
     expect(dropzone).toBeInTheDocument();
     expect(dropzone?.textContent).toContain('Custom placeholder text');
   });
@@ -383,7 +383,7 @@ describe('Renderer:InputExcel', () => {
       }, {}, makeEnv())
     );
 
-    const excelControl = container.querySelector('.cxd-ExcelControl');
+    const excelControl = container.querySelector('.prismui-ExcelControl');
     expect(excelControl).toBeInTheDocument();
   });
 
@@ -416,12 +416,12 @@ describe('Renderer:InputExcel', () => {
 
     // Wait for file to be processed
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
   });
@@ -455,12 +455,12 @@ describe('Renderer:InputExcel', () => {
 
     // Wait for file to be processed
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
 
@@ -489,18 +489,18 @@ describe('Renderer:InputExcel', () => {
     simulateFileUpload(input, [mockExcelFile]);
 
     await waitFor(() => {
-      // 对于单文件模式，.cxd-ExcelControl-list 元素不存在，检查任何显示
-      if (container.querySelector('.cxd-ExcelControl-list')) {
-        expect(container.querySelector('.cxd-ExcelControl-list')).toBeInTheDocument();
+      // 对于单文件模式，.prismui-ExcelControl-list 元素不存在，检查任何显示
+      if (container.querySelector('.prismui-ExcelControl-list')) {
+        expect(container.querySelector('.prismui-ExcelControl-list')).toBeInTheDocument();
       } else {
         // 单文件模式只检查上传区域存在
-        expect(container.querySelector('.cxd-ExcelControl-dropzone')).toBeInTheDocument();
+        expect(container.querySelector('.prismui-ExcelControl-dropzone')).toBeInTheDocument();
       }
     });
 
     // 验证是否达到最大上传数量限制
     await waitFor(() => {
-      const dropzone = container.querySelector('.cxd-ExcelControl-dropzone');
+      const dropzone = container.querySelector('.prismui-ExcelControl-dropzone');
       // 在多文件模式, 上传区域应该禁用
       if (dropzone?.classList.contains('is-disabled')) {
         expect(dropzone?.classList.contains('is-disabled')).toBeTruthy();

@@ -7,8 +7,7 @@ import {clearStoresCache} from '../../../src';
 
 afterEach(() => {
   theme('cxd', {
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    componentClassPrefix: 'prismui-'
   });
   cleanup();
   clearStoresCache();
@@ -69,7 +68,6 @@ test('Renderer:button', async () => {
   expect(textButton).toHaveClass(componentClass('Button'));
   expect(textButton).toHaveClass(componentClass('Button--default'));
   expect(textButton).toHaveClass(componentClass('Button--size-default'));
-  expect(textButton).not.toHaveClass('cxd-Button');
   expect(submitButton).toHaveClass(componentClass('Button--primary'));
   expect(resetButton).toHaveClass(componentClass('Button--size-sm'));
   expect(container).toMatchSnapshot();
@@ -78,10 +76,8 @@ test('Renderer:button', async () => {
   expect(container).toMatchSnapshot();
 });
 
-test('Renderer:button legacy DOM alias', () => {
-  theme('cxd', {
-    legacyDomClassAlias: 'cxd'
-  });
+test('Renderer:button emits only the stable PrismUI component prefix', () => {
+  theme('cxd', {});
 
   const {getByText} = render(
     amisRender({
@@ -91,9 +87,14 @@ test('Renderer:button legacy DOM alias', () => {
     })
   );
   const aliasButton = getByText('Alias Button').closest('button')!;
+  const classTokens = aliasButton.className.split(/\s+/).filter(Boolean);
 
   expect(aliasButton).toHaveClass(componentClass('Button'));
-  expect(aliasButton).toHaveClass('cxd-Button');
   expect(aliasButton).toHaveClass(componentClass('Button--primary'));
-  expect(aliasButton).toHaveClass('cxd-Button--primary');
+  expect(classTokens.filter(token => token === 'prismui-Button')).toHaveLength(
+    1
+  );
+  expect(
+    classTokens.filter(token => token === 'prismui-Button--primary')
+  ).toHaveLength(1);
 });

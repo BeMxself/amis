@@ -1,7 +1,7 @@
 @use 'sass:color';
 @import './functions';
 @import './variables';
-@import './tokens/index';
+$prismui-theme-vars-only: false !default;
 $remFactor: 16px;
 
 /* 此处放置需要override的变量，因为部分变量已经在variables.scss中定义 */
@@ -12,8 +12,7 @@ $Table-strip-bg: transparent;
   --affix-offset-bottom: 0px;
 }
 
-:root,
-.AMISCSSWrapper {
+@mixin prismui-property-vars {
   --white: var(--colors-neutral-text-11);
   --primary: var(--colors-brand-5);
   --primary-onHover: var(--colors-brand-6);
@@ -886,14 +885,16 @@ $Table-strip-bg: transparent;
   --IconSelect-type-width: #{px2rem(88px)};
   --IconSelect-type-li-height: #{px2rem(32px)};
   --IconSelect-type-li-padding: var(--gap-md);
+
+  @media (max-width: 767px) {
+    --fontSizeBase: var(--fontSizeLg);
+    --Page-body-padding: var(--gap-md);
+  }
 }
 
-@media (max-width: 767px) {
-  :root {
-    --fontSizeBase: var(--fontSizeLg);
-  }
+@if not $prismui-theme-vars-only {
   :root,
   .AMISCSSWrapper {
-    --Page-body-padding: var(--gap-md);
+    @include prismui-property-vars;
   }
 }

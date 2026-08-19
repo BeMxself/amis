@@ -43,13 +43,13 @@ test('Renderer:inputYearRange click', async () => {
   const nextYearText = moment().add(1, 'year').format('YYYY');
 
   const thisYear = await within(
-    document.querySelector('.cxd-DateRangePicker-start')!
+    document.querySelector('.prismui-DateRangePicker-start')!
   ).findByText(thisYearText);
 
   fireEvent.click(thisYear);
 
   const nextYear = await within(
-    document.querySelector('.cxd-DateRangePicker-end')!
+    document.querySelector('.prismui-DateRangePicker-end')!
   ).findByText(nextYearText);
 
   fireEvent.click(nextYear);
@@ -58,7 +58,7 @@ test('Renderer:inputYearRange click', async () => {
 
   fireEvent.click(confirm);
 
-  const value = document.querySelectorAll('.cxd-DateRangePicker-input')!;
+  const value = document.querySelectorAll('.prismui-DateRangePicker-input')!;
 
   expect((value[0] as HTMLInputElement).value).toEqual(thisYearText);
   expect((value[1] as HTMLInputElement).value).toEqual(nextYearText);
@@ -89,12 +89,12 @@ test('Renderer:inputYearRange with embed', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-start .rdtYear.rdtActive span'
+      '.prismui-DateRangePicker-start .rdtYear.rdtActive span'
     )!.innerHTML
   ).toBe('1995');
 
   expect(
-    container.querySelector('.cxd-DateRangePicker-end .rdtYear.rdtActive span')!
+    container.querySelector('.prismui-DateRangePicker-end .rdtYear.rdtActive span')!
       .innerHTML
   ).toBe('2076');
 

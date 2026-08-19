@@ -682,7 +682,13 @@ export const HocQuickEdit =
           // 此处的readOnly会导致组件值无法传递出去，如 value: "${a + b}" 这样的 value 变化需要同步到数据域
           // || readOnly
         ) {
-          return <Component {...restProps} formItemRef={this.formItemRef} />;
+          return (
+            <Component
+              {...restProps}
+              wrapperRef={quickEditRootRef}
+              formItemRef={this.formItemRef}
+            />
+          );
         }
 
         if (

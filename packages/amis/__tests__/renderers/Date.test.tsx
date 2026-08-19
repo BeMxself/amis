@@ -25,7 +25,7 @@ test('Renderer:date', async () => {
     )
   );
 
-  const input = container.querySelector('.cxd-DateField');
+  const input = container.querySelector('.prismui-DateField');
   expect(input?.innerHTML).toEqual(
     moment('1559836800', 'X').format('YYYY-MM-DD')
   );

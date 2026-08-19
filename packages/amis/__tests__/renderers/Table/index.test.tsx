@@ -23,21 +23,21 @@ describe('Table tableFillHeight', () => {
   it('autoFillHeight未开启，table元素高度根据内容撑开', () => {
     const {container} = renderTable();
     expect(
-      container.querySelector('.amis-Table-table--tableFillHeight')
+      container.querySelector('.prismui-Table-table--tableFillHeight')
     ).toBeNull();
   });
 
   it('autoFillHeight开启，表格有数据，table元素高度根据内容撑开', () => {
     const {container} = renderTable(true, [{id: 1}]);
     expect(
-      container.querySelector('.amis-Table-table--tableFillHeight')
+      container.querySelector('.prismui-Table-table--tableFillHeight')
     ).toBeNull();
   });
 
   it('autoFillHeight开启，表格无数据，table元素高度根据父元素撑开', () => {
     const {container} = renderTable(true, []);
     expect(
-      container.querySelector('.amis-Table-table--tableFillHeight')
+      container.querySelector('.prismui-Table-table--tableFillHeight')
     ).toBeInTheDocument();
   });
 });

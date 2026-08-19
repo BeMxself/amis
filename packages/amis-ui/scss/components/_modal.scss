@@ -1,7 +1,7 @@
 .is-modalOpened {
   overflow: hidden;
 
-  .amis-Modal {
+  .prismui-Modal {
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-.amis-Modal {
+.prismui-Modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -182,7 +182,7 @@
     border-bottom-left-radius: var(--Modal-content-borderRadius);
     border-bottom-right-radius: var(--Modal-content-borderRadius);
 
-    .amis-Button {
+    .prismui-Button {
       min-width: var(--Modal-footer-button-width);
       margin-left: var(--dialog-footer-margin-left);
     }
@@ -190,8 +190,8 @@
 }
 
 @for $i from (2) through 10 {
-  .amis-Modal--#{$i}th {
-    .amis-Modal-content {
+  .prismui-Modal--#{$i}th {
+    .prismui-Modal-content {
       margin-top: calc(
         var(--Modal-content-startMarginTop) +
           #{($i - 1)} *
@@ -202,58 +202,58 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .amis-Modal-content:not(.amis-Modal-content-custom) {
+  .prismui-Modal-content:not(.prismui-Modal-content-custom) {
     max-width: var(--dialog-size-normal-width);
   }
 
-  .amis-Modal--sm .amis-Modal-content {
+  .prismui-Modal--sm .prismui-Modal-content {
     max-width: var(--dialog-size-sm-width);
   }
 
-  .amis-Modal--base .amis-Modal-content {
+  .prismui-Modal--base .prismui-Modal-content {
     max-width: var(--Modal-widthBase);
   }
 
-  .amis-Modal--md .amis-Modal-content {
+  .prismui-Modal--md .prismui-Modal-content {
     max-width: var(--Modal-widthMd);
   }
 
-  .amis-Modal--lg .amis-Modal-content {
+  .prismui-Modal--lg .prismui-Modal-content {
     max-width: var(--dialog-size-lg-width);
   }
 
-  .amis-Modal--xl .amis-Modal-content {
+  .prismui-Modal--xl .prismui-Modal-content {
     max-width: var(--dialog-size-xl-width);
   }
 }
 
-.amis-Dialog-info {
+.prismui-Dialog-info {
   flex-basis: 0;
   flex-grow: 1;
   text-align: left;
 }
 
-.amis-Dialog-error {
+.prismui-Dialog-error {
   color: var(--danger);
   white-space: pre-wrap;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
-.amis-Modal--full {
+.prismui-Modal--full {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  > .amis-Modal-content {
+  > .prismui-Modal-content {
     flex-basis: 0;
     flex-grow: 1;
     margin: 30px;
     width: calc(100% - 60px);
     max-width: unset;
 
-    > .amis-Modal-body {
+    > .prismui-Modal-body {
       height: 0;
       overflow: auto;
     }
@@ -262,11 +262,11 @@
 
 /* 移动端样式调整 */
 @include media-breakpoint-down(sm) {
-  .amis-Modal {
-    .amis-Modal-footer {
+  .prismui-Modal {
+    .prismui-Modal-footer {
       display: flex;
 
-      > .amis-Button {
+      > .prismui-Button {
         min-width: 0;
         min-height: 0;
         flex: 1;

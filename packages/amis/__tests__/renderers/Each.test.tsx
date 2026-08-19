@@ -31,7 +31,7 @@ test('Renderer:Each basic use', async () => {
     })
   );
 
-  const items = container.querySelectorAll('.cxd-Each .cxd-TplField');
+  const items = container.querySelectorAll('.prismui-Each .prismui-TplField');
 
   expect(items!.length).toBe(3);
   expect(items[0]).toHaveTextContent('A');
@@ -50,7 +50,7 @@ test('Renderer:Each with array of objects value', async () => {
       className: 'show'
     })
   );
-  const items = container.querySelectorAll('.cxd-Each .cxd-TplField');
+  const items = container.querySelectorAll('.prismui-Each .prismui-TplField');
 
   expect(items!.length).toBe(2);
   expect(items[1]).toHaveTextContent('martin:1');
@@ -92,7 +92,7 @@ test('Renderer:Each with source', async () => {
       }
     })
   );
-  const items = container.querySelectorAll('.cxd-Each .cxd-Wrapper');
+  const items = container.querySelectorAll('.prismui-Each .prismui-Wrapper');
 
   expect(items!.length).toBe(2);
   expect(items[1]).toHaveTextContent('age: 29');
@@ -120,6 +120,6 @@ test('Renderer:Each in form', async () => {
     })
   );
 
-  expect(container.querySelector('.cxd-Form .cxd-Each'));
+  expect(container.querySelector('.prismui-Form .prismui-Each'));
   expect(container).toMatchSnapshot();
 });

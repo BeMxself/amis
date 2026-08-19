@@ -1,13 +1,10 @@
 import type {PlainObject, ThemeDefinition} from './declares';
 
-const LEGACY_THEME_CLASS_PREFIX = ['.', 'cxd-'].join('');
-
 export interface ThemeCssGenerationOptions {
   theme?: string;
   scope?: string | {selector?: string; value?: string};
   componentClassPrefix?: string;
-  tokenNamespace?: '--amis';
-  legacySelectorPolicy?: 'warn-and-migrate' | 'reject-new';
+  tokenNamespace?: '--prismui';
 }
 
 export interface GeneratedThemeCss {
@@ -36,9 +33,8 @@ export class ParseThemeData {
     this.options = {
       theme: this.theme,
       scope: options.scope || '',
-      componentClassPrefix: options.componentClassPrefix || 'amis-',
-      tokenNamespace: options.tokenNamespace || '--amis',
-      legacySelectorPolicy: options.legacySelectorPolicy || 'warn-and-migrate'
+      componentClassPrefix: options.componentClassPrefix || 'prismui-',
+      tokenNamespace: options.tokenNamespace || '--prismui'
     };
     this.scope = this.normalizeScope(scope);
   }
@@ -113,7 +109,7 @@ export class ParseThemeData {
     const themeScope = this.themeScopeSelector();
     const scopes = [...(scope || [])];
     const hasThemeScope = scopes.some(item =>
-      item.includes('[data-amis-theme')
+      item.includes('[data-prismui-theme')
     );
 
     if (!hasThemeScope) {
@@ -134,14 +130,14 @@ export class ParseThemeData {
     }
 
     if (typeof scope === 'object' && scope?.value) {
-      return `[data-amis-theme="${scope.value.replace(/"/g, '\\"')}"]`;
+      return `[data-prismui-theme="${scope.value.replace(/"/g, '\\"')}"]`;
     }
 
-    return `[data-amis-theme="${this.theme.replace(/"/g, '\\"')}"]`;
+    return `[data-prismui-theme="${this.theme.replace(/"/g, '\\"')}"]`;
   }
 
   private scopeSelector(selector: string) {
-    if (selector.includes('[data-amis-theme')) {
+    if (selector.includes('[data-prismui-theme')) {
       return selector;
     }
 
@@ -150,18 +146,6 @@ export class ParseThemeData {
 
   private stableButtonClass(modifier: string) {
     return `.${this.options.componentClassPrefix}Button--${modifier}`;
-  }
-
-  private legacyThemeClass(name: string) {
-    return `${LEGACY_THEME_CLASS_PREFIX}${name}`;
-  }
-
-  private recordLegacySelectorMigration(from: string, to: string) {
-    const warning = `migrated legacy selector ${from} to ${to}`;
-
-    if (!this.migrationWarnings.includes(warning)) {
-      this.migrationWarnings.push(warning);
-    }
   }
 
   /**
@@ -319,10 +303,6 @@ export class ParseThemeData {
           ].join(';');
 
         const buttonSelector = this.stableButtonClass(fontType);
-        this.recordLegacySelectorMigration(
-          this.legacyThemeClass(`Button--${fontType}`),
-          buttonSelector
-        );
         this.classFormat(buttonSelector, `${style('default')}`);
         this.classFormat(
           `${buttonSelector}:not(:disabled):not(.is-disabled):hover`,
@@ -339,10 +319,6 @@ export class ParseThemeData {
       if (item.custom) {
         const fontType = item.type;
         const sizeSelector = this.stableButtonClass(`size-${fontType}`);
-        this.recordLegacySelectorMigration(
-          this.legacyThemeClass(`Button--size-${fontType}`),
-          sizeSelector
-        );
         this.classFormat(
           sizeSelector,
           [

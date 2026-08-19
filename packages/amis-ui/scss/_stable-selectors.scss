@@ -1,19 +1,19 @@
-$amis-component-prefix: 'amis-' !default;
+$prismui-component-prefix: 'prismui-' !default;
 
-@mixin amis-component($name) {
-  .#{$amis-component-prefix}#{$name} {
+@mixin prismui-component($name) {
+  .#{$prismui-component-prefix}#{$name} {
     @content;
   }
 }
 
-@mixin amis-theme($theme) {
-  [data-amis-theme='#{$theme}'] {
+@mixin prismui-theme($theme) {
+  [data-prismui-theme='#{$theme}'] {
     @content;
   }
 }
 
-@mixin amis-themed-component($theme, $name) {
-  [data-amis-theme='#{$theme}'] .#{$amis-component-prefix}#{$name} {
+@mixin prismui-themed-component($theme, $name) {
+  [data-prismui-theme='#{$theme}'] .#{$prismui-component-prefix}#{$name} {
     @content;
   }
 }

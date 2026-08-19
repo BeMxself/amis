@@ -164,7 +164,7 @@ for (const color of colors) {
         name: `config.theme._vars["${color.name}"]`
       },
       {
-        label: '云舍默认值',
+        label: 'cxd 默认值',
         type: 'static-color',
         value: color.cxdValue,
         visibleOn: 'data.config.theme.baseTheme === "cxd"',

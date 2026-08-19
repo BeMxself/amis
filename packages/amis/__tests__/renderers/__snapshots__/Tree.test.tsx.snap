@@ -3,31 +3,31 @@
 exports[`Tree: basic & disabled children & default check children 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -47,16 +47,16 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="tree"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Tree
@@ -65,23 +65,23 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TreeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TreeControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree"
                     >
                       <ul
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-list"
                       >
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
                               <icon-mock
                                 class="icon icon-down-arrow-bold"
@@ -89,10 +89,10 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                               />
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
                                   class="icon icon-folder"
@@ -100,32 +100,32 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="Folder A"
                               >
                                 Folder A
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 1;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -133,26 +133,26 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file A"
                               >
                                 file A
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item is-child"
                           style="--Tree-depth: 1;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
                               <icon-mock
                                 class="icon icon-down-arrow-bold"
@@ -160,10 +160,10 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                               />
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
                                   class="icon icon-folder"
@@ -171,32 +171,32 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="Folder B"
                               >
                                 Folder B
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 2;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -204,32 +204,32 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file b1"
                               >
                                 file b1
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 2;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -237,32 +237,32 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file b2"
                               >
                                 file b2
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -270,32 +270,32 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file C"
                               >
                                 file C
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -303,13 +303,13 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file D"
                               >
                                 file D
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
@@ -321,13 +321,13 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -347,31 +347,31 @@ exports[`Tree: basic & disabled children & default check children 1`] = `
 exports[`Tree: showOutline 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -380,10 +380,10 @@ exports[`Tree: showOutline 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -391,16 +391,16 @@ exports[`Tree: showOutline 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="tree"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Tree
@@ -409,23 +409,23 @@ exports[`Tree: showOutline 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TreeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TreeControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree __AMIS_COMPONENT_CLASS_PREFIX__Tree--outline"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree __PRISMUI_COMPONENT_CLASS_PREFIX__Tree--outline"
                     >
                       <ul
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-list"
                       >
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
                               <icon-mock
                                 class="icon icon-down-arrow-bold"
@@ -433,10 +433,10 @@ exports[`Tree: showOutline 1`] = `
                               />
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
                                   class="icon icon-folder"
@@ -444,32 +444,32 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="Folder A"
                               >
                                 Folder A
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 1;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -477,26 +477,26 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file A"
                               >
                                 file A
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item is-child"
                           style="--Tree-depth: 1;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                             >
                               <icon-mock
                                 class="icon icon-down-arrow-bold"
@@ -504,10 +504,10 @@ exports[`Tree: showOutline 1`] = `
                               />
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                               >
                                 <icon-mock
                                   class="icon icon-folder"
@@ -515,32 +515,32 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="Folder B"
                               >
                                 Folder B
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 2;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -548,32 +548,32 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file b1"
                               >
                                 file b1
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                           style="--Tree-depth: 2;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -581,32 +581,32 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file b2"
                               >
                                 file b2
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -614,32 +614,32 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file C"
                               >
                                 file C
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
                         </li>
                         <li
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
                           style="--Tree-depth: 0;"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                             />
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                             >
                               <i
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                               >
                                 <icon-mock
                                   class="icon icon-file"
@@ -647,13 +647,13 @@ exports[`Tree: showOutline 1`] = `
                                 />
                               </i>
                               <span
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                 title="file D"
                               >
                                 file D
                               </span>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                               />
                             </div>
                           </div>
@@ -665,13 +665,13 @@ exports[`Tree: showOutline 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

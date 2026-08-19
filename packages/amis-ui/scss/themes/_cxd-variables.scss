@@ -1,5 +1,5 @@
-$ns: 'cxd-';
-:root {
+@import '../functions';
+@mixin prismui-cxd-theme-vars {
   --colors-neutral-fill-none: translate;
   --colors-error-1: #590410;
   --colors-error-2: #800d18;

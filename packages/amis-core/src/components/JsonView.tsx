@@ -35,6 +35,68 @@ interface JsonViewModules extends JsonViewThemes {
   JsonViewEditor: React.ComponentType<any>;
 }
 
+const legacyEightiesTheme = createLegacyBase16Theme({
+  base00: '#2d2d2d',
+  base01: '#393939',
+  base02: '#515151',
+  base04: '#a09f93',
+  base07: '#f2f0ec',
+  base08: '#f2777a',
+  base09: '#f99157',
+  base0A: '#ffcc66',
+  base0B: '#99cc99',
+  base0C: '#66cccc',
+  base0D: '#6699cc',
+  base0E: '#cc99cc',
+  base0F: '#d27b53'
+});
+
+const legacyTwilightTheme = createLegacyBase16Theme({
+  base00: '#1e1e1e',
+  base01: '#323537',
+  base02: '#464b50',
+  base04: '#838184',
+  base07: '#ffffff',
+  base08: '#cf6a4c',
+  base09: '#cda869',
+  base0A: '#f9ee98',
+  base0B: '#8f9d6a',
+  base0C: '#afc4db',
+  base0D: '#7587a6',
+  base0E: '#9b859d',
+  base0F: '#9b703f'
+});
+
+function createLegacyBase16Theme(theme: Record<string, string>) {
+  return {
+    '--w-rjv-font-family': 'monospace',
+    '--w-rjv-color': theme.base07,
+    '--w-rjv-background-color': theme.base00,
+    '--w-rjv-line-color': theme.base02,
+    '--w-rjv-arrow-color': theme.base0E,
+    '--w-rjv-expanded-icon-color': theme.base0D,
+    '--w-rjv-collapsed-icon-color': theme.base0E,
+    '--w-rjv-edit-color': theme.base0D,
+    '--w-rjv-info-color': theme.base04,
+    '--w-rjv-update-color': theme.base01,
+    '--w-rjv-copied-color': theme.base0D,
+    '--w-rjv-copied-success-color': theme.base0B,
+    '--w-rjv-curlybraces-color': theme.base07,
+    '--w-rjv-colon-color': theme.base07,
+    '--w-rjv-brackets-color': theme.base07,
+    '--w-rjv-type-string-color': theme.base0B,
+    '--w-rjv-type-int-color': theme.base09,
+    '--w-rjv-type-float-color': theme.base09,
+    '--w-rjv-type-bigint-color': theme.base09,
+    '--w-rjv-type-boolean-color': theme.base09,
+    '--w-rjv-type-date-color': theme.base0D,
+    '--w-rjv-type-url-color': theme.base0C,
+    '--w-rjv-type-null-color': theme.base08,
+    '--w-rjv-type-nan-color': theme.base0A,
+    '--w-rjv-type-undefined-color': theme.base0F
+  } as React.CSSProperties;
+}
+
 type JsonViewEditOption = {
   value: unknown;
   oldValue: unknown;
@@ -100,9 +162,31 @@ function LegacyCountInfo({count}: {count: number}) {
   );
 }
 
+function LegacyEllipsis({
+  count,
+  className,
+  style,
+  ...props
+}: React.HTMLAttributes<HTMLSpanElement> & {count: number}) {
+  if (count === 0) {
+    return null;
+  }
+
+  return (
+    <span
+      {...props}
+      className={className}
+      style={{cursor: 'pointer', ...style}}
+    >
+      ...
+    </span>
+  );
+}
+
 function createLegacyComponents(iconStyle: JsonViewProps['iconStyle']) {
   return {
     countInfo: LegacyCountInfo,
+    ellipsis: LegacyEllipsis,
     ...(iconStyle && iconStyle !== 'triangle'
       ? {arrow: <LegacyJsonArrow iconStyle={iconStyle} />}
       : null)
@@ -225,9 +309,11 @@ function resolveTheme(
   }
 
   switch (theme) {
-    case 'eighties':
-    case 'monokai':
     case 'twilight':
+      return legacyTwilightTheme;
+    case 'eighties':
+      return legacyEightiesTheme;
+    case 'monokai':
       return monokaiTheme;
     case 'dark':
       return darkTheme;

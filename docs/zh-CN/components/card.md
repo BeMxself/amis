@@ -77,7 +77,7 @@ order: 31
 ```schema: scope="body"
 {
     "type": "card",
-    "href": "https://github.com/baidu/amis",
+    "href": "https://github.com/Gengxin-Tech/prismui",
     "header": {
         "title": "标题",
         "subTitle": "副标题",
@@ -141,7 +141,7 @@ order: 31
 ```schema: scope="body"
 {
     "type": "card",
-    "href": "https://github.com/baidu/amis",
+    "href": "https://github.com/Gengxin-Tech/prismui",
     "header": {
         "title": "标题",
         "subTitle": "副标题",

@@ -4,15 +4,17 @@ title: 可视化编辑器定制指南
 
 本文面向需要集成或二次开发 amis 可视化编辑器的开发者，说明编辑器可以通过哪些入口定制、各入口适合什么场景，以及插件机制和渲染器之间的关系。
 
+如果需要先理解面板、组件物料、插件、容器区域、工具栏、右键菜单等概念之间的架构关系，请参考[编辑器架构](./editor-architecture)。
+
 ## 定制入口总览
 
 amis editor 的定制能力大致分为三层：
 
-| 入口 | 适合场景 | 是否需要写插件 | 是否必须关联渲染器 |
-| --- | --- | --- | --- |
-| `Editor` 属性 | 调整编辑器运行方式、禁用插件、注入事件监听、替换左右面板容器 | 否 | 否 |
-| 插件 `buildEditorPanel` / `buildEditorToolbar` / `buildEditorContextMenu` | 新增左侧/右侧面板、工具按钮、右键菜单 | 是 | 否 |
-| 渲染器插件能力 | 让某种 amis renderer 可点选、可拖入、可配置、可声明区域 | 是 | 通常需要 |
+| 入口                                                                      | 适合场景                                                     | 是否需要写插件 | 是否必须关联渲染器 |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------ | -------------- | ------------------ |
+| `Editor` 属性                                                             | 调整编辑器运行方式、禁用插件、注入事件监听、替换左右面板容器 | 否             | 否                 |
+| 插件 `buildEditorPanel` / `buildEditorToolbar` / `buildEditorContextMenu` | 新增左侧/右侧面板、工具按钮、右键菜单                        | 是             | 否                 |
+| 渲染器插件能力                                                            | 让某种 amis renderer 可点选、可拖入、可配置、可声明区域      | 是             | 通常需要           |
 
 判断用哪一种入口时，可以按下面的顺序选：
 
@@ -86,15 +88,17 @@ amis editor 的定制能力大致分为三层：
 <Editor
   value={schema}
   onChange={setSchema}
-  plugins={[
+  plugins={
     [
-      MyGlobalPanelPlugin,
-      {
-        title: '业务资源',
-        api: '/api/resources'
-      }
-    ]
-  ] as any}
+      [
+        MyGlobalPanelPlugin,
+        {
+          title: '业务资源',
+          api: '/api/resources'
+        }
+      ]
+    ] as any
+  }
 />
 ```
 
@@ -102,7 +106,10 @@ amis editor 的定制能力大致分为三层：
 
 ```tsx
 export class MyGlobalPanelPlugin extends BasePlugin {
-  constructor(manager: EditorManager, readonly options: any) {
+  constructor(
+    manager: EditorManager,
+    readonly options: any
+  ) {
     super(manager);
   }
 }
@@ -171,7 +178,7 @@ function CustomLeftPanels(props: LeftPanelsProps) {
   value={schema}
   onChange={setSchema}
   LeftPanelsComponent={CustomLeftPanels}
-/>
+/>;
 ```
 
 注意：当前公共入口导出了 `LeftPanelsProps` / `RightPanelsProps` 类型，但默认 `LeftPanels` 组件本身不是公共导出。如果需要“包一层默认左侧面板”，要么在项目内部引用源码组件，要么在 amis editor 侧补充导出；如果是业务项目外部集成，更稳妥的方式是完全自定义 `LeftPanelsComponent`，或优先用 plugin 添加左侧 tab。
@@ -232,7 +239,11 @@ registerEditorPlugin(MyPlugin);
 
 ```tsx
 import React from 'react';
-import {BasePlugin, BasicPanelItem, BuildPanelEventContext} from 'amis-editor-core';
+import {
+  BasePlugin,
+  BasicPanelItem,
+  BuildPanelEventContext
+} from 'amis-editor-core';
 
 function ResourcePanel({store, manager}: any) {
   return <div className="my-resource-panel">业务资源</div>;
@@ -549,19 +560,19 @@ export class MyLayoutPlugin extends BasePlugin {
 
 下面这张表可以作为判断依据：
 
-| 能力 | 全局插件可做 | 需要 `rendererName` |
-| --- | --- | --- |
-| 新增左侧 tab | 可以 | 不需要 |
-| 新增右侧通用 tab | 可以 | 不需要 |
-| 替换左右面板容器 | 用 `Editor` 属性 | 不需要 |
-| 扩展右键菜单 | 可以 | 不需要，除非只对某类 renderer 生效 |
-| 扩展选中框工具栏 | 可以 | 不需要，除非只对某类 renderer 生效 |
-| 监听插入、更新、删除等事件 | 可以 | 不需要 |
-| 加入组件物料列表 | 可以 | 不强制，但真实组件通常应该绑定 |
-| 让画布节点可点选、可识别 | 不够 | 需要 |
-| 自动生成某类组件右侧配置面板 | 不够 | 需要 |
-| 声明容器 regions | 不够 | 需要 |
-| 定义某类组件事件和动作 | 通常不够 | 需要 |
+| 能力                         | 全局插件可做     | 需要 `rendererName`                |
+| ---------------------------- | ---------------- | ---------------------------------- |
+| 新增左侧 tab                 | 可以             | 不需要                             |
+| 新增右侧通用 tab             | 可以             | 不需要                             |
+| 替换左右面板容器             | 用 `Editor` 属性 | 不需要                             |
+| 扩展右键菜单                 | 可以             | 不需要，除非只对某类 renderer 生效 |
+| 扩展选中框工具栏             | 可以             | 不需要，除非只对某类 renderer 生效 |
+| 监听插入、更新、删除等事件   | 可以             | 不需要                             |
+| 加入组件物料列表             | 可以             | 不强制，但真实组件通常应该绑定     |
+| 让画布节点可点选、可识别     | 不够             | 需要                               |
+| 自动生成某类组件右侧配置面板 | 不够             | 需要                               |
+| 声明容器 regions             | 不够             | 需要                               |
+| 定义某类组件事件和动作       | 通常不够         | 需要                               |
 
 核心原则：
 

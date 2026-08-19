@@ -3,13 +3,13 @@
 exports[`Renderer:hbox 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox __AMIS_COMPONENT_CLASS_PREFIX__Hbox--xs"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox __PRISMUI_COMPONENT_CLASS_PREFIX__Hbox--xs"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w-xs"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col w-xs"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info"
       >
         <span>
           w-xs
@@ -17,10 +17,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w-sm"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col w-sm"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info lter"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info lter"
       >
         <span>
           w-sm
@@ -28,10 +28,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col w"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col w"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info dk"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view bg-info dk"
       >
         <span>
           w
@@ -39,10 +39,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-success"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view bg-success"
       >
         <span>
           平均分配
@@ -50,10 +50,10 @@ exports[`Renderer:hbox 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Hbox-col"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Hbox-col"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view bg-primary"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view bg-primary"
       >
         <span>
           平均分配

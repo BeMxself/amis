@@ -4,10 +4,10 @@ const format = prettyFormat.format || prettyFormat;
 const {DOMCollection, DOMElement} = prettyFormat.plugins;
 
 const COMPONENT_CLASS_PREFIX =
-  process.env.AMIS_TEST_COMPONENT_CLASS_PREFIX || 'amis-';
-const SNAPSHOT_COMPONENT_CLASS_PREFIX = '__AMIS_COMPONENT_CLASS_PREFIX__';
+  process.env.PRISMUI_TEST_COMPONENT_CLASS_PREFIX || 'prismui-';
+const SNAPSHOT_COMPONENT_CLASS_PREFIX = '__PRISMUI_COMPONENT_CLASS_PREFIX__';
 const SELECTOR_PREFIXES = Array.from(
-  new Set([COMPONENT_CLASS_PREFIX, 'amis-', 'cxd-'])
+  new Set([COMPONENT_CLASS_PREFIX, 'prismui-', 'prismui-'])
 );
 
 function escapeRegExp(value) {
@@ -65,11 +65,11 @@ function serializeDomElement(value, config) {
 }
 
 function installComponentClassSnapshotSerializer() {
-  if (!global.expect || global.__AMIS_COMPONENT_CLASS_SNAPSHOT_SERIALIZER__) {
+  if (!global.expect || global.__PRISMUI_COMPONENT_CLASS_SNAPSHOT_SERIALIZER__) {
     return;
   }
 
-  global.__AMIS_COMPONENT_CLASS_SNAPSHOT_SERIALIZER__ = true;
+  global.__PRISMUI_COMPONENT_CLASS_SNAPSHOT_SERIALIZER__ = true;
   expect.addSnapshotSerializer({
     test: isDomElement,
     serialize: serializeDomElement
@@ -105,11 +105,11 @@ function patchSelectorMethod(prototype, methodName) {
 }
 
 function installComponentClassSelectorBridge() {
-  if (global.__AMIS_COMPONENT_CLASS_SELECTOR_BRIDGE__) {
+  if (global.__PRISMUI_COMPONENT_CLASS_SELECTOR_BRIDGE__) {
     return;
   }
 
-  global.__AMIS_COMPONENT_CLASS_SELECTOR_BRIDGE__ = true;
+  global.__PRISMUI_COMPONENT_CLASS_SELECTOR_BRIDGE__ = true;
   [Element.prototype, Document.prototype, DocumentFragment.prototype].forEach(
     prototype => {
       patchSelectorMethod(prototype, 'querySelector');

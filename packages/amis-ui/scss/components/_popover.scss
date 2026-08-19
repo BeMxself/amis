@@ -1,4 +1,4 @@
-.amis-PopOver {
+.prismui-PopOver {
   position: absolute;
   background: var(--PopOver-bg);
   top: 0;
@@ -40,7 +40,7 @@
   }
 
   &-isMobile {
-    .amis-PopOver-overlay {
+    .prismui-PopOver-overlay {
       background: rgba(0, 0, 0, 0.3);
     }
   }

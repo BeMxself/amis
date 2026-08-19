@@ -3,25 +3,25 @@
 exports[`1. Renderer:Collapse 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__CollapseGroup"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__CollapseGroup"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
         >
           <icon-mock
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
             icon="right-arrow-bold"
           />
         </span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题1
@@ -29,16 +29,16 @@ exports[`1. Renderer:Collapse 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容1
@@ -49,21 +49,21 @@ exports[`1. Renderer:Collapse 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
         >
           <icon-mock
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
             icon="right-arrow-bold"
           />
         </span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题2
@@ -71,16 +71,16 @@ exports[`1. Renderer:Collapse 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容2
@@ -91,21 +91,21 @@ exports[`1. Renderer:Collapse 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
         >
           <icon-mock
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
             icon="right-arrow-bold"
           />
         </span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题3
@@ -113,17 +113,17 @@ exports[`1. Renderer:Collapse 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper in"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper in"
         style="height: 0px;"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容3
@@ -140,20 +140,20 @@ exports[`1. Renderer:Collapse 1`] = `
 exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__CollapseGroup icon-position-right"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__CollapseGroup icon-position-right"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <i
-          class="caret-right __AMIS_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform __AMIS_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform fa fa-caret-right"
+          class="caret-right __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform fa fa-caret-right"
         />
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题1
@@ -161,16 +161,16 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容1
@@ -181,16 +181,16 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <i
-          class="caret-right __AMIS_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform __AMIS_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform fa fa-caret-right"
+          class="caret-right __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-icon-tranform fa fa-caret-right"
         />
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题2
@@ -198,16 +198,16 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容2
@@ -218,13 +218,13 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题3
@@ -232,16 +232,16 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容3
@@ -258,25 +258,25 @@ exports[`3. Renderer:Collapse with expandIcon & expandIconPosition & showArrow 1
 exports[`4. Renderer:Collapse with disabled & panel nesting 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__CollapseGroup"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__CollapseGroup"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
         >
           <icon-mock
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
             icon="right-arrow-bold"
           />
         </span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题1
@@ -284,34 +284,34 @@ exports[`4. Renderer:Collapse with disabled & panel nesting 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__CollapseGroup"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__CollapseGroup"
               data-role="container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse is-active"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse is-active"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
                   >
                     <icon-mock
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
                       icon="right-arrow-bold"
                     />
                   </span>
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       嵌套面板标题
@@ -319,16 +319,16 @@ exports[`4. Renderer:Collapse with disabled & panel nesting 1`] = `
                   </span>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           嵌套面板内容
@@ -344,21 +344,21 @@ exports[`4. Renderer:Collapse with disabled & panel nesting 1`] = `
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse __AMIS_COMPONENT_CLASS_PREFIX__Collapse--disabled lastOne"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse--disabled lastOne"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-header"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow-wrap"
         >
           <icon-mock
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __AMIS_COMPONENT_CLASS_PREFIX__Collapse-arrow"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow icon icon-right-arrow-bold __PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-arrow"
             icon="right-arrow-bold"
           />
         </span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             标题3
@@ -366,16 +366,16 @@ exports[`4. Renderer:Collapse with disabled & panel nesting 1`] = `
         </span>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-contentWrapper out"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Collapse-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Collapse-content"
           >
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
             >
               <span>
                 这里是内容3

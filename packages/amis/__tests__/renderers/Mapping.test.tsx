@@ -27,17 +27,17 @@ test('Renderer:mapping width object map', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
   const value1 = setup(1).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value1.innerHTML).toBe('漂亮');
 
   const value5 = setup(5).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value5.innerHTML).toBe('其他');
 });
@@ -63,17 +63,17 @@ test('Renderer:mapping width array map', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
   const value1 = setup(1).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value1.innerHTML).toBe('漂亮');
 
   const value5 = setup(5).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value5.innerHTML).toBe('其他');
 });
@@ -108,17 +108,17 @@ test('Renderer:mapping attr: valueField and labelField', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
   const value1 = setup(1).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value1.innerHTML).toBe('漂亮');
 
   const value5 = setup(5).querySelector(
-    '.cxd-MappingField .cxd-TplField span'
+    '.prismui-MappingField .prismui-TplField span'
   )! as HTMLElement;
   expect(value5.innerHTML).toBe('其他');
 });
@@ -149,14 +149,14 @@ test('Renderer:mapping attr: itemSchema when simple map', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
-  const value1 = setup(1).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value1 = setup(1).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value1.innerHTML).toBe(tag('漂亮').innerHTML);
 
-  const value5 = setup(5).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value5 = setup(5).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value5.innerHTML).toBe(tag('其他').innerHTML);
 });
 
@@ -193,14 +193,14 @@ test('Renderer:mapping attr: itemSchema when normal map', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
-  const value1 = setup(1).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value1 = setup(1).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value1.innerHTML).toBe(tag('1 漂亮').innerHTML);
 
-  const value5 = setup(5).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value5 = setup(5).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value5.innerHTML).toBe(tag('* 其他').innerHTML);
 });
 
@@ -271,14 +271,14 @@ test('Renderer:mapping schema', async () => {
     ).container;
 
   const noValue = setup().querySelector(
-    '.cxd-MappingField .text-muted'
+    '.prismui-MappingField .text-muted'
   )! as HTMLElement;
   expect(noValue.innerHTML).toBe('-');
 
-  const value1 = setup(1).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value1 = setup(1).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value1.innerHTML).toBe(tag('漂亮').innerHTML);
 
-  const value5 = setup(5).querySelector('.cxd-MappingField')! as HTMLElement;
+  const value5 = setup(5).querySelector('.prismui-MappingField')! as HTMLElement;
   expect(value5.innerHTML).toBe(tag('其他').innerHTML);
 });
 

@@ -62,7 +62,7 @@ test('EventAction:avatar', async () => {
     )
   );
 
-  const avatar = container.querySelector('.cxd-Avatar');
+  const avatar = container.querySelector('.prismui-Avatar');
   fireEvent.click(avatar);
   await waitFor(() => {
     expect(notify).toHaveBeenCalledWith('info', '派发点击事件', {

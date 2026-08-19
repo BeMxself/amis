@@ -37,7 +37,7 @@ test('Renderer:drawer applies theme scope to portal dialog', async () => {
 
   await waitFor(() => {
     expect(document.body.querySelector('[role="dialog"]')).toHaveAttribute(
-      'data-amis-theme',
+      'data-prismui-theme',
       'cxd'
     );
   });
@@ -45,7 +45,7 @@ test('Renderer:drawer applies theme scope to portal dialog', async () => {
 
 test('Renderer:drawer preserves custom container theme scope', async () => {
   const drawerContainer = document.createElement('div');
-  drawerContainer.setAttribute('data-amis-theme', 'dark');
+  drawerContainer.setAttribute('data-prismui-theme', 'dark');
   document.body.appendChild(drawerContainer);
 
   const {getByText} = render(
@@ -73,7 +73,7 @@ test('Renderer:drawer preserves custom container theme scope', async () => {
 
   await waitFor(() => {
     expect(drawerContainer.querySelector('[role="dialog"]')).toHaveAttribute(
-      'data-amis-theme',
+      'data-prismui-theme',
       'dark'
     );
   });

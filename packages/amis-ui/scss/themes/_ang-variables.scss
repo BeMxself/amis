@@ -1,5 +1,5 @@
-$ns: 'a-';
-:root {
+@import '../functions';
+@mixin prismui-ang-theme-vars {
   --colors-error-main: #e62525;
   --colors-error-1: #4d000a;
   --colors-error-2: #73010d;

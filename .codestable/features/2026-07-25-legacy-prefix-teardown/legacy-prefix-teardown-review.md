@@ -79,7 +79,7 @@ none
 
 ## 5. Test And QA Focus
 
-- QA 必须重点复核：alias off / alias `cxd` on 两种运行时，Tabs/List/Table/Tree/FormulaPicker/Video/InputSubForm 行为查询仍命中 stable `.amis-*` 主类。
+- QA 必须重点复核：alias off / alias `cxd` on 两种运行时，Tabs/List/Table/Tree/FormulaPicker/Video/InputSubForm 行为查询仍命中 stable `.prismui-*` 主类。
 - Evidence pack residual risks / gate warnings：`CMD-006` typecheck 仍为既有 broad baseline warning；scope gate / evidence pack 均 passed。
 - 建议新增或加强的测试：后续组件波次如果迁移新的 DOM behavior selector，应复用 `checkThemeSelectors.js --fixture bad/good` 模式补反例。
 - 不能靠 review 完全确认的点：未跑全量浏览器交互；`ocr` 行级扫描不可用；local-only review 缺少独立模型第二视角。

@@ -85,6 +85,8 @@
         document.querySelector('body').classList.add('dark');
       }
 
+      document.querySelector('body').setAttribute('data-prismui-theme', theme);
+
       amis.require(['./mobile.jsx'], function (app) {
         app.bootstrap(document.getElementById('root'), {});
       });

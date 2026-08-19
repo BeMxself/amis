@@ -116,10 +116,10 @@ test('Renderer:anchorNav', () => {
     )
   );
 
-  expect(container.querySelector('.cxd-AnchorNav-link-wrap')).toHaveClass(
+  expect(container.querySelector('.prismui-AnchorNav-link-wrap')).toHaveClass(
     'linksWrap'
   );
-  expect(container.querySelector('.cxd-AnchorNav-section-wrap')).toHaveClass(
+  expect(container.querySelector('.prismui-AnchorNav-section-wrap')).toHaveClass(
     'sectionsWrap'
   );
 
@@ -191,7 +191,7 @@ test('Renderer:anchorNav with active by index', async () => {
   await wait(500);
 
   expect(
-    container.querySelector('.one .cxd-AnchorNav-link.is-active')
+    container.querySelector('.one .prismui-AnchorNav-link.is-active')
   ).toHaveTextContent('兴趣爱好');
 });
 
@@ -220,7 +220,7 @@ test('Renderer:anchorNav with active by href', async () => {
   await wait(500);
 
   expect(
-    container.querySelector('.two .cxd-AnchorNav-link.is-active')
+    container.querySelector('.two .prismui-AnchorNav-link.is-active')
   ).toHaveTextContent('工作信息');
 });
 
@@ -331,11 +331,11 @@ test('Renderer:anchorNav with children', async () => {
   await wait(500);
 
   expect(
-    container.querySelector('.cxd-AnchorNav-link-child')
+    container.querySelector('.prismui-AnchorNav-link-child')
   ).toHaveTextContent('基本信息1-1');
 
   expect(
-    container.querySelector('.cxd-AnchorNav-link.is-active')
+    container.querySelector('.prismui-AnchorNav-link.is-active')
   ).toHaveTextContent('基本信息');
 
   expect(container).toMatchSnapshot();

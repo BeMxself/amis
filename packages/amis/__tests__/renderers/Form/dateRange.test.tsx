@@ -41,7 +41,7 @@ const setup = async (items: any[] = []) => {
     'button[type="submit"]'
   ) as HTMLElement;
 
-  const inputs = utils.container.querySelectorAll('.cxd-DateRangePicker-input');
+  const inputs = utils.container.querySelectorAll('.prismui-DateRangePicker-input');
 
   function rerender(items: any[]) {
     const onSubmit = jest.fn();
@@ -130,17 +130,17 @@ test('Renderer:dateRange with shortcuts', async () => {
     }
   ]);
 
-  fireEvent.click(container.querySelector('.cxd-DateRangePicker-input'));
+  fireEvent.click(container.querySelector('.prismui-DateRangePicker-input'));
 
   await wait(200);
   // expect(container).toMatchSnapshot('open');
 
   expect(
-    container.querySelector('.cxd-DateRangePicker-rangers')!
+    container.querySelector('.prismui-DateRangePicker-rangers')!
   ).toBeInTheDocument();
   expect(
     container.querySelectorAll(
-      '.cxd-DateRangePicker-rangers > .cxd-DateRangePicker-ranger'
+      '.prismui-DateRangePicker-rangers > .prismui-DateRangePicker-ranger'
     )!.length
   ).toBe(7);
 
@@ -170,18 +170,18 @@ test('Renderer:dateRange with minDate and maxDate', async () => {
     }
   ]);
 
-  fireEvent.click(container.querySelector('.cxd-DateRangePicker-input')!);
+  fireEvent.click(container.querySelector('.prismui-DateRangePicker-input')!);
 
   await wait(200);
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtDisabled'
+      '.prismui-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtDisabled'
     )!
   ).toBeInTheDocument();
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtDisabled'
+      '.prismui-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtDisabled'
     )!
   ).toBeInTheDocument();
 });
@@ -200,7 +200,7 @@ test('Renderer:dateRange with embed', async () => {
   ]);
 
   expect(
-    container.querySelector('.cxd-DateRangeCalendar')!
+    container.querySelector('.prismui-DateRangeCalendar')!
   ).toBeInTheDocument();
 
   // expect(container).toMatchSnapshot();
@@ -221,7 +221,7 @@ test('Renderer:dateRange with minDuration & maxDuration', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtEnd.rdtDisabled'
+      '.prismui-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtEnd.rdtDisabled'
     )!
   ).toBeInTheDocument();
 
@@ -238,7 +238,7 @@ test('Renderer:dateRange with minDuration & maxDuration', async () => {
 
   expect(
     container.querySelector(
-      '.cxd-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtEnd.rdtDisabled'
+      '.prismui-DateRangePicker-picker-wrap .rdtDay.rdtActive.rdtEnd.rdtDisabled'
     )!
   ).toBeInTheDocument();
 });
@@ -254,12 +254,12 @@ test('Renderer:dateRange with clearable', async () => {
     }
   ]);
 
-  fireEvent.mouseEnter(container.querySelector('.cxd-DateRangePicker')!);
+  fireEvent.mouseEnter(container.querySelector('.prismui-DateRangePicker')!);
   await wait(200);
   expect(
-    container.querySelector('.cxd-DateRangePicker-clear')!
+    container.querySelector('.prismui-DateRangePicker-clear')!
   ).toBeInTheDocument();
-  fireEvent.mouseLeave(container.querySelector('.cxd-DateRangePicker')!);
+  fireEvent.mouseLeave(container.querySelector('.prismui-DateRangePicker')!);
 
   await wait(200);
   rerender([
@@ -271,10 +271,10 @@ test('Renderer:dateRange with clearable', async () => {
     }
   ]);
 
-  fireEvent.mouseEnter(container.querySelector('.cxd-DateRangePicker')!);
+  fireEvent.mouseEnter(container.querySelector('.prismui-DateRangePicker')!);
   await wait(200);
   expect(
-    container.querySelector('.cxd-DateRangePicker-clear')!
+    container.querySelector('.prismui-DateRangePicker-clear')!
   ).not.toBeInTheDocument();
 });
 
@@ -319,7 +319,7 @@ test('Renderer:inputDateRange compatible with format & inputFormat', async () =>
   ]);
 
   const inputs = container.querySelectorAll(
-    '.cxd-DateRangePicker-input'
+    '.prismui-DateRangePicker-input'
   )! as NodeListOf<HTMLInputElement>;
   const first = {start: inputs[0].value, end: inputs[1].value};
   const second = {start: inputs[2].value, end: inputs[3].value};

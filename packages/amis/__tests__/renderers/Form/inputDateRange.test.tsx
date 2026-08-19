@@ -81,7 +81,7 @@ test('1.Renderer:inputDateRange setValue actions with special words', async () =
   fireEvent.click(getByText('设置值'));
   await wait(200);
   const today = moment();
-  const inputDates = container.querySelectorAll('.cxd-DateRangePicker-input');
+  const inputDates = container.querySelectorAll('.prismui-DateRangePicker-input');
   expect(inputDates.length).toBe(2);
 
   expect((inputDates[0] as any)?.value).toEqual(today.format('YYYY-MM-DD'));

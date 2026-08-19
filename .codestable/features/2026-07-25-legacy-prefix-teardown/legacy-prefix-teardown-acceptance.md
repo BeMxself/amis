@@ -20,11 +20,11 @@ round: 1
 
 **接口示例逐项核对**：
 - [x] `AliasRetentionRecord` 示例：`legacyDomClassAlias` 默认 `false`、显式值仅 `cxd`、不生成库 CSS → 代码实际行为一致，`normalizeLegacyDomClassAlias()` 只接受 `cxd`，`theme.test.ts` 覆盖非法 `antd` 不输出旧类。
-- [x] `LegacyPrefixLedger` 示例：剩余旧前缀命中有 kind / owner / retain reason / exit condition → `legacy-prefix-teardown-ledger.md` 已覆盖 public selector、behavior dom selector、scss-selector、internal legacy、runtime alias、theme behavior config、legacy props passthrough、file-name compatibility、docs historical、generated artifact。
+- [x] `LegacyPrefixLedger` 示例：剩余旧前缀命中有 kind / owner / retain reason / exit condition → `legacy-prefix-teardown-ledger.md` 已覆盖 public selector、behavior dom selector、internal legacy、runtime alias、theme behavior config、legacy props passthrough、file-name compatibility、docs historical、generated artifact，并明确合法 `#{$ns}` 插值不属于旧前缀债务。
 - [x] `PrefixPublicApiGuard` 示例：新增行为 DOM selector 依赖必须失败 → `checkThemeSelectors.js` 与 bad fixture 覆盖 direct / props / destructured / prebuilt / `cx(...)` / Sortable 反例。
 
 **名词层"现状 → 变化"逐项核对**：
-- [x] Legacy prefix public contract：从公共 API 收口为 ledger 分类治理；默认主路径转向 `.amis-*`、`[data-amis-theme]`、token。
+- [x] Legacy prefix public contract：从公共 API 收口为 ledger 分类治理；默认主路径转向 `.prismui-*`、`[data-prismui-theme]`、token。
 - [x] DOM-only legacy alias：保留为显式迁移能力，不自动支持 `antd` / `dark`，不生成 SCSS/CSS legacy selector 兼容层。
 - [x] AliasRetentionRecord：已落盘并记录最多 1 年窗口内人工评估、责任方和退出评估材料。
 
@@ -34,12 +34,12 @@ round: 1
 ## 2. 行为与决策核对
 
 **需求摘要逐项验证**：
-- [x] 默认主路径只暴露 `.amis-*`、`[data-amis-theme]` 和 token：runtime tests、renderer snapshots、ledger 和 docs handoff 均一致。
+- [x] 默认主路径只暴露 `.prismui-*`、`[data-prismui-theme]` 和 token：runtime tests、renderer snapshots、ledger 和 docs handoff 均一致。
 - [x] 剩余 `classPrefix` / `.cxd-*` 依赖被迁移、内部化或分类：ledger 与 scoped grep 证据一致。
 - [x] docs rollout 只接收迁移事实和风险记录：`legacy-prefix-teardown-docs-rollout-handoff.md` 明确 must say / must not say。
 
 **明确不做逐项核对**：
-- [x] 不重新启用 SCSS/CSS `.cxd-*` legacy selector 双编译或双产物：无新增库 CSS compat layer；ledger 将 SCSS baseline 标为 migration debt。
+- [x] 不重新启用 SCSS/CSS `.cxd-*` legacy selector 双编译或双产物：无新增库 CSS compat layer；ledger 将硬编码旧 selector 与合法 Sass 命名空间插值分开治理。
 - [x] 不把 `.cxd-*` / `.antd-*` / `.dark-*` 写成新公共样式入口：docs handoff 明确 must not say。
 - [x] 不自动退出 alias、不绑定固定版本卡点：AliasRetentionRecord 写成人工评估。
 - [x] 不承诺 IE11 动态 token：docs handoff 写为静态 CSS 降级边界。
@@ -73,10 +73,10 @@ round: 1
 - [x] **S1**：前置 core/editor ledger 与 selector allowlist → LegacyPrefixLedger 汇总所有剩余旧前缀命中并分类。
   - 证据来源：ledger / implementation report / scope gate。
   - 结果：通过。
-- [x] **S2**：默认渲染主路径 → `.amis-*`，默认不输出 `.cxd-*` alias。
+- [x] **S2**：默认渲染主路径 → `.prismui-*`，默认不输出 `.cxd-*` alias。
   - 证据来源：`npm test --workspace amis-core -- theme`。
   - 结果：通过。
-- [x] **S3**：显式开启 `legacyDomClassAlias: 'cxd'` → DOM classnames 同时有 `.amis-*` 与 `.cxd-*`，但 stable helper 仍优先 `.amis-*`。
+- [x] **S3**：显式开启 `legacyDomClassAlias: 'cxd'` → DOM classnames 同时有 `.prismui-*` 与 `.cxd-*`，但 stable helper 仍优先 `.prismui-*`。
   - 证据来源：`theme.test.ts`。
   - 结果：通过。
 - [x] **S4**：新增旧前缀公共依赖 → guard 失败。
@@ -105,7 +105,7 @@ round: 1
 
 - Legacy prefix public contract：design / ledger / docs handoff 用语一致。
 - DOM-only legacy alias：CONTEXT、ADR-001、design、AliasRetentionRecord 和 docs handoff 一致。
-- Stable component class / `.amis-*`：CONTEXT、ADR-001、runtime tests 和 renderer snapshots 一致。
+- Stable component class / `.prismui-*`：CONTEXT、ADR-001、runtime tests 和 renderer snapshots 一致。
 - 防冲突：`.cxd-*` 不被写成 public API；`classPrefix` 被标为 legacy/internal 或 behavior config。
 
 ## 5. 领域影响盘点
@@ -147,8 +147,8 @@ round: 1
   - `python3 .../validate-yaml.py --file legacy-prefix-teardown-checklist.yaml --yaml-only` → exit 0。
   - `python3 .../validate-yaml.py --file theme-system-refactor-items.yaml --yaml-only` → exit 0。
   - `python3 .../validate-yaml.py --file goal-state.yaml --yaml-only` → exit 0。
-  - `npm run check:theme-selectors --workspace amis-ui` → exit 0，1503 baseline / 0 new violation。
-  - `npm test --workspace amis-core -- theme` → exit 0，1 suite / 9 tests pass。
+  - `npm run check:theme-selectors --workspace amis-ui` → exit 0，7 baseline / 0 new violation。
+  - `npm test --workspace amis-core -- theme` → exit 0，1 suite / 10 tests pass。
   - `npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tree.test.tsx __tests__/renderers/Form/formula.test.tsx` → exit 0，2 suites / 14 tests / 3 snapshots pass。
   - `npm test --workspace amis -- --runTestsByPath __tests__/renderers/Tabs.test.tsx __tests__/renderers/List.test.tsx __tests__/renderers/Table.test.tsx __tests__/renderers/Form/inputSubForm.test.tsx __tests__/renderers/Video.test.tsx` → exit 0，5 suites / 51 tests / 37 snapshots pass。
   - `git diff --check` → exit 0。

@@ -41,7 +41,7 @@ const setup = async (items: any[] = []) => {
     'button[type="submit"]'
   ) as HTMLElement;
 
-  const inputs = utils.container.querySelectorAll('.cxd-DateRangePicker-input');
+  const inputs = utils.container.querySelectorAll('.prismui-DateRangePicker-input');
 
   function rerender(items: any[]) {
     const onSubmit = jest.fn();
@@ -102,12 +102,12 @@ test('Renderer:datetimeRange with displayFormat', async () => {
     }
   ]);
 
-  fireEvent.click(container.querySelector('.cxd-DateRangePicker-input'));
+  fireEvent.click(container.querySelector('.prismui-DateRangePicker-input'));
 
   await wait(200);
   expect(
     container.querySelectorAll(
-      '.cxd-CalendarInputWrapper.cxd-CalendarInputWrapperMT'
+      '.prismui-CalendarInputWrapper.prismui-CalendarInputWrapperMT'
     ).length
   ).toBe(3);
 
@@ -216,7 +216,7 @@ test('InputDateTimeRange Picker selects date or time for the first time', async 
   let timeStr = start?.value?.split(/\s+/)?.[1];
   expect(timeStr.split?.(':')?.[0] !== '00').toEqual(true);
   // 再次选择0点，预期切换成功
-  const hourSelector = container.querySelectorAll('.cxd-CalendarInput-sugsHours > .cxd-CalendarInput-sugsItem');
+  const hourSelector = container.querySelectorAll('.prismui-CalendarInput-sugsHours > .prismui-CalendarInput-sugsItem');
   const zeroHour = hourSelector?.[0]!;
   expect(hourSelector.length).toEqual(24);
   expect(zeroHour?.textContent).toEqual('00');

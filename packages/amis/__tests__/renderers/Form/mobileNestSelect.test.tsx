@@ -74,13 +74,13 @@ test('Renderer:mobile nested select', async () => {
   // fireEvent.click(b1Option);
 
   // const confirmButton = document.querySelector(
-  //   '.cxd-Cascader-btnConfirm'
+  //   '.prismui-Cascader-btnConfirm'
   // ) as HTMLButtonElement;
 
   // fireEvent.click(confirmButton);
 
   // const value = document.querySelector(
-  //   '.cxd-Select-valueLabel'
+  //   '.prismui-Select-valueLabel'
   // ) as HTMLSpanElement;
 
   // expect(value).toMatchSnapshot();

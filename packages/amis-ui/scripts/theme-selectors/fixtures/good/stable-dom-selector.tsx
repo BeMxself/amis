@@ -5,7 +5,7 @@ declare const Sortable: new (
   options: Record<string, unknown>
 ) => unknown;
 
-const cx = (value: string) => `amis-${value}`;
+const cx = (value: string) => `prismui-${value}`;
 const root = document.body;
 
 document.querySelector(getStableClassSelector(cx, 'GuardFixture'));

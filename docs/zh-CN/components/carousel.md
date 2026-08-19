@@ -79,7 +79,7 @@ order: 33
     "imageList": [
       {
         "image": "https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png",
-        "href": "https://github.com/baidu/amis"
+        "href": "https://github.com/Gengxin-Tech/prismui"
       }
     ]
   },

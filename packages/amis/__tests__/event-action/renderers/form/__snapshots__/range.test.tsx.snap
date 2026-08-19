@@ -3,43 +3,43 @@
 exports[`EventAction:inputRange 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="range"
             data-role="form-item"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__RangeControl __AMIS_COMPONENT_CLASS_PREFIX__InputRange __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__RangeControl __PRISMUI_COMPONENT_CLASS_PREFIX__InputRange __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-wrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track __AMIS_COMPONENT_CLASS_PREFIX__InputRange-track--background"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track __PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track--background"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-track-active"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-track-active"
                     style="width: 0%; left: 0%;"
                   />
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-handle"
                     style="left: 0%; z-index: 1;"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-handle-icon"
                     >
                       <icon-mock
                         class="icon icon-slider-handle"
@@ -47,7 +47,7 @@ exports[`EventAction:inputRange 1`] = `
                       />
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-label pos-top"
                     >
                       <span>
                         0
@@ -57,48 +57,48 @@ exports[`EventAction:inputRange 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-input"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Number __AMIS_COMPONENT_CLASS_PREFIX__Number--borderFull"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number __PRISMUI_COMPONENT_CLASS_PREFIX__Number--borderFull"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-wrap"
                   >
                     <span
                       aria-disabled="false"
                       aria-label="Increase Value"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up"
                       role="button"
                       unselectable="on"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-up-inner"
                         unselectable="on"
                       />
                     </span>
                     <span
                       aria-disabled="true"
                       aria-label="Decrease Value"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down __AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-disabled"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down __PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-disabled"
                       role="button"
                       unselectable="on"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-handler-down-inner"
                         unselectable="on"
                       />
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input-wrap"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input-wrap"
                   >
                     <input
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="0"
                       autocomplete="off"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Number-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Number-input"
                       role="spinbutton"
                       step="1"
                       value="0"
@@ -107,7 +107,7 @@ exports[`EventAction:inputRange 1`] = `
                 </div>
               </div>
               <a
-                class="__AMIS_COMPONENT_CLASS_PREFIX__InputRange-clear"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputRange-clear"
               >
                 <icon-mock
                   class="icon icon-close"
@@ -117,17 +117,17 @@ exports[`EventAction:inputRange 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -136,10 +136,10 @@ exports[`EventAction:inputRange 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -147,7 +147,7 @@ exports[`EventAction:inputRange 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__JsonField __PRISMUI_COMPONENT_CLASS_PREFIX__Form--debug"
                 >
                   <div
                     class="w-json-view-container w-rjv  w-rjv-inner"
@@ -263,16 +263,16 @@ exports[`EventAction:inputRange 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-value"
                   data-amis-name="rangeValue"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           滑块值
@@ -281,10 +281,10 @@ exports[`EventAction:inputRange 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -300,16 +300,16 @@ exports[`EventAction:inputRange 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-event"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal input-text-range-event"
                   data-amis-name="rangeEvent"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           滑块事件
@@ -318,10 +318,10 @@ exports[`EventAction:inputRange 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -339,13 +339,13 @@ exports[`EventAction:inputRange 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

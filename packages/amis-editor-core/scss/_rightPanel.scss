@@ -20,6 +20,10 @@ $tooltip-bottom: '[data-tooltip][data-position=' bottom ']:hover:after';
 
   @include panel-sm-content();
 
+  &.AMISCSSWrapper {
+    --fonts-size-7: #{$Editor-right-panel-font-size};
+  }
+
   // 宽度可拖拽时不增加过渡，避免卡顿
   &.width-draggable {
     transition: none;
@@ -320,6 +324,10 @@ $tooltip-bottom: '[data-tooltip][data-position=' bottom ']:hover:after';
 
 .right-panel-pop {
   @include panel-sm-content();
+
+  &.AMISCSSWrapper {
+    --fonts-size-7: #{$Editor-right-panel-font-size};
+  }
 }
 
 // 包裹样式

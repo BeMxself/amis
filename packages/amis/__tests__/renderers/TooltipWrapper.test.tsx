@@ -86,7 +86,7 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
   fireEvent.mouseEnter(getByText('打开弹窗'));
 
   await waitFor(() => {
-    expect(baseElement.querySelector('.amis-Tooltip')).toBeInTheDocument();
+    expect(baseElement.querySelector('.prismui-Tooltip')).toBeInTheDocument();
   });
 
   fireEvent.click(getByText('打开弹窗'));
@@ -96,7 +96,7 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
   });
 
   await waitFor(() => {
-    expect(baseElement.querySelector('.amis-Tooltip')).toBeNull();
+    expect(baseElement.querySelector('.prismui-Tooltip')).toBeNull();
   });
 });
 
@@ -116,8 +116,8 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
 
 //   fireEvent.mouseEnter(getByText('激活文字提示'));
 //   await wait(500);
-//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
-//   //   'amis-Tooltip--top'
+//   // expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveClass(
+//   //   'prismui-Tooltip--top'
 //   // );
 
 //   rerender(
@@ -127,8 +127,8 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
 //     })
 //   );
 //   await wait(500);
-//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
-//   //   'amis-Tooltip--right'
+//   // expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveClass(
+//   //   'prismui-Tooltip--right'
 //   // );
 
 //   rerender(
@@ -138,8 +138,8 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
 //     })
 //   );
 //   await wait(500);
-//   // expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
-//   //   'amis-Tooltip--left'
+//   // expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveClass(
+//   //   'prismui-Tooltip--left'
 //   // );
 
 //   rerender(
@@ -149,8 +149,8 @@ test('Renderer:Button hides hover tooltip after click opens dialog', async () =>
 //     })
 //   );
 //   await wait(500);
-//   // )expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
-//   // )  'amis-Tooltip--bottom'
+//   // )expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveClass(
+//   // )  'prismui-Tooltip--bottom'
 //   // ));
 
 //   expect(baseElement).toMatchSnapshot();
@@ -175,7 +175,7 @@ test('Renderer:TooltipWrapper with offset', async () => {
   fireEvent.mouseEnter(getByText('激活文字提示'));
   await wait(500);
 
-  expect(baseElement.querySelector('.amis-Tooltip')!).toHaveAttribute(
+  expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveAttribute(
     'offset',
     '19,-22'
   );
@@ -198,7 +198,7 @@ test('Renderer:TooltipWrapper with showArrow', async () => {
   await wait(500);
 
   expect(
-    baseElement.querySelector('.amis-Tooltip .amis-Tooltip-arrow')!
+    baseElement.querySelector('.prismui-Tooltip .prismui-Tooltip-arrow')!
   ).toBeInTheDocument();
 
   rerender(
@@ -214,7 +214,7 @@ test('Renderer:TooltipWrapper with showArrow', async () => {
 
   expect(baseElement).toMatchSnapshot();
   expect(
-    baseElement.querySelector('.amis-Tooltip .amis-Tooltip-arrow')!
+    baseElement.querySelector('.prismui-Tooltip .prismui-Tooltip-arrow')!
   ).toBeNull();
 });
 
@@ -233,7 +233,7 @@ test('Renderer:TooltipWrapper with tooltipTheme', async () => {
   fireEvent.mouseEnter(getByText('dark主题提示'));
   await wait(500);
 
-  expect(baseElement.querySelector('.amis-Tooltip')!).toHaveClass(
+  expect(baseElement.querySelector('.prismui-Tooltip')!).toHaveClass(
     componentClass('Tooltip--dark')
   );
 });
@@ -253,15 +253,15 @@ test('Renderer:TooltipWrapper with mouseEnterDelay & mouseLeaveDelay', async () 
 
   fireEvent.mouseEnter(getByText('延迟'));
   await wait(100);
-  expect(baseElement.querySelector('.amis-Tooltip')!).toBeNull();
+  expect(baseElement.querySelector('.prismui-Tooltip')!).toBeNull();
   await wait(250);
-  expect(baseElement.querySelector('.amis-Tooltip')!).not.toBeNull();
+  expect(baseElement.querySelector('.prismui-Tooltip')!).not.toBeNull();
 
   fireEvent.mouseLeave(getByText('延迟'));
   await wait(400);
-  expect(baseElement.querySelector('.amis-Tooltip')!).not.toBeNull();
+  expect(baseElement.querySelector('.prismui-Tooltip')!).not.toBeNull();
   await wait(250);
-  expect(baseElement.querySelector('.amis-Tooltip')!).toBeNull();
+  expect(baseElement.querySelector('.prismui-Tooltip')!).toBeNull();
 });
 
 test('Renderer:TooltipWrapper with context data', async () => {
@@ -285,10 +285,10 @@ test('Renderer:TooltipWrapper with context data', async () => {
   fireEvent.mouseEnter(getByText('body:this-is-text'));
 
   await wait(500);
-  expect(baseElement.querySelector('.amis-Tooltip-title')!).toHaveTextContent(
+  expect(baseElement.querySelector('.prismui-Tooltip-title')!).toHaveTextContent(
     'title:second-text'
   );
-  expect(baseElement.querySelector('.amis-Tooltip-body')!).toHaveTextContent(
+  expect(baseElement.querySelector('.prismui-Tooltip-body')!).toHaveTextContent(
     'info:this-is-text'
   );
   expect(baseElement).toMatchSnapshot();
@@ -304,7 +304,7 @@ test('Renderer:TooltipWrapper with inline', async () => {
     })
   );
 
-  expect(container.querySelector('.amis-TooltipWrapper')).toHaveClass(
+  expect(container.querySelector('.prismui-TooltipWrapper')).toHaveClass(
     componentClass('TooltipWrapper--inline')
   );
 });
@@ -325,14 +325,14 @@ test('Renderer:TooltipWrapper with style & tooltipStyle', async () => {
     })
   );
 
-  expect(container.querySelector('.amis-TooltipWrapper')).toHaveStyle({
+  expect(container.querySelector('.prismui-TooltipWrapper')).toHaveStyle({
     'font-style': 'italic'
   });
 
   fireEvent.mouseEnter(getByText('一段文案'));
 
   await wait(500);
-  expect(baseElement.querySelector('.amis-Tooltip')).toHaveStyle({
+  expect(baseElement.querySelector('.prismui-Tooltip')).toHaveStyle({
     'font-weight': 'bold'
   });
   expect(baseElement).toMatchSnapshot();
@@ -347,7 +347,7 @@ test('Renderer:TooltipWrapper with wrapperComponent', async () => {
       body: "function HelloWorld() {\n    console.log('Hello World');\n}"
     })
   );
-  expect(container.querySelector('pre.amis-TooltipWrapper')).toBeInTheDocument();
+  expect(container.querySelector('pre.prismui-TooltipWrapper')).toBeInTheDocument();
   expect(container).toHaveTextContent(
     `function HelloWorld() { console.log('Hello World'); }`
   );

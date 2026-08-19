@@ -164,7 +164,7 @@ test('Renderer:TabsTransferPicker', async () => {
 
   fireEvent.click(picker);
   await wait(500);
-  expect(baseElement.querySelector('.cxd-Modal')!).toBeInTheDocument();
+  expect(baseElement.querySelector('.prismui-Modal')!).toBeInTheDocument();
 
   const option = await findByText('诸葛亮');
 
@@ -181,9 +181,9 @@ test('Renderer:TabsTransferPicker', async () => {
   fireEvent.click(confirm);
 
   await wait(1000);
-  // expect(baseElement.querySelector('.cxd-Modal')!).not.toBeInTheDocument();
+  // expect(baseElement.querySelector('.prismui-Modal')!).not.toBeInTheDocument();
 
-  const valueWrap = container.querySelector('.cxd-ResultBox-value-wrap')!;
+  const valueWrap = container.querySelector('.prismui-ResultBox-value-wrap')!;
   expect(valueWrap).not.toHaveTextContent('请选择');
   expect(valueWrap).toHaveTextContent('诸葛亮');
 

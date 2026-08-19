@@ -3,7 +3,7 @@ declare const Sortable: new (
   options: Record<string, unknown>
 ) => unknown;
 
-const classPrefix = 'cxd-';
+const classPrefix = 'prismui-';
 const ns = classPrefix;
 const themePrefix = classPrefix;
 const props = {classPrefix};
@@ -14,7 +14,7 @@ const selector = `.${prefix}GuardFixture-prebuilt`;
 const draggingClassName = `${prefix}GuardFixture--prebuilt-dragging`;
 const target = document.body;
 const root = document.body;
-const cx = (value: string) => `amis-${value} cxd-${value}`;
+const cx = (value: string) => `prismui-${value} prismui-${value}`;
 
 document.querySelector(`.${classPrefix}GuardFixture`);
 document.querySelector(`.${ns}GuardFixture`);

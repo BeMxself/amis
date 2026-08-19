@@ -3,30 +3,30 @@
 exports[`Renderer:alert 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示内容
@@ -45,24 +45,24 @@ exports[`Renderer:alert 1`] = `
 exports[`Renderer:alert var 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-icon"
             >
               <icon-mock
                 class="icon icon-copy"
@@ -70,13 +70,13 @@ exports[`Renderer:alert var 1`] = `
               />
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     百度一下，你就知道
@@ -95,30 +95,30 @@ exports[`Renderer:alert var 1`] = `
 exports[`Renderer:alert with level 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--info"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示类文案
@@ -128,16 +128,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--success"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     成功类文案
@@ -147,16 +147,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--warning"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--warning"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     警告类文案
@@ -166,16 +166,16 @@ exports[`Renderer:alert with level 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--danger"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--danger"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     危险类文案
@@ -194,30 +194,30 @@ exports[`Renderer:alert with level 1`] = `
 exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--info"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示信息
@@ -226,7 +226,7 @@ exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
               </div>
             </div>
             <button
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-close classNameForClose"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-close classNameForClose"
               type="button"
             >
               <icon-mock
@@ -245,24 +245,24 @@ exports[`Renderer:alert with showCloseButton & closeButtonClassName 1`] = `
 exports[`Renderer:alert with title & showIcon & icon & iconClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Alert __AMIS_COMPONENT_CLASS_PREFIX__Alert--info __AMIS_COMPONENT_CLASS_PREFIX__Alert-has-title"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert __PRISMUI_COMPONENT_CLASS_PREFIX__Alert--info __PRISMUI_COMPONENT_CLASS_PREFIX__Alert-has-title"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-icon starClass"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-icon starClass"
             >
               <icon-mock
                 class="icon icon-star"
@@ -270,18 +270,18 @@ exports[`Renderer:alert with title & showIcon & icon & iconClassName 1`] = `
               />
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-content"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-content"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-title"
               >
                 提示类文案
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Alert-desc"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Alert-desc"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     提示类文案

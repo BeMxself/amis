@@ -44,7 +44,7 @@ test('Renderer: no color value', async () => {
     })
   );
 
-  const colorValue = container.querySelector('.amis-ColorField-value');
+  const colorValue = container.querySelector('.prismui-ColorField-value');
   expect(colorValue).not.toBeInTheDocument();
 });
 
@@ -56,7 +56,7 @@ test('Renderer: defalut color value', async () => {
     })
   );
 
-  const colorValue = container.querySelector('.amis-ColorField-value');
+  const colorValue = container.querySelector('.prismui-ColorField-value');
   expect(colorValue).toBeInTheDocument();
 });
 
@@ -68,6 +68,6 @@ test('Renderer: color value', async () => {
     })
   );
 
-  const colorValue = container.querySelector('.amis-ColorField-value');
+  const colorValue = container.querySelector('.prismui-ColorField-value');
   expect(colorValue).toBeInTheDocument();
 });

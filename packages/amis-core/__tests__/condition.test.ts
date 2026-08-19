@@ -109,7 +109,7 @@ const starts_with = {
     field: 'tool'
   },
   op: 'starts_with',
-  right: 'amis-'
+  right: 'prismui-'
 };
 const ends_with = {
   id: guid(),

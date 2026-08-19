@@ -13,9 +13,9 @@ updated: 2026-07-28
 
 最终用户不需要理解主题类前缀。主题定制主路径应写成：
 
-- 标准样式值：使用 `--amis-*` token。
-- 组件定位：使用稳定 `.amis-*` component class。
-- 主题差异：使用 `[data-amis-theme="..."]` 作用域。
+- 标准样式值：使用 `--prismui-*` token。
+- 组件定位：使用稳定 `.prismui-*` component class。
+- 主题差异：使用 `[data-prismui-theme="..."]` 作用域。
 - 非标准遗留覆写：迁移期可评估显式 DOM-only `.cxd-*` alias，但不把它写成推荐入口。
 
 ## 2. Must Say
@@ -37,11 +37,11 @@ updated: 2026-07-28
 
 | Legacy Pattern | Replacement / Guidance |
 |---|---|
-| `.cxd-Button` | `.amis-Button` |
-| `.cxd-Button--primary` with theme-specific values | `[data-amis-theme="custom"] .amis-Button--primary` or token override |
-| `#{$ns}` in custom SCSS | stable selector helper or explicit `.amis-*` |
+| `.cxd-Button` | `.prismui-Button` |
+| `.cxd-Button--primary` with theme-specific values | `[data-prismui-theme="custom"] .prismui-Button--primary` or token override |
+| `#{$ns}` in custom SCSS | stable selector helper or explicit `.prismui-*` |
 | `classPrefix` based DOM query | stable helper such as `getStableClassSelector()` |
-| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-amis-theme] .amis-*` and record warnings for historical schema |
+| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-prismui-theme] .prismui-*` and record warnings for historical schema |
 | `cxd.css` / `cxd-ie11.css` | keep as file names; explain separately from selector policy |
 
 ## 5. Risk Notes

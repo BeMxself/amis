@@ -24,6 +24,7 @@ import Example from './Example';
 import CSSDocs from './CssDocs';
 import Components from './Components';
 import EditorDocs from './EditorDocs';
+import {DOCS_BASE_PATH} from './publicPath';
 import {
   BrowserRouter as Router,
   Route,
@@ -34,11 +35,7 @@ import {
 } from 'react-router-dom';
 declare const _hmt: any;
 
-let ContextPath = '';
-
-if (process.env.NODE_ENV === 'production') {
-  ContextPath = '/amis';
-}
+const ContextPath = DOCS_BASE_PATH;
 
 export function getContextPath() {
   return ContextPath;
@@ -64,7 +61,7 @@ const themes = [
 ];
 
 function getComponentClassPrefix(theme: string) {
-  return getTheme(theme)?.componentClassPrefix || 'amis-';
+  return getTheme(theme)?.componentClassPrefix || 'prismui-';
 }
 
 const locales = [
@@ -95,12 +92,7 @@ const docVersions = [
   {
     label: '主干版本',
     value: '',
-    url: '/amis/zh-CN/docs/index'
-  },
-  {
-    label: '1.1.x 文档',
-    value: '1.1.7',
-    url: 'https://aisuda.github.io/amis-1.1.7/zh-CN/docs/index'
+    url: '/docs/zh-CN/docs/index'
   }
 ];
 
@@ -172,22 +164,29 @@ export class App extends React.PureComponent<{
   }
 
   syncDocumentTheme(theme: string, previousTheme?: string) {
+    document.documentElement.setAttribute('data-prismui-theme', theme);
     const body = document.body;
     previousTheme && body.classList.remove(previousTheme);
+    themes.forEach(item => {
+      if (item.value !== theme) {
+        body.classList.remove(item.value);
+      }
+    });
     body.classList.add(theme);
-    body.setAttribute('data-amis-theme', theme);
+    body.setAttribute('data-prismui-theme', theme);
+
+    [].slice
+      .call(document.querySelectorAll('link[title]'))
+      .forEach((item: HTMLLinkElement) => {
+        const linkTheme = item.getAttribute('title');
+        item.disabled = linkTheme !== theme;
+      });
   }
 
   componentDidUpdate(preProps: any, preState: any) {
     const props = this.props;
 
     if (preState.theme.value !== this.state.theme.value) {
-      [].slice
-        .call(document.querySelectorAll('link[title]'))
-        .forEach((item: HTMLLinkElement) => {
-          const theme = item.getAttribute('title');
-          item.disabled = theme !== this.state.theme.value;
-        });
       this.syncDocumentTheme(this.state.theme.value, preState.theme.value);
     }
 
@@ -398,7 +397,7 @@ export class App extends React.PureComponent<{
             </div>
             <a
               className="gh-icon"
-              href="https://github.com/baidu/amis"
+              href="https://github.com/Gengxin-Tech/prismui"
               target="_blank"
             >
               <i className="fa fa-github" />
@@ -447,6 +446,9 @@ export class App extends React.PureComponent<{
           children: item.children
             ? item.children
                 .filter((item: any) => {
+                  if (item.hidden) {
+                    return false;
+                  }
                   if (item.label) {
                     return filterReg.exec(item.label);
                   }

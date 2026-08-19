@@ -39,7 +39,7 @@ const items = [
 const getExpandBtnByText = (text: string) => {
   const tdElement = screen.getByText(text).parentElement as HTMLElement;
 
-  return tdElement.querySelector('.amis-Table-expandBtn2') as HTMLAnchorElement;
+  return tdElement.querySelector('.prismui-Table-expandBtn2') as HTMLAnchorElement;
 };
 
 const getCheckMeBtnByText = (text: string) => {
@@ -170,7 +170,7 @@ describe('层级选择', () => {
     // 华为节点是未选中,所以根节点应该显示部分选中的样式
     expect(checkMeFirst).toBeChecked();
     expect(checkMeFirst.parentElement!.classList).not.toContain(
-      'amis-Checkbox--partial checked'
+      'prismui-Checkbox--partial checked'
     );
   });
 
@@ -194,13 +194,13 @@ describe('层级选择', () => {
     await waitFor(() => {
       expect(checkMeSecond2).toBeChecked();
       expect(checkMeSecond2.parentElement!.classList).not.toContain(
-        'amis-Checkbox--partial checked'
+        'prismui-Checkbox--partial checked'
       );
     });
 
     expect(checkMeFirst).toBeChecked();
     expect(checkMeFirst.parentElement!.classList).not.toContain(
-      'amis-Checkbox--partial checked'
+      'prismui-Checkbox--partial checked'
     );
   });
 });

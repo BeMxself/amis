@@ -3,32 +3,32 @@
 exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel className actionClassName 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
                     class="icon icon-check"
@@ -37,23 +37,23 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -64,41 +64,41 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -111,11 +111,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -123,7 +123,7 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             type="submit"
           />
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               这是最后一步了
@@ -132,11 +132,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -144,7 +144,7 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -160,54 +160,54 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
 exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel className actionClassName 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal wizard-class-name"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -218,41 +218,41 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -265,11 +265,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -277,16 +277,16 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
@@ -295,10 +295,10 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -313,16 +313,16 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
@@ -331,10 +331,10 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -351,11 +351,11 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default btn-lg btn-primary"
           type="button"
         >
           <span>
@@ -371,21 +371,21 @@ exports[`Renderer:Wizard actionPrevLabel actionNextLabel actionFinishLabel class
 exports[`Renderer:Wizard default 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -393,33 +393,33 @@ exports[`Renderer:Wizard default 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -434,33 +434,33 @@ exports[`Renderer:Wizard default 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -484,68 +484,68 @@ exports[`Renderer:Wizard default 1`] = `
 exports[`Renderer:Wizard dialog 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -556,41 +556,41 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -603,11 +603,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -615,16 +615,16 @@ exports[`Renderer:Wizard dialog 1`] = `
                     type="submit"
                   />
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -633,10 +633,10 @@ exports[`Renderer:Wizard dialog 1`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -651,16 +651,16 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -669,10 +669,10 @@ exports[`Renderer:Wizard dialog 1`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -687,11 +687,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-role="form-item"
                   >
                     <button
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                       type="button"
                     >
                       <span>
@@ -702,11 +702,11 @@ exports[`Renderer:Wizard dialog 1`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -721,21 +721,21 @@ exports[`Renderer:Wizard dialog 1`] = `
     </div>
   </div>
   <div
-    class="amis-dialog-widget __AMIS_COMPONENT_CLASS_PREFIX__Modal __AMIS_COMPONENT_CLASS_PREFIX__Modal--1th"
-    data-amis-theme="cxd"
+    class="prismui-dialog-widget __PRISMUI_COMPONENT_CLASS_PREFIX__Modal __PRISMUI_COMPONENT_CLASS_PREFIX__Modal--1th"
+    data-prismui-theme="cxd"
     role="dialog"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-content in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-content in"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-header"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-header"
       >
         <a
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-close"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-close"
           data-position="left"
           data-tooltip="关闭"
         >
@@ -745,17 +745,17 @@ exports[`Renderer:Wizard dialog 1`] = `
           />
         </a>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-title"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-title"
         >
           添加
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-body"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-body"
         role="dialog-body"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--horizontal"
           novalidate=""
         >
           <input
@@ -763,16 +763,16 @@ exports[`Renderer:Wizard dialog 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--horizontal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label __AMIS_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label __PRISMUI_COMPONENT_CLASS_PREFIX__Form-itemColumn--normal"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     Name
@@ -781,13 +781,13 @@ exports[`Renderer:Wizard dialog 1`] = `
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-value"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-value"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                 >
                   <input
                     autocomplete="off"
@@ -805,10 +805,10 @@ exports[`Renderer:Wizard dialog 1`] = `
         </div>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Modal-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Modal-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -816,7 +816,7 @@ exports[`Renderer:Wizard dialog 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -832,68 +832,68 @@ exports[`Renderer:Wizard dialog 1`] = `
 exports[`Renderer:Wizard dialog 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -904,41 +904,41 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -951,11 +951,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -963,16 +963,16 @@ exports[`Renderer:Wizard dialog 2`] = `
                     type="submit"
                   />
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -981,10 +981,10 @@ exports[`Renderer:Wizard dialog 2`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -999,16 +999,16 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -1017,10 +1017,10 @@ exports[`Renderer:Wizard dialog 2`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1035,11 +1035,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-role="form-item"
                   >
                     <button
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                       type="button"
                     >
                       <span>
@@ -1050,11 +1050,11 @@ exports[`Renderer:Wizard dialog 2`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1074,54 +1074,54 @@ exports[`Renderer:Wizard dialog 2`] = `
 exports[`Renderer:Wizard initApi default 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1132,41 +1132,41 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1177,41 +1177,41 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1224,11 +1224,11 @@ exports[`Renderer:Wizard initApi default 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -1236,33 +1236,33 @@ exports[`Renderer:Wizard initApi default 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1277,33 +1277,33 @@ exports[`Renderer:Wizard initApi default 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -1320,11 +1320,11 @@ exports[`Renderer:Wizard initApi default 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -1340,68 +1340,68 @@ exports[`Renderer:Wizard initApi default 1`] = `
 exports[`Renderer:Wizard initApi reload 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1412,41 +1412,41 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1459,11 +1459,11 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1471,16 +1471,16 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     type="submit"
                   />
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="website"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             网址
@@ -1489,10 +1489,10 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1507,16 +1507,16 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                     </div>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                     data-amis-name="name"
                     data-role="form-item"
                   >
                     <label
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                     >
                       <span>
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                         >
                           <span>
                             名称
@@ -1525,10 +1525,10 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                       </span>
                     </label>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                       >
                         <input
                           autocomplete="off"
@@ -1545,11 +1545,11 @@ exports[`Renderer:Wizard initApi reload 1`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1569,46 +1569,46 @@ exports[`Renderer:Wizard initApi reload 1`] = `
 exports[`Renderer:Wizard initApi reload 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
                             class="icon icon-check"
@@ -1617,23 +1617,23 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1644,41 +1644,41 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1691,11 +1691,11 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1703,7 +1703,7 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                     type="submit"
                   />
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -1712,11 +1712,11 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1724,7 +1724,7 @@ exports[`Renderer:Wizard initApi reload 2`] = `
                   </span>
                 </button>
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1744,46 +1744,46 @@ exports[`Renderer:Wizard initApi reload 2`] = `
 exports[`Renderer:Wizard initApi reload 3`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
                             class="icon icon-check"
@@ -1792,23 +1792,23 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1819,41 +1819,41 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -1866,11 +1866,11 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -1878,7 +1878,7 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                     type="submit"
                   />
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -1887,11 +1887,11 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1899,7 +1899,7 @@ exports[`Renderer:Wizard initApi reload 3`] = `
                   </span>
                 </button>
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -1919,54 +1919,54 @@ exports[`Renderer:Wizard initApi reload 3`] = `
 exports[`Renderer:Wizard initApi show loading 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -1977,41 +1977,41 @@ exports[`Renderer:Wizard initApi show loading 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2022,41 +2022,41 @@ exports[`Renderer:Wizard initApi show loading 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2069,21 +2069,21 @@ exports[`Renderer:Wizard initApi show loading 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         加载中
       </div>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-overlay in"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner __AMIS_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner--overlay in"
       data-testid="spinner"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __AMIS_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--lg __PRISMUI_COMPONENT_CLASS_PREFIX__Spinner-icon--default"
       />
     </div>
   </div>
@@ -2093,54 +2093,54 @@ exports[`Renderer:Wizard initApi show loading 1`] = `
 exports[`Renderer:Wizard initApi show loading 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2151,41 +2151,41 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2196,41 +2196,41 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2243,11 +2243,11 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2255,33 +2255,33 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2296,33 +2296,33 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2339,11 +2339,11 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2359,21 +2359,21 @@ exports[`Renderer:Wizard initApi show loading 2`] = `
 exports[`Renderer:Wizard readOnly 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2381,16 +2381,16 @@ exports[`Renderer:Wizard readOnly 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
@@ -2399,10 +2399,10 @@ exports[`Renderer:Wizard readOnly 1`] = `
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-disabled"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2418,16 +2418,16 @@ exports[`Renderer:Wizard readOnly 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
@@ -2436,10 +2436,10 @@ exports[`Renderer:Wizard readOnly 1`] = `
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2463,32 +2463,32 @@ exports[`Renderer:Wizard readOnly 1`] = `
 exports[`Renderer:Wizard send data 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
                     class="icon icon-check"
@@ -2497,23 +2497,23 @@ exports[`Renderer:Wizard send data 1`] = `
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2524,41 +2524,41 @@ exports[`Renderer:Wizard send data 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2571,11 +2571,11 @@ exports[`Renderer:Wizard send data 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2583,7 +2583,7 @@ exports[`Renderer:Wizard send data 1`] = `
             type="submit"
           />
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
           >
             <span>
               这是最后一步了
@@ -2592,11 +2592,11 @@ exports[`Renderer:Wizard send data 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2604,7 +2604,7 @@ exports[`Renderer:Wizard send data 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2620,32 +2620,32 @@ exports[`Renderer:Wizard send data 1`] = `
 exports[`Renderer:Wizard step initApi 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   <icon-mock
                     class="icon icon-check"
@@ -2654,23 +2654,23 @@ exports[`Renderer:Wizard step initApi 1`] = `
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2681,41 +2681,41 @@ exports[`Renderer:Wizard step initApi 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2726,41 +2726,41 @@ exports[`Renderer:Wizard step initApi 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -2773,11 +2773,11 @@ exports[`Renderer:Wizard step initApi 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -2785,33 +2785,33 @@ exports[`Renderer:Wizard step initApi 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-required"
             data-amis-name="email"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     邮箱
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -2828,11 +2828,11 @@ exports[`Renderer:Wizard step initApi 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2840,7 +2840,7 @@ exports[`Renderer:Wizard step initApi 1`] = `
           </span>
         </button>
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>
@@ -2856,17 +2856,17 @@ exports[`Renderer:Wizard step initApi 1`] = `
 exports[`Renderer:Wizard steps not array 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       />
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <p
@@ -2883,46 +2883,46 @@ exports[`Renderer:Wizard steps not array 1`] = `
 exports[`Renderer:Wizard target 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
             >
               <div
-                class="amis--Wizard-steps"
+                class="prismui--Wizard-steps"
                 id="form-wizard"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-finish is-clickable"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon is-success"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           <icon-mock
                             class="icon icon-check"
@@ -2931,23 +2931,23 @@ exports[`Renderer:Wizard target 1`] = `
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem- is-success"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 1"
                             >
                               Step 1
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -2958,41 +2958,41 @@ exports[`Renderer:Wizard target 1`] = `
                     </div>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                           >
                             <span
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                               title="Step 2"
                             >
                               Step 2
                             </span>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                           >
                             <span
                               class=""
@@ -3005,11 +3005,11 @@ exports[`Renderer:Wizard target 1`] = `
                 </ul>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
                 role="wizard-body"
               >
                 <form
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                   novalidate=""
                 >
                   <input
@@ -3017,7 +3017,7 @@ exports[`Renderer:Wizard target 1`] = `
                     type="submit"
                   />
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                   >
                     <span>
                       这是最后一步了
@@ -3026,11 +3026,11 @@ exports[`Renderer:Wizard target 1`] = `
                 </form>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
                 role="wizard-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -3038,7 +3038,7 @@ exports[`Renderer:Wizard target 1`] = `
                   </span>
                 </button>
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="button"
                 >
                   <span>
@@ -3049,17 +3049,17 @@ exports[`Renderer:Wizard target 1`] = `
             </div>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -3068,10 +3068,10 @@ exports[`Renderer:Wizard target 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -3079,16 +3079,16 @@ exports[`Renderer:Wizard target 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="website"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Website
@@ -3097,10 +3097,10 @@ exports[`Renderer:Wizard target 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -3115,16 +3115,16 @@ exports[`Renderer:Wizard target 1`] = `
                   </div>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="name"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Name
@@ -3133,10 +3133,10 @@ exports[`Renderer:Wizard target 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
                     >
                       <input
                         autocomplete="off"
@@ -3153,13 +3153,13 @@ exports[`Renderer:Wizard target 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -3179,54 +3179,54 @@ exports[`Renderer:Wizard target 1`] = `
 exports[`Renderer:Wizard validate 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Wizard __AMIS_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard __PRISMUI_COMPONENT_CLASS_PREFIX__Wizard--horizontal"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-step"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-step"
     >
       <div
-        class="amis--Wizard-steps"
+        class="prismui--Wizard-steps"
         id="form-wizard"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Steps __AMIS_COMPONENT_CLASS_PREFIX__Steps--Placement- __AMIS_COMPONENT_CLASS_PREFIX__Steps-- __AMIS_COMPONENT_CLASS_PREFIX__Steps--horizontal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Steps __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--Placement- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps-- __PRISMUI_COMPONENT_CLASS_PREFIX__Steps--horizontal"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-process"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-process"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   1
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 1"
                     >
                       Step 1
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3237,41 +3237,41 @@ exports[`Renderer:Wizard validate 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   2
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 2"
                     >
                       Step 2
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3282,41 +3282,41 @@ exports[`Renderer:Wizard validate 1`] = `
             </div>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem is-wait"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-container"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-container"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerTail"
               />
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerIcon"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-icon"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-icon"
                 >
                   3
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-containerWrapper"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-body"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-body"
                 >
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-title __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-title __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-"
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                       title="Step 3"
                     >
                       Step 3
                     </span>
                   </div>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__StepsItem-description __AMIS_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-description __PRISMUI_COMPONENT_CLASS_PREFIX__StepsItem-ellText"
                   >
                     <span
                       class=""
@@ -3329,11 +3329,11 @@ exports[`Renderer:Wizard validate 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-stepContent clearfix"
         role="wizard-body"
       >
         <form
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
           novalidate=""
         >
           <input
@@ -3341,33 +3341,33 @@ exports[`Renderer:Wizard validate 1`] = `
             type="submit"
           />
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isUrl"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isUrl"
             data-amis-name="website"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     网址
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isUrl __AMIS_COMPONENT_CLASS_PREFIX__TextControl is-focused"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isUrl __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl is-focused"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -3381,7 +3381,7 @@ exports[`Renderer:Wizard validate 1`] = `
               </div>
             </div>
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
             >
               <li>
                 URL 格式不正确
@@ -3389,33 +3389,33 @@ exports[`Renderer:Wizard validate 1`] = `
             </ul>
           </div>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal is-error is-required has-error--isRequired"
             data-amis-name="name"
             data-role="form-item"
           >
             <label
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
             >
               <span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     名称
                   </span>
                 </span>
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-star"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-star"
                 >
                   *
                 </span>
               </span>
             </label>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __AMIS_COMPONENT_CLASS_PREFIX__TextControl"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-error has-error--isRequired __PRISMUI_COMPONENT_CLASS_PREFIX__TextControl"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TextControl-input"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TextControl-input"
               >
                 <input
                   autocomplete="off"
@@ -3429,7 +3429,7 @@ exports[`Renderer:Wizard validate 1`] = `
               </div>
             </div>
             <ul
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Form-feedback"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-feedback"
             >
               <li>
                 这是必填项
@@ -3439,11 +3439,11 @@ exports[`Renderer:Wizard validate 1`] = `
         </form>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Wizard-footer __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Wizard-footer __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
         role="wizard-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="button"
         >
           <span>

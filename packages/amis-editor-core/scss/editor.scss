@@ -275,16 +275,16 @@
       //   > *:first-child {
       //     flex: 1;
       //   }
-      //   .amis-dialog-widget {
+      //   .prismui-dialog-widget {
       //     // 编辑态防止内容超出底部空白
       //     position: static;
       //     z-index: 0;
       //   }
 
-      //   > .#{$amis-component-prefix}Page {
+      //   > .#{$prismui-component-prefix}Page {
       //     // 这里主要是为了确保能撑开画布区
       //     display: flex;
-      //     > .#{$amis-component-prefix}Page-content {
+      //     > .#{$prismui-component-prefix}Page-content {
       //       height: auto;
       //     }
       //   }

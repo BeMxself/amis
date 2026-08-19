@@ -3,17 +3,17 @@
 exports[`Renderer:inputYearRange with embed 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:inputYearRange with embed 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,16 +33,16 @@ exports[`Renderer:inputYearRange with embed 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="year"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   年
@@ -51,26 +51,26 @@ exports[`Renderer:inputYearRange with embed 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangeControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangeControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangeCalendar"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangeCalendar"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-wrap"
               >
                 <ul
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-rangers"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-rangers"
                 >
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
                   >
                     <a>
                       今年
                     </a>
                   </li>
                   <li
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-ranger"
                   >
                     <a>
                       去年
@@ -78,10 +78,10 @@ exports[`Renderer:inputYearRange with embed 1`] = `
                   </li>
                 </ul>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-picker-wrap is-vertical"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-picker-wrap is-vertical"
                 >
                   <div
-                    class="rdt rdtStatic rdtOpen __AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-start"
+                    class="rdt rdtStatic rdtOpen __PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-start"
                   >
                     <div
                       class="rdtPicker rdtPickerDate"
@@ -224,7 +224,7 @@ exports[`Renderer:inputYearRange with embed 1`] = `
                     </div>
                   </div>
                   <div
-                    class="rdt rdtStatic rdtOpen __AMIS_COMPONENT_CLASS_PREFIX__DateRangePicker-end"
+                    class="rdt rdtStatic rdtOpen __PRISMUI_COMPONENT_CLASS_PREFIX__DateRangePicker-end"
                   >
                     <div
                       class="rdtPicker rdtPickerDate"
@@ -374,13 +374,13 @@ exports[`Renderer:inputYearRange with embed 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

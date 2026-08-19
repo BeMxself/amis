@@ -3,19 +3,19 @@
 exports[`Renderer:Pagination 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__PaginationWrapper"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PaginationWrapper"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __AMIS_COMPONENT_CLASS_PREFIX__PaginationWrapper-pager"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __PRISMUI_COMPONENT_CLASS_PREFIX__PaginationWrapper-pager"
       >
         <ul
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
         >
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
           >
             <span>
               <icon-mock
@@ -25,7 +25,7 @@ exports[`Renderer:Pagination 1`] = `
             </span>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
           >
             <a
               role="button"
@@ -34,7 +34,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -43,7 +43,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -52,7 +52,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -61,7 +61,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
           >
             <a
               role="button"
@@ -70,7 +70,7 @@ exports[`Renderer:Pagination 1`] = `
             </a>
           </li>
           <li
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
           >
             <span>
               <icon-mock
@@ -82,26 +82,26 @@ exports[`Renderer:Pagination 1`] = `
         </ul>
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Table"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table"
         style="--Table-thead-height: 0px; --Table-column-3-width: 0px; --Table-column-4-width: 0px;"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-fixedTop"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-fixedTop"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-heading"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-heading"
           >
             分页表格
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Table-contentWrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-contentWrap"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content"
           >
             <table
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table"
             >
               <colgroup>
                 <col
@@ -120,10 +120,10 @@ exports[`Renderer:Pagination 1`] = `
                     data-index="3"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Engine
@@ -131,7 +131,7 @@ exports[`Renderer:Pagination 1`] = `
                       </span>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                       data-index="3"
                     />
                   </th>
@@ -140,10 +140,10 @@ exports[`Renderer:Pagination 1`] = `
                     data-index="4"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__TableCell--title"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__TableCell--title"
                     >
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           Version
@@ -151,7 +151,7 @@ exports[`Renderer:Pagination 1`] = `
                       </span>
                     </div>
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-content-colDragLine"
                       data-index="4"
                     />
                   </th>
@@ -159,7 +159,7 @@ exports[`Renderer:Pagination 1`] = `
               </thead>
               <tbody>
                 <tr
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--odd __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--odd __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                   data-id="1"
                   data-index="0"
                 >
@@ -167,7 +167,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       Trident
                     </span>
@@ -176,14 +176,14 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       4
                     </span>
                   </td>
                 </tr>
                 <tr
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Table-table-tr __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--even __AMIS_COMPONENT_CLASS_PREFIX__Table-tr--1th"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Table-table-tr __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--even __PRISMUI_COMPONENT_CLASS_PREFIX__Table-tr--1th"
                   data-id="2"
                   data-index="1"
                 >
@@ -191,7 +191,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       Trident
                     </span>
@@ -200,7 +200,7 @@ exports[`Renderer:Pagination 1`] = `
                     class=""
                   >
                     <span
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__PlainField"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PlainField"
                     >
                       4
                     </span>
@@ -219,34 +219,34 @@ exports[`Renderer:Pagination 1`] = `
 exports[`Renderer:Pagination 2`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-total __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-total __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         共 999 条
       </div>
       <div
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-perpage __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
           >
             10条/页
           </div>
         </div>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
         >
           <icon-mock
             class="icon icon-right-arrow-bold"
@@ -255,10 +255,10 @@ exports[`Renderer:Pagination 2`] = `
         </span>
       </div>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
@@ -268,7 +268,7 @@ exports[`Renderer:Pagination 2`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -277,7 +277,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -294,7 +294,7 @@ exports[`Renderer:Pagination 2`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -303,7 +303,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -312,7 +312,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -329,7 +329,7 @@ exports[`Renderer:Pagination 2`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -338,7 +338,7 @@ exports[`Renderer:Pagination 2`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
@@ -349,20 +349,20 @@ exports[`Renderer:Pagination 2`] = `
         </li>
       </ul>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
         >
           跳转至
         </span>
         <input
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
           type="text"
           value=""
         />
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
         >
           前往
         </span>
@@ -375,16 +375,16 @@ exports[`Renderer:Pagination 2`] = `
 exports[`Renderer:Pagination with disabled 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md disabled"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md disabled"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
         >
           <span>
             <icon-mock
@@ -394,7 +394,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -403,7 +403,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -412,7 +412,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -421,7 +421,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -430,7 +430,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -439,7 +439,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -448,7 +448,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -457,7 +457,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -474,7 +474,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -483,7 +483,7 @@ exports[`Renderer:Pagination with disabled 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
@@ -501,31 +501,31 @@ exports[`Renderer:Pagination with disabled 1`] = `
 exports[`Renderer:Pagination with layout 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-total __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-total __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         共 999 条
       </div>
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-left"
         >
           跳转至
         </span>
         <input
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-input"
           type="text"
           value=""
         />
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-inputGroup-right"
         >
           前往
         </span>
@@ -533,21 +533,21 @@ exports[`Renderer:Pagination with layout 1`] = `
       <div
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-perpage __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
           >
             10条/页
           </div>
         </div>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
         >
           <icon-mock
             class="icon icon-right-arrow-bold"
@@ -556,10 +556,10 @@ exports[`Renderer:Pagination with layout 1`] = `
         </span>
       </div>
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
@@ -569,7 +569,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -578,7 +578,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -587,7 +587,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -596,7 +596,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -605,7 +605,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -614,7 +614,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -623,7 +623,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -632,7 +632,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -649,7 +649,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -658,7 +658,7 @@ exports[`Renderer:Pagination with layout 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
@@ -676,16 +676,16 @@ exports[`Renderer:Pagination with layout 1`] = `
 exports[`Renderer:Pagination with maxButtons 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev"
         >
           <span>
             <icon-mock
@@ -695,7 +695,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -704,7 +704,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -721,7 +721,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -730,7 +730,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -739,7 +739,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -748,7 +748,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -757,7 +757,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item is-active"
         >
           <a
             role="button"
@@ -766,7 +766,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -775,7 +775,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -784,7 +784,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -793,7 +793,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-ellipsis"
         >
           <a
             role="button"
@@ -810,7 +810,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </span>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-item"
         >
           <a
             role="button"
@@ -819,7 +819,7 @@ exports[`Renderer:Pagination with maxButtons 1`] = `
           </a>
         </li>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next"
         >
           <span>
             <icon-mock
@@ -839,21 +839,21 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
   aria-expanded="true"
   aria-haspopup="listbox"
   aria-owns="downshift-2-menu"
-  class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened __AMIS_COMPONENT_CLASS_PREFIX__Pagination-perpage __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item has-popover"
+  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select is-opened __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-perpage __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item has-popover"
   role="combobox"
   tabindex="0"
 >
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-placeholder"
     >
       请选择
     </div>
   </div>
   <span
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
   >
     <icon-mock
       class="icon icon-right-arrow-bold"
@@ -861,26 +861,26 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
     />
   </span>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__Select-popover"
+    data-prismui-theme="cxd"
     role="popover"
     style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
     theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver-overlay"
     />
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-menu"
     >
       <div
         aria-selected="false"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-0"
         role="option"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="2条/页"
         >
           2条/页
@@ -888,12 +888,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-1"
         role="option"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="11条/页"
         >
           11条/页
@@ -901,12 +901,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-2"
         role="option"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="37条/页"
         >
           37条/页
@@ -914,12 +914,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-3"
         role="option"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="101条/页"
         >
           101条/页
@@ -927,12 +927,12 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
       </div>
       <div
         aria-selected="false"
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
         id="downshift-2-item-4"
         role="option"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
           title="555条/页"
         >
           555条/页
@@ -946,16 +946,16 @@ exports[`Renderer:Pagination with showPerPage & perPageAvailable & showPageInput
 exports[`Renderer:Pagination with simple mode 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Service"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Service"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap __AMIS_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __AMIS_COMPONENT_CLASS_PREFIX__Pagination-simple"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-wrap-size--md __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-simple"
     >
       <ul
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination __AMIS_COMPONENT_CLASS_PREFIX__Pagination--sm __AMIS_COMPONENT_CLASS_PREFIX__Pagination-pager-items __AMIS_COMPONENT_CLASS_PREFIX__Pagination-item"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination--sm __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-pager-items __PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-item"
       >
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-prev is-disabled"
         >
           <span>
             <icon-mock
@@ -970,7 +970,7 @@ exports[`Renderer:Pagination with simple mode 1`] = `
           1
         </span>
         <li
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Pagination-next is-disabled"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Pagination-next is-disabled"
         >
           <span>
             <icon-mock

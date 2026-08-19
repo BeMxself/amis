@@ -3,108 +3,108 @@
 exports[`Renderer:status 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--0"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--0"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--1"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--1"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
               icon="success"
             />
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--success"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--success"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-success icon"
               icon="success"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               成功
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--pending"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--pending"
           >
             <i
-              class="rolling __AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon rolling rolling"
+              class="rolling __PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon rolling rolling"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               运行中
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--fail"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--fail"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               失败
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--fail"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--fail"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-fail icon"
               icon="fail"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               失败
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--queue"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--queue"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-warning icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-warning icon"
               icon="warning"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               排队中
             </span>
           </span>
           <span
-            class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField __AMIS_COMPONENT_CLASS_PREFIX__StatusField--schedule"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField __PRISMUI_COMPONENT_CLASS_PREFIX__StatusField--schedule"
           >
             <icon-mock
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Status-icon icon icon-schedule icon"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Status-icon icon icon-schedule icon"
               icon="schedule"
             />
             <span
-              class="__AMIS_COMPONENT_CLASS_PREFIX__StatusField-label"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__StatusField-label"
             >
               调度中
             </span>

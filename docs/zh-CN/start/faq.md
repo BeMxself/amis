@@ -51,7 +51,7 @@ title: 常见问题
 
 ## 集成到 React 项目中报错
 
-一般都是因为 React、Mobx、mobx-react 版本有关，参考 amis 项目的 [package.json](https://github.com/baidu/amis/blob/master/package.json)，将版本保持一致，尤其是 Mobx，目前 amis 中使用的版本是 4，因为兼容性的考虑短期内不会升级到 5/6，使用 MobX 5/6 肯定会报错。
+一般都是因为 React、Mobx、mobx-react 版本有关，参考 amis 项目的 [package.json](https://github.com/Gengxin-Tech/prismui/blob/master/package.json)，将版本保持一致，尤其是 Mobx，目前 amis 中使用的版本是 4，因为兼容性的考虑短期内不会升级到 5/6，使用 MobX 5/6 肯定会报错。
 
 ## 有的功能在官网示例中能用，但在 React/SDK 中无法使用
 
@@ -59,7 +59,7 @@ title: 常见问题
 
 1. 使用最新 beta 版本，方法是去 [npm](https://www.npmjs.com/package/amis?activeTab=versions) 查看最新版本号，比如最新版本是 1.1.2-beta.2
    ，就运行运行 `npm i amis@1.1.2-beta.2` 命令，在 `node_modules/amis/sdk` 目录中也能找到对应的 sdk 代码。
-2. 如果还是报错，可以使用最新代码自动编译的 sdk，下载地址是 `https://github.com/baidu/amis/blob/gh-pages/sdk.tar.gz`
+2. 如果还是报错，可以使用最新代码自动编译的 sdk，下载地址是 `https://github.com/Gengxin-Tech/prismui/blob/gh-pages/sdk.tar.gz`
 
 ## 如何支持配置中的 URL 地址替换？
 

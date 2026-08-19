@@ -50,7 +50,7 @@ FIS3 不能简单判定为“仓库已归档/完全停止维护”：`fex-team/f
 
 - 根目录 `start` 已是 Vite；`fis3`、`fis3-dev`、`fis3-serve` 仍保留开发预览入口。来源：`package.json`。
 - workspace 库包构建主要是 Rollup。来源：各 `packages/*/package.json`。
-- `packages/amis/build.sh` 先执行 Rollup，再执行 `fis3 release publish-sdk -c -f ../../fis-conf.js`，所以 SDK 产物仍依赖 FIS3。来源：`packages/amis/build.sh`。
+- `packages/amis/build.sh` 先执行库包 Rollup，再默认执行 Rollup SDK builder 生成 `packages/amis/sdk`；旧的 `fis3 release publish-sdk` 已降级为 `AMIS_SDK_BUILDER=fis3` fallback。来源：`packages/amis/build.sh`。
 
 ### 2. 资源映射和运行时模块协议
 
@@ -92,8 +92,8 @@ amis 的 `publish-sdk` media 中大量使用该能力：
 `scripts/embed-packager.js` 会读取 `examples/sdk-placeholder.html`，把其中 script/link/style 对应的资源合并为 SDK 产物：
 
 - 合并 JS 为 `sdk.js`。
-- 按 `ang`、`cxd`、`dark`、`antd` 主题输出 `sdk.css`/`ang.css`/`dark.css`/`antd.css`。
-- 对 CSS selector 加 `.amis-scope` 前缀，同时排除 `fr-`、`fa`、`tox`、`monaco`、`vs`、`colorpicker` 等第三方全局 selector。
+- 按 `ang`、`cxd`、`dark`、`antd` 主题输出 `sdk.css`/`ang.css`/`dark.css`/`antd.css`，并保留 `prismui.css` 作为 cxd 的兼容别名。
+- 对 CSS selector 加 `.prismui-scope` 前缀，同时排除 `fr-`、`fa`、`tox`、`monaco`、`vs`、`colorpicker` 等第三方全局 selector。
 - 对 resource map 中相对 URL 改写为 `amis['sdk@<version>BasePath'] + ...`。
 
 这部分本质上是一个自定义 SDK assembler，不是 FIS3 独有能力；但迁移时必须保留产物文件名、CSS 前缀策略、运行时 basePath 语义。
@@ -148,7 +148,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 1. **产物契约风险**：SDK 消费者可能依赖文件名、目录结构、`amis.require` 行为、basePath、主题 CSS 名称、thirds 路径。
 2. **异步模块风险**：FIS3 resourceMap 与 Rollup/Webpack chunk 图不是同一个模型，异步组件、大包懒加载、CSS 依赖顺序必须逐项对齐。
-3. **CSS 风险**：`embed-packager` 的 `.amis-scope` 前缀规则不是普通 CSS bundler 行为，迁移时容易造成样式泄漏或第三方组件样式失效。
+3. **CSS 风险**：`embed-packager` 的 `.prismui-scope` 前缀规则不是普通 CSS bundler 行为，迁移时容易造成样式泄漏或第三方组件样式失效。
 4. **Monaco/PDF worker 风险**：这类资源最容易出现路径正确但运行时加载失败的问题，需要真实浏览器验证。
 5. **IE11/legacy 风险**：当前 build.sh 仍生成 `*-ie11.css`。如果仍要求 IE11 或老 WebView，需要明确 JS/CSS legacy 策略；Vite 的 legacy 插件能处理旧浏览器 chunk，但不等同于现有 SDK 的 IE11 CSS patch。
 
@@ -168,7 +168,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 本轮为让 Phase 0 可复现，修掉了几处“继续依赖 FIS3 时会越来越常见”的兼容问题：
 
 - `fis-optimizer-terser -> deasync` 在 Node `v22.23.1` 下缺原生 binding，需要先执行 `npm rebuild deasync` 才能运行 FIS3 optimizer。
-- `scripts/embed-packager.js` 原先用旧 `css` parser 做 SDK CSS scope 前缀，遇到现代 CSS cascade layer 语法（例如 `@layer amis.reset, amis.tokens, amis.components, amis.theme, amis.user;`）会报 `missing '}'`；当前已改为 PostCSS parse/walk，保留原有 selector prefix 规则。
+- `scripts/embed-packager.js` 原先用旧 `css` parser 做 SDK CSS scope 前缀，遇到现代 CSS cascade layer 语法（例如 `@layer prismui.reset, prismui.tokens, prismui.components, prismui.theme, prismui.user;`）会报 `missing '}'`；当前已改为 PostCSS parse/walk，保留原有 selector prefix 规则。
 - `react-player@3.4.0` 发布为 ESM，FIS3/Terser 会对 `node_modules/react-player/dist/index.js` 报 `"Import" statement may only appear at the top level`；当前已把 `react-player/**.js` 加入 `fis-conf.js` 既有 ESM TypeScript parser 匹配。
 - `scripts/build-schemas.ts` 原先 `main().catch(console.error)` 会吞掉 schema 生成失败，导致 `npm run build --workspace amis` 可能打印异常但退出码仍为 0；当前已让异常设置非零退出码，并把 schema 无关的 React/JSX 展示层类型按 `any` 处理，避免 React 19 类型下 `ts-json-schema-generator` 卡在 `JSX.Element`。
 
@@ -178,7 +178,7 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 不先替换工具，先抽出可测试逻辑。
 
-- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js`、`scripts/sdk-build/build-sdk-theme-css.js`、`scripts/sdk-build/rewrite-sdk-css-urls.js`、`scripts/sdk-build/rewrite-sdk-resource-map.js`、`scripts/sdk-build/collect-sdk-placeholder-assets.js` 和 `scripts/sdk-build/prepare-sdk-js.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.amis-scope` 前缀规则、主题 CSS 输出规则、package CSS URL 到 SDK `thirds/` 的改写规则、`sdk@<version>BasePath` URL 改写协议、placeholder 资源分类逻辑和 SDK JS 后处理规则。
+- 将 `scripts/embed-packager.js` 中 CSS prefix、HTML script/link 收集、resourceMap URL 改写拆成独立纯函数并加测试。当前已先抽出 `scripts/sdk-build/prefix-sdk-css.js`、`scripts/sdk-build/build-sdk-theme-css.js`、`scripts/sdk-build/rewrite-sdk-css-urls.js`、`scripts/sdk-build/rewrite-sdk-resource-map.js`、`scripts/sdk-build/collect-sdk-placeholder-assets.js` 和 `scripts/sdk-build/prepare-sdk-js.js`，让 FIS3 `embed-packager` 和未来 SDK builder 共享同一套 `.prismui-scope` 前缀规则、主题 CSS 输出规则、package CSS URL 到 SDK `thirds/` 的改写规则、`sdk@<version>BasePath` URL 改写协议、placeholder 资源分类逻辑和 SDK JS 后处理规则。
 - 将 `fis-conf.js` 中 `publish-sdk` 的包规则整理成数据文件，例如 `scripts/sdk-build/chunks.ts`。当前已先用 CommonJS 数据文件 `scripts/sdk-build/chunk-plan.js` 承接现有分包契约，供 contract check 和未来 Rollup/Vite SDK builder 共享。
 - 将 `__uri`/`__inline` 转换规则统一到可复用插件，避免 Vite dev 和 FIS publish 双轨漂移。
 
@@ -203,21 +203,21 @@ esbuild 适合快速转译和压缩，但插件生命周期和输出图后处理
 
 当前还新增 `npm run check-sdk-rollup-entry`，使用真实 `examples/embed.tsx` 入口跑一次内存 Rollup 构建，并把 workspace 包显式锚到当前 SDK/FIS3 依赖的 `lib` 入口，避免 package `exports.import` 把 `amis-ui/lib/*` 重定向到 `esm/*` 后产生与现有 SDK 路径不同的导出校验结果。现在该检查还会用 jsdom 执行 embedded `sdk.js`，验证 `window.amisRequire`、`amis/embed` 和 `amis@<version>/embed` 在 runtime 下能拿到 `embed()`，并拦截动态 script 加载来渲染一个最小 `page` schema，覆盖 lazy renderer chunk 加载链路；resource map 也会额外声明 `hls.js`、`mpegts.js` 和 `node_modules/pdfjs-dist/build/pdf.mjs` 三个外部 runtime entry，指向 `sdk/thirds` 兼容目录。Rollup entry helper 也已把 FIS CJS 产物里的 `require(['./renderers/X.js', 'tslib'], cb)` 转成 Rollup 可见的 dynamic import，并让 resource map 使用 chunk module id 而不是 package id 表达依赖。这一步依赖先按正式发布顺序生成 fresh workspace `lib`；它只证明真实入口、SWC TS/TSX transform、asset 空模块、loader bridge、entry alias、resource map、chunk manifest、基础 lazy renderer 和外部 runtime resourceMap entry 的最小链路能跑通，尚不声明 `sdk-next` 已具备完整 SDK 分包能力。
 
-当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`cxd` 输出为 `sdk.css`、常规选择器加 `.amis-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀，并覆盖 Font Awesome 这类 package CSS 相对字体 URL 改写到 SDK `thirds/` 的规则。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
+当前还新增 `npm run check-sdk-theme-css`，专门验证已抽出的 SDK 主题 CSS helper：主题文件互斥组合、`prismui` 输出为 `sdk.css`、常规选择器加 `.prismui-scope`、`body/html` 根选择器重写、`:root`/`@keyframes`/Froala/TinyMCE/Monaco 这类全局或第三方选择器保持不被误加前缀，并覆盖 Font Awesome 这类 package CSS 相对字体 URL 改写到 SDK `thirds/` 的规则。它仍只是 CSS 产物协议护栏，不代表 Rollup 已正式接管 SDK CSS 打包。
 
-当前还新增 `npm run check-sdk-theme-css-source-parity`，用真实 `examples/sdk-placeholder.html` 入口重新收集 SDK CSS 源、编译 `amis-ui` SCSS、执行 package CSS URL 改写、简单 `calc()` 算术规约和 `.amis-scope` 前缀后，与正式 `packages/amis/sdk` 中四套主题 CSS 做声明级对比。该检查现在能确认源码生成的主题 CSS 声明集合与正式 SDK CSS 对齐，并把剩余差异收窄分类为：颜色表示/舍入差异、可由同一 `calc()` 规约器证明等价的算术表达式差异、CSS `min/max/clamp` 中是否保留 `calc()` wrapper 的等价差异，以及正式 SDK CSS 中遗留的预处理表达式（例如 `$i`、`px2rem(...)`、`var($zindex-top)`）。2026-08-14 在当前分支下修复了 source SCSS 中这类未插值表达式后，验证结果为 `211973 declarations compared`、`132 color representation differences classified`、`740 calc arithmetic representation differences classified`、`4 CSS math calc wrapper differences classified`、`52 formal CSS preprocessor expression differences classified`。最后一类现在代表正式 `packages/amis/sdk` 基线里尚未重建的预处理残留，不是普通像素噪声；切换 CSS 来源前需要单独决定是重建/修正式 SDK 基线、接受 source CSS 的修正行为，还是增加面向相关组件的视觉/交互回归确认。因此不能把该检查通过等同于已经可以直接替换正式 CSS 产物。
+当前还新增 `npm run check-sdk-theme-css-source-parity`，用真实 `examples/sdk-placeholder.html` 入口重新收集 SDK CSS 源、编译 `amis-ui` SCSS、执行 package CSS URL 改写、简单 `calc()` 算术规约和 `.prismui-scope` 前缀后，与正式 `packages/amis/sdk` 中四套主题 CSS 做声明级对比。该检查现在能确认源码生成的主题 CSS 声明集合与正式 SDK CSS 对齐，并把剩余差异收窄分类为：颜色表示/舍入差异、可由同一 `calc()` 规约器证明等价的算术表达式差异、CSS `min/max/clamp` 中是否保留 `calc()` wrapper 的等价差异，以及正式 SDK CSS 中遗留的预处理表达式（例如 `$i`、`px2rem(...)`、`var($zindex-top)`）。2026-08-14 在当前分支下修复了 source SCSS 中这类未插值表达式后，验证结果为 `211973 declarations compared`、`132 color representation differences classified`、`740 calc arithmetic representation differences classified`、`4 CSS math calc wrapper differences classified`、`52 formal CSS preprocessor expression differences classified`。最后一类现在代表正式 `packages/amis/sdk` 基线里尚未重建的预处理残留，不是普通像素噪声；切换 CSS 来源前需要单独决定是重建/修正式 SDK 基线、接受 source CSS 的修正行为，还是增加面向相关组件的视觉/交互回归确认。因此不能把该检查通过等同于已经可以直接替换正式 CSS 产物。
 
 当前还新增 `npm run check-sdk-rollup-directives` 和 Rollup entry 内的 `sdk-fis-directives` 插件，先覆盖 SDK 真实入口里已经出现的 FIS 专有资源语义：`examples/loadPdfjsWorker.ts` 的 `__uri('pdfjs-dist/...')` 会被改写成 SDK 内 `/thirds/...` URL，`filterUrl(url)` 会按正式 SDK 行为拼上 `amis['sdk@<version>BasePath'] + url.substring(1)`；`packages/amis-ui/lib/components/Editor.js` 的 Monaco worker `/pkg/*.js` 也复用同一 `filterUrl` 改写。插件同时覆盖 `examples/loadMonacoEditor.ts` 这条后续可能进入 Rollup 图的 Monaco loader 路径，并支持当前 examples 中实际出现的相对 JSON `__inline('./*.json')` 形态。这个插件目前只覆盖 worker/thirds URL 和 JSON inline，不处理 examples 普通图片音视频，也不做通用文件内联器。
 
 `build-sdk-next-rollup-entry` 现在还会把 `iconfont.*` 从 `examples/static` 复制、`locale/de-DE.js` 由 `packages/amis-ui/src/locale/de-DE.ts` 生成、Font Awesome webfonts / moment-timezone packed data / Monaco `min/vs` 已发布子集 / PDF worker 从对应 `node_modules` 直接复制到 `sdk-next/rollup-entry/`，让 embedded `sdk.js` 按自身 `currentScript` 推导出的 basePath 加载 pdf/Monaco worker、Font Awesome 字体、iconfont 与 locale 资源时有同目录静态资源可用。`thirds/hls.js/hls.js`、`thirds/mpegts.js/mpegts.js` 现在由对应依赖的发布版 UMD 文件包成 `amis.define('hls.js'| 'mpegts.js')`，`thirds/pdfjs-dist/build/pdf.js` 则由 `pdfjs-dist/build/pdf.mjs` 通过 Rollup 转成 CommonJS 后包成 `amis.define('node_modules/pdfjs-dist/build/pdf.mjs')`；这三项仍保持正式 SDK 的 `thirds` 文件布局，但不再复用 FIS 已包装产物。`check-sdk-next-contract` 在检测到 manifest 里存在 `rollupEntry` 时，会校验静态文件被列入 manifest、`thirds` 文件集合与正式 SDK 对齐、外部 runtime resourceMap entry 指向正确文件，并用 jsdom 直接加载三份 runtime AMD 文件确认 HLS / mpegts / pdfjs 关键 API 可用。
 
-`build-sdk-next-rollup-entry` 同时会把 `sdk.css`、`ang.css`、`dark.css`、`antd.css` 四套主主题 CSS 由 `buildSdkThemeCssFromSource` 直接生成到 `sdk-next/rollup-entry/`，并把 `cxd.css` 作为 `sdk.css` 的兼容别名同步写出；`sdk-ie11.css`、`ang-ie11.css`、`dark-ie11.css`、`antd-ie11.css` 则用 source 主题 CSS 追加 `ie11-patch.css` 后跑 `postcss-custom-properties({preserve: false})` 生成，并同步写出 `cxd-ie11.css` 兼容别名；`helper.css` 由 `amis-ui/scss/helper.scss` 通过 Sass + autoprefixer 生成。manifest 的 `rollupEntry.cssFiles` 会列出这些 CSS 文件，contract 会验证它们存在、非空、主要主题文件仍包含 `.amis-scope`、`sdk.css`/`cxd.css` 与 `sdk-ie11.css`/`cxd-ie11.css` 兼容别名一致，并确认 rollup-entry CSS 没有未解析 Sass 表达式。这一步代表 Rollup entry overlay 的 SDK CSS 已脱离直接复制 FIS3 产物；顶层正式 `sdk/` 仍未切换。
+`build-sdk-next-rollup-entry` 同时会把 `sdk.css`、`ang.css`、`dark.css`、`antd.css` 四套主主题 CSS 由 `buildSdkThemeCssFromSource` 直接生成到 `sdk-next/rollup-entry/`，并把 `prismui.css` 作为 `sdk.css` 的兼容别名同步写出；`sdk-ie11.css`、`ang-ie11.css`、`dark-ie11.css`、`antd-ie11.css` 则用 source 主题 CSS 追加 `ie11-patch.css` 后跑 `postcss-custom-properties({preserve: false})` 生成到同一个 SDK 目录（next overlay 为 `sdk-next/rollup-entry/`，正式 Rollup SDK 为 `packages/amis/sdk/`），并同步写出 `prismui-ie11.css` 兼容别名；`helper.css` 由 `amis-ui/scss/helper.scss` 通过 Sass + autoprefixer 生成。manifest 的 `rollupEntry.cssFiles` 会列出默认加载的主 SDK CSS，`rollupEntry.ie11CssFiles` 会列出同目录内可选加载的 IE11 静态 CSS fallback，contract 会验证它们存在、非空、主要主题文件仍包含 `.prismui-scope`、`sdk.css`/`prismui.css` 与 `sdk-ie11.css`/`prismui-ie11.css` 兼容别名一致，并确认 rollup-entry CSS 没有未解析 Sass 表达式。这一步代表 Rollup entry overlay 的 SDK CSS 已脱离直接复制 FIS3 产物；IE11 fallback 会进入 SDK 发布目录，但默认示例不加载它，因此影响的是发布目录总尺寸，不是现代浏览器激活加载尺寸。
 
 Rollup entry 还会输出 `sdk-empty-assets.json`，记录被 `emptyAssetImports` 占位掉的裸 CSS/图片/font import；当前 contract 要求该列表为空，避免迁移过程中新增资源依赖被静默替换成空字符串。
 
 runtime smoke 曾暴露过两个边界：正式 FIS SDK 在同一 jsdom 环境下会先遇到 `Cannot find module "util"` 的基线问题；Rollup entry 如果使用未重新构建的 checked-in `lib`，会触发 `registerRenderer({getComponent})` 与 `packages/amis-core/lib/factory.js` 旧实现不兼容的问题。当前采用“先运行 workspace build 生成 fresh lib”的路线通过检查，并在 Rollup entry helper 中显式校验 `packages/amis-core/lib/factory.js` 已包含 async renderer 支持；另一条“让 Rollup 输入图直接吃 `src`”会继续牵涉 decorators、type-only import 等 TS 语义，暂不在 entry overlay 里临时补丁化。
 3. `fisDirectivePlugin`：处理 `__uri`/`__inline`。
-4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.amis-scope` 前缀逻辑。
+4. `sdkCssPlugin`：输出四套主题 CSS 并执行 `.prismui-scope` 前缀逻辑。
 5. `thirdsCopyPlugin`：复制 Monaco、PDF worker 和需要保留路径的第三方资源。
 6. `sdkPlaceholderPlugin`：替代 `embed-packager`，生成/合并 SDK 入口文件。
 
@@ -225,22 +225,60 @@ runtime smoke 曾暴露过两个边界：正式 FIS SDK 在同一 jsdom 环境�
 
 ### Phase 3：切换 publish-sdk
 
-当 SDK smoke 和视觉/交互回归通过后，将 `packages/amis/build.sh` 的 `fis3 release publish-sdk` 替换为新的 `node scripts/sdk-build/build.ts` 或 `rollup -c scripts/sdk-build/rollup.config.mjs`。
+当前已完成 SDK 发布路径切换：`packages/amis/build.sh` 默认使用 `node ../../scripts/sdk-build/build-sdk-next.js --mode rollup-sdk` 直接生成正式 `packages/amis/sdk`，`npm run build --workspace amis` 因此不再默认进入 `fis3 release publish-sdk`。
 
-切换后保留一个短期 fallback 脚本，例如 `build-sdk:fis3`，仅用于一两个版本内排查差异；不要长期保留双主路径。
+为了降低发布窗口内的排障风险，短期仍保留 FIS3 fallback：可以通过 `AMIS_SDK_BUILDER=fis3 npm run build --workspace amis` 或根脚本 `npm run build-sdk-fis3` 复现旧路径。这个 fallback 只应服务于一两个版本内的产物差异定位，不应继续作为长期双主路径。
+
+当前 Rollup SDK 输出仍复用前面抽出的 SDK 契约和检查链路，已覆盖入口 `sdk.js`、resource map、16 个计划 chunk、四套主题 CSS、IE11 CSS 兼容别名、locale、iconfont、Monaco/PDF/HLS/mpegts 等 `thirds` 静态/runtime 资源。
+
+2026-08-14 对比 Rollup 默认产物与 FIS3 fallback 产物，结论是“发布契约一致，但不是字节级一致”：
+
+- 构建命令均退出 0：Rollup 使用 `node scripts/sdk-build/build-sdk-next.js --mode rollup-sdk --out-dir /tmp/amis-sdk-compare/rollup`，FIS3 使用 `AMIS_SDK_BUILDER=fis3 npm run build --workspace packages/amis` 后复制 `packages/amis/sdk`。
+- 文件集合一致：两边均为 106 个文件，公共文件 106 个，Rollup-only/FIS3-only 均为 0；其中 72 个文件 hash 相同，34 个文件内容不同。
+- SDK contract 均通过：Rollup 为 `5975 resources, 16 packages`，FIS3 为 `1439 resources, 16 packages`；16 个 package chunk URL 集合一致，均指向 `sdk.js`、`rest.js`、`charts.js`、`tinymce.js`、`xlsx.js` 等计划 chunk。
+- 静态资源大体一致：`helper.css`、`locale/de-DE.js`、`iconfont.*`、`thirds/pdfjs-dist/build/pdf.worker.min.mjs` 等关键静态文件 hash 相同；`pdf.js`、HLS、mpegts、Monaco loader/runtime 文件因包装或生成方式不同而 hash 不同。
+- CSS 是小幅生成差异：四套主题 CSS 的 Rollup 产物比 FIS3 每个约多 5.6KB raw、约多 2KB gzip；`helper.css` 完全一致。
+- JS chunk 是主要差异：Rollup `sdk.js/rest.js/charts.js/tinymce.js/color-picker.js/pdf-viewer.js` 等 raw/gzip 体积明显大于 FIS3。当前这不是文件契约失败，但属于发布体积和加载性能风险，后续需要用 SDK smoke、交互回归和体积预算单独判定是否可接受。
+
+随后已给 Rollup SDK 输出补上生产环境常量内联和 SWC 压缩，并将 `resourceMap` 从 Rollup 内部 module id 收敛到真实 AMD define id。该阶段的正式 Rollup SDK 基线为 `60.504 MiB raw / 11.957 MiB gzip`，比未压缩 Rollup 少约 `25.753 MiB raw / 3.451 MiB gzip`；对比 FIS3 fallback 仍多 `2.481 MiB raw / 0.791 MiB gzip`。根目录 JS chunk 是主要收益来源：从 `41.978 MiB raw / 7.858 MiB gzip` 降到 `16.225 MiB raw / 4.408 MiB gzip`。resourceMap 已从初始 Rollup 的几千个内部模块条目收敛到 SDK 运行时实际可 require 的 AMD module id，而不是 Rollup 中间模块。
+
+压缩策略采用顺序 SWC `compress + mangle`，并保持现有 `sdk.js`、`rest.js`、`color-picker.js` 等 chunk 拓扑不变。曾尝试新增内嵌 `sdk-shared` chunk 把 React/MobX/MST/lodash 等公共模块从 `color-picker.js` 抽回入口，体积上能继续降低 `color-picker.js`，但会在 `check-sdk-rollup-entry` 的 jsdom runtime smoke 中触发 CommonJS 初始化顺序错误，因此本轮不纳入正式方案。剩余体积差异应优先看拆包语义和懒加载边界，而不是继续堆压缩强度。
+
+2026-08-14 继续追问的是 SDK 发布目录的 raw 打包原始尺寸，而不是 gzip/Brotli 传输压缩率。按当前 `packages/amis/sdk` 与 FIS3 fallback `/tmp/amis-sdk-compare/fis3-1786693063` 对比：当前 Rollup SDK 为 `60.504 MiB raw`，FIS3 为 `58.023 MiB raw`，净多 `2.481 MiB raw`。分层看，根目录 JS chunk 从 `13.336 MiB` 增到 `16.245 MiB`，多 `2.909 MiB`；`thirds` JS 反而少 `0.480 MiB`，CSS 只多 `0.052 MiB`，fonts/icons/worker/other 基本持平。因此 raw 尺寸问题几乎全部集中在根目录 JS chunk。
+
+同名文件 raw 增量最大的是：
+
+- `rest.js`：多 `1.859 MiB`。未压缩 Rollup 图显示主要来源包括 `hls-video-element/node_modules/hls.js/dist/hls.mjs` 约 `1.410 MiB`、`dashjs` 约 `0.794 MiB`、`moment-timezone/data/packed/latest.json` 约 `0.693 MiB`、`media-chrome`/Mux/Vimeo 等播放器生态。来源：`packages/amis/src/renderers/VideoPlayer.tsx`、`node_modules/react-player/dist/players.js`、`scripts/sdk-build/rollup-sdk-rest-pack.js`。
+- `color-picker.js`：多 `1.205 MiB`。它不只是颜色组件和 `react-color`，还承接了 `amis-core`、`react-dom`、MobX/MST、lodash、moment、formula 等共享运行时。来源：`scripts/sdk-build/rollup-sdk-manual-chunks.js` 的 chunk 归属规则和 Rollup module graph。
+- `charts.js`：多 `0.323 MiB`。Rollup 图里同时出现 `echarts/dist/echarts.js` 和大量 `echarts/lib/*` 模块，`echarts-wordcloud` 源码也从 `echarts/lib/echarts` 入口接入，需要进一步统一入口验证。来源：`packages/amis/src/renderers/Chart.tsx`、`node_modules/echarts-wordcloud/src/*.js`。
+- `pdf-viewer.js`：多 `0.292 MiB`。`pdfjs-dist/build/pdf.mjs` 被打进 chunk，同时 SDK 目录还发布 `thirds/pdfjs-dist/build/pdf.js` runtime。来源：`packages/amis-ui/src/components/PdfViewer.tsx`、`scripts/sdk-build/sdk-runtime-assets.js`。
+- `sdk.js`：多 `0.152 MiB`。当前最终入口会同步内嵌 `barcode.js`、`color-picker.js`、`json-view.js`、`pdf-viewer.js`，而这些文件仍作为独立 chunk 发布；四个独立文件合计约 `1.765 MiB raw`。`examples/mod.js` 的 `require.async` 在模块已经被 `factoryMap` 定义时不会再拉对应 package，所以标准 `<script src="sdk.js">` 路径下这部分很可能是实质重复；风险是 public chunk URL 契约和直接加载这些文件的用户。
+
+还能继续压 raw 的候选方向，按优先级和风险排序：
+
+- 选择一种 PDF runtime 形态。要么让 `react-pdf`/`pdfjs-dist` 真正 external 到 `thirds/pdfjs-dist/build/pdf.js`，要么不再发布未被正式 `pdf-viewer.js` 消费的同功能 runtime。预计 raw 收益约 `0.3-0.6 MiB`，需要真实浏览器验证 PDF worker、`react-pdf` module shape 和 basePath。
+- 处理 moment-timezone 数据。`packages/amis/src/renderers/Date.tsx` 同步 `import 'moment-timezone'`，会把完整 packed data 打进 JS；SDK 目录还复制了一份 `thirds/moment-timezone/data/packed/latest.json`，但源码搜索只看到构建和 contract 直接引用这份静态 JSON。如果这不是公开兼容契约，可以先移除静态 JSON，收益约 `0.693 MiB raw`；如果要继续减 `rest.js`，可评估 alias 到 `moment-timezone-with-data-1970-2030` 或 `10-year-range`，但会改变远年份时区语义。
+- 处理入口内嵌重复。不能简单禁止内嵌，因为 `amisRequire('amis/embed')` 是同步 API，入口同步依赖必须已定义；但可以在“内嵌后不再发布重复 chunk”和“保持独立 chunk、入口改成真正 lazy 边界”两条路中选一条，前者影响 public 文件契约，后者要改 renderer 注册/loader 同步语义。理论 raw 上限约 `1.7-1.8 MiB`。
+- 暂不建议重试全局 `sdk-shared`。此前把 React/MobX/MST/lodash 等硬抽公共 chunk 虽然能降 `color-picker.js`，但已在 `check-sdk-rollup-entry` jsdom runtime smoke 中触发 CommonJS 初始化顺序错误；若要做，只能围绕单个库做小范围 external，并配套 runtime smoke。
+
+不建议的方向：继续换 Terser/esbuild、追 `unsafe`/property mangling、单纯把 `rest.js` 拆成更多文件、或者只讨论 gzip/Brotli。前两者对 raw 收益小且风险高；单纯拆文件会改善首轮加载口径，但全 SDK raw 总量不降；Brotli 是传输层收益，不改变发布目录原始尺寸。
+
+2026-08-14 已先落地第一项低侵入瘦身：`VideoPlayer` 不再直接 lazy import 默认 `react-player` 入口，而是使用项目内 `VideoReactPlayer` wrapper，只保留 `VideoPlayer` 实际会路由过去的 DASH、Mux、YouTube、Vimeo、Wistia 和 HTML fallback provider。HLS/FLV 继续走现有原生 `<video>` + `hls.js`/`mpegts.js` runtime。重建 `packages/amis/sdk` 后，全量 raw 从 `60.504 MiB` 降到 `59.917 MiB`，减少约 `0.587 MiB`；`rest.js` 从 `4.600 MiB` 降到 `4.014 MiB`。Rollup module graph 复核显示 `hls-video-element` 和其 nested `hls.js` 均为 `0`，DASH/YouTube/Vimeo/Wistia/Mux 仍保留。验证命令：`npm test --workspace packages/amis -- --runTestsByPath __tests__/renderers/Video.test.tsx`、`NODE_ENV=production ../../node_modules/.bin/rollup -c`、`npm run build-sdk-rollup`、`npm run check-sdk-contract`、`npm run check-sdk-rollup-entry`。
+
+2026-08-14 随后落地第二项瘦身：Rollup SDK 构建内将 `echarts`、`echarts/lib/echarts(.js)` 和 `echarts-wordcloud/dist/echarts-wordcloud` 统一到 ECharts ESM full entry 与 `echarts-wordcloud` 源码入口，消除 `charts.js` 中 `echarts/dist/echarts.js` 与 `echarts/lib/*` 并存的重复。未压缩 Rollup 图显示 `echarts/dist` 从 `3.836 MiB` 降到 `0`，`echarts-wordcloud/dist` 从 `0.047 MiB` 降到 `0`；正式落盘后 `charts.js` 从 `2.195 MiB raw / 0.727 MiB gzip` 降到 `1.107 MiB raw / 0.366 MiB gzip`，并且比 FIS3 fallback 的 `1.871 MiB raw / 0.610 MiB gzip` 更小。全量 SDK raw 从 `59.917 MiB` 降到 `58.829 MiB`，对比 FIS3 fallback `58.023 MiB` 只多 `0.806 MiB raw`。`check-sdk-rollup-entry` 已新增 chart runtime smoke，会在 jsdom 中触发 chart lazy renderer、加载 `charts.js` 并确认 ECharts 实例创建；同一检查还断言 Rollup SDK 不再打包 `node_modules/echarts/dist/` 或 `echarts-wordcloud/dist/echarts-wordcloud`。验证命令：`npm run build-sdk-rollup`、`npm run check-sdk-contract`、`npm run check-sdk-rollup-entry`。
 
 ### Phase 4：处理 gh-pages 和删除 FIS3
 
-SDK 链路稳定后，再迁移 `gh-pages` media。它包含 docs markdown 编译、示例页复制、API mock 地址替换、路由页面复制等职责，适合用 Vite 多页面构建 + 现有 markdown/mock 插件承接。
+SDK 链路已经由 Rollup 接管，但仓库还没有完全摆脱 FIS3：根目录 dev 脚本、`fis-conf.js` 和 `gh-pages` media 仍在承担文档站 markdown 编译、示例页复制、API mock 地址替换、路由页面复制等职责。这部分适合单独迁移到 Vite 多页面构建 + 现有 markdown/mock 插件承接，不应混入 SDK 发布路径切换提交。
 
 最后删除根目录 FIS3 脚本和 FIS3 插件依赖。
 
 ## 是否需要马上迁移？
 
-建议“启动迁移，但不要一口气切完”。理由：
+SDK 发布路径已经启动并完成 Phase 3 切换；后续不要再把 FIS3 作为 SDK 主路径。剩余是否马上继续迁移 gh-pages/dev FIS3，需要单独评估发布站点验证成本。理由：
 
 - 风险真实存在：FIS3 生态老化，未来依赖升级会越来越被动。
 - 迁移复杂度也真实存在：当前 FIS3 承载了 amis SDK 的运行时协议，不是普通 bundler 替换。
-- 最小正确动作不是“换成 Vite build”，而是先把 SDK 产物协议文档化、测试化，再用 Rollup 插件按协议复刻。
+- SDK 的最小正确动作已经完成：先把产物协议文档化、测试化，再用 Rollup 按协议复刻并切到默认发布路径。
 
-优先级建议：在 React 19 兼容债务完成后，将 “FIS3 publish-sdk 迁移” 作为下一条主线技术债。第一张 PR 应该只做 Phase 0/1：冻结契约、抽离 chunk plan、补检查脚本，不改变发布产物。
+优先级建议：下一条主线应从 “FIS3 gh-pages/dev 迁移” 开始，而不是继续改 SDK builder。第一批只迁移站点构建与路径发布规则，并继续保留 SDK contract / Rollup entry 检查作为回归护栏。

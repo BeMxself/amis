@@ -66,8 +66,8 @@ describe('Renderer:image', () => {
       })
     );
 
-    expect(container.querySelector('.cxd-Image-image')!).toBeInTheDocument();
-    expect(container.querySelector('.cxd-Image-image')!).toHaveAttribute(
+    expect(container.querySelector('.prismui-Image-image')!).toBeInTheDocument();
+    expect(container.querySelector('.prismui-Image-image')!).toHaveAttribute(
       'src',
       imageUrl
     );
@@ -84,10 +84,10 @@ describe('Renderer:image', () => {
     );
 
     expect(container).toMatchSnapshot();
-    expect(container.querySelector('.cxd-Image-title')!).toHaveTextContent(
+    expect(container.querySelector('.prismui-Image-title')!).toHaveTextContent(
       '这是标题'
     );
-    expect(container.querySelector('.cxd-Image-caption')!).toHaveTextContent(
+    expect(container.querySelector('.prismui-Image-caption')!).toHaveTextContent(
       '这是一段说明'
     );
   });
@@ -106,7 +106,7 @@ describe('Renderer:image', () => {
     );
 
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--w-full'));
 
     rerender(
@@ -116,7 +116,7 @@ describe('Renderer:image', () => {
       })
     );
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--h-full'));
 
     rerender(
@@ -126,7 +126,7 @@ describe('Renderer:image', () => {
       })
     );
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--contain'));
 
     rerender(
@@ -136,7 +136,7 @@ describe('Renderer:image', () => {
       })
     );
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--cover'));
   });
 
@@ -155,7 +155,7 @@ describe('Renderer:image', () => {
     );
 
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--1-1'));
 
     rerender(
@@ -165,7 +165,7 @@ describe('Renderer:image', () => {
       })
     );
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--4-3'));
 
     rerender(
@@ -175,7 +175,7 @@ describe('Renderer:image', () => {
       })
     );
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveClass(componentClass('Image-thumb--16-9'));
   });
 
@@ -193,31 +193,31 @@ describe('Renderer:image', () => {
       })
     );
 
-    fireEvent.mouseEnter(container.querySelector('.cxd-Image-thumbWrap')!);
+    fireEvent.mouseEnter(container.querySelector('.prismui-Image-thumbWrap')!);
     expect(container).toMatchSnapshot();
     expect(
-      container.querySelector('.cxd-Image-overlay a icon-mock')!
+      container.querySelector('.prismui-Image-overlay a icon-mock')!
     ).toBeInTheDocument();
 
-    fireEvent.click(container.querySelector('.cxd-Image-overlay a icon-mock')!);
+    fireEvent.click(container.querySelector('.prismui-Image-overlay a icon-mock')!);
 
     expect(container).toMatchSnapshot('Gallery');
-    expect(baseElement.querySelector('.cxd-ImageGallery')!).toBeInTheDocument();
+    expect(baseElement.querySelector('.prismui-ImageGallery')!).toBeInTheDocument();
     expect(getByText('这是一个标题')).toBeInTheDocument();
     expect(
-      baseElement.querySelector('.cxd-ImageGallery .cxd-ImageGallery-main img')!
+      baseElement.querySelector('.prismui-ImageGallery .prismui-ImageGallery-main img')!
     ).toHaveAttribute(
       'src',
       'https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg'
     );
 
     const actions = baseElement.querySelectorAll(
-      '.cxd-ImageGallery-toolbar .cxd-ImageGallery-toolbar-action'
+      '.prismui-ImageGallery-toolbar .prismui-ImageGallery-toolbar-action'
     );
 
     expect(actions!.length).toBe(5);
 
-    const imgIns = baseElement.querySelector('.cxd-ImageGallery-main img')!;
+    const imgIns = baseElement.querySelector('.prismui-ImageGallery-main img')!;
 
     expect(imgIns).toHaveStyle({
       transform: 'translate(0px, 0px) scale(1) rotate(0deg)'
@@ -242,7 +242,7 @@ describe('Renderer:image', () => {
     expect(container).toMatchSnapshot();
 
     expect(
-      container.querySelector('.cxd-Image-thumbWrap .cxd-Image-thumb')!
+      container.querySelector('.prismui-Image-thumbWrap .prismui-Image-thumb')!
     ).toHaveStyle({
       width: '200px',
       height: '200px'
@@ -268,7 +268,7 @@ describe('Renderer:image', () => {
     );
 
     expect(
-      container.querySelector('.cxd-Image.cxd-Image--original')!
+      container.querySelector('.prismui-Image.prismui-Image--original')!
     ).toBeInTheDocument();
   });
 
@@ -279,7 +279,7 @@ describe('Renderer:image', () => {
         data: {
           imageUrl:
             'https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg',
-          imageHref: 'https://github.com/baidu/amis'
+          imageHref: 'https://github.com/Gengxin-Tech/prismui'
         },
         body: {
           type: 'image',
@@ -289,9 +289,9 @@ describe('Renderer:image', () => {
       })
     );
 
-    expect(container.querySelector('.cxd-ImageField a')!).toHaveAttribute(
+    expect(container.querySelector('.prismui-ImageField a')!).toHaveAttribute(
       'href',
-      'https://github.com/baidu/amis'
+      'https://github.com/Gengxin-Tech/prismui'
     );
     expect(container).toMatchSnapshot();
   });
@@ -315,7 +315,7 @@ describe('Renderer:image', () => {
       })
     );
 
-    expect(container.querySelector('.cxd-Image-image')!).toHaveAttribute(
+    expect(container.querySelector('.prismui-Image-image')!).toHaveAttribute(
       'src',
       'https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg@s_0,w_216,l_1,f_jpg,q_80'
     );
@@ -337,7 +337,7 @@ describe('Renderer:image', () => {
         }
       })
     );
-    fireEvent.click(container.querySelector('.cxd-Image-thumbWrap')!);
+    fireEvent.click(container.querySelector('.prismui-Image-thumbWrap')!);
     await waitFor(() => {
       expect(getByText('这是一个弹框')!).toBeInTheDocument();
     });
@@ -394,21 +394,21 @@ describe('Renderer:image', () => {
         })
       )
     );
-    fireEvent.click(container.querySelector('.cxd-Image-thumbWrap')!);
+    fireEvent.click(container.querySelector('.prismui-Image-thumbWrap')!);
     await waitFor(() => {
       expect(notify).toHaveBeenCalledWith('info', '派发点击事件', {
         msg: '派发点击事件',
         msgType: 'info'
       });
     });
-    fireEvent.mouseEnter(container.querySelector('.cxd-Image-thumbWrap')!);
+    fireEvent.mouseEnter(container.querySelector('.prismui-Image-thumbWrap')!);
     await waitFor(() => {
       expect(notify).toHaveBeenCalledWith('info', '派发鼠标移入事件', {
         msg: '派发鼠标移入事件',
         msgType: 'info'
       });
     });
-    fireEvent.mouseLeave(container.querySelector('.cxd-Image-thumbWrap')!);
+    fireEvent.mouseLeave(container.querySelector('.prismui-Image-thumbWrap')!);
     await waitFor(() => {
       expect(notify).toHaveBeenCalledWith('info', '派发鼠标移出事件', {
         msg: '派发鼠标移出事件',
@@ -448,9 +448,9 @@ describe('Renderer:image', () => {
     );
     expect(container).toMatchSnapshot();
     fireEvent.click(getByText('预览图片'));
-    expect(baseElement.querySelector('.cxd-ImageGallery')!).toBeInTheDocument();
+    expect(baseElement.querySelector('.prismui-ImageGallery')!).toBeInTheDocument();
     expect(
-      baseElement.querySelector('.cxd-ImageGallery .cxd-ImageGallery-main img')!
+      baseElement.querySelector('.prismui-ImageGallery .prismui-ImageGallery-main img')!
     ).toHaveAttribute(
       'src',
       'https://internal-amis-res.cdn.bcebos.com/images/2020-1/1578395692722/4f3cb4202335.jpeg'
@@ -510,7 +510,7 @@ describe('Renderer:image', () => {
     );
     expect(container).toMatchSnapshot();
 
-    const imgIns = baseElement.querySelector('.cxd-ImageField--thumb')!;
+    const imgIns = baseElement.querySelector('.prismui-ImageField--thumb')!;
     expect(imgIns).toHaveStyle({
       transform: 'scale(1)'
     });
@@ -640,20 +640,20 @@ describe('Renderer:images', () => {
 
     expect(container).toMatchSnapshot();
     expect(
-      container.querySelectorAll('.cxd-Images .cxd-Images-item')!.length
+      container.querySelectorAll('.prismui-Images .prismui-Images-item')!.length
     ).toBe(3);
 
     fireEvent.mouseEnter(
       container.querySelector(
-        '.cxd-Images .cxd-Images-item .cxd-Image-thumbWrap'
+        '.prismui-Images .prismui-Images-item .prismui-Image-thumbWrap'
       )!
     );
 
-    fireEvent.click(container.querySelector('.cxd-Image-overlay a icon-mock')!);
+    fireEvent.click(container.querySelector('.prismui-Image-overlay a icon-mock')!);
 
     expect(
       baseElement.querySelectorAll(
-        '.cxd-ImageGallery-footer .cxd-ImageGallery-itemsWrap .cxd-ImageGallery-item'
+        '.prismui-ImageGallery-footer .prismui-ImageGallery-itemsWrap .prismui-ImageGallery-item'
       )!.length
     ).toBe(3);
   });

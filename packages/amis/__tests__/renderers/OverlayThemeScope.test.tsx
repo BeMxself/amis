@@ -15,8 +15,8 @@ const makeEnv = (env?: Partial<RenderOptions>) =>
   makeEnvRaw({updateLocation: () => {}, ...env});
 
 const scopedPopoverSelector = (themeName: string, popoverClass: string) =>
-  `[data-amis-theme="${themeName}"].${popoverClass}, ` +
-  `[data-amis-theme="${themeName}"] .${popoverClass}`;
+  `[data-prismui-theme="${themeName}"].${popoverClass}, ` +
+  `[data-prismui-theme="${themeName}"] .${popoverClass}`;
 
 const dropdownSchema = (label: string) => ({
   type: 'page',
@@ -35,9 +35,8 @@ const dropdownSchema = (label: string) => ({
 
 test('Renderer:overlay body portal uses triggering root theme scope with shared env', async () => {
   theme('dark', {
-    classPrefix: 'dark-',
-    componentClassPrefix: 'amis-',
-    legacyDomClassAlias: false
+    classPrefix: 'prismui-',
+    componentClassPrefix: 'prismui-'
   });
 
   const sharedEnv = makeEnv({session: 'overlay-theme-shared'});

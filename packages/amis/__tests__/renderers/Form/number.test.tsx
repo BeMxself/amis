@@ -58,7 +58,7 @@ const setup = async (
 
   await waitFor(() => {
     expect(
-      utils.container.querySelector('.amis-Number-input-wrap input')
+      utils.container.querySelector('.prismui-Number-input-wrap input')
     ).toBeInTheDocument();
 
     expect(
@@ -67,11 +67,11 @@ const setup = async (
   });
 
   const input = utils.container.querySelector(
-    '.amis-Number-input-wrap input'
+    '.prismui-Number-input-wrap input'
   ) as HTMLInputElement;
 
   const wrap = utils.container.querySelector(
-    '.amis-Number-input-wrap'
+    '.prismui-Number-input-wrap'
   ) as HTMLInputElement;
 
   const submitBtn = utils.container.querySelector(
@@ -178,7 +178,7 @@ test('Renderer:number with unitOptions', async () => {
     ]
   );
 
-  const staticDom = container.querySelector('.amis-PlainField') as Element;
+  const staticDom = container.querySelector('.prismui-PlainField') as Element;
 
   expect(staticDom.innerHTML).toBe('<span class="text-muted">-</span>');
 
@@ -189,7 +189,7 @@ test('Renderer:number with unitOptions', async () => {
   await wait(300);
   expect(staticDom.innerHTML).toBe('99px');
 
-  fireEvent.click(container.querySelector('.amis-Select') as Element);
+  fireEvent.click(container.querySelector('.prismui-Select') as Element);
   fireEvent.click(getByText(/em/));
   await wait(300);
   expect(staticDom.innerHTML).toBe('99em');
@@ -213,7 +213,7 @@ test('Renderer:number with unitOptions and default value', async () => {
     ]
   );
 
-  const staticDom = container.querySelector('.amis-PlainField') as Element;
+  const staticDom = container.querySelector('.prismui-PlainField') as Element;
   expect(staticDom.innerHTML).toBe('12px');
 });
 
@@ -235,7 +235,7 @@ test('Renderer:number with unitOptions and initApi', async () => {
   );
   await wait(500); // 等待 initApi 加载完
 
-  const staticDom = container.querySelector('.amis-PlainField') as Element;
+  const staticDom = container.querySelector('.prismui-PlainField') as Element;
   expect(staticDom.innerHTML).toBe('12px');
 });
 
@@ -269,7 +269,7 @@ test('Renderer:number with step & precision & displayMode & keyboard', async () 
   });
 
   const rightBtn = container.querySelector(
-    '.amis-Number--enhance-right-icon'
+    '.prismui-Number--enhance-right-icon'
   ) as Element;
 
   fireEvent.click(wrap);
@@ -303,10 +303,10 @@ test('Renderer:number with borderMode', async () => {
   });
 
   expect(
-    noBorder.querySelector('.amis-Number.amis-Number--borderNone') as Element
+    noBorder.querySelector('.prismui-Number.prismui-Number--borderNone') as Element
   ).toBeInTheDocument();
   expect(
-    halfBorder.querySelector('.amis-Number.amis-Number--borderHalf') as Element
+    halfBorder.querySelector('.prismui-Number.prismui-Number--borderHalf') as Element
   ).toBeInTheDocument();
 
   expect(noBorder).toMatchSnapshot();
@@ -371,7 +371,7 @@ test('Renderer:number with showAsPercent', async () => {
   fireEvent.blur(input);
   await wait(300);
   const currentInput = container.querySelector(
-    '.amis-Number-input-wrap input'
+    '.prismui-Number-input-wrap input'
   ) as HTMLInputElement;
   expect(currentInput.value).toEqual('23.123%');
 });

@@ -73,7 +73,7 @@ test('Renderer: crud filterable', async () => {
   fireEvent.click(container.querySelector('[icon="column-filter"]')!);
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-PopOver')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-PopOver')).toBeInTheDocument();
   });
 });
 
@@ -115,10 +115,10 @@ test('Renderer: crud filterable searchable', async () => {
   fireEvent.click(container.querySelector('[icon="column-filter"]')!);
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-PopOver')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-PopOver')).toBeInTheDocument();
   });
 
   await waitFor(() => {
-    expect(container.querySelector('.cxd-SearchBox')).toBeInTheDocument();
+    expect(container.querySelector('.prismui-SearchBox')).toBeInTheDocument();
   });
 });

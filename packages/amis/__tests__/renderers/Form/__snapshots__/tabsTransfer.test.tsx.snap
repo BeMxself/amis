@@ -3,31 +3,31 @@
 exports[`Renderer:tabsTransfer 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`Renderer:tabsTransfer 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -47,16 +47,16 @@ exports[`Renderer:tabsTransfer 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           组合穿梭器
@@ -65,52 +65,52 @@ exports[`Renderer:tabsTransfer 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransferControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransferControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-select"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-select"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tabs"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tabs"
                           data-role="container"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
                               >
                                 <ul
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
                                   role="tablist"
                                 >
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                                   >
                                     <a
                                       title="成员"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                       >
                                         成员
                                       </span>
                                     </a>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                                   >
                                     <a
                                       title="用户"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                       >
                                         用户
                                       </span>
@@ -121,16 +121,16 @@ exports[`Renderer:tabsTransfer 1`] = `
                             </div>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
                           >
                             <div
-                              class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                              class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-search"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-search"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputBox"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputBox"
                                 >
                                   <input
                                     placeholder="请输入关键字"
@@ -146,20 +146,20 @@ exports[`Renderer:tabsTransfer 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tree __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                               >
                                 <ul
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-list"
                                 >
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                                     style="--Tree-depth: 0;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                                       >
                                         <icon-mock
                                           class="icon icon-down-arrow-bold"
@@ -167,7 +167,7 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </div>
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -183,32 +183,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="法师"
                                         >
                                           法师
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -224,29 +224,29 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="诸葛亮"
                                         >
                                           诸葛亮
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                                     style="--Tree-depth: 0;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                                       >
                                         <icon-mock
                                           class="icon icon-down-arrow-bold"
@@ -254,7 +254,7 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </div>
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -270,32 +270,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="战士"
                                         >
                                           战士
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -311,32 +311,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="曹操"
                                         >
                                           曹操
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -352,29 +352,29 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="钟无艳"
                                         >
                                           钟无艳
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                                     style="--Tree-depth: 0;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                                       >
                                         <icon-mock
                                           class="icon icon-down-arrow-bold"
@@ -382,7 +382,7 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </div>
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -398,32 +398,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="打野"
                                         >
                                           打野
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -439,32 +439,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="李白"
                                         >
                                           李白
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -480,32 +480,32 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="韩信"
                                         >
                                           韩信
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                     style="--Tree-depth: 1;"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                       />
                                       <label
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Checkbox __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __AMIS_COMPONENT_CLASS_PREFIX__Checkbox--sm"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--checkbox--default __PRISMUI_COMPONENT_CLASS_PREFIX__Checkbox--sm"
                                         data-role="checkbox"
                                       >
                                         <input
@@ -521,16 +521,16 @@ exports[`Renderer:tabsTransfer 1`] = `
                                         />
                                       </label>
                                       <div
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                       >
                                         <span
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                           title="云中君"
                                         >
                                           云中君
                                         </span>
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                         />
                                       </div>
                                     </div>
@@ -539,22 +539,22 @@ exports[`Renderer:tabsTransfer 1`] = `
                               </div>
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
                                     >
                                       <span
-                                        class=" __AMIS_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
+                                        class=" __PRISMUI_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
                                         title="法师2 "
                                       >
                                         法师2
@@ -562,13 +562,13 @@ exports[`Renderer:tabsTransfer 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
                                     >
                                       <span
-                                        class=" __AMIS_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
+                                        class=" __PRISMUI_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
                                         title="战士2 "
                                       >
                                         战士2
@@ -576,13 +576,13 @@ exports[`Renderer:tabsTransfer 1`] = `
                                     </div>
                                   </div>
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
                                     >
                                       <span
-                                        class=" __AMIS_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
+                                        class=" __PRISMUI_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
                                         title="打野2 "
                                       >
                                         打野2
@@ -591,10 +591,10 @@ exports[`Renderer:tabsTransfer 1`] = `
                                   </div>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-placeholder"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-placeholder"
                                   />
                                 </div>
                               </div>
@@ -603,28 +603,28 @@ exports[`Renderer:tabsTransfer 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-mid"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-mid"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-result"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-result"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-title"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-title"
                         >
                           <span>
                             已选项
                           </span>
                           <a
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-clearAll is-disabled"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-clearAll is-disabled"
                           >
                             清空
                           </a>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Selections __AMIS_COMPONENT_CLASS_PREFIX__Transfer-value"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Selections __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-value"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Selections-placeholder"
                           >
                             请选择左侧数据
                           </div>
@@ -636,13 +636,13 @@ exports[`Renderer:tabsTransfer 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -662,31 +662,31 @@ exports[`Renderer:tabsTransfer 1`] = `
 exports[`Renderer:tabsTransfer with deferApi 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -695,10 +695,10 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -706,16 +706,16 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           组合穿梭器
@@ -724,52 +724,52 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransferControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransferControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-select"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-select"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs __AMIS_COMPONENT_CLASS_PREFIX__Tabs--line __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tabs"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs--line __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tabs"
                           data-role="container"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-wrapper"
                           >
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-linksContainer-main"
                               >
                                 <ul
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-links"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-links"
                                   role="tablist"
                                 >
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link is-active __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link is-active __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                                   >
                                     <a
                                       title="成员"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                       >
                                         成员
                                       </span>
                                     </a>
                                   </li>
                                   <li
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                                   >
                                     <a
                                       title="用户"
                                     >
                                       <span
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-link-text"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-link-text"
                                       >
                                         用户
                                       </span>
@@ -780,16 +780,16 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                             </div>
                           </div>
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-content"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-content"
                           >
                             <div
-                              class="in is-active __AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                              class="in is-active __PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-search"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-search"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__InputBox"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__InputBox"
                                 >
                                   <input
                                     placeholder="请输入关键字"
@@ -805,26 +805,26 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__AssociatedSelection __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__AssociatedSelection __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__AssociatedSelection-left"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__AssociatedSelection-left"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__Tree"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree"
                                   >
                                     <ul
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-list"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-list"
                                     >
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item"
                                         style="--Tree-depth: 0;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrow"
                                           >
                                             <icon-mock
                                               class="icon icon-down-arrow-bold"
@@ -832,10 +832,10 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                             />
                                           </div>
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-folderIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-folder"
@@ -843,32 +843,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="DEFER"
                                             >
                                               DEFER
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                         style="--Tree-depth: 1;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -876,32 +876,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="Option A"
                                             >
                                               Option A
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                         style="--Tree-depth: 1;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel is-checked"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel is-checked"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -909,32 +909,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="Option B"
                                             >
                                               Option B
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                         style="--Tree-depth: 1;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -942,32 +942,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="Option C"
                                             >
                                               Option C
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                         style="--Tree-depth: 1;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -975,32 +975,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="Option D"
                                             >
                                               Option D
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf is-child"
                                         style="--Tree-depth: 1;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -1008,32 +1008,32 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="Option E"
                                             >
                                               Option E
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
                                       </li>
                                       <li
-                                        class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item __AMIS_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
+                                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item--isLeaf"
                                         style="--Tree-depth: 0;"
                                       >
                                         <div
-                                          class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
+                                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel"
                                         >
                                           <span
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemArrowPlaceholder"
                                           />
                                           <div
-                                            class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
+                                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemLabel-item"
                                           >
                                             <i
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemIcon __AMIS_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemIcon __PRISMUI_COMPONENT_CLASS_PREFIX__Tree-leafIcon"
                                             >
                                               <icon-mock
                                                 class="icon icon-file"
@@ -1041,13 +1041,13 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                               />
                                             </i>
                                             <span
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-itemText"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-itemText"
                                               title="法师"
                                             >
                                               法师
                                             </span>
                                             <div
-                                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tree-item-icons"
+                                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tree-item-icons"
                                             />
                                           </div>
                                         </div>
@@ -1056,13 +1056,13 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                   </div>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__AssociatedSelection-right"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__AssociatedSelection-right"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__AssociatedSelection-box"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__AssociatedSelection-box"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__AssociatedSelection-reload is-clickable"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__AssociatedSelection-reload is-clickable"
                                     >
                                       <icon-mock
                                         class="icon icon-reload"
@@ -1077,22 +1077,22 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                               </div>
                             </div>
                             <div
-                              class="__AMIS_COMPONENT_CLASS_PREFIX__Tabs-pane __AMIS_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
+                              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Tabs-pane __PRISMUI_COMPONENT_CLASS_PREFIX__TabsTransfer-tab"
                             >
                               <div
-                                class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection __AMIS_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
+                                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-checkboxes"
                               >
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-item"
                                   >
                                     <div
-                                      class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
+                                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-itemLabel"
                                     >
                                       <span
-                                        class=" __AMIS_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
+                                        class=" __PRISMUI_COMPONENT_CLASS_PREFIX__Selection-ellipsis-line"
                                         title="法师2 "
                                       >
                                         法师2
@@ -1101,10 +1101,10 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                                   </div>
                                 </div>
                                 <div
-                                  class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
+                                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-col"
                                 >
                                   <div
-                                    class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelection-placeholder"
+                                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelection-placeholder"
                                   />
                                 </div>
                               </div>
@@ -1113,28 +1113,28 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
                         </div>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-mid"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-mid"
                       />
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-result"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-result"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-title"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-title"
                         >
                           <span>
                             已选项
                           </span>
                           <a
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Transfer-clearAll is-disabled"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-clearAll is-disabled"
                           >
                             清空
                           </a>
                         </div>
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Selections __AMIS_COMPONENT_CLASS_PREFIX__Transfer-value"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Selections __PRISMUI_COMPONENT_CLASS_PREFIX__Transfer-value"
                         >
                           <div
-                            class="__AMIS_COMPONENT_CLASS_PREFIX__Selections-placeholder"
+                            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Selections-placeholder"
                           >
                             请选择左侧数据
                           </div>
@@ -1146,13 +1146,13 @@ exports[`Renderer:tabsTransfer with deferApi 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>

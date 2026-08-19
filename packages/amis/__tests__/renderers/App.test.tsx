@@ -97,7 +97,7 @@ test('Renderers:App locale', async () => {
   expect(link).toBeInTheDocument();
   expect(link!.textContent).toBe('首页');
 
-  const inputLabel = container.querySelector('.cxd-Form-label');
+  const inputLabel = container.querySelector('.prismui-Form-label');
   expect(inputLabel).toBeInTheDocument();
   expect(inputLabel!.textContent).toBe('开发环境');
 });

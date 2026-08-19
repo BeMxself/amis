@@ -115,7 +115,7 @@ updated: 2026-07-28
 | Unsupported values | `antd` / `dark` / arbitrary `classPrefix` |
 | Library CSS compatibility | `false` |
 | SCSS/CSS dual output | forbidden |
-| Theme identity | `[data-amis-theme]`, not `.cxd-*` |
+| Theme identity | `[data-prismui-theme]`, not `.cxd-*` |
 
 ## 2. Retention Policy
 
@@ -128,7 +128,7 @@ DOM-only alias 只服务迁移期老定制页面：如果页面自己写了 `.cx
 | Item | Value |
 |---|---|
 | Decision owner | theme architecture owner |
-| Review trigger | stable `.amis-*` / token migration docs and examples are available |
+| Review trigger | stable `.prismui-*` / token migration docs and examples are available |
 | Review window | not later than 1 year after migration path is available |
 | Required inputs | selector guard trend, docs migration guide, known legacy consumer feedback, release risk notes |
 | Allowed outcomes | retain, narrow, deprecate with schedule, remove after explicit owner decision |
@@ -136,7 +136,7 @@ DOM-only alias 只服务迁移期老定制页面：如果页面自己写了 `.cx
 ## 4. Exit Evidence
 
 - selector guard continues to report 0 new public prefix violations.
-- docs rollout provides stable `.amis-*` / `[data-amis-theme]` / token migration path.
+- docs rollout provides stable `.prismui-*` / `[data-prismui-theme]` / token migration path.
 - legacy consumers have migration notes or explicit risk acceptance.
 - no core UI path requires `.cxd-*` for library CSS styling.
 - file-name compatibility such as `cxd.css` is documented separately from selector compatibility.
@@ -181,7 +181,7 @@ checks:
   - item: "implementation 开始前重新确认 core-component-selector-migration 和 editor-theme-helper-migration status=done，design-review passed 只允许 design admission"
     source: 关键决策
     status: pending
-  - item: "默认主路径只暴露 .amis-*、data-amis-theme 和 token，不把旧前缀写成公共样式 API"
+  - item: "默认主路径只暴露 .prismui-*、data-prismui-theme 和 token，不把旧前缀写成公共样式 API"
     source: Legacy prefix public contract
     status: pending
   - item: "legacyDomClassAlias 默认关闭，只允许显式 cxd，不从 classPrefix 自动推导 antd / dark alias"
@@ -414,7 +414,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 | 术语 | 定义 | 防冲突结论 |
 |---|---|---|
 | Legacy prefix public contract | 用户、插件、editor 或库样式把 `.cxd-*`、`.antd-*`、`.dark-*` 或 `classPrefix` 当作公共样式 API 的依赖。 | 本 feature 的目标是退出该契约；不是把 `.cxd-*` 再包装成新 API。 |
-| DOM-only legacy alias | 显式迁移开关开启后 DOM 同时输出 `.amis-*` 和 `.cxd-*`，让老定制页面自己的 `.cxd-*` CSS 在迁移期继续命中。 | 只允许 `cxd`，不生成库 CSS，不从任意 `classPrefix` 推导 `antd` / `dark` alias。 |
+| DOM-only legacy alias | 显式迁移开关开启后 DOM 同时输出 `.prismui-*` 和 `.cxd-*`，让老定制页面自己的 `.cxd-*` CSS 在迁移期继续命中。 | 只允许 `cxd`，不生成库 CSS，不从任意 `classPrefix` 推导 `antd` / `dark` alias。 |
 | LegacyPrefixLedger | 汇总 selector allowlist、ComponentMigrationLedger、HelperScssInventory 和剩余 `classPrefix` 命中的机器可读清单。 | 它是 teardown 的输入和验收证据，不是长期例外列表。 |
 | AliasRetentionRecord | 记录 DOM-only alias 开关的默认状态、适用范围、人工复审责任方、复审窗口和退出评估材料。 | 复审是人工评估，不绑定固定版本卡点；目标是在可用迁移路径形成后不晚于 1 年触发评估。 |
 | PrefixTeardownBoundary | 哪些旧前缀依赖被删除、内部化、迁移到 stable selector，哪些留给 docs rollout。 | 不覆盖 IE11 动态 token；IE11 只保留静态 CSS 降级说明。 |
@@ -423,7 +423,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 
 ### 需求摘要
 
-本 feature 承接前置的 selector inventory、核心组件迁移和 editor/helper 迁移，收口旧主题前缀作为公共样式 API 的最后一段治理。核心目标是：默认主路径只暴露稳定 `.amis-*`、`[data-amis-theme]` 和 token；剩余 `classPrefix` / `.cxd-*` 依赖要么迁移到 stable selector，要么标记为内部 legacy，要么进入 DOM-only alias 的显式迁移边界；最终交给 docs rollout 的只剩用户迁移说明、复审材料和风险记录。
+本 feature 承接前置的 selector inventory、核心组件迁移和 editor/helper 迁移，收口旧主题前缀作为公共样式 API 的最后一段治理。核心目标是：默认主路径只暴露稳定 `.prismui-*`、`[data-prismui-theme]` 和 token；剩余 `classPrefix` / `.cxd-*` 依赖要么迁移到 stable selector，要么标记为内部 legacy，要么进入 DOM-only alias 的显式迁移边界；最终交给 docs rollout 的只剩用户迁移说明、复审材料和风险记录。
 
 明确不做：
 
@@ -448,7 +448,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
    本 design 可以在 `core-component-selector-migration` 与 `editor-theme-helper-migration` design-review passed 后起草；implementation 开始前必须确认这两个依赖以及它们的前置 guard / inventory 已 `done`。
 
 2. **默认主路径不含旧前缀 API**
-   `ThemeInstance.classnames`、组件 DOM、主题覆写和用户文档主路径必须围绕 `.amis-*`、`[data-amis-theme]` 和 token；`classPrefix` 只能作为 legacy/internal 或行为对象兼容字段存在。
+   `ThemeInstance.classnames`、组件 DOM、主题覆写和用户文档主路径必须围绕 `.prismui-*`、`[data-prismui-theme]` 和 token；`classPrefix` 只能作为 legacy/internal 或行为对象兼容字段存在。
 
 3. **DOM-only alias 是显式迁移能力，不是样式契约**
    `legacyDomClassAlias` 默认关闭，只允许显式 `cxd`；不得生成 `.cxd-*` 库 CSS，不得要求 theme-editor 生成 `.cxd-*`，不得从 `classPrefix` 自动推导其他主题 alias。
@@ -462,7 +462,7 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 ### 基线风险与验证入口
 
 - `packages/amis-core/src/theme.tsx` 已有 `componentClassPrefix: 'amis-'`、`legacyDomClassAlias?: false | 'cxd'`、`makeStableClassnames()` 和默认关闭的 DOM-only alias。
-- `packages/amis-core/src/Root.tsx` 已通过 `ThemeScopeRoot` 输出 `data-amis-theme`，但仍把 `classPrefix` 透传给 renderer props。
+- `packages/amis-core/src/Root.tsx` 已通过 `ThemeScopeRoot` 输出 `data-prismui-theme`，但仍把 `classPrefix` 透传给 renderer props。
 - `packages/amis-core/src/theme.tsx#getClassPrefix()` 与 `packages/amis-editor-core/src/manager.ts#getThemeClassPrefix()` 仍暴露旧前缀读取点。
 - `packages/amis-ui/src/themes/cxd.ts`、`antd.ts`、`dark.ts` 仍声明 `classPrefix`；需要区分主题行为对象兼容字段和公共样式 API。
 - `packages/amis-ui/scss/themes/cxd-ie11.scss`、`packages/amis/build.sh` 的 `cxd.css` / `cxd-ie11.css` 文件名兼容不能被误解为 selector 兼容。
@@ -481,10 +481,10 @@ tags: [theme, legacy-prefix, migration, selector-guard, compatibility]
 #### 现状
 
 - Theme Runtime 已新增 `componentClassPrefix`、`legacyDomClassAlias`、`stableClassnames` 和 `scope`，但 `classPrefix` 仍存在于 `ThemeConfig`、`ThemeProps` 和部分调用链中。
-- Button pilot 已证明默认 `.amis-*`、显式 `.cxd-*` DOM alias、Root `data-amis-theme` 的最小闭环。
+- Button pilot 已证明默认 `.prismui-*`、显式 `.cxd-*` DOM alias、Root `data-prismui-theme` 的最小闭环。
 - Stylesheet build design 定义 selector inventory、allowlist 和 guard，拒绝新增 SCSS `.cxd-*` legacy selector。
 - Core component migration design 定义 ComponentMigrationLedger，要求剩余 `#{$ns}` / `.cxd-*` / `classPrefix` 命中有分类、owner 和退出条件。
-- Editor helper migration design 定义 HelperScssInventory，要求 `.AMISCSSWrapper` 只能是容器别名，theme identity 来自 `data-amis-theme`。
+- Editor helper migration design 定义 HelperScssInventory，要求 `.AMISCSSWrapper` 只能是容器别名，theme identity 来自 `data-prismui-theme`。
 - compound 结论已拒绝 SCSS/CSS `.cxd-*` 兼容开关，允许显式 DOM-only alias。
 
 #### 变化
@@ -511,7 +511,7 @@ alias_retention:
   decision_owner: "theme architecture owner"
   exit_evidence:
     - "selector guard has no new public prefix dependencies"
-    - "docs provide stable .amis-* / token migration path"
+    - "docs provide stable .prismui-* / token migration path"
     - "known legacy consumers have migration notes or risk acceptance"
 ```
 
@@ -528,7 +528,7 @@ Interface 设计检查：
 
 #### 现状
 
-当前迁移链路是多条 feature 分别产生证据：Runtime 证明 `.amis-*` 主路径和 DOM alias，Stylesheet Build 建 guard，Core Migration 输出组件 ledger，Editor Migration 输出 helper/editor inventory。缺口在于：这些证据还没有汇总成一个“旧前缀公共契约是否退出”的最终判定，也没有把 DOM-only alias 的复审和退出边界写成可执行材料。
+当前迁移链路是多条 feature 分别产生证据：Runtime 证明 `.prismui-*` 主路径和 DOM alias，Stylesheet Build 建 guard，Core Migration 输出组件 ledger，Editor Migration 输出 helper/editor inventory。缺口在于：这些证据还没有汇总成一个“旧前缀公共契约是否退出”的最终判定，也没有把 DOM-only alias 的复审和退出边界写成可执行材料。
 
 #### 变化
 
@@ -559,7 +559,7 @@ flowchart TD
 - PrefixPublicApiGuard：删掉后新增 `.cxd-*` / `classPrefix` 公共样式依赖无法被阻止。
 - Theme Runtime alias policy：删掉后 DOM-only `.cxd-*` alias 的默认关闭和显式开启边界不可验证。
 - AliasRetentionRecord：删掉后最多 1 年内人工评估、责任方和退出材料没有 durable evidence。
-- Docs rollout handoff：删掉后下一项无法把用户心智收口到 token / `.amis-*` / `[data-amis-theme]`。
+- Docs rollout handoff：删掉后下一项无法把用户心智收口到 token / `.prismui-*` / `[data-prismui-theme]`。
 
 ### 2.4 推进策略
 
@@ -603,8 +603,8 @@ flowchart TD
 ### 3.1 关键场景清单
 
 - 输入：前置 core/editor ledger 与 selector allowlist → 期望 LegacyPrefixLedger 汇总所有剩余旧前缀命中，并带分类、owner、退出条件。
-- 输入：默认渲染 Button / core migrated component → 期望 DOM 主路径为 `.amis-*`，默认不输出 `.cxd-*` alias。
-- 输入：显式开启 `legacyDomClassAlias: 'cxd'` → 期望 DOM 同时有 `.amis-*` 与 `.cxd-*`，但库 CSS 不新增 `.cxd-*` selector。
+- 输入：默认渲染 Button / core migrated component → 期望 DOM 主路径为 `.prismui-*`，默认不输出 `.cxd-*` alias。
+- 输入：显式开启 `legacyDomClassAlias: 'cxd'` → 期望 DOM 同时有 `.prismui-*` 与 `.cxd-*`，但库 CSS 不新增 `.cxd-*` selector。
 - 输入：新增 `.cxd-Foo` / `.antd-Foo` / `.dark-Foo` SCSS selector 或 theme-editor 生成路径 → 期望 guard 失败。
 - 输入：保留 `cxd.css` / `cxd-ie11.css` 文件名兼容 → 期望 ledger 标为 file-name compatibility，文档 handoff 不把它解释成 selector 兼容。
 - 输入：AliasRetentionRecord 审查 → 期望包含默认状态、显式值、适用范围、人工复审窗口、责任方和退出评估材料。
@@ -676,9 +676,9 @@ updated: 2026-07-28
 
 最终用户不需要理解主题类前缀。主题定制主路径应写成：
 
-- 标准样式值：使用 `--amis-*` token。
-- 组件定位：使用稳定 `.amis-*` component class。
-- 主题差异：使用 `[data-amis-theme="..."]` 作用域。
+- 标准样式值：使用 `--prismui-*` token。
+- 组件定位：使用稳定 `.prismui-*` component class。
+- 主题差异：使用 `[data-prismui-theme="..."]` 作用域。
 - 非标准遗留覆写：迁移期可评估显式 DOM-only `.cxd-*` alias，但不把它写成推荐入口。
 
 ## 2. Must Say
@@ -700,11 +700,11 @@ updated: 2026-07-28
 
 | Legacy Pattern | Replacement / Guidance |
 |---|---|
-| `.cxd-Button` | `.amis-Button` |
-| `.cxd-Button--primary` with theme-specific values | `[data-amis-theme="custom"] .amis-Button--primary` or token override |
-| `#{$ns}` in custom SCSS | stable selector helper or explicit `.amis-*` |
+| `.cxd-Button` | `.prismui-Button` |
+| `.cxd-Button--primary` with theme-specific values | `[data-prismui-theme="custom"] .prismui-Button--primary` or token override |
+| `#{$ns}` in custom SCSS | stable selector helper or explicit `.prismui-*` |
 | `classPrefix` based DOM query | stable helper such as `getStableClassSelector()` |
-| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-amis-theme] .amis-*` and record warnings for historical schema |
+| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-prismui-theme] .prismui-*` and record warnings for historical schema |
 | `cxd.css` / `cxd-ie11.css` | keep as file names; explain separately from selector policy |
 
 ## 5. Risk Notes
@@ -780,7 +780,7 @@ status: generated
     {
       "command": "npm run check:theme-selectors --workspace amis-ui",
       "exit_code": 0,
-      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 7 old-prefix/classPrefix baseline match(es), 0 new violation(s).\n",
       "stderr": "",
       "id": "CMD-004",
       "core": true,
@@ -995,7 +995,7 @@ implemented: 2026-07-28
 | S2 LegacyPrefixLedger 汇总 | done | 新增 `legacy-prefix-teardown-ledger.md`；消费 selector policy、ComponentMigrationLedger、HelperScssInventory、runtime alias 与 file-name compatibility |
 | S3 公共依赖迁移或内部化 | done | `classprefix-dom-selector=0`；已迁移 `ns` / `themePrefix` / `cx(...)` 别名驱动的 DOM / Sortable 行为选择器；保留广义 `classPrefix` 为 internal / legacy passthrough；修复 `ThemeScopeProps` barrel export；`legacyDomClassAlias` 归一化非法值为 false |
 | S4 DOM-only alias policy 固化 | done | 新增 `legacy-prefix-teardown-alias-retention-record.md`；`npm test --workspace amis-core -- theme` 覆盖默认关闭、显式 `cxd`、非法 `antd` 不输出旧类 |
-| S5 guard 收紧与反向验证 | done | `checkThemeSelectors.js --update` 将 policy baseline 保持为 1503；新增 bad fixture 覆盖 `classPrefix` / `ns` / `themePrefix`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector 变量、`${cx(...)}`、`classList.contains(cx(...))` 的 DOM selector 与 Sortable selector；default/good pass，bad expected fail |
+| S5 guard 收紧与反向验证 | done | `checkThemeSelectors.js --update` 将 policy baseline 收敛为 7 条 portal scope 记录；新增 bad fixture 覆盖 `classPrefix` / `ns` / `themePrefix`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector 变量、`${cx(...)}`、`classList.contains(cx(...))` 的 DOM selector 与 Sortable selector；default/good pass，bad expected fail |
 | S6 docs rollout 交接 | done | 新增 `legacy-prefix-teardown-docs-rollout-handoff.md`，覆盖用户迁移口径、must say/must not say、IE11 静态边界、文件名兼容说明 |
 | S7 evidence 收口 | done | 本报告、ledger、retention record、handoff、DoD runner、scope gate 与 evidence pack 为 review / QA / acceptance 提供可核验证据 |
 
@@ -1005,7 +1005,7 @@ implemented: 2026-07-28
 - `packages/amis-core/src/index.tsx`：导出 `ThemeScopeProps`，修复 editor theme scope helper 的跨包类型入口。
 - `packages/amis-core/__tests__/theme.test.ts`：新增非法 non-`cxd` alias 回归。
 - `packages/amis-ui/scripts/checkThemeSelectors.js`：`classprefix-dom-selector` 支持 `classPrefix` / `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器扫描。
-- `packages/amis-ui/scripts/theme-selectors/policy.json`：收窄 baseline 到 1503，并更新 `classprefix-dom-selector` 扫描说明。
+- `packages/amis-ui/scripts/theme-selectors/policy.json`：收窄 baseline 到 7 条 portal scope 记录，并更新 `classprefix-dom-selector` 扫描说明。
 - `packages/amis-ui/scripts/theme-selectors/fixtures/bad/legacy-dom-selector.tsx`：新增 `${classPrefix}`、`${ns}`、`${themePrefix}`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector、`${cx(...)}`、`classList.contains(cx(...))` DOM / Sortable selector 反例。
 - `packages/amis-ui/scripts/theme-selectors/fixtures/good/stable-dom-selector.tsx`：新增 stable selector 正例。
 - `packages/amis-core/src/components/PopOver.tsx`、`packages/amis-ui/src/components/{Tabs,UserSelect,CalendarMobile,Tree}.tsx`、`packages/amis-ui/src/components/formula/VariableList.tsx`、`packages/amis-ui/src/components/table/index.tsx`、`packages/amis/src/renderers/*`：将行为 DOM selector / Sortable selector 从 classPrefix alias 或 `${cx(...)}` 迁移到 stable selector helper。
@@ -1016,9 +1016,9 @@ implemented: 2026-07-28
 | Command | Result |
 |---|---|
 | `PYTHONPATH=... codestable-workflow-next.py epic --roadmap ... --json` | pass；返回 `dispatch_goal`，两份 ApprovalRef 均可见 |
-| `npm test --workspace amis-core -- theme` | pass；9 tests |
-| `npm test --workspace amis -- button` | pass；5 suites / 19 tests |
-| `npm run check:theme-selectors --workspace amis-ui` | pass；1503 baseline / 0 new violation |
+| `npm test --workspace amis-core -- theme` | pass；10 tests |
+| `npm test --workspace amis -- button` | pass；5 suites / 110 tests |
+| `npm run check:theme-selectors --workspace amis-ui` | pass；7 baseline / 0 new violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` | pass；0 baseline / 0 violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` | expected fail；命中 `classprefix-dom-selector`、`scss-ns-selector`、`theme-prefix-selector` |
 | `npm run stylelint` | pass |
@@ -1056,15 +1056,15 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 ## 1. 结论
 
-本 ledger 汇总 selector guard、core component migration ledger、editor helper inventory 与本轮 runtime / file-name 扫描，用来判断旧前缀是否仍是公共样式 API。结论是：默认公共样式主路径已经转向 `.amis-*`、`[data-amis-theme]` 和 token；剩余旧前缀命中必须按下表分类治理，不能被解释为新的 `.cxd-*` 公共定制入口。
+本 ledger 汇总 selector guard、core component migration ledger、editor helper inventory 与本轮 runtime / file-name 扫描，用来判断旧前缀是否仍是公共样式 API。结论是：默认公共样式主路径已经转向 `.prismui-*`、`[data-prismui-theme]` 和 token；剩余旧前缀命中必须按下表分类治理，不能被解释为新的 `.cxd-*` 公共定制入口。
 
-本轮收紧了 selector policy：`npm run check:theme-selectors --workspace amis-ui` 当前为 1503 个 baseline match，0 个新增 violation；`classprefix-dom-selector` 为 0。该扫描覆盖 `classPrefix`、常见别名 `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器。新增 bad fixture 覆盖这些路径，防止旧公共依赖回流。
+本轮收紧了 selector policy：`npm run check:theme-selectors --workspace amis-ui` 当前为 7 个 portal scope baseline match，0 个新增 violation；`classprefix-dom-selector` 为 0。该扫描覆盖 `classPrefix`、常见别名 `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器。新增 bad fixture 覆盖这些路径，防止旧公共依赖回流。
 
 ## 2. 输入证据
 
 | Source | Path | Current Signal | Consumption |
 |---|---|---|---|
-| Selector policy | `packages/amis-ui/scripts/theme-selectors/policy.json` | 1503 baseline；`scss-ns-selector=1465`、`theme-prefix-selector=38`、`classprefix-dom-selector=0`；行为选择器扫描覆盖 `classPrefix` / `ns` / `themePrefix` / alias 变量 / props alias / `cx(...)` selector | PrefixPublicApiGuard 的机器基线 |
+| Selector policy | `packages/amis-ui/scripts/theme-selectors/policy.json` | 7 baseline；`theme-prefix-selector=0`、`classprefix-dom-selector=0`；行为选择器扫描覆盖 `classPrefix` / `ns` / `themePrefix` / alias 变量 / props alias / `cx(...)` selector | PrefixPublicApiGuard 的机器基线 |
 | ComponentMigrationLedger | `.codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-ledger.md` | Wave A/B/C done；DOM selector dependency 已迁到 stable helper；广义 `classPrefix` passthrough 不批量删除 | 区分 DOM selector debt 与 props passthrough |
 | HelperScssInventory | `.codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-helper-scss-inventory.md` | editor/helper `.cxd-*` 与 `.AMISCSSWrapper` 属内部迁移输入 | 防止把 editor helper 存量当公共 API |
 | Runtime alias policy | `packages/amis-core/src/theme.tsx` | `legacyDomClassAlias` 默认 false；只识别显式 `cxd` | DOM-only alias 生命周期治理 |
@@ -1075,14 +1075,14 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 | Kind | Current Matches / Paths | Owner | Decision | Retain Reason | Exit Condition / Next Owner |
 |---|---|---|---|---|---|
 | `public selector` | No new `.cxd-*` / `.antd-*` / `.dark-*`; guard baseline only | `legacy-prefix-teardown` | migrate / block new | 旧 selector 基线只允许减少，不允许未分类增加 | guard 继续 0 new violation；后续组件迁移逐步删除 baseline |
-| `behavior dom selector` | `classprefix-dom-selector=0` across `querySelector` / `querySelectorAll` / `closest` / `matches` / `classList.contains` / Sortable `handle` / `filter` / `ghostClass` | `legacy-prefix-teardown` | migrated | 行为定位必须跟随稳定 `.amis-*` 主路径，不能依赖 DOM-only alias | 新增命中直接阻塞；如确属非公共行为例外，必须先扩 ledger 分类 |
-| `scss-selector` | 1465 `#{$ns}` in `packages/amis-ui/scss` | `legacy-prefix-teardown` / later component waves | retain-temporarily | 非本 roadmap wave 的 SCSS 存量，当前作为迁移债务而非 API 推荐 | 后续迁移到 stable `.amis-*` helper 或 token |
-| `internal legacy` | 33 editor/helper theme-prefix entries in policy; 28 files / 78 raw `.cxd-*` or `AMISCSSWrapper` hits in helper inventory | `editor-theme-helper-migration` then `theme-system-validation-docs-rollout` | internalize / handoff | editor/helper 内部样式和历史 themeCss 输入，需要迁移文档承接 | helper stable selector 补齐后删除；docs 说明 `.AMISCSSWrapper` 只是容器别名 |
+| `behavior dom selector` | `classprefix-dom-selector=0` across `querySelector` / `querySelectorAll` / `closest` / `matches` / `classList.contains` / Sortable `handle` / `filter` / `ghostClass` | `legacy-prefix-teardown` | migrated | 行为定位必须跟随稳定 `.prismui-*` 主路径，不能依赖 DOM-only alias | 新增命中直接阻塞；如确属非公共行为例外，必须先扩 ledger 分类 |
+| `scss-selector` | 0 current `#{$ns}` policy baseline entries; theme entries resolve `$ns` to stable `prismui-` | `legacy-prefix-teardown` / later component waves | retain-temporarily | 非本 roadmap wave 的 SCSS 存量，当前作为迁移债务而非 API 推荐 | 后续迁移到 stable `.prismui-*` helper 或 token |
+| `internal legacy` | 0 theme-prefix policy entries；helper inventory still records historical `.cxd-*` or `AMISCSSWrapper` inputs | `editor-theme-helper-migration` then `theme-system-validation-docs-rollout` | internalize / handoff | editor/helper 内部样式和历史 themeCss 输入，需要迁移文档承接 | helper stable selector 补齐后删除；docs 说明 `.AMISCSSWrapper` 只是容器别名 |
 | `runtime alias` | `legacyDomClassAlias?: false | 'cxd'` | `legacy-prefix-teardown` | retain-temporarily | 兼容老定制页面自己的 `.cxd-*` CSS；不生成库 CSS | 可用迁移路径形成后不晚于 1 年触发人工评估 |
 | `theme behavior config` | `classPrefix: 'cxd-'/'antd-'/'dark-'` in theme objects | `legacy-prefix-teardown` | internalize | 仍供旧组件和行为配置透传；不是新样式定制入口 | 文档从公共 API 中移除；后续重构可拆 internal behavior config |
 | `legacy props passthrough` | broad `classPrefix` props across renderers/components | owning renderer/component | retain-temporarily | 传给旧组件或第三方封装，不等同 DOM selector debt | 只在对应组件迁移时收窄，不在本项批量删除 |
 | `file-name compatibility` | `cxd.css` / `cxd-ie11.css` build references | release/docs owner | retain-temporarily | 文件名兼容既有产物和 IE11 静态 CSS 边界 | docs rollout 明确“文件名兼容不等于 selector compatibility” |
-| `docs historical` | 22 policy baseline entries | `theme-system-validation-docs-rollout` | handoff-to-docs | 历史注释/示例引用，不生成样式输出 | docs rollout 删除或改写为 token / `.amis-*` / `[data-amis-theme]` |
+| `docs historical` | 0 policy baseline entries | `theme-system-validation-docs-rollout` | handoff-to-docs | 历史注释/示例引用，不生成样式输出 | docs rollout 删除或改写为 token / `.prismui-*` / `[data-prismui-theme]` |
 | `generated artifact` | `lib` / `esm` ignored by guard | build owner | ignore generated | 构建产物不手写 | 由源码 guard 和 build 产物检查覆盖 |
 
 ## 4. Top Baseline Hotspots
@@ -1100,7 +1100,7 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 ## 5. Teardown Decisions
 
-- 默认主路径：`.amis-*` component class、`[data-amis-theme]` theme identity、`--amis-*` token。
+- 默认主路径：`.prismui-*` component class、`[data-prismui-theme]` theme identity、`--prismui-*` token。
 - 新增公共旧前缀选择器：禁止；guard 默认失败，不通过 baseline 扩张掩盖。
 - DOM-only `.cxd-*` alias：保留为显式迁移能力；默认关闭；不支持 `antd` / `dark` alias；不生成库 CSS。
 - 广义 `classPrefix`：保留为 internal / legacy passthrough；不作为用户主题定制文档入口；后续只按组件边界逐步删除。
@@ -1110,7 +1110,7 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 | Check | Result |
 |---|---|
-| `npm run check:theme-selectors --workspace amis-ui` | pass；1503 baseline / 0 new violation |
+| `npm run check:theme-selectors --workspace amis-ui` | pass；7 baseline / 0 new violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` | pass；0 baseline / 0 violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` | expected fail；命中 `classprefix-dom-selector`、`scss-ns-selector`、`theme-prefix-selector` |
 | `npm test --workspace amis-core -- theme` | pass；新增 alias 非 `cxd` 回归已覆盖 |
@@ -1295,14 +1295,14 @@ index 55bda8f29..3b9addd08 100644
    expect(customResolution.scope).toMatchObject({
 -      theme: 'dark',
 -      value: 'dark',
--      selector: '[data-amis-theme="dark"]'
+-      selector: '[data-prismui-theme="dark"]'
 -  });
 -  expect(resolveOverlayContainer(null, fallback, getThemeScope('cxd'))).toEqual({
 -    container: fallback,
 -    scope: getThemeScope('cxd')
 +    theme: 'dark',
 +    value: 'dark',
-+    selector: '[data-amis-theme="dark"]'
++    selector: '[data-prismui-theme="dark"]'
    });
 +  expect(resolveOverlayContainer(null, fallback, getThemeScope('cxd'))).toEqual(
 +    {
@@ -1805,9 +1805,9 @@ index 132775f29..de119f8be 100644
    ],
    "summary": {
 -    "total_matches": 1507,
-+    "total_matches": 1503,
++    "total_matches": 7,
      "by_scan": {
-       "scss-ns-selector": 1465,
+       "scss-ns-selector": 0,
 -      "theme-prefix-selector": 42
 +      "theme-prefix-selector": 38
      },
@@ -2195,7 +2195,7 @@ index e5ed8943d..59634bf9f 100644
    <div
 -    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Panel-heading"
@@ -2982,7 +2982,7 @@ index 4d9ea598f..64b9d3ae0 100644
      <div
 -      class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -      data-role="container"
-+      data-amis-theme="cxd"
++      data-prismui-theme="cxd"
      >
        <div
 -        class="cxd-Panel-heading"
@@ -3159,7 +3159,7 @@ index 4d9ea598f..64b9d3ae0 100644
    <div
 -    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
 +    class="amis-dialog-widget amis-Modal amis-Modal--1th"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
      role="dialog"
    >
      <div
@@ -3303,7 +3303,7 @@ index 4d9ea598f..64b9d3ae0 100644
    <div
 -    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Panel-heading"
@@ -3569,7 +3569,7 @@ index 4d9ea598f..64b9d3ae0 100644
    <div
 -    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Panel-heading"
@@ -3948,7 +3948,7 @@ index 4d9ea598f..64b9d3ae0 100644
    <div
 -    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Panel-heading"
@@ -4239,12 +4239,12 @@ index 5a70bb104..0e804a3d7 100644
 
 -  expect(baseElement.querySelector('.cxd-Modal .cxd-Form')).toBeInTheDocument();
 +  expect(
-+    baseElement.querySelector('.amis-Modal .amis-Form')
++    baseElement.querySelector('.prismui-Modal .prismui-Form')
 +  ).toBeInTheDocument();
 
    const inputs = baseElement.querySelectorAll(
 -    '.cxd-Modal .cxd-Form .cxd-TextControl-input input'
-+    '.amis-Modal .amis-Form .amis-TextControl-input input'
++    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
    );
    expect(inputs!.length).toBe(2);
    expect(baseElement).toMatchSnapshot();
@@ -4253,7 +4253,7 @@ index 5a70bb104..0e804a3d7 100644
 
      const inputs = baseElement.querySelectorAll(
 -      '.cxd-Modal .cxd-Form .cxd-TextControl-input input'
-+      '.amis-Modal .amis-Form .amis-TextControl-input input'
++      '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
      );
      fireEvent.change(inputs[0], {
        target: {value: val1}
@@ -4262,12 +4262,12 @@ index 5a70bb104..0e804a3d7 100644
 
    expect(
 -    container.querySelector('.cxd-SubForm-toolbar .cxd-SubForm-addBtn')!
-+    container.querySelector('.amis-SubForm-toolbar .amis-SubForm-addBtn')!
++    container.querySelector('.prismui-SubForm-toolbar .prismui-SubForm-addBtn')!
    ).toHaveAttribute('disabled');
 
    const values = container.querySelectorAll(
 -    '.cxd-SubForm-values .cxd-SubForm-value'
-+    '.amis-SubForm-values .amis-SubForm-value'
++    '.prismui-SubForm-values .prismui-SubForm-value'
    );
 
    expect(values!.length).toBe(2);
@@ -4276,7 +4276,7 @@ index 5a70bb104..0e804a3d7 100644
 
    let values = container.querySelectorAll(
 -    '.cxd-SubForm-values .cxd-SubForm-value'
-+    '.amis-SubForm-values .amis-SubForm-value'
++    '.prismui-SubForm-values .prismui-SubForm-value'
    );
 
    expect(values!.length).toBe(4);
@@ -4284,35 +4284,35 @@ index 5a70bb104..0e804a3d7 100644
 
    expect(
 -    values[0].querySelector('.cxd-SubForm-valueDragBar')
-+    values[0].querySelector('.amis-SubForm-valueDragBar')
++    values[0].querySelector('.prismui-SubForm-valueDragBar')
    ).toBeInTheDocument();
 
 -  fireEvent.click(values[0].querySelector('.cxd-SubForm-valueDel')!);
-+  fireEvent.click(values[0].querySelector('.amis-SubForm-valueDel')!);
++  fireEvent.click(values[0].querySelector('.prismui-SubForm-valueDel')!);
 
    await wait(200);
 
 -  values = container.querySelectorAll('.cxd-SubForm-values .cxd-SubForm-value');
 +  values = container.querySelectorAll(
-+    '.amis-SubForm-values .amis-SubForm-value'
++    '.prismui-SubForm-values .prismui-SubForm-value'
 +  );
 
    expect(values!.length).toBe(3);
    expect(values[1]).toHaveTextContent('设置val-c');
 
 -  fireEvent.click(values[0].querySelector('.cxd-SubForm-valueEdit')!);
-+  fireEvent.click(values[0].querySelector('.amis-SubForm-valueEdit')!);
++  fireEvent.click(values[0].querySelector('.prismui-SubForm-valueEdit')!);
 
    await wait(200);
 
 -  expect(baseElement.querySelector('.cxd-Modal .cxd-Form')).toBeInTheDocument();
 +  expect(
-+    baseElement.querySelector('.amis-Modal .amis-Form')
++    baseElement.querySelector('.prismui-Modal .prismui-Form')
 +  ).toBeInTheDocument();
 
    const firstInput = baseElement.querySelector(
 -    '.cxd-Modal .cxd-Form .cxd-TextControl-input input'
-+    '.amis-Modal .amis-Form .amis-TextControl-input input'
++    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
    )!;
 
    expect((firstInput as HTMLInputElement)!.value).toBe('val-b');
@@ -4321,25 +4321,25 @@ index 5a70bb104..0e804a3d7 100644
 
    expect(container).toMatchSnapshot();
 -  expect(container.querySelector('.cxd-SubForm-values')).toHaveClass(
-+  expect(container.querySelector('.amis-SubForm-values')).toHaveClass(
++  expect(container.querySelector('.prismui-SubForm-values')).toHaveClass(
      'items-wrapper'
    );
    expect(
 -    container.querySelector('.cxd-SubForm-values .cxd-SubForm-value')
-+    container.querySelector('.amis-SubForm-values .amis-SubForm-value')
++    container.querySelector('.prismui-SubForm-values .prismui-SubForm-value')
    ).toHaveClass('item-classname');
 
    // labelField 这里不知为何不生效
    // expect(
 -  //   container.querySelector('.cxd-SubForm-values .cxd-SubForm-value')
-+  //   container.querySelector('.amis-SubForm-values .amis-SubForm-value')
++  //   container.querySelector('.prismui-SubForm-values .prismui-SubForm-value')
    // ).toHaveTextContent('val-a');
 -  expect(container.querySelector('.cxd-SubForm-addBtn')).toHaveClass(
-+  expect(container.querySelector('.amis-SubForm-addBtn')).toHaveClass(
++  expect(container.querySelector('.prismui-SubForm-addBtn')).toHaveClass(
      'thisis-add-btn'
    );
 -  expect(container.querySelector('.cxd-SubForm-addBtn')).toHaveTextContent(
-+  expect(container.querySelector('.amis-SubForm-addBtn')).toHaveTextContent(
++  expect(container.querySelector('.prismui-SubForm-addBtn')).toHaveTextContent(
      '自定义的新增'
    );
  });
@@ -4349,12 +4349,12 @@ index 5a70bb104..0e804a3d7 100644
 
 -  expect(baseElement.querySelector('.cxd-Modal .cxd-Form')).toBeInTheDocument();
 +  expect(
-+    baseElement.querySelector('.amis-Modal .amis-Form')
++    baseElement.querySelector('.prismui-Modal .prismui-Form')
 +  ).toBeInTheDocument();
 
    const inputs = baseElement.querySelectorAll(
 -    '.cxd-Modal .cxd-Form .cxd-TextControl-input input'
-+    '.amis-Modal .amis-Form .amis-TextControl-input input'
++    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
    );
    expect(inputs!.length).toBe(2);
    expect((inputs[0] as HTMLInputElement).value).toBe('');
@@ -4364,12 +4364,12 @@ index 5a70bb104..0e804a3d7 100644
 
 -  expect(baseElement.querySelector('.cxd-Modal .cxd-Form')).toBeInTheDocument();
 +  expect(
-+    baseElement.querySelector('.amis-Modal .amis-Form')
++    baseElement.querySelector('.prismui-Modal .prismui-Form')
 +  ).toBeInTheDocument();
 
    const inputs = baseElement.querySelectorAll(
 -    '.cxd-Modal .cxd-Form .cxd-TextControl-input input'
-+    '.amis-Modal .amis-Form .amis-TextControl-input input'
++    '.prismui-Modal .prismui-Form .prismui-TextControl-input input'
    );
    expect(inputs!.length).toBe(2);
    expect((inputs[0] as HTMLInputElement).value).toBe('123');
@@ -4382,18 +4382,18 @@ index f38b96d09..b5f232d5b 100644
    );
 
 -  const header = container.querySelector('.cxd-List-header');
-+  const header = container.querySelector('.amis-List-header');
++  const header = container.querySelector('.prismui-List-header');
    expect(header).toHaveClass('headerTplClassName');
    expect(header).toHaveTextContent('头部标题');
 
 -  const footer = container.querySelector('.cxd-List-footer');
-+  const footer = container.querySelector('.amis-List-footer');
++  const footer = container.querySelector('.prismui-List-footer');
    expect(footer).toHaveClass('footerButtonClassName');
 -  expect(footer!.querySelector('.cxd-Button')).toBeInTheDocument();
-+  expect(footer!.querySelector('.amis-Button')).toBeInTheDocument();
++  expect(footer!.querySelector('.prismui-Button')).toBeInTheDocument();
 
 -  expect(container.querySelector('.cxd-List-heading')).toHaveTextContent(
-+  expect(container.querySelector('.amis-List-heading')).toHaveTextContent(
++  expect(container.querySelector('.prismui-List-heading')).toHaveTextContent(
      'listTitleForTest'
    );
 
@@ -4402,14 +4402,14 @@ index f38b96d09..b5f232d5b 100644
    );
 
 -  fireEvent.click(container.querySelector('.cxd-ListItem')!);
-+  fireEvent.click(container.querySelector('.amis-ListItem')!);
++  fireEvent.click(container.querySelector('.prismui-ListItem')!);
 
    expect(baseElement).toMatchSnapshot();
 -  expect(baseElement.querySelector('.cxd-Modal-content')).toBeInTheDocument();
-+  expect(baseElement.querySelector('.amis-Modal-content')).toBeInTheDocument();
++  expect(baseElement.querySelector('.prismui-Modal-content')).toBeInTheDocument();
 
 -  expect(baseElement.querySelector('.cxd-Modal-content')).toHaveTextContent(
-+  expect(baseElement.querySelector('.amis-Modal-content')).toHaveTextContent(
++  expect(baseElement.querySelector('.prismui-Modal-content')).toHaveTextContent(
      `当前行的数据 browser: ${miniRows[0].browser}, version: ${miniRows[0].version}`
    );
  });
@@ -4418,19 +4418,19 @@ index f38b96d09..b5f232d5b 100644
 
      expect(
 -      container.querySelector('.cxd-ListItem .cxd-ListItem-title')!.innerHTML
-+      container.querySelector('.amis-ListItem .amis-ListItem-title')!.innerHTML
++      container.querySelector('.prismui-ListItem .prismui-ListItem-title')!.innerHTML
      ).toBe(miniRows[0].platform);
      expect(
 -      container.querySelector('.cxd-ListItem .cxd-ListItem-title')
-+      container.querySelector('.amis-ListItem .amis-ListItem-title')
++      container.querySelector('.prismui-ListItem .prismui-ListItem-title')
      ).toHaveClass('classForItemTitle');
      expect(
 -      container.querySelector('.cxd-ListItem .cxd-ListItem-subtitle')!.innerHTML
-+      container.querySelector('.amis-ListItem .amis-ListItem-subtitle')!
++      container.querySelector('.prismui-ListItem .prismui-ListItem-subtitle')!
 +        .innerHTML
      ).toBe(`等级为：${miniRows[0].grade}`);
 -    expect(container.querySelector('.cxd-ListItem')).toHaveTextContent(
-+    expect(container.querySelector('.amis-ListItem')).toHaveTextContent(
++    expect(container.querySelector('.prismui-ListItem')).toHaveTextContent(
        'this is list item desc'
      );
    });
@@ -4439,7 +4439,7 @@ index f38b96d09..b5f232d5b 100644
 
      expect(container).toMatchSnapshot();
 -    const avatar = container.querySelector('.cxd-ListItem-avatar')!;
-+    const avatar = container.querySelector('.amis-ListItem-avatar')!;
++    const avatar = container.querySelector('.prismui-ListItem-avatar')!;
      expect(avatar).toHaveClass('avatarClassNameForTest');
      expect(avatar.querySelector('img')).toHaveAttribute(
        'src',
@@ -4449,7 +4449,7 @@ index f38b96d09..b5f232d5b 100644
      expect(container).toMatchSnapshot();
 -    expect(container.querySelector('.cxd-ListItem')!).toHaveClass(
 -      'cxd-ListItem--actions-at-right'
-+    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
++    expect(container.querySelector('.prismui-ListItem')!).toHaveClass(
 +      'amis-ListItem--actions-at-right'
      );
 
@@ -4460,7 +4460,7 @@ index f38b96d09..b5f232d5b 100644
 
 -    expect(container.querySelector('.cxd-ListItem')!).toHaveClass(
 -      'cxd-ListItem--actions-at-left'
-+    expect(container.querySelector('.amis-ListItem')!).toHaveClass(
++    expect(container.querySelector('.prismui-ListItem')!).toHaveClass(
 +      'amis-ListItem--actions-at-left'
      );
    });
@@ -4474,7 +4474,7 @@ index 4df3e9984..71db6439c 100644
 
    await waitFor(() => {
 -    expect(!container.querySelector('.cxd-Tabs-link-edit')).toBeFalsy();
-+    expect(!container.querySelector('.amis-Tabs-link-edit')).toBeFalsy();
++    expect(!container.querySelector('.prismui-Tabs-link-edit')).toBeFalsy();
    });
  });
 
@@ -4483,11 +4483,11 @@ index 4df3e9984..71db6439c 100644
    );
 
 -  fireEvent.click(container.querySelector('.cxd-Tabs-link-close')!);
-+  fireEvent.click(container.querySelector('.amis-Tabs-link-close')!);
++  fireEvent.click(container.querySelector('.prismui-Tabs-link-close')!);
 
    await waitFor(() => {
 -    expect(container.querySelectorAll('.cxd-Tabs-link').length).toBe(1);
-+    expect(container.querySelectorAll('.amis-Tabs-link').length).toBe(1);
++    expect(container.querySelectorAll('.prismui-Tabs-link').length).toBe(1);
    });
  });
 
@@ -4496,7 +4496,7 @@ index 4df3e9984..71db6439c 100644
    expect(
      container
 -      .querySelectorAll('.cxd-Tabs-link')[0]
-+      .querySelectorAll('.amis-Tabs-link')[0]
++      .querySelectorAll('.prismui-Tabs-link')[0]
        .classList.contains('is-active')
    ).toBeTruthy();
  });
@@ -4505,15 +4505,15 @@ index 4df3e9984..71db6439c 100644
    );
 
 -  expect(container.querySelectorAll('.cxd-Tabs-link')!.length).toBe(3);
-+  expect(container.querySelectorAll('.amis-Tabs-link')!.length).toBe(3);
++  expect(container.querySelectorAll('.prismui-Tabs-link')!.length).toBe(3);
    expect(
 -    container.querySelector('.is-active.cxd-Tabs-pane')!
-+    container.querySelector('.is-active.amis-Tabs-pane')!
++    container.querySelector('.is-active.prismui-Tabs-pane')!
    ).toHaveTextContent('Content 1');
 
 -  const showMore = container.querySelector('.cxd-Tabs-link .cxd-Tabs-togglor')!;
 +  const showMore = container.querySelector(
-+    '.amis-Tabs-link .amis-Tabs-togglor'
++    '.prismui-Tabs-link .prismui-Tabs-togglor'
 +  )!;
    expect(showMore).toBeInTheDocument();
 
@@ -4522,7 +4522,7 @@ index 4df3e9984..71db6439c 100644
 
    expect(
 -    container.querySelectorAll('.cxd-Tabs-PopOver .cxd-Tabs-link')!.length
-+    container.querySelectorAll('.amis-Tabs-PopOver .amis-Tabs-link')!.length
++    container.querySelectorAll('.prismui-Tabs-PopOver .prismui-Tabs-link')!.length
    ).toBe(3);
    expect(container).toMatchSnapshot('popover show');
 
@@ -4530,7 +4530,7 @@ index 4df3e9984..71db6439c 100644
    await wait(100);
    expect(
 -    container.querySelector('.is-active.cxd-Tabs-pane')!
-+    container.querySelector('.is-active.amis-Tabs-pane')!
++    container.querySelector('.is-active.prismui-Tabs-pane')!
    ).toHaveTextContent('Content 5');
  });
 
@@ -4539,7 +4539,7 @@ index 4df3e9984..71db6439c 100644
    );
 
 -  const tabs = container.querySelectorAll('.cxd-Tabs-links .cxd-Tabs-link');
-+  const tabs = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
++  const tabs = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
 
    expect(tabs.length).toBe(3);
    expect(tabs[0].textContent).toBe('选项卡1');
@@ -4548,7 +4548,7 @@ index 4df3e9984..71db6439c 100644
    fireEvent.click(getByText('删除选项卡1'));
    await wait(300);
 -  const tabs1 = container.querySelectorAll('.cxd-Tabs-links .cxd-Tabs-link');
-+  const tabs1 = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
++  const tabs1 = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
    expect(tabs1.length).toBe(2);
    expect(tabs1[0].textContent).toBe('选项卡2');
    expect(tabs1[1].textContent).toBe('选项卡3');
@@ -4556,7 +4556,7 @@ index 4df3e9984..71db6439c 100644
    fireEvent.click(getByText('删除选项卡3'));
    await wait(300);
 -  const tabs2 = container.querySelectorAll('.cxd-Tabs-links .cxd-Tabs-link');
-+  const tabs2 = container.querySelectorAll('.amis-Tabs-links .amis-Tabs-link');
++  const tabs2 = container.querySelectorAll('.prismui-Tabs-links .prismui-Tabs-link');
    expect(tabs2.length).toBe(1);
    expect(tabs2[0].textContent).toBe('选项卡2');
  });
@@ -4569,42 +4569,42 @@ index 7799668d8..6c632fb80 100644
 
    // 展开第一个节点
 -  fireEvent.click(container.querySelectorAll('.cxd-Tree-itemArrow')[0]);
-+  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[0]);
++  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[0]);
    await waitFor(() =>
      expect(
        container
 -        .querySelectorAll('.cxd-Tree-itemArrow')[0]
-+        .querySelectorAll('.amis-Tree-itemArrow')[0]
++        .querySelectorAll('.prismui-Tree-itemArrow')[0]
          .classList.contains('is-folded')
      ).toBeFalsy()
    );
    // 收起第一个节点
 -  fireEvent.click(container.querySelectorAll('.cxd-Tree-itemArrow')[0]);
-+  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[0]);
++  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[0]);
    await waitFor(() =>
      expect(
        container
 -        .querySelectorAll('.cxd-Tree-itemArrow')[0]
-+        .querySelectorAll('.amis-Tree-itemArrow')[0]
++        .querySelectorAll('.prismui-Tree-itemArrow')[0]
          .classList.contains('is-folded')
      ).toBeTruthy()
    );
 
    // 展开第二个节点
 -  fireEvent.click(container.querySelectorAll('.cxd-Tree-itemArrow')[1]);
-+  fireEvent.click(container.querySelectorAll('.amis-Tree-itemArrow')[1]);
++  fireEvent.click(container.querySelectorAll('.prismui-Tree-itemArrow')[1]);
    await waitFor(() =>
      expect(
        container
 -        .querySelectorAll('.cxd-Tree-itemArrow')[1]
-+        .querySelectorAll('.amis-Tree-itemArrow')[1]
++        .querySelectorAll('.prismui-Tree-itemArrow')[1]
          .classList.contains('is-folded')
      ).toBeFalsy()
    );
 
    // 检查节点 1 是收起的
 -  expect(container.querySelectorAll('.cxd-Tree-itemArrow')[0]).toHaveClass(
-+  expect(container.querySelectorAll('.amis-Tree-itemArrow')[0]).toHaveClass(
++  expect(container.querySelectorAll('.prismui-Tree-itemArrow')[0]).toHaveClass(
      'is-folded'
    );
  });
@@ -4613,7 +4613,7 @@ index 7799668d8..6c632fb80 100644
      )
    );
 -  const targetNode = container.querySelector('.cxd-Tree-addTopBtn')!;
-+  const targetNode = container.querySelector('.amis-Tree-addTopBtn')!;
++  const targetNode = container.querySelector('.prismui-Tree-addTopBtn')!;
 
    fireEvent.click(targetNode);
    await waitFor(() => container.querySelector('input'));
@@ -4622,11 +4622,11 @@ index 7799668d8..6c632fb80 100644
 
    const singleModeInput = container.querySelector(
 -    '.single .cxd-ResultBox-value-input'
-+    '.single .amis-ResultBox-value-input'
++    '.single .prismui-ResultBox-value-input'
    );
    const multipleModeInput = container.querySelector(
 -    '.multiple .cxd-ResultBox-value-input'
-+    '.multiple .amis-ResultBox-value-input'
++    '.multiple .prismui-ResultBox-value-input'
    );
 
    /** 单选模式且已选值，不应该再有 input */
@@ -4663,7 +4663,7 @@ index fdc8af5c5..590811d1e 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -5905,7 +5905,7 @@ index fdc8af5c5..590811d1e 100644
    <div>
      <div
 -      class="cxd-Page"
-+      data-amis-theme="cxd"
++      data-prismui-theme="cxd"
      >
        <div
 -        class="cxd-Page-content"
@@ -6193,7 +6193,7 @@ index fdc8af5c5..590811d1e 100644
    <div
 -    class="amis-dialog-widget cxd-Modal cxd-Modal--1th"
 +    class="amis-dialog-widget amis-Modal amis-Modal--1th"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
      role="dialog"
    >
      <div
@@ -6262,7 +6262,7 @@ index fdc8af5c5..590811d1e 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -6605,7 +6605,7 @@ index fdc8af5c5..590811d1e 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -6930,7 +6930,7 @@ index fdc8af5c5..590811d1e 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -7318,7 +7318,7 @@ index fdc8af5c5..590811d1e 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -7435,7 +7435,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Panel cxd-Panel--default cxd-Panel--form"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Panel-heading"
@@ -7651,7 +7651,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--line tabs-wrapper"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -7793,7 +7793,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--line tabs-wrapper"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8067,7 +8067,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--card"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8181,7 +8181,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--radio"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8295,7 +8295,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--vertical"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksWrapper"
@@ -8399,7 +8399,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--chrome"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksWrapper"
@@ -8581,7 +8581,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--simple"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8695,7 +8695,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--strong"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8809,7 +8809,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--tiled"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -8923,7 +8923,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--sidebar sidebar--right"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksWrapper"
@@ -9027,7 +9027,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--line"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper cxd-Tabs-linksContainer-wrapper--toolbar"
@@ -9164,7 +9164,7 @@ index d6fc3fb93..ccd134d91 100644
    <div
 -    class="cxd-Tabs cxd-Tabs--tiled has-popover"
 -    data-role="container"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Tabs-linksContainer-wrapper"
@@ -9252,7 +9252,7 @@ index d6fc3fb93..ccd134d91 100644
 +      </div>
 +      <div
 +        class="has-popover"
-+        data-amis-theme="cxd"
++        data-prismui-theme="cxd"
 +      >
 +        <div
 +          class="amis-PopOver amis-Tabs-PopOver"
@@ -9409,7 +9409,7 @@ index c46911025..140de45c9 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -10006,7 +10006,7 @@ index c46911025..140de45c9 100644
  <div>
    <div
 -    class="cxd-Page"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Page-content"
@@ -10607,7 +10607,7 @@ index f94e12df3..47fa65d4d 100644
  <div>
    <div
 -    class="cxd-Video"
-+    data-amis-theme="cxd"
++    data-prismui-theme="cxd"
    >
      <div
 -      class="cxd-Video-player"
@@ -11318,7 +11318,7 @@ updated: 2026-07-28
 | Unsupported values | `antd` / `dark` / arbitrary `classPrefix` |
 | Library CSS compatibility | `false` |
 | SCSS/CSS dual output | forbidden |
-| Theme identity | `[data-amis-theme]`, not `.cxd-*` |
+| Theme identity | `[data-prismui-theme]`, not `.cxd-*` |
 
 ## 2. Retention Policy
 
@@ -11331,7 +11331,7 @@ DOM-only alias 只服务迁移期老定制页面：如果页面自己写了 `.cx
 | Item | Value |
 |---|---|
 | Decision owner | theme architecture owner |
-| Review trigger | stable `.amis-*` / token migration docs and examples are available |
+| Review trigger | stable `.prismui-*` / token migration docs and examples are available |
 | Review window | not later than 1 year after migration path is available |
 | Required inputs | selector guard trend, docs migration guide, known legacy consumer feedback, release risk notes |
 | Allowed outcomes | retain, narrow, deprecate with schedule, remove after explicit owner decision |
@@ -11339,7 +11339,7 @@ DOM-only alias 只服务迁移期老定制页面：如果页面自己写了 `.cx
 ## 4. Exit Evidence
 
 - selector guard continues to report 0 new public prefix violations.
-- docs rollout provides stable `.amis-*` / `[data-amis-theme]` / token migration path.
+- docs rollout provides stable `.prismui-*` / `[data-prismui-theme]` / token migration path.
 - legacy consumers have migration notes or explicit risk acceptance.
 - no core UI path requires `.cxd-*` for library CSS styling.
 - file-name compatibility such as `cxd.css` is documented separately from selector compatibility.
@@ -11369,9 +11369,9 @@ updated: 2026-07-28
 
 最终用户不需要理解主题类前缀。主题定制主路径应写成：
 
-- 标准样式值：使用 `--amis-*` token。
-- 组件定位：使用稳定 `.amis-*` component class。
-- 主题差异：使用 `[data-amis-theme="..."]` 作用域。
+- 标准样式值：使用 `--prismui-*` token。
+- 组件定位：使用稳定 `.prismui-*` component class。
+- 主题差异：使用 `[data-prismui-theme="..."]` 作用域。
 - 非标准遗留覆写：迁移期可评估显式 DOM-only `.cxd-*` alias，但不把它写成推荐入口。
 
 ## 2. Must Say
@@ -11393,11 +11393,11 @@ updated: 2026-07-28
 
 | Legacy Pattern | Replacement / Guidance |
 |---|---|
-| `.cxd-Button` | `.amis-Button` |
-| `.cxd-Button--primary` with theme-specific values | `[data-amis-theme="custom"] .amis-Button--primary` or token override |
-| `#{$ns}` in custom SCSS | stable selector helper or explicit `.amis-*` |
+| `.cxd-Button` | `.prismui-Button` |
+| `.cxd-Button--primary` with theme-specific values | `[data-prismui-theme="custom"] .prismui-Button--primary` or token override |
+| `#{$ns}` in custom SCSS | stable selector helper or explicit `.prismui-*` |
 | `classPrefix` based DOM query | stable helper such as `getStableClassSelector()` |
-| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-amis-theme] .amis-*` and record warnings for historical schema |
+| theme-editor old `.cxd-*` selector configs | migrate to scoped `[data-prismui-theme] .prismui-*` and record warnings for historical schema |
 | `cxd.css` / `cxd-ie11.css` | keep as file names; explain separately from selector policy |
 
 ## 5. Risk Notes
@@ -11457,7 +11457,7 @@ updated: 2026-07-28
     {
       "command": "npm run check:theme-selectors --workspace amis-ui",
       "exit_code": 0,
-      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 7 old-prefix/classPrefix baseline match(es), 0 new violation(s).\n",
       "stderr": "",
       "id": "CMD-004",
       "core": true,
@@ -11632,7 +11632,7 @@ status: generated
     {
       "command": "npm run check:theme-selectors --workspace amis-ui",
       "exit_code": 0,
-      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 1503 legacy baseline match(es), 0 new violation(s).\n",
+      "stdout": "\n> amis-ui@6.13.0 check:theme-selectors\n> node ./scripts/checkThemeSelectors.js\n\nTheme selector guard passed: 7 old-prefix/classPrefix baseline match(es), 0 new violation(s).\n",
       "stderr": "",
       "id": "CMD-004",
       "core": true,
@@ -11847,7 +11847,7 @@ implemented: 2026-07-28
 | S2 LegacyPrefixLedger 汇总 | done | 新增 `legacy-prefix-teardown-ledger.md`；消费 selector policy、ComponentMigrationLedger、HelperScssInventory、runtime alias 与 file-name compatibility |
 | S3 公共依赖迁移或内部化 | done | `classprefix-dom-selector=0`；已迁移 `ns` / `themePrefix` / `cx(...)` 别名驱动的 DOM / Sortable 行为选择器；保留广义 `classPrefix` 为 internal / legacy passthrough；修复 `ThemeScopeProps` barrel export；`legacyDomClassAlias` 归一化非法值为 false |
 | S4 DOM-only alias policy 固化 | done | 新增 `legacy-prefix-teardown-alias-retention-record.md`；`npm test --workspace amis-core -- theme` 覆盖默认关闭、显式 `cxd`、非法 `antd` 不输出旧类 |
-| S5 guard 收紧与反向验证 | done | `checkThemeSelectors.js --update` 将 policy baseline 保持为 1503；新增 bad fixture 覆盖 `classPrefix` / `ns` / `themePrefix`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector 变量、`${cx(...)}`、`classList.contains(cx(...))` 的 DOM selector 与 Sortable selector；default/good pass，bad expected fail |
+| S5 guard 收紧与反向验证 | done | `checkThemeSelectors.js --update` 将 policy baseline 收敛为 7 条 portal scope 记录；新增 bad fixture 覆盖 `classPrefix` / `ns` / `themePrefix`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector 变量、`${cx(...)}`、`classList.contains(cx(...))` 的 DOM selector 与 Sortable selector；default/good pass，bad expected fail |
 | S6 docs rollout 交接 | done | 新增 `legacy-prefix-teardown-docs-rollout-handoff.md`，覆盖用户迁移口径、must say/must not say、IE11 静态边界、文件名兼容说明 |
 | S7 evidence 收口 | done | 本报告、ledger、retention record、handoff、DoD runner、scope gate 与 evidence pack 为 review / QA / acceptance 提供可核验证据 |
 
@@ -11857,7 +11857,7 @@ implemented: 2026-07-28
 - `packages/amis-core/src/index.tsx`：导出 `ThemeScopeProps`，修复 editor theme scope helper 的跨包类型入口。
 - `packages/amis-core/__tests__/theme.test.ts`：新增非法 non-`cxd` alias 回归。
 - `packages/amis-ui/scripts/checkThemeSelectors.js`：`classprefix-dom-selector` 支持 `classPrefix` / `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器扫描。
-- `packages/amis-ui/scripts/theme-selectors/policy.json`：收窄 baseline 到 1503，并更新 `classprefix-dom-selector` 扫描说明。
+- `packages/amis-ui/scripts/theme-selectors/policy.json`：收窄 baseline 到 7 条 portal scope 记录，并更新 `classprefix-dom-selector` 扫描说明。
 - `packages/amis-ui/scripts/theme-selectors/fixtures/bad/legacy-dom-selector.tsx`：新增 `${classPrefix}`、`${ns}`、`${themePrefix}`、间接 alias、`props.classPrefix`、解构 alias、预构造 selector、`${cx(...)}`、`classList.contains(cx(...))` DOM / Sortable selector 反例。
 - `packages/amis-ui/scripts/theme-selectors/fixtures/good/stable-dom-selector.tsx`：新增 stable selector 正例。
 - `packages/amis-core/src/components/PopOver.tsx`、`packages/amis-ui/src/components/{Tabs,UserSelect,CalendarMobile,Tree}.tsx`、`packages/amis-ui/src/components/formula/VariableList.tsx`、`packages/amis-ui/src/components/table/index.tsx`、`packages/amis/src/renderers/*`：将行为 DOM selector / Sortable selector 从 classPrefix alias 或 `${cx(...)}` 迁移到 stable selector helper。
@@ -11868,9 +11868,9 @@ implemented: 2026-07-28
 | Command | Result |
 |---|---|
 | `PYTHONPATH=... codestable-workflow-next.py epic --roadmap ... --json` | pass；返回 `dispatch_goal`，两份 ApprovalRef 均可见 |
-| `npm test --workspace amis-core -- theme` | pass；9 tests |
-| `npm test --workspace amis -- button` | pass；5 suites / 19 tests |
-| `npm run check:theme-selectors --workspace amis-ui` | pass；1503 baseline / 0 new violation |
+| `npm test --workspace amis-core -- theme` | pass；10 tests |
+| `npm test --workspace amis -- button` | pass；5 suites / 110 tests |
+| `npm run check:theme-selectors --workspace amis-ui` | pass；7 baseline / 0 new violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` | pass；0 baseline / 0 violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` | expected fail；命中 `classprefix-dom-selector`、`scss-ns-selector`、`theme-prefix-selector` |
 | `npm run stylelint` | pass |
@@ -11908,15 +11908,15 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 ## 1. 结论
 
-本 ledger 汇总 selector guard、core component migration ledger、editor helper inventory 与本轮 runtime / file-name 扫描，用来判断旧前缀是否仍是公共样式 API。结论是：默认公共样式主路径已经转向 `.amis-*`、`[data-amis-theme]` 和 token；剩余旧前缀命中必须按下表分类治理，不能被解释为新的 `.cxd-*` 公共定制入口。
+本 ledger 汇总 selector guard、core component migration ledger、editor helper inventory 与本轮 runtime / file-name 扫描，用来判断旧前缀是否仍是公共样式 API。结论是：默认公共样式主路径已经转向 `.prismui-*`、`[data-prismui-theme]` 和 token；剩余旧前缀命中必须按下表分类治理，不能被解释为新的 `.cxd-*` 公共定制入口。
 
-本轮收紧了 selector policy：`npm run check:theme-selectors --workspace amis-ui` 当前为 1503 个 baseline match，0 个新增 violation；`classprefix-dom-selector` 为 0。该扫描覆盖 `classPrefix`、常见别名 `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器。新增 bad fixture 覆盖这些路径，防止旧公共依赖回流。
+本轮收紧了 selector policy：`npm run check:theme-selectors --workspace amis-ui` 当前为 7 个 portal scope baseline match，0 个新增 violation；`classprefix-dom-selector` 为 0。该扫描覆盖 `classPrefix`、常见别名 `ns` / `themePrefix`、简单 alias 变量、`props.classPrefix`、解构 alias、预构造 selector/className 变量、`${cx(...)}` / `${classnames(...)}` 在 DOM API、`classList.contains` 与 Sortable selector 上的行为选择器。新增 bad fixture 覆盖这些路径，防止旧公共依赖回流。
 
 ## 2. 输入证据
 
 | Source | Path | Current Signal | Consumption |
 |---|---|---|---|
-| Selector policy | `packages/amis-ui/scripts/theme-selectors/policy.json` | 1503 baseline；`scss-ns-selector=1465`、`theme-prefix-selector=38`、`classprefix-dom-selector=0`；行为选择器扫描覆盖 `classPrefix` / `ns` / `themePrefix` / alias 变量 / props alias / `cx(...)` selector | PrefixPublicApiGuard 的机器基线 |
+| Selector policy | `packages/amis-ui/scripts/theme-selectors/policy.json` | 7 baseline；`theme-prefix-selector=0`、`classprefix-dom-selector=0`；行为选择器扫描覆盖 `classPrefix` / `ns` / `themePrefix` / alias 变量 / props alias / `cx(...)` selector | PrefixPublicApiGuard 的机器基线 |
 | ComponentMigrationLedger | `.codestable/features/2026-07-25-core-component-selector-migration/core-component-selector-migration-ledger.md` | Wave A/B/C done；DOM selector dependency 已迁到 stable helper；广义 `classPrefix` passthrough 不批量删除 | 区分 DOM selector debt 与 props passthrough |
 | HelperScssInventory | `.codestable/features/2026-07-25-editor-theme-helper-migration/editor-theme-helper-migration-helper-scss-inventory.md` | editor/helper `.cxd-*` 与 `.AMISCSSWrapper` 属内部迁移输入 | 防止把 editor helper 存量当公共 API |
 | Runtime alias policy | `packages/amis-core/src/theme.tsx` | `legacyDomClassAlias` 默认 false；只识别显式 `cxd` | DOM-only alias 生命周期治理 |
@@ -11927,14 +11927,14 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 | Kind | Current Matches / Paths | Owner | Decision | Retain Reason | Exit Condition / Next Owner |
 |---|---|---|---|---|---|
 | `public selector` | No new `.cxd-*` / `.antd-*` / `.dark-*`; guard baseline only | `legacy-prefix-teardown` | migrate / block new | 旧 selector 基线只允许减少，不允许未分类增加 | guard 继续 0 new violation；后续组件迁移逐步删除 baseline |
-| `behavior dom selector` | `classprefix-dom-selector=0` across `querySelector` / `querySelectorAll` / `closest` / `matches` / `classList.contains` / Sortable `handle` / `filter` / `ghostClass` | `legacy-prefix-teardown` | migrated | 行为定位必须跟随稳定 `.amis-*` 主路径，不能依赖 DOM-only alias | 新增命中直接阻塞；如确属非公共行为例外，必须先扩 ledger 分类 |
-| `scss-selector` | 1465 `#{$ns}` in `packages/amis-ui/scss` | `legacy-prefix-teardown` / later component waves | retain-temporarily | 非本 roadmap wave 的 SCSS 存量，当前作为迁移债务而非 API 推荐 | 后续迁移到 stable `.amis-*` helper 或 token |
-| `internal legacy` | 33 editor/helper theme-prefix entries in policy; 28 files / 78 raw `.cxd-*` or `AMISCSSWrapper` hits in helper inventory | `editor-theme-helper-migration` then `theme-system-validation-docs-rollout` | internalize / handoff | editor/helper 内部样式和历史 themeCss 输入，需要迁移文档承接 | helper stable selector 补齐后删除；docs 说明 `.AMISCSSWrapper` 只是容器别名 |
+| `behavior dom selector` | `classprefix-dom-selector=0` across `querySelector` / `querySelectorAll` / `closest` / `matches` / `classList.contains` / Sortable `handle` / `filter` / `ghostClass` | `legacy-prefix-teardown` | migrated | 行为定位必须跟随稳定 `.prismui-*` 主路径，不能依赖 DOM-only alias | 新增命中直接阻塞；如确属非公共行为例外，必须先扩 ledger 分类 |
+| `scss-selector` | 0 current `#{$ns}` policy baseline entries; theme entries resolve `$ns` to stable `prismui-` | `legacy-prefix-teardown` / later component waves | retain-temporarily | 非本 roadmap wave 的 SCSS 存量，当前作为迁移债务而非 API 推荐 | 后续迁移到 stable `.prismui-*` helper 或 token |
+| `internal legacy` | 0 theme-prefix policy entries；helper inventory still records historical `.cxd-*` or `AMISCSSWrapper` inputs | `editor-theme-helper-migration` then `theme-system-validation-docs-rollout` | internalize / handoff | editor/helper 内部样式和历史 themeCss 输入，需要迁移文档承接 | helper stable selector 补齐后删除；docs 说明 `.AMISCSSWrapper` 只是容器别名 |
 | `runtime alias` | `legacyDomClassAlias?: false | 'cxd'` | `legacy-prefix-teardown` | retain-temporarily | 兼容老定制页面自己的 `.cxd-*` CSS；不生成库 CSS | 可用迁移路径形成后不晚于 1 年触发人工评估 |
 | `theme behavior config` | `classPrefix: 'cxd-'/'antd-'/'dark-'` in theme objects | `legacy-prefix-teardown` | internalize | 仍供旧组件和行为配置透传；不是新样式定制入口 | 文档从公共 API 中移除；后续重构可拆 internal behavior config |
 | `legacy props passthrough` | broad `classPrefix` props across renderers/components | owning renderer/component | retain-temporarily | 传给旧组件或第三方封装，不等同 DOM selector debt | 只在对应组件迁移时收窄，不在本项批量删除 |
 | `file-name compatibility` | `cxd.css` / `cxd-ie11.css` build references | release/docs owner | retain-temporarily | 文件名兼容既有产物和 IE11 静态 CSS 边界 | docs rollout 明确“文件名兼容不等于 selector compatibility” |
-| `docs historical` | 22 policy baseline entries | `theme-system-validation-docs-rollout` | handoff-to-docs | 历史注释/示例引用，不生成样式输出 | docs rollout 删除或改写为 token / `.amis-*` / `[data-amis-theme]` |
+| `docs historical` | 0 policy baseline entries | `theme-system-validation-docs-rollout` | handoff-to-docs | 历史注释/示例引用，不生成样式输出 | docs rollout 删除或改写为 token / `.prismui-*` / `[data-prismui-theme]` |
 | `generated artifact` | `lib` / `esm` ignored by guard | build owner | ignore generated | 构建产物不手写 | 由源码 guard 和 build 产物检查覆盖 |
 
 ## 4. Top Baseline Hotspots
@@ -11952,7 +11952,7 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 ## 5. Teardown Decisions
 
-- 默认主路径：`.amis-*` component class、`[data-amis-theme]` theme identity、`--amis-*` token。
+- 默认主路径：`.prismui-*` component class、`[data-prismui-theme]` theme identity、`--prismui-*` token。
 - 新增公共旧前缀选择器：禁止；guard 默认失败，不通过 baseline 扩张掩盖。
 - DOM-only `.cxd-*` alias：保留为显式迁移能力；默认关闭；不支持 `antd` / `dark` alias；不生成库 CSS。
 - 广义 `classPrefix`：保留为 internal / legacy passthrough；不作为用户主题定制文档入口；后续只按组件边界逐步删除。
@@ -11962,7 +11962,7 @@ source_policy: packages/amis-ui/scripts/theme-selectors/policy.json
 
 | Check | Result |
 |---|---|
-| `npm run check:theme-selectors --workspace amis-ui` | pass；1503 baseline / 0 new violation |
+| `npm run check:theme-selectors --workspace amis-ui` | pass；7 baseline / 0 new violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture good` | pass；0 baseline / 0 violation |
 | `node packages/amis-ui/scripts/checkThemeSelectors.js --fixture bad` | expected fail；命中 `classprefix-dom-selector`、`scss-ns-selector`、`theme-prefix-selector` |
 | `npm test --workspace amis-core -- theme` | pass；新增 alias 非 `cxd` 回归已覆盖 |

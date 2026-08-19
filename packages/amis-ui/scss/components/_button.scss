@@ -1,29 +1,29 @@
-@include amis-theme('cxd') {
-  --amis-Button-display: inline-flex;
-  --amis-Button-background: transparent;
-  --amis-Button-transition: var(--Button-transition);
-  --amis-Button-white-space: nowrap;
-  --amis-Button-min-width: auto;
+@include prismui-theme('cxd') {
+  --prismui-Button-display: inline-flex;
+  --prismui-Button-background: transparent;
+  --prismui-Button-transition: var(--Button-transition);
+  --prismui-Button-white-space: nowrap;
+  --prismui-Button-min-width: auto;
 }
 
-@include amis-component('Button') {
-  display: var(--amis-Button-display, inline-flex);
+@include prismui-component('Button') {
+  display: var(--prismui-Button-display, inline-flex);
   align-items: center;
   justify-content: center;
   text-align: center;
   vertical-align: middle;
   user-select: none;
-  background: var(--amis-Button-background, transparent);
-  transition: var(--amis-Button-transition);
-  white-space: var(--amis-Button-white-space, nowrap);
-  min-width: var(--amis-Button-min-width, auto);
+  background: var(--prismui-Button-background, transparent);
+  transition: var(--prismui-Button-transition);
+  white-space: var(--prismui-Button-white-space, nowrap);
+  min-width: var(--prismui-Button-min-width, auto);
 
   > svg.icon {
     top: 0;
   }
 }
 
-@include amis-component('Button') {
+@include prismui-component('Button') {
   &--primary {
     @include button-variant(
       var(--button-primary-default-bg-color),
@@ -829,7 +829,7 @@
     display: block;
     width: 100%;
 
-    + .amis-Button--block {
+    + .prismui-Button--block {
       margin-top: var(--gap-base);
     }
   }
@@ -846,34 +846,34 @@
   }
 }
 
-a.amis-Button.is-disabled,
-fieldset:disabled a.amis-Button {
+a.prismui-Button.is-disabled,
+fieldset:disabled a.prismui-Button {
   pointer-events: none;
 }
 
-.amis-Button--loading {
+.prismui-Button--loading {
   @include button-loading-icon();
 }
 
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
-  &.amis-Button--block {
+  &.prismui-Button--block {
     width: 100%;
   }
 }
 
-.amis-ButtonToolbar {
+.prismui-ButtonToolbar {
   margin-left: calc(var(--gap-xs) * -1);
   margin-top: calc(var(--gap-xs) * -1);
 
-  > .amis-Button {
+  > .prismui-Button {
     margin-left: var(--gap-xs);
     margin-top: var(--gap-xs);
   }
 }
 
-.amis-Action {
+.prismui-Action {
   display: inline-block;
   &:hover {
     cursor: pointer;

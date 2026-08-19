@@ -52,7 +52,7 @@ export function embed(
     container.appendChild(div);
     container = div;
   }
-  container.classList.add('amis-scope');
+  container.classList.add('prismui-scope');
   let scoped = {};
 
   const requestAdaptor = async (config: any) => {
@@ -100,7 +100,7 @@ export function embed(
 
   const amisEnv = {
     getModalContainer: () =>
-      env?.getModalContainer?.() || document.querySelector('.amis-scope'),
+      env?.getModalContainer?.() || document.querySelector('.prismui-scope'),
     notify: (type: ToastLevel, msg: string, conf?: ToastConf) =>
       toast[type]
         ? toast[type](msg, conf)
@@ -257,7 +257,7 @@ export function embed(
     },
     richTextToken: '',
     affixOffsetBottom: 0,
-    customStyleClassPrefix: '.amis-scope',
+    customStyleClassPrefix: '.prismui-scope',
     ...env
   };
 
@@ -281,7 +281,7 @@ export function embed(
     };
 
     return (
-      <div className="amis-routes-wrapper">
+      <div className="prismui-routes-wrapper">
         <ToastComponent
           position={(env && env.toastPosition) || 'top-center'}
           closeButton={false}

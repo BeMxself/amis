@@ -3,17 +3,17 @@
 exports[`Renderer:chained-select 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -22,10 +22,10 @@ exports[`Renderer:chained-select 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -33,7 +33,7 @@ exports[`Renderer:chained-select 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__JsonField __AMIS_COMPONENT_CLASS_PREFIX__Form--debug"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__JsonField __PRISMUI_COMPONENT_CLASS_PREFIX__Form--debug"
         >
           <div
             class="w-json-view-container w-rjv  w-rjv-inner"
@@ -124,16 +124,16 @@ exports[`Renderer:chained-select 1`] = `
           </div>
         </div>
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select3"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   级联下拉
@@ -142,26 +142,26 @@ exports[`Renderer:chained-select 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__ChainedSelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__ChainedSelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--inline"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Select--inline"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   A 0
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -172,21 +172,21 @@ exports[`Renderer:chained-select 1`] = `
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--inline"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Select--inline"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   B 1
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -197,21 +197,21 @@ exports[`Renderer:chained-select 1`] = `
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--inline"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Select--inline"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   D 2
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -222,21 +222,21 @@ exports[`Renderer:chained-select 1`] = `
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select __AMIS_COMPONENT_CLASS_PREFIX__Select--inline"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select __PRISMUI_COMPONENT_CLASS_PREFIX__Select--inline"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-value"
                 >
                   C 3
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -249,13 +249,13 @@ exports[`Renderer:chained-select 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

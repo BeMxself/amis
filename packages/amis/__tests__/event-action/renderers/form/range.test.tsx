@@ -99,7 +99,7 @@ test('EventAction:inputRange', async () => {
   );
 
   await wait(500);
-  const inputs = container.querySelector('.cxd-InputRange-input input')!;
+  const inputs = container.querySelector('.prismui-InputRange-input input')!;
 
   // input change
   const valueChange = 23;
@@ -121,7 +121,7 @@ test('EventAction:inputRange', async () => {
   /**
    * 滑动 change case先注释掉，因为fireEvent.mouseMove时，event中拿不到pageX。
   // 滑动 change
-  const slider = container.querySelector('.cxd-InputRange-handle-icon')!;
+  const slider = container.querySelector('.prismui-InputRange-handle-icon')!;
   fireEvent.mouseDown(slider);
   fireEvent.mouseMove(slider, {
     clientX: 0,

@@ -15,7 +15,7 @@ order: 51
 ```schema: scope="body"
 {
     "type": "iframe",
-    "src": "https://github.com/baidu/amis",
+    "src": "https://github.com/Gengxin-Tech/prismui",
     "height": 300
 }
 ```
@@ -30,7 +30,7 @@ order: 51
 {
   "type": "page",
   "data": {
-    "iframeSrc": "https://github.com/baidu/amis"
+    "iframeSrc": "https://github.com/Gengxin-Tech/prismui"
   },
   "body": {
     "type": "iframe",

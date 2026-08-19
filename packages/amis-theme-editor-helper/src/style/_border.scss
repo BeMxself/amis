@@ -119,7 +119,7 @@
   &-settings {
     flex: 1;
     margin-left: px2rem(16px);
-    .#{$amis-component-prefix}Form-item {
+    .#{$prismui-component-prefix}Form-item {
       margin-bottom: 0;
     }
     .theme-select {
@@ -128,7 +128,7 @@
     &-style-color {
       display: flex;
       justify-content: space-between;
-      .#{$amis-component-prefix}Select {
+      .#{$prismui-component-prefix}Select {
         flex: 1;
         margin-right: px2rem(4px);
       }
@@ -154,7 +154,7 @@
       display: flex;
       justify-content: space-between;
       flex: 1;
-      .#{$amis-component-prefix}Select {
+      .#{$prismui-component-prefix}Select {
         width: px2rem(96px);
         height: px2rem(32px);
         margin-left: px2rem(4px);

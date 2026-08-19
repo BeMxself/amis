@@ -6,9 +6,7 @@ export default class TestComponent extends React.Component {
     return (
       <div className="wrapper">
         <div className="m-b">
-          <Button className="m-r-xs">
-            按钮
-          </Button>
+          <Button className="m-r-xs">按钮</Button>
 
           <Button className="m-r-xs" level="primary">
             按钮

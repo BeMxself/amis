@@ -4,16 +4,13 @@
 import React from 'react';
 import axios from 'axios';
 import {getTheme, Icon, Drawer, SearchBox} from 'amis';
+import {DOCS_BASE_PATH} from './publicPath';
 
-let ContextPath = '';
-
-if (process.env.NODE_ENV === 'production') {
-  ContextPath = '/amis';
-}
+const ContextPath = DOCS_BASE_PATH;
 
 function getComponentClassPrefix(theme) {
   const themeName = typeof theme === 'string' ? theme : theme?.value;
-  return getTheme(themeName || 'cxd')?.componentClassPrefix || 'amis-';
+  return getTheme(themeName || 'cxd')?.componentClassPrefix || 'prismui-';
 }
 
 export default class DocSearch extends React.Component {

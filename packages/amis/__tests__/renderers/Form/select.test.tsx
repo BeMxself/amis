@@ -36,7 +36,7 @@ const setup = async (items: any = {}, formOptions: any = {}) => {
   );
 
   const select = utils.container.querySelector(
-    '.amis-SelectControl .amis-TransferDropDown'
+    '.prismui-SelectControl .prismui-TransferDropDown'
   );
 
   expect(select).toBeInTheDocument();
@@ -297,7 +297,7 @@ test('Renderer:select table with labelField & valueField', async () => {
 
   await waitFor(() => {
     expect(
-      baseElement.querySelector(componentSelector('.amis-TransferDropDown-popover'))
+      baseElement.querySelector(componentSelector('.prismui-TransferDropDown-popover'))
     ).toBeInTheDocument();
   });
 
@@ -870,7 +870,7 @@ test('Renderer:select value contains delimiter when single', async () => {
   );
 
   expect(
-    container.querySelector('.amis-Select-valueWrap .amis-Select-value')!
+    container.querySelector('.prismui-Select-valueWrap .prismui-Select-value')!
       .innerHTML
   ).toEqual('ALabel');
 });

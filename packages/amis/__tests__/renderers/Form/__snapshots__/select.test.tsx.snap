@@ -3,31 +3,31 @@
 exports[`Renderer: chained select 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -36,10 +36,10 @@ exports[`Renderer: chained select 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -47,16 +47,16 @@ exports[`Renderer: chained select 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           带搜索
@@ -65,26 +65,26 @@ exports[`Renderer: chained select 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable is-group"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable is-group"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -98,13 +98,13 @@ exports[`Renderer: chained select 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -124,31 +124,31 @@ exports[`Renderer: chained select 1`] = `
 exports[`Renderer:select associated 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -157,10 +157,10 @@ exports[`Renderer:select associated 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -168,16 +168,16 @@ exports[`Renderer:select associated 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="b"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           关联选择模式
@@ -186,26 +186,26 @@ exports[`Renderer:select associated 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -219,13 +219,13 @@ exports[`Renderer:select associated 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -245,17 +245,17 @@ exports[`Renderer:select associated 1`] = `
 exports[`Renderer:select associated mode with virtual 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -264,10 +264,10 @@ exports[`Renderer:select associated mode with virtual 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -275,16 +275,16 @@ exports[`Renderer:select associated mode with virtual 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   级联
@@ -293,26 +293,26 @@ exports[`Renderer:select associated mode with virtual 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
                   请选择
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -326,13 +326,13 @@ exports[`Renderer:select associated mode with virtual 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -348,31 +348,31 @@ exports[`Renderer:select associated mode with virtual 1`] = `
 exports[`Renderer:select chained 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -381,10 +381,10 @@ exports[`Renderer:select chained 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -392,16 +392,16 @@ exports[`Renderer:select chained 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           级联选择
@@ -410,26 +410,26 @@ exports[`Renderer:select chained 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -443,13 +443,13 @@ exports[`Renderer:select chained 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -469,17 +469,17 @@ exports[`Renderer:select chained 1`] = `
 exports[`Renderer:select chained mode with virtual 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -488,10 +488,10 @@ exports[`Renderer:select chained mode with virtual 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -499,16 +499,16 @@ exports[`Renderer:select chained mode with virtual 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   级联
@@ -517,26 +517,26 @@ exports[`Renderer:select chained mode with virtual 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
                   请选择
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -550,13 +550,13 @@ exports[`Renderer:select chained mode with virtual 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -572,31 +572,31 @@ exports[`Renderer:select chained mode with virtual 1`] = `
 exports[`Renderer:select group 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -605,10 +605,10 @@ exports[`Renderer:select group 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -616,16 +616,16 @@ exports[`Renderer:select group 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           分组
@@ -634,26 +634,26 @@ exports[`Renderer:select group 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -667,13 +667,13 @@ exports[`Renderer:select group 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -693,17 +693,17 @@ exports[`Renderer:select group 1`] = `
 exports[`Renderer:select group mode with virtual 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -712,10 +712,10 @@ exports[`Renderer:select group mode with virtual 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -723,16 +723,16 @@ exports[`Renderer:select group mode with virtual 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   分组
@@ -741,26 +741,26 @@ exports[`Renderer:select group mode with virtual 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
                   请选择
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -774,13 +774,13 @@ exports[`Renderer:select group mode with virtual 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -796,31 +796,31 @@ exports[`Renderer:select group mode with virtual 1`] = `
 exports[`Renderer:select menutpl 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -829,10 +829,10 @@ exports[`Renderer:select menutpl 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -840,16 +840,16 @@ exports[`Renderer:select menutpl 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="select"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           选项
@@ -858,26 +858,26 @@ exports[`Renderer:select menutpl 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
                       aria-expanded="false"
                       aria-haspopup="listbox"
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__Select"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select"
                       role="combobox"
                       tabindex="0"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
                       >
                         <div
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-placeholder"
                         >
                           请选择
                         </div>
                       </div>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
                       >
                         <icon-mock
                           class="icon icon-right-arrow-bold"
@@ -890,13 +890,13 @@ exports[`Renderer:select menutpl 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -916,31 +916,31 @@ exports[`Renderer:select menutpl 1`] = `
 exports[`Renderer:select table 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -949,10 +949,10 @@ exports[`Renderer:select table 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -960,16 +960,16 @@ exports[`Renderer:select table 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           表格形式
@@ -978,26 +978,26 @@ exports[`Renderer:select table 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -1011,13 +1011,13 @@ exports[`Renderer:select table 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1037,17 +1037,17 @@ exports[`Renderer:select table 1`] = `
 exports[`Renderer:select table mode with virtual 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1056,10 +1056,10 @@ exports[`Renderer:select table mode with virtual 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1067,16 +1067,16 @@ exports[`Renderer:select table mode with virtual 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   表格
@@ -1085,26 +1085,26 @@ exports[`Renderer:select table mode with virtual 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                 >
                   请选择
                 </span>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -1118,13 +1118,13 @@ exports[`Renderer:select table mode with virtual 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1140,17 +1140,17 @@ exports[`Renderer:select table mode with virtual 1`] = `
 exports[`Renderer:select table with labelField & valueField 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1159,10 +1159,10 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1170,16 +1170,16 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="a"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   表格形式
@@ -1188,20 +1188,20 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable is-group"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-opened is-clickable is-group"
               tabindex="-1"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
                     data-index="0"
                   >
                     诸葛亮
@@ -1216,10 +1216,10 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
                   </a>
                 </div>
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value"
                 >
                   <span
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-valueLabel"
                     data-index="1"
                   >
                     李白
@@ -1235,10 +1235,10 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
                 </div>
               </div>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                 >
                   <icon-mock
                     class="icon icon-right-arrow-bold"
@@ -1252,13 +1252,13 @@ exports[`Renderer:select table with labelField & valueField 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>
@@ -1280,31 +1280,31 @@ exports[`Renderer:select table with labelField & valueField 2`] = `
 exports[`Renderer:select tree 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Page"
-    data-amis-theme="cxd"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page"
+    data-prismui-theme="cxd"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Page-content"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-content"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Page-main"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-main"
       >
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Page-body"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Page-body"
           role="page-body"
         >
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
             data-role="container"
           >
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
             >
               <h3
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
               >
                 <span
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                 >
                   <span>
                     表单
@@ -1313,10 +1313,10 @@ exports[`Renderer:select tree 1`] = `
               </h3>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
             >
               <form
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
                 novalidate=""
               >
                 <input
@@ -1324,16 +1324,16 @@ exports[`Renderer:select tree 1`] = `
                   type="submit"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
                   data-amis-name="a"
                   data-role="form-item"
                 >
                   <label
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
                   >
                     <span>
                       <span
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
                       >
                         <span>
                           树型展示
@@ -1342,26 +1342,26 @@ exports[`Renderer:select tree 1`] = `
                     </span>
                   </label>
                   <div
-                    class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+                    class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
                   >
                     <div
-                      class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox __AMIS_COMPONENT_CLASS_PREFIX__TransferDropDown __AMIS_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
+                      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox __PRISMUI_COMPONENT_CLASS_PREFIX__TransferDropDown __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control is-clickable"
                       tabindex="-1"
                     >
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-value-wrap"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-placeholder"
                         >
                           请选择
                         </span>
                       </div>
                       <div
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-actions"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-actions"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__ResultBox-pc-arrow"
                         >
                           <icon-mock
                             class="icon icon-right-arrow-bold"
@@ -1375,13 +1375,13 @@ exports[`Renderer:select tree 1`] = `
               </form>
             </div>
             <div
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
               >
                 <button
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
                   type="submit"
                 >
                   <span>
@@ -1401,17 +1401,17 @@ exports[`Renderer:select tree 1`] = `
 exports[`Renderer:select virtual 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Panel __AMIS_COMPONENT_CLASS_PREFIX__Panel--default __AMIS_COMPONENT_CLASS_PREFIX__Panel--form"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--default __PRISMUI_COMPONENT_CLASS_PREFIX__Panel--form"
     data-role="container"
   >
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-heading"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-heading"
     >
       <h3
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-title"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-title"
       >
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             表单
@@ -1420,10 +1420,10 @@ exports[`Renderer:select virtual 1`] = `
       </h3>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-body"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-body"
     >
       <form
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Form __AMIS_COMPONENT_CLASS_PREFIX__Form--normal"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form __PRISMUI_COMPONENT_CLASS_PREFIX__Form--normal"
         novalidate=""
       >
         <input
@@ -1431,16 +1431,16 @@ exports[`Renderer:select virtual 1`] = `
           type="submit"
         />
         <div
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal"
           data-amis-name="select"
           data-role="form-item"
         >
           <label
-            class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
           >
             <span>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
               >
                 <span>
                   选项
@@ -1449,27 +1449,27 @@ exports[`Renderer:select virtual 1`] = `
             </span>
           </label>
           <div
-            class="__AMIS_COMPONENT_CLASS_PREFIX__SelectControl __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+            class="__PRISMUI_COMPONENT_CLASS_PREFIX__SelectControl __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-owns="downshift-1-menu"
-              class="__AMIS_COMPONENT_CLASS_PREFIX__Select is-opened has-popover"
+              class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select is-opened has-popover"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-valueWrap"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-valueWrap"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-placeholder"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-placeholder"
                 >
                   请选择
                 </div>
               </div>
               <span
-                class="__AMIS_COMPONENT_CLASS_PREFIX__Select-arrow"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-arrow"
               >
                 <icon-mock
                   class="icon icon-right-arrow-bold"
@@ -1477,17 +1477,17 @@ exports[`Renderer:select virtual 1`] = `
                 />
               </span>
               <div
-                class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver __AMIS_COMPONENT_CLASS_PREFIX__Select-popover"
-                data-amis-theme="cxd"
+                class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver __PRISMUI_COMPONENT_CLASS_PREFIX__Select-popover"
+                data-prismui-theme="cxd"
                 role="popover"
                 style="display: block; width: 0px; left: 0px; top: 0px; visibility: hidden;"
                 theme="cxd"
               >
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__PopOver-overlay"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__PopOver-overlay"
                 />
                 <div
-                  class="__AMIS_COMPONENT_CLASS_PREFIX__Select-menu __AMIS_COMPONENT_CLASS_PREFIX__Select--longlist"
+                  class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-menu __PRISMUI_COMPONENT_CLASS_PREFIX__Select--longlist"
                 >
                   <div
                     style="overflow: auto; will-change: transform; height: 266px; width: 100%;"
@@ -1497,13 +1497,13 @@ exports[`Renderer:select virtual 1`] = `
                     >
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-0"
                         role="option"
                         style="position: absolute; top: 0px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option0"
                         >
                           option0
@@ -1511,13 +1511,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-1"
                         role="option"
                         style="position: absolute; top: 32px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option1"
                         >
                           option1
@@ -1525,13 +1525,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-2"
                         role="option"
                         style="position: absolute; top: 64px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option2"
                         >
                           option2
@@ -1539,13 +1539,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-3"
                         role="option"
                         style="position: absolute; top: 96px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option3"
                         >
                           option3
@@ -1553,13 +1553,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-4"
                         role="option"
                         style="position: absolute; top: 128px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option4"
                         >
                           option4
@@ -1567,13 +1567,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-5"
                         role="option"
                         style="position: absolute; top: 160px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option5"
                         >
                           option5
@@ -1581,13 +1581,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-6"
                         role="option"
                         style="position: absolute; top: 192px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option6"
                         >
                           option6
@@ -1595,13 +1595,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-7"
                         role="option"
                         style="position: absolute; top: 224px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option7"
                         >
                           option7
@@ -1609,13 +1609,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-8"
                         role="option"
                         style="position: absolute; top: 256px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option8"
                         >
                           option8
@@ -1623,13 +1623,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-9"
                         role="option"
                         style="position: absolute; top: 288px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option9"
                         >
                           option9
@@ -1637,13 +1637,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-10"
                         role="option"
                         style="position: absolute; top: 320px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option10"
                         >
                           option10
@@ -1651,13 +1651,13 @@ exports[`Renderer:select virtual 1`] = `
                       </div>
                       <div
                         aria-selected="false"
-                        class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option"
+                        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option"
                         id="downshift-1-item-11"
                         role="option"
                         style="position: absolute; top: 352px; left: 0px; width: 100%; height: 32px;"
                       >
                         <span
-                          class="__AMIS_COMPONENT_CLASS_PREFIX__Select-option-content"
+                          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Select-option-content"
                           title="option11"
                         >
                           option11
@@ -1673,13 +1673,13 @@ exports[`Renderer:select virtual 1`] = `
       </form>
     </div>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footerWrap"
     >
       <div
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __AMIS_COMPONENT_CLASS_PREFIX__Panel-footer"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Panel-btnToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Panel-footer"
       >
         <button
-          class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--primary __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--primary __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
           type="submit"
         >
           <span>

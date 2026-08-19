@@ -3,16 +3,16 @@
 exports[`Renderer:button-toolbar 1`] = `
 <div>
   <div
-    class="__AMIS_COMPONENT_CLASS_PREFIX__Form-item __AMIS_COMPONENT_CLASS_PREFIX__Form-item--normal show"
+    class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-item __PRISMUI_COMPONENT_CLASS_PREFIX__Form-item--normal show"
     data-amis-name="button-toolbar"
     data-role="form-item"
   >
     <label
-      class="__AMIS_COMPONENT_CLASS_PREFIX__Form-label"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__Form-label"
     >
       <span>
         <span
-          class="__AMIS_COMPONENT_CLASS_PREFIX__TplField fr-view"
+          class="__PRISMUI_COMPONENT_CLASS_PREFIX__TplField fr-view"
         >
           <span>
             button-toolbar
@@ -21,10 +21,10 @@ exports[`Renderer:button-toolbar 1`] = `
       </span>
     </label>
     <div
-      class="__AMIS_COMPONENT_CLASS_PREFIX__ButtonToolbar __AMIS_COMPONENT_CLASS_PREFIX__Form-control"
+      class="__PRISMUI_COMPONENT_CLASS_PREFIX__ButtonToolbar __PRISMUI_COMPONENT_CLASS_PREFIX__Form-control"
     >
       <button
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
         type="button"
       >
         <span>
@@ -32,7 +32,7 @@ exports[`Renderer:button-toolbar 1`] = `
         </span>
       </button>
       <button
-        class="__AMIS_COMPONENT_CLASS_PREFIX__Button __AMIS_COMPONENT_CLASS_PREFIX__Button--default __AMIS_COMPONENT_CLASS_PREFIX__Button--size-default"
+        class="__PRISMUI_COMPONENT_CLASS_PREFIX__Button __PRISMUI_COMPONENT_CLASS_PREFIX__Button--default __PRISMUI_COMPONENT_CLASS_PREFIX__Button--size-default"
         type="button"
       >
         <span>

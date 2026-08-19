@@ -298,7 +298,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
 
     onExited && onExited();
     setTimeout(() => {
-      if (!document.querySelector('.amis-dialog-widget')) {
+      if (!document.querySelector('.prismui-dialog-widget')) {
         document.body.classList.remove(`is-modalOpened`);
         document.body.style.width = '';
       }
@@ -491,7 +491,7 @@ export class Modal extends React.Component<ModalProps, ModalState> {
               ref={this.modalRef}
               role="dialog"
               className={cx(
-                `amis-dialog-widget Modal`,
+                `prismui-dialog-widget Modal`,
                 {
                   [`Modal--${size}`]: size
                 },

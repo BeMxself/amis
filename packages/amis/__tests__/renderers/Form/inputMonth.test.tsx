@@ -44,7 +44,7 @@ test('Renderer:inputMonth click', async () => {
   fireEvent.click(inputDate);
   // 点击前一年
   fireEvent.click(
-    container.querySelector('.cxd-DatePicker-popover .rdtPrev') as Element
+    container.querySelector('.prismui-DatePicker-popover .rdtPrev') as Element
   );
 
   const firstMonth = await findByText('1月');
@@ -56,7 +56,7 @@ test('Renderer:inputMonth click', async () => {
   await findByDisplayValue(lastYearMonth);
 
   const input = container.querySelector(
-    '.cxd-DatePicker input'
+    '.prismui-DatePicker input'
   ) as HTMLInputElement;
 
   expect(input.value).toEqual(lastYearMonth);
@@ -96,7 +96,7 @@ test('Renderer:inputMonth with dynamic minDate & maxDate', async () => {
     )
   );
 
-  const items = container.querySelectorAll('.cxd-DatePicker');
+  const items = container.querySelectorAll('.prismui-DatePicker');
   expect(items.length).toBe(2);
 
   const start = items[0];
