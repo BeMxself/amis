@@ -7,7 +7,7 @@
 import Portal from 'react-overlays/Portal';
 import classNames from 'classnames';
 import React, {cloneElement} from 'react';
-import {mergeRefs, setReactRef} from '../utils/reactRef';
+import {getReactElementRef, mergeRefs, setReactRef} from '../utils/reactRef';
 import {
   autobind,
   calculatePosition,
@@ -275,7 +275,7 @@ class Position extends React.Component<any, any> {
 
     if (canAttachRef(child)) {
       return {
-        ref: this.getMergedRef((child as any).ref)
+        ref: this.getMergedRef(getReactElementRef(child))
       };
     }
 

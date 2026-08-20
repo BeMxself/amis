@@ -1,6 +1,6 @@
 import React from 'react';
 import {resolveDOMElement} from './utils/dom';
-import {setReactRef} from './utils/reactRef';
+import {getReactElementRef, setReactRef} from './utils/reactRef';
 
 interface TaggerWrapperProps {
   children: React.ReactElement;
@@ -51,7 +51,7 @@ export const TaggerWrapper: React.FC<TaggerWrapperProps> = ({
       setDom(prevDom => (prevDom === nextDom ? prevDom : nextDom));
 
       // 如果原有 children 有 ref，也调用它
-      setReactRef((children as any).ref, node);
+      setReactRef(getReactElementRef(children), node);
     },
     [children]
   );

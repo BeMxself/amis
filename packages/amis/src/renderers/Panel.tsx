@@ -228,6 +228,7 @@ export default class Panel<
       collapsible,
       themeCss,
       wrapperCustomStyle,
+      forwardedRef,
       ...rest
     } = this.props;
 
@@ -289,6 +290,7 @@ export default class Panel<
 
     return (
       <div
+        ref={forwardedRef}
         data-id={id}
         data-role="container"
         className={cx(

@@ -5,7 +5,7 @@ import {formateId} from '../utils';
 import {createAnimationStyle} from '../utils/animations';
 import styleManager from '../StyleManager';
 import {AMISSchemaBase} from '../schema';
-import {mergeRefs} from '../utils/reactRef';
+import {getReactElementRef, mergeRefs} from '../utils/reactRef';
 
 function Animations({
   schema,
@@ -117,7 +117,7 @@ function Animations({
 
     if (typeof component.type === 'string') {
       return React.cloneElement(component, {
-        ref: mergeRefs((component as any).ref, transitionNodeRef)
+        ref: mergeRefs(getReactElementRef(component), transitionNodeRef)
       } as any);
     }
 

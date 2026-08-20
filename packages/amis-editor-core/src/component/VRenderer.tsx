@@ -3,7 +3,7 @@
  */
 import {isAlive} from 'mobx-state-tree';
 import React from 'react';
-import {mergeRefs} from 'amis-core';
+import {getReactElementRef, mergeRefs} from 'amis-core';
 import {RendererInfo} from '../plugin';
 import {EditorNodeContext, EditorNodeType} from '../store/node';
 
@@ -85,7 +85,7 @@ export class VRenderer extends React.Component<VRendererProps> {
 
       if (typeof child.type === 'string') {
         return React.cloneElement(child, {
-          ref: mergeRefs((child as any).ref, this.setRootRef)
+          ref: mergeRefs(getReactElementRef(child), this.setRootRef)
         } as any);
       }
 

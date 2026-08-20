@@ -1,6 +1,6 @@
 import {isAlive} from 'mobx-state-tree';
 import React from 'react';
-import {mergeRefs, setReactRef} from 'amis-core';
+import {getReactElementRef, mergeRefs, setReactRef} from 'amis-core';
 import {EditorManager} from '../manager';
 import {RegionConfig, RendererInfo} from '../plugin';
 import {needFillPlaceholder} from '../util';
@@ -147,7 +147,7 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
 
       if (typeof child.type === 'string') {
         return React.cloneElement(child, {
-          ref: mergeRefs((child as any).ref, this.setRootRef)
+          ref: mergeRefs(getReactElementRef(child), this.setRootRef)
         } as any);
       }
 

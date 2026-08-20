@@ -5,7 +5,7 @@
 
 import React, {useState, useEffect, useRef, useCallback} from 'react';
 import omit from 'lodash/omit';
-import {themeable, isObject, mergeRefs} from 'amis-core';
+import {themeable, isObject, getReactElementRef, mergeRefs} from 'amis-core';
 import TooltipWrapper from './TooltipWrapper';
 
 import type {ThemeProps} from 'amis-core';
@@ -146,7 +146,7 @@ const OverflowTpl: React.FC<OverflowTplProps> = props => {
     React.cloneElement(
       children as React.ReactElement,
       typeof (children as React.ReactElement).type === 'string'
-        ? ({ref: mergeRefs((children as any).ref, innerRef)} as any)
+        ? ({ref: mergeRefs(getReactElementRef(children), innerRef)} as any)
         : ({
             forwardedRef: mergeRefs(
               ((children as React.ReactElement).props as any).forwardedRef,

@@ -16,7 +16,7 @@ import {hasAsyncRenderers, loadAsyncRenderersByType} from './factory';
 import {dispatchEvent} from './utils/renderer-event';
 import {GlobalVariableItem} from './globalVar';
 import {getThemeScope} from './theme';
-import {mergeRefs} from './utils/reactRef';
+import {getReactElementRef, mergeRefs} from './utils/reactRef';
 
 export interface RootRendererProps extends RootProps {
   /**
@@ -115,7 +115,7 @@ export class RootRenderer extends React.Component<RootRendererProps> {
 
     if (typeof node.type === 'string') {
       return React.cloneElement(node, {
-        ref: mergeRefs((node as any).ref, this.rootRef)
+        ref: mergeRefs(getReactElementRef(node), this.rootRef)
       } as any);
     }
 

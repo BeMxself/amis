@@ -38,6 +38,7 @@ export interface ButtonProps
   loading?: boolean;
   loadingClassName?: string;
   testIdBuilder?: TestIdBuilder;
+  forwardedRef?: React.Ref<HTMLElement>;
 }
 
 export class Button extends React.Component<ButtonProps> {
@@ -80,6 +81,7 @@ export class Button extends React.Component<ButtonProps> {
       overrideClassName,
       loadingConfig,
       testIdBuilder,
+      forwardedRef,
       tabIndex,
       ...rest
     } = this.props;
@@ -92,6 +94,7 @@ export class Button extends React.Component<ButtonProps> {
 
     return (
       <Comp
+        ref={forwardedRef}
         type={Comp === 'input' || Comp === 'button' ? type : undefined}
         {...pickEventsProps(rest)}
         onClick={

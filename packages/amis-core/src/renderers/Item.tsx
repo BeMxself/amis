@@ -45,6 +45,7 @@ import {
   getTreeAncestors,
   isEmpty,
   keyToPath,
+  getReactElementRef,
   mergeRefs,
   setThemeClassName,
   setVariable
@@ -2080,7 +2081,11 @@ export class FormItemWrap extends React.Component<FormItemProps> {
     return (
       <>
         {React.cloneElement(root, {
-          ref: mergeRefs((root as any).ref, this.rootRef)
+          ref: mergeRefs(
+            getReactElementRef(root),
+            this.rootRef,
+            this.props.forwardedRef
+          )
         } as any)}
 
         {model

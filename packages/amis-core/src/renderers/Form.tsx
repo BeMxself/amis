@@ -2355,7 +2355,8 @@ export default class Form extends React.Component<FormProps, object> {
       footer,
       id,
       wrapperCustomStyle,
-      themeCss
+      themeCss,
+      forwardedRef
     } = this.props;
 
     let body: JSX.Element = this.renderBody();
@@ -2385,6 +2386,7 @@ export default class Form extends React.Component<FormProps, object> {
             })
           ),
           style: style,
+          forwardedRef,
           formStore: this.props.store,
           children: body,
           actions: this.buildActions(),

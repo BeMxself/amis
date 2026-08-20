@@ -6,7 +6,12 @@
 
 import React from 'react';
 import Html from './Html';
-import {EnvContext, mergeRefs, uncontrollable} from 'amis-core';
+import {
+  EnvContext,
+  getReactElementRef,
+  mergeRefs,
+  uncontrollable
+} from 'amis-core';
 import Tooltip from './Tooltip';
 import {ClassNamesFn, themeable} from 'amis-core';
 import {Overlay} from 'amis-core';
@@ -334,7 +339,7 @@ export class TooltipWrapper extends React.Component<
 
     if (React.isValidElement(child)) {
       if (typeof child.type === 'string') {
-        childProps.ref = mergeRefs((child as any).ref, this.targetRef);
+        childProps.ref = mergeRefs(getReactElementRef(child), this.targetRef);
       } else {
         childProps.forwardedRef = mergeRefs(
           (child.props as any).forwardedRef,

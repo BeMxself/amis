@@ -402,6 +402,7 @@ export class Action extends React.Component<ActionProps, ActionState> {
       wrapperCustomStyle,
       css,
       id,
+      forwardedRef,
       testIdBuilder,
       env,
       tabIndex
@@ -419,6 +420,7 @@ export class Action extends React.Component<ActionProps, ActionState> {
           rootClose={tooltipRootClose}
         >
           <div
+            ref={forwardedRef}
             className={cx('Action', className)}
             style={style}
             onClick={this.handleAction}
@@ -492,6 +494,7 @@ export class Action extends React.Component<ActionProps, ActionState> {
     return (
       <>
         <Button
+          forwardedRef={forwardedRef}
           loadingConfig={loadingConfig}
           className={cx(
             className,

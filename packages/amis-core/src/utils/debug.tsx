@@ -5,7 +5,7 @@
 import React, {Component, useEffect, useRef, useState} from 'react';
 import cx from 'classnames';
 import {renderReactNode, unmountReactNode} from './reactRoot';
-import {mergeRefs} from './reactRef';
+import {getReactElementRef, mergeRefs} from './reactRef';
 import {autorun, observable, action, makeObservable} from 'mobx';
 import {observer} from 'mobx-react';
 import {uuidv4} from './helper';
@@ -574,7 +574,7 @@ export class DebugWrapper extends Component<DebugWrapperProps> {
 
     if (typeof child.type === 'string') {
       return React.cloneElement(child, {
-        ref: mergeRefs((child as any).ref, this.rootRef)
+        ref: mergeRefs(getReactElementRef(child), this.rootRef)
       } as any);
     }
 

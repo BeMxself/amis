@@ -29,3 +29,17 @@ export function mergeRefs<T>(
     activeRefs.forEach(ref => setReactRef(ref, value));
   };
 }
+
+export function getReactElementRef<T>(
+  element: React.ReactElement
+): React.Ref<T> | null | undefined {
+  const propsRef = (element.props as {ref?: React.Ref<T> | null})?.ref;
+  if (propsRef !== undefined) {
+    return propsRef;
+  }
+
+  const descriptor = Object.getOwnPropertyDescriptor(element, 'ref');
+  return descriptor && 'value' in descriptor
+    ? (descriptor.value as React.Ref<T> | null | undefined)
+    : undefined;
+}
