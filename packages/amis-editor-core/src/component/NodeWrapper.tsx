@@ -5,13 +5,19 @@ import React from 'react';
 import merge from 'lodash/merge';
 import omit from 'lodash/omit';
 import {RendererInfo} from '../plugin';
-import {EditorNodeType} from '../store/node';
 import {autobind, isEmpty} from '../util';
 import {filter} from 'amis-core';
 
 export interface NodeWrapperProps extends RendererProps {
   $$editor: RendererInfo; // 当前节点信息（info）
-  $$node?: EditorNodeType; // 虚拟dom节点信息
+}
+
+export function getAliveEditorNode(props: Pick<NodeWrapperProps, '$$editor'>) {
+  const node = props.$$editor.plugin.manager.store.getNodeById(
+    props.$$editor.id
+  );
+
+  return node && isAlive(node) ? node : undefined;
 }
 
 @observer
@@ -24,7 +30,7 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
     this.markDom(this.props.$$editor.id);
 
     // 稍微等会，因为有可能别的 node 还没更新完成。
-    const node = this.props.$$node;
+    const node = getAliveEditorNode(this.props);
     node &&
       requestAnimationFrame(() => {
         () => isAlive(node) && node.calculateHighlightBox();
@@ -95,11 +101,12 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
 
   render() {
     // store 可能有循环引用，不能调用 JSONPipeOut
-    let {$$editor, $$node, store, ...rest} = this.props;
+    let {$$editor, store, ...rest} = this.props;
     const renderer = $$editor.renderer;
+    const editorNode = getAliveEditorNode(this.props);
 
     if ($$editor.filterProps) {
-      rest = $$editor.filterProps.call($$editor.plugin, rest, $$node);
+      rest = $$editor.filterProps.call($$editor.plugin, rest, editorNode);
     }
 
     const mockProps = omit(rest?.editorSetting?.mock, this.omitMockProps);
@@ -115,7 +122,7 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
         {
           ...rest,
           store,
-          ...$$node?.state,
+          ...editorNode?.state,
           $$editor,
           ...$$editor.wrapperProps,
           forwardedRef: mergeRefs(
@@ -138,7 +145,7 @@ export class NodeWrapper extends React.Component<NodeWrapperProps> {
       <Component
         {...rest}
         store={store}
-        {...$$node?.state}
+        {...editorNode?.state}
         $$editor={$$editor}
         {...$$editor.wrapperProps}
         forwardedRef={mergeRefs((rest as any).forwardedRef, this.rootRef)}

@@ -9,6 +9,7 @@ import {autobind, isHasPluginIcon} from '../../util';
 import {PanelItem} from '../../plugin';
 import {WidthDraggableBtn} from '../base/WidthDraggableBtn';
 import {getEditorThemeScopeProps} from '../../themeScope';
+import {getEditorNodeFacade} from '../../store/node';
 
 export interface RightPanelsProps {
   store: EditorStoreType;
@@ -80,6 +81,7 @@ export class RightPanels extends React.Component<
     const panels = store.getPanels();
     const id = store.activeId;
     const node = store.getNodeById(id);
+    const panelNode = getEditorNodeFacade(node) || undefined;
     const panelKey = store.getPanelKey();
     const renderPanel = (panel: PanelItem) => {
       return panel.render ? (
@@ -87,7 +89,7 @@ export class RightPanels extends React.Component<
           id,
           info: node?.info,
           path: node?.path,
-          node: node,
+          node: panelNode,
           value: store.value,
           onChange: this.handlePanelChangeValue,
           store: store,
@@ -98,7 +100,7 @@ export class RightPanels extends React.Component<
         })
       ) : panel.component ? (
         <panel.component
-          node={node}
+          node={panelNode}
           key={panel.key}
           id={id}
           info={node?.info}

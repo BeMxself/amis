@@ -1,6 +1,6 @@
 import {JSONPipeOut} from '../util';
 import React from 'react';
-import {NodeWrapper} from './NodeWrapper';
+import {getAliveEditorNode, NodeWrapper} from './NodeWrapper';
 
 export class FormConfigWrapper extends NodeWrapper {
   // 销毁的时候要把加的 aeEditor-form-config 干掉
@@ -43,13 +43,14 @@ export class FormConfigWrapper extends NodeWrapper {
 
   render() {
     // store 都有可能有循环引用，不能调用 JSONPipeOut
-    let {$$editor, $$node, $schema, store, ...rest} = this.props;
+    let {$$editor, $schema, store, ...rest} = this.props;
     const renderer = $$editor.renderer;
+    const editorNode = getAliveEditorNode(this.props);
 
     rest = JSONPipeOut(rest, false);
 
     if ($$editor.filterProps) {
-      rest = $$editor.filterProps.call($$editor.plugin, rest, $$node);
+      rest = $$editor.filterProps.call($$editor.plugin, rest, editorNode);
     }
 
     if ($$editor.renderRenderer) {

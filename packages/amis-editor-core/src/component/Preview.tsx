@@ -759,7 +759,6 @@ export default class Preview extends Component<PreviewProps> {
         >
           {store.highlightNodes.map(node => (
             <HighlightBox
-              node={node}
               key={node.id}
               store={store}
               id={node.id}
@@ -778,7 +777,6 @@ export default class Preview extends Component<PreviewProps> {
                     manager={manager}
                     key={region.region}
                     store={store}
-                    node={region}
                     id={region.id}
                     name={region.region}
                     title={region.label}

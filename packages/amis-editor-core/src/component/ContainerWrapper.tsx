@@ -1,4 +1,4 @@
-import {NodeWrapper, NodeWrapperProps} from './NodeWrapper';
+import {getAliveEditorNode, NodeWrapper, NodeWrapperProps} from './NodeWrapper';
 import React from 'react';
 import {observer} from 'mobx-react';
 import {autobind} from '../util';
@@ -31,7 +31,8 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
     props: any,
     wrapperProps: ContainerWrapperProps
   ) {
-    const {render, $$editor, $$node, $schema} = wrapperProps;
+    const {render, $$editor, $schema} = wrapperProps;
+    const editorNode = getAliveEditorNode(wrapperProps);
 
     if (
       $$editor.regions?.find(item => item.key === region)?.hiddenOn?.($schema)
@@ -41,7 +42,7 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
 
     const child = render(region, node, props);
 
-    if ($$node?.memberImmutable(region)) {
+    if (editorNode?.memberImmutable(region)) {
       return child;
     }
 
@@ -67,7 +68,6 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
           children={child}
           rendererName={$$editor.renderer.name}
           $$editor={$$editor}
-          node={$$node}
         />
       );
     }
@@ -77,9 +77,10 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
 
   render() {
     const wrapperProps = this.props;
-    const {$$editor, $$node, ...rest} = wrapperProps;
+    const {$$editor, ...rest} = wrapperProps;
     const props: any = {};
     const editorStore = $$editor.plugin.manager.store;
+    const editorNode = getAliveEditorNode(wrapperProps);
     const renderChild = (region: string, node: Schema, props: any) =>
       this.renderChild(region, node, props, wrapperProps);
 
@@ -92,7 +93,7 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
       $$editor.regions.forEach(({key, optional}) => {
         if (optional) {
           return;
-        } else if ($$node?.memberImmutable(key)) {
+        } else if (editorNode?.memberImmutable(key)) {
           return;
         }
 
@@ -134,7 +135,6 @@ export class ContainerWrapper extends React.Component<ContainerWrapperProps> {
         {...rest}
         {...props}
         $$editor={$$editor}
-        $$node={$$node}
         render={renderChild}
         ref={this.refFn}
       />

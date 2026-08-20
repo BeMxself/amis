@@ -5,7 +5,12 @@ import {EditorManager} from '../manager';
 import {RegionConfig, RendererInfo} from '../plugin';
 import {needFillPlaceholder} from '../util';
 import {EditorStoreType} from '../store/editor';
-import {EditorNodeContext, EditorNodeType} from '../store/node';
+import {
+  EditorNodeContext,
+  EditorNodeType,
+  getEditorNodeFacade,
+  resolveEditorNodeFacade
+} from '../store/node';
 import {RendererProps} from 'amis-core';
 
 export interface RegionWrapperProps {
@@ -18,7 +23,6 @@ export interface RegionWrapperProps {
   manager: EditorManager;
   rendererName?: string;
   regionConfig: RegionConfig;
-  node?: EditorNodeType; // 虚拟dom节点信息
   $$editor?: RendererInfo; // 当前节点信息（info）
   forwardedRef?: React.Ref<HTMLElement>;
   children?: React.ReactNode;
@@ -54,7 +58,7 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
   }
 
   UNSAFE_componentWillMount() {
-    this.parentNode = (this.context as any)!;
+    this.parentNode = resolveEditorNodeFacade(this.context as any)!;
 
     /**
      * 当前parent为空时尝试通过节点id获取当前上下文
@@ -169,7 +173,7 @@ export class RegionWrapper extends React.Component<RegionWrapperProps> {
       isNeedFillPlaceholder = true;
     }
     return (
-      <EditorNodeContext.Provider value={this.editorNode}>
+      <EditorNodeContext.Provider value={getEditorNodeFacade(this.editorNode)}>
         {this.renderChildren()}
         <span
           ref={this.setPlaceholderRef}

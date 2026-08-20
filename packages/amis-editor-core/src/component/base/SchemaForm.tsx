@@ -1,5 +1,5 @@
 import React from 'react';
-import {EditorNodeType} from '../../store/node';
+import {EditorNodeType, getEditorNodeFacade} from '../../store/node';
 import {EditorManager} from '../../manager';
 import {diff, getThemeConfig} from '../../util';
 import pick from 'lodash/pick';
@@ -229,7 +229,7 @@ export const SchemaForm = React.forwardRef(
         },
         disabled,
         data: data,
-        node: node,
+        node: getEditorNodeFacade(node) || undefined,
         manager: manager,
         popOverContainer,
         subscribeSchemaSubmit: subscribeSubmit,

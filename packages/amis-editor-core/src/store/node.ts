@@ -861,4 +861,93 @@ export const EditorNodeContext = React.createContext<EditorNodeType | null>(
 );
 export type EditorNodeType = Instance<typeof EditorNode>;
 
+const editorNodeFacadeCache = new WeakMap<object, EditorNodeType>();
+const editorNodeFacadeTargetCache = new WeakMap<object, EditorNodeType>();
+
+export function resolveEditorNodeFacade(
+  node: EditorNodeType | null | undefined
+) {
+  return node ? editorNodeFacadeTargetCache.get(node as any) || node : null;
+}
+
+function canReadEditorNode(node: EditorNodeType) {
+  try {
+    return isAlive(node);
+  } catch (e) {
+    return false;
+  }
+}
+
+export function getEditorNodeFacade(node: EditorNodeType | null | undefined) {
+  const target = resolveEditorNodeFacade(node);
+
+  if (!target) {
+    return null;
+  }
+
+  const cached = editorNodeFacadeCache.get(target as any);
+  if (cached) {
+    return cached;
+  }
+
+  // Expose an EditorNode facade to React props/context without enumerable MST
+  // fields, so React/debug tooling cannot accidentally read a dead node.
+  const proxy = new Proxy(Object.create(null), {
+    get(_target, property) {
+      try {
+        if (property === '$treenode') {
+          return (target as any).$treenode;
+        }
+
+        if (!canReadEditorNode(target)) {
+          return undefined;
+        }
+
+        const value = (target as any)[property];
+
+        if (typeof value !== 'function') {
+          return value;
+        }
+
+        return (...args: Array<any>) => {
+          if (!canReadEditorNode(target)) {
+            return undefined;
+          }
+
+          return value.apply(target, args);
+        };
+      } catch (e) {
+        return undefined;
+      }
+    },
+    set(_target, property, value) {
+      try {
+        if (canReadEditorNode(target)) {
+          (target as any)[property] = value;
+        }
+      } catch (e) {}
+
+      return true;
+    },
+    has(_target, property) {
+      try {
+        return canReadEditorNode(target) && property in (target as any);
+      } catch (e) {
+        return false;
+      }
+    },
+    ownKeys() {
+      return [];
+    },
+    getOwnPropertyDescriptor() {
+      return undefined;
+    }
+  }) as EditorNodeType;
+
+  editorNodeFacadeCache.set(target as any, proxy);
+  editorNodeFacadeTargetCache.set(proxy as any, target);
+
+  return proxy;
+}
+
 export type EditorNodeSnapshot = SnapshotIn<typeof EditorNode>;

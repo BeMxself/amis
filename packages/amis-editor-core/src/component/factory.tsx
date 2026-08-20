@@ -8,7 +8,12 @@ import {RegionWrapper} from './RegionWrapper';
 import find from 'lodash/find';
 import {ContainerWrapper} from './ContainerWrapper';
 import {observer} from 'mobx-react';
-import {EditorNodeContext, EditorNodeType} from '../store/node';
+import {
+  EditorNodeContext,
+  EditorNodeType,
+  getEditorNodeFacade,
+  resolveEditorNodeFacade
+} from '../store/node';
 import {EditorManager} from '../manager';
 import flatten from 'lodash/flatten';
 import {autobind, JSONGetById, JSONUpdate, appTranslate} from '../util';
@@ -34,6 +39,16 @@ export function makeWrapper(
   const store = manager.store;
   const renderer = rendererConfig.component!;
 
+  const resolveContextNode = (node?: EditorNodeType) => {
+    const facadeNode = resolveEditorNodeFacade(node);
+
+    try {
+      return facadeNode && isAlive(facadeNode) ? facadeNode : store.root;
+    } catch (e) {
+      return store.root;
+    }
+  };
+
   @observer
   class Wrapper extends React.Component<Props> {
     static displayName = renderer.displayName;
@@ -46,7 +61,7 @@ export function makeWrapper(
     scopeId?: string;
 
     UNSAFE_componentWillMount() {
-      const parent: EditorNodeType = (this.context as any) || store.root;
+      const parent = resolveContextNode(this.context as any);
       if (!info.id) {
         return;
       }
@@ -123,7 +138,7 @@ export function makeWrapper(
 
     componentWillUnmount() {
       if (this.editorNode && isAlive(this.editorNode)) {
-        const parent: EditorNodeType = (this.context as any) || store.root;
+        const parent = resolveContextNode(this.context as any);
         parent.removeChild(this.editorNode);
       }
 
@@ -194,10 +209,13 @@ export function makeWrapper(
         : info.regions
         ? ContainerWrapper
         : NodeWrapper; /*)*/
+      const facadeNode =
+        this.editorNode && isAlive(this.editorNode)
+          ? this.editorNode
+          : resolveContextNode(this.context as any);
+
       return (
-        <EditorNodeContext.Provider
-          value={this.editorNode || (this.context as any)}
-        >
+        <EditorNodeContext.Provider value={getEditorNodeFacade(facadeNode)}>
           <ErrorBoundary
             customErrorMsg={`拦截到${info.type}渲染错误`}
             fallback={() => {
@@ -215,7 +233,6 @@ export function makeWrapper(
                   {...rest}
                   render={renderChild}
                   $$editor={info}
-                  $$node={this.editorNode}
                   ref={this.wrapperRef}
                 />
               </LazyComponent>
@@ -224,7 +241,6 @@ export function makeWrapper(
                 {...rest}
                 render={renderChild}
                 $$editor={info}
-                $$node={this.editorNode}
                 ref={this.wrapperRef}
               />
             )}
@@ -287,8 +303,10 @@ export function makeSchemaFormRender(
     theme
   }: PanelProps) => {
     const ctx = {...manager.store.ctx};
+    const realNode = resolveEditorNodeFacade(node);
+    const panelNode = getEditorNodeFacade(realNode) || undefined;
 
-    if (schema?.panelById && schema?.panelById !== node?.id) {
+    if (schema?.panelById && schema?.panelById !== realNode?.id) {
       // 用于过滤掉异常的渲染
       return <></>;
     }
@@ -303,7 +321,7 @@ export function makeSchemaFormRender(
     }
 
     // 每一层的面板数据不要共用
-    const curFormKey = `${id}-${node?.type}${schema.formKey ? '-' : ''}${
+    const curFormKey = `${id}-${realNode?.type}${schema.formKey ? '-' : ''}${
       schema.formKey ? schema.formKey : ''
     }`;
 
@@ -326,7 +344,7 @@ export function makeSchemaFormRender(
         onChange={onChange}
         env={env}
         popOverContainer={popOverContainer}
-        node={node}
+        node={panelNode}
         manager={manager}
         justify={schema.justify}
         readonly={readonly}

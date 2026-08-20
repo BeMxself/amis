@@ -11,6 +11,7 @@ import {PanelItem} from '../../plugin';
 import {DrawerPanel} from './DrawerPanel';
 import {DrawerRendererPanel} from './DrawerRendererPanel';
 import {getEditorThemeScopeProps} from '../../themeScope';
+import {getEditorNodeFacade} from '../../store/node';
 
 export interface LeftPanelsProps {
   store: EditorStoreType;
@@ -81,6 +82,7 @@ export class LeftPanels extends React.Component<
     const panels = store.getLeftPanels();
     const id = store.activeId;
     const node = store.getNodeById(id);
+    const panelNode = getEditorNodeFacade(node) || undefined;
     const panelKey = store.getLeftPanelKey();
     const insertPanel =
       store.insertId &&
@@ -95,7 +97,7 @@ export class LeftPanels extends React.Component<
           id,
           info: node?.info,
           path: node?.path,
-          node: node,
+          node: panelNode,
           value: store.value,
           onChange: manager.panelChangeValue,
           store: store,
@@ -105,7 +107,7 @@ export class LeftPanels extends React.Component<
         })
       ) : panel.component ? (
         <panel.component
-          node={node}
+          node={panelNode}
           key={panel.key}
           id={id}
           info={node?.info}
@@ -195,7 +197,7 @@ export class LeftPanels extends React.Component<
         <DrawerPanel
           store={store}
           manager={manager}
-          node={node}
+          node={panelNode}
           panelItem={insertPanel}
           theme={theme}
         />
@@ -203,7 +205,7 @@ export class LeftPanels extends React.Component<
         <DrawerRendererPanel
           store={store}
           manager={manager}
-          node={node}
+          node={panelNode}
           panelItem={insertRendererPanel}
           theme={theme}
         />

@@ -4,8 +4,6 @@ import {Icon} from 'amis';
 import {EditorStoreType} from '../store/editor';
 import {observer} from 'mobx-react';
 import {EditorManager} from '../manager';
-import {EditorNodeType} from '../store/node';
-import {autobind} from '../util';
 import {isAlive} from 'mobx-state-tree';
 
 export const AddBTNSvg = `<svg viewBox="0 0 12 12">
@@ -18,7 +16,6 @@ export const AddBTNSvg = `<svg viewBox="0 0 12 12">
 
 export interface HighlightBoxProps {
   store: EditorStoreType;
-  node: EditorNodeType;
   name: string;
   id: string;
   className?: string;
@@ -31,14 +28,20 @@ export interface HighlightBoxProps {
 // 改成 sfc 函数组件 可以消除一个警告 但是不知道为什么
 // 可以消除 Can't perform a React state update on an unmounted component
 export default observer(function (props: HighlightBoxProps) {
-  const {manager, store, id, name, title, node, isOnlyChildRegion} = props;
+  const {manager, store, id, name, title, isOnlyChildRegion} = props;
   const handleClick = React.useCallback(() => {
     manager.emptyRegion(id, name);
   }, [id, name, manager]);
 
+  const node = store.getNodeById(id, name);
+  const host = store.getNodeById(id);
+
+  if (!node || !host || !isAlive(node) || !isAlive(host)) {
+    return null;
+  }
+
   let isHiglight = store.isRegionHighlighted(id, name);
   let isDragEnter = store.isRegionDragEnter(id, name);
-  const host = store.getNodeById(id)!;
   const dx = node.x - host.x;
   const dy = node.y - host.y;
 

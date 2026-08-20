@@ -5,7 +5,12 @@ import {isAlive} from 'mobx-state-tree';
 import React from 'react';
 import {getReactElementRef, mergeRefs} from 'amis-core';
 import {RendererInfo} from '../plugin';
-import {EditorNodeContext, EditorNodeType} from '../store/node';
+import {
+  EditorNodeContext,
+  EditorNodeType,
+  getEditorNodeFacade,
+  resolveEditorNodeFacade
+} from '../store/node';
 
 export interface VRendererProps extends RendererInfo {
   path: string;
@@ -25,7 +30,7 @@ export class VRenderer extends React.Component<VRendererProps> {
 
   UNSAFE_componentWillMount() {
     const {data, path, widthMutable, ...info} = this.props;
-    const parent: EditorNodeType = this.context as any;
+    const parent = resolveEditorNodeFacade(this.context as any)!;
     this.editorNode = parent.addChild({
       id: info.id,
       type: info.type,
@@ -49,7 +54,7 @@ export class VRenderer extends React.Component<VRendererProps> {
 
   componentWillUnmount() {
     if (this.editorNode && isAlive(this.editorNode)) {
-      const parent: EditorNodeType = this.context as any;
+      const parent = resolveEditorNodeFacade(this.context as any)!;
       parent.removeChild(this.editorNode);
     }
   }
@@ -100,7 +105,7 @@ export class VRenderer extends React.Component<VRendererProps> {
 
   render() {
     return (
-      <EditorNodeContext.Provider value={this.editorNode}>
+      <EditorNodeContext.Provider value={getEditorNodeFacade(this.editorNode)}>
         {this.renderChildren()}
       </EditorNodeContext.Provider>
     );

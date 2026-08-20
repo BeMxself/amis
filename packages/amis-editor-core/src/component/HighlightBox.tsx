@@ -2,16 +2,13 @@ import React from 'react';
 import cx from 'classnames';
 import {EditorStoreType} from '../store/editor';
 import {observer} from 'mobx-react';
-import {EditorNodeType} from '../store/node';
 import {Icon} from 'amis';
-import {autobind, noop} from '../util';
 import {PluginEvent, ResizeMoveEventContext} from '../plugin';
 import {EditorManager} from '../manager';
 import {isAlive} from 'mobx-state-tree';
 
 export interface HighlightBoxProps {
   store: EditorStoreType;
-  node: EditorNodeType;
   id: string;
   className?: string;
   title: string;
@@ -28,12 +25,13 @@ export default observer(function ({
   id,
   title,
   children,
-  node,
   toolbarContainer,
   onSwitch,
   manager,
   readonly
 }: HighlightBoxProps) {
+  const node = store.getNodeById(id);
+
   const handleWResizerMouseDown = React.useCallback(
     (e: MouseEvent) => startResize(e, 'horizontal'),
     []
@@ -56,7 +54,7 @@ export default observer(function ({
       if (!isLeftButton || e.defaultPrevented) return;
 
       e.preventDefault();
-      if (!node) {
+      if (!node || !isAlive(node)) {
         return;
       }
 
@@ -215,7 +213,7 @@ export default observer(function ({
     'aePreviewHighlightBox'
   )!.offsetWidth;
 
-  if (!isAlive(node)) {
+  if (!node || !isAlive(node)) {
     return <div />;
   }
 
