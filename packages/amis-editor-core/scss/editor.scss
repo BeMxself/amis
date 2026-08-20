@@ -2716,8 +2716,7 @@ div[class*='Form-group']:empty {
 
   .ae-Settings-content,
   .ae-Editor-modalForm,
-  .ae-Editor-popOverForm,
-  .ae-action-config-dialog {
+  .ae-Editor-popOverForm {
     @include ae-editor-dark-form-controls;
   }
 
@@ -2772,31 +2771,6 @@ div[class*='Form-group']:empty {
     .item-footer {
       border-top-color: var(--ae-editor-border);
       box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
-    }
-  }
-
-  .ae-action-config-dialog {
-    .action-config-panel {
-      color: var(--ae-editor-text);
-      background: var(--ae-editor-surface);
-      border-color: var(--ae-editor-border);
-    }
-
-    .action-panel-title,
-    .common-actions-label {
-      color: var(--ae-editor-text);
-    }
-
-    .left-panel {
-      border-right-color: var(--ae-editor-border);
-
-      .action-tree {
-        border-top-color: var(--ae-editor-border);
-      }
-    }
-
-    .right-panel .action-desc {
-      color: var(--ae-editor-muted-text);
     }
   }
 }

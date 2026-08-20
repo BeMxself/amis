@@ -238,7 +238,6 @@ export const SchemaForm = React.forwardRef(
       {
         ...omit(env, 'replaceText'),
         theme: themeName
-        // theme: 'cxd' // 右侧属性配置面板固定使用cxd主题展示
       }
     );
   }
