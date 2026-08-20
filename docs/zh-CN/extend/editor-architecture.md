@@ -125,6 +125,8 @@ flowchart LR
 
 这套映射让交互逻辑可以从鼠标事件命中的 DOM 回到 schema 节点：点击 `data-editor-id` 选中组件，拖拽命中 `data-region` 判断插入位置，右键命中节点后由插件生成上下文菜单。
 
+> 备注：编辑器通过 React props 和 context 暴露给外层的节点对象是一个轻量 facade，不应该把它当成长期持有的原始状态引用。需要读取实时节点状态时，仍然应该回到 `EditorStore` 按 `id` 重新查询，这样面板、表单和 wrapper 才不会拿到陈旧节点。
+
 ## 加载流程
 
 编辑器挂载时会先创建 store 和 manager，然后 manager 合并全局插件和实例插件。预览区真正渲染 schema 时，才会逐个节点解析对应的编辑器信息。
