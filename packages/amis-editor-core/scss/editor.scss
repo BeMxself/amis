@@ -2072,3 +2072,382 @@ div[class*='Form-group']:empty {
     }
   }
 }
+
+@mixin ae-editor-dark-theme {
+  --ae-editor-bg: var(--colors-neutral-fill-11);
+  --ae-editor-surface: var(--colors-neutral-fill-10);
+  --ae-editor-elevated-surface: var(--colors-neutral-fill-9);
+  --ae-editor-text: var(--colors-neutral-text-2);
+  --ae-editor-muted-text: var(--colors-neutral-text-6);
+  --ae-editor-border: var(--colors-neutral-line-9);
+  --ae-editor-strong-border: var(--colors-neutral-line-8);
+  --ae-editor-hover-bg: rgba(255, 255, 255, 0.06);
+  --ae-editor-active-bg: rgba(36, 134, 255, 0.18);
+  --ae-editor-active-text: var(--colors-brand-3);
+  --ae-editor-scrollbar-thumb: var(--colors-neutral-fill-8);
+
+  color: var(--ae-editor-text);
+  background: var(--ae-editor-bg);
+
+  .ae-Editor-common-config,
+  .ae-Editor-form-config {
+    outline-color: rgba(255, 147, 38, 0.34);
+  }
+
+  .ae-Editor-common-config div[class*='Wrapper']:empty,
+  .ae-Editor-common-config div[class*='Container']:empty,
+  .ae-Editor-form-config div[class*='Wrapper']:empty,
+  .ae-Editor-form-config div[class*='Container']:empty {
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-strong-border);
+  }
+
+  .subEditor-dialog {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+  }
+
+  .ae-Main,
+  .ae-Preview,
+  .ae-Preview-body {
+    color: var(--ae-editor-text);
+    background-color: var(--ae-editor-bg);
+  }
+
+  .ae-Header,
+  .ae-Header-Right-Container {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-bottom: 1px solid var(--ae-editor-border);
+  }
+
+  .ae-Preview-body {
+    &::-webkit-scrollbar {
+      background-color: var(--ae-editor-bg);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--ae-editor-scrollbar-thumb);
+      border-color: var(--ae-editor-bg);
+
+      &:hover {
+        background-color: var(--ae-editor-strong-border);
+      }
+    }
+
+    .ae-Preview-inner {
+      background: var(--ae-editor-surface);
+      border: 1px solid var(--ae-editor-border);
+      box-shadow: none;
+
+      > .ae-PageWrapper > *:not(iframe):first-child {
+        background: var(--Page-main-bg, var(--ae-editor-surface));
+        box-shadow: none;
+      }
+    }
+  }
+
+  .editor-left-panel,
+  .editor-right-panel,
+  .editor-left-panel-fixed-placeholder {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    box-shadow: none;
+  }
+
+  .editor-left-panel {
+    border-right: 1px solid var(--ae-editor-border);
+  }
+
+  .editor-right-panel {
+    border-left: 1px solid var(--ae-editor-border);
+  }
+
+  .editor-panel-btn .panel-btn {
+    fill: var(--ae-editor-muted-text);
+    color: var(--ae-editor-muted-text);
+
+    &:hover {
+      fill: var(--ae-editor-active-text);
+      color: var(--ae-editor-active-text);
+    }
+  }
+
+  .left-panel-arrow,
+  .right-panel-arrow {
+    &::before {
+      background: var(--ae-editor-surface);
+    }
+
+    &::after {
+      background-color: var(--ae-editor-muted-text);
+    }
+
+    &:hover::after {
+      background-color: var(--ae-editor-active-text);
+    }
+  }
+
+  .editorPanel-tabs {
+    > [class$='Tabs-linksWrapper'] {
+      background: var(--ae-editor-surface);
+      border-color: var(--ae-editor-border);
+    }
+
+    .editorPanel-tabs-header > li {
+      > a {
+        background: transparent;
+      }
+
+      .editor-tab-icon {
+        i.fa,
+        > svg,
+        > svg.pluginIcon {
+          color: var(--ae-editor-muted-text);
+        }
+      }
+
+      &.is-active,
+      &:hover {
+        background: var(--ae-editor-active-bg);
+
+        > a {
+          background: var(--ae-editor-active-bg);
+        }
+
+        i.fa,
+        .editor-tab-icon > svg {
+          color: var(--ae-editor-active-text) !important;
+        }
+      }
+    }
+  }
+
+  .ae-Settings-content,
+  .ae-RendererPanel,
+  .ae-Outline-panel,
+  .ae-InsertPanel,
+  .ae-GlobalVarPanel,
+  .ae-CodePanel {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+  }
+
+  .ae-RendererPanel,
+  .ae-Outline-panel,
+  .ae-InsertPanel,
+  .ae-GlobalVarPanel,
+  .ae-CodePanel {
+    .panel-header {
+      color: var(--ae-editor-text);
+    }
+
+    .editor-InputSearch {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-surface) !important;
+      border-color: var(--ae-editor-border) !important;
+
+      &:hover,
+      &.is-focused {
+        border-color: var(--ae-editor-active-text) !important;
+      }
+
+      svg.icon-search,
+      svg.icon-editor-search,
+      svg.delete-btn-icon {
+        color: var(--ae-editor-muted-text);
+        fill: var(--ae-editor-muted-text);
+      }
+    }
+  }
+
+  .ae-RendererList-groupWrap,
+  .ae-Outline {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+  }
+
+  .ae-RendererList-groupWrap {
+    .collapse-header {
+      color: var(--ae-editor-text);
+
+      .expander-icon > svg {
+        color: var(--ae-editor-muted-text);
+      }
+    }
+  }
+
+  .ae-RendererList-group.collapse-content .ae-RendererList-item {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+
+    .icon-box > i,
+    .icon-box svg,
+    .ae-RendererIcon {
+      color: var(--ae-editor-muted-text);
+    }
+
+    .ae-RendererInfo {
+      color: var(--ae-editor-text);
+    }
+
+    &:hover {
+      background: var(--ae-editor-hover-bg);
+      border-color: var(--ae-editor-active-text);
+    }
+  }
+
+  .ae-Outline {
+    &-sublist > .ae-Outline-node {
+      &::before,
+      &::after {
+        background: var(--ae-editor-border);
+      }
+    }
+
+    &-node {
+      > a,
+      &.is-active > a {
+        color: var(--ae-editor-text);
+      }
+
+      > a:hover,
+      &.is-hover > a {
+        color: var(--ae-editor-active-text);
+      }
+
+      &.is-active {
+        background: var(--ae-editor-active-bg);
+
+        > a {
+          color: var(--ae-editor-active-text);
+        }
+      }
+    }
+
+    &-expander > svg {
+      color: var(--ae-editor-muted-text);
+    }
+
+    &-dropNode {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-surface);
+
+      > a {
+        color: var(--ae-editor-text);
+      }
+
+      &::after {
+        border-color: var(--ae-editor-border);
+      }
+
+      &.is-active {
+        color: var(--ae-editor-text);
+        background: var(--ae-editor-active-bg);
+      }
+    }
+  }
+
+  .ae-DialogList {
+    li:hover {
+      color: var(--ae-editor-active-text);
+      background: var(--ae-editor-hover-bg);
+    }
+
+    &-placeholder {
+      color: var(--ae-editor-muted-text);
+    }
+  }
+
+  .config-wrapper-contanier {
+    background-color: var(--ae-editor-bg);
+
+    &::after {
+      background-color: var(--ae-editor-bg);
+    }
+  }
+
+  .editor-InputSearch-content,
+  .ae-RendererThumb {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border: 1px solid var(--ae-editor-border);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
+  }
+
+  .editor-InputSearch-content {
+    .search-history,
+    .search-result-list,
+    .tag-list {
+      color: var(--ae-editor-text);
+    }
+
+    .search-history.has-border-bottom {
+      border-bottom-color: var(--ae-editor-border);
+    }
+
+    .history-item,
+    .subRenderers-item {
+      &:hover {
+        background: var(--ae-editor-hover-bg);
+      }
+    }
+
+    .history-keyword,
+    .delete-icon {
+      color: var(--ae-editor-text);
+    }
+
+    .tag-item {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-elevated-surface);
+      border-color: var(--ae-editor-border);
+    }
+  }
+
+  .ae-RendererThumb {
+    .ae-Renderer-title,
+    .ae-Renderer-info {
+      color: var(--ae-editor-text);
+    }
+  }
+
+  .ae-RenderersPicker-list > ul > li {
+    > a {
+      color: var(--ae-editor-muted-text);
+    }
+
+    &.is-active > a,
+    > a:hover {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-hover-bg);
+    }
+  }
+
+  .ae-RenderersPicker-content > ul > li {
+    color: var(--ae-editor-muted-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+
+    &:hover,
+    &.is-active {
+      background: var(--ae-editor-hover-bg);
+    }
+  }
+
+  .ae-RenderersPicker-info,
+  .ae-RegionFilter {
+    color: var(--ae-editor-muted-text);
+
+    > h4 {
+      color: var(--ae-editor-text);
+    }
+  }
+}
+
+[data-prismui-theme='dark'].ae-Editor,
+[data-prismui-theme='dark'] .ae-Editor {
+  @include ae-editor-dark-theme;
+}

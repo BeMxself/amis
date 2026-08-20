@@ -26,12 +26,27 @@
       rel="stylesheet"
       href="../../../node_modules/@fortawesome/fontawesome-free/css/v4-shims.css"
     />
-    <link
-      rel="stylesheet"
-      title="cxd"
-      id="baseStyle"
-      href="../amis-ui/scss/themes/cxd.scss"
-    />
+    <script>
+      let amisEditorTheme =
+        new URLSearchParams(window.location.search).get('theme') ||
+        localStorage.getItem('amis-theme') ||
+        'cxd';
+      amisEditorTheme = amisEditorTheme === 'dark' ? 'dark' : 'cxd';
+      document.documentElement.setAttribute(
+        'data-prismui-theme',
+        amisEditorTheme
+      );
+      document.write(
+        `<link rel="stylesheet" title="cxd" id="baseStyle" ${
+          amisEditorTheme !== 'cxd' ? 'disabled' : ''
+        } href="../amis-ui/scss/themes/cxd.scss" />`
+      );
+      document.write(
+        `<link rel="stylesheet" title="dark" ${
+          amisEditorTheme !== 'dark' ? 'disabled' : ''
+        } href="../amis-ui/scss/themes/dark.scss" />`
+      );
+    </script>
     <link rel="stylesheet" title="cxd" href="../amis-ui/scss/helper.scss" />
     <link rel="stylesheet" href="../amis-editor-core/scss/editor.scss" />
     <link rel="stylesheet" href="../../../examples/doc.css" />

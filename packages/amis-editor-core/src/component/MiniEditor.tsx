@@ -6,6 +6,7 @@ import {SubEditor} from './SubEditor';
 import {ScaffoldModal} from './ScaffoldModal';
 import {autobind} from '../util';
 import {BaseEventContext, BasicPanelItem, PluginEvent} from '../plugin';
+import {getEditorThemeScopeProps} from '../themeScope';
 
 export default class MiniEditor extends Editor {
   constructor(props: EditorProps) {
@@ -34,8 +35,10 @@ export default class MiniEditor extends Editor {
 
     return (
       <div
+        {...getEditorThemeScopeProps(theme, this.manager.config.theme || 'cxd')}
         className={cx(
           'ae-Editor',
+          'AMISCSSWrapper',
           {
             preview: preview
           },

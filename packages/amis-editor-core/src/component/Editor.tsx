@@ -27,6 +27,7 @@ import type {EditorNodeType} from '../store/node';
 import {MobileDevTool} from 'amis-ui';
 import {LeftPanelsProps} from './Panel/LeftPanels';
 import {RightPanelsProps} from './Panel/RightPanels';
+import {getEditorThemeScopeProps} from '../themeScope';
 
 export interface EditorProps extends PluginEventListener {
   value: SchemaObject;
@@ -640,8 +641,10 @@ export default class Editor extends Component<EditorProps> {
     return (
       <div
         ref={this.mainRef}
+        {...getEditorThemeScopeProps(theme, this.manager.config.theme || 'cxd')}
         className={cx(
           'ae-Editor',
+          'AMISCSSWrapper',
           {
             preview: preview
           },

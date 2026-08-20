@@ -10,6 +10,7 @@ import find from 'lodash/find';
 import {PanelItem} from '../../plugin';
 import {DrawerPanel} from './DrawerPanel';
 import {DrawerRendererPanel} from './DrawerRendererPanel';
+import {getEditorThemeScopeProps} from '../../themeScope';
 
 export interface LeftPanelsProps {
   store: EditorStoreType;
@@ -122,8 +123,10 @@ export class LeftPanels extends React.Component<
         {panels.length > 0 && (
           <div
             ref={this.rootRef}
+            {...getEditorThemeScopeProps(theme, manager.config.theme || 'cxd')}
             className={cx(
               'editor-left-panel width-draggable',
+              'AMISCSSWrapper',
               leftPanelOpenStatus ? '' : 'hidden-status',
               isFixedStatus ? 'fixed-status' : ''
             )}

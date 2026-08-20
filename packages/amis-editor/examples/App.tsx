@@ -3,10 +3,25 @@ import {AlertComponent, ToastComponent, ContextMenu} from 'amis';
 // @ts-ignore
 import AMisSchemaEditor from './Editor';
 import {Link} from 'react-router-dom';
+
+function getDemoTheme() {
+  if (typeof window === 'undefined') {
+    return 'cxd';
+  }
+
+  const theme =
+    new URLSearchParams(window.location.search).get('theme') ||
+    window.localStorage.getItem('amis-theme') ||
+    document.documentElement.getAttribute('data-prismui-theme') ||
+    'cxd';
+
+  return theme === 'dark' ? 'dark' : 'cxd';
+}
+
 export default class App extends React.PureComponent {
   render() {
     // 备注: 如果需要改用antd主题，还需要将index.html换成index-antd.html
-    const curTheme = 'cxd'; // 默认使用cxd主题
+    const curTheme = getDemoTheme(); // 默认使用cxd主题
     return (
       <div className="Editor-Demo">
         <div id="headerBar" className="Editor-header">
