@@ -6,7 +6,7 @@ import {SubEditor} from './SubEditor';
 import {ScaffoldModal} from './ScaffoldModal';
 import {autobind} from '../util';
 import {BaseEventContext, BasicPanelItem, PluginEvent} from '../plugin';
-import {getEditorThemeScopeProps} from '../themeScope';
+import {getEditorThemeScopeProps, resolveEditorThemeName} from '../themeScope';
 
 export default class MiniEditor extends Editor {
   constructor(props: EditorProps) {
@@ -32,10 +32,14 @@ export default class MiniEditor extends Editor {
   render() {
     const {preview, className, theme, data, isMobile, autoFocus, previewProps} =
       this.props;
+    const themeName = resolveEditorThemeName(
+      theme,
+      this.manager.config.theme || 'cxd'
+    );
 
     return (
       <div
-        {...getEditorThemeScopeProps(theme, this.manager.config.theme || 'cxd')}
+        {...getEditorThemeScopeProps(themeName)}
         className={cx(
           'ae-Editor',
           'AMISCSSWrapper',
@@ -53,7 +57,7 @@ export default class MiniEditor extends Editor {
               editable={!preview}
               store={this.store}
               manager={this.manager}
-              theme={theme}
+              theme={themeName}
               data={data}
               autoFocus={autoFocus}
               appLocale={this.props.appLocale}
@@ -61,11 +65,15 @@ export default class MiniEditor extends Editor {
           </div>
         </div>
 
-        <SubEditor store={this.store} manager={this.manager} theme={theme} />
+        <SubEditor
+          store={this.store}
+          manager={this.manager}
+          theme={themeName}
+        />
         <ScaffoldModal
           store={this.store}
           manager={this.manager}
-          theme={theme}
+          theme={themeName}
         />
       </div>
     );

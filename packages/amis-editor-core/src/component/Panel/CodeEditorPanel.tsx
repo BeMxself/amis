@@ -23,7 +23,7 @@ export default class CodeEditorPanel extends React.Component<PanelProps> {
   }
 
   render() {
-    const {onChange, manager, store} = this.props;
+    const {onChange, manager, store, theme} = this.props;
 
     return (
       <div className="ae-CodePanel">
@@ -35,6 +35,7 @@ export default class CodeEditorPanel extends React.Component<PanelProps> {
             $schema={store.jsonSchemaUri}
             $schemaUrl={manager.config.$schemaUrl}
             onPaste={this.handleCodePaste}
+            theme={theme}
           />
         </div>
       </div>

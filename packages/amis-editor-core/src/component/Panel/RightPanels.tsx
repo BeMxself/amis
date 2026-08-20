@@ -92,6 +92,7 @@ export class RightPanels extends React.Component<
           onChange: this.handlePanelChangeValue,
           store: store,
           manager: manager,
+          theme,
           popOverContainer: this.getPopOverContainer,
           readonly
         })
@@ -106,6 +107,7 @@ export class RightPanels extends React.Component<
           onChange={this.handlePanelChangeValue}
           store={store}
           manager={manager}
+          theme={theme}
           popOverContainer={this.getPopOverContainer}
           readonly={readonly}
         />

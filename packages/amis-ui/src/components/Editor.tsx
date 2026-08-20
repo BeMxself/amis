@@ -6,7 +6,7 @@
 
 import React from 'react';
 import cx from 'classnames';
-import {ClassNamesFn, themeable, ThemeProps} from 'amis-core';
+import {ClassNamesFn, getTheme, themeable, ThemeProps} from 'amis-core';
 import {autobind} from 'amis-core';
 import {Icon} from './icons';
 import {LocaleProps, localeable} from 'amis-core';
@@ -44,6 +44,32 @@ if (!(window as any).MonacoEnvironment) {
     }
   };
 }
+
+function resolveMonacoTheme(
+  editorTheme?: string,
+  theme?: string,
+  containerElement?: HTMLElement | null
+) {
+  if (editorTheme) {
+    return editorTheme;
+  }
+
+  const themeName =
+    theme ||
+    containerElement
+      ?.closest('[data-prismui-theme]')
+      ?.getAttribute('data-prismui-theme');
+  const themeConfig = themeName ? getTheme(themeName) : null;
+
+  const configuredEditorTheme =
+    themeConfig?.getRendererConfig?.('editor-control')?.editorTheme;
+  if (configuredEditorTheme) {
+    return configuredEditorTheme;
+  }
+
+  return themeName === 'dark' ? 'vs-dark' : 'vs';
+}
+
 export function monacoFactory(
   containerElement: HTMLElement,
   monaco: any,
@@ -102,7 +128,7 @@ export interface EditorState {
 export class Editor extends React.Component<EditorProps, EditorState> {
   static defaultProps = {
     language: 'javascript',
-    editorTheme: 'vs',
+    editorTheme: '',
     width: '100%',
     height: '100%',
     allowFullscreen: false,
@@ -167,6 +193,22 @@ export class Editor extends React.Component<EditorProps, EditorState> {
     ) {
       this.editor.updateOptions?.(this.props.options);
     }
+
+    if (
+      (this.props.editorTheme !== prevProps.editorTheme ||
+        this.props.theme !== prevProps.theme) &&
+      this.editor
+    ) {
+      const context = this.props.context || window;
+      const monaco = context.monaco || (window as any).monaco;
+      monaco?.editor?.setTheme(
+        resolveMonacoTheme(
+          this.props.editorTheme,
+          this.props.theme,
+          this.container
+        )
+      );
+    }
   }
 
   componentWillUnmount() {
@@ -214,11 +256,16 @@ export class Editor extends React.Component<EditorProps, EditorState> {
   initMonaco(monaco: any) {
     let value =
       this.props.value !== null ? this.props.value : this.props.defaultValue;
-    const {language, editorTheme, options, editorFactory} = this.props;
+    const {language, editorTheme, options, editorFactory, theme} = this.props;
     const containerElement = this.container;
     if (!containerElement) {
       return;
     }
+    const resolvedEditorTheme = resolveMonacoTheme(
+      editorTheme,
+      theme,
+      containerElement
+    );
 
     // Before initializing monaco editor
     this.editorWillMount(monaco);
@@ -242,8 +289,8 @@ export class Editor extends React.Component<EditorProps, EditorState> {
       automaticLayout: true,
       value,
       language,
-      editorTheme,
-      theme: editorTheme
+      editorTheme: resolvedEditorTheme,
+      theme: resolvedEditorTheme
     });
 
     // json 默认开启验证。

@@ -178,9 +178,9 @@
   margin-bottom: px2rem(12px);
   > button,
   > button:hover {
-    color: #528eff !important;
-    background: #ffffff !important;
-    border-color: #528eff !important;
+    color: var(--ae-editor-active-text, #528eff) !important;
+    background: var(--ae-editor-elevated-surface, #ffffff) !important;
+    border-color: var(--ae-editor-strong-border, #528eff) !important;
     width: 100%;
     height: px2rem(32px);
   }

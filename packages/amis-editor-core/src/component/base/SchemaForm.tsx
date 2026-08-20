@@ -13,6 +13,7 @@ import {
 } from 'amis';
 import omit from 'lodash/omit';
 import cx from 'classnames';
+import {resolveEditorThemeName} from '../../themeScope';
 
 export const SchemaForm = React.forwardRef(
   (
@@ -36,6 +37,7 @@ export const SchemaForm = React.forwardRef(
       readonly,
       disabled,
       appendSubmitBtn,
+      theme,
       ...rest
     }: {
       propKey?: string;
@@ -66,9 +68,14 @@ export const SchemaForm = React.forwardRef(
       disabled?: boolean;
       appendSubmitBtn?: boolean;
       inheritData?: boolean;
+      theme?: string;
     },
     ref: any
   ) => {
+    const themeName = resolveEditorThemeName(
+      theme,
+      manager?.config?.theme || 'cxd'
+    );
     const schema = React.useMemo(() => {
       let containerKey = 'body';
 
@@ -229,7 +236,8 @@ export const SchemaForm = React.forwardRef(
         scopeRef: scopedRefSetter
       },
       {
-        ...omit(env, 'replaceText')
+        ...omit(env, 'replaceText'),
+        theme: themeName
         // theme: 'cxd' // 右侧属性配置面板固定使用cxd主题展示
       }
     );

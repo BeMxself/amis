@@ -76,7 +76,7 @@ export class DiffEditorRenderer extends React.Component<
 > {
   static defaultProps: Partial<DiffEditorProps> = {
     language: 'javascript',
-    editorTheme: 'vs',
+    editorTheme: '',
     options: {
       automaticLayout: false,
       selectOnLineNumbers: true,
@@ -203,7 +203,8 @@ export class DiffEditorRenderer extends React.Component<
       editorTheme,
       diffValue,
       classnames: cx,
-      data
+      data,
+      theme
     } = this.props;
 
     const originValue = isPureVariable(diffValue as string)
@@ -233,6 +234,7 @@ export class DiffEditorRenderer extends React.Component<
           disabled={disabled}
           language={language}
           editorTheme={editorTheme}
+          theme={theme}
           options={options}
           onFocus={this.handleFocus}
           onBlur={this.handleBlur}

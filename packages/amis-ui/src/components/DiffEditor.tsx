@@ -4,6 +4,7 @@ import {autobind} from 'amis-core';
 
 export interface DiffEditorProps extends EditorBaseProps {
   originValue?: string;
+  theme?: string;
 }
 
 export default class DiffEditor extends React.Component<DiffEditorProps> {

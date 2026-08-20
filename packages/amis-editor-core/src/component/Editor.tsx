@@ -27,7 +27,7 @@ import type {EditorNodeType} from '../store/node';
 import {MobileDevTool} from 'amis-ui';
 import {LeftPanelsProps} from './Panel/LeftPanels';
 import {RightPanelsProps} from './Panel/RightPanels';
-import {getEditorThemeScopeProps} from '../themeScope';
+import {getEditorThemeScopeProps, resolveEditorThemeName} from '../themeScope';
 
 export interface EditorProps extends PluginEventListener {
   value: SchemaObject;
@@ -637,11 +637,15 @@ export default class Editor extends Component<EditorProps> {
     } = this.props;
     const FinalLeftPanels = LeftPanelsComponent ?? LeftPanels;
     const FinalRightPanels = RightPanelsComponent ?? RightPanels;
+    const themeName = resolveEditorThemeName(
+      theme,
+      this.manager.config.theme || 'cxd'
+    );
 
     return (
       <div
         ref={this.mainRef}
-        {...getEditorThemeScopeProps(theme, this.manager.config.theme || 'cxd')}
+        {...getEditorThemeScopeProps(themeName)}
         className={cx(
           'ae-Editor',
           'AMISCSSWrapper',
@@ -662,7 +666,7 @@ export default class Editor extends Component<EditorProps> {
             <FinalLeftPanels
               store={this.store}
               manager={this.manager}
-              theme={theme}
+              theme={themeName}
             />
           )}
 
@@ -695,7 +699,7 @@ export default class Editor extends Component<EditorProps> {
               isMobile={isMobile}
               store={this.store}
               manager={this.manager}
-              theme={theme}
+              theme={themeName}
               appLocale={appLocale}
               data={data}
               amisEnv={amisEnv}
@@ -710,7 +714,7 @@ export default class Editor extends Component<EditorProps> {
             <FinalRightPanels
               store={this.store}
               manager={this.manager}
-              theme={theme}
+              theme={themeName}
               appLocale={appLocale}
               amisEnv={amisEnv}
               readonly={readonly}
@@ -725,17 +729,25 @@ export default class Editor extends Component<EditorProps> {
         <SubEditor
           store={this.store}
           manager={this.manager}
-          theme={theme}
+          theme={themeName}
           amisEnv={amisEnv}
           readonly={readonly}
         />
         <ScaffoldModal
           store={this.store}
           manager={this.manager}
-          theme={theme}
+          theme={themeName}
         />
-        <PopOverForm store={this.store} manager={this.manager} theme={theme} />
-        <ModalForm store={this.store} manager={this.manager} theme={theme} />
+        <PopOverForm
+          store={this.store}
+          manager={this.manager}
+          theme={themeName}
+        />
+        <ModalForm
+          store={this.store}
+          manager={this.manager}
+          theme={themeName}
+        />
       </div>
     );
   }

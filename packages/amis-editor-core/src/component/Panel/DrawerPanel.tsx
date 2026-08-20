@@ -47,6 +47,7 @@ export class DrawerPanel extends React.Component<PanelsProps> {
             onChange={manager.panelChangeValue}
             store={store}
             manager={manager}
+            theme={theme}
             popOverContainer={this.getPopOverContainer}
           />
         ) : null}

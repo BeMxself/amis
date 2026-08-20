@@ -2073,7 +2073,7 @@ div[class*='Form-group']:empty {
   }
 }
 
-@mixin ae-editor-dark-theme {
+@mixin ae-editor-dark-theme-vars {
   --ae-editor-bg: var(--colors-neutral-fill-11);
   --ae-editor-surface: var(--colors-neutral-fill-10);
   --ae-editor-elevated-surface: var(--colors-neutral-fill-9);
@@ -2085,6 +2085,103 @@ div[class*='Form-group']:empty {
   --ae-editor-active-bg: rgba(36, 134, 255, 0.18);
   --ae-editor-active-text: var(--colors-brand-3);
   --ae-editor-scrollbar-thumb: var(--colors-neutral-fill-8);
+}
+
+@mixin ae-editor-dark-code-mirror {
+  .CodeMirror,
+  .cm-s-default {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-bg) !important;
+  }
+
+  .CodeMirror-gutters,
+  .CodeMirror-gutter-filler,
+  .CodeMirror-scrollbar-filler,
+  .CodeMirror-scroll,
+  .CodeMirror-sizer,
+  .CodeMirror-lines,
+  .CodeMirror-line,
+  .CodeMirror-line-like {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-bg) !important;
+  }
+
+  .CodeMirror-cursor {
+    border-left-color: var(--ae-editor-text);
+  }
+
+  .CodeMirror-selected {
+    background: var(--ae-editor-active-bg) !important;
+  }
+
+  .CodeMirror-placeholder {
+    color: var(--ae-editor-muted-text);
+  }
+
+  .CodeMirror textarea {
+    color: var(--ae-editor-text) !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    caret-color: var(--ae-editor-text);
+  }
+}
+
+@mixin ae-editor-dark-form-controls {
+  .#{$prismui-component-prefix}InputBox,
+  .#{$prismui-component-prefix}TextareaControl-input,
+  .#{$prismui-component-prefix}Select,
+  .#{$prismui-component-prefix}NumberInput,
+  .#{$prismui-component-prefix}Picker,
+  .#{$prismui-component-prefix}Combo-items,
+  .#{$prismui-component-prefix}Combo-item,
+  .#{$prismui-component-prefix}ResultBox {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-bg) !important;
+    border-color: var(--ae-editor-strong-border) !important;
+  }
+
+  input,
+  textarea,
+  .#{$prismui-component-prefix}Select-value,
+  .#{$prismui-component-prefix}Select-placeholder,
+  .#{$prismui-component-prefix}InputBox-input,
+  .#{$prismui-component-prefix}Combo-placeholder {
+    color: var(--ae-editor-text) !important;
+  }
+
+  input::placeholder,
+  textarea::placeholder,
+  .#{$prismui-component-prefix}Select-placeholder {
+    color: var(--ae-editor-muted-text);
+  }
+
+  .#{$prismui-component-prefix}InputBox.is-focused,
+  .#{$prismui-component-prefix}TextareaControl-input:focus,
+  .#{$prismui-component-prefix}Select.is-focused,
+  .#{$prismui-component-prefix}Select:hover {
+    border-color: var(--ae-editor-active-text) !important;
+  }
+
+  textarea.#{$prismui-component-prefix}TextareaControl-input {
+    border: 1px solid var(--ae-editor-strong-border) !important;
+  }
+
+  .#{$prismui-component-prefix}Combo-addBtn.#{$prismui-component-prefix}Button--default {
+    color: var(--ae-editor-active-text);
+    background: var(--ae-editor-elevated-surface);
+    border-color: var(--ae-editor-strong-border);
+  }
+
+  .ae-Code,
+  code {
+    color: var(--ae-editor-active-text);
+    background: var(--ae-editor-elevated-surface);
+  }
+}
+
+@mixin ae-editor-dark-theme {
+  @include ae-editor-dark-theme-vars;
+  @include ae-editor-dark-code-mirror;
 
   color: var(--ae-editor-text);
   background: var(--ae-editor-bg);
@@ -2205,6 +2302,11 @@ div[class*='Form-group']:empty {
         > svg,
         > svg.pluginIcon {
           color: var(--ae-editor-muted-text);
+          fill: var(--ae-editor-muted-text);
+        }
+
+        > svg path {
+          fill: currentColor;
         }
       }
 
@@ -2219,6 +2321,7 @@ div[class*='Form-group']:empty {
         i.fa,
         .editor-tab-icon > svg {
           color: var(--ae-editor-active-text) !important;
+          fill: var(--ae-editor-active-text) !important;
         }
       }
     }
@@ -2401,9 +2504,9 @@ div[class*='Form-group']:empty {
     }
 
     .tag-item {
-      color: var(--ae-editor-text);
-      background: var(--ae-editor-elevated-surface);
-      border-color: var(--ae-editor-border);
+      color: var(--ae-editor-text) !important;
+      background: var(--ae-editor-elevated-surface) !important;
+      border-color: var(--ae-editor-border) !important;
     }
   }
 
@@ -2445,9 +2548,322 @@ div[class*='Form-group']:empty {
       color: var(--ae-editor-text);
     }
   }
+
+  .ae-Breadcrumb {
+    color: var(--ae-editor-muted-text);
+    background: var(--ae-editor-surface);
+    border-bottom-color: var(--ae-editor-border);
+
+    .ae-Breadcrumb-content {
+      color: var(--ae-editor-muted-text);
+      background: var(--ae-editor-surface);
+
+      > ul > li {
+        > span {
+          color: var(--ae-editor-muted-text);
+
+          &:hover {
+            color: var(--ae-editor-active-text);
+          }
+        }
+
+        > ul {
+          color: var(--ae-editor-text);
+          background: var(--ae-editor-elevated-surface);
+          border: 1px solid var(--ae-editor-border);
+          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
+
+          > li > span {
+            color: var(--ae-editor-text);
+
+            &:hover {
+              background: var(--ae-editor-hover-bg);
+            }
+          }
+        }
+      }
+
+      > ul > li:not(:last-child):after,
+      > ul > li:last-child > span {
+        color: var(--ae-editor-text);
+      }
+    }
+
+    .ae-Breadcrumb-scrollLeft-btn,
+    .ae-Breadcrumb-scrollRight-btn {
+      background-color: var(--ae-editor-surface);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
+
+      svg {
+        color: var(--ae-editor-muted-text);
+      }
+
+      svg:hover {
+        color: var(--ae-editor-active-text);
+      }
+    }
+  }
+
+  .width-draggable-icon {
+    background-color: transparent;
+
+    &:hover {
+      background-color: var(--ae-editor-border);
+    }
+  }
+
+  .ae-RendererPanel,
+  .ae-Outline-panel,
+  .ae-InsertPanel,
+  .ae-GlobalVarPanel,
+  .ae-CodePanel {
+    hr.margin-top {
+      border-top-color: var(--ae-editor-border) !important;
+    }
+
+    .editor-InputSearch {
+      background: var(--ae-editor-elevated-surface) !important;
+      border-color: var(--ae-editor-strong-border) !important;
+
+      input {
+        color: var(--ae-editor-text);
+      }
+
+      input::placeholder {
+        color: var(--ae-editor-muted-text);
+      }
+    }
+  }
+
+  .ae-GlobalVarManager {
+    border-top-color: var(--ae-editor-border);
+
+    &-empty {
+      color: var(--ae-editor-muted-text);
+    }
+  }
+
+  .ae-GlobalVarItem {
+    &-info {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-elevated-surface);
+      border-color: var(--ae-editor-border);
+    }
+
+    &-actions > button,
+    &-actions svg,
+    &-actions i {
+      color: var(--ae-editor-muted-text);
+      fill: var(--ae-editor-muted-text);
+    }
+
+    &-actions > button:hover,
+    &-actions > button:hover svg,
+    &-actions > button:hover i {
+      color: var(--ae-editor-active-text);
+      fill: var(--ae-editor-active-text);
+    }
+
+    &-actions svg [fill]:not([fill='none']) {
+      fill: currentColor;
+    }
+
+    &-actions svg [stroke]:not([stroke='none']) {
+      stroke: currentColor;
+    }
+  }
+
+  .ae-Settings-content {
+    .editor-prop-config-tabs-links,
+    .editor-prop-config-tabs ul[role='tablist'] {
+      border-bottom-color: var(--ae-editor-border);
+
+      > li > a {
+        color: var(--ae-editor-muted-text);
+        border-bottom-color: transparent !important;
+      }
+
+      > li.is-active > a {
+        color: var(--ae-editor-active-text) !important;
+        border-bottom-color: var(--ae-editor-active-text) !important;
+      }
+
+      > li:not(:last-child):after {
+        background-color: var(--ae-editor-border);
+      }
+    }
+
+    .ae-formItemControl div.ae-formItemControl-header.ae-Collapse-header,
+    .#{$prismui-component-prefix}Collapse-header {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-elevated-surface);
+      border-color: var(--ae-editor-border);
+
+      i,
+      svg {
+        color: var(--ae-editor-muted-text);
+        fill: var(--ae-editor-muted-text);
+      }
+    }
+
+    .#{$prismui-component-prefix}Collapse-content,
+    .#{$prismui-component-prefix}Collapse-body,
+    .ae-formItemControl-body {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-bg);
+    }
+  }
+
+  .ae-Settings-content,
+  .ae-Editor-modalForm,
+  .ae-Editor-popOverForm,
+  .ae-action-config-dialog {
+    @include ae-editor-dark-form-controls;
+  }
+
+  .ae-event-control {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+
+    &-header,
+    &-content,
+    .event-item .item-content {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-surface);
+    }
+
+    &-content .icon,
+    &-placeholder,
+    &-action-placeholder,
+    .event-item-desc,
+    .action-control-content {
+      color: var(--ae-editor-muted-text);
+    }
+
+    .event-item-header {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-elevated-surface);
+      border-color: var(--ae-editor-border);
+
+      &-toolbar svg [fill]:not([fill='none']) {
+        fill: currentColor;
+      }
+
+      &-toolbar svg [stroke]:not([stroke='none']) {
+        stroke: currentColor;
+      }
+    }
+
+    .ae-option-control-item {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-bg);
+      border-color: var(--ae-editor-border);
+
+      &:hover {
+        border-color: var(--ae-editor-active-text);
+      }
+
+      .action-control-header-left,
+      .action-control-header-right {
+        color: var(--ae-editor-text);
+      }
+    }
+
+    .item-footer {
+      border-top-color: var(--ae-editor-border);
+      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .ae-action-config-dialog {
+    .action-config-panel {
+      color: var(--ae-editor-text);
+      background: var(--ae-editor-surface);
+      border-color: var(--ae-editor-border);
+    }
+
+    .action-panel-title,
+    .common-actions-label {
+      color: var(--ae-editor-text);
+    }
+
+    .left-panel {
+      border-right-color: var(--ae-editor-border);
+
+      .action-tree {
+        border-top-color: var(--ae-editor-border);
+      }
+    }
+
+    .right-panel .action-desc {
+      color: var(--ae-editor-muted-text);
+    }
+  }
 }
 
 [data-prismui-theme='dark'].ae-Editor,
 [data-prismui-theme='dark'] .ae-Editor {
   @include ae-editor-dark-theme;
+}
+
+[data-prismui-theme='dark'].ae-Editor-popOverForm,
+[data-prismui-theme='dark'] .ae-Editor-popOverForm,
+[data-prismui-theme='dark'].ae-Editor-modalForm,
+[data-prismui-theme='dark'] .ae-Editor-modalForm,
+[data-prismui-theme='dark'].ae-scaffoldForm-Modal,
+[data-prismui-theme='dark'] .ae-scaffoldForm-Modal,
+[data-prismui-theme='dark'].ae-action-config-dialog,
+[data-prismui-theme='dark'] .ae-action-config-dialog {
+  @include ae-editor-dark-theme-vars;
+  @include ae-editor-dark-code-mirror;
+  @include ae-editor-dark-form-controls;
+  color: var(--ae-editor-text);
+
+  .#{$prismui-component-prefix}Modal-content,
+  .#{$prismui-component-prefix}Drawer-content,
+  .#{$prismui-component-prefix}PopOver,
+  &.ae-Editor-popOverForm,
+  &.ae-Editor-modalForm {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+  }
+
+  .#{$prismui-component-prefix}Modal-header,
+  .#{$prismui-component-prefix}Modal-body,
+  .#{$prismui-component-prefix}Modal-footer,
+  .#{$prismui-component-prefix}Drawer-header,
+  .#{$prismui-component-prefix}Drawer-body,
+  .#{$prismui-component-prefix}Drawer-footer {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+  }
+
+  &.ae-action-config-dialog,
+  .action-config-dialog-body,
+  .action-config-panel {
+    color: var(--ae-editor-text);
+    background: var(--ae-editor-surface);
+    border-color: var(--ae-editor-border);
+  }
+
+  .action-panel-title,
+  .common-actions-label {
+    color: var(--ae-editor-text);
+  }
+
+  .left-panel {
+    border-right-color: var(--ae-editor-border);
+
+    .action-tree {
+      border-top-color: var(--ae-editor-border);
+    }
+  }
+
+  .right-panel .action-desc,
+  .ae-event-control-action-placeholder {
+    color: var(--ae-editor-muted-text);
+  }
+
 }

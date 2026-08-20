@@ -100,6 +100,7 @@ export class LeftPanels extends React.Component<
           onChange: manager.panelChangeValue,
           store: store,
           manager: manager,
+          theme,
           popOverContainer: this.getPopOverContainer
         })
       ) : panel.component ? (
@@ -113,6 +114,7 @@ export class LeftPanels extends React.Component<
           onChange={manager.panelChangeValue}
           store={store}
           manager={manager}
+          theme={theme}
           popOverContainer={this.getPopOverContainer}
         />
       ) : null;

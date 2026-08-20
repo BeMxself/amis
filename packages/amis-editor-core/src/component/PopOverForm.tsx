@@ -14,6 +14,7 @@ import {
 import {observer} from 'mobx-react';
 import {diff} from '../util';
 import {createObject} from 'amis-core';
+import {getEditorThemeScopeProps} from '../themeScope';
 
 export interface PopOverFormProps {
   store: EditorStoreType;
@@ -62,7 +63,8 @@ export class PopOverForm extends React.Component<PopOverFormProps> {
       >
         <PopOver
           overlay
-          className="ae-Editor-popOverForm"
+          className="ae-Editor-popOverForm AMISCSSWrapper"
+          {...getEditorThemeScopeProps(theme, manager.config.theme || 'cxd')}
           onHide={store.closePopOverForm}
         >
           {popOverFormContext ? (

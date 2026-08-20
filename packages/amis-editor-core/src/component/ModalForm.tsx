@@ -108,6 +108,7 @@ export class ModalForm extends React.Component<ModalFormProps> {
         theme={theme}
         show={!!modalFormContext}
         onHide={store.closeModalForm}
+        className="ae-Editor-modalForm AMISCSSWrapper"
       >
         <div className={cx('Drawer-header')}>{modalFormContext?.title}</div>
         <div className={cx('Drawer-body')}>{contents}</div>
@@ -134,6 +135,7 @@ export class ModalForm extends React.Component<ModalFormProps> {
         show={!!modalFormContext}
         onHide={store.closeModalForm}
         closeOnEsc={false}
+        className="ae-Editor-modalForm AMISCSSWrapper"
       >
         {modalFormContext?.title ? (
           <Modal.Header onClose={store.closeModalForm}>

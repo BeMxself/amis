@@ -490,6 +490,7 @@ export interface PanelProps {
   info?: RendererInfo;
   path?: string;
   node?: EditorNodeType;
+  theme?: string;
   value: BaseSchema;
   onChange: (value: BaseSchema, diff?: Array<DiffChange>) => void;
   store: EditorStoreType;

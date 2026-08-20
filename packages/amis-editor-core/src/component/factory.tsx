@@ -283,7 +283,8 @@ export function makeSchemaFormRender(
     id,
     store,
     node,
-    readonly
+    readonly,
+    theme
   }: PanelProps) => {
     const ctx = {...manager.store.ctx};
 
@@ -329,6 +330,7 @@ export function makeSchemaFormRender(
         manager={manager}
         justify={schema.justify}
         readonly={readonly}
+        theme={theme}
       />
     );
   };
