@@ -26,24 +26,17 @@ export default function (props: PanelPreviewProps) {
   const onJsonEdit = React.useCallback((e: any) => {
     setData(e.updated_src);
   }, []);
-  const dom = React.useRef<HTMLDivElement | null>(null);
-  // const popOverContainer = React.useCallback(() => {
-  //   return dom.current;
-  // }, []);
 
   return (
-    <div className="PanelPreview" ref={dom}>
+    <div className="PanelPreview">
       <div className="AMISCSSWrapper editor-right-panel">
         {render(
           schema,
           {
             data: data,
             onFinished: onFinished
-            // popOverContainer
           },
-          {
-            // theme: 'cxd' // 右侧属性配置面板固定使用cxd主题展示
-          }
+          {}
         )}
       </div>
       <React.Suspense fallback={<div>...</div>}>
